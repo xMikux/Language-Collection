@@ -1,0 +1,136 @@
+# Items
+
+Items:
+  PORTABLE_CRAFTER:
+    name: "&6隨身工作台"
+    lore:
+      - "&a&o一個隨身工作台"
+  PORTABLE_DUSTBIN:
+    name: "&6隨身垃圾桶"
+    lore:
+      - "&f清理不要的物品"
+  ENDER_BACKPACK:
+    name: "&6終界背包"
+    lore:
+      - "&a&o一個隨身終界箱"
+  MAGIC_EYE_OF_ENDER:
+    name: "&6&l魔法終界之眼"
+    lore:
+      - "&4&l需要穿上完整的「終界套裝」"
+      - "&7&e右鍵點擊&7 發射一顆「終界珍珠」"
+  BROKEN_SPAWNER:
+    name: "&c已損壞的生怪磚"
+    lore:
+      - "&7類型: &b<Type>"
+      - "&c你必須用「古代祭壇」修復"
+  REINFORCED_SPAWNER:
+    name: "&b已修復的生怪磚"
+    lore:
+      - "&7類型: &b<Type>"
+  INFERNAL_BONEMEAL:
+    name: "&4地獄骨粉"
+    lore:
+      - "&c加快植物生長"
+      - "&c只能用在「地獄疙瘩」"
+  TAPE_MEASURE:
+    name: "&6捲尺"
+    lore:
+      - "&e蹲下&右鍵點擊 &7設置起始點"
+      - "&e右鍵點擊 &7進行測量"
+# Gadgets
+
+Gadgets:
+  GOLD_PAN:
+    name: "&6金盤"
+    lore:
+      - "&a&o可以給你各式各樣的好東西..." 
+      - "&7&e右鍵點擊&7 從「礫石」中取出各種東西"
+  NETHER_GOLD_PAN:
+    name: "4地獄掏金盤"
+    lore:
+      - "&7&e右鍵點擊"
+      - "&7從「靈魂沙」中挑出各種東西"
+  PARACHUTE:
+    name: "&f&l降落傘"
+  GRAPPLING_HOOK:
+    name: "&6鉤爪"
+  SOLAR_HELMET:
+    name: "&b太陽能頭盔"
+    lore:
+      - "&a&o戴在頭上會讓手持物品與裝備充電"
+  CLOTH:
+    name: "&b布"
+  REINFORCED_CLOTH:
+    name: "&b加強布"
+    lore: 
+      - "&f這塊布已經用&b鉛&f加固"
+      - "&f以防止放射性物質"
+      - ""
+  TIN_CAN:
+    name: "&f錫罐"
+  NIGHT_VISION_GOGGLES:
+    name: "&a夜視鏡"
+    lore:
+      - "&9+ 夜視效果"
+  ELYTRA_CAP:
+    name: "&5鞘翅帽"
+    lore:
+      - "&7這個帽子可以保護你免受於"
+      - "&7鞘翅飛行時墜毀."
+  FARMER_SHOES:
+    name: "&e農夫鞋"
+    lore:
+      - "&6&o防止你踩壞作物"
+  INFUSED_MAGNET:
+    name: "&a魔法磁鐵"
+    lore:
+      - "&f注入魔法的磁鐵"
+      - "&f能吸引附近的物品"
+      - "&f到你的背包"
+      - ""
+      - "&7按住 &eShift&7 拿起附近的物品"
+  RAG:
+    name: "&c紗布"
+    lore:
+      - "&a一級醫療用品"
+      - "&f恢復2顆心"
+      - "&f滅火"
+  BANDAGE:
+    name: "&c繃帶"
+    lore:
+      - "&a二級醫療用品"
+      - "&f恢復4顆心"
+      - "&f滅火"
+  SPLINT:
+    name: "&c夾板"
+    lore:
+      - "&a一級醫療用品"
+      - "&f恢復2顆心"
+  VITAMINS:
+    name: "&c維生素"
+    lore:
+      - "&a三級醫療用品"
+      - "&f恢復4顆心"
+      - "&f滅火"
+      - "&f治愈中毒/凋零/放射"
+  MEDICINE:
+    name: "&c醫療品"
+    lore:
+      - "&a三級醫療用品"
+      - "&f恢復4顆心"
+      - "&f滅火"
+      - "&f治愈中毒/凋零/放射"
+  MAGICAL_ZOMBIE_PILLS:
+    name: "&6神奇的殭屍藥丸"
+    lore:
+      - "&e右鍵點擊 &7殭屍村民"
+      - "&e或 &7殭屍化豬布林"
+      - "&7將立即從詛咒中治愈"
+  FLASK_OF_KNOWLEDGE:
+    name: "&c學識之瓶"
+    lore:
+      - "&f你可以把一些經驗"
+      - "&f存在瓶子裡"
+      - "&7消耗: &a1 個等級"
+  FILLED_FLASK_OF_KNOWLEDGE:
+    name: "&a學識之瓶"

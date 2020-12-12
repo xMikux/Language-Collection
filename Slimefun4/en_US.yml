@@ -1,0 +1,136 @@
+# Items
+
+Items:
+  PORTABLE_CRAFTER:
+    name: "&6Portable Crafter"
+    lore:
+      - "&a&oA portable Crafting Table"
+  PORTABLE_DUSTBIN:
+    name: "&6Portable Dustbin"
+    lore:
+      - "&fYour portable Item-Destroyer"
+  ENDER_BACKPACK:
+    name: "&6Ender Backpack"
+    lore:
+      - "&a&oA portable Ender Chest"
+  MAGIC_EYE_OF_ENDER:
+    name: "&6&lMagic Eye of Ender"
+    lore:
+      - "&4&lRequires full Ender Armor"
+      - "&7&eRight Click&7 to shoot an Ender Pearl"
+  BROKEN_SPAWNER:
+    name: "&cBroken Spawner"
+    lore:
+      - "&7Type: &b<Type>"
+      - "&cFractured, must be repaired in an Ancient Altar"
+  REINFORCED_SPAWNER:
+    name: "&bReinforced Spawner"
+    lore:
+      - "&7Type: &b<Type>"
+  INFERNAL_BONEMEAL:
+    name: "&4Infernal Bonemeal"
+    lore:
+      - "&cSpeeds up the Growth of"
+      - "&cNether Warts as well"
+  TAPE_MEASURE:
+    name: "&6Tape Measure"
+    lore:
+      - "&eCrouch & Right Click &7to set an anchor"
+      - "&eRight Click &7to measure"
+# Gadgets
+
+Gadgets:
+  GOLD_PAN:
+    name: "&6Gold Pan"
+    lore:
+      - "&eRight Click&7 to collect resources"
+      - "&7from Gravel"
+  NETHER_GOLD_PAN:
+    name: "&4Nether Gold Pan"
+    lore:
+      - "&eRight Click&7 to collect resources"
+      - "&7from Soul Sand"
+  PARACHUTE:
+    name: "&f&lParachute"
+  GRAPPLING_HOOK:
+    name: "&6Grappling Hook"
+  SOLAR_HELMET:
+    name: "&bSolar Helmet"
+    lore:
+      - "&a&oCharges held Items and Armor"
+  CLOTH:
+    name: "&bCloth"
+  REINFORCED_CLOTH:
+    name: "&bReinforced Cloth"
+    lore: 
+      - "&fThis cloth has been reinforced"
+      - "&fwith &bLead &fto protect against"
+      - "&fradioactive substances"
+  TIN_CAN:
+    name: "&fTin Can"
+  NIGHT_VISION_GOGGLES:
+    name: "&aNight Vision Goggles"
+    lore:
+      - "&9+ Night Vision"
+  ELYTRA_CAP:
+    name: "&5Elytra Cap"
+    lore:
+      - "&7This helmet will protect you from"
+      - "&7crashing while flying with an elytra."
+  FARMER_SHOES:
+    name: "&eFarmer Shoes"
+    lore:
+      - "&6&oPrevents you from trampling your Crops"
+  INFUSED_MAGNET:
+    name: "&aInfused Magnet"
+    lore:
+      - "&fMagical infused Magnets"
+      - "&fattract nearby Items"
+      - "&fas long as it is somewhere in"
+      - "&fyour Inventory"
+      - "&7Hold &eShift&7 to pick up nearby Items"
+  RAG:
+    name: "&cRag"
+    lore:
+      - "&aLevel I - Medical Supply"
+      - "&fRestores 2 Hearts"
+      - "&fExtinguishes Fire"
+  BANDAGE:
+    name: "&cBandage"
+    lore:
+      - "&aLevel II - Medical Supply"
+      - "&fRestores 4 Hearts"
+      - "&fExtinguishes Fire"
+  SPLINT:
+    name: "&cSplint"
+    lore:
+      - "&aLevel I - Medical Supply"
+      - "&fRestores 2 Hearts"
+  VITAMINS:
+    name: "&cVitamins"
+    lore:
+      - "&aLevel III - Medical Supply"
+      - "&fRestores 4 Hearts"
+      - "&fExtinguishes Fire"
+      - "fCures Poison/Wither/Radiation"
+  MEDICINE:
+    name: "&cMedicine"
+    lore:
+      - "&aLevel III - Medical Supply"
+      - "&fRestores 4 Hearts"
+      - "&fExtinguishes Fire"
+      - "&fCures Poison/Wither/Radiation"
+  MAGICAL_ZOMBIE_PILLS:
+    name: "&6Magical Zombie Pills"
+    lore:
+      - "&eRight Click &7a Zombified Villager"
+      - "&eor &7a Zombified Piglin to"
+      - "&7instantly cure it from its curse"
+  FLASK_OF_KNOWLEDGE:
+    name: "&cFlask of Knowledge"
+    lore:
+      - "&fAllows you to store some of"
+      - "&fyour Experience in a Bottle"
+      - "&7Cost: &a1 Level"
+  FILLED_FLASK_OF_KNOWLEDGE:
+    name: "&aFlask of Knowledge"
