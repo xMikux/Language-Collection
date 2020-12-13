@@ -1,0 +1,94 @@
+# Category
+
+Category:
+  FoxyMachines: "&4Foxy Machines"
+
+#Items
+
+Items:
+  ELECTRIC_WIND_STAFF:
+    name: "&bElectric Wind Staff"
+    lore:
+      - "&7Ride on the wind."
+  ELECTRIC_FIRE_STAFF:
+    name: "&4Electric Fire Staff"
+    lore:
+      - "&7Create inferno."
+  ELECTRIC_FIRE_STAFF_II:
+    name: "&4Electric Fire Staff &7- &eII"
+    lore:
+      - "&7Fire, fire, fire!"
+  HEALING_BOW:
+    name: "&4Healing Bow"
+    lore:
+      - "&cHealing II"
+      - "&8Finally a support weapon."
+  REINFORCED_STRING:
+    name: "&bReinforced String"
+  IMPROVEMENT_FORGE:
+    name: "&bImprovement Forge"
+    lore:
+      - "&7Used to improve Slimefun tools, weapons and armor."
+  IMPROVEMENT_CORE:
+    name: "&aImprovement Core"
+    lore:
+      - "&7Combine it with a tool in Improvement Forge to improve it."
+  POTION_MIXER:
+    name: "&bPotion Mixer"
+    lore:
+      - "&7Used to mix potions."
+  ELECTRIC_GOLD_REFINERY:
+    name: "&bElectric Gold Refinery"
+    lore:
+      - "&7Refines gold dust to gold ingots."
+  CHUNK_LOADER:
+    name: "&bChunk Loader"
+    lore:
+      - "&7Keeps chunk loaded."
+  STABILIZED_BLISTERING_BLOCK:
+    name: "&bStabilized Blistering Block"
+    lore:
+      - "&7A stable material."
+
+# GUI
+
+GUI:
+  ElectricGoldRefinery:
+    menu:
+      name: "&6Electric Gold Refinery"
+      gold_recipe:
+        - "&6Current Recipe: &cNONE"
+        - "&e> Choose on the left to change it"
+        - "&6Current Recipe: &fGold Ingot &7(4 Carat)"
+        - "&6Current Recipe: &fGold Ingot &7(6 Carat)"
+        - "&6Current Recipe: &fGold Ingot &7(8 Carat)"
+        - "&6Current Recipe: &fGold Ingot &7(10 Carat)"
+        - "&6Current Recipe: &fGold Ingot &7(12 Carat)"
+        - "&6Current Recipe: &fGold Ingot &7(14 Carat)"
+        - "&6Current Recipe: &fGold Ingot &7(16 Carat)"
+        - "&6Current Recipe: &fGold Ingot &7(18 Carat)"
+        - "&6Current Recipe: &fGold Ingot &7(20 Carat)"
+        - "&6Current Recipe: &fGold Ingot &7(22 Carat)"
+        - "&6Current Recipe: &fGold Ingot &7(24 Carat)"
+  ImprovementForge:
+    menu:
+      name: "&6Improvement Forge"
+  PotionMixer:
+    menu:
+      name: "&6Potion Mixer"
+    potion:
+      name: "&bCombined Potion"
+      lore: "Not useable in Brewing Stand"
+    LINGERING_POTION:
+      name: "&bCombined Lingering Potion"
+      lore:
+        - "&cThe time shown is incorrect due to a Minecraft"
+        - "&cbug, multiply it by 4 to get the real time."
+    SPLASH_POTION:
+      name: "&bCombined Splash Potion"
+
+# ChunkLoaderPlaceMessages
+
+ChunkLoader:
+  - "&dThis chunk is already loaded!"
+  - "&dGet more GPS Network Complexity to place more Chunk Loaders."

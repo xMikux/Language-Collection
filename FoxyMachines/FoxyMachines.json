@@ -1,0 +1,519 @@
+[
+  {
+    "key": "FoxyMachines.Category.FoxyMachines",
+    "type": "text",
+    "languages": {
+      "en_US": "&4Foxy Machines",
+      "zh_TW": "&4Foxy機器"
+    },
+    "patterns": [
+      "^§4Foxy Machines$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.Items.ELECTRIC_WIND_STAFF.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&bElectric Wind Staff",
+      "zh_TW": "&b電力風法杖"
+    },
+    "patterns": [
+      "^§bElectric Wind Staff$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.Items.ELECTRIC_WIND_STAFF.lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Ride on the wind.",
+      "zh_TW": "&7乘風飛行."
+    },
+    "patterns": [
+      "^§7Ride on the wind\\.$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.Items.ELECTRIC_FIRE_STAFF.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&4Electric Fire Staff",
+      "zh_TW": "&4電力火法杖"
+    },
+    "patterns": [
+      "^§4Electric Fire Staff$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.Items.ELECTRIC_FIRE_STAFF.lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Create inferno.",
+      "zh_TW": "&7製造火海."
+    },
+    "patterns": [
+      "^§7Create inferno\\.$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.Items.ELECTRIC_FIRE_STAFF_II.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&4Electric Fire Staff &7- &eII",
+      "zh_TW": "&4電力火法杖 &7- &eII"
+    },
+    "patterns": [
+      "^§4Electric Fire Staff §7- §eII$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.Items.ELECTRIC_FIRE_STAFF_II.lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Fire, fire, fire!",
+      "zh_TW": "&7火, 火, 更多火!"
+    },
+    "patterns": [
+      "^§7Fire, fire, fire!$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.Items.HEALING_BOW.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&4Healing Bow",
+      "zh_TW": "&4治療弓"
+    },
+    "patterns": [
+      "^§4Healing Bow$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.Items.HEALING_BOW.lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&cHealing II",
+      "zh_TW": "&c治療 II"
+    },
+    "patterns": [
+      "^§cHealing II$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.Items.HEALING_BOW.lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&8Finally a support weapon.",
+      "zh_TW": "&8終於有支援武器了."
+    },
+    "patterns": [
+      "^§8Finally a support weapon\\.$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.Items.REINFORCED_STRING.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&bReinforced String",
+      "zh_TW": "&b強化線"
+    },
+    "patterns": [
+      "^§bReinforced String$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.Items.IMPROVEMENT_FORGE.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&bImprovement Forge",
+      "zh_TW": "&b改進鍛造機"
+    },
+    "patterns": [
+      "^§bImprovement Forge$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.Items.IMPROVEMENT_FORGE.lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Used to improve Slimefun tools, weapons and armor.",
+      "zh_TW": "&7用於改善黏液科技的工具,武器與盔甲."
+    },
+    "patterns": [
+      "^§7Used to improve Slimefun tools, weapons and armor\\.$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.Items.IMPROVEMENT_CORE.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&aImprovement Core",
+      "zh_TW": "&a改進核心"
+    },
+    "patterns": [
+      "^§aImprovement Core$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.Items.IMPROVEMENT_CORE.lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Combine it with a tool in Improvement Forge to improve it.",
+      "zh_TW": "&7將其與工具放置進改進鍛造機,以改進它."
+    },
+    "patterns": [
+      "^§7Combine it with a tool in Improvement Forge to improve it\\.$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.Items.POTION_MIXER.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&bPotion Mixer",
+      "zh_TW": "&b藥水混合器"
+    },
+    "patterns": [
+      "^§bPotion Mixer$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.Items.POTION_MIXER.lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Used to mix potions.",
+      "zh_TW": "&7用於混合藥水."
+    },
+    "patterns": [
+      "^§7Used to mix potions\\.$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.Items.ELECTRIC_GOLD_REFINERY.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&bElectric Gold Refinery",
+      "zh_TW": "&b電動精煉機"
+    },
+    "patterns": [
+      "^§bElectric Gold Refinery$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.Items.ELECTRIC_GOLD_REFINERY.lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Refines gold dust to gold ingots.",
+      "zh_TW": "&7將金粉精煉成金錠."
+    },
+    "patterns": [
+      "^§7Refines gold dust to gold ingots\\.$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.Items.CHUNK_LOADER.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&bChunk Loader",
+      "zh_TW": "&b區塊加載器"
+    },
+    "patterns": [
+      "^§bChunk Loader$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.Items.CHUNK_LOADER.lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Keeps chunk loaded.",
+      "zh_TW": "&7保持區塊加載."
+    },
+    "patterns": [
+      "^§7Keeps chunk loaded\\.$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.Items.STABILIZED_BLISTERING_BLOCK.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&bStabilized Blistering Block",
+      "zh_TW": "&b穩定起泡磚"
+    },
+    "patterns": [
+      "^§bStabilized Blistering Block$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.Items.STABILIZED_BLISTERING_BLOCK.lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&7A stable material.",
+      "zh_TW": "&7穩定的材料."
+    },
+    "patterns": [
+      "^§7A stable material\\.$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.GUI.ElectricGoldRefinery.menu.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Electric Gold Refinery",
+      "zh_TW": "&6電動精煉機"
+    },
+    "patterns": [
+      "^§6Electric Gold Refinery$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.GUI.ElectricGoldRefinery.menu.gold_recipe.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Current Recipe: &cNONE",
+      "zh_TW": "&6當前合成: &c無"
+    },
+    "patterns": [
+      "^§6Current Recipe: §cNONE$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.GUI.ElectricGoldRefinery.menu.gold_recipe.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&e> Choose on the left to change it",
+      "zh_TW": "&e> 從左側選擇進行更改"
+    },
+    "patterns": [
+      "^§e> Choose on the left to change it$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.GUI.ElectricGoldRefinery.menu.gold_recipe.2",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Current Recipe: &fGold Ingot &7(4 Carat)",
+      "zh_TW": "&6當前合成: &f金錠 &7(4克拉)"
+    },
+    "patterns": [
+      "^§6Current Recipe: §fGold Ingot §7\\(4 Carat\\)$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.GUI.ElectricGoldRefinery.menu.gold_recipe.3",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Current Recipe: &fGold Ingot &7(6 Carat)",
+      "zh_TW": "&6當前合成: &f金錠 &7(6克拉)"
+    },
+    "patterns": [
+      "^§6Current Recipe: §fGold Ingot §7\\(6 Carat\\)$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.GUI.ElectricGoldRefinery.menu.gold_recipe.4",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Current Recipe: &fGold Ingot &7(8 Carat)",
+      "zh_TW": "&6當前合成: &f金錠 &7(8克拉)"
+    },
+    "patterns": [
+      "^§6Current Recipe: §fGold Ingot §7\\(8 Carat\\)$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.GUI.ElectricGoldRefinery.menu.gold_recipe.5",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Current Recipe: &fGold Ingot &7(10 Carat)",
+      "zh_TW": "&6當前合成: &f金錠 &7(10克拉)"
+    },
+    "patterns": [
+      "^§6Current Recipe: §fGold Ingot §7\\(10 Carat\\)$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.GUI.ElectricGoldRefinery.menu.gold_recipe.6",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Current Recipe: &fGold Ingot &7(12 Carat)",
+      "zh_TW": "&6當前合成: &f金錠 &7(12克拉)"
+    },
+    "patterns": [
+      "^§6Current Recipe: §fGold Ingot §7\\(12 Carat\\)$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.GUI.ElectricGoldRefinery.menu.gold_recipe.7",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Current Recipe: &fGold Ingot &7(14 Carat)",
+      "zh_TW": "&6當前合成: &f金錠 &7(14克拉)"
+    },
+    "patterns": [
+      "^§6Current Recipe: §fGold Ingot §7\\(14 Carat\\)$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.GUI.ElectricGoldRefinery.menu.gold_recipe.8",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Current Recipe: &fGold Ingot &7(16 Carat)",
+      "zh_TW": "&6當前合成: &f金錠 &7(16克拉)"
+    },
+    "patterns": [
+      "^§6Current Recipe: §fGold Ingot §7\\(16 Carat\\)$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.GUI.ElectricGoldRefinery.menu.gold_recipe.9",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Current Recipe: &fGold Ingot &7(18 Carat)",
+      "zh_TW": "&6當前合成: &f金錠 &7(18克拉)"
+    },
+    "patterns": [
+      "^§6Current Recipe: §fGold Ingot §7\\(18 Carat\\)$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.GUI.ElectricGoldRefinery.menu.gold_recipe.10",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Current Recipe: &fGold Ingot &7(20 Carat)",
+      "zh_TW": "&6當前合成: &f金錠 &7(20克拉)"
+    },
+    "patterns": [
+      "^§6Current Recipe: §fGold Ingot §7\\(20 Carat\\)$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.GUI.ElectricGoldRefinery.menu.gold_recipe.11",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Current Recipe: &fGold Ingot &7(22 Carat)",
+      "zh_TW": "&6當前合成: &f金錠 &7(22克拉)"
+    },
+    "patterns": [
+      "^§6Current Recipe: §fGold Ingot §7\\(22 Carat\\)$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.GUI.ElectricGoldRefinery.menu.gold_recipe.12",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Current Recipe: &fGold Ingot &7(24 Carat)",
+      "zh_TW": "&6當前合成: &f金錠 &7(24克拉)"
+    },
+    "patterns": [
+      "^§6Current Recipe: §fGold Ingot §7\\(24 Carat\\)$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.GUI.ImprovementForge.menu.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Improvement Forge",
+      "zh_TW": "&6改進鍛造機"
+    },
+    "patterns": [
+      "^§6Improvement Forge$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.GUI.PotionMixer.menu.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Potion Mixer",
+      "zh_TW": "&6藥水混合器"
+    },
+    "patterns": [
+      "^§6Potion Mixer$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.GUI.PotionMixer.potion.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&bCombined Potion",
+      "zh_TW": "&b混和藥水"
+    },
+    "patterns": [
+      "^§bCombined Potion$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.GUI.PotionMixer.potion.lore",
+    "type": "text",
+    "languages": {
+      "en_US": "Not useable in Brewing Stand",
+      "zh_TW": "無法在釀造台上使用"
+    },
+    "patterns": [
+      "^Not useable in Brewing Stand$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.GUI.PotionMixer.LINGERING_POTION.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&bCombined Lingering Potion",
+      "zh_TW": "&b混和滯留藥水"
+    },
+    "patterns": [
+      "^§bCombined Lingering Potion$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.GUI.PotionMixer.LINGERING_POTION.lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&cThe time shown is incorrect due to a Minecraft",
+      "zh_TW": "&c由於Minecraft顯示的時間不正確"
+    },
+    "patterns": [
+      "^§cThe time shown is incorrect due to a Minecraft$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.GUI.PotionMixer.LINGERING_POTION.lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&cbug, multiply it by 4 to get the real time.",
+      "zh_TW": "&c錯誤,將其乘以4得到真實時間."
+    },
+    "patterns": [
+      "^§cbug, multiply it by 4 to get the real time\\.$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.GUI.PotionMixer.SPLASH_POTION.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&bCombined Splash Potion",
+      "zh_TW": "&b混和飛濺藥水"
+    },
+    "patterns": [
+      "^§bCombined Splash Potion$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.ChunkLoader.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&dThis chunk is already loaded!",
+      "zh_TW": "&d此區塊已經加載!"
+    },
+    "patterns": [
+      "^§dThis chunk is already loaded!$"
+    ]
+  },
+  {
+    "key": "FoxyMachines.ChunkLoader.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&dGet more GPS Network Complexity to place more Chunk Loaders.",
+      "zh_TW": "&d提高GPS訊號強度來放置更多區塊加載器."
+    },
+    "patterns": [
+      "^§dGet more GPS Network Complexity to place more Chunk Loaders.$"
+    ]
+  }
+]

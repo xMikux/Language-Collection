@@ -1,0 +1,94 @@
+# Category
+
+Category:
+  FoxyMachines: "&4Foxy機器"
+
+#Items
+
+Items:
+  ELECTRIC_WIND_STAFF:
+    name: "&b電力風法杖"
+    lore:
+      - "&7乘風飛行."
+  ELECTRIC_FIRE_STAFF:
+    name: "&4電力火法杖"
+    lore:
+      - "&7製造火海."
+  ELECTRIC_FIRE_STAFF_II:
+    name: "&4電力火法杖 &7- &eII"
+    lore:
+      - "&7火, 火, 更多火!"
+  HEALING_BOW:
+    name: "&4治療弓"
+    lore:
+      - "&c治療 II"
+      - "&8終於有支援武器了."
+  REINFORCED_STRING:
+    name: "&b強化線"
+  IMPROVEMENT_FORGE:
+    name: "&b改進鍛造機"
+    lore:
+      - "&7用於改善黏液科技的工具,武器與盔甲."
+  IMPROVEMENT_CORE:
+    name: "&a改進核心"
+    lore:
+      - "&7將其與工具放置進改進鍛造機,以改進它."
+  POTION_MIXER:
+    name: "&b藥水混合器"
+    lore:
+      - "&7用於混合藥水."
+  ELECTRIC_GOLD_REFINERY:
+    name: "&b電動精煉機"
+    lore:
+      - "&7將金粉精煉成金錠."
+  CHUNK_LOADER:
+    name: "&b區塊加載器"
+    lore:
+      - "&7保持區塊加載."
+  STABILIZED_BLISTERING_BLOCK:
+    name: "&b穩定起泡磚"
+    lore:
+      - "&7穩定的材料."
+
+# GUI
+
+GUI:
+  ElectricGoldRefinery:
+    menu:
+      name: "&6電動精煉機"
+      gold_recipe:
+        - "&6當前合成: &c無"
+        - "&e> 從左側選擇進行更改"
+        - "&6當前合成: &f金錠 &7(4克拉)"
+        - "&6當前合成: &f金錠 &7(6克拉)"
+        - "&6當前合成: &f金錠 &7(8克拉)"
+        - "&6當前合成: &f金錠 &7(10克拉)"
+        - "&6當前合成: &f金錠 &7(12克拉)"
+        - "&6當前合成: &f金錠 &7(14克拉)"
+        - "&6當前合成: &f金錠 &7(16克拉)"
+        - "&6當前合成: &f金錠 &7(18克拉)"
+        - "&6當前合成: &f金錠 &7(20克拉)"
+        - "&6當前合成: &f金錠 &7(22克拉)"
+        - "&6當前合成: &f金錠 &7(24克拉)"
+  ImprovementForge:
+    menu:
+      name: "&6改進鍛造機"
+  PotionMixer:
+    menu:
+      name: "&6藥水混合器"
+    potion:
+      name: "&b混和藥水"
+      lore: "無法在釀造台上使用"
+    LINGERING_POTION:
+      name: "&b混和滯留藥水"
+      lore:
+        - "&c由於Minecraft顯示的時間不正確"
+        - "&c錯誤,將其乘以4得到真實時間."
+    SPLASH_POTION:
+      name: "&b混和飛濺藥水"
+
+# ChunkLoaderPlaceMessages
+
+ChunkLoader:
+  - "&d此區塊已經加載!"
+  - "&d提高GPS訊號強度來放置更多區塊加載器."
