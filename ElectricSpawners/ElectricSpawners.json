@@ -1,0 +1,409 @@
+[
+  {
+    "key": "ElectricSpawners.Category.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&9Electric Spawners",
+      "zh_TW": "&9電力生怪磚"
+    },
+    "patterns": [
+      "^§9Electric Spawners$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.Research.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Powered Spawners",
+      "zh_TW": "&7頭顱生怪磚?"
+    },
+    "patterns": [
+      "^§7Powered Spawners$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.Item.ElectricSpawner.name.BLAZE",
+    "type": "text",
+    "languages": {
+      "en_US": "&ePowered Spawner &7(Blaze)",
+      "zh_TW": "&e電力生怪磚 &7(烈焰使者)"
+    },
+    "patterns": [
+      "^§ePowered Spawner §7\\(Blaze\\)$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.Item.ElectricSpawner.name.CAVE_SPIDER",
+    "type": "text",
+    "languages": {
+      "en_US": "&ePowered Spawner &7(Cave Spider)",
+      "zh_TW": "&e電力生怪磚 &7(洞穴蜘蛛)"
+    },
+    "patterns": [
+      "^§ePowered Spawner §7\\(Cave Spider\\)$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.Item.ElectricSpawner.name.CHICKEN",
+    "type": "text",
+    "languages": {
+      "en_US": "&ePowered Spawner &7(Chicken)",
+      "zh_TW": "&e電力生怪磚 &7(雞)"
+    },
+    "patterns": [
+      "^§ePowered Spawner §7\\(Chicken\\)$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.Item.ElectricSpawner.name.COW",
+    "type": "text",
+    "languages": {
+      "en_US": "&ePowered Spawner &7(Cow)",
+      "zh_TW": "&e電力生怪磚 &7(牛)"
+    },
+    "patterns": [
+      "^§ePowered Spawner §7\\(Cow\\)$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.Item.ElectricSpawner.name.CREEPER",
+    "type": "text",
+    "languages": {
+      "en_US": "&ePowered Spawner &7(Creeper)",
+      "zh_TW": "&e電力生怪磚 &7(苦力怕)"
+    },
+    "patterns": [
+      "^§ePowered Spawner §7\\(Creeper\\)$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.Item.ElectricSpawner.name.ENDERMAN",
+    "type": "text",
+    "languages": {
+      "en_US": "&ePowered Spawner &7(Enderman)",
+      "zh_TW": "&e電力生怪磚 &7(終界使者)"
+    },
+    "patterns": [
+      "^§ePowered Spawner §7\\(Enderman\\)$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.Item.ElectricSpawner.name.ENDERMITE",
+    "type": "text",
+    "languages": {
+      "en_US": "&ePowered Spawner &7(Endermite)",
+      "zh_TW": "&e電力生怪磚 &7(終界蟎)"
+    },
+    "patterns": [
+      "^§ePowered Spawner §7\\(Endermite\\)$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.Item.ElectricSpawner.name.GHAST",
+    "type": "text",
+    "languages": {
+      "en_US": "&ePowered Spawner &7(Ghast)",
+      "zh_TW": "&e電力生怪磚 &7(地獄幽靈)"
+    },
+    "patterns": [
+      "^§ePowered Spawner §7\\(Ghast\\)$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.Item.ElectricSpawner.name.GUARDIAN",
+    "type": "text",
+    "languages": {
+      "en_US": "&ePowered Spawner &7(Guardian)",
+      "zh_TW": "&e電力生怪磚 &7(遠古深海守衛)"
+    },
+    "patterns": [
+      "^§ePowered Spawner §7\\(Guardian\\)$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.Item.ElectricSpawner.name.HORSE",
+    "type": "text",
+    "languages": {
+      "en_US": "&ePowered Spawner &7(Horse)",
+      "zh_TW": "&e電力生怪磚 &7(馬)"
+    },
+    "patterns": [
+      "^§ePowered Spawner §7\\(Horse\\)$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.Item.ElectricSpawner.name.IRON_GOLEM",
+    "type": "text",
+    "languages": {
+      "en_US": "&ePowered Spawner &7(Iron Golem)",
+      "zh_TW": "&e電力生怪磚 &7(鐵魔像)"
+    },
+    "patterns": [
+      "^§ePowered Spawner §7\\(Iron Golem\\)$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.Item.ElectricSpawner.name.MAGMA_CUBE",
+    "type": "text",
+    "languages": {
+      "en_US": "&ePowered Spawner &7(Magma Cube)",
+      "zh_TW": "&e電力生怪磚 &7(岩漿立方怪)"
+    },
+    "patterns": [
+      "^§ePowered Spawner §7\\(Magma Cube\\)$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.Item.ElectricSpawner.name.MUSHROOM_COW",
+    "type": "text",
+    "languages": {
+      "en_US": "&ePowered Spawner &7(Mushroom Cow)",
+      "zh_TW": "&e電力生怪磚 &7(哞菇)"
+    },
+    "patterns": [
+      "^§ePowered Spawner §7\\(Mushroom Cow\\)$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.Item.ElectricSpawner.name.OCELOT",
+    "type": "text",
+    "languages": {
+      "en_US": "&ePowered Spawner &7(Ocelot)",
+      "zh_TW": "&e電力生怪磚 &7(山貓)"
+    },
+    "patterns": [
+      "^§ePowered Spawner §7\\(Ocelot\\)$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.Item.ElectricSpawner.name.PIG",
+    "type": "text",
+    "languages": {
+      "en_US": "&ePowered Spawner &7(Pig)",
+      "zh_TW": "&e電力生怪磚 &7(豬)"
+    },
+    "patterns": [
+      "^§ePowered Spawner §7\\(Pig\\)$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.Item.ElectricSpawner.name.RABBIT",
+    "type": "text",
+    "languages": {
+      "en_US": "&ePowered Spawner &7(Rabbit)",
+      "zh_TW": "&e電力生怪磚 &7(兔子)"
+    },
+    "patterns": [
+      "^§ePowered Spawner §7\\(Rabbit\\)$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.Item.ElectricSpawner.name.SHEEP",
+    "type": "text",
+    "languages": {
+      "en_US": "&ePowered Spawner &7(Sheep)",
+      "zh_TW": "&e電力生怪磚 &7(綿羊)"
+    },
+    "patterns": [
+      "^§ePowered Spawner §7\\(Sheep\\)$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.Item.ElectricSpawner.name.SILVERFISH",
+    "type": "text",
+    "languages": {
+      "en_US": "&ePowered Spawner &7(Silverfish)",
+      "zh_TW": "&e電力生怪磚 &7(蠹魚)"
+    },
+    "patterns": [
+      "^§ePowered Spawner §7\\(Silverfish\\)$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.Item.ElectricSpawner.name.SKELETON",
+    "type": "text",
+    "languages": {
+      "en_US": "&ePowered Spawner &7(Skeleton)",
+      "zh_TW": "&e電力生怪磚 &7(骷髏)"
+    },
+    "patterns": [
+      "^§ePowered Spawner §7\\(Skeleton\\)$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.Item.ElectricSpawner.name.SLIME",
+    "type": "text",
+    "languages": {
+      "en_US": "&ePowered Spawner &7(Slime)",
+      "zh_TW": "&e電力生怪磚 &7(史萊姆)"
+    },
+    "patterns": [
+      "^§ePowered Spawner §7\\(Slime\\)$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.Item.ElectricSpawner.name.SPIDER",
+    "type": "text",
+    "languages": {
+      "en_US": "&ePowered Spawner &7(Spider)",
+      "zh_TW": "&e電力生怪磚 &7(蜘蛛)"
+    },
+    "patterns": [
+      "^§ePowered Spawner §7\\(Spider\\)$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.Item.ElectricSpawner.name.SQUID",
+    "type": "text",
+    "languages": {
+      "en_US": "&ePowered Spawner &7(Squid)",
+      "zh_TW": "&e電力生怪磚 &7(魷魚)"
+    },
+    "patterns": [
+      "^§ePowered Spawner §7\\(Squid\\)$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.Item.ElectricSpawner.name.VILLAGER",
+    "type": "text",
+    "languages": {
+      "en_US": "&ePowered Spawner &7(Villager)",
+      "zh_TW": "&e電力生怪磚 &7(村民)"
+    },
+    "patterns": [
+      "^§ePowered Spawner §7\\(Villager\\)$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.Item.ElectricSpawner.name.WITHER_SKELETON",
+    "type": "text",
+    "languages": {
+      "en_US": "&ePowered Spawner &7(Wither Skeleton)",
+      "zh_TW": "&e電力生怪磚 &7(凋零骷髏)"
+    },
+    "patterns": [
+      "^§ePowered Spawner §7\\(Wither Skeleton\\)$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.Item.ElectricSpawner.name.WITCH",
+    "type": "text",
+    "languages": {
+      "en_US": "&ePowered Spawner &7(Witch)",
+      "zh_TW": "&e電力生怪磚 &7(女巫)"
+    },
+    "patterns": [
+      "^§ePowered Spawner §7\\(Witch\\)$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.Item.ElectricSpawner.name.WOLF",
+    "type": "text",
+    "languages": {
+      "en_US": "&ePowered Spawner &7(Wolf)",
+      "zh_TW": "&e電力生怪磚 &7(狼)"
+    },
+    "patterns": [
+      "^§ePowered Spawner §7\\(Wolf\\)$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.Item.ElectricSpawner.name.ZOMBIE",
+    "type": "text",
+    "languages": {
+      "en_US": "&ePowered Spawner &7(Zombie)",
+      "zh_TW": "&e電力生怪磚 &7(殭屍)"
+    },
+    "patterns": [
+      "^§ePowered Spawner §7\\(Zombie\\)$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.Item.ElectricSpawner.lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&8⇨ &e⚡ &7Max Entity Cap: 6",
+      "zh_TW": "&8⇨ &e⚡ &7最大生成上限: 6"
+    },
+    "patterns": [
+      "^§8⇨ §e⚡ §7Max Entity Cap: 6$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.Item.ElectricSpawner.lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&8⇨ &e⚡ &7512 J Buffer",
+      "zh_TW": "&8⇨ &e⚡ &7512 J 緩衝電力"
+    },
+    "patterns": [
+      "^§8⇨ §e⚡ §7512 J Buffer$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.Item.ElectricSpawner.lore.2",
+    "type": "text",
+    "languages": {
+      "en_US": "&8⇨ &e⚡ &7240 J/Mob",
+      "zh_TW": "&8⇨ &e⚡ &7240 J/生物"
+    },
+    "patterns": [
+      "^§8⇨ §e⚡ §7240 J/Mob$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.GUI.Menu.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&cPowered Spawner",
+      "zh_TW": "&c電力生怪磚"
+    },
+    "patterns": [
+      "^§cPowered Spawner$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.GUI.Menu.enable.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Enabled: &4✘",
+      "zh_TW": "&7已啟用: &4✘"
+    },
+    "patterns": [
+      "^§7Enabled: §4✘$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.GUI.Menu.enable.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&e> Click to enable this Machine",
+      "zh_TW": "&e> 點擊啟用此機器"
+    },
+    "patterns": [
+      "^§e> Click to enable this Machine$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.GUI.Menu.disable.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Enabled: &2✔",
+      "zh_TW": "&7已啟用: &2✔"
+    },
+    "patterns": [
+      "^§7Enabled: §2✔$"
+    ]
+  },
+  {
+    "key": "ElectricSpawners.GUI.Menu.disable.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&e> Click to disable this Machine",
+      "zh_TW": "&e> 點擊關閉此機器"
+    },
+    "patterns": [
+      "^§e> Click to disable this Machine$"
+    ]
+  }
+]

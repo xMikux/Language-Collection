@@ -1,0 +1,84 @@
+# Category 
+
+Category:
+  name: "&9電力生怪磚"
+# Research
+
+Research:
+  name: "&7頭顱生怪磚?"
+
+# Item
+
+Item:
+  ElectricSpawner:
+    name:
+      BLAZE:
+        "&e電力生怪磚 &7(烈焰使者)"
+      CAVE_SPIDER:
+        "&e電力生怪磚 &7(洞穴蜘蛛)"
+      CHICKEN:
+        "&e電力生怪磚 &7(雞)"
+      COW:
+        "&e電力生怪磚 &7(牛)"
+      CREEPER:
+        "&e電力生怪磚 &7(苦力怕)"
+      ENDERMAN:
+        "&e電力生怪磚 &7(終界使者)"
+      ENDERMITE:
+        "&e電力生怪磚 &7(終界蟎)"
+      GHAST:
+        "&e電力生怪磚 &7(地獄幽靈)"
+      GUARDIAN:
+        "&e電力生怪磚 &7(遠古深海守衛)"
+      HORSE:
+        "&e電力生怪磚 &7(馬)"
+      IRON_GOLEM:
+        "&e電力生怪磚 &7(鐵魔像)"
+      MAGMA_CUBE:
+        "&e電力生怪磚 &7(岩漿立方怪)"
+      MUSHROOM_COW:
+        "&e電力生怪磚 &7(哞菇)"
+      OCELOT:
+        "&e電力生怪磚 &7(山貓)"
+      PIG:
+        "&e電力生怪磚 &7(豬)"
+      RABBIT:
+        "&e電力生怪磚 &7(兔子)"
+      SHEEP:
+        "&e電力生怪磚 &7(綿羊)"
+      SILVERFISH:
+        "&e電力生怪磚 &7(蠹魚)"
+      SKELETON:
+        "&e電力生怪磚 &7(骷髏)"
+      SLIME:
+        "&e電力生怪磚 &7(史萊姆)"
+      SPIDER:
+        "&e電力生怪磚 &7(蜘蛛)"
+      SQUID:
+        "&e電力生怪磚 &7(魷魚)"
+      VILLAGER:
+        "&e電力生怪磚 &7(村民)"
+      WITHER_SKELETON:
+        "&e電力生怪磚 &7(凋零骷髏)"
+      WITCH:
+        "&e電力生怪磚 &7(女巫)"
+      WOLF:
+        "&e電力生怪磚 &7(狼)"
+      ZOMBIE:
+        "&e電力生怪磚 &7(殭屍)"
+    lore:
+      - "&8\u21E8 &e\u26A1 &7最大生成上限: 6"
+      - "&8\u21E8 &e\u26A1 &7512 J 緩衝電力"
+      - "&8\u21E8 &e\u26A1 &7240 J/生物"
+
+# GUI
+
+GUI:
+  Menu:
+    name: "&c電力生怪磚"
+    enable: 
+      - "&7已啟用: &4\u2718"
+      - "&e> 點擊啟用此機器"
+    disable:
+      - "&7已啟用: &2\u2714"
+      - "&e> 點擊關閉此機器"

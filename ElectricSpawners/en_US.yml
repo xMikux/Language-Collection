@@ -1,0 +1,84 @@
+# Category 
+
+Category:
+  name: "&9Electric Spawners"
+# Research
+
+Research:
+  name: "&7Powered Spawners"
+
+# Item
+
+Item:
+  ElectricSpawner:
+    name: 
+      BLAZE:
+        "&ePowered Spawner &7(Blaze)"
+      CAVE_SPIDER:
+        "&ePowered Spawner &7(Cave Spider)"
+      CHICKEN:
+        "&ePowered Spawner &7(Chicken)"
+      COW:
+        "&ePowered Spawner &7(Cow)"
+      CREEPER:
+        "&ePowered Spawner &7(Creeper)"
+      ENDERMAN:
+        "&ePowered Spawner &7(Enderman)"
+      ENDERMITE:
+        "&ePowered Spawner &7(Endermite)"
+      GHAST:
+        "&ePowered Spawner &7(Ghast)"
+      GUARDIAN:
+        "&ePowered Spawner &7(Guardian)"
+      HORSE:
+        "&ePowered Spawner &7(Horse)"
+      IRON_GOLEM:
+        "&ePowered Spawner &7(Iron Golem)"
+      MAGMA_CUBE:
+        "&ePowered Spawner &7(Magma Cube)"
+      MUSHROOM_COW:
+        "&ePowered Spawner &7(Mushroom Cow)"
+      OCELOT:
+        "&ePowered Spawner &7(Ocelot)"
+      PIG:
+        "&ePowered Spawner &7(Pig)"
+      RABBIT:
+        "&ePowered Spawner &7(Rabbit)"
+      SHEEP:
+        "&ePowered Spawner &7(Sheep)"
+      SILVERFISH:
+        "&ePowered Spawner &7(Silverfish)"
+      SKELETON:
+        "&ePowered Spawner &7(Skeleton)"
+      SLIME:
+        "&ePowered Spawner &7(Slime)"
+      SPIDER:
+        "&ePowered Spawner &7(Spider)"
+      SQUID:
+        "&ePowered Spawner &7(Squid)"
+      VILLAGER:
+        "&ePowered Spawner &7(Villager)"
+      WITHER_SKELETON:
+        "&ePowered Spawner &7(Wither Skeleton)"
+      WITCH:
+        "&ePowered Spawner &7(Witch)"
+      WOLF:
+        "&ePowered Spawner &7(Wolf)"
+      ZOMBIE:
+        "&ePowered Spawner &7(Zombie)"
+    lore:
+      - "&8\u21E8 &e\u26A1 &7Max Entity Cap: 6"
+      - "&8\u21E8 &e\u26A1 &7512 J Buffer"
+      - "&8\u21E8 &e\u26A1 &7240 J/Mob"
+
+# GUI
+
+GUI:
+  Menu:
+    name: "&cPowered Spawner"
+    enable: 
+      - "&7Enabled: &4\u2718"
+      - "&e> Click to enable this Machine"
+    disable:
+      - "&7Enabled: &2\u2714"
+      - "&e> Click to disable this Machine"
