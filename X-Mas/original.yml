@@ -1,0 +1,41 @@
+plugin-name: '[lang]X-Mas.plugin-name[/lang]'
+messages:
+  plugin-enabled: '[lang]X-Mas.messages.plugin-enabled[/lang]'
+  timeout: '[lang]X-Mas.messages.timeout[/lang]'
+  final-wish: '[lang]X-Mas.messages.final-wish[/lang]'
+  tree:
+    grow-lvl-ready: '[lang]X-Mas.messages.tree.grow-lvl-ready[/lang]'
+    grow-lvl-progress: _UNUSED
+    grow-req-list-title: '[lang]X-Mas.messages.tree.grow-req-list-title[/lang]'
+    grow-not-enough-place: '[lang]X-Mas.messages.tree.grow-not-enough-place[/lang]'
+    grow-lvl-max: '[lang]X-Mas.messages.tree.grow-lvl-max[/lang]'
+    tree-limit: '[lang]X-Mas.messages.tree.tree-limit[/lang]'
+    destroy-sapling: '[lang]X-Mas.messages.tree.destroy-sapling[/lang]'
+    destroy-leaves-santa: '[lang]X-Mas.messages.tree.destroy-leaves-santa[/lang]'
+    destroy-leaves-tut: '[lang]X-Mas.messages.tree.destroy-leaves-tut[/lang]'
+    destroy-warning: '[lang]X-Mas.messages.tree.destroy-warning[/lang]'
+    destroy-tut: '[lang]X-Mas.messages.tree.destroy-tut[/lang]'
+    destroy-fail-owner: '[lang]X-Mas.messages.tree.destroy-fail-owner[/lang]'
+    destroy-complete: '[lang]X-Mas.messages.tree.destroy-complete[/lang]'
+  gift:
+    luck-message: _UNUSED
+    unluck-message: '[lang]X-Mas.messages.gift.unluck-message[/lang]'
+crystal:
+  name: '[lang]X-Mas.crystal.name[/lang]'
+  lore:
+    - '[lang]X-Mas.crystal.lore.0[/lang]'
+    - '[lang]X-Mas.crystal.lore.1[/lang]'
+help:
+  - '[lang]X-Mas.help.0[/lang]'
+  - '[lang]X-Mas.help.1[/lang]'
+  - '[lang]X-Mas.help.2[/lang]'
+  - '[lang]X-Mas.help.3[/lang]'
+command:
+  help:
+    - '[lang]X-Mas.command.help.0[/lang]'
+    - '[lang]X-Mas.command.help.1[/lang]'
+    - '[lang]X-Mas.command.help.2[/lang]'
+    - '[lang]X-Mas.command.help.3[/lang]'
+  player-offline: '[lang]X-Mas.command.player-offline[/lang]'
+  no-player-name: '[lang]X-Mas.command.no-player-name[/lang]'
+  giveaway: '[lang]X-Mas.command.giveaway[/lang]'

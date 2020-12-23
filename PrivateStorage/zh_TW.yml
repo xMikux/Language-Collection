@@ -1,0 +1,47 @@
+# Category
+
+Category:
+  PrivateStorage: "&7私人倉庫 - 箱子和保險箱"
+
+# Items
+
+Items:
+  PRIVATE:
+    SAFE_OAK: "&6橡木保險箱"
+    SAFE_BIRCH: "&6樺木保險箱"
+    SAFE_SPRUCE: "&6杉木保險箱"
+    SAFE_JUNGLE: "&6叢林木保險箱"
+    SAFE_ACACIA: "&6相思木保險箱"
+    SAFE_DARK_OAK: "&6黑橡木保險箱"
+    SAFE_IRON: "&6鐵保險箱"
+    SAFE_GOLD: "&6金保險箱"
+    SAFE_DIAMOND: "&6鑽石保險箱"
+    SAFE_EMERALD: "&6綠寶石保險箱"
+    SAFE_OBSIDIAN: "&6黑曜石保險箱"
+    SAFE_STEEL: "&6鋼保險箱"
+  PUBLIC:
+    OAK_CHEST: "&6橡木箱"
+    BIRCH_CHEST: "&6樺木箱"
+    SPRUCE_CHEST: "&6杉木箱"
+    JUNGLE_CHEST: "&6叢林木箱"
+    ACACIA_CHEST: "&6相思木箱"
+    DARK_OAK_CHEST: "&6黑橡木箱"
+    IRON_CHEST: "&6鐵箱"
+    GOLDEN_CHEST: "&6金箱"
+    DIAMOND_CHEST: "&6鑽石箱"
+    EMERALD_CHEST: "&6綠寶石箱"
+    OBSIDIAN_CHEST: "&6黑曜石箱"
+    STEEL_CHEST: "&6鋼箱"
+  Lores:
+    Size:
+      S2: "&7大小: &e2x9"
+      S3: "&7大小: &e3x9"
+      S4: "&7大小: &e4x9"
+      S5: "&7大小: &e5x9"
+      S6: "&7大小: &e6x9"
+    Explosions: "&b可抗爆炸"
+    Public:
+      - "&r此箱子可以被你所在的區域內"
+      - "&r可以打開箱子的人打開"
+    Private:
+      - "&r此箱子只能被你開啟"

@@ -1,0 +1,250 @@
+[
+  {
+    "key": "X-Mas.plugin-name",
+    "type": "text",
+    "languages": {
+      "en_US": "X-Mas",
+      "zh_TW": "X-Mas"
+    }
+  },
+  {
+    "key": "X-Mas.messages.plugin-enabled",
+    "type": "text",
+    "languages": {
+      "en_US": "Merry Christmas And Happy New Year!",
+      "zh_TW": "聖誕節快樂和新年快樂!"
+    }
+  },
+  {
+    "key": "X-Mas.messages.timeout",
+    "type": "text",
+    "languages": {
+      "en_US": "The Holidays Are Over! See you next year!",
+      "zh_TW": "節日結束了! 明年見!"
+    }
+  },
+  {
+    "key": "X-Mas.messages.final-wish",
+    "type": "text",
+    "languages": {
+      "en_US": "Happy New Year to all of you, my friends!",
+      "zh_TW": "我的朋友們, 祝你們新年快樂!"
+    }
+  },
+  {
+    "key": "X-Mas.messages.tree.grow-lvl-ready",
+    "type": "text",
+    "languages": {
+      "en_US": "Woosh! Press Right Mouse Button to let tree grow!",
+      "zh_TW": "哇! 按滑鼠右鍵來讓樹長大!"
+    }
+  },
+  {
+    "key": "X-Mas.messages.tree.grow-req-list-title",
+    "type": "text",
+    "languages": {
+      "en_US": "Required",
+      "zh_TW": "需要"
+    }
+  },
+  {
+    "key": "X-Mas.messages.tree.grow-not-enough-place",
+    "type": "text",
+    "languages": {
+      "en_US": "Not enough place to make it grow",
+      "zh_TW": "沒有足夠的地方讓它成長"
+    }
+  },
+  {
+    "key": "X-Mas.messages.tree.grow-lvl-max",
+    "type": "text",
+    "languages": {
+      "en_US": "This tree has reached it's maximum level!",
+      "zh_TW": "這棵樹已達到最大級別!"
+    }
+  },
+  {
+    "key": "X-Mas.messages.tree.tree-limit",
+    "type": "text",
+    "languages": {
+      "en_US": "Hey, do not be greedy! (Tree limit)",
+      "zh_TW": "嘿, 別貪心! (已達到最大擁有上限)"
+    }
+  },
+  {
+    "key": "X-Mas.messages.tree.destroy-sapling",
+    "type": "text",
+    "languages": {
+      "en_US": "This miracle won't drop. Are you sure?",
+      "zh_TW": "這個奇蹟將不會掉落. 你確定?"
+    }
+  },
+  {
+    "key": "X-Mas.messages.tree.destroy-leaves-santa",
+    "type": "text",
+    "languages": {
+      "en_US": "Santa Claus sees everything.",
+      "zh_TW": "聖誕老人看見了一切."
+    }
+  },
+  {
+    "key": "X-Mas.messages.tree.destroy-leaves-tut",
+    "type": "text",
+    "languages": {
+      "en_US": "To destroy a tree - cut the log.",
+      "zh_TW": "摧毀一棵樹 - 砍原木."
+    }
+  },
+  {
+    "key": "X-Mas.messages.tree.destroy-warning",
+    "type": "text",
+    "languages": {
+      "en_US": "Are you sure? Your progress will be lost and no resources back.",
+      "zh_TW": "你確定嗎? 你的進度將會遺失並且不會退回任何資源回來."
+    }
+  },
+  {
+    "key": "X-Mas.messages.tree.destroy-tut",
+    "type": "text",
+    "languages": {
+      "en_US": "To destroy your tree cut it again.",
+      "zh_TW": "來摧毀你的樹, 請在砍一次."
+    }
+  },
+  {
+    "key": "X-Mas.messages.tree.destroy-fail-owner",
+    "type": "text",
+    "languages": {
+      "en_US": "It's not your tree!",
+      "zh_TW": "這不是你的樹!"
+    }
+  },
+  {
+    "key": "X-Mas.messages.tree.destroy-complete",
+    "type": "text",
+    "languages": {
+      "en_US": "You're MONSTER!",
+      "zh_TW": "你是個 怪物!"
+    }
+  },
+  {
+    "key": "X-Mas.messages.gift.unluck-message",
+    "type": "text",
+    "languages": {
+      "en_US": "Probably Santa has put you in blacklist. I hope you're lucky next time!",
+      "zh_TW": "聖誕老人可能將你列入黑名單中. 我希望你下次能好運!"
+    }
+  },
+  {
+    "key": "X-Mas.crystal.name",
+    "type": "text",
+    "languages": {
+      "en_US": "Christmas Crystal",
+      "zh_TW": "聖誕水晶"
+    }
+  },
+  {
+    "key": "X-Mas.crystal.lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "Concentrated Christmas Spirit",
+      "zh_TW": "聚集了聖誕節的精神"
+    }
+  },
+  {
+    "key": "X-Mas.crystal.lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "Use it on Sapling to fill it with magic!",
+      "zh_TW": "在樹苗上使用它來充滿魔法!"
+    }
+  },
+  {
+    "key": "X-Mas.help.0",
+    "type": "text",
+    "languages": {
+      "en_US": "Use /xmas to show plugin version and status",
+      "zh_TW": "使用 /xmas 顯示插件版本與狀態"
+    }
+  },
+  {
+    "key": "X-Mas.help.1",
+    "type": "text",
+    "languages": {
+      "en_US": "Use /xmas give <Name> to give crystal somebody",
+      "zh_TW": "使用 /xmas give <Name> 來給水晶"
+    }
+  },
+  {
+    "key": "X-Mas.help.2",
+    "type": "text",
+    "languages": {
+      "en_US": "Use /xmas gifts to spawn some presents under every Christmas Tree!",
+      "zh_TW": "使用 /xmas gifts 在每棵聖誕樹下生成一些禮物!"
+    }
+  },
+  {
+    "key": "X-Mas.help.3",
+    "type": "text",
+    "languages": {
+      "en_US": "Use /xmas end to set plugin into ending mode",
+      "zh_TW": "使用 /xmas end 將插件設定為結束模式"
+    }
+  },
+  {
+    "key": "X-Mas.command.help.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&2Use &c/xmas &2to show plugin version and status",
+      "zh_TW": "&2使用 &c/xmas &2顯示插件版本與狀態"
+    }
+  },
+  {
+    "key": "X-Mas.command.help.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&2Use &c/xmas give &2<Name> to give crystal somebody",
+      "zh_TW": "&2使用 &c/xmas give &2<Name> 來給水晶"
+    }
+  },
+  {
+    "key": "X-Mas.command.help.2",
+    "type": "text",
+    "languages": {
+      "en_US": "&2Use &c/xmas gifts &2to spawn some presents under trees!",
+      "zh_TW": "&2使用 &c/xmas gifts &2在每棵聖誕樹下生成一些禮物!"
+    }
+  },
+  {
+    "key": "X-Mas.command.help.3",
+    "type": "text",
+    "languages": {
+      "en_US": "&2Use &c/xmas end &2to set plugin into ending mode",
+      "zh_TW": "&2使用 &c/xmas end &2將插件設定為結束模式"
+    }
+  },
+  {
+    "key": "X-Mas.command.player-offline",
+    "type": "text",
+    "languages": {
+      "en_US": "&cPlayer not found",
+      "zh_TW": "&c玩家未找到"
+    }
+  },
+  {
+    "key": "X-Mas.command.no-player-name",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Missing player name",
+      "zh_TW": "&6缺少玩家名稱"
+    }
+  },
+  {
+    "key": "X-Mas.command.giveaway",
+    "type": "text",
+    "languages": {
+      "en_US": "&cHo! &2Ho! &cHo! &3Looks like its time to check presents!",
+      "zh_TW": "&cHo! &2Ho! &cHo! &3看起來是時候檢查禮物了!"
+    }
+  }
+]

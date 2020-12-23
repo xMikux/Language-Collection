@@ -1,0 +1,376 @@
+[
+  {
+    "key": "PrivateStorage.Category.PrivateStorage.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Private Storage - Chests and Safes",
+      "zh_TW": "&7私人倉庫 - 箱子和保險箱"
+    },
+    "patterns": [
+      "^§7Private Storage - Chests and Safes$"
+    ]
+  },
+  {
+    "key": "PrivateStorage.Items.PRIVATE.SAFE_OAK.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Oak Safe",
+      "zh_TW": "&6橡木保險箱"
+    },
+    "patterns": [
+      "^§6Oak Safe$"
+    ]
+  },
+  {
+    "key": "PrivateStorage.Items.PRIVATE.SAFE_BIRCH.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Birch Safe",
+      "zh_TW": "&6樺木保險箱"
+    },
+    "patterns": [
+      "^§6Birch Safe$"
+    ]
+  },
+  {
+    "key": "PrivateStorage.Items.PRIVATE.SAFE_SPRUCE.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Spruce Safe",
+      "zh_TW": "&6杉木保險箱"
+    },
+    "patterns": [
+      "^§6Spruce Safe$"
+    ]
+  },
+  {
+    "key": "PrivateStorage.Items.PRIVATE.SAFE_JUNGLE.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Jungle Safe",
+      "zh_TW": "&6叢林木保險箱"
+    },
+    "patterns": [
+      "^§6Jungle Safe$"
+    ]
+  },
+  {
+    "key": "PrivateStorage.Items.PRIVATE.SAFE_ACACIA.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Acacia Safe",
+      "zh_TW": "&6相思木保險箱"
+    },
+    "patterns": [
+      "^§6Acacia Safe$"
+    ]
+  },
+  {
+    "key": "PrivateStorage.Items.PRIVATE.SAFE_DARK_OAK.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Dark Oak Safe",
+      "zh_TW": "&6黑橡木保險箱"
+    },
+    "patterns": [
+      "^§6Dark Oak Safe$"
+    ]
+  },
+  {
+    "key": "PrivateStorage.Items.PRIVATE.SAFE_IRON.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Iron Safe",
+      "zh_TW": "&6鐵保險箱"
+    },
+    "patterns": [
+      "^§6Iron Safe$"
+    ]
+  },
+  {
+    "key": "PrivateStorage.Items.PRIVATE.SAFE_GOLD.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Golden Safe",
+      "zh_TW": "&6金保險箱"
+    },
+    "patterns": [
+      "^§6Golden Safe$"
+    ]
+  },
+  {
+    "key": "PrivateStorage.Items.PRIVATE.SAFE_DIAMOND.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Diamond Safe",
+      "zh_TW": "&6鑽石保險箱"
+    },
+    "patterns": [
+      "^§6Diamond Safe$"
+    ]
+  },
+  {
+    "key": "PrivateStorage.Items.PRIVATE.SAFE_EMERALD.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Emerald Safe",
+      "zh_TW": "&6綠寶石保險箱"
+    },
+    "patterns": [
+      "^§6Emerald Safe$"
+    ]
+  },
+  {
+    "key": "PrivateStorage.Items.PRIVATE.SAFE_OBSIDIAN.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Obsidian Safe",
+      "zh_TW": "&6黑曜石保險箱"
+    },
+    "patterns": [
+      "^§6Obsidian Safe$"
+    ]
+  },
+  {
+    "key": "PrivateStorage.Items.PRIVATE.SAFE_STEEL.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Steel Safe",
+      "zh_TW": "&6鋼保險箱"
+    },
+    "patterns": [
+      "^§6Steel Safe$"
+    ]
+  },
+  {
+    "key": "PrivateStorage.Items.PUBLIC.OAK_CHEST.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Oak chest",
+      "zh_TW": "&6橡木箱"
+    },
+    "patterns": [
+      "^§6Oak chest$"
+    ]
+  },
+  {
+    "key": "PrivateStorage.Items.PUBLIC.BIRCH_CHEST.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Birch chest",
+      "zh_TW": "&6樺木箱"
+    },
+    "patterns": [
+      "^§6Birch chest$"
+    ]
+  },
+  {
+    "key": "PrivateStorage.Items.PUBLIC.SPRUCE_CHEST.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Spruce chest",
+      "zh_TW": "&6杉木箱"
+    },
+    "patterns": [
+      "^§6Spruce chest$"
+    ]
+  },
+  {
+    "key": "PrivateStorage.Items.PUBLIC.JUNGLE_CHEST.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Jungle chest",
+      "zh_TW": "&6叢林木箱"
+    },
+    "patterns": [
+      "^§6Jungle chest$"
+    ]
+  },
+  {
+    "key": "PrivateStorage.Items.PUBLIC.ACACIA_CHEST.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Acacia chest",
+      "zh_TW": "&6相思木箱"
+    },
+    "patterns": [
+      "^§6Acacia chest$"
+    ]
+  },
+  {
+    "key": "PrivateStorage.Items.PUBLIC.DARK_OAK_CHEST.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Dark Oak chest",
+      "zh_TW": "&6黑橡木箱"
+    },
+    "patterns": [
+      "^§6Dark Oak chest$"
+    ]
+  },
+  {
+    "key": "PrivateStorage.Items.PUBLIC.IRON_CHEST.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Iron chest",
+      "zh_TW": "&6鐵箱"
+    },
+    "patterns": [
+      "^§6Iron chest$"
+    ]
+  },
+  {
+    "key": "PrivateStorage.Items.PUBLIC.GOLDEN_CHEST.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Golden chest",
+      "zh_TW": "&6金箱"
+    },
+    "patterns": [
+      "^§6Golden chest$"
+    ]
+  },
+  {
+    "key": "PrivateStorage.Items.PUBLIC.DIAMOND_CHEST.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Diamond chest",
+      "zh_TW": "&6鑽石箱"
+    },
+    "patterns": [
+      "^§6Diamond chest$"
+    ]
+  },
+  {
+    "key": "PrivateStorage.Items.PUBLIC.EMERALD_CHEST.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Emerald chest",
+      "zh_TW": "&6綠寶石箱"
+    },
+    "patterns": [
+      "^§6Emerald chest$"
+    ]
+  },
+  {
+    "key": "PrivateStorage.Items.PUBLIC.OBSIDIAN_CHEST.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Obsidian chest",
+      "zh_TW": "&6黑曜石箱"
+    },
+    "patterns": [
+      "^§6Obsidian chest$"
+    ]
+  },
+  {
+    "key": "PrivateStorage.Items.PUBLIC.STEEL_CHEST.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Steel chest",
+      "zh_TW": "&6鋼箱"
+    },
+    "patterns": [
+      "^§6Steel chest$"
+    ]
+  },
+  {
+    "key": "PrivateStorage.Items.Lores.Size.S2.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Size: &e2x9",
+      "zh_TW": "&7大小: &e2x9"
+    },
+    "patterns": [
+      "^§7Size: §e2x9$"
+    ]
+  },
+  {
+    "key": "PrivateStorage.Items.Lores.Size.S3.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Size: &e3x9",
+      "zh_TW": "&7大小: &e3x9"
+    },
+    "patterns": [
+      "^§7Size: §e3x9$"
+    ]
+  },
+  {
+    "key": "PrivateStorage.Items.Lores.Size.S4.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Size: &e4x9",
+      "zh_TW": "&7大小: &e4x9"
+    },
+    "patterns": [
+      "^§7Size: §e4x9$"
+    ]
+  },
+  {
+    "key": "PrivateStorage.Items.Lores.Size.S5.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Size: &e5x9",
+      "zh_TW": "&7大小: &e5x9"
+    },
+    "patterns": [
+      "^§7Size: §e5x9$"
+    ]
+  },
+  {
+    "key": "PrivateStorage.Items.Lores.Size.S6.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Size: &e6x9",
+      "zh_TW": "&7大小: &e6x9"
+    },
+    "patterns": [
+      "^§7Size: §e6x9$"
+    ]
+  },
+  {
+    "key": "PrivateStorage.Items.Lores.Explosions.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&bWithstands Explosions",
+      "zh_TW": "&b可抗爆炸"
+    },
+    "patterns": [
+      "^§bWithstands Explosions$"
+    ]
+  },
+  {
+    "key": "PrivateStorage.Items.Lores.Public.0.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&rThis Chest can be opened by anyone",
+      "zh_TW": "&r此箱子可以被你所在的區域內"
+    },
+    "patterns": [
+      "^This Chest can be opened by anyone$"
+    ]
+  },
+  {
+    "key": "PrivateStorage.Items.Lores.Public.1.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&rwho can open Chests in your Area",
+      "zh_TW": "&r可以打開箱子的人打開"
+    },
+    "patterns": [
+      "^who can open Chests in your Area$"
+    ]
+  },
+  {
+    "key": "PrivateStorage.Items.Lores.Private.0.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&rThis Chest can only be opened by you",
+      "zh_TW": "&r此箱子只能被你開啟"
+    },
+    "patterns": [
+      "^This Chest can only be opened by you$"
+    ]
+  }
+]

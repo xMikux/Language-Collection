@@ -1,0 +1,47 @@
+#_UNUSED is a keyword to disable message.
+
+#For chat
+plugin-name: X-Mas
+
+messages:
+ plugin-enabled: 聖誕節快樂和新年快樂!
+ timeout: 節日結束了! 明年見!
+ final-wish: 我的朋友們, 祝你們新年快樂!
+
+ tree:
+  grow-lvl-ready: 哇! 按滑鼠右鍵來讓樹長大!
+  grow-lvl-progress: _UNUSED
+  grow-req-list-title: 需要
+  grow-not-enough-place: 沒有足夠的地方讓它成長
+  grow-lvl-max: 這棵樹已達到最大級別!
+  tree-limit: 嘿, 別貪心! (已達到最大擁有上限)
+  destroy-sapling: 這個奇蹟將不會掉落. 你確定?
+  destroy-leaves-santa: 聖誕老人看見了一切.
+  destroy-leaves-tut: 摧毀一棵樹 - 砍原木.
+  destroy-warning: 你確定嗎? 你的進度將會遺失並且不會退回任何資源回來.
+  destroy-tut: 來摧毀你的樹, 請在砍一次.
+  destroy-fail-owner: 這不是你的樹!
+  destroy-complete: 你是個 怪物!
+ gift:
+  luck-message: _UNUSED
+  unluck-message: 聖誕老人可能將你列入黑名單中. 我希望你下次能好運!
+crystal:
+ name: 聖誕水晶
+ lore: 
+  - 聚集了聖誕節的精神
+  - 在樹苗上使用它來充滿魔法!
+help:
+  - '使用 /xmas 顯示插件版本與狀態'
+  - '使用 /xmas give <Name> 來給水晶'
+  - '使用 /xmas gifts 在每棵聖誕樹下生成一些禮物!'
+  - '使用 /xmas end 將插件設定為結束模式'
+
+command:
+ help:
+   - '&2使用 &c/xmas &2顯示插件版本與狀態'
+   - '&2使用 &c/xmas give &2<Name> 來給水晶'
+   - '&2使用 &c/xmas gifts &2在每棵聖誕樹下生成一些禮物!'
+   - '&2使用 &c/xmas end &2將插件設定為結束模式'
+ player-offline: '&c玩家未找到'
+ no-player-name: '&6缺少玩家名稱'
+ giveaway: '&cHo! &2Ho! &cHo! &3看起來是時候檢查禮物了!'

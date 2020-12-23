@@ -1,0 +1,47 @@
+# Category
+
+Category:
+  PrivateStorage: "&7Private Storage - Chests and Safes"
+
+# Items
+
+Items:
+  PRIVATE:
+    SAFE_OAK: "&6Oak Safe"
+    SAFE_BIRCH: "&6Birch Safe"
+    SAFE_SPRUCE: "&6Spruce Safe"
+    SAFE_JUNGLE: "&6Jungle Safe"
+    SAFE_ACACIA: "&6Acacia Safe"
+    SAFE_DARK_OAK: "&6Dark Oak Safe"
+    SAFE_IRON: "&6Iron Safe"
+    SAFE_GOLD: "&6Golden Safe"
+    SAFE_DIAMOND: "&6Diamond Safe"
+    SAFE_EMERALD: "&6Emerald Safe"
+    SAFE_OBSIDIAN: "&6Obsidian Safe"
+    SAFE_STEEL: "&6Steel Safe"
+  PUBLIC:
+    OAK_CHEST: "&6Oak chest"
+    BIRCH_CHEST: "&6Birch chest"
+    SPRUCE_CHEST: "&6Spruce chest"
+    JUNGLE_CHEST: "&6Jungle chest"
+    ACACIA_CHEST: "&6Acacia chest"
+    DARK_OAK_CHEST: "&6Dark Oak chest"
+    IRON_CHEST: "&6Iron chest"
+    GOLDEN_CHEST: "&6Golden chest"
+    DIAMOND_CHEST: "&6Diamond chest"
+    EMERALD_CHEST: "&6Emerald chest"
+    OBSIDIAN_CHEST: "&6Obsidian chest"
+    STEEL_CHEST: "&6Steel chest"
+  Lores:
+    Size:
+      S2: "&7Size: &e2x9"
+      S3: "&7Size: &e3x9"
+      S4: "&7Size: &e4x9"
+      S5: "&7Size: &e5x9"
+      S6: "&7Size: &e6x9"
+    Explosions: "&bWithstands Explosions"
+    Public:
+      - "&rThis Chest can be opened by anyone"
+      - "&rwho can open Chests in your Area"
+    Private:
+      - "&rThis Chest can only be opened by you"
