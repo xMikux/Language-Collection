@@ -5,3 +5,13 @@
 這將不定期更新我所翻過的插件
 歡迎加入此迷你的翻譯群一起討論!
 [Discord](https://discord.gg/GF4CwjFXT9)
+
+## 狀態
+
+| 插件名稱 | 完成狀態 |
+| ---- | ---- |
+| [ElectricSpawners](ElectricSpawners/) | :heavy_check_mark: |
+| [FoxyMachines](FoxyMachines/) | :heavy_check_mark: |
+| [PrivateStorage](PrivateStorage/) | :heavy_check_mark: |
+| [Slimefun4](Slimefun4/) | :x: |
+| [X-Mas](X-Mas/) | :heavy_check_mark: |
