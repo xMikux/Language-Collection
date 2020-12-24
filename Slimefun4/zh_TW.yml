@@ -167,7 +167,7 @@ Gadgets:
         - "&f並在飢餓時自動消耗"
         - "&f只有放在你的背包才有效"
     RESTORED_BACKPACK:
-      name: "&e還原的背包k"
+      name: "&e還原的背包"
       lore:
         - "&7找回丟失的物品"
 
@@ -246,101 +246,101 @@ Jetboots:
 # Multi_Tools
 
 Multi_Tools:
-  LORE: "&eCrouch & Right Click&7 to switch modes"
+  LORE: "&e蹲下&右鍵點擊&7 切換模式"
   DURALUMIN_MULTI_TOOL:
-    name: "&9Multi Tool &7- &eI"
+    name: "&9多功能工具 &7- &eI"
   SOLDER_MULTI_TOOL:
-    name: "&9Multi Tool &7- &eII"
+    name: "&9多功能工具 &7- &eII"
   BILLON_MULTI_TOOL:
-    name: "&9Multi Tool &7- &eIII"
+    name: "&9多功能工具 &7- &eIII"
   STEEL_MULTI_TOOL:
-    name: "&9Multi Tool &7- &eIV"
+    name: "&9多功能工具 &7- &eIV"
   DAMASCUS_STEEL_MULTI_TOOL:
-    name: "&9Multi Tool &7- &eV"
+    name: "&9多功能工具 &7- &eV"
   REINFORCED_ALLOY_MULTI_TOOL:
-    name: "&9Multi Tool &7- &eVI"
+    name: "&9多功能工具 &7- &eVI"
   CARBONADO_MULTI_TOOL:
-    name: "&9Multi Tool &7- &eVII"
+    name: "&9多功能工具 &7- &eVII"
 
 # Food
 
 Food:
   FORTUNE_COOKIE:
-    name: "&6Fortune Cookie"
+    name: "&6幸運餅乾"
     lore:
-      - "&a&oTells you stuff about your Future :o"
+      - "&a&o告訴你關於你未來的東西 :o"
   DIET_COOKIE:
-    name: "&6Diet Cookie"
+    name: "&6減肥餅乾"
     lore:
-      - "&aA very &olightweight &f&acookie."
+      - "&a一個非常&o輕巧的&f&a餅乾."
   MAGIC_SUGAR:
-    name: "&6Magic Sugar"
+    name: "&6魔法糖"
     lore:
-      - "&a&oFeel the Power of Hermes!"
+      - "&a&o感受Hermes(赫密斯)的力量!"
   MONSTER_JERKY:
-    name: "&6Monster Jerky"
+    name: "&6腐肉乾"
     lore:
-      - "&a&oNo longer hungry"
+      - "&a&o不再餓了"
   APPLE_JUICE:
-    name: "&cApple Juice"
+    name: "&c蘋果汁"
   MELON_JUICE:
-    name: "&cMelon Juice"
+    name: "&c西瓜汁"
   CARROT_JUICE:
-    name: "&6Carrot Juice"
+    name: "&6胡蘿蔔汁"
   PUMPKIN_JUICE:
-    name: "&6Pumpkin Juice"
+    name: "&6南瓜汁"
   SWEET_BERRY_JUICE:
-    name: "&cSweet Berry Juice"
+    name: "&c甜莓汁"
   GOLDEN_APPLE_JUICE:
-    name: "&bGolden Apple Juice"
+    name: "&b金蘋果汁"
   BEEF_JERKY:
-    name: "&6Beef Jerky"
+    name: "&6牛肉乾"
   PORK_JERKY:
-    name: "&6Pork Jerky"
+    name: "&6豬肉乾"
   CHICKEN_JERKY:
-    name: "&6Chicken Jerky"
+    name: "&6雞肉乾"
   MUTTON_JERKY:
-    name: "&6Mutton Jerky"
+    name: "&6羊肉乾"
   RABBIT_JERKY:
-    name: "&6Rabbit Jerky"
+    name: "&6兔肉乾"
   FISH_JERKY:
-    name: "&6Fish Jerky"
+    name: "&6魚乾"
   KELP_COOKIE:
-    name: "&2Kelp Cookie"
-  Lores: "&fExtra saturating!"
+    name: "&2海苔餅乾"
+  Lores: "&f額外飽食!"
 
 # Christmas
 
 Christmas:
   CHRISTMAS_MILK:
-    name: "&6Glass of Milk"
+    name: "&6聖誕牛奶"
   CHRISTMAS_CHOCOLATE_MILK:
-    name: "&6Chocolate Milk"
+    name: "&6巧克力牛奶"
   CHRISTMAS_EGG_NOG:
-    name: "&aEgg Nog"
+    name: "&a蛋奶酒"
   CHRISTMAS_APPLE_CIDER:
-    name: "&cApple Cider"
+    name: "&c蘋果醋"
   CHRISTMAS_COOKIE:
-    name: "&aC&ch&ar&ci&as&ct&am&ca&as &aC&co&ao&ck&ai&ce"
+    name: "&a聖誕餅乾"
   CHRISTMAS_FRUIT_CAKE:
-    name: "&aF&cr&au&ci&at &aC&ca&ak&ce"
+    name: "&a水果蛋糕"
   CHRISTMAS_APPLE_PIE:
-    name: "&fApple Pie"
+    name: "&蘋果派"
   CHRISTMAS_HOT_CHOCOLATE:
-    name: "&6Hot Chocolate"
+    name: "&6熱可可"
   CHRISTMAS_CAKE:
-    name: "&aC&ch&ar&ci&as&ct&am&ca&as &aC&ca&ak&ce"
+    name: "&a聖誕蛋糕"
   CHRISTMAS_CARAMEL:
-    name: "&6Caramel"
+    name: "&6焦糖"
   CHRISTMAS_CARAMEL_APPLE:
-    name: "&6Caramel Apple"
+    name: "&6焦糖蘋果"
   CHRISTMAS_CHOCOLATE_APPLE:
-    name: "&6Chocolate Apple"
+    name: "&6巧克力蘋果"
   CHRISTMAS_PRESENT:
-    name: "&aC&ch&ar&ci&as&ct&am&ca&as &aP&cr&ae&cs&ae&cn&at"
+    name: "&a聖誕禮物"
     lore:
-      - "&7From: &cTheBusyBiscuit"
-      - "&7To: &eYou"
+      - "&7來自: &cTheBusyBiscuit"
+      - "&7給: &e你"
 
 # Easter
 
