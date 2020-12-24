@@ -1,0 +1,52 @@
+# Category
+
+Category:
+  name: "&bDynaTech"
+
+# Items
+
+Items:
+  STAINLESS_STEEL: "&6Stainless Steel Ingot"
+  STAINLESS_STEEL_ROTOR: "&6Stainless Steel Rotor"
+  ANCIENT_MACHINE_CORE: "&6Ancient Machine Core"
+  PICNIC_BASKET:
+    name: "&6Picnic Basket"
+    lore:
+      - "&fAllows you to store food"
+      - "&fAutomatically consumes them when you're hungry"
+      - "&fMust be in your inventory"
+  INVENTORY_FILTER:
+    name: "&6Inventory Filter"
+    lore:
+      - "&fFilters out items on the floor that are in it's inventory"
+  ELECTRICAL_STIMULATOR:
+    name: "&6Electrical Stimulator"
+    lore:
+      - "&fAutomatically feed you for energy"
+      - "&f&oStimulate your senses."
+  AUTO_KITCHEN:
+    name: "&6Auto Kitchen"
+    lore:
+      - "&fAutomatically makes Kitchen recipes"
+      - "&f&oSmells like cookies"
+  GROWTH_CHAMBER:
+    name: "&6Growth Chamber"
+    lore:
+      - "&fAutomatically grows some plants."
+      - "&f&oIts like a small greenhouse!"
+  ANTIGRAVITY_BUBBLE:
+    name: "&6Antigravity Bubble"
+    lore:
+      - "&f Creative Flight within an 45 block area"
+  WEATHER_CONTROLLER:
+    name: "&6Weather Controller"
+    lore:
+      - "&fControls the weather when given a key item."
+  WATER_MILL:
+    name: "&6Hydro Generator"
+    lore:
+      - "&fCreates energy from flowing water"
+  DRAGON_GENERATOR:
+    name: "&6Dragon Egg Generator"
+    lore:
+      - "&fCreates energy from the warmth of a Dragon Egg"

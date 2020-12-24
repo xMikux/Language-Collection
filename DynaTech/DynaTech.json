@@ -1,0 +1,299 @@
+[
+  {
+    "key": "DynaTech.Category.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&bDynaTech",
+      "zh_TW": "&bDyna科技"
+    },
+    "patterns": [
+      "^§bDynaTech$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.STAINLESS_STEEL",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Stainless Steel Ingot",
+      "zh_TW": "&6不銹鋼錠"
+    },
+    "patterns": [
+      "^§6Stainless Steel Ingot$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.STAINLESS_STEEL_ROTOR",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Stainless Steel Rotor",
+      "zh_TW": "&6不銹鋼轉子"
+    },
+    "patterns": [
+      "^§6Stainless Steel Rotor$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.ANCIENT_MACHINE_CORE",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Ancient Machine Core",
+      "zh_TW": "&6古代機器核心"
+    },
+    "patterns": [
+      "^§6Ancient Machine Core$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.PICNIC_BASKET.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Picnic Basket",
+      "zh_TW": "&6野餐籃"
+    },
+    "patterns": [
+      "^§6Picnic Basket$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.PICNIC_BASKET.lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&fAllows you to store food",
+      "zh_TW": "&f可儲存食物"
+    },
+    "patterns": [
+      "^§fAllows you to store food$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.PICNIC_BASKET.lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&fAutomatically consumes them when you're hungry",
+      "zh_TW": "&f當你餓的時候自動餵食"
+    },
+    "patterns": [
+      "^§fAutomatically consumes them when you're hungry$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.PICNIC_BASKET.lore.2",
+    "type": "text",
+    "languages": {
+      "en_US": "&fMust be in your inventory",
+      "zh_TW": "&f必須在你的背包內"
+    },
+    "patterns": [
+      "^§fMust be in your inventory$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.INVENTORY_FILTER.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Inventory Filter",
+      "zh_TW": "&6背包過濾器"
+    },
+    "patterns": [
+      "^§6Inventory Filter$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.INVENTORY_FILTER.lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&fFilters out items on the floor that are in it's inventory",
+      "zh_TW": "&f過濾掉地板上的物品在這背包中"
+    },
+    "patterns": [
+      "^§fFilters out items on the floor that are in it's inventory$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.ELECTRICAL_STIMULATOR.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Electrical Stimulator",
+      "zh_TW": "&6電流刺激器"
+    },
+    "patterns": [
+      "^§6Electrical Stimulator$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.ELECTRICAL_STIMULATOR.lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&fAutomatically feed you for energy",
+      "zh_TW": "&f自動餵食你能量"
+    },
+    "patterns": [
+      "^§fAutomatically feed you for energy$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.ELECTRICAL_STIMULATOR.lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&f&oStimulate your senses.",
+      "zh_TW": "&f&o刺激你的感官."
+    },
+    "patterns": [
+      "^§f§oStimulate your senses.$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.AUTO_KITCHEN.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Auto Kitchen",
+      "zh_TW": "&6自動廚房"
+    },
+    "patterns": [
+      "^§6Auto Kitchen$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.AUTO_KITCHEN.lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&fAutomatically makes Kitchen recipes",
+      "zh_TW": "&f自動製作廚房的配方"
+    },
+    "patterns": [
+      "^§fAutomatically makes Kitchen recipes$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.AUTO_KITCHEN.lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&f&oSmells like cookies",
+      "zh_TW": "&f&o聞起來像餅乾"
+    },
+    "patterns": [
+      "^§f§oSmells like cookies$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.GROWTH_CHAMBER.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Growth Chamber",
+      "zh_TW": "&6生長倉"
+    },
+    "patterns": [
+      "^§6Growth Chamber$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.GROWTH_CHAMBER.lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&fAutomatically grows some plants.",
+      "zh_TW": "&f自動生長一些植物."
+    },
+    "patterns": [
+      "^§fAutomatically grows some plants.$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.GROWTH_CHAMBER.lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&f&oIts like a small greenhouse!",
+      "zh_TW": "&f&o就像是一個小溫室!"
+    },
+    "patterns": [
+      "^§f§oIts like a small greenhouse!$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.ANTIGRAVITY_BUBBLE.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Antigravity Bubble",
+      "zh_TW": "&6反重力泡泡"
+    },
+    "patterns": [
+      "^§6Antigravity Bubble$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.ANTIGRAVITY_BUBBLE.lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&f Creative Flight within an 45 block area",
+      "zh_TW": "&f 創造飛行在45格方塊範圍內"
+    },
+    "patterns": [
+      "^§f Creative Flight within an 45 block area$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.WEATHER_CONTROLLER.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Weather Controller",
+      "zh_TW": "&6天氣控制器"
+    },
+    "patterns": [
+      "^§6Weather Controller$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.WEATHER_CONTROLLER.lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&fControls the weather when given a key item.",
+      "zh_TW": "&f給予特定的物品來控制天氣."
+    },
+    "patterns": [
+      "^§fControls the weather when given a key item.$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.WATER_MILL.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Hydro Generator",
+      "zh_TW": "&6水輪發電機"
+    },
+    "patterns": [
+      "^§6Hydro Generator$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.WATER_MILL.lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&fCreates energy from flowing water",
+      "zh_TW": "&f通過流動的水來產生能源"
+    },
+    "patterns": [
+      "^§fCreates energy from flowing water$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.DRAGON_GENERATOR.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Dragon Egg Generator",
+      "zh_TW": "&6龍蛋發電機"
+    },
+    "patterns": [
+      "^§6Dragon Egg Generator$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.DRAGON_GENERATOR.lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&fCreates energy from the warmth of a Dragon Egg",
+      "zh_TW": "&f從龍蛋的溫暖中產生能源"
+    },
+    "patterns": [
+      "^§fCreates energy from the warmth of a Dragon Egg$"
+    ]
+  }
+]

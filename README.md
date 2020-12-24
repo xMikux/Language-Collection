@@ -10,6 +10,7 @@
 
 | 插件名稱 | 完成狀態 |
 | ---- | ---- |
+| [DynaTech](DynaTech/) | :heavy_check_mark: |
 | [ElectricSpawners](ElectricSpawners/) | :heavy_check_mark: |
 | [FoxyMachines](FoxyMachines/) | :heavy_check_mark: |
 | [PrivateStorage](PrivateStorage/) | :heavy_check_mark: |

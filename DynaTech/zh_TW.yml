@@ -1,0 +1,52 @@
+# Category
+
+Category:
+  name: "&bDyna科技"
+
+# Items
+
+Items:
+  STAINLESS_STEEL: "&6不銹鋼錠"
+  STAINLESS_STEEL_ROTOR: "&6不銹鋼轉子"
+  ANCIENT_MACHINE_CORE: "&6古代機器核心"
+  PICNIC_BASKET:
+    name: "&6野餐籃"
+    lore:
+      - "&f可儲存食物"
+      - "&f當你餓的時候自動餵食"
+      - "&f必須在你的背包內"
+  INVENTORY_FILTER:
+    name: "&6背包過濾器"
+    lore:
+      - "&f過濾掉地板上的物品在這背包中"
+  ELECTRICAL_STIMULATOR:
+    name: "&6電流刺激器"
+    lore:
+      - "&f自動餵食你能量"
+      - "&f&o刺激你的感官."
+  AUTO_KITCHEN:
+    name: "&6自動廚房"
+    lore:
+      - "&f自動製作廚房的配方"
+      - "&f&o聞起來像餅乾"
+  GROWTH_CHAMBER:
+    name: "&6生長倉"
+    lore:
+      - "&f自動生長一些植物."
+      - "&f&o就像是一個小溫室!"
+  ANTIGRAVITY_BUBBLE:
+    name: "&6反重力泡泡"
+    lore:
+      - "&f 創造飛行在45格方塊範圍內"
+  WEATHER_CONTROLLER:
+    name: "&6天氣控制器"
+    lore:
+      - "&f給予特定的物品來控制天氣."
+  WATER_MILL:
+    name: "&6水輪發電機"
+    lore:
+      - "&f通過流動的水來產生能源"
+  DRAGON_GENERATOR:
+    name: "&6龍蛋發電機"
+    lore:
+      - "&f從龍蛋的溫暖中產生能源"
