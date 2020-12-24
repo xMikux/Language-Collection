@@ -140,26 +140,26 @@ Gadgets:
 
   Backpacks:
     BACKPACK_SMALL:
-      name: "&eSmall Backpack"
+      name: "&e小背包"
     MEDIUM_BACKPACK:
-      name: "&eBackpack"
+      name: "&e背包"
     BACKPACK_LARGE:
-      name: "&eLarge Backpack"
+      name: "&e大背包"
     WOVEN_BACKPACK:
-      name: "&eWoven Backpack"
+      name: "&e編織背包"
     GILDED_BACKPACK:
-      name: "&eGilded Backpack"
+      name: "&e鍍金背包"
     RADIANT_BACKPACK:
-      name: "&eRadiant Backpack"
+      name: "&e登山背包"
     BOUND_BACKPACK:
-      name: "&cSoulbound Backpack"
+      name: "&c靈魂綁定背包"
     Size:
-      Small: "&7Size: &e9"
-      Medium: "&7Size: &e18"
-      Large: "&7Size: &e27"
-      Woven: "&7Size: &e36"
-      Gilded: "&7Size: &e45"
-      Radiant: "&7Size: &e54 (Double chest)"
+      Small: "&7大小: &e9"
+      Medium: "&7大小: &e18"
+      Large: "&7大小: &e27 （1個箱子）"
+      Woven: "&7大小: &e36"
+      Gilded: "&7大小: &e45"
+      Radiant: "&7大小: &e54 (2個箱子)"
     COOLER:
       name: "&bCooler"
       lore:
