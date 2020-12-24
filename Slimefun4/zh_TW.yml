@@ -167,81 +167,81 @@ Gadgets:
         - "&f並在飢餓時自動消耗"
         - "&f只有放在你的背包才有效"
     RESTORED_BACKPACK:
-      name: "&eRestored Backpack"
+      name: "&e還原的背包k"
       lore:
-        - "&7Retrieve your lost items"
+        - "&7找回丟失的物品"
 
 # Jetpacks
 
 Jetpacks:
   DURALUMIN_JETPACK:
-    name: "&9Electric Jetpack &7- &eI"
+    name: "&9電動噴氣背包 &7- &eI"
     lore:
-      - "&8\u21E8 &7Thrust: &c0.35"
+      - "&8\u21E8 &7推力: &c0.35"
   SOLDER_JETPACK:
-    name: "&9Electric Jetpack &7- &eII"
+    name: "&9電動噴氣背包 &7- &eII"
     lore:
-      - "&8\u21E8 &7Thrust: &c0.4"
+      - "&8\u21E8 &7推力: &c0.4"
   BILLON_JETPACK:
-    name: "&9Electric Jetpack &7- &eIII"
+    name: "&9電動噴氣背包 &7- &eIII"
     lore:
-      - "&8\u21E8 &7Thrust: &c0.45"
+      - "&8\u21E8 &7推力: &c0.45"
   STEEL_JETPACK:
-    name: "&9Electric Jetpack &7- &eIV"
+    name: "&9電動噴氣背包 &7- &eIV"
     lore:
-      - "&8\u21E8 &7Thrust: &c0.5"
+      - "&8\u21E8 &7推力: &c0.5"
   DAMASCUS_STEEL_JETPACK:
-    name: "&9Electric Jetpack &7- &eV"
+    name: "&9電動噴氣背包 &7- &eV"
     lore:
-      - "&8\u21E8 &7Thrust: &c0.55"
+      - "&8\u21E8 &7推力: &c0.55"
   REINFORCED_ALLOY_JETPACK:
-    name: "&9Electric Jetpack &7- &eVI"
+    name: "&9電動噴氣背包 &7- &eVI"
     lore:
-      - "&8\u21E8 &7Thrust: &c0.6"
+      - "&8\u21E8 &7推力: &c0.6"
   CARBONADO_JETPACK:
-    name: "&9Electric Jetpack &7- &eVII"
+    name: "&9電動噴氣背包 &7- &eVII"
     lore:
-      - "&8\u21E8 &7Thrust: &c0.7"
+      - "&8\u21E8 &7推力: &c0.7"
   ARMORED_JETPACK:
-    name: "&9Armored Jetpack"
+    name: "&9裝甲噴氣背包"
     lore:
-      - "&8\u21E8 &7Thrust: &c0.45"
+      - "&8\u21E8 &7推力: &c0.45"
 
 # Jetboots
 
 Jetboots:
   DURALUMIN_JETBOOTS:
-    name: "&9Jet Boots &7- &eI"
+    name: "&9噴射靴 &7- &eI"
     lore:
-      - "&8\u21E8 &7Accuracy: &c50%"
+      - "&8\u21E8 &7穩定性: &c50%"
   SOLDER_JETBOOTS:
-    name: "&9Jet Boots &7- &eII"
+    name: "&9噴射靴 &7- &eII"
     lore:
-      - "&8\u21E8 &7Accuracy: &660%"
+      - "&8\u21E8 &7穩定性: &660%"
   BILLON_JETBOOTS:
-    name: "&9Jet Boots &7- &eIII"
+    name: "&9噴射靴 &7- &eIII"
     lore:
-      - "&8\u21E8 &7Accuracy: &665%"
+      - "&8\u21E8 &7穩定性: &665%"
   STEEL_JETBOOTS:
-    name: "&9Jet Boots &7- &eIV"
+    name: "&9噴射靴 &7- &eIV"
     lore:
-      - "&8\u21E8 &7Accuracy: &e70%"
+      - "&8\u21E8 &7穩定性: &e70%"
   DAMASCUS_STEEL_JETBOOTS:
-    name: "&9Jet Boots &7- &eV"
+    name: "&9噴射靴 &7- &eV"
     lore:
-      - "&8\u21E8 &7Accuracy: &a75%"
+      - "&8\u21E8 &7穩定性: &a75%"
   REINFORCED_ALLOY_JETBOOTS:
-    name: "&9Jet Boots &7- &eVI"
+    name: "&9噴射靴 &7- &eVI"
     lore:
-      - "&8\u21E8 &7Accuracy: &c80%"
+      - "&8\u21E8 &7穩定性: &c80%"
   CARBONADO_JETBOOTS:
-    name: "&9Jet Boots &7- &eVII"
+    name: "&9噴射靴 &7- &eVII"
     lore:
-      - "&8\u21E8 &7Accuracy: &c99.9%"
+      - "&8\u21E8 &7穩定性: &c99.9%"
   ARMORED_JETBOOTS:
-    name: "&9Armored Jet Boots"
+    name: "&9裝甲噴射靴"
     lore:
-      - "&8\u21E8 &7Accuracy: &e70%"
+      - "&8\u21E8 &7穩定性: &e70%"
 
 # Multi_Tools
 
