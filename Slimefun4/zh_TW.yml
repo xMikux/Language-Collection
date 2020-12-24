@@ -161,11 +161,11 @@ Gadgets:
       Gilded: "&7大小: &e45"
       Radiant: "&7大小: &e54 (2個箱子)"
     COOLER:
-      name: "&bCooler"
+      name: "&b冰箱"
       lore:
-        - "&fAllows you to store Juices/Smoothies"
-        - "&fand automatically consumes them when you are hungry"
-        - "&fand you have this in your Inventory"
+        - "&f只能存儲果汁/冰沙"
+        - "&f並在飢餓時自動消耗"
+        - "&f只有放在你的背包才有效"
     RESTORED_BACKPACK:
       name: "&eRestored Backpack"
       lore:
