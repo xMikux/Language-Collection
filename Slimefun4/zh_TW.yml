@@ -321,15 +321,15 @@ Christmas:
   CHRISTMAS_APPLE_CIDER:
     name: "&c蘋果醋"
   CHRISTMAS_COOKIE:
-    name: "&a聖誕餅乾"
+    name: "&a聖&c誕&a餅&c乾"
   CHRISTMAS_FRUIT_CAKE:
-    name: "&a水果蛋糕"
+    name: "&a水&c果&a蛋&c糕"
   CHRISTMAS_APPLE_PIE:
     name: "&蘋果派"
   CHRISTMAS_HOT_CHOCOLATE:
     name: "&6熱可可"
   CHRISTMAS_CAKE:
-    name: "&a聖誕蛋糕"
+    name: "&a聖&c誕&a蛋&c糕"
   CHRISTMAS_CARAMEL:
     name: "&6焦糖"
   CHRISTMAS_CARAMEL_APPLE:
@@ -337,7 +337,7 @@ Christmas:
   CHRISTMAS_CHOCOLATE_APPLE:
     name: "&6巧克力蘋果"
   CHRISTMAS_PRESENT:
-    name: "&a聖誕禮物"
+    name: "&a聖&c誕&a禮&c物"
     lore:
       - "&7來自: &cTheBusyBiscuit"
       - "&7給: &e你"
