@@ -154,12 +154,12 @@ Gadgets:
     BOUND_BACKPACK:
       name: "&c靈魂綁定背包"
     Size:
-      Small: "&7大小: &e9"
-      Medium: "&7大小: &e18"
-      Large: "&7大小: &e27 （1個箱子）"
-      Woven: "&7大小: &e36"
-      Gilded: "&7大小: &e45"
-      Radiant: "&7大小: &e54 (2個箱子)"
+      Small: "&7大小: &e9格"
+      Medium: "&7大小: &e18格"
+      Large: "&7大小: &e27格(1個箱子)"
+      Woven: "&7大小: &e36格"
+      Gilded: "&7大小: &e45格"
+      Radiant: "&7大小: &e54格(2個箱子)"
     COOLER:
       name: "&b冰箱"
       lore:
