@@ -1,6 +1,6 @@
 # Slimefun4
 
-Slimefun的附加 Slimefun4
+Slimefun4 本體核心
 
 請**注意** 
 這是使用 **Patterns** 這將會造成你的伺服器極大的負擔
