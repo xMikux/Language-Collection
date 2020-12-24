@@ -1,12 +1,23 @@
 # Slimefun4
 
-讓Slimefun可以有多語言支持.
+Slimefun的附加 Slimefun4
 
-[Slimefun4](https://github.com/Slimefun/Slimefun4)
+請**注意** 
+這是使用 **Patterns** 這將會造成你的伺服器極大的負擔
+因為它將會檢查每個訊息. [Triton Patterns 文檔](https://triton.rexcantor64.com/concepts/patterns.html#using-the-feature)
 
-非官方繁體中文
+## 安裝方式
 
-[Slimefun](https://github.com/xMikux/Slimefun4)
+下載[Triton](https://www.spigotmc.org/resources/triton-translate-your-server.30331/)
+並安裝官方黏液科技附加! [官方構建頁面](https://thebusybiscuit.github.io/builds/)
+將json檔案放進```plugins/Triton/translations```內 triton reload即可!
+這是一種既可以用官方版本又可以有繁體中文的方法.
 
-請注意 這是使用 Patterns 他會造成你的伺服器極大的負擔<br>
-因為它將會檢查每個訊息
+你也可以直接使用非官方的繁體中文 詳細請參考其他頁面.
+
+## 源碼
+
+| 來源 | 連結 |
+| ---- | ---- |
+| 官方 | [源碼](https://github.com/Slimefun/Slimefun4) |
+| 非官方繁體 | [源碼](https://github.com/xMikux/Slimefun4) |
