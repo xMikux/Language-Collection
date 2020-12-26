@@ -140,310 +140,310 @@ Gadgets:
 
   Backpacks:
     BACKPACK_SMALL:
-      name: "&eSmall Backpack"
+      name: "&e小背包"
     MEDIUM_BACKPACK:
-      name: "&eBackpack"
+      name: "&e背包"
     BACKPACK_LARGE:
-      name: "&eLarge Backpack"
+      name: "&e大背包"
     WOVEN_BACKPACK:
-      name: "&eWoven Backpack"
+      name: "&e編織背包"
     GILDED_BACKPACK:
-      name: "&eGilded Backpack"
+      name: "&e鍍金背包"
     RADIANT_BACKPACK:
-      name: "&eRadiant Backpack"
+      name: "&e登山背包"
     BOUND_BACKPACK:
-      name: "&cSoulbound Backpack"
+      name: "&c靈魂綁定背包"
     Size:
-      Small: "&7Size: &e9"
-      Medium: "&7Size: &e18"
-      Large: "&7Size: &e27"
-      Woven: "&7Size: &e36"
-      Gilded: "&7Size: &e45"
-      Radiant: "&7Size: &e54 (Double chest)"
+      Small: "&7大小: &e9格"
+      Medium: "&7大小: &e18格"
+      Large: "&7大小: &e27格(1個箱子)"
+      Woven: "&7大小: &e36格"
+      Gilded: "&7大小: &e45格"
+      Radiant: "&7大小: &e54格(2個箱子)"
     COOLER:
-      name: "&bCooler"
+      name: "&b冰箱"
       lore:
-        - "&fAllows you to store Juices/Smoothies"
-        - "&fand automatically consumes them when you are hungry"
-        - "&fand you have this in your Inventory"
+        - "&f只能存儲果汁/冰沙"
+        - "&f並在飢餓時自動消耗"
+        - "&f只有放在你的背包才有效"
     RESTORED_BACKPACK:
-      name: "&eRestored Backpack"
+      name: "&e還原的背包"
       lore:
-        - "&7Retrieve your lost items"
+        - "&7找回丟失的物品"
 
 # Jetpacks
 
 Jetpacks:
   DURALUMIN_JETPACK:
-    name: "&9Electric Jetpack &7- &eI"
+    name: "&9電動噴氣背包 &7- &eI"
     lore:
-      - "&8\u21E8 &7Thrust: &c0.35"
+      - "&8\u21E8 &7推力: &c0.35"
   SOLDER_JETPACK:
-    name: "&9Electric Jetpack &7- &eII"
+    name: "&9電動噴氣背包 &7- &eII"
     lore:
-      - "&8\u21E8 &7Thrust: &c0.4"
+      - "&8\u21E8 &7推力: &c0.4"
   BILLON_JETPACK:
-    name: "&9Electric Jetpack &7- &eIII"
+    name: "&9電動噴氣背包 &7- &eIII"
     lore:
-      - "&8\u21E8 &7Thrust: &c0.45"
+      - "&8\u21E8 &7推力: &c0.45"
   STEEL_JETPACK:
-    name: "&9Electric Jetpack &7- &eIV"
+    name: "&9電動噴氣背包 &7- &eIV"
     lore:
-      - "&8\u21E8 &7Thrust: &c0.5"
+      - "&8\u21E8 &7推力: &c0.5"
   DAMASCUS_STEEL_JETPACK:
-    name: "&9Electric Jetpack &7- &eV"
+    name: "&9電動噴氣背包 &7- &eV"
     lore:
-      - "&8\u21E8 &7Thrust: &c0.55"
+      - "&8\u21E8 &7推力: &c0.55"
   REINFORCED_ALLOY_JETPACK:
-    name: "&9Electric Jetpack &7- &eVI"
+    name: "&9電動噴氣背包 &7- &eVI"
     lore:
-      - "&8\u21E8 &7Thrust: &c0.6"
+      - "&8\u21E8 &7推力: &c0.6"
   CARBONADO_JETPACK:
-    name: "&9Electric Jetpack &7- &eVII"
+    name: "&9電動噴氣背包 &7- &eVII"
     lore:
-      - "&8\u21E8 &7Thrust: &c0.7"
+      - "&8\u21E8 &7推力: &c0.7"
   ARMORED_JETPACK:
-    name: "&9Armored Jetpack"
+    name: "&9裝甲噴氣背包"
     lore:
-      - "&8\u21E8 &7Thrust: &c0.45"
+      - "&8\u21E8 &7推力: &c0.45"
 
 # Jetboots
 
 Jetboots:
   DURALUMIN_JETBOOTS:
-    name: "&9Jet Boots &7- &eI"
+    name: "&9噴射靴 &7- &eI"
     lore:
-      - "&8\u21E8 &7Accuracy: &c50%"
+      - "&8\u21E8 &7穩定性: &c50%"
   SOLDER_JETBOOTS:
-    name: "&9Jet Boots &7- &eII"
+    name: "&9噴射靴 &7- &eII"
     lore:
-      - "&8\u21E8 &7Accuracy: &660%"
+      - "&8\u21E8 &7穩定性: &660%"
   BILLON_JETBOOTS:
-    name: "&9Jet Boots &7- &eIII"
+    name: "&9噴射靴 &7- &eIII"
     lore:
-      - "&8\u21E8 &7Accuracy: &665%"
+      - "&8\u21E8 &7穩定性: &665%"
   STEEL_JETBOOTS:
-    name: "&9Jet Boots &7- &eIV"
+    name: "&9噴射靴 &7- &eIV"
     lore:
-      - "&8\u21E8 &7Accuracy: &e70%"
+      - "&8\u21E8 &7穩定性: &e70%"
   DAMASCUS_STEEL_JETBOOTS:
-    name: "&9Jet Boots &7- &eV"
+    name: "&9噴射靴 &7- &eV"
     lore:
-      - "&8\u21E8 &7Accuracy: &a75%"
+      - "&8\u21E8 &7穩定性: &a75%"
   REINFORCED_ALLOY_JETBOOTS:
-    name: "&9Jet Boots &7- &eVI"
+    name: "&9噴射靴 &7- &eVI"
     lore:
-      - "&8\u21E8 &7Accuracy: &c80%"
+      - "&8\u21E8 &7穩定性: &c80%"
   CARBONADO_JETBOOTS:
-    name: "&9Jet Boots &7- &eVII"
+    name: "&9噴射靴 &7- &eVII"
     lore:
-      - "&8\u21E8 &7Accuracy: &c99.9%"
+      - "&8\u21E8 &7穩定性: &c99.9%"
   ARMORED_JETBOOTS:
-    name: "&9Armored Jet Boots"
+    name: "&9裝甲噴射靴"
     lore:
-      - "&8\u21E8 &7Accuracy: &e70%"
+      - "&8\u21E8 &7穩定性: &e70%"
 
 # Multi_Tools
 
 Multi_Tools:
-  LORE: "&eCrouch & Right Click&7 to switch modes"
+  LORE: "&e蹲下&右鍵點擊&7 切換模式"
   DURALUMIN_MULTI_TOOL:
-    name: "&9Multi Tool &7- &eI"
+    name: "&9多功能工具 &7- &eI"
   SOLDER_MULTI_TOOL:
-    name: "&9Multi Tool &7- &eII"
+    name: "&9多功能工具 &7- &eII"
   BILLON_MULTI_TOOL:
-    name: "&9Multi Tool &7- &eIII"
+    name: "&9多功能工具 &7- &eIII"
   STEEL_MULTI_TOOL:
-    name: "&9Multi Tool &7- &eIV"
+    name: "&9多功能工具 &7- &eIV"
   DAMASCUS_STEEL_MULTI_TOOL:
-    name: "&9Multi Tool &7- &eV"
+    name: "&9多功能工具 &7- &eV"
   REINFORCED_ALLOY_MULTI_TOOL:
-    name: "&9Multi Tool &7- &eVI"
+    name: "&9多功能工具 &7- &eVI"
   CARBONADO_MULTI_TOOL:
-    name: "&9Multi Tool &7- &eVII"
+    name: "&9多功能工具 &7- &eVII"
 
 # Food
 
 Food:
   FORTUNE_COOKIE:
-    name: "&6Fortune Cookie"
+    name: "&6幸運餅乾"
     lore:
-      - "&a&oTells you stuff about your Future :o"
+      - "&a&o告訴你關於你未來的東西 :o"
   DIET_COOKIE:
-    name: "&6Diet Cookie"
+    name: "&6減肥餅乾"
     lore:
-      - "&aA very &olightweight &f&acookie."
+      - "&a一個非常&o輕巧的&f&a餅乾."
   MAGIC_SUGAR:
-    name: "&6Magic Sugar"
+    name: "&6魔法糖"
     lore:
-      - "&a&oFeel the Power of Hermes!"
+      - "&a&o感受Hermes(赫密斯)的力量!"
   MONSTER_JERKY:
-    name: "&6Monster Jerky"
+    name: "&6腐肉乾"
     lore:
-      - "&a&oNo longer hungry"
+      - "&a&o不再餓了"
   APPLE_JUICE:
-    name: "&cApple Juice"
+    name: "&c蘋果汁"
   MELON_JUICE:
-    name: "&cMelon Juice"
+    name: "&c西瓜汁"
   CARROT_JUICE:
-    name: "&6Carrot Juice"
+    name: "&6胡蘿蔔汁"
   PUMPKIN_JUICE:
-    name: "&6Pumpkin Juice"
+    name: "&6南瓜汁"
   SWEET_BERRY_JUICE:
-    name: "&cSweet Berry Juice"
+    name: "&c甜莓汁"
   GOLDEN_APPLE_JUICE:
-    name: "&bGolden Apple Juice"
+    name: "&b金蘋果汁"
   BEEF_JERKY:
-    name: "&6Beef Jerky"
+    name: "&6牛肉乾"
   PORK_JERKY:
-    name: "&6Pork Jerky"
+    name: "&6豬肉乾"
   CHICKEN_JERKY:
-    name: "&6Chicken Jerky"
+    name: "&6雞肉乾"
   MUTTON_JERKY:
-    name: "&6Mutton Jerky"
+    name: "&6羊肉乾"
   RABBIT_JERKY:
-    name: "&6Rabbit Jerky"
+    name: "&6兔肉乾"
   FISH_JERKY:
-    name: "&6Fish Jerky"
+    name: "&6魚乾"
   KELP_COOKIE:
-    name: "&2Kelp Cookie"
-  Lores: "&fExtra saturating!"
+    name: "&2海苔餅乾"
+  Lores: "&f額外飽食!"
 
 # Christmas
 
 Christmas:
   CHRISTMAS_MILK:
-    name: "&6Glass of Milk"
+    name: "&6聖誕牛奶"
   CHRISTMAS_CHOCOLATE_MILK:
-    name: "&6Chocolate Milk"
+    name: "&6巧克力牛奶"
   CHRISTMAS_EGG_NOG:
-    name: "&aEgg Nog"
+    name: "&a蛋奶酒"
   CHRISTMAS_APPLE_CIDER:
-    name: "&cApple Cider"
+    name: "&c蘋果醋"
   CHRISTMAS_COOKIE:
-    name: "&aC&ch&ar&ci&as&ct&am&ca&as &aC&co&ao&ck&ai&ce"
+    name: "&a聖&c誕&a餅&c乾"
   CHRISTMAS_FRUIT_CAKE:
-    name: "&aF&cr&au&ci&at &aC&ca&ak&ce"
+    name: "&a水&c果&a蛋&c糕"
   CHRISTMAS_APPLE_PIE:
-    name: "&fApple Pie"
+    name: "&蘋果派"
   CHRISTMAS_HOT_CHOCOLATE:
-    name: "&6Hot Chocolate"
+    name: "&6熱可可"
   CHRISTMAS_CAKE:
-    name: "&aC&ch&ar&ci&as&ct&am&ca&as &aC&ca&ak&ce"
+    name: "&a聖&c誕&a蛋&c糕"
   CHRISTMAS_CARAMEL:
-    name: "&6Caramel"
+    name: "&6焦糖"
   CHRISTMAS_CARAMEL_APPLE:
-    name: "&6Caramel Apple"
+    name: "&6焦糖蘋果"
   CHRISTMAS_CHOCOLATE_APPLE:
-    name: "&6Chocolate Apple"
+    name: "&6巧克力蘋果"
   CHRISTMAS_PRESENT:
-    name: "&aC&ch&ar&ci&as&ct&am&ca&as &aP&cr&ae&cs&ae&cn&at"
+    name: "&a聖&c誕&a禮&c物"
     lore:
-      - "&7From: &cTheBusyBiscuit"
-      - "&7To: &eYou"
+      - "&7來自: &cTheBusyBiscuit"
+      - "&7給: &e你"
 
 # Easter
 
 Easter:
   EASTER_EGG:
-    name: "&fEaster Egg"
+    name: "&f復活節彩蛋"
     lore:
-      - "&dHappy Easter! Have a surprise."
+      - "&d復活節快樂!有驚喜"
   CARROT_PIE:
-    name: "&6Carrot Pie"
+    name: "&6胡蘿蔔派"
   EASTER_APPLE_PIE:
-    name: "&fApple Pie"
+    name: "&f蘋果派"
 
 # Weapons
 
 Weapons:
   GRANDMAS_WALKING_STICK:
-    name: "&7Grandmas Walking Stick"
+    name: "&7奶奶的拐杖"
   GRANDPAS_WALKING_STICK:
-    name: "&7Grandpas Walking Stick"
+    name: "&7爺爺的拐杖"
   SWORD_OF_BEHEADING:
-    name: "&6Sword of Beheading"
+    name: "&6斬首巨劍"
     lore:
-      - "&7Beheading II"
-      - "&fHas a chance to behead Mobs"
-      - "&f(even a higher chance for Wither Skeletons)"
+      - "&7斬首 II"
+      - "&f有機率斬首怪物"
+      - "&f(「凋靈骷髏」的機率更高)"
   BLADE_OF_VAMPIRES:
-    name: "&cBlade of Vampires"
+    name: "&c吸血鬼之劍"
     lore:
-      - "&7Life Steal I"
-      - "&fEverytime you attack something"
-      - "&fyou have a 45% chance to"
-      - "&frecover 2 Hearts of your Health"
+      - "&7生命吸取 I"
+      - "&f每當你攻擊某物"
+      - "&f你有45%的機率"
+      - "&恢復2顆心"
   SEISMIC_AXE:
-    name: "&aSeismic Axe"
+    name: "&a地震斧"
     lore:
-      - "&7&oA portable Earthquake..."
+      - "&7&o隨時都有地震..."
 
 # Bows
 
 Bows:
   EXPLOSIVE_BOW:
-    name: "&cExplosive Bow"
+    name: "&c爆裂弓"
     lore:
-      - "&fAny Arrows fired using this Bow"
-      - "&fwill launch hit enemys into the air"
+      - "&f使用這把弓發射的任何箭"
+      - "&f擊中敵人後會產生爆炸"
   ICY_BOW:
-    name: "&bIcy Bow"
+    name: "&b寒冰弓"
     lore:
-      - "&fAny Arrows fired using this Bow"
-      - "&fwill prevent hit enemys from moving"
-      - "&ffor 2 seconds"
+      - "&f使用這把弓發射的任何箭"
+      - "&f將防止被擊中的敵人移動"
+      - "&f2秒鐘"
 
 # Tools
 
 Tools:
   SMELTERS_PICKAXE:
-    name: "&6Smelter's Pickaxe"
+    name: "&6熔爐鎬"
     lore:
-      - "&c&lAuto-Smelting"
-      - "&9Works with Fortune"
+      - "&c&l自動熔煉"
+      - "&9伴隨著一堆財富"
   LUMBER_AXE:
-    name: "&6Lumber Axe"
+    name: "&6伐木斧"
     lore:
-      - "&a&oCuts down the whole Tree..."
+      - "&a&o砍倒整棵樹..."
   PICKAXE_OF_CONTAINMENT:
-    name: "&cPickaxe of Containment"
+    name: "&c生怪磚之鎬"
     lore:
-      - "&9Can pickup Spawners"
+      - "&9可以挖起生怪磚"
   HERCULES_PICKAXE:
-    name: "&9Hercules' Pickaxe"
+    name: "&9粉碎鎬"
     lore:
-      - "&fSo powerful that it"
-      - "&fcrushes all mined Ores"
-      - "&finto Dust..."
+      - "&f它如此強大以至於"
+      - "&f把所有開採的礦石"
+      - "&都粉碎成了塵土..."
   EXPLOSIVE_PICKAXE:
-    name: "&eExplosive Pickaxe"
+    name: "&e爆炸鎬"
     lore:
-      - "&fAllows you to mine a good bit"
-      - "&fof Blocks at once..."
-      - "&9Works with Fortune"
+      - "&f可以讓你更好地挖掘"
+      - "&f大量的方塊..."
+      - "&9伴隨著一堆財富"
   EXPLOSIVE_SHOVEL:
-    name: "&eExplosive Shovel"
+    name: "&e爆炸鏟"
     lore:
-      - "&fAllows you to mine a good bit"
-      - "&fof diggable Blocks at once..."
+      - "&f可以讓你更好地挖掘"
+      - "&f一次可挖大量的方塊..."
   PICKAXE_OF_THE_SEEKER:
-    name: "&aPickaxe of the Seeker"
+    name: "&a尋礦鎬"
     lore:
-      - "&fWill always point you to the nearest Ore"
-      - "&fbut might get damaged when doing it"
-      - "&7&eRight Click&7 to be pointed to the nearest Ore"
+      - "&f總是將你指向最近的礦石"
+      - "&f但會消耗耐久度"
+      - "&7&e右鍵點擊&7 指向最近的礦石"
   COBALT_PICKAXE:
-    name: "&9Cobalt Pickaxe"
+    name: "&9鈷鎬"
   PICKAXE_OF_VEIN_MINING:
-    name: "&ePickaxe of Vein Mining"
+    name: "&e連鎖鎬"
     lore:
-      - "&fThis Pickaxe will dig out"
-      - "&fwhole Veins of Ores..."
+      - "&f可以一次挖整個礦脈..."
+      - "&f(類似連鎖挖礦)"
   CLIMBING_PICK:
-    name: "&bClimbing Pick"
+    name: "&b攀岩鎬"
     lore:
-      - "&fAllows you to climb certain surfaces"
-      - "&fby right-clicking."
-      - "&fEnchant this pick with Efficiency to"
-      - "&fclimb even faster!"
+      - "&f讓你在右鍵時"
+      - "&f攀爬在特定平面上."
+      - "&f附魔效率可讓攀爬速度提升"
+      - ""
