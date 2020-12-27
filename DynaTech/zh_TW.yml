@@ -54,7 +54,7 @@ Items:
     name: "&6切屑發電機"
     lore:
       - "&f從損壞的物品提取能源 (物品必須有耐久度)"
-      - "&8\u21E8 &e\u26A12 &72 J 每個耐久度"
+      - "&8\u21E8 &e\u26A1 &72 J 每個耐久度"
   CULINARY_GENERATOR:
     name: "&6烹飪發電機"
     lore:
