@@ -5,12 +5,14 @@
 這將不定期更新我所翻過的插件
 歡迎加入此迷你的翻譯群一起討論!
 [Discord](https://discord.gg/GF4CwjFXT9)
+如果認為此方法過於麻煩 也可以加入上方的Discord獲取非官方繁體構建頁面.
 
 ## 狀態
 
 | 插件名稱 | 完成狀態 |
 | ---- | ---- |
 | [DynaTech](DynaTech/) | :heavy_check_mark: |
+| [EcoPower](EcoPower/) | :heavy_check_mark: |
 | [ElectricSpawners](ElectricSpawners/) | :heavy_check_mark: |
 | [FoxyMachines](FoxyMachines/) | :heavy_check_mark: |
 | [PrivateStorage](PrivateStorage/) | :heavy_check_mark: |

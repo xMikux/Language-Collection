@@ -1,0 +1,67 @@
+# Category
+
+Category:
+  name: "&2綠能發電"
+
+# Items
+
+Items:
+  STEEL_ROTOR: "&b鋼輪子"
+  STEAM_TURBINE:
+    name: 
+      - "&e簡易蒸氣發電機"
+      - "&e簡易蒸氣發電機"
+    lore: "&e簡易蒸氣發電機 &7的一部分"
+  STEAM_TURBINE_2:
+    name: 
+      - "&c進階蒸氣發電機"
+      - "&c進階蒸氣發電機"
+    lore: "&c進階蒸氣發電機 &7的一部分"
+  STEAM_TURBINE_3:
+    name: 
+      - "&4黑鑽石蒸氣發電機"
+      - "&4黑鑽石蒸氣發電機"
+    lore: "&4黑鑽石蒸氣發電機 &7的一部分"
+  WIND_TURBINE:
+    name: 
+      - "&e簡易風力發電機"
+      - "&e簡易風力發電機"
+    lore: "&e簡易風力發電機 &7的一部分"
+  WIND_TURBINE_2:
+    name: 
+      - "&c進階風力發電機"
+      - "&c進階風力發電機"
+    lore: "&c進階風力發電機 &7的一部分"
+  WIND_TURBINE_3:
+    name: 
+      - "&4黑鑽石風力發電機"
+      - "&4黑鑽石風力發電機"
+    lore: "&4黑鑽石風力發電機 &7的一部分"
+  LIGHTNING_RECEPTOR:
+    name: "&e閃電接收器"
+    lore:
+      - "&f此機器可在雷雨天氣時"
+      - "&f從雷擊中發電"
+      - ""
+      - "&8\u21E8 &e\u26A1 &7512 J - 8192 J 次雷擊"
+  LUNAR_GENERATOR:
+    name: "&5月光發電機"
+    lore:
+      - "&f月光發電機"
+      - "&f只會在晚上運作!"
+  HIGH_ENERGY_SOLAR_GENERATOR:
+    name: "&9萬能太陽能發電機"
+    lore:
+      - "&f此太陽能發電機"
+      - "&f可在任何時間發電!"
+  HIGH_ENERGY_SOLAR_HELMET:
+    name: "&9萬能太陽能頭盔"
+    lore:
+      - "&f此太陽能頭盔可充"
+      - "&f身上的裝備和手持的物品"
+      - "&8\u21E8 &e\u26A1 &75 J/次充電"
+  RADIANT_SOLAR_GENERATOR:
+    name: "&9輻射太陽能發電機"
+  Lores:
+    - "抱歉,此物品只是個模型. 你必須按照配方中的樣子擺放."
+    - "&f水 (氣泡柱)"

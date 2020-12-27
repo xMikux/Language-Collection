@@ -1,0 +1,420 @@
+[
+  {
+    "key": "EcoPower.Category.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&2Eco-Power Generators",
+      "zh_TW": "&2綠能發電"
+    },
+    "patterns": [
+      "^§2Eco-Power Generators$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.STEEL_ROTOR",
+    "type": "text",
+    "languages": {
+      "en_US": "&bSteel Rotor",
+      "zh_TW": "&b鋼輪子"
+    },
+    "patterns": [
+      "^§bSteel Rotor$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.STEAM_TURBINE.name.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&eSimple Steam Turbine",
+      "zh_TW": "&e簡易蒸氣發電機"
+    },
+    "patterns": [
+      "^§eSimple Steam Turbine$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.STEAM_TURBINE.name.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&eSimple Steam Turbine Generator",
+      "zh_TW": "&e簡易蒸氣發電機"
+    },
+    "patterns": [
+      "^§eSimple Steam Turbine Generator$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.STEAM_TURBINE.lore",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Component of the &eSimple Steam Turbine Generator",
+      "zh_TW": "&e簡易蒸氣發電機 &7的一部分"
+    },
+    "patterns": [
+      "^§7Component of the §eSimple Steam Turbine Generator$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.STEAM_TURBINE_2.name.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&cAdvanced Steam Turbine",
+      "zh_TW": "&c進階蒸氣發電機"
+    },
+    "patterns": [
+      "^§cAdvanced Steam Turbine$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.STEAM_TURBINE_2.name.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&cAdvanced Steam Turbine Generator",
+      "zh_TW": "&c進階蒸氣發電機"
+    },
+    "patterns": [
+      "^§cAdvanced Steam Turbine Generator$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.STEAM_TURBINE_2.lore",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Component of the &cAdvanced Steam Turbine Generator",
+      "zh_TW": "&c進階蒸氣發電機 &7的一部分"
+    },
+    "patterns": [
+      "^§7Component of the §cAdvanced Steam Turbine Generator$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.STEAM_TURBINE_3.name.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&4Carbonado Steam Turbine",
+      "zh_TW": "&4黑鑽石蒸氣發電機"
+    },
+    "patterns": [
+      "^§4Carbonado Steam Turbine$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.STEAM_TURBINE_3.name.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&4Carbonado Steam Turbine Generator",
+      "zh_TW": "&4黑鑽石蒸氣發電機"
+    },
+    "patterns": [
+      "^§4Carbonado Steam Turbine Generator$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.STEAM_TURBINE_3.lore",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Component of the &4Carbonado Steam Turbine Generator",
+      "zh_TW": "&4黑鑽石蒸氣發電機 &7的一部分"
+    },
+    "patterns": [
+      "^§7Component of the §4Carbonado Steam Turbine Generator$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.WIND_TURBINE.name.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&eSimple Wind Turbine",
+      "zh_TW": "&e簡易風力發電機"
+    },
+    "patterns": [
+      "^§eSimple Wind Turbine$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.WIND_TURBINE.name.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&eSimple Wind Turbine Generator",
+      "zh_TW": "&e簡易風力發電機"
+    },
+    "patterns": [
+      "^§eSimple Wind Turbine Generator$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.WIND_TURBINE.lore",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Component of the &eSimple Wind Turbine Generator",
+      "zh_TW": "&e簡易風力發電機 &7的一部分"
+    },
+    "patterns": [
+      "^§7Component of the §eSimple Wind Turbine Generator$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.WIND_TURBINE_2.name.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&cAdvanced Wind Turbine",
+      "zh_TW": "&c進階風力發電機"
+    },
+    "patterns": [
+      "^§cAdvanced Wind Turbine$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.WIND_TURBINE_2.name.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&cAdvanced Wind Turbine Generator",
+      "zh_TW": "&c進階風力發電機"
+    },
+    "patterns": [
+      "^§cAdvanced Wind Turbine Generator$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.WIND_TURBINE_2.lore",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Component of the &cAdvanced Wind Turbine Generator",
+      "zh_TW": "&c進階風力發電機 &7的一部分"
+    },
+    "patterns": [
+      "^§7Component of the §cAdvanced Wind Turbine Generator$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.WIND_TURBINE_3.name.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&4Carbonado Wind Turbine",
+      "zh_TW": "&4黑鑽石風力發電機"
+    },
+    "patterns": [
+      "^§4Carbonado Wind Turbine$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.WIND_TURBINE_3.name.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&4Carbonado Wind Turbine Generator",
+      "zh_TW": "&4黑鑽石風力發電機"
+    },
+    "patterns": [
+      "^§4Carbonado Wind Turbine Generator$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.WIND_TURBINE_3.lore",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Component of the &4Carbonado Wind Turbine Generator",
+      "zh_TW": "&4黑鑽石風力發電機 &7的一部分"
+    },
+    "patterns": [
+      "^§7Component of the §4Carbonado Wind Turbine Generator$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.LIGHTNING_RECEPTOR.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&eLightning Receptor",
+      "zh_TW": "&e閃電接收器"
+    },
+    "patterns": [
+      "^§eLightning Receptor$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.LIGHTNING_RECEPTOR.lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&fThis machine can channel energy",
+      "zh_TW": "&f此機器可在雷雨天氣時"
+    },
+    "patterns": [
+      "^§fThis machine can channel energy$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.LIGHTNING_RECEPTOR.lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&ffrom lightning strikes during",
+      "zh_TW": "&f從雷擊中發電"
+    },
+    "patterns": [
+      "^§ffrom lightning strikes during$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.LIGHTNING_RECEPTOR.lore.2",
+    "type": "text",
+    "languages": {
+      "en_US": "&fa thunderstorm",
+      "zh_TW": ""
+    },
+    "patterns": [
+      "^§fa thunderstorm$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.LIGHTNING_RECEPTOR.lore.3",
+    "type": "text",
+    "languages": {
+      "en_US": "&8⇨ &e⚡ &7512 J - 8192 J per lightning strike",
+      "zh_TW": "&8⇨ &e⚡ &7512 J - 8192 J 次雷擊"
+    },
+    "patterns": [
+      "^§8⇨ §e⚡ §7512 J - 8192 J per lightning strike$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.LUNAR_GENERATOR.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&5Lunar Generator",
+      "zh_TW": "&5月光發電機"
+    },
+    "patterns": [
+      "^§5Lunar Generator$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.LUNAR_GENERATOR.lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&fThis Lunar Generator only",
+      "zh_TW": "&f月光發電機"
+    },
+    "patterns": [
+      "^§fThis Lunar Generator only$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.LUNAR_GENERATOR.lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&fruns at night!",
+      "zh_TW": "&f只會在晚上運作!"
+    },
+    "patterns": [
+      "^§fruns at night!$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.HIGH_ENERGY_SOLAR_GENERATOR.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&9High-Energy Solar Generator",
+      "zh_TW": "&9萬能太陽能發電機"
+    },
+    "patterns": [
+      "^§9High-Energy Solar Generator$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.HIGH_ENERGY_SOLAR_GENERATOR.lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&fThis Solar Generator runs",
+      "zh_TW": "&f此太陽能發電機"
+    },
+    "patterns": [
+      "^§fThis Solar Generator runs$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.HIGH_ENERGY_SOLAR_GENERATOR.lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&fall day and night!",
+      "zh_TW": "&f可在任何時間發電!"
+    },
+    "patterns": [
+      "^§fall day and night!$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.HIGH_ENERGY_SOLAR_HELMET.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&9High-Energy Solar Helmet",
+      "zh_TW": "&9萬能太陽能頭盔"
+    },
+    "patterns": [
+      "^§9High-Energy Solar Helmet$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.HIGH_ENERGY_SOLAR_HELMET.lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&fThis Solar Helmet charges",
+      "zh_TW": "&f此太陽能頭盔可充"
+    },
+    "patterns": [
+      "^§fThis Solar Helmet charges$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.HIGH_ENERGY_SOLAR_HELMET.lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&fany held or worn items",
+      "zh_TW": "&f身上的裝備和手持的物品"
+    },
+    "patterns": [
+      "^§fany held or worn items$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.HIGH_ENERGY_SOLAR_HELMET.lore.2",
+    "type": "text",
+    "languages": {
+      "en_US": "&8⇨ &e⚡ &75 J/charge",
+      "zh_TW": "&8⇨ &e⚡ &75 J/次充電"
+    },
+    "patterns": [
+      "^§8⇨ §e⚡ §75 J\\/charge$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.RADIANT_SOLAR_GENERATOR.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&9Radiant Solar Generator",
+      "zh_TW": "&9輻射太陽能發電機"
+    },
+    "patterns": [
+      "^§9Radiant Solar Generator$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.Lores.0",
+    "type": "text",
+    "languages": {
+      "en_US": "Psst, this Item is just a dummy. You need to place the actual structure down.",
+      "zh_TW": "抱歉,此物品只是個模型. 你必須按照配方中的樣子擺放."
+    },
+    "patterns": [
+      "^Psst, this Item is just a dummy. You need to place the actual structure down\\.$"
+    ]
+  },
+  {
+    "key": "EcoPower.Items.Lores.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&fWater (Bubble Column)",
+      "zh_TW": "&f水 (氣泡柱)"
+    },
+    "patterns": [
+      "^§fWater \\(Bubble Column\\)$"
+    ]
+  }
+]

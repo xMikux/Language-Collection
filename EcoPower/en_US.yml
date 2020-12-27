@@ -1,0 +1,67 @@
+# Category
+
+Category:
+  name: "&2Eco-Power Generators"
+
+# Items
+
+Items:
+  STEEL_ROTOR: "&bSteel Rotor"
+  STEAM_TURBINE:
+    name: 
+      - "&eSimple Steam Turbine"
+      - "&eSimple Steam Turbine Generator"
+    lore: "&7Component of the &eSimple Steam Turbine Generator"
+  STEAM_TURBINE_2:
+    name: 
+      - "&cAdvanced Steam Turbine"
+      - "&cAdvanced Steam Turbine Generator"
+    lore: "&7Component of the &cAdvanced Steam Turbine Generator"
+  STEAM_TURBINE_3:
+    name: 
+      - "&4Carbonado Steam Turbine"
+      - "&4Carbonado Steam Turbine Generator"
+    lore: "&7Component of the &4Carbonado Steam Turbine Generator"
+  WIND_TURBINE:
+    name: 
+      - "&eSimple Wind Turbine"
+      - "&eSimple Wind Turbine Generator"
+    lore: "&7Component of the &eSimple Wind Turbine Generator"
+  WIND_TURBINE_2:
+    name: 
+      - "&cAdvanced Wind Turbine"
+      - "&cAdvanced Wind Turbine Generator"
+    lore: "&7Component of the &cAdvanced Wind Turbine Generator"
+  WIND_TURBINE_3:
+    name: 
+      - "&4Carbonado Wind Turbine"
+      - "&4Carbonado Wind Turbine Generator"
+    lore: "&7Component of the &4Carbonado Wind Turbine Generator"
+  LIGHTNING_RECEPTOR:
+    name: "&eLightning Receptor"
+    lore:
+      - "&fThis machine can channel energy"
+      - "&ffrom lightning strikes during"
+      - "&fa thunderstorm"
+      - "&8\u21E8 &e\u26A1 &7512 J - 8192 J per lightning strike"
+  LUNAR_GENERATOR:
+    name: "&5Lunar Generator"
+    lore:
+      - "&fThis Lunar Generator only"
+      - "&fruns at night!"
+  HIGH_ENERGY_SOLAR_GENERATOR:
+    name: "&9High-Energy Solar Generator"
+    lore:
+      - "&fThis Solar Generator runs"
+      - "&fall day and night!"
+  HIGH_ENERGY_SOLAR_HELMET:
+    name: "&9High-Energy Solar Helmet"
+    lore:
+      - "&fThis Solar Helmet charges"
+      - "&fany held or worn items"
+      - "&8\u21E8 &e\u26A1 &75 J/charge"
+  RADIANT_SOLAR_GENERATOR:
+    name: "&9Radiant Solar Generator"
+  Lores:
+    - "Psst, this Item is just a dummy. You need to place the actual structure down."
+    - "&fWater (Bubble Column)"
