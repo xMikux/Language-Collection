@@ -13,7 +13,7 @@ Slimefun4 本體核心
 將json檔案放進```plugins/Triton/translations```內 triton reload即可!
 這是一種既可以用官方版本又可以有繁體中文的方法.
 
-你也可以直接使用非官方的繁體中文 詳細請參考其他頁面.
+你也可以直接使用非官方的繁體中文 詳細請參考主頁面README.md!
 
 ## 源碼
 
