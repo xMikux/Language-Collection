@@ -295,5 +295,60 @@
     "patterns": [
       "^§fCreates energy from the warmth of a Dragon Egg$"
     ]
+  },
+  {
+    "key": "DynaTech.Items.CHIPPING_GENERATOR.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Chipping Generator",
+      "zh_TW": "&6切屑發電機"
+    },
+    "patterns": [
+      "^§6Chipping Generator$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.CHIPPING_GENERATOR.lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&fCreates energy from broken items (items that have durability)",
+      "zh_TW": "&f從損壞的物品提取能源 (物品必須有耐久度)"
+    },
+    "patterns": [
+      "^§fCreates energy from broken items \\(items that have durability\\)$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.CHIPPING_GENERATOR.lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&8⇨ &e⚡ &72 Jper durability point",
+      "zh_TW": "&8⇨ &e⚡ &72 J 每個耐久度"
+    },
+    "patterns": [
+      "^§8⇨ §e⚡ §72 Jper durability point$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.CULINARY_GENERATOR.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Culinary Generator",
+      "zh_TW": "&6烹飪發電機"
+    },
+    "patterns": [
+      "^§6Culinary Generator$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.CULINARY_GENERATOR.lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&fCreates energy from food energy",
+      "zh_TW": "&f從食物中提取能源"
+    },
+    "patterns": [
+      "^§fCreates energy from food energy$"
+    ]
   }
 ]

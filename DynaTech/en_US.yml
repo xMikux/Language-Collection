@@ -50,3 +50,12 @@ Items:
     name: "&6Dragon Egg Generator"
     lore:
       - "&fCreates energy from the warmth of a Dragon Egg"
+  CHIPPING_GENERATOR:
+    name: "&6Chipping Generator"
+    lore:
+      - "&fCreates energy from broken items (items that have durability)"
+      - "&8\u21E8 &e\u26A12 &72 Jper durability point"
+  CULINARY_GENERATOR:
+    name: "&6Culinary Generator"
+    lore:
+      - "&fCreates energy from food energy"
