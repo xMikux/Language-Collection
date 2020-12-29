@@ -42,6 +42,10 @@ Items:
     name: "&6Weather Controller"
     lore:
       - "&fControls the weather when given a key item."
+  POTION_SPRINKLER:
+    name: "&6Potion Sprinkler"
+    lore:
+      - "&fRanged Multiple person potion effect applier."
   WATER_MILL:
     name: "&6Hydro Generator"
     lore:

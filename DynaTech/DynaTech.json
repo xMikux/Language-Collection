@@ -253,6 +253,28 @@
     ]
   },
   {
+    "key": "DynaTech.Items.POTION_SPRINKLER.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Potion Sprinkler",
+      "zh_TW": "&6藥水灑水器"
+    },
+    "patterns": [
+      "^§6Potion Sprinkler$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.POTION_SPRINKLER.lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&fRanged Multiple person potion effect applier.",
+      "zh_TW": "&f範圍性添加多人效果的藥水裝置."
+    },
+    "patterns": [
+      "^§fRanged Multiple person potion effect applier.$"
+    ]
+  },
+  {
     "key": "DynaTech.Items.WATER_MILL.name",
     "type": "text",
     "languages": {

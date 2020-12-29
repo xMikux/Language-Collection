@@ -42,6 +42,10 @@ Items:
     name: "&6天氣控制器"
     lore:
       - "&f給予特定的物品來控制天氣."
+  POTION_SPRINKLER:
+    name: "&6藥水灑水器"
+    lore:
+      - "&f範圍性添加多人效果的藥水裝置."
   WATER_MILL:
     name: "&6水輪發電機"
     lore:
