@@ -9,6 +9,7 @@ Items:
   STAINLESS_STEEL: "&6不銹鋼錠"
   STAINLESS_STEEL_ROTOR: "&6不銹鋼轉子"
   ANCIENT_MACHINE_CORE: "&6古代機器核心"
+  VEX_GEM: "&6惱鬼寶石"
   PICNIC_BASKET:
     name: "&6野餐籃"
     lore:
@@ -24,6 +25,29 @@ Items:
     lore:
       - "&f自動餵食你能量"
       - "&f&o刺激你的感官."
+  ANGEL_GEM:
+    name: "&6飛行寶石"
+    lore:
+      - "&f永久性創造飛行. 有些速度調整設定."
+      - "&f&o像鳥一樣飛翔~"
+    gui:
+      vex: "&a惱鬼"
+    flight:
+      - "&7飛行: <enabled>"
+      - "&7飛行: 啟動"
+      - "&7飛行: 關閉"
+    flightspeed:
+      - "&7飛行速度: <speed>"
+      - "&7飛行速度: 0.1"
+      - "&7飛行速度: 0.2"
+      - "&7飛行速度: 0.3"
+      - "&7飛行速度: 0.4"
+      - "&7飛行速度: 0.5"
+      - "&7飛行速度: 0.6"
+      - "&7飛行速度: 0.7"
+      - "&7飛行速度: 0.8"
+      - "&7飛行速度: 0.9"
+      - "&7飛行速度: 1.0"
   AUTO_KITCHEN:
     name: "&6自動廚房"
     lore:
@@ -46,6 +70,10 @@ Items:
     name: "&6藥水灑水器"
     lore:
       - "&f範圍性添加多人效果的藥水裝置."
+  BARBED_WIRE:
+    name: "&6鐵絲網"
+    lore:
+      - "&f在範圍內推開怪物."
   WATER_MILL:
     name: "&6水輪發電機"
     lore:

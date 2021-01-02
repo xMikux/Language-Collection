@@ -9,6 +9,7 @@ Items:
   STAINLESS_STEEL: "&6Stainless Steel Ingot"
   STAINLESS_STEEL_ROTOR: "&6Stainless Steel Rotor"
   ANCIENT_MACHINE_CORE: "&6Ancient Machine Core"
+  VEX_GEM: "&6Vex Gem"
   PICNIC_BASKET:
     name: "&6Picnic Basket"
     lore:
@@ -24,6 +25,29 @@ Items:
     lore:
       - "&fAutomatically feed you for energy"
       - "&f&oStimulate your senses."
+  ANGEL_GEM:
+    name: "&6Flight Gem"
+    lore:
+      - "&fPermanent Creative Flight. Has some speed adjustment settings."
+      - "&f&oFly just like a bird~"
+    gui:
+      vex: "&aVex"
+    flight:
+      - "&7Flight: <enabled>"
+      - "&7Flight: Enabled"
+      - "&7Flight: Disabled"
+    flightspeed:
+      - "&7Flight Speed: <speed>"
+      - "&7Flight Speed: 0.1"
+      - "&7Flight Speed: 0.2"
+      - "&7Flight Speed: 0.3"
+      - "&7Flight Speed: 0.4"
+      - "&7Flight Speed: 0.5"
+      - "&7Flight Speed: 0.6"
+      - "&7Flight Speed: 0.7"
+      - "&7Flight Speed: 0.8"
+      - "&7Flight Speed: 0.9"
+      - "&7Flight Speed: 1.0"
   AUTO_KITCHEN:
     name: "&6Auto Kitchen"
     lore:
@@ -46,6 +70,10 @@ Items:
     name: "&6Potion Sprinkler"
     lore:
       - "&fRanged Multiple person potion effect applier."
+  BARBED_WIRE:
+    name: "&6Barbed Wire"
+    lore:
+      - "&fPushes mobs away in a radius."
   WATER_MILL:
     name: "&6Hydro Generator"
     lore:

@@ -44,6 +44,17 @@
     ]
   },
   {
+    "key": "DynaTech.Items.VEX_GEM",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Vex Gem",
+      "zh_TW": "&6惱鬼寶石"
+    },
+    "patterns": [
+      "^§6Vex Gem$"
+    ]
+  },
+  {
     "key": "DynaTech.Items.PICNIC_BASKET.name",
     "type": "text",
     "languages": {
@@ -140,6 +151,204 @@
     },
     "patterns": [
       "^§f§oStimulate your senses.$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.ANGEL_GEM.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Flight Gem",
+      "zh_TW": "&6飛行寶石"
+    },
+    "patterns": [
+      "^§6Flight Gem$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.ANGEL_GEM.lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&fPermanent Creative Flight. Has some speed adjustment settings.",
+      "zh_TW": "&f永久性創造飛行. 有些速度調整設定."
+    },
+    "patterns": [
+      "^§fPermanent Creative Flight. Has some speed adjustment settings.$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.ANGEL_GEM.lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&f&oFly just like a bird~",
+      "zh_TW": "&f&o像鳥一樣飛翔~"
+    },
+    "patterns": [
+      "^§f§oFly just like a bird~$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.ANGEL_GEM.gui.vex",
+    "type": "text",
+    "languages": {
+      "en_US": "&aVex",
+      "zh_TW": "&a惱鬼"
+    },
+    "patterns": [
+      "^§aVex$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.ANGEL_GEM.flight.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Flight: <enabled>",
+      "zh_TW": "&7飛行: <enabled>"
+    },
+    "patterns": [
+      "^§7Flight: <enabled>$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.ANGEL_GEM.flight.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Flight: Enabled",
+      "zh_TW": "&7飛行: 啟動"
+    },
+    "patterns": [
+      "^§7Flight: Enabled$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.ANGEL_GEM.flight.2",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Flight: Disabled",
+      "zh_TW": "&7飛行: 關閉"
+    },
+    "patterns": [
+      "^§7Flight: Disabled$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.ANGEL_GEM.flightspeed.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Flight Speed: <speed>",
+      "zh_TW": "&7飛行速度: <speed>"
+    },
+    "patterns": [
+      "^§7Flight Speed: <speed>$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.ANGEL_GEM.flightspeed.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Flight Speed: 0.1",
+      "zh_TW": "&7飛行速度: 0.1"
+    },
+    "patterns": [
+      "^§7Flight Speed: 0.1$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.ANGEL_GEM.flightspeed.2",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Flight Speed: 0.2",
+      "zh_TW": "&7飛行速度: 0.2"
+    },
+    "patterns": [
+      "^§7Flight Speed: 0.2$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.ANGEL_GEM.flightspeed.3",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Flight Speed: 0.3",
+      "zh_TW": "&7飛行速度: 0.3"
+    },
+    "patterns": [
+      "^§7Flight Speed: 0.3$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.ANGEL_GEM.flightspeed.4",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Flight Speed: 0.4",
+      "zh_TW": "&7飛行速度: 0.4"
+    },
+    "patterns": [
+      "^§7Flight Speed: 0.4$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.ANGEL_GEM.flightspeed.5",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Flight Speed: 0.5",
+      "zh_TW": "&7飛行速度: 0.5"
+    },
+    "patterns": [
+      "^§7Flight Speed: 0.5$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.ANGEL_GEM.flightspeed.6",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Flight Speed: 0.6",
+      "zh_TW": "&7飛行速度: 0.6"
+    },
+    "patterns": [
+      "^§7Flight Speed: 0.6$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.ANGEL_GEM.flightspeed.7",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Flight Speed: 0.7",
+      "zh_TW": "&7飛行速度: 0.7"
+    },
+    "patterns": [
+      "^§7Flight Speed: 0.7$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.ANGEL_GEM.flightspeed.8",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Flight Speed: 0.8",
+      "zh_TW": "&7飛行速度: 0.8"
+    },
+    "patterns": [
+      "^§7Flight Speed: 0.8$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.ANGEL_GEM.flightspeed.9",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Flight Speed: 0.9",
+      "zh_TW": "&7飛行速度: 0.9"
+    },
+    "patterns": [
+      "^§7Flight Speed: 0.9$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.ANGEL_GEM.flightspeed.10",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Flight Speed: 1.0",
+      "zh_TW": "&7飛行速度: 1.0"
+    },
+    "patterns": [
+      "^§7Flight Speed: 1.0$"
     ]
   },
   {
@@ -272,6 +481,28 @@
     },
     "patterns": [
       "^§fRanged Multiple person potion effect applier.$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.BARBED_WIRE.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Barbed Wire",
+      "zh_TW": "&6鐵絲網"
+    },
+    "patterns": [
+      "^§6Barbed Wire$"
+    ]
+  },
+  {
+    "key": "DynaTech.Items.BARBED_WIRE.lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&fPushes mobs away in a radius.",
+      "zh_TW": "&f在範圍內推開怪物."
+    },
+    "patterns": [
+      "^§fPushes mobs away in a radius.$"
     ]
   },
   {
