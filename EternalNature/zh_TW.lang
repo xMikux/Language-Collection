@@ -1,0 +1,133 @@
+# header
+name=Traditional Chinese
+#
+
+//
+// Death messages
+//
+death.heat=%name% 死於過熱
+death.cold=%name% 死於過冷
+death.dehydrate=%name% 死於脫水
+
+
+//
+// Temperature icons
+//
+temp.icon.burning=炎熱
+temp.icon.hot=熱
+temp.icon.warm=暖
+temp.icon.pleasant=愉快
+temp.icon.cool=涼爽
+temp.icon.cold=冷
+temp.icon.freezing=寒冷
+
+
+//
+//  Menus
+//
+
+// Common menu
+menu.common.edit=點擊查看 & 編輯
+menu.common.change=點擊更改
+menu.common.selected=已選
+menu.common.select=點擊選擇
+menu.common.enable=點擊啟用
+menu.common.disable=點擊關閉
+menu.common.reset=點擊重置
+menu.common.reload=點擊重載
+
+// Settings menu items
+menu.settings.title=Eternal Nature 設定
+menu.settings.item.replant.title=自動補種作物
+menu.settings.item.replant.description=設定是否在收割時自動將農作物重種.
+menu.settings.item.auto-plant.title=自動種植
+menu.settings.item.auto-plant.description=設定植物在地面上時是否有機會自動重新種植自己.
+menu.settings.item.item-aging.title=物品年齡
+menu.settings.item.item-aging.description=如果將某些物品(像是食物)放在地上, 它們將會腐爛並老化.
+menu.settings.item.tree-spread.title=隨機傳播樹
+menu.settings.item.tree-spread.description=設定樹木是否會隨機的掉落樹苗, 從而讓森林緩慢生長.
+menu.settings.item.reload-config.title=重新加載設定
+menu.settings.item.reload-config.description=重新加載config檔案.
+menu.settings.item.reset-config.title=重置設定
+menu.settings.item.reset-config.description=將config檔案重置為默認值.
+
+// Language Settings Menu
+menu.language.title=語言設定
+menu.language.description=更改插件語言. 語言都從plugins內的lang資料夾加載.
+menu.language.reset.title=重置 .lang 檔案.
+menu.language.reset.description=這將會重置已打包的語言檔案. 這不影響自定義語言.
+menu.language.reload.title=重新加載語言
+menu.language.reload.description=這將重新加載所有語言並更新當前的語言, 如果有進行更改.
+
+// Leaf Particle Menu
+menu.leaf-particles.title=落葉粒子設定
+menu.leaf-particles.description=設定如果樹葉方快會隨機發出落葉粒子.
+menu.leaf-particles.spawn.extreme=非常高
+menu.leaf-particles.spawn.high=高
+menu.leaf-particles.spawn.medium=普通
+menu.leaf-particles.spawn.low=低
+menu.leaf-particles.spawn.title=生成機率
+menu.leaf-particles.spawn.description=設定粒子的生成速率.
+menu.leaf-particles.enabled.title=啟用落葉粒子
+menu.leaf-particles.enabled.description=切換是否啟用落葉粒子. 當啟用時, 落葉將會緩慢的從樹葉方塊上掉落.
+
+// Temperature Menu
+menu.temp.title=溫度設定
+menu.temp.description=更改溫度的設定.
+menu.temp.enabled.title=啟用溫度
+menu.temp.enabled.description=設定是否啟用溫度. 啟用後, 玩家將會面臨新的挑戰.
+menu.temp.damage.title=傷害
+menu.temp.damage.description=如果溫度低於 %cold_threshold% 或高於 %heat_threshold%, 玩家將會開始受到傷害.
+menu.temp.damage.dealt=造成的傷害
+menu.temp.damage.rate=傷害平率
+menu.temp.sweat.title=流汗
+menu.temp.sweat.description=如果啟用, 玩家將會在較高的溫度下更快失去水分.
+menu.temp.display.title=顯示模式
+menu.temp.display.description=設定玩家顯示溫度的位置.
+menu.temp.use-rgb.title=使用RGB顏色
+menu.temp.use-rgb.description=當啟用時, 溫度文字將會平滑的在顏色之間移動.
+
+// Temperature scanning Menu
+menu.temp.scanning.title=溫度掃描
+menu.temp.scanning.description=更改用於溫度計算的掃描設定.
+menu.temp.scanning.area.title=掃描區域
+menu.temp.scanning.area.description=在更新溫度時, 將會在每個玩家周圍掃描該區域. 建議將其設定保持較低.
+menu.temp.scanning.height.title=掃描高度
+menu.temp.scanning.height.description=更新玩家溫度時掃描將使用的高度. 建議將其保持在較低.
+menu.temp.scanning.use-blocks.title=使用方塊
+menu.temp.scanning.use-blocks.description=如果啟用, 在計算溫度時將檢測附近的方塊.
+menu.temp.scanning.use-biomes.title=使用生態域
+menu.temp.scanning.use-biomes.description=如果啟用, 將會在計算溫度時檢測生態域.
+menu.temp.scanning.use-weather.title=使用天氣
+menu.temp.scanning.use-weather.description=如果啟用, 將會在計算溫度時檢測天氣.
+menu.temp.scanning.use-items.title=使用物品
+menu.temp.scanning.use-items.description=如果啟用, 將會在計算溫度時檢測手上所拿的物品.
+menu.temp.scanning.use-environment.title=使用環境
+menu.temp.scanning.use-environment.description=如果啟用, 將會檢測環境因素, 像是玩家在水中的深度或玩家所在的世界高度.
+
+// hydration Menu
+menu.hydration.title=水分設定
+menu.hydration.description=更改水分作用的設定
+menu.hydration.enabled.title=啟用水分
+menu.hydration.enabled.description=設定是否啟用水分.
+menu.hydration.damage.title=水分傷害
+menu.hydration.damage.description=設定當用完水分(h20)時是否傷害玩家.
+menu.hydration.activity.title=高活動出汗
+menu.hydration.activity.description=如果啟用, 當在執行像是衝刺之類的高活動動作時, 水分將會更快的減少.
+menu.hydration.display.title=顯示模式
+menu.hydration.display.description=設定玩家顯示水分的位置.
+menu.hydration.open_water.title=從海裡喝水
+menu.hydration.open_water.description=啟用時, 玩家將可以從海洋等開闊水域喝水.
+menu.hydration.thirst.title=口渴效果
+menu.hydration.thirst.description=當啟用後, 玩家可能在喝或吃某些物品時感到口渴.
+
+// Misc Menu
+menu.display.enabled.title=顯示模式切換
+menu.display.enabled.description=設定是否使用插件的預設顯示. 如果禁用, 則將不會顯示在 actionbar 或 bossbar. 如果使用其他插件(像是PlaceHolderAPI)將其顯示在其他位置, 則禁用該選項將會很有用.
+
+// Other Menu
+menu.other.title=其他設定
+menu.other.update-notify.title=更新通知
+menu.other.update-notify.description=如果有新的更新版本, 將會通知加入的管理員和Op.
+menu.other.update-checks.title=更新檢查
+menu.other.update-checks.description=切換是否執行自動檢查更新.
