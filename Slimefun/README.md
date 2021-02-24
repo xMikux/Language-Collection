@@ -3,7 +3,7 @@
 此為使用[Triton](https://www.spigotmc.org/resources/triton-translate-your-server.30331/)<br>
 來達成雙語言並且不去修改任何官方的構建.<br>
 **目前未維護** 所以可能有些文本是過時的 或是有新東西沒有配對到!<br>
-如果認為此方法過於麻煩 也可以加入上方的Discord獲取非官方繁體構建頁面.
+如果認為此方法過於麻煩 也可以加入Discord獲取非官方繁體構建頁面.
 
 ## 狀態
 
