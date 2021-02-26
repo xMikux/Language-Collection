@@ -1,0 +1,162 @@
+[
+  {
+    "key": "ZombieApocalypse.plugin-prefix",
+    "type": "text",
+    "languages": {
+      "en_US": "§7<<§4Zombie§2Apocalypse§7>>§r ",
+      "zh_TW": "§7<<§4殭屍§2啟示錄§7>>§r "
+    }
+  },
+  {
+    "key": "ZombieApocalypse.messages.no-command-permission",
+    "type": "text",
+    "languages": {
+      "en_US": "§4§lSorry§r§7, you don't have permission for that!",
+      "zh_TW": "§4§l抱歉§r§7, 你沒有權限!"
+    }
+  },
+  {
+    "key": "ZombieApocalypse.messages.started-success",
+    "type": "text",
+    "languages": {
+      "en_US": "§aApocalyse succesfully started in '%1'!",
+      "zh_TW": "§a啟示錄成功開始在 '%1'!"
+    }
+  },
+  {
+    "key": "ZombieApocalypse.messages.started-broadcast",
+    "type": "text",
+    "languages": {
+      "en_US": "§dThe zombie apocalyse has just started!",
+      "zh_TW": "§d殭屍啟示錄剛剛開始了!"
+    }
+  },
+  {
+    "key": "ZombieApocalypse.messages.start-failed",
+    "type": "text",
+    "languages": {
+      "en_US": "§cApocalypse has already started in '%1'",
+      "zh_TW": "§c啟示錄已經開始在 '%1'"
+    }
+  },
+  {
+    "key": "ZombieApocalypse.messages.start-invalid-duration",
+    "type": "text",
+    "languages": {
+      "en_US": "§cThe minutes the apocalypse should last for must be an integer!",
+      "zh_TW": "§c啟示錄持續的分鐘必須為整數!"
+    }
+  },
+  {
+    "key": "ZombieApocalypse.messages.ended-success",
+    "type": "text",
+    "languages": {
+      "en_US": "§aApocalypse ended in world: '%1'!",
+      "zh_TW": "§a啟示錄結束於世界: '%1'!"
+    }
+  },
+  {
+    "key": "ZombieApocalypse.messages.end-failed",
+    "type": "text",
+    "languages": {
+      "en_US": "§cThere is no apocalypse in '%1'",
+      "zh_TW": "§c沒有啟示錄在 '%1'"
+    }
+  },
+  {
+    "key": "ZombieApocalypse.messages.ended-broadcast",
+    "type": "text",
+    "languages": {
+      "en_US": "§dThe zombie apocalyse has ended in this world, you are safe (for now)!",
+      "zh_TW": "§d殭屍啟示錄已經結束, 你現在安全了 (目前)!"
+    }
+  },
+  {
+    "key": "ZombieApocalypse.messages.reload-success",
+    "type": "text",
+    "languages": {
+      "en_US": "§aThe plugin has been successfully reloaded!",
+      "zh_TW": "§a插件成功重新載入!"
+    }
+  },
+  {
+    "key": "ZombieApocalypse.messages.reload-fail",
+    "type": "text",
+    "languages": {
+      "en_US": "§cReloading the configuration failed! See the console for more details.",
+      "zh_TW": "§c重新加載配置失敗! 請查看後台獲取更多資訊."
+    }
+  },
+  {
+    "key": "ZombieApocalypse.messages.mobcap-too-few-arguments",
+    "type": "text",
+    "languages": {
+      "en_US": "§cPlease also provide the name of the world and the desired mobcap!",
+      "zh_TW": "§c請同時提供世界名稱和所需怪物數量!"
+    }
+  },
+  {
+    "key": "ZombieApocalypse.messages.mobcap-invalid-amount",
+    "type": "text",
+    "languages": {
+      "en_US": "§cPlease (also) provide the mob cap as an integer",
+      "zh_TW": "§c請 (同樣) 提供怪物上限為整數"
+    }
+  },
+  {
+    "key": "ZombieApocalypse.messages.mobcap-no-apocalypse",
+    "type": "text",
+    "languages": {
+      "en_US": "§7There is no §4Zombie§2Apocalypse§7 in world '%1'",
+      "zh_TW": "§7沒有§4殭屍§2啟示錄§7在世界 '%1'"
+    }
+  },
+  {
+    "key": "ZombieApocalypse.messages.mobcap-success",
+    "type": "text",
+    "languages": {
+      "en_US": "§aSet the maximum zombie spawns per chunk to %1 in world '%2'",
+      "zh_TW": "§a設定最大殭屍於每個區塊生成上限為 %1 在世界 '%2"
+    }
+  },
+  {
+    "key": "ZombieApocalypse.messages.invalid-world",
+    "type": "text",
+    "languages": {
+      "en_US": "§cWorld '%1' doesn't exist or isn't loaded",
+      "zh_TW": "§c世界 '%1' 並不存在或尚未加載"
+    }
+  },
+  {
+    "key": "ZombieApocalypse.messages.console-no-world-provided",
+    "type": "text",
+    "languages": {
+      "en_US": "Please also provide the name of the world",
+      "zh_TW": "請同時提供世界名稱"
+    }
+  },
+  {
+    "key": "ZombieApocalypse.messages.apocalypse-boss-bar-title",
+    "type": "text",
+    "languages": {
+      "en_US": "§5Zombie apocalypse ongoing!",
+      "zh_TW": "§5殭屍啟示錄正在發生中!"
+    }
+  },
+  {
+    "key": "ZombieApocalypse.messages.given-zombie-egg",
+    "type": "text",
+    "languages": {
+      "en_US": "§7You have been given a §r§6%1",
+      "zh_TW": "§7你已給予一個 §r§6%1"
+    }
+  },
+  {
+    "key": "ZombieApocalypse.messages.invalid-egg-type",
+    "type": "text",
+    "languages": {
+      "en_US": "§cThat zombie type doesn't exist!",
+      "zh_TW": "§c那殭屍類型並不存在!"
+    }
+  }
+]

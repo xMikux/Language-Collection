@@ -1,0 +1,19 @@
+mc-version-loading: >-
+  [lang]Tamablefoxes.mc-version-loading[args][arg]%MC_VERSION%[/arg][/args][/lang]
+unsupported-mc-version-not-registering: '[lang]Tamablefoxes.unsupported-mc-version-not-registering[/lang]'
+unsupported-mc-version-disabling: '[lang]Tamablefoxes.unsupported-mc-version-disabling[/lang]'
+success-replaced-entity: '[lang]Tamablefoxes.success-replaced-entity[/lang]'
+error-to-replaced-entity: '[lang]Tamablefoxes.error-to-replaced-entity[/lang]'
+saving-foxes-message: '[lang]Tamablefoxes.saving-foxes-message[/lang]'
+taming-tamed-message: '[lang]Tamablefoxes.taming-tamed-message[/lang]'
+taming-asking-for-name-message: '[lang]Tamablefoxes.taming-asking-for-name-message[/lang]'
+taming-chosen-name-perfect: >-
+  [lang]Tamablefoxes.taming-chosen-name-perfect[args][arg]%NEW_FOX_NAME%[/arg][/args][/lang]
+fox-name-format: '%FOX_NAME% (%OWNER%的狐狸)'
+fox-name-no-owner-name-format: '%FOX_NAME%'
+fox-doesnt-trust: '[lang]Tamablefoxes.fox-doesnt-trust[/lang]'
+no-permission: '[lang]Tamablefoxes.no-permission[/lang]'
+only-run-by-player: '[lang]Tamablefoxes.only-run-by-player[/lang]'
+spawned-fox-message: '[lang]Tamablefoxes.spawned-fox-message[args][arg]%TYPE%[/arg][/args][/lang]'
+failed-to-spawn-message: '[lang]Tamablefoxes.failed-to-spawn-message[/lang]'
+reloaded-message: '[lang]Tamablefoxes.reloaded-message[/lang]'

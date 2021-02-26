@@ -1,0 +1,122 @@
+[
+  {
+    "key": "Tamablefoxes.mc-version-loading",
+    "type": "text",
+    "languages": {
+      "en_US": "Registering entity for MC Version %1...",
+      "zh_TW": "註冊實體的MC版本 %1..."
+    }
+  },
+  {
+    "key": "Tamablefoxes.unsupported-mc-version-not-registering",
+    "type": "text",
+    "languages": {
+      "en_US": "ERROR: This plugin version only supports Spigot 1.14-1.16.4! Not registering entity! Make sure your Java version is no newer than Java 11!",
+      "zh_TW": "錯誤: 此插件僅支持Spigot 1.14-1.16.4! 沒有註冊實體! 確保你的版本沒有高於Java 11."
+    }
+  },
+  {
+    "key": "Tamablefoxes.unsupported-mc-version-disabling",
+    "type": "text",
+    "languages": {
+      "en_US": "This plugin version only supports Spigot 1.14-1.16.4! Disabling plugin! Make sure your Java version is no newer than Java 11!",
+      "zh_TW": "此插件僅支持Spigot 1.14-1.16.4! 禁用插件! 確保你的版本沒有高於Java 11!"
+    }
+  },
+  {
+    "key": "Tamablefoxes.success-replaced-entity",
+    "type": "text",
+    "languages": {
+      "en_US": "Replaced tamable fox entity!",
+      "zh_TW": "取代了可馴服狐狸實體!"
+    }
+  },
+  {
+    "key": "Tamablefoxes.error-to-replaced-entity",
+    "type": "text",
+    "languages": {
+      "en_US": "Failed to replace tamable fox entity!",
+      "zh_TW": "失敗取代可馴服狐狸實體!"
+    }
+  },
+  {
+    "key": "Tamablefoxes.saving-foxes-message",
+    "type": "text",
+    "languages": {
+      "en_US": "Saving foxes.",
+      "zh_TW": "儲存狐狸."
+    }
+  },
+  {
+    "key": "Tamablefoxes.taming-tamed-message",
+    "type": "text",
+    "languages": {
+      "en_US": "You just tamed a wild fox!",
+      "zh_TW": "你剛剛馴服了野生狐狸!"
+    }
+  },
+  {
+    "key": "Tamablefoxes.taming-asking-for-name-message",
+    "type": "text",
+    "languages": {
+      "en_US": "What do you want to call it?",
+      "zh_TW": "你想要怎麼稱呼它?"
+    }
+  },
+  {
+    "key": "Tamablefoxes.taming-chosen-name-perfect",
+    "type": "text",
+    "languages": {
+      "en_US": "%1 is perfect!",
+      "zh_TW": "%1 是完美!"
+    }
+  },
+  {
+    "key": "Tamablefoxes.fox-doesnt-trust",
+    "type": "text",
+    "languages": {
+      "en_US": "The fox doesn't trust you! You have too many foxes!",
+      "zh_TW": "這隻狐狸不信任你! 你有太多狐狸了!"
+    }
+  },
+  {
+    "key": "Tamablefoxes.no-permission",
+    "type": "text",
+    "languages": {
+      "en_US": "You do not have the permission for this command.",
+      "zh_TW": "你沒有權限使用此指令."
+    }
+  },
+  {
+    "key": "Tamablefoxes.only-run-by-player",
+    "type": "text",
+    "languages": {
+      "en_US": "Command can only be run from player state!",
+      "zh_TW": "指令只能在玩家狀態下運行."
+    }
+  },
+  {
+    "key": "Tamablefoxes.spawned-fox-message",
+    "type": "text",
+    "languages": {
+      "en_US": "Spawned a %1 fox.",
+      "zh_TW": "生成了一隻 %1 的狐狸"
+    }
+  },
+  {
+    "key": "Tamablefoxes.failed-to-spawn-message",
+    "type": "text",
+    "languages": {
+      "en_US": "Failed to spawn fox!",
+      "zh_TW": "失敗生成狐狸!"
+    }
+  },
+  {
+    "key": "Tamablefoxes.reloaded-message",
+    "type": "text",
+    "languages": {
+      "en_US": "Reloaded.",
+      "zh_TW": "重新加載."
+    }
+  }
+]
