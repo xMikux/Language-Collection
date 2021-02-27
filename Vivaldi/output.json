@@ -1,0 +1,170 @@
+[
+  {
+    "key": "Vivaldi.SEASON_WINTER",
+    "type": "text",
+    "languages": {
+      "en_US": "§3Winter",
+      "zh_TW": "§3冬季"
+    }
+  },
+  {
+    "key": "Vivaldi.SEASON_SPRING",
+    "type": "text",
+    "languages": {
+      "en_US": "§aSpring",
+      "zh_TW": "§a春季"
+    }
+  },
+  {
+    "key": "Vivaldi.SEASON_SUMMER",
+    "type": "text",
+    "languages": {
+      "en_US": "§2Summer",
+      "zh_TW": "§2夏季"
+    }
+  },
+  {
+    "key": "Vivaldi.SEASON_AUTUMN",
+    "type": "text",
+    "languages": {
+      "en_US": "§6Autumn",
+      "zh_TW": "§6秋季"
+    }
+  },
+  {
+    "key": "Vivaldi.DAY_CHANGE_MESSAGE",
+    "type": "text",
+    "languages": {
+      "en_US": "§7A new day begins... Today is: §c%1 §7day of %2§7.",
+      "zh_TW": "§7新的一天要開始了... 今天是: 第§c%1§7天的%2§7."
+    }
+  },
+  {
+    "key": "Vivaldi.DAY_CHANGE_LOG",
+    "type": "text",
+    "languages": {
+      "en_US": "Day has been changed! Today is: %1 day of %2.",
+      "zh_TW": "日期已更改! 今天是: %1 day of %2."
+    }
+  },
+  {
+    "key": "Vivaldi.SEASON_CHANGE_MESSAGE",
+    "type": "text",
+    "languages": {
+      "en_US": "%1 §7is coming!",
+      "zh_TW": "§4%1 §7到了!"
+    }
+  },
+  {
+    "key": "Vivaldi.SEASON_CHANGE_LOG",
+    "type": "text",
+    "languages": {
+      "en_US": "Season has been changed! New season is: %1.",
+      "zh_TW": "季節已更改! 新季節是: %1."
+    }
+  },
+  {
+    "key": "Vivaldi.COMMAND_WELCOME_MESSAGE",
+    "type": "text",
+    "languages": {
+      "en_US": "§7Welcome to Vivaldi. Type §a/vivaldi §bhelp §7to get info about commands.",
+      "zh_TW": "§7歡迎使用Vivaldi插件. 輸入§a/vivaldi §bhelp §7獲取有關指令的信息."
+    }
+  },
+  {
+    "key": "Vivaldi.COMMAND_HELP_MESSAGE.0",
+    "type": "text",
+    "languages": {
+      "en_US": "§4§lList of commands:",
+      "zh_TW": "§4§l指令清單:"
+    }
+  },
+  {
+    "key": "Vivaldi.COMMAND_HELP_MESSAGE.1",
+    "type": "text",
+    "languages": {
+      "en_US": "§7- §a/vivaldi §binfo §8(or §2i§8) §7- get info about current season and day",
+      "zh_TW": "§7- §a/vivaldi §binfo §8(or §2i§8) §7- 獲取有關當前季節和日期的信息"
+    }
+  },
+  {
+    "key": "Vivaldi.COMMAND_HELP_MESSAGE.2",
+    "type": "text",
+    "languages": {
+      "en_US": "§7- §a/vivaldi §bsetseason §8(or §2ss§8) §3<season> §7- change the season",
+      "zh_TW": "§7- §a/vivaldi §bsetseason §8(or §2ss§8) §3<season> §7- 更改季節"
+    }
+  },
+  {
+    "key": "Vivaldi.COMMAND_HELP_MESSAGE.3",
+    "type": "text",
+    "languages": {
+      "en_US": "§7- §a/vivaldi §bsetday §8(or §2sd§8) §3<day> §7- change the day",
+      "zh_TW": "§7- §a/vivaldi §bsetday §8(or §2sd§8) §3<day> §7- 更改日期"
+    }
+  },
+  {
+    "key": "Vivaldi.COMMAND_HELP_MESSAGE.4",
+    "type": "text",
+    "languages": {
+      "en_US": "§7- §a/vivaldi §breload §8(or §2r§8) §7- reload Vivaldi",
+      "zh_TW": "§7- §a/vivaldi §breload §8(or §2r§8) §7- 重新加載Vivaldi"
+    }
+  },
+  {
+    "key": "Vivaldi.COMMAND_INFO_MESSAGE",
+    "type": "text",
+    "languages": {
+      "en_US": "§7Today is §c%1 §7day of %2§7.",
+      "zh_TW": "§7今天是第§c%1§7天的%2§7."
+    }
+  },
+  {
+    "key": "Vivaldi.COMMAND_PLUGIN_RELOADED",
+    "type": "text",
+    "languages": {
+      "en_US": "§7Plugin has been reloaded.",
+      "zh_TW": "§7插件已重新加載."
+    }
+  },
+  {
+    "key": "Vivaldi.ERROR_COMMAND_DOESNT_EXIST",
+    "type": "text",
+    "languages": {
+      "en_US": "§cError! §7Command doesn`t exist: §4%1§7.",
+      "zh_TW": "§cError! §7指令不存在: §4%1§7."
+    }
+  },
+  {
+    "key": "Vivaldi.ERROR_SEASON_DOESNT_EXIST",
+    "type": "text",
+    "languages": {
+      "en_US": "§cError! §7Season §4%1 §7doesn`t exist.",
+      "zh_TW": "§cError! §7當前 §4%1 §7並不存在."
+    }
+  },
+  {
+    "key": "Vivaldi.ERROR_SEASON_DOESNT_SPECIFIED",
+    "type": "text",
+    "languages": {
+      "en_US": "§cError! §7Please specify the season.",
+      "zh_TW": "§cError! §7請指定季節."
+    }
+  },
+  {
+    "key": "Vivaldi.ERROR_DAY_WRONG_ARGUMENT",
+    "type": "text",
+    "languages": {
+      "en_US": "§cError! §7Specified value cannot be larger than DaysInSeason or lower than one.",
+      "zh_TW": "§cError! §7指定值不能大於DaysInSeason值或小於1."
+    }
+  },
+  {
+    "key": "Vivaldi.ERROR_DAY_DOESNT_SPECIFIED",
+    "type": "text",
+    "languages": {
+      "en_US": "§cError! §7Please specify the day.",
+      "zh_TW": "§cError! §7請指定日期."
+    }
+  }
+]

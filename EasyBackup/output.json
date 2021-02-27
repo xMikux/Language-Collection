@@ -1,0 +1,538 @@
+[
+  {
+    "key": "EasyBackup.ingame-commands-disabled",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Ingame Commands are &cdisabled&7, sorry!",
+      "zh_TW": "%1&7遊戲中的指令&c已禁用&7, 抱歉!"
+    }
+  },
+  {
+    "key": "EasyBackup.spigot-only-command",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7This command can be &conly &7run on a &cspigot server&7, sorry!",
+      "zh_TW": "%1&7此指令&c只能&7在&cspigot伺服器&7上運行, 抱歉!"
+    }
+  },
+  {
+    "key": "EasyBackup.no-permission",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7I'm sorry, but you &cdo not &7have the &cpermission &7to do this!",
+      "zh_TW": "%1 &c你沒有權限使用該指令!"
+    }
+  },
+  {
+    "key": "EasyBackup.no-permission-argument",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7I'm sorry, but you &cdo not &7have the &cpermission &7to do this!",
+      "zh_TW": "%1 &c你沒有權限使用該指令"
+    }
+  },
+  {
+    "key": "EasyBackup.generic-error",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Sorry, but something went &cwrong &7while executing this  See the console for more details!",
+      "zh_TW": "%1&7抱歉, 但有些東西出了&c問題&7在執行此指令 請查看終端獲取更多詳細訊息!"
+    }
+  },
+  {
+    "key": "EasyBackup.unknown",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Sorry, but this command does &cnot exist&7!",
+      "zh_TW": "%1&7抱歉, 但此指令&c不存在&7!"
+    }
+  },
+  {
+    "key": "EasyBackup.invalid-syntax",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Wrong &cusage&7. Use &6%2 %3&7!",
+      "zh_TW": "%1&7錯誤 &cusage&7. 使用 &6%2 %3&7!"
+    }
+  },
+  {
+    "key": "EasyBackup.error-performing-command",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7There was an &cerror &7while performing this command!",
+      "zh_TW": "%1&7在執行此指令時發生&c錯誤&7!"
+    }
+  },
+  {
+    "key": "EasyBackup.please-specify-one-of",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Please specify one of &c%2",
+      "zh_TW": "%1&7請指定 &c%2 &7的一個"
+    }
+  },
+  {
+    "key": "EasyBackup.must-be-a-number",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&c%2 &7must be a &cnumber&7!",
+      "zh_TW": "%1&c%2 &7必須為&c數字&7!"
+    }
+  },
+  {
+    "key": "EasyBackup.min-length",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Must be at least &c%2 characters &7long!",
+      "zh_TW": "%1&7必須至少 &c%2 個字符&7長!"
+    }
+  },
+  {
+    "key": "EasyBackup.at-least",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Please specify a value &cat least %2&7!",
+      "zh_TW": "%1&7請指定一個值,且&c至少 %2&7!"
+    }
+  },
+  {
+    "key": "EasyBackup.max-length",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Please specify a value &cat most %2&7!",
+      "zh_TW": "%1&7請指定一個值, 且&c不大於 %2&7!"
+    }
+  },
+  {
+    "key": "EasyBackup.no-console",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7The &cconsole &7may &cnot &7execute this command!",
+      "zh_TW": "%1&c終端無法&7執行此指令!"
+    }
+  },
+  {
+    "key": "EasyBackup.player-not-found",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Could &cnot find &7a player with the name &c%2&7!",
+      "zh_TW": "%1&7找不到名稱為 &c%2 &7的玩家!"
+    }
+  },
+  {
+    "key": "EasyBackup.no-command-found",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7No command matching &c%2 &7found!",
+      "zh_TW": "%1&7找不到與 &c%2 &7匹配的指令!"
+    }
+  },
+  {
+    "key": "EasyBackup.help.information",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Showing page &6%2&7/&6%3 &7Results: &6%4",
+      "zh_TW": "%1&7顯示頁面 &6%2&7/&6%3 &7結果: &6%4"
+    }
+  },
+  {
+    "key": "EasyBackup.help.no-results",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&cNo more &7results",
+      "zh_TW": "%1&c沒有更多的&7結果"
+    }
+  },
+  {
+    "key": "EasyBackup.help.header",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Showing help for &6%2%3&7:",
+      "zh_TW": "%1&7顯示幫助 &6%2%3&7:"
+    }
+  },
+  {
+    "key": "EasyBackup.help.detailed.header",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Showing detailed help for &6%2%3&7:",
+      "zh_TW": "%1&7顯示詳細幫助 &6%2%3&7:"
+    }
+  },
+  {
+    "key": "EasyBackup.help.search-header",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Search results for &6%2%3 &b%4&7:",
+      "zh_TW": "%1&7搜尋結果 &6%2%3 &b%4&7:"
+    }
+  },
+  {
+    "key": "EasyBackup.error-prefix",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&cError: &7%2!",
+      "zh_TW": "%1&c錯誤: &7%2!"
+    }
+  },
+  {
+    "key": "EasyBackup.bungee-only-command",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7This command can be &conly &7run on a &cbungee server&7, sorry!",
+      "zh_TW": "%1&7此指令只能在 &cbungee伺服器&7上運行, 抱歉!"
+    }
+  },
+  {
+    "key": "EasyBackup.cleaner.start-clean",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Cleaner has been &6started&7...",
+      "zh_TW": "%1&7清理&6已開始&7..."
+    }
+  },
+  {
+    "key": "EasyBackup.cleaner.finish",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&2Successfully &7finished &6Cleaner &7in &b%2",
+      "zh_TW": "%1&2成功完成&6清理&7, 花費 &b%2"
+    }
+  },
+  {
+    "key": "EasyBackup.cleaner.not-enabled",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Cleaner is &cnot &7enabled",
+      "zh_TW": "%1&7清理&c未&7啟用"
+    }
+  },
+  {
+    "key": "EasyBackup.cleaner.clean-dir-done",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&2Successfully &7cleaned &6%2 &7(Deleted: &b%3 files&7)",
+      "zh_TW": "%1&2成功&7清理 &6%2 &7(刪除: &b%3 個檔案&7)"
+    }
+  },
+  {
+    "key": "EasyBackup.cleaner.clean-dir",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Cleaning &6%2&7...",
+      "zh_TW": "%1&7清理 &6%2&7..."
+    }
+  },
+  {
+    "key": "EasyBackup.must-be-max-length",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Must be at most &c%2 characters &7long!",
+      "zh_TW": "%1&7不得超過 &c%2 &7個字符!"
+    }
+  },
+  {
+    "key": "EasyBackup.backup.start-creation",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Backup has been &6started&7...",
+      "zh_TW": "%1&6開始&7備份..."
+    }
+  },
+  {
+    "key": "EasyBackup.backup.finish-creation",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Backup has been &2created&7. Took &6%2",
+      "zh_TW": "%1&2已創建好&7備份. 花費 &6%2"
+    }
+  },
+  {
+    "key": "EasyBackup.backup.error",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7An &cerror occurred &7while creating the backup",
+      "zh_TW": "%1&7創建備份時&c發生錯誤"
+    }
+  },
+  {
+    "key": "EasyBackup.backup.cancel",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7You &ccancelled &7the backup",
+      "zh_TW": "%1&7你已&c取消&7備份"
+    }
+  },
+  {
+    "key": "EasyBackup.backup.save-percent",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Saved &6%2 &e/ &6%3 &7(&b%4%&7) | &b%5",
+      "zh_TW": "%1&7保存 &6%2 &e/ &6%3 &7(&b%4%&7) | &b%5"
+    }
+  },
+  {
+    "key": "EasyBackup.backup.deleted-previous",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Successfully &2deleted &6%2 &7previous backups",
+      "zh_TW": "%1&7成功&2刪除 &6%2 &7以前的備份"
+    }
+  },
+  {
+    "key": "EasyBackup.backup.anti-lag.slow-down",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&cSlowing down &7backup since server is &clagging",
+      "zh_TW": "%1&c減緩&7備份,因伺服器正在&c卡盪"
+    }
+  },
+  {
+    "key": "EasyBackup.backup.anti-lag.speed-up",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Backup has returned backup to &2max speed",
+      "zh_TW": "%1&7備份已恢復到&2最大速度"
+    }
+  },
+  {
+    "key": "EasyBackup.backup.directory-does-not-exist",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Backup Directory does &cnot &7exist",
+      "zh_TW": "%1&7備份目錄&c不存在"
+    }
+  },
+  {
+    "key": "EasyBackup.backup.already-running",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Backup is &calready &7running",
+      "zh_TW": "%1&7備份&c已經&7在運行"
+    }
+  },
+  {
+    "key": "EasyBackup.backup.not-running",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Backup is &cnot &7running",
+      "zh_TW": "%1&7備份&c未&7運行"
+    }
+  },
+  {
+    "key": "EasyBackup.backup.file-not-found",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Backup file does not &cexist &7or is &cnot a file",
+      "zh_TW": "%1&7備份檔案&c不存在&7或&c不是檔案"
+    }
+  },
+  {
+    "key": "EasyBackup.upload.start",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Starting &6upload &7of the latest backup",
+      "zh_TW": "%1&7開始&6上傳&7最新備份"
+    }
+  },
+  {
+    "key": "EasyBackup.upload.finish",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&2Successfully &7finished &6all backups &7in &b%2",
+      "zh_TW": "%1&2成功&7完成&6所有備份&7在 &b%2"
+    }
+  },
+  {
+    "key": "EasyBackup.upload.no-backup",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Could &cnot &7get latest backup in directory",
+      "zh_TW": "%1&c無法&7在目錄中獲取最新備份"
+    }
+  },
+  {
+    "key": "EasyBackup.upload-services.start-upload",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Starting &6Upload &7to &6%2",
+      "zh_TW": "%1&7開始&6上傳&7到 &6%2"
+    }
+  },
+  {
+    "key": "EasyBackup.upload-services.logged-in",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Successfully &2logged in &7to &6%2",
+      "zh_TW": "%1&7成功&2登入&7到 &6%2"
+    }
+  },
+  {
+    "key": "EasyBackup.upload-services.deleted-previous",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Successfully &2deleted &6%2 &7previous backups from &6%3",
+      "zh_TW": "%1&7已成功從 &6%2 &2刪除 &6%3 &7個以前的備份"
+    }
+  },
+  {
+    "key": "EasyBackup.upload-services.upload-percent",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Uploaded &6%2 &e/ &6%3 &7(&b%4%&7) | &b%5",
+      "zh_TW": "%1&7上傳 &6%2 &e/ &6%3 &7(&b%4%&7) | &b%5"
+    }
+  },
+  {
+    "key": "EasyBackup.upload-services.finish-upload",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Finished &6Upload &7to &6%2",
+      "zh_TW": "%1&7完成&6上傳&7到 &6%2"
+    }
+  },
+  {
+    "key": "EasyBackup.upload-services.delete-local",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&2Successfully &7deleted the &6local backup file",
+      "zh_TW": "%1&2成功&7刪除&6本地備份檔案"
+    }
+  },
+  {
+    "key": "EasyBackup.upload-services.no-internet",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Uploader has been &cdisabled &7as there is &cno internet connection &7available",
+      "zh_TW": "%1&7由於&c沒有可用的網際網路連線&7,上傳已被&c關閉"
+    }
+  },
+  {
+    "key": "EasyBackup.upload-services.no-service-enabled",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Could &cnot &7upload the backup as there aren't any upload services &cenabled",
+      "zh_TW": "%1&c未啟用&7任何上傳服務, 因此&c無法&7上傳備份"
+    }
+  },
+  {
+    "key": "EasyBackup.restore.start",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&6Restore &7process has been &6started",
+      "zh_TW": "%1&6還原&7程序&6已開始"
+    }
+  },
+  {
+    "key": "EasyBackup.restore.kick-message",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&6Restoring a backup. Server should be back soon",
+      "zh_TW": "%1&6還原備份. 伺服器應該很快回來"
+    }
+  },
+  {
+    "key": "EasyBackup.restore.fail",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Restoring &cfailed",
+      "zh_TW": "%1&7還原&c失敗"
+    }
+  },
+  {
+    "key": "EasyBackup.restore.finish",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Restoring &2done&7 &cSHUTTING DOWN SERVER NOW&7. Took &6%2",
+      "zh_TW": "%1&7還原&2完成&7 &c立即關閉伺服器&7. 花費 &6%2"
+    }
+  },
+  {
+    "key": "EasyBackup.restore.backup-password-missing",
+    "type": "text",
+    "languages": {
+      "en_US": "%1The specified backup file is encrypted but no password was specified",
+      "zh_TW": "%1指定備份已加密, 但未指定密碼"
+    }
+  },
+  {
+    "key": "EasyBackup.restore.no-incremental-backups",
+    "type": "text",
+    "languages": {
+      "en_US": "%1You &can not &7restore &cincremental backups",
+      "zh_TW": "%1你&c無法&7還原&c增量備份"
+    }
+  },
+  {
+    "key": "EasyBackup.disk.space",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7EasyBackup uses &6%2 &7/ &6%3",
+      "zh_TW": "%1&7EasyBackup 使用 &6%2 &7/ &6%3"
+    }
+  },
+  {
+    "key": "EasyBackup.disk.folder",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Directories: &6%2",
+      "zh_TW": "%1&7目錄: &6%2"
+    }
+  },
+  {
+    "key": "EasyBackup.disk.files",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Files: &6%2",
+      "zh_TW": "%1&7檔案: &6%2"
+    }
+  },
+  {
+    "key": "EasyBackup.reload.start",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Reloading configs. Please wait...",
+      "zh_TW": "%1&7重新加載設定. 請稍候..."
+    }
+  },
+  {
+    "key": "EasyBackup.reload.finish",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&2Successfully &7reloaded configs",
+      "zh_TW": "%1&2成功&7重新加載設定"
+    }
+  },
+  {
+    "key": "EasyBackup.reload.finish-note",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Please note that reloading the config &conly changes a few values &7and &cdoes not &7reload the whole plugin",
+      "zh_TW": "%1&7請注意,重新加載配置&c只會更改一些值&7和&c並不會&7重新加載整個插件"
+    }
+  },
+  {
+    "key": "EasyBackup.reload.fail",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7Could &cnot &7reload the configuration",
+      "zh_TW": "%1&7無法&c重新&7加載配置"
+    }
+  },
+  {
+    "key": "EasyBackup.delete.success",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7The backup has been deleted &2successfully",
+      "zh_TW": "%1&7備份&2已成功&7刪除"
+    }
+  },
+  {
+    "key": "EasyBackup.delete.fail",
+    "type": "text",
+    "languages": {
+      "en_US": "%1&7The backup could &cnot &7be deleted",
+      "zh_TW": "%1&7備份&c無法&7刪除"
+    }
+  }
+]

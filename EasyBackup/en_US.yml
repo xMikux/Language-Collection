@@ -1,0 +1,321 @@
+#                                                                                                        
+#     _/_/_/_/                                _/_/_/                        _/                           
+#    _/          _/_/_/    _/_/_/  _/    _/  _/    _/    _/_/_/    _/_/_/  _/  _/    _/    _/  _/_/_/    
+#   _/_/_/    _/    _/  _/_/      _/    _/  _/_/_/    _/    _/  _/        _/_/      _/    _/  _/    _/   
+#  _/        _/    _/      _/_/  _/    _/  _/    _/  _/    _/  _/        _/  _/    _/    _/  _/    _/    
+# _/_/_/_/    _/_/_/  _/_/_/      _/_/_/  _/_/_/      _/_/_/    _/_/_/  _/    _/    _/_/_/  _/_/_/       
+#                                    _/                                                    _/            
+#                               _/_/                                                      _/             
+# Messages Configuration
+#  
+# Thank you very much for purchasing my plugin <3
+# If you have any questions / problems, please use my online service desk:
+# https://prodigysupport.team/tickets/servicedesk/customer/portal/1
+# ~ JarFiles
+
+# String which will appear in front of each message
+# You can use the {prefix} placeholder in almost any message.
+# NOTE:
+# Sometimes {prefix} will be replaced with nothing, if the message must not contain a prefix
+prefix: '&8[&6EasyBackup&8]: '
+# Message which will appear if ingame commands have been disabled
+ingame-commands-disabled: '{prefix}&7Ingame Commands are &cdisabled&7, sorry!'
+# Completely disable all notification messages (NOT RECOMMENDED)
+disable-notifications: false
+# Message which will be sent if you try to execute a command which is made for the spigot edition only
+spigot-only-command: '{prefix}&7This command can be &conly &7run on a &cspigot server&7,
+  sorry!'
+# Message which will appear if a player doesn't have the permission to execute a command
+no-permission: '{prefix}&7I''m sorry, but you &cdo not &7have the &cpermission &7to
+  do this!'
+# Message which will appear if a player doesn't have the permission to excute a specific argument in a command
+no-permission-argument: '{prefix}&7I''m sorry, but you &cdo not &7have the &cpermission
+  &7to do this!'
+# Message which will appear if an unknown error occurs while executing a command
+generic-error: '{prefix}&7Sorry, but something went &cwrong &7while executing this  See
+  the console for more details!'
+# Message which will appear if the executed command does not exist
+unknown: '{prefix}&7Sorry, but this command does &cnot exist&7!'
+# Message which will be sent if the command syntax is wrong
+#  
+# Placeholders:
+# {command} - will be replaced with the command
+# {syntax} -  will be replaced with the expected syntax
+invalid-syntax: '{prefix}&7Wrong &cusage&7. Use &6{command} {syntax}&7!'
+# Message which will be sent if an error occurs while executing the command
+error-performing-command: '{prefix}&7There was an &cerror &7while performing this
+  command!'
+# Message which will be sent if a specific value is expected but not present
+#  
+# Placeholders:
+# {valid} - will be replaced with the expected values
+please-specify-one-of: '{prefix}&7Please specify one of &c{valid}'
+# Message which will be sent if a number value is expected but not present
+#  
+# Placeholders:
+# {num} - will be replaced with the given value
+must-be-a-number: '{prefix}&c{num} &7must be a &cnumber&7!'
+# Message which will be sent if a character value is expected but the given one has too less characters
+#  
+# Placeholders:
+# {min} - will be replaced with the excepted minimum length
+min-length: '{prefix}&7Must be at least &c{min} characters &7long!'
+# Message which will be sent if a number value is expected but the given one is too low
+#  
+# Placeholders:
+# {min} - will be replaced with the excepted minimum value
+at-least: '{prefix}&7Please specify a value &cat least {min}&7!'
+# Message which will be sent if a number value is expected but the given one is too high
+#  
+# Placeholders:
+# {min} - will be replaced with the excepted maximum value
+max-length: '{prefix}&7Please specify a value &cat most {max}&7!'
+# Message which will be sent if the console is not allowed to execute a command
+no-console: '{prefix}&7The &cconsole &7may &cnot &7execute this command!'
+# Message which will be sent if a player value is expected but the given one is not present
+#  
+# Placeholders:
+# {search} - the given player name
+player-not-found: '{prefix}&7Could &cnot find &7a player with the name &c{search}&7!'
+# Message which will be sent if someone searches for a command which does not exist
+#  
+# Placeholders:
+# {search} - the given search query
+no-command-found: '{prefix}&7No command matching &c{search} &7found!'
+help:
+  # Message which displays the help page information
+  #  
+  # Placeholders:
+  # {page} - current page
+  # {totalpages} - number of total pages
+  # {results} - number of results
+  information: '{prefix}&7Showing page &6{page}&7/&6{totalpages} &7Results: &6{results}'
+  # Message which will be sent if no more results are found
+  no-results: '{prefix}&cNo more &7results'
+  # Message which displays the header of a help message
+  #  
+  # Placeholders:
+  # {commandprefix} - prefix of a command
+  # {command} - name of the command
+  header: '{prefix}&7Showing help for &6{commandprefix}{command}&7:'
+  # Format of each help message entry
+  #  
+  # Placeholders:
+  # {command} - name of the command
+  # {parameters} - arguments / parameters of the command
+  # {seperator} - just for styling. [-] (will be replaced with nothing if there is no command description)
+  # {description} - description of the command
+  format: '{prefix}&7/{command} &6{parameters}'
+  detailed:
+    # Message which displays the detailed header of a help message
+    #  
+    # Placeholders:
+    # {commandprefix} - prefix of a command
+    # {command} - name of the command
+    header: '{prefix}&7Showing detailed help for &6{commandprefix}{command}&7:'
+    # Format of each detailed command help message entry
+    #  
+    # Placeholders:
+    # {command} - name of the command
+    # {parameters} - arguments / parameters of the command
+    # {seperator} - just for styling. [-] (will be replaced with nothing if there is no command description)
+    # {description} - description of the command
+    command-format: '{prefix}&7/{command} &6{parameters} &7{separator} &b{description}'
+    # Format of each detailed parameter help message entry
+    #  
+    # Placeholders:
+    # {syntaxorname} - name of the parameter
+    # {description} - description of the parameter
+    parameter-format: '{prefix}&7{syntaxorname}: &b{description}'
+  # Message which displays the header of a search help message
+  #  
+  # Placeholders:
+  # {commandprefix} - prefix of a command
+  # {command} - name of the command
+  # {search} - search result
+  search-header: '{prefix}&7Search results for &6{commandprefix}{command} &b{search}&7:'
+# Message which will be sent if an error occurs while executing the command
+# Is used by messages in the *.error.* section
+#  
+# Placeholders:
+# {message} - will be replaced with the error message
+error-prefix: '{prefix}&cError: &7{message}!'
+# Message which will be sent if you try to execute a command which is made for the bungee edition only
+bungee-only-command: '{prefix}&7This command can be &conly &7run on a &cbungee server&7,
+  sorry!'
+cleaner:
+  # Message which will be sent once the cleaner starts
+  start-clean: '{prefix}&7Cleaner has been &6started&7...'
+  # Message which will be sent if a manually cleaner finishes
+  #  
+  # Placeholders:
+  # {time} - Time for the cleaner
+  finish: '{prefix}&2Successfully &7finished &6Cleaner &7in &b{time}'
+  # Message which will be sent if you try to run the cleaner but it's not enabled
+  not-enabled: '{errorprefix}&7Cleaner is &cnot &7enabled'
+  # Message which will be sent once the cleaner finishes cleaning a directory
+  #  
+  # Placeholders:
+  # {directory} - directory which has been cleaned
+  # {amount} - amount of files which have been deleted
+  clean-dir-done: '{prefix}&2Successfully &7cleaned &6{directory} &7(Deleted: &b{amount}
+    files&7)'
+  # Message which will be sent once the cleaner starts cleaning a directory
+  #  
+  # Placeholders:
+  # {directory} - name of the directory
+  clean-dir: '{prefix}&7Cleaning &6{directory}&7...'
+# Message which will be sent if a character value is expected but the given one has too many characters
+#  
+# Placeholders:
+# {max} - will be replaced with the excepted minimum length
+must-be-max-length: '{prefix}&7Must be at most &c{min} characters &7long!'
+backup:
+  # Will be send when a backup has been started
+  start-creation: '{prefix}&7Backup has been &6started&7...'
+  # Will be send when a backup has been created
+  #  
+  # Placeholders:
+  # {time} - will be replaced with the backup create duration
+  finish-creation: '{prefix}&7Backup has been &2created&7. Took &6{time}'
+  # Will be send when an error occurs during the backup creation or the upload process
+  error: '{prefix}&7An &cerror occurred &7while creating the backup'
+  # Will be send when the backup process has been cancelled
+  cancel: '{prefix}&7You &ccancelled &7the backup'
+  # Message which will be sent every 5 seconds with the current save percentage
+  #  
+  # Placeholders:
+  # {saved} - saved bytes
+  # {totalsize} - total size of the backup
+  # {percent} - percentage of the zip saving
+  # {speed} - current backup speed
+  save-percent: '{prefix}&7Saved &6{saved} &e/ &6{totalsize} &7(&b{percent}%&7) |
+    &b{speed}'
+  # Delay between each percentage message in seconds
+  percent-msg-delay: 5
+  # Message which will be sent once the plugin finishes deleting old backups
+  #  
+  # Placeholders:
+  # {amount} - amount of deleted files
+  deleted-previous: '{prefix}&7Successfully &2deleted &6{amount} &7previous backups'
+  anti-lag:
+    # Message which will be sent if the server is lagging
+    slow-down: '{prefix}&cSlowing down &7backup since server is &clagging'
+    # Message which will be sent if the backup has returned to it's max speed
+    speed-up: '{prefix}&7Backup has returned backup to &2max speed'
+  # Message which will be sent if you try to upload a backup but the backup directory hasn't been created yet
+  directory-does-not-exist: '{errorprefix}&7Backup Directory does &cnot &7exist'
+  # Message which will be sent if you try to create a backup while it's already running
+  already-running: '{errorprefix}&7Backup is &calready &7running'
+  # Message which will be sent if you try to cancel a backup while it's not running
+  not-running: '{errorprefix}&7Backup is &cnot &7running'
+  # Message which will be sent if the specified backup could not be found
+  file-not-found: '{errorprefix}&7Backup file does not &cexist &7or is &cnot a file'
+upload:
+  # Message which will be sent if you start an upload
+  start: '{prefix}&7Starting &6upload &7of the latest backup'
+  # Message which will be sent if a manually upload finishes
+  #  
+  # Placeholders:
+  # {time} - Time for the upload
+  finish: '{prefix}&2Successfully &7finished &6all backups &7in &b{time}'
+  # Message which will be sent if you start an upload but there is no latest backup
+  no-backup: '{errorprefix}&7Could &cnot &7get latest backup in directory'
+upload-services:
+  # Message which will be sent once an upload starts
+  #  
+  # Placeholders:
+  # {service} - name of the upload service
+  start-upload: '{prefix}&7Starting &6Upload &7to &6{service}'
+  # Message which will be sent once the plugin established the connetion to the service
+  #  
+  # Placeholders:
+  # {service} - name of the upload service
+  logged-in: '{prefix}&7Successfully &2logged in &7to &6{service}'
+  # Message which will be sent once the plugin finishes deleting old backups
+  #  
+  # Placeholders:
+  # {service} - name of the upload service
+  # {amount} - amount of deleted files
+  deleted-previous: '{prefix}&7Successfully &2deleted &6{amount} &7previous backups
+    from &6{service}'
+  # Message which will be sent every 5 seconds with the current upload percentage
+  #  
+  # Placeholders:
+  # {service} - name of the upload service
+  # {saved} - saved bytes
+  # {totalsize} - total size of the backup
+  # {percent} - percentage of the zip saving
+  # {speed} - current backup speed
+  upload-percent: '{prefix}&7Uploaded &6{saved} &e/ &6{totalsize} &7(&b{percent}%&7)
+    | &b{speed}'
+  # Delay between each percentage message in seconds
+  percent-msg-delay: 5
+  # Message which will be sent once an upload has been finished
+  #  
+  # Placeholders:
+  # {service} - name of the upload service
+  finish-upload: '{prefix}&7Finished &6Upload &7to &6{service}'
+  # Message which will be sent once the local backup file has been deleted successfully
+  delete-local: '{prefix}&2Successfully &7deleted the &6local backup file'
+  # Message which will be sent if you try to upload something but there is no internet connection available
+  no-internet: '{prefix}&7Uploader has been &cdisabled &7as there is &cno internet
+    connection &7available'
+  # Message which will be sent if there aren't any upload services enabled
+  no-service-enabled: '{prefix}&7Could &cnot &7upload the backup as there aren''t
+    any upload services &cenabled'
+restore:
+  # Message which will be sent if you start restoring a backup
+  start: '{prefix}&6Restore &7process has been &6started'
+  # Message which will be sent when kicking all players
+  kick-message: '{prefix}&6Restoring a backup. Server should be back soon'
+  # Message which will be sent if restoring a backup fails
+  fail: '{prefix}&7Restoring &cfailed'
+  # Will be send when restoring a backup was successful
+  #  
+  # Placeholders:
+  # {time} - will be replaced with the restore duration
+  finish: '{prefix}&7Restoring &2done&7 &cSHUTTING DOWN SERVER NOW&7. Took &6{time}'
+  # Message which will sent if you try to restore an encrypted backup but you didn't specify a password
+  backup-password-missing: '{errorprefix}The specified backup file is encrypted but
+    no password was specified'
+  # Message which will be sent if try to restore an incremental backup
+  no-incremental-backups: '{errorprefix}You &can not &7restore &cincremental backups'
+disk:
+  # Message which will be sent if use the disk command
+  #  
+  # Placeholders:
+  # {used} - used disk space
+  # {totalsize} - total available space
+  space: '{prefix}&7EasyBackup uses &6{used} &7/ &6{totalsize}'
+  # Message which will be sent if use the disk command
+  #  
+  # Placeholders:
+  # {amount} - directory amount
+  folder: '{prefix}&7Directories: &6{amount}'
+  # Message which will be sent if use the disk command
+  #  
+  # Placeholders:
+  # {amount} - files amount
+  files: '{prefix}&7Files: &6{amount}'
+reload:
+  # Message which will be sent once the plugin starts reloading the config
+  start: '{prefix}&7Reloading configs. Please wait...'
+  # Message which will be sent once the plugin finishes reloading the config
+  finish: '{prefix}&2Successfully &7reloaded configs'
+  # Message which will be sent once the plugin finishes reloading the config
+  finish-note: '{prefix}&7Please note that reloading the config &conly changes a few
+    values &7and &cdoes not &7reload the whole plugin'
+  # Message which will be sent if an error occurs while reloading the config
+  fail: '{prefix}&7Could &cnot &7reload the configuration'
+delete:
+  # Message which will be sent if the backup deletion finishes successfully
+  #  
+  # Placeholders:
+  # {backup} - backup file name
+  success: '{prefix}&7The backup has been deleted &2successfully'
+  # Message which will be sent if the backup deletion fails
+  #  
+  # Placeholders:
+  # {backup} - backup file name
+  fail: '{prefix}&7The backup could &cnot &7be deleted'

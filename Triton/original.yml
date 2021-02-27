@@ -1,0 +1,71 @@
+error:
+  no-permission: '[lang]Triton.error.no-permission[args][arg]%1[/arg][/args][/lang]'
+  message-not-found: '[lang]Triton.error.message-not-found[args][arg]%1[/arg][/args][/lang]'
+  lang-not-found: '[lang]Triton.error.lang-not-found[args][arg]%1[/arg][/args][/lang]'
+  player-not-found-use-uuid: >-
+    [lang]Triton.error.player-not-found-use-uuid[args][arg]%1[/arg][/args][/lang]
+  bungee-reload-invalid-mode: >-
+    [lang]Triton.error.bungee-reload-invalid-mode[args][arg]%1[/arg][/args][/lang]
+  not-sign: '[lang]Triton.error.not-sign[/lang]'
+  sign-not-found: '[lang]Triton.error.sign-not-found[args][arg]%1[/arg][/args][/lang]'
+  database-invalid-mode: '[lang]Triton.error.database-invalid-mode[args][arg]%1[/arg][/args][/lang]'
+  database-not-supported: '[lang]Triton.error.database-not-supported[/lang]'
+  not-available-on-spigot: '[lang]Triton.error.not-available-on-spigot[/lang]'
+help:
+  menu:
+    - '&8-------[ &b&lTriton&8 ]-------'
+    - '[lang]Triton.help.menu.1[/lang]'
+    - '%1'
+  menu-item: '&b/%1 &3%2 &8&l- &f%3'
+  getflag: '[lang]Triton.help.getflag[args][arg]%1[/arg][/args][/lang]'
+  setlanguage: '[lang]Triton.help.setlanguage[args][arg]%1[/arg][/args][/lang]'
+  sign: '[lang]Triton.help.sign[args][arg]%1[/arg][/args][/lang]'
+  database: '[lang]Triton.help.database[args][arg]%1[/arg][/args][/lang]'
+command:
+  help: '[lang]Triton.command.help[/lang]'
+  getflag: '[lang]Triton.command.getflag[/lang]'
+  openselector: '[lang]Triton.command.openselector[/lang]'
+  reload: '[lang]Triton.command.reload[/lang]'
+  setlanguage: '[lang]Triton.command.setlanguage[/lang]'
+  sign: '[lang]Triton.command.sign[/lang]'
+  twin: '[lang]Triton.command.twin[/lang]'
+  database: '[lang]Triton.command.database[/lang]'
+  info: '[lang]Triton.command.info[/lang]'
+success:
+  getflag: '[lang]Triton.success.getflag[args][arg]%1[/arg][/args][/lang]'
+  selector: '[lang]Triton.success.selector[args][arg]%1[/arg][/args][/lang]'
+  reload: '[lang]Triton.success.reload[/lang]'
+  bungee-reload: '[lang]Triton.success.bungee-reload[/lang]'
+  setlanguage: '[lang]Triton.success.setlanguage[args][arg]%1[/arg][/args][/lang]'
+  setlanguage-others: >-
+    [lang]Triton.success.setlanguage-others[args][arg]%1[/arg][arg]%2[/arg][/args][/lang]
+  detected-language: '[lang]Triton.success.detected-language[args][arg]%1[/arg][/args][/lang]'
+  sign-set: '[lang]Triton.success.sign-set[args][arg]%1[/arg][/args][/lang]'
+  sign-remove: '[lang]Triton.success.sign-remove[/lang]'
+  database: '[lang]Triton.success.database[/lang]'
+twin:
+  failed-bungeecord: '[lang]Triton.twin.failed-bungeecord[/lang]'
+  no-internet: '[lang]Triton.twin.no-internet[args][arg]%1[/arg][/args][/lang]'
+  failed-fetch: '[lang]Triton.twin.failed-fetch[args][arg]%1[/arg][/args][/lang]'
+  failed-upload: '[lang]Triton.twin.failed-upload[args][arg]%1[/arg][/args][/lang]'
+  incorrect-status: '[lang]Triton.twin.incorrect-status[args][arg]%1[/arg][/args][/lang]'
+  connecting: '[lang]Triton.twin.connecting[/lang]'
+  uploaded: '[lang]Triton.twin.uploaded[args][arg]%1[/arg][/args][/lang]'
+  success: '[lang]Triton.twin.success[/lang]'
+  no-token: '[lang]Triton.twin.no-token[/lang]'
+  repeated-download: '[lang]Triton.twin.repeated-download[/lang]'
+  failed-collection-save: '[lang]Triton.twin.failed-collection-save[/lang]'
+other:
+  selector-gui-name: '[lang]Triton.other.selector-gui-name[/lang]'
+  selector-gui-prev: '[lang]Triton.other.selector-gui-prev[/lang]'
+  selector-gui-forward: '[lang]Triton.other.selector-gui-forward[/lang]'
+  selector-gui-currentpage: >-
+    [lang]Triton.other.selector-gui-currentpage[args][arg]%1[/arg][arg]%2[/arg][/args][/lang]
+  selected: '[lang]Triton.other.selected[/lang]'
+  database-loading: '[lang]Triton.other.database-loading[/lang]'
+info-command:
+  - '&8-------[ &b&lTriton&8 ]-------'
+  - '[lang]Triton.info-command.1[args][arg]%1[/arg][/args][/lang]'
+  - '[lang]Triton.info-command.2[args][arg]%2[/arg][/args][/lang]'
+  - '[lang]Triton.info-command.3[args][arg]%3[/arg][/args][/lang]'
+  - '[lang]Triton.info-command.4[args][arg]%4[/arg][/args][/lang]'

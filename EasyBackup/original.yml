@@ -1,0 +1,131 @@
+prefix: '&8[&6EasyBackup&8]: '
+ingame-commands-disabled: >-
+  [lang]EasyBackup.ingame-commands-disabled[args][arg]{prefix}[/arg][/args][/lang]
+disable-notifications: false
+spigot-only-command: '[lang]EasyBackup.spigot-only-command[args][arg]{prefix}[/arg][/args][/lang]'
+no-permission: '[lang]EasyBackup.no-permission[args][arg]{prefix}[/arg][/args][/lang]'
+no-permission-argument: '[lang]EasyBackup.no-permission-argument[args][arg]{prefix}[/arg][/args][/lang]'
+generic-error: '[lang]EasyBackup.generic-error[args][arg]{prefix}[/arg][/args][/lang]'
+unknown: '[lang]EasyBackup.unknown[args][arg]{prefix}[/arg][/args][/lang]'
+invalid-syntax: >-
+  [lang]EasyBackup.invalid-syntax[args][arg]{prefix}[/arg][arg]{command}[/arg][arg]{syntax}[/arg][/args][/lang]
+error-performing-command: >-
+  [lang]EasyBackup.error-performing-command[args][arg]{prefix}[/arg][/args][/lang]
+please-specify-one-of: >-
+  [lang]EasyBackup.please-specify-one-of[args][arg]{prefix}[/arg][arg]{valid}[/arg][/args][/lang]
+must-be-a-number: >-
+  [lang]EasyBackup.must-be-a-number[args][arg]{prefix}[/arg][arg]{num}[/arg][/args][/lang]
+min-length: >-
+  [lang]EasyBackup.min-length[args][arg]{prefix}[/arg][arg]{min}[/arg][/args][/lang]
+at-least: >-
+  [lang]EasyBackup.at-least[args][arg]{prefix}[/arg][arg]{min}[/arg][/args][/lang]
+max-length: >-
+  [lang]EasyBackup.max-length[args][arg]{prefix}[/arg][arg]{max}[/arg][/args][/lang]
+no-console: '[lang]EasyBackup.no-console[args][arg]{prefix}[/arg][/args][/lang]'
+player-not-found: >-
+  [lang]EasyBackup.player-not-found[args][arg]{prefix}[/arg][arg]{search}[/arg][/args][/lang]
+no-command-found: >-
+  [lang]EasyBackup.no-command-found[args][arg]{prefix}[/arg][arg]{search}[/arg][/args][/lang]
+help:
+  information: >-
+    [lang]EasyBackup.help.information[args][arg]{prefix}[/arg][arg]{page}[/arg][arg]{totalpages}[/arg][arg]{results}[/arg][/args][/lang]
+  no-results: '[lang]EasyBackup.help.no-results[args][arg]{prefix}[/arg][/args][/lang]'
+  header: >-
+    [lang]EasyBackup.help.header[args][arg]{prefix}[/arg][arg]{commandprefix}[/arg][arg]{command}[/arg][/args][/lang]
+  format: '{prefix}&7/{command} &6{parameters}'
+  detailed:
+    header: >-
+      [lang]EasyBackup.help.detailed.header[args][arg]{prefix}[/arg][arg]{commandprefix}[/arg][arg]{command}[/arg][/args][/lang]
+    command-format: '{prefix}&7/{command} &6{parameters} &7{separator} &b{description}'
+    parameter-format: '{prefix}&7{syntaxorname}: &b{description}'
+  search-header: >-
+    [lang]EasyBackup.help.search-header[args][arg]{prefix}[/arg][arg]{commandprefix}[/arg][arg]{command}[/arg][arg]{search}[/arg][/args][/lang]
+error-prefix: >-
+  [lang]EasyBackup.error-prefix[args][arg]{prefix}[/arg][arg]{message}[/arg][/args][/lang]
+bungee-only-command: '[lang]EasyBackup.bungee-only-command[args][arg]{prefix}[/arg][/args][/lang]'
+cleaner:
+  start-clean: '[lang]EasyBackup.cleaner.start-clean[args][arg]{prefix}[/arg][/args][/lang]'
+  finish: >-
+    [lang]EasyBackup.cleaner.finish[args][arg]{prefix}[/arg][arg]{time}[/arg][/args][/lang]
+  not-enabled: >-
+    [lang]EasyBackup.cleaner.not-enabled[args][arg]{errorprefix}[/arg][/args][/lang]
+  clean-dir-done: >-
+    [lang]EasyBackup.cleaner.clean-dir-done[args][arg]{prefix}[/arg][arg]{directory}[/arg][arg]{amount}[/arg][/args][/lang]
+  clean-dir: >-
+    [lang]EasyBackup.cleaner.clean-dir[args][arg]{prefix}[/arg][arg]{directory}[/arg][/args][/lang]
+must-be-max-length: >-
+  [lang]EasyBackup.must-be-max-length[args][arg]{prefix}[/arg][arg]{min}[/arg][/args][/lang]
+backup:
+  start-creation: >-
+    [lang]EasyBackup.backup.start-creation[args][arg]{prefix}[/arg][/args][/lang]
+  finish-creation: >-
+    [lang]EasyBackup.backup.finish-creation[args][arg]{prefix}[/arg][arg]{time}[/arg][/args][/lang]
+  error: '[lang]EasyBackup.backup.error[args][arg]{prefix}[/arg][/args][/lang]'
+  cancel: '[lang]EasyBackup.backup.cancel[args][arg]{prefix}[/arg][/args][/lang]'
+  save-percent: >-
+    [lang]EasyBackup.backup.save-percent[args][arg]{prefix}[/arg][arg]{saved}[/arg][arg]{totalsize}[/arg][arg]{percent}[/arg][arg]{speed}[/arg][/args][/lang]
+  percent-msg-delay: 5
+  deleted-previous: >-
+    [lang]EasyBackup.backup.deleted-previous[args][arg]{prefix}[/arg][arg]{amount}[/arg][/args][/lang]
+  anti-lag:
+    slow-down: >-
+      [lang]EasyBackup.backup.anti-lag.slow-down[args][arg]{prefix}[/arg][/args][/lang]
+    speed-up: >-
+      [lang]EasyBackup.backup.anti-lag.speed-up[args][arg]{prefix}[/arg][/args][/lang]
+  directory-does-not-exist: >-
+    [lang]EasyBackup.backup.directory-does-not-exist[args][arg]{errorprefix}[/arg][/args][/lang]
+  already-running: >-
+    [lang]EasyBackup.backup.already-running[args][arg]{errorprefix}[/arg][/args][/lang]
+  not-running: >-
+    [lang]EasyBackup.backup.not-running[args][arg]{errorprefix}[/arg][/args][/lang]
+  file-not-found: >-
+    [lang]EasyBackup.backup.file-not-found[args][arg]{errorprefix}[/arg][/args][/lang]
+upload:
+  start: '[lang]EasyBackup.upload.start[args][arg]{prefix}[/arg][/args][/lang]'
+  finish: >-
+    [lang]EasyBackup.upload.finish[args][arg]{prefix}[/arg][arg]{time}[/arg][/args][/lang]
+  no-backup: >-
+    [lang]EasyBackup.upload.no-backup[args][arg]{errorprefix}[/arg][/args][/lang]
+upload-services:
+  start-upload: >-
+    [lang]EasyBackup.upload-services.start-upload[args][arg]{prefix}[/arg][arg]{service}[/arg][/args][/lang]
+  logged-in: >-
+    [lang]EasyBackup.upload-services.logged-in[args][arg]{prefix}[/arg][arg]{service}[/arg][/args][/lang]
+  deleted-previous: >-
+    [lang]EasyBackup.upload-services.deleted-previous[args][arg]{prefix}[/arg][arg]{amount}[/arg][arg]{service}[/arg][/args][/lang]
+  upload-percent: >-
+    [lang]EasyBackup.upload-services.upload-percent[args][arg]{prefix}[/arg][arg]{saved}[/arg][arg]{totalsize}[/arg][arg]{percent}[/arg][arg]{speed}[/arg][/args][/lang]
+  percent-msg-delay: 5
+  finish-upload: >-
+    [lang]EasyBackup.upload-services.finish-upload[args][arg]{prefix}[/arg][arg]{service}[/arg][/args][/lang]
+  delete-local: >-
+    [lang]EasyBackup.upload-services.delete-local[args][arg]{prefix}[/arg][/args][/lang]
+  no-internet: >-
+    [lang]EasyBackup.upload-services.no-internet[args][arg]{prefix}[/arg][/args][/lang]
+  no-service-enabled: >-
+    [lang]EasyBackup.upload-services.no-service-enabled[args][arg]{prefix}[/arg][/args][/lang]
+restore:
+  start: '[lang]EasyBackup.restore.start[args][arg]{prefix}[/arg][/args][/lang]'
+  kick-message: '[lang]EasyBackup.restore.kick-message[args][arg]{prefix}[/arg][/args][/lang]'
+  fail: '[lang]EasyBackup.restore.fail[args][arg]{prefix}[/arg][/args][/lang]'
+  finish: >-
+    [lang]EasyBackup.restore.finish[args][arg]{prefix}[/arg][arg]{time}[/arg][/args][/lang]
+  backup-password-missing: >-
+    [lang]EasyBackup.restore.backup-password-missing[args][arg]{errorprefix}[/arg][/args][/lang]
+  no-incremental-backups: >-
+    [lang]EasyBackup.restore.no-incremental-backups[args][arg]{errorprefix}[/arg][/args][/lang]
+disk:
+  space: >-
+    [lang]EasyBackup.disk.space[args][arg]{prefix}[/arg][arg]{used}[/arg][arg]{totalsize}[/arg][/args][/lang]
+  folder: >-
+    [lang]EasyBackup.disk.folder[args][arg]{prefix}[/arg][arg]{amount}[/arg][/args][/lang]
+  files: >-
+    [lang]EasyBackup.disk.files[args][arg]{prefix}[/arg][arg]{amount}[/arg][/args][/lang]
+reload:
+  start: '[lang]EasyBackup.reload.start[args][arg]{prefix}[/arg][/args][/lang]'
+  finish: '[lang]EasyBackup.reload.finish[args][arg]{prefix}[/arg][/args][/lang]'
+  finish-note: '[lang]EasyBackup.reload.finish-note[args][arg]{prefix}[/arg][/args][/lang]'
+  fail: '[lang]EasyBackup.reload.fail[args][arg]{prefix}[/arg][/args][/lang]'
+delete:
+  success: '[lang]EasyBackup.delete.success[args][arg]{prefix}[/arg][/args][/lang]'
+  fail: '[lang]EasyBackup.delete.fail[args][arg]{prefix}[/arg][/args][/lang]'

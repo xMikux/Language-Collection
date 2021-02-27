@@ -1,0 +1,30 @@
+# English language file.
+# Use "§"-symbol for color picking, not the "&".
+PLUGIN_PREFIX: "§8§l[§2§lVivaldi§8§l]§r"
+
+SEASON_WINTER: "§3Winter"
+SEASON_SPRING: "§aSpring"
+SEASON_SUMMER: "§2Summer"
+SEASON_AUTUMN: "§6Autumn"
+
+DAY_CHANGE_MESSAGE: "§7A new day begins... Today is: §c%d §7day of %s§7." #%d for day, %s for season
+DAY_CHANGE_LOG: "Day has been changed! Today is: %d day of %s." #%d for day, %s for season
+
+SEASON_CHANGE_MESSAGE: "%s §7is coming!" #%s for season
+SEASON_CHANGE_LOG: "Season has been changed! New season is: %s." #%s for season
+
+COMMAND_WELCOME_MESSAGE: "§7Welcome to Vivaldi. Type §a/vivaldi §bhelp §7to get info about commands."
+COMMAND_HELP_MESSAGE: 
+ - "§4§lList of commands:" 
+ - "§7- §a/vivaldi §binfo §8(or §2i§8) §7- get info about current season and day"
+ - "§7- §a/vivaldi §bsetseason §8(or §2ss§8) §3<season> §7- change the season"
+ - "§7- §a/vivaldi §bsetday §8(or §2sd§8) §3<day> §7- change the day"
+ - "§7- §a/vivaldi §breload §8(or §2r§8) §7- reload Vivaldi"
+COMMAND_INFO_MESSAGE: "§7Today is §c%d §7day of %s§7." #%d for day, %s for season
+COMMAND_PLUGIN_RELOADED: "§7Plugin has been reloaded."
+
+ERROR_COMMAND_DOESNT_EXIST: "§cError! §7Command doesn`t exist: §4%s§7." #%s for command
+ERROR_SEASON_DOESNT_EXIST: "§cError! §7Season §4%s §7doesn`t exist." #%s for season
+ERROR_SEASON_DOESNT_SPECIFIED: "§cError! §7Please specify the season."
+ERROR_DAY_WRONG_ARGUMENT: "§cError! §7Specified value cannot be larger than DaysInSeason or lower than one."
+ERROR_DAY_DOESNT_SPECIFIED: "§cError! §7Please specify the day."

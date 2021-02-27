@@ -1,0 +1,442 @@
+[
+  {
+    "key": "Triton.error.no-permission",
+    "type": "text",
+    "languages": {
+      "en_US": "&cNo permission. Permission required: &4%1",
+      "zh_TW": "&c沒有權限. 需要權限: &4%1"
+    }
+  },
+  {
+    "key": "Triton.error.message-not-found",
+    "type": "text",
+    "languages": {
+      "en_US": "ERROR 404: Message not found: '%1'!",
+      "zh_TW": "錯誤 404: 未找到信息: '%1'!"
+    }
+  },
+  {
+    "key": "Triton.error.lang-not-found",
+    "type": "text",
+    "languages": {
+      "en_US": "&cLanguage &4%1&c not found! &7&oNote: It's case sensitive. Use TAB to show all the available languages.",
+      "zh_TW": "&c找不到 &4%1 &c! &7&o注意: 區分大小寫. 使用TAB來顯示所有可用語言."
+    }
+  },
+  {
+    "key": "Triton.error.player-not-found-use-uuid",
+    "type": "text",
+    "languages": {
+      "en_US": "&cPlayer &4%1&c not found! Use UUID to search through offline players.",
+      "zh_TW": "&c找不到玩家 &4%1&c ! 使用UUID來搜尋離線玩家."
+    }
+  },
+  {
+    "key": "Triton.error.bungee-reload-invalid-mode",
+    "type": "text",
+    "languages": {
+      "en_US": "&cMode &4%1&c does not exist. Available modes are 'bungee' (or 'b'), 'server' (or 's') and 'all' (or 'a').",
+      "zh_TW": "&c模式 &4%1&c 並不存在. 可用模式為 'bungee' (或'b'), 'server' (或 's') 和 'all' (或 'a')."
+    }
+  },
+  {
+    "key": "Triton.error.not-sign",
+    "type": "text",
+    "languages": {
+      "en_US": "&cYou're not looking at a sign.",
+      "zh_TW": "&c你不是在看告示牌."
+    }
+  },
+  {
+    "key": "Triton.error.sign-not-found",
+    "type": "text",
+    "languages": {
+      "en_US": "&cSign group &4%1&c not found! &7&oNote: It's case sensitive. Use TAB to all the available options.",
+      "zh_TW": "&c找不到告示牌組 &4%1&c! &7&o注意: 區分大小寫. 使用TAB來顯示所有可用選項."
+    }
+  },
+  {
+    "key": "Triton.error.database-invalid-mode",
+    "type": "text",
+    "languages": {
+      "en_US": "&cMode &4%1&c does not exist. Available modes are 'upload' (or 'u') and 'download' (or 'd').",
+      "zh_TW": "&c模式 &4%1&c 並不存在. 可用模式為 'upload' (或 'u') 和'download' (或 'd')."
+    }
+  },
+  {
+    "key": "Triton.error.database-not-supported",
+    "type": "text",
+    "languages": {
+      "en_US": "&cThis command isn't supported on local storage.",
+      "zh_TW": "&c此指令並不支持在於本地儲存."
+    }
+  },
+  {
+    "key": "Triton.error.not-available-on-spigot",
+    "type": "text",
+    "languages": {
+      "en_US": "&cThis action isn't available on Spigot when using BungeeCord. Please run this through BungeeCord instead.",
+      "zh_TW": "&c使用BungeeCord時, 此操作在Spigot上不能使用. 請改透過BungeeCord來運行它."
+    }
+  },
+  {
+    "key": "Triton.help.menu.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&bAvailable commands:",
+      "zh_TW": "&b可用指令:"
+    }
+  },
+  {
+    "key": "Triton.help.getflag",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Use &b/%1 getflag <language name>",
+      "zh_TW": "&7使用 &b/%1 getflag <語言名稱>"
+    }
+  },
+  {
+    "key": "Triton.help.setlanguage",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Use &b/%1 setlanguage <language name> [player]",
+      "zh_TW": "&7使用 &b/%1 setlanguage <語言名稱> [player]"
+    }
+  },
+  {
+    "key": "Triton.help.sign",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Use &b/%1 sign <set|remove> <group key (set only)>&7 to add a sign to a group.",
+      "zh_TW": "&7使用 &b/%1 sign <set|remove> <group key (set only)>&7 來添加告示牌到組."
+    }
+  },
+  {
+    "key": "Triton.help.database",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Use &b/%1 database <upload/download/u/d>",
+      "zh_TW": "&7使用 &b/%1 database <upload/download/u/d>"
+    }
+  },
+  {
+    "key": "Triton.command.help",
+    "type": "text",
+    "languages": {
+      "en_US": "Displays this message",
+      "zh_TW": "顯示此訊息"
+    }
+  },
+  {
+    "key": "Triton.command.getflag",
+    "type": "text",
+    "languages": {
+      "en_US": "Gives the flag (banner) of a language to you",
+      "zh_TW": "給予你一種語言的旗幟"
+    }
+  },
+  {
+    "key": "Triton.command.openselector",
+    "type": "text",
+    "languages": {
+      "en_US": "Opens a GUI where you can change your language",
+      "zh_TW": "打開GUI,你可以在其更改語言"
+    }
+  },
+  {
+    "key": "Triton.command.reload",
+    "type": "text",
+    "languages": {
+      "en_US": "Reloads the plugin",
+      "zh_TW": "重新加載插件"
+    }
+  },
+  {
+    "key": "Triton.command.setlanguage",
+    "type": "text",
+    "languages": {
+      "en_US": "Changes the language of a player",
+      "zh_TW": "更改玩家的語言"
+    }
+  },
+  {
+    "key": "Triton.command.sign",
+    "type": "text",
+    "languages": {
+      "en_US": "Adds or removes signs from sign groups",
+      "zh_TW": "從告示牌組中添加或刪除告示牌"
+    }
+  },
+  {
+    "key": "Triton.command.twin",
+    "type": "text",
+    "languages": {
+      "en_US": "Uploads/downloads your config to/from TWIN for easy configuration",
+      "zh_TW": "將設定 上傳/下載 到/從 TWIN, 以方便配置"
+    }
+  },
+  {
+    "key": "Triton.command.database",
+    "type": "text",
+    "languages": {
+      "en_US": "Uploads/downloads translations to/from a database",
+      "zh_TW": "向資料庫 上傳/下載 翻譯"
+    }
+  },
+  {
+    "key": "Triton.command.info",
+    "type": "text",
+    "languages": {
+      "en_US": "Shows information about the plugin (version, author, storage, etc)",
+      "zh_TW": "顯示有關插件的資訊 (版本, 作者, 儲存, 等等)"
+    }
+  },
+  {
+    "key": "Triton.success.getflag",
+    "type": "text",
+    "languages": {
+      "en_US": "&bYou received the &7%1&b flag!",
+      "zh_TW": "&b你收到了 &7%1&b 旗幟!"
+    }
+  },
+  {
+    "key": "Triton.success.selector",
+    "type": "text",
+    "languages": {
+      "en_US": "&bYour language has been changed to &7%1",
+      "zh_TW": "&b你的語言已更改為 &7%1"
+    }
+  },
+  {
+    "key": "Triton.success.reload",
+    "type": "text",
+    "languages": {
+      "en_US": "&bConfig successfully reloaded",
+      "zh_TW": "&b成功重新加載配置"
+    }
+  },
+  {
+    "key": "Triton.success.bungee-reload",
+    "type": "text",
+    "languages": {
+      "en_US": "&bBungeeCord config successfully reloaded",
+      "zh_TW": "&bBungeeCord配置已成功重新加載"
+    }
+  },
+  {
+    "key": "Triton.success.setlanguage",
+    "type": "text",
+    "languages": {
+      "en_US": "&bYour language has been changed to &7%1",
+      "zh_TW": "&b你的語言已更改為 &7%1"
+    }
+  },
+  {
+    "key": "Triton.success.setlanguage-others",
+    "type": "text",
+    "languages": {
+      "en_US": "&7%1&b's language has been changed to &7%2",
+      "zh_TW": "&7%1&b's 語言已更改為 &7%2"
+    }
+  },
+  {
+    "key": "Triton.success.detected-language",
+    "type": "text",
+    "languages": {
+      "en_US": "&bYour language has been automatically set to &7%1",
+      "zh_TW": "&b你的語言已自動設置為 &7%1"
+    }
+  },
+  {
+    "key": "Triton.success.sign-set",
+    "type": "text",
+    "languages": {
+      "en_US": "&bSign successfully added to group &7%1",
+      "zh_TW": "&b告示牌已成功添加到組 &7%1"
+    }
+  },
+  {
+    "key": "Triton.success.sign-remove",
+    "type": "text",
+    "languages": {
+      "en_US": "&bSuccessfully removed sign from all groups",
+      "zh_TW": "&b成功從所有組中刪除告示牌"
+    }
+  },
+  {
+    "key": "Triton.success.database",
+    "type": "text",
+    "languages": {
+      "en_US": "&bOperation successful",
+      "zh_TW": "&b操作成功"
+    }
+  },
+  {
+    "key": "Triton.twin.failed-bungeecord",
+    "type": "text",
+    "languages": {
+      "en_US": "&cCan't upload the config because you have BungeeCord enabled on config! Please execute this command through BungeeCord.",
+      "zh_TW": "&c無法上傳設定, 因為你已設定中啟用了BungeeCord! 請通過BungeeCord 執行此指令."
+    }
+  },
+  {
+    "key": "Triton.twin.no-internet",
+    "type": "text",
+    "languages": {
+      "en_US": "&cFailed to upload config. Please check your internet connection and/or firewall! Error description: %1",
+      "zh_TW": "&c無法上傳設定. 請檢查你的網際網路和/或防火牆! 錯誤說明: %1"
+    }
+  },
+  {
+    "key": "Triton.twin.failed-fetch",
+    "type": "text",
+    "languages": {
+      "en_US": "&cFailed to fetch the config: &7%1",
+      "zh_TW": "&c無法獲取設定: &7%1"
+    }
+  },
+  {
+    "key": "Triton.twin.failed-upload",
+    "type": "text",
+    "languages": {
+      "en_US": "&cFailed to upload the config: &7%1",
+      "zh_TW": "&c無法上傳設定: &7%1"
+    }
+  },
+  {
+    "key": "Triton.twin.incorrect-status",
+    "type": "text",
+    "languages": {
+      "en_US": "&7status is not 200 (received &c%1&7)",
+      "zh_TW": "&7狀態不是200 (收到 &c%1&7)"
+    }
+  },
+  {
+    "key": "Triton.twin.connecting",
+    "type": "text",
+    "languages": {
+      "en_US": "&bConnecting to TWIN... Please wait",
+      "zh_TW": "&b正在連接TWIN... 請稍後"
+    }
+  },
+  {
+    "key": "Triton.twin.uploaded",
+    "type": "text",
+    "languages": {
+      "en_US": "&bYour config is live! Start editing now at &3%1",
+      "zh_TW": "&b你的配置已啟動! 現在開始編輯在 &3%1"
+    }
+  },
+  {
+    "key": "Triton.twin.success",
+    "type": "text",
+    "languages": {
+      "en_US": "&bSuccessfully fetched the config from TWIN and applied it into the server!",
+      "zh_TW": "&b成功從TWIN獲取配置並將其應用到伺服器!"
+    }
+  },
+  {
+    "key": "Triton.twin.no-token",
+    "type": "text",
+    "languages": {
+      "en_US": "&cInvalid token! Please check if TWIN is setup correctly on config.",
+      "zh_TW": "&c無效令牌! 請檢查是否在配置上正確設定了TWIN."
+    }
+  },
+  {
+    "key": "Triton.twin.repeated-download",
+    "type": "text",
+    "languages": {
+      "en_US": "&c&lWARNING &cYou're trying to download the same config twice! This might break the translation files. If you want to bypass this message, just execute the same command again.",
+      "zh_TW": "&c&l警告 &c你正在嘗試下載相同的配置兩次! 這可能會破壞翻譯文件. 如果要繞過此訊息,只需要再次執行同一個指令."
+    }
+  },
+  {
+    "key": "Triton.twin.failed-collection-save",
+    "type": "text",
+    "languages": {
+      "en_US": "&cError while saving collections to storage. Check the console for error details.",
+      "zh_TW": "&c保存collections至儲存出錯. 檢查終端以獲取錯誤詳細訊息."
+    }
+  },
+  {
+    "key": "Triton.other.selector-gui-name",
+    "type": "text",
+    "languages": {
+      "en_US": "&bSelect a language",
+      "zh_TW": "&b選擇一種語言"
+    }
+  },
+  {
+    "key": "Triton.other.selector-gui-prev",
+    "type": "text",
+    "languages": {
+      "en_US": "&bPrevious",
+      "zh_TW": "&b上一頁"
+    }
+  },
+  {
+    "key": "Triton.other.selector-gui-forward",
+    "type": "text",
+    "languages": {
+      "en_US": "&bNext",
+      "zh_TW": "&b下一頁"
+    }
+  },
+  {
+    "key": "Triton.other.selector-gui-currentpage",
+    "type": "text",
+    "languages": {
+      "en_US": "&bPage &3%1&b of &3%2",
+      "zh_TW": "&b頁面 &3%1&b 於 &3%2"
+    }
+  },
+  {
+    "key": "Triton.other.selected",
+    "type": "text",
+    "languages": {
+      "en_US": "&bCurrently selected",
+      "zh_TW": "&b當前選擇"
+    }
+  },
+  {
+    "key": "Triton.other.database-loading",
+    "type": "text",
+    "languages": {
+      "en_US": "&bPerforming operation...",
+      "zh_TW": "&b執行操作..."
+    }
+  },
+  {
+    "key": "Triton.info-command.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&bVersion: &7%1",
+      "zh_TW": "&b版本: &7%1"
+    }
+  },
+  {
+    "key": "Triton.info-command.2",
+    "type": "text",
+    "languages": {
+      "en_US": "&bDeveloped by: &7%1",
+      "zh_TW": "&b由開發: &7%1"
+    }
+  },
+  {
+    "key": "Triton.info-command.3",
+    "type": "text",
+    "languages": {
+      "en_US": "&bStorage in use: &7%1",
+      "zh_TW": "&b使用中的儲存: &7%1"
+    }
+  },
+  {
+    "key": "Triton.info-command.4",
+    "type": "text",
+    "languages": {
+      "en_US": "&bUsing BungeeCord: &7%1",
+      "zh_TW": "&b使用 BungeeCord: &7%1"
+    }
+  }
+]
