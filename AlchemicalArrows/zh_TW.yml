@@ -1,0 +1,310 @@
+CheckForUpdates: true
+MetricsEnabled: true
+
+DeathMessages:
+  Enabled: true
+  DeathByPlayer: "%player% 被 %killer% 使用 %type% 殺死"
+  DeathBySkeleton: "%player% 被骷髏用 %type% 殺死了"
+  DeathByBlockSource: "%player% 被 %type% 射死"
+
+Skeletons:
+  ShootPercentage: 10.0
+  LootDropChance: 15.0
+
+Crafting:
+  VanillaCrafting: true
+  AlchemaIntegration:
+    Enabled: true
+    ArrowsRequired: 1
+    RecipeYield: 1
+
+Inventory:
+  CrossbowLoading: true
+
+Arrow:
+  Air:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '255,255,255'
+    Effect:
+      BreatheRadius: 2
+      LaunchStrengthMin: 1.0
+      LaunchStrengthMax: 2.0
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&o空氣箭矢"
+      Lore:
+      - "&f&o感受到腳下的空氣"
+      - "&f&o傷害的實體將被發射到空中"
+      CustomModelData: 132
+
+  Chain:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '0,170,0'
+    Effect:
+      DamageFactor: 0.80
+      SearchDistance: 5
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&2鎖鏈箭矢"
+      Lore:
+        - "&2快速分散一群"
+        - "&2鏈接至附近的其他實體"
+      CustomModelData: 148
+
+  Confusion:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '255,102,249'
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&d迷惑箭矢"
+      Lore:
+      - "&d這個箭矢真是... 令人困惑"
+      - "&d再次, 這是做啥用的?"
+      CustomModelData: 133
+
+  Darkness:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '70,70,70'
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&8暗黑箭矢"
+      Lore:
+      - "&8誰把燈關掉了!?"
+      - "&8對玩家施加暫時的失明效果"
+      CustomModelData: 134
+
+  Death:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '0,0,0'
+    Effect:
+      InstantDeathPossible: true
+      InstantDeathChance: 20.0
+    Skeleton:
+      CanShoot: false
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&0死亡箭矢"
+      Lore:
+      - "&8你確定拿著它是個好主意嗎?"
+      - "&8險惡的箭矢. 可能會立即殺死目標"
+      CustomModelData: 135
+
+  Earth:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '153,93,56'
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&7地球箭矢"
+      Lore:
+      - "&7我認為比月球好"
+      - "&7將受到攻擊的實體埋入地下"
+      CustomModelData: 136
+
+  Ender:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '181,42,191'
+    Effect:
+      TeleportOnHitBlock: true
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&5終界箭矢"
+      Lore:
+      - "&d它幾乎像是傳送槍, 但更酷"
+      - "&d與受到攻擊的實體交換位置"
+      CustomModelData: 137
+
+  Explosive:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '193,34,34'
+    Effect:
+      FuseTicks: 40
+      ExplosionStrength: 4
+      IgniteCreepers: true
+    Skeleton:
+      CanShoot: false
+      LootdropWeight: 10.0
+    Item:
+      DisplayName: "&c爆炸箭矢"
+      Lore:
+      - "&4&lBoom!"
+      - "&4擊中地面時立即點燃引信並爆炸"
+      CustomModelData: 138
+
+  Fire:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '232,11,11'
+    Effect:
+      Extinguishable: true
+      FireTicksMin: 40
+      FireTicksMax: 100
+      TicksToMelt: 60
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&c火焰箭矢"
+      Lore:
+      - "&c聚集在營火周圍..."
+      - "&c點燃受到攻擊的實體 2 - 3 秒鐘"
+      CustomModelData: 139
+
+  Frost:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '11,213,232'
+    Effect:
+      WaterFreezeRadius: 3.5
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&b寒霜箭矢"
+      Lore:
+      - "&b冷靜. 雪也有理由生氣"
+      - "&b受到攻擊的實體將暫時無法移動"
+      CustomModelData: 140
+
+  Grapple:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '244,187,95'
+    Effect:
+      GrappleForce: 2.5
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&e抓鉤箭矢"
+      Lore:
+      - "&eNa na na na, na na na na, na na na na..."
+      - "&e&l蝙蝠俠!"
+      CustomModelData: 141
+
+  Life:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '57,229,97'
+    Effect:
+      FloralRadius: 2
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&a生命箭矢"
+      Lore:
+      - "&a充滿生命恩賜的箭矢"
+      - "&a無害的箭矢. 不造成傷害 & 並施加回復"
+      CustomModelData: 142
+
+  Light:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '255,250,0'
+    Effect:
+      Disorient: true
+      LightningChance: 5.0
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&e閃電箭矢"
+      Lore:
+      - "&e願宙斯的力量降臨到你!"
+      - "&e用雷擊傷害攻擊的實體"
+      CustomModelData: 143
+
+  Magic:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '247,163,255'
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&d魔法箭矢"
+      Lore:
+      - "&d這幾乎是... &k| &d魔法 &k|"
+      - "&d向後大力發射實體"
+      CustomModelData: 144
+
+  Magnetic:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '188,188,188'
+    Effect:
+      MagnetismRadius: 5.0
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&7磁性箭矢"
+      Lore:
+      - "&7相反吸引, 喜歡排斥"
+      - "&7將受到攻擊的實體拉靠近你"
+      CustomModelData: 145
+
+  Necrotic:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '19,119,7'
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&2壞死箭矢"
+      Lore:
+      - "&2德古拉會為此驕傲"
+      - "&2附近的敵對實體以受到攻擊的實體為目標"
+      CustomModelData: 146
+
+  Water:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '10,132,209'
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&9水之箭矢"
+      Lore:
+      - "&9在水下導航的相當好"
+      - "&9好像它沒有失去任何速度"
+      CustomModelData: 147

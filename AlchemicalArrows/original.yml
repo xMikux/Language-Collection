@@ -1,0 +1,292 @@
+CheckForUpdates: true
+MetricsEnabled: true
+DeathMessages:
+  Enabled: true
+  DeathByPlayer: >-
+    [lang]AlchemicalArrows.DeathMessages.DeathByPlayer[args][arg]%player%[/arg][arg]%killer%[/arg][arg]%type%[/arg][/args][/lang]
+  DeathBySkeleton: >-
+    [lang]AlchemicalArrows.DeathMessages.DeathBySkeleton[args][arg]%player%[/arg][arg]%type%[/arg][/args][/lang]
+  DeathByBlockSource: >-
+    [lang]AlchemicalArrows.DeathMessages.DeathByBlockSource[args][arg]%player%[/arg][arg]%type%[/arg][/args][/lang]
+Skeletons:
+  ShootPercentage: 10
+  LootDropChance: 15
+Crafting:
+  VanillaCrafting: true
+  AlchemaIntegration:
+    Enabled: true
+    ArrowsRequired: 1
+    RecipeYield: 1
+Inventory:
+  CrossbowLoading: true
+Arrow:
+  Air:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '255,255,255'
+    Effect:
+      BreatheRadius: 2
+      LaunchStrengthMin: 1
+      LaunchStrengthMax: 2
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10
+    Item:
+      DisplayName: '[lang]AlchemicalArrows.Arrow.Air.Item.DisplayName[/lang]'
+      Lore:
+        - '[lang]AlchemicalArrows.Arrow.Air.Item.Lore.0[/lang]'
+        - '[lang]AlchemicalArrows.Arrow.Air.Item.Lore.1[/lang]'
+      CustomModelData: 132
+  Chain:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '0,170,0'
+    Effect:
+      DamageFactor: 0.8
+      SearchDistance: 5
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10
+    Item:
+      DisplayName: '[lang]AlchemicalArrows.Arrow.Chain.Item.DisplayName[/lang]'
+      Lore:
+        - '[lang]AlchemicalArrows.Arrow.Chain.Item.Lore.0[/lang]'
+        - '[lang]AlchemicalArrows.Arrow.Chain.Item.Lore.1[/lang]'
+      CustomModelData: 148
+  Confusion:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '255,102,249'
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10
+    Item:
+      DisplayName: '[lang]AlchemicalArrows.Arrow.Confusion.Item.DisplayName[/lang]'
+      Lore:
+        - '[lang]AlchemicalArrows.Arrow.Confusion.Item.Lore.0[/lang]'
+        - '[lang]AlchemicalArrows.Arrow.Confusion.Item.Lore.1[/lang]'
+      CustomModelData: 133
+  Darkness:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '70,70,70'
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10
+    Item:
+      DisplayName: '[lang]AlchemicalArrows.Arrow.Darkness.Item.DisplayName[/lang]'
+      Lore:
+        - '[lang]AlchemicalArrows.Arrow.Darkness.Item.Lore.0[/lang]'
+        - '[lang]AlchemicalArrows.Arrow.Darkness.Item.Lore.1[/lang]'
+      CustomModelData: 134
+  Death:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '0,0,0'
+    Effect:
+      InstantDeathPossible: true
+      InstantDeathChance: 20
+    Skeleton:
+      CanShoot: false
+      LootDropWeight: 10
+    Item:
+      DisplayName: '[lang]AlchemicalArrows.Arrow.Death.Item.DisplayName[/lang]'
+      Lore:
+        - '[lang]AlchemicalArrows.Arrow.Death.Item.Lore.0[/lang]'
+        - '[lang]AlchemicalArrows.Arrow.Death.Item.Lore.1[/lang]'
+      CustomModelData: 135
+  Earth:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '153,93,56'
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10
+    Item:
+      DisplayName: '[lang]AlchemicalArrows.Arrow.Earth.Item.DisplayName[/lang]'
+      Lore:
+        - '[lang]AlchemicalArrows.Arrow.Earth.Item.Lore.0[/lang]'
+        - '[lang]AlchemicalArrows.Arrow.Earth.Item.Lore.1[/lang]'
+      CustomModelData: 136
+  Ender:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '181,42,191'
+    Effect:
+      TeleportOnHitBlock: true
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10
+    Item:
+      DisplayName: '[lang]AlchemicalArrows.Arrow.Ender.Item.DisplayName[/lang]'
+      Lore:
+        - '[lang]AlchemicalArrows.Arrow.Ender.Item.Lore.0[/lang]'
+        - '[lang]AlchemicalArrows.Arrow.Ender.Item.Lore.1[/lang]'
+      CustomModelData: 137
+  Explosive:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '193,34,34'
+    Effect:
+      FuseTicks: 40
+      ExplosionStrength: 4
+      IgniteCreepers: true
+    Skeleton:
+      CanShoot: false
+      LootdropWeight: 10
+    Item:
+      DisplayName: '[lang]AlchemicalArrows.Arrow.Explosive.Item.DisplayName[/lang]'
+      Lore:
+        - '[lang]AlchemicalArrows.Arrow.Explosive.Item.Lore.0[/lang]'
+        - '[lang]AlchemicalArrows.Arrow.Explosive.Item.Lore.1[/lang]'
+      CustomModelData: 138
+  Fire:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '232,11,11'
+    Effect:
+      Extinguishable: true
+      FireTicksMin: 40
+      FireTicksMax: 100
+      TicksToMelt: 60
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10
+    Item:
+      DisplayName: '[lang]AlchemicalArrows.Arrow.Fire.Item.DisplayName[/lang]'
+      Lore:
+        - '[lang]AlchemicalArrows.Arrow.Fire.Item.Lore.0[/lang]'
+        - '[lang]AlchemicalArrows.Arrow.Fire.Item.Lore.1[/lang]'
+      CustomModelData: 139
+  Frost:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '11,213,232'
+    Effect:
+      WaterFreezeRadius: 3.5
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10
+    Item:
+      DisplayName: '[lang]AlchemicalArrows.Arrow.Frost.Item.DisplayName[/lang]'
+      Lore:
+        - '[lang]AlchemicalArrows.Arrow.Frost.Item.Lore.0[/lang]'
+        - '[lang]AlchemicalArrows.Arrow.Frost.Item.Lore.1[/lang]'
+      CustomModelData: 140
+  Grapple:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '244,187,95'
+    Effect:
+      GrappleForce: 2.5
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10
+    Item:
+      DisplayName: '[lang]AlchemicalArrows.Arrow.Grapple.Item.DisplayName[/lang]'
+      Lore:
+        - '[lang]AlchemicalArrows.Arrow.Grapple.Item.Lore.0[/lang]'
+        - '[lang]AlchemicalArrows.Arrow.Grapple.Item.Lore.1[/lang]'
+      CustomModelData: 141
+  Life:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '57,229,97'
+    Effect:
+      FloralRadius: 2
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10
+    Item:
+      DisplayName: '[lang]AlchemicalArrows.Arrow.Life.Item.DisplayName[/lang]'
+      Lore:
+        - '[lang]AlchemicalArrows.Arrow.Life.Item.Lore.0[/lang]'
+        - '[lang]AlchemicalArrows.Arrow.Life.Item.Lore.1[/lang]'
+      CustomModelData: 142
+  Light:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '255,250,0'
+    Effect:
+      Disorient: true
+      LightningChance: 5
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10
+    Item:
+      DisplayName: '[lang]AlchemicalArrows.Arrow.Light.Item.DisplayName[/lang]'
+      Lore:
+        - '[lang]AlchemicalArrows.Arrow.Light.Item.Lore.0[/lang]'
+        - '[lang]AlchemicalArrows.Arrow.Light.Item.Lore.1[/lang]'
+      CustomModelData: 143
+  Magic:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '247,163,255'
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10
+    Item:
+      DisplayName: '[lang]AlchemicalArrows.Arrow.Magic.Item.DisplayName[/lang]'
+      Lore:
+        - '[lang]AlchemicalArrows.Arrow.Magic.Item.Lore.0[/lang]'
+        - '[lang]AlchemicalArrows.Arrow.Magic.Item.Lore.1[/lang]'
+      CustomModelData: 144
+  Magnetic:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '188,188,188'
+    Effect:
+      MagnetismRadius: 5
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10
+    Item:
+      DisplayName: '[lang]AlchemicalArrows.Arrow.Magnetic.Item.DisplayName[/lang]'
+      Lore:
+        - '[lang]AlchemicalArrows.Arrow.Magnetic.Item.Lore.0[/lang]'
+        - '[lang]AlchemicalArrows.Arrow.Magnetic.Item.Lore.1[/lang]'
+      CustomModelData: 145
+  Necrotic:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '19,119,7'
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10
+    Item:
+      DisplayName: '[lang]AlchemicalArrows.Arrow.Necrotic.Item.DisplayName[/lang]'
+      Lore:
+        - '[lang]AlchemicalArrows.Arrow.Necrotic.Item.Lore.0[/lang]'
+        - '[lang]AlchemicalArrows.Arrow.Necrotic.Item.Lore.1[/lang]'
+      CustomModelData: 146
+  Water:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '10,132,209'
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10
+    Item:
+      DisplayName: '[lang]AlchemicalArrows.Arrow.Water.Item.DisplayName[/lang]'
+      Lore:
+        - '[lang]AlchemicalArrows.Arrow.Water.Item.Lore.0[/lang]'
+        - '[lang]AlchemicalArrows.Arrow.Water.Item.Lore.1[/lang]'
+      CustomModelData: 147

@@ -1,0 +1,310 @@
+CheckForUpdates: true
+MetricsEnabled: true
+
+DeathMessages:
+  Enabled: true
+  DeathByPlayer: "%player% was killed by %killer% using a %type%"
+  DeathBySkeleton: "%player% was killed by a skeleton using a %type%"
+  DeathByBlockSource: "%player% was shot using a %type%"
+
+Skeletons:
+  ShootPercentage: 10.0
+  LootDropChance: 15.0
+
+Crafting:
+  VanillaCrafting: true
+  AlchemaIntegration:
+    Enabled: true
+    ArrowsRequired: 1
+    RecipeYield: 1
+
+Inventory:
+  CrossbowLoading: true
+
+Arrow:
+  Air:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '255,255,255'
+    Effect:
+      BreatheRadius: 2
+      LaunchStrengthMin: 1.0
+      LaunchStrengthMax: 2.0
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&oAir Arrow"
+      Lore:
+      - "&f&oFeel the air beneath your feet"
+      - "&f&oDamaged entities are launched into the air"
+      CustomModelData: 132
+
+  Chain:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '0,170,0'
+    Effect:
+      DamageFactor: 0.80
+      SearchDistance: 5
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&2Chain Arrow"
+      Lore:
+        - "&2Quick crowd dispersal"
+        - "&2Chains to other nearby entities"
+      CustomModelData: 148
+
+  Confusion:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '255,102,249'
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&dConfusion Arrow"
+      Lore:
+      - "&dThis arrow is so... confusing"
+      - "&dWhat does this do again?"
+      CustomModelData: 133
+
+  Darkness:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '70,70,70'
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&8Darkness Arrow"
+      Lore:
+      - "&8Who turned off the lights!?"
+      - "&8Applies a temporary blindness effect to players"
+      CustomModelData: 134
+
+  Death:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '0,0,0'
+    Effect:
+      InstantDeathPossible: true
+      InstantDeathChance: 20.0
+    Skeleton:
+      CanShoot: false
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&0Death Arrow"
+      Lore:
+      - "&8Are you sure holding this is a good idea?"
+      - "&8A sinister arrow. May instantly kill targets"
+      CustomModelData: 135
+
+  Earth:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '153,93,56'
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&7Earth Arrow"
+      Lore:
+      - "&7Better than the Moon in my opinion"
+      - "&7Buries damaged entities into the ground"
+      CustomModelData: 136
+
+  Ender:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '181,42,191'
+    Effect:
+      TeleportOnHitBlock: true
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&5Ender Arrow"
+      Lore:
+      - "&dIt's almost like a portal gun, but cooler"
+      - "&dSwaps positions with damaged entities"
+      CustomModelData: 137
+
+  Explosive:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '193,34,34'
+    Effect:
+      FuseTicks: 40
+      ExplosionStrength: 4
+      IgniteCreepers: true
+    Skeleton:
+      CanShoot: false
+      LootdropWeight: 10.0
+    Item:
+      DisplayName: "&cExplosive Arrow"
+      Lore:
+      - "&4&lBoom!"
+      - "&4Ignites a fuse and explodes after hitting ground"
+      CustomModelData: 138
+
+  Fire:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '232,11,11'
+    Effect:
+      Extinguishable: true
+      FireTicksMin: 40
+      FireTicksMax: 100
+      TicksToMelt: 60
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&cFire Arrow"
+      Lore:
+      - "&cGather around the campfire..."
+      - "&cIgnites damaged entities for 2 - 3 seconds"
+      CustomModelData: 139
+
+  Frost:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '11,213,232'
+    Effect:
+      WaterFreezeRadius: 3.5
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&bFrost Arrow"
+      Lore:
+      - "&bChill out. Snow reason to be angry"
+      - "&bDamaged entities cannot move temporarily"
+      CustomModelData: 140
+
+  Grapple:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '244,187,95'
+    Effect:
+      GrappleForce: 2.5
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&eGrapple Arrow"
+      Lore:
+      - "&eNa na na na, na na na na, na na na na..."
+      - "&e&lBATMAN!"
+      CustomModelData: 141
+
+  Life:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '57,229,97'
+    Effect:
+      FloralRadius: 2
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&aLife Arrow"
+      Lore:
+      - "&aThe gift of life imbued within an arrow"
+      - "&aA harmless arrow. Inflicts no damage & applies regen"
+      CustomModelData: 142
+
+  Light:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '255,250,0'
+    Effect:
+      Disorient: true
+      LightningChance: 5.0
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&eLight Arrow"
+      Lore:
+      - "&eMay the power of Zeus be upon you!"
+      - "&eStrikes damaged entities with lightning"
+      CustomModelData: 143
+
+  Magic:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '247,163,255'
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&dMagic Arrow"
+      Lore:
+      - "&dIt's almost... &k| &dMAGICAL &k|"
+      - "&dLaunches entities backwards with great force"
+      CustomModelData: 144
+
+  Magnetic:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '188,188,188'
+    Effect:
+      MagnetismRadius: 5.0
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&7Magnetic Arrow"
+      Lore:
+      - "&7Opposites attract, likes repel"
+      - "&7Pulls damaged entities closer to you"
+      CustomModelData: 145
+
+  Necrotic:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '19,119,7'
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&2Necrotic Arrow"
+      Lore:
+      - "&2Count Dracula would be proud"
+      - "&2Nearby hostile entities target damaged entities"
+      CustomModelData: 146
+
+  Water:
+    RecipeYield: 8
+    AllowInfinity: false
+    AllowMultishot: true
+    Colour: '10,132,209'
+    Skeleton:
+      CanShoot: true
+      LootDropWeight: 10.0
+    Item:
+      DisplayName: "&9Water Arrow"
+      Lore:
+      - "&9Navigates quite well underwater"
+      - "&9It's as though it doesn't lose any velocity"
+      CustomModelData: 147

@@ -1,0 +1,434 @@
+[
+  {
+    "key": "AlchemicalArrows.DeathMessages.DeathByPlayer",
+    "type": "text",
+    "languages": {
+      "en_US": "%1 was killed by %2 using a %3",
+      "zh_TW": "%1 被 %2 使用 %3 殺死"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.DeathMessages.DeathBySkeleton",
+    "type": "text",
+    "languages": {
+      "en_US": "%1 was killed by a skeleton using a %2",
+      "zh_TW": "%1 被骷髏用 %2 殺死了"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.DeathMessages.DeathByBlockSource",
+    "type": "text",
+    "languages": {
+      "en_US": "%1 was shot using a %2",
+      "zh_TW": "%1 被 %2 射死"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Air.Item.DisplayName",
+    "type": "text",
+    "languages": {
+      "en_US": "&oAir Arrow",
+      "zh_TW": "&o空氣箭矢"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Air.Item.Lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&f&oFeel the air beneath your feet",
+      "zh_TW": "&f&o感受到腳下的空氣"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Air.Item.Lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&f&oDamaged entities are launched into the air",
+      "zh_TW": "&f&o傷害的實體將被發射到空中"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Chain.Item.DisplayName",
+    "type": "text",
+    "languages": {
+      "en_US": "&2Chain Arrow",
+      "zh_TW": "&2鎖鏈箭矢"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Chain.Item.Lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&2Quick crowd dispersal",
+      "zh_TW": "&2快速分散一群"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Chain.Item.Lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&2Chains to other nearby entities",
+      "zh_TW": "&2鏈接至附近的其他實體"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Confusion.Item.DisplayName",
+    "type": "text",
+    "languages": {
+      "en_US": "&dConfusion Arrow",
+      "zh_TW": "&d迷惑箭矢"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Confusion.Item.Lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&dThis arrow is so... confusing",
+      "zh_TW": "&d這個箭矢真是... 令人困惑"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Confusion.Item.Lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&dWhat does this do again?",
+      "zh_TW": "&d再次, 這是做啥用的?"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Darkness.Item.DisplayName",
+    "type": "text",
+    "languages": {
+      "en_US": "&8Darkness Arrow",
+      "zh_TW": "&8暗黑箭矢"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Darkness.Item.Lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&8Who turned off the lights!?",
+      "zh_TW": "&8誰把燈關掉了!?"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Darkness.Item.Lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&8Applies a temporary blindness effect to players",
+      "zh_TW": "&8對玩家施加暫時的失明效果"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Death.Item.DisplayName",
+    "type": "text",
+    "languages": {
+      "en_US": "&0Death Arrow",
+      "zh_TW": "&0死亡箭矢"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Death.Item.Lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&8Are you sure holding this is a good idea?",
+      "zh_TW": "&8你確定拿著它是個好主意嗎?"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Death.Item.Lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&8A sinister arrow. May instantly kill targets",
+      "zh_TW": "&8險惡的箭矢. 可能會立即殺死目標"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Earth.Item.DisplayName",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Earth Arrow",
+      "zh_TW": "&7地球箭矢"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Earth.Item.Lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Better than the Moon in my opinion",
+      "zh_TW": "&7我認為比月球好"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Earth.Item.Lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Buries damaged entities into the ground",
+      "zh_TW": "&7將受到攻擊的實體埋入地下"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Ender.Item.DisplayName",
+    "type": "text",
+    "languages": {
+      "en_US": "&5Ender Arrow",
+      "zh_TW": "&5終界箭矢"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Ender.Item.Lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&dIt's almost like a portal gun, but cooler",
+      "zh_TW": "&d它幾乎像是傳送槍, 但更酷"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Ender.Item.Lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&dSwaps positions with damaged entities",
+      "zh_TW": "&d與受到攻擊的實體交換位置"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Explosive.Item.DisplayName",
+    "type": "text",
+    "languages": {
+      "en_US": "&cExplosive Arrow",
+      "zh_TW": "&c爆炸箭矢"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Explosive.Item.Lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&4&lBoom!",
+      "zh_TW": "&4&lBoom!"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Explosive.Item.Lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&4Ignites a fuse and explodes after hitting ground",
+      "zh_TW": "&4擊中地面時立即點燃引信並爆炸"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Fire.Item.DisplayName",
+    "type": "text",
+    "languages": {
+      "en_US": "&cFire Arrow",
+      "zh_TW": "&c火焰箭矢"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Fire.Item.Lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&cGather around the campfire...",
+      "zh_TW": "&c聚集在營火周圍..."
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Fire.Item.Lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&cIgnites damaged entities for 2 - 3 seconds",
+      "zh_TW": "&c點燃受到攻擊的實體 2 - 3 秒鐘"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Frost.Item.DisplayName",
+    "type": "text",
+    "languages": {
+      "en_US": "&bFrost Arrow",
+      "zh_TW": "&b寒霜箭矢"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Frost.Item.Lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&bChill out. Snow reason to be angry",
+      "zh_TW": "&b冷靜. 雪也有理由生氣"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Frost.Item.Lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&bDamaged entities cannot move temporarily",
+      "zh_TW": "&b受到攻擊的實體將暫時無法移動"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Grapple.Item.DisplayName",
+    "type": "text",
+    "languages": {
+      "en_US": "&eGrapple Arrow",
+      "zh_TW": "&e抓鉤箭矢"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Grapple.Item.Lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&eNa na na na, na na na na, na na na na...",
+      "zh_TW": "&eNa na na na, na na na na, na na na na..."
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Grapple.Item.Lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&e&lBATMAN!",
+      "zh_TW": "&e&l蝙蝠俠!"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Life.Item.DisplayName",
+    "type": "text",
+    "languages": {
+      "en_US": "&aLife Arrow",
+      "zh_TW": "&a生命箭矢"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Life.Item.Lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&aThe gift of life imbued within an arrow",
+      "zh_TW": "&a充滿生命恩賜的箭矢"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Life.Item.Lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&aA harmless arrow. Inflicts no damage & applies regen",
+      "zh_TW": "&a無害的箭矢. 不造成傷害 & 並施加回復"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Light.Item.DisplayName",
+    "type": "text",
+    "languages": {
+      "en_US": "&eLight Arrow",
+      "zh_TW": "&e閃電箭矢"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Light.Item.Lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&eMay the power of Zeus be upon you!",
+      "zh_TW": "&e願宙斯的力量降臨到你!"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Light.Item.Lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&eStrikes damaged entities with lightning",
+      "zh_TW": "&e用雷擊傷害攻擊的實體"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Magic.Item.DisplayName",
+    "type": "text",
+    "languages": {
+      "en_US": "&dMagic Arrow",
+      "zh_TW": "&d魔法箭矢"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Magic.Item.Lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&dIt's almost... &k| &dMAGICAL &k|",
+      "zh_TW": "&d這幾乎是... &k| &d魔法 &k|"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Magic.Item.Lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&dLaunches entities backwards with great force",
+      "zh_TW": "&d向後大力發射實體"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Magnetic.Item.DisplayName",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Magnetic Arrow",
+      "zh_TW": "&7磁性箭矢"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Magnetic.Item.Lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Opposites attract, likes repel",
+      "zh_TW": "&7相反吸引, 喜歡排斥"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Magnetic.Item.Lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Pulls damaged entities closer to you",
+      "zh_TW": "&7將受到攻擊的實體拉靠近你"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Necrotic.Item.DisplayName",
+    "type": "text",
+    "languages": {
+      "en_US": "&2Necrotic Arrow",
+      "zh_TW": "&2壞死箭矢"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Necrotic.Item.Lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&2Count Dracula would be proud",
+      "zh_TW": "&2德古拉會為此驕傲"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Necrotic.Item.Lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&2Nearby hostile entities target damaged entities",
+      "zh_TW": "&2附近的敵對實體以受到攻擊的實體為目標"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Water.Item.DisplayName",
+    "type": "text",
+    "languages": {
+      "en_US": "&9Water Arrow",
+      "zh_TW": "&9水之箭矢"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Water.Item.Lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&9Navigates quite well underwater",
+      "zh_TW": "&9在水下導航的相當好"
+    }
+  },
+  {
+    "key": "AlchemicalArrows.Arrow.Water.Item.Lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&9It's as though it doesn't lose any velocity",
+      "zh_TW": "&9好像它沒有失去任何速度"
+    }
+  }
+]
