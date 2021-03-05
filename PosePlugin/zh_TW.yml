@@ -1,0 +1,33 @@
+in-air: "§c你不能在空中做這個"
+swim:
+  play: "§b你在游泳"
+  damage: "&c你猛然站了起來, 因為你受傷了"
+  stop: "§a你站了起來"
+lay:
+  play: "§b你躺下來了"
+  damage: "§c你猛然站了起來, 因為你受傷了"
+  prevent-use-when-invisible: "§c你無法設置躺下姿勢當你正在隱形"
+  prevent-use-invisibility-when-use: "§c你無法在躺下姿勢時使用隱形藥水"
+  stop: "§a你站了起來"
+sit:
+  play: "§b你坐下了"
+  damage: "§c你猛然站了起來, 因為你受傷了"
+  stop: "§a你站了起來"
+wave:
+  play: "§b你開始揮手"
+  damage: "§c你猛然站了起來, 因為你受傷了"
+  handmode-change: "§a你換了一隻手揮手"
+  stop: "§a你停止揮手"
+  usage: "§9/wave [right/left/off]"
+point:
+  play: "§b你開始用手指向"
+  damage: "§c你猛然站了起來, 因為你受傷了"
+  handmode-change: "§a你已經換手指向"
+  stop: "§a你停止指向"
+  usage: "§9/point [right/left/off]"
+handshake:
+  play: "§b你開始用手握手."
+  damage: "§c你猛然站了起來, 因為你受傷了"
+  handmode-change: "§a你換一了隻手握手"
+  stop: "§a你停止握手"
+  usage: "§9/handshake [right/left/off]"

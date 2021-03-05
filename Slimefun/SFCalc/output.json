@@ -1,0 +1,82 @@
+[
+  {
+    "key": "SFCalc.header-string",
+    "type": "text",
+    "languages": {
+      "zh_TW": "&e&n配方於 %1:",
+      "en_US": "&e&nRecipe for %1:"
+    }
+  },
+  {
+    "key": "SFCalc.header-amount-string",
+    "type": "text",
+    "languages": {
+      "zh_TW": "&e&n配方於 %1 %2:",
+      "en_US": "&e&nRecipe for %1 %2:"
+    }
+  },
+  {
+    "key": "SFCalc.amount-string",
+    "type": "text",
+    "languages": {
+      "zh_TW": "&e%1 個 %2",
+      "en_US": "&e%1 of %2"
+    }
+  },
+  {
+    "key": "SFCalc.needed-string",
+    "type": "text",
+    "languages": {
+      "zh_TW": "&e需要 %1 個 %2",
+      "en_US": "&e%1 more %2 needed"
+    }
+  },
+  {
+    "key": "SFCalc.no-item-string",
+    "type": "text",
+    "languages": {
+      "zh_TW": "&c找不到該物品.",
+      "en_US": "&cThat item was not found."
+    }
+  },
+  {
+    "key": "SFCalc.no-number-string",
+    "type": "text",
+    "languages": {
+      "zh_TW": "&c那不是數字!",
+      "en_US": "&cThat's not a number!"
+    }
+  },
+  {
+    "key": "SFCalc.category-error-string",
+    "type": "text",
+    "languages": {
+      "zh_TW": "&c尚不支持許多類別. 請使用指令來計算.",
+      "en_US": "&cThat many categories is not supported yet. Please use the command form of the calculator."
+    }
+  },
+  {
+    "key": "SFCalc.item-error-string",
+    "type": "text",
+    "languages": {
+      "zh_TW": "&c尚不支持許多物品. 請使用指令來計算.",
+      "en_US": "&cThat many items is not supported yet. Please use the command form of the calculator."
+    }
+  },
+  {
+    "key": "SFCalc.not-a-player-string",
+    "type": "text",
+    "languages": {
+      "zh_TW": "&c你必須是玩家才能發送此訊息!",
+      "en_US": "&cYou must be a player to send this message!"
+    }
+  },
+  {
+    "key": "SFCalc.invalid-number-string",
+    "type": "text",
+    "languages": {
+      "zh_TW": "&c無效數量!",
+      "en_US": "&cInvalid number!"
+    }
+  }
+]

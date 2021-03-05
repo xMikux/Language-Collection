@@ -1,0 +1,194 @@
+[
+  {
+    "key": "PosePlugin.in-air",
+    "type": "text",
+    "languages": {
+      "en_US": "§cYou can't do this in air",
+      "zh_TW": "§c你不能在空中做這個"
+    }
+  },
+  {
+    "key": "PosePlugin.swim.play",
+    "type": "text",
+    "languages": {
+      "en_US": "§bYou're swimming",
+      "zh_TW": "§b你在游泳"
+    }
+  },
+  {
+    "key": "PosePlugin.swim.damage",
+    "type": "text",
+    "languages": {
+      "en_US": "&cYou suddenly stood up, because you got damaged",
+      "zh_TW": "&c你猛然站了起來, 因為你受傷了"
+    }
+  },
+  {
+    "key": "PosePlugin.swim.stop",
+    "type": "text",
+    "languages": {
+      "en_US": "§aYou stood up",
+      "zh_TW": "§a你站了起來"
+    }
+  },
+  {
+    "key": "PosePlugin.lay.play",
+    "type": "text",
+    "languages": {
+      "en_US": "§bYou've laid down",
+      "zh_TW": "§b你躺下來了"
+    }
+  },
+  {
+    "key": "PosePlugin.lay.damage",
+    "type": "text",
+    "languages": {
+      "en_US": "§cYou suddenly stood up, because you got damaged",
+      "zh_TW": "§c你猛然站了起來, 因為你受傷了"
+    }
+  },
+  {
+    "key": "PosePlugin.lay.prevent-use-when-invisible",
+    "type": "text",
+    "languages": {
+      "en_US": "§cYou can't set lying pose being invisible",
+      "zh_TW": "§c你無法設置躺下姿勢當你正在隱形"
+    }
+  },
+  {
+    "key": "PosePlugin.lay.prevent-use-invisibility-when-use",
+    "type": "text",
+    "languages": {
+      "en_US": "§cYou can't use invisibility potion while using lay pose",
+      "zh_TW": "§c你無法在躺下姿勢時使用隱形藥水"
+    }
+  },
+  {
+    "key": "PosePlugin.lay.stop",
+    "type": "text",
+    "languages": {
+      "en_US": "§aYou stood up",
+      "zh_TW": "§a你站了起來"
+    }
+  },
+  {
+    "key": "PosePlugin.sit.play",
+    "type": "text",
+    "languages": {
+      "en_US": "§bYou've sat down",
+      "zh_TW": "§b你坐下了"
+    }
+  },
+  {
+    "key": "PosePlugin.sit.damage",
+    "type": "text",
+    "languages": {
+      "en_US": "§cYou suddenly stood up, because you got damaged",
+      "zh_TW": "§c你猛然站了起來, 因為你受傷了"
+    }
+  },
+  {
+    "key": "PosePlugin.sit.stop",
+    "type": "text",
+    "languages": {
+      "en_US": "§aYou stood up",
+      "zh_TW": "§a你站了起來"
+    }
+  },
+  {
+    "key": "PosePlugin.wave.play",
+    "type": "text",
+    "languages": {
+      "en_US": "§bYou started to wave your hand",
+      "zh_TW": "§b你開始揮手"
+    }
+  },
+  {
+    "key": "PosePlugin.wave.damage",
+    "type": "text",
+    "languages": {
+      "en_US": "§cYou suddenly stood up, because you got damaged",
+      "zh_TW": "§c你猛然站了起來, 因為你受傷了"
+    }
+  },
+  {
+    "key": "PosePlugin.wave.handmode-change",
+    "type": "text",
+    "languages": {
+      "en_US": "§aYou've changed your hand to wave with",
+      "zh_TW": "§a你換了一隻手揮手"
+    }
+  },
+  {
+    "key": "PosePlugin.wave.stop",
+    "type": "text",
+    "languages": {
+      "en_US": "§aYou've stopped waving",
+      "zh_TW": "§a你停止揮手"
+    }
+  },
+  {
+    "key": "PosePlugin.point.play",
+    "type": "text",
+    "languages": {
+      "en_US": "§bYou started to point with your finger",
+      "zh_TW": "§b你開始用手指向"
+    }
+  },
+  {
+    "key": "PosePlugin.point.damage",
+    "type": "text",
+    "languages": {
+      "en_US": "§cYou suddenly stood up, because you got damaged",
+      "zh_TW": "§c你猛然站了起來, 因為你受傷了"
+    }
+  },
+  {
+    "key": "PosePlugin.point.handmode-change",
+    "type": "text",
+    "languages": {
+      "en_US": "§aYou've changed your hand to point with",
+      "zh_TW": "§a你已經換手指向"
+    }
+  },
+  {
+    "key": "PosePlugin.point.stop",
+    "type": "text",
+    "languages": {
+      "en_US": "§aYou've stopped pointing",
+      "zh_TW": "§a你停止指向"
+    }
+  },
+  {
+    "key": "PosePlugin.handshake.play",
+    "type": "text",
+    "languages": {
+      "en_US": "§bYou started handshaking with you hand.",
+      "zh_TW": "§b你開始用手握手."
+    }
+  },
+  {
+    "key": "PosePlugin.handshake.damage",
+    "type": "text",
+    "languages": {
+      "en_US": "§cYou suddenly stood up, because you got damaged",
+      "zh_TW": "§c你猛然站了起來, 因為你受傷了"
+    }
+  },
+  {
+    "key": "PosePlugin.handshake.handmode-change",
+    "type": "text",
+    "languages": {
+      "en_US": "§aYou've changed your hand to handshake with",
+      "zh_TW": "§a你換一了隻手握手"
+    }
+  },
+  {
+    "key": "PosePlugin.handshake.stop",
+    "type": "text",
+    "languages": {
+      "en_US": "§aYou've stopped your handshake",
+      "zh_TW": "§a你停止握手"
+    }
+  }
+]

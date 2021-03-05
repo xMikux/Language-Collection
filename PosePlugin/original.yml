@@ -1,0 +1,33 @@
+in-air: '[lang]PosePlugin.in-air[/lang]'
+swim:
+  play: '[lang]PosePlugin.swim.play[/lang]'
+  damage: '[lang]PosePlugin.swim.damage[/lang]'
+  stop: '[lang]PosePlugin.swim.stop[/lang]'
+lay:
+  play: '[lang]PosePlugin.lay.play[/lang]'
+  damage: '[lang]PosePlugin.lay.damage[/lang]'
+  prevent-use-when-invisible: '[lang]PosePlugin.lay.prevent-use-when-invisible[/lang]'
+  prevent-use-invisibility-when-use: '[lang]PosePlugin.lay.prevent-use-invisibility-when-use[/lang]'
+  stop: '[lang]PosePlugin.lay.stop[/lang]'
+sit:
+  play: '[lang]PosePlugin.sit.play[/lang]'
+  damage: '[lang]PosePlugin.sit.damage[/lang]'
+  stop: '[lang]PosePlugin.sit.stop[/lang]'
+wave:
+  play: '[lang]PosePlugin.wave.play[/lang]'
+  damage: '[lang]PosePlugin.wave.damage[/lang]'
+  handmode-change: '[lang]PosePlugin.wave.handmode-change[/lang]'
+  stop: '[lang]PosePlugin.wave.stop[/lang]'
+  usage: '§9/wave [right/left/off]'
+point:
+  play: '[lang]PosePlugin.point.play[/lang]'
+  damage: '[lang]PosePlugin.point.damage[/lang]'
+  handmode-change: '[lang]PosePlugin.point.handmode-change[/lang]'
+  stop: '[lang]PosePlugin.point.stop[/lang]'
+  usage: '§9/point [right/left/off]'
+handshake:
+  play: '[lang]PosePlugin.handshake.play[/lang]'
+  damage: '[lang]PosePlugin.handshake.damage[/lang]'
+  handmode-change: '[lang]PosePlugin.handshake.handmode-change[/lang]'
+  stop: '[lang]PosePlugin.handshake.stop[/lang]'
+  usage: '§9/handshake [right/left/off]'

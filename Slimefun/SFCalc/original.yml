@@ -1,0 +1,13 @@
+options:
+  auto-update: true
+header-string: '[lang]SFCalc.header-string[args][arg]%s[/arg][/args][/lang]'
+header-amount-string: >-
+  [lang]SFCalc.header-amount-string[args][arg]%d[/arg][arg]%s[/arg][/args][/lang]
+amount-string: '[lang]SFCalc.amount-string[args][arg]%d[/arg][arg]%s[/arg][/args][/lang]'
+needed-string: '[lang]SFCalc.needed-string[args][arg]%d[/arg][arg]%s[/arg][/args][/lang]'
+no-item-string: '[lang]SFCalc.no-item-string[/lang]'
+no-number-string: '[lang]SFCalc.no-number-string[/lang]'
+category-error-string: '[lang]SFCalc.category-error-string[/lang]'
+item-error-string: '[lang]SFCalc.item-error-string[/lang]'
+not-a-player-string: '[lang]SFCalc.not-a-player-string[/lang]'
+invalid-number-string: '[lang]SFCalc.invalid-number-string[/lang]'

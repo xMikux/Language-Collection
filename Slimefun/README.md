@@ -9,10 +9,10 @@
 
 | 插件名稱 | 完成狀態 |
 | ---- | ---- |
-| [DynaTech](DynaTech/) | :heavy_check_mark: |
+| [DynaTech](DynaTech/) | :x: |
 | [EcoPower](EcoPower/) | :heavy_check_mark: |
 | [ElectricSpawners](ElectricSpawners/) | :heavy_check_mark: |
-| [FoxyMachines](FoxyMachines/) | :heavy_check_mark: |
+| [FoxyMachines](FoxyMachines/) | :x: |
 | [PrivateStorage](PrivateStorage/) | :heavy_check_mark: |
+| [SFCalc](SFCalc/) | :heavy_check_mark: |
 | [Slimefun4](Slimefun4/) | :x: |
-| [X-Mas](X-Mas/) | :heavy_check_mark: |

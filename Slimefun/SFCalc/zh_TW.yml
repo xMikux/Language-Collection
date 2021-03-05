@@ -1,0 +1,30 @@
+options:
+  auto-update: true
+
+
+
+# The messages for showing recipes. Replace numbers with %d and item names with %s.
+# Header string ("Recipe for Solar Panel"). Defaults to "&eRecipe for %s:"
+header-string: "&e&n配方於 %s:"
+# The messages for showing recipes with an amount. Replace numbers with %d, item names with %s, and amount with %d.
+# Header string ("Recipe for 64 Solar Panel"). Defaults to "&eRecipe for %d %s:"
+header-amount-string: "&e&n配方於 %d %s:"
+# Amount string ("200 of Copper Dust"). Defaults to "%d of %s".
+amount-string: "&e%d 個 %s"
+# Needed string ("10 more Silicon needed"). Defaults to "&e%d more %s needed"
+needed-string: "&e需要 %d 個 %s"
+# Item not found string ("That item was not found."). Defaults to "&cThat item was not found."
+no-item-string: "&c找不到該物品."
+# Not a number string ("That's not a number!"). Defaults to "&cThat's not a number!"
+no-number-string: "&c那不是數字!"
+# Too many categories/items strings
+# ("That many categories/items is not supported yet. Please use the command form of the calculator.").
+# Defaults to "&cThat many categories/items is not supported yet. Please use the command form of the calculator.".
+category-error-string: "&c尚不支持許多類別. 請使用指令來計算."
+item-error-string: "&c尚不支持許多物品. 請使用指令來計算."
+# Not a player string ("You must be a player to send this message!").
+# Defaults to "&cYou must be a player to send this message!"
+not-a-player-string: "&c你必須是玩家才能發送此訊息!"
+# Invalid number string ("Invalid number!").
+# Defaults to "&cInvalid number!"
+invalid-number-string: "&c無效數量!"
