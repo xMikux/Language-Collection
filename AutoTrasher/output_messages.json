@@ -1,0 +1,98 @@
+[
+  {
+    "key": "AutoTrasher.messages.Prefix",
+    "type": "text",
+    "languages": {
+      "zh_TW": "&7[&e垃圾回收&7]",
+      "en_US": "&7[&eTrasher&7]"
+    }
+  },
+  {
+    "key": "AutoTrasher.messages.Messages.invalidPermission",
+    "type": "text",
+    "languages": {
+      "zh_TW": "%1 &c你沒有權限執行!",
+      "en_US": "%1 &cYou do not have permission to do this!"
+    }
+  },
+  {
+    "key": "AutoTrasher.messages.Messages.invalidArguments",
+    "type": "text",
+    "languages": {
+      "zh_TW": "%1 &c無效參數!",
+      "en_US": "%1 &cInvalid arguments!"
+    }
+  },
+  {
+    "key": "AutoTrasher.messages.Messages.unknownCommand",
+    "type": "text",
+    "languages": {
+      "zh_TW": "%1 &c未知指令!",
+      "en_US": "%1 &cUnknown command!"
+    }
+  },
+  {
+    "key": "AutoTrasher.messages.Messages.playerOnly",
+    "type": "text",
+    "languages": {
+      "zh_TW": "%1 &c此指令只能在玩家狀態下使用!",
+      "en_US": "%1 &cCommand can only be used as a Player!"
+    }
+  },
+  {
+    "key": "AutoTrasher.messages.Messages.unknownPlayer",
+    "type": "text",
+    "languages": {
+      "zh_TW": "%1 &c未知玩家!",
+      "en_US": "%1 &cUnknown Player!"
+    }
+  },
+  {
+    "key": "AutoTrasher.messages.Messages.configurationsReloaded",
+    "type": "text",
+    "languages": {
+      "zh_TW": "%1 &a設定檔案已成功重新加載!",
+      "en_US": "%1 &aConfiguration files successfully reloaded!"
+    }
+  },
+  {
+    "key": "AutoTrasher.messages.Messages.activated",
+    "type": "text",
+    "languages": {
+      "zh_TW": "%1 &e&l自動垃圾回收: &a&l啟用",
+      "en_US": "%1 &e&lAuto Trasher: &a&lActivated"
+    }
+  },
+  {
+    "key": "AutoTrasher.messages.Messages.deactivated",
+    "type": "text",
+    "languages": {
+      "zh_TW": "%1 &e&l自動垃圾回收: &c&l停用",
+      "en_US": "%1 &e&lAuto Trasher: &c&lDeactivated"
+    }
+  },
+  {
+    "key": "AutoTrasher.messages.Messages.trasherAdded",
+    "type": "text",
+    "languages": {
+      "zh_TW": "%1 &a已添加垃圾回收至你的背包內.",
+      "en_US": "%1 &aAdded an Auto Trasher to your inventory."
+    }
+  },
+  {
+    "key": "AutoTrasher.messages.Messages.receivedTrasher",
+    "type": "text",
+    "languages": {
+      "zh_TW": "%1 &a你收到了垃圾回收器.",
+      "en_US": "%1 &aYou received an Auto Trasher."
+    }
+  },
+  {
+    "key": "AutoTrasher.messages.Messages.deletedTrasher",
+    "type": "text",
+    "languages": {
+      "zh_TW": "%1 &a成功刪除玩家資料.",
+      "en_US": "%1 &aSuccessfully deleted players data."
+    }
+  }
+]

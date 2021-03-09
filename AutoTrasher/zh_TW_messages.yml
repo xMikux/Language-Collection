@@ -1,0 +1,20 @@
+# This is the Message file for all Auto Trasher messages.
+# 
+# All messages are fully customizable and support color codes, formatting and ASCII symbols.
+# Set the Prefix and use %prefix% to add the prefix to any message.
+# Leave a message blank ('') to disable it.
+
+
+Prefix: '&7[&e垃圾回收&7]'
+Messages:
+  invalidPermission: '%prefix% &c你沒有權限執行!'
+  invalidArguments: '%prefix% &c無效參數!'
+  unknownCommand: '%prefix% &c未知指令!'
+  playerOnly: '%prefix% &c此指令只能在玩家狀態下使用!'
+  unknownPlayer: '%prefix% &c未知玩家!'
+  configurationsReloaded: '%prefix% &a設定檔案已成功重新加載!'
+  activated: '%prefix% &e&l自動垃圾回收: &a&l啟用'
+  deactivated: '%prefix% &e&l自動垃圾回收: &c&l停用'
+  trasherAdded: '%prefix% &a已添加垃圾回收至你的背包內.'
+  receivedTrasher: '%prefix% &a你收到了垃圾回收器.'
+  deletedTrasher: '%prefix% &a成功刪除玩家資料.'

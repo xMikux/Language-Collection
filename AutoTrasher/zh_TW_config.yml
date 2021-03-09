@@ -1,0 +1,95 @@
+################################################################################
+# +--------------------------------------------------------------------------+ #
+# |      _           _           _____                  _                    | #
+# |     / \   _   _ | |_  ___   |_   _|_ __  __ _  ___ | |__    ___  _ __    | #
+# |    / _ \ | | | || __|/ _ \    | | | '__|/ _` |/ __|| '_ \  / _ \| '__|   | #
+# |   / ___ \| |_| || |_| (_) |   | | | |  | (_| |\__ \| | | ||  __/| |      | #
+# |  /_/   \_\\__,_| \__|\___/    |_| |_|   \__,_||___/|_| |_| \___||_|      | #
+# |                                                                          | #
+# |                                                                          | #
+# | By: Benz56                                                               | #
+# +--------------------------------------------------------------------------+ #
+################################################################################
+
+# Update Checker.
+# Enable or disable the update checker.
+UpdateCheckerEnabled: true
+
+
+################################################################################
+# +--------------------------------------------------------------------------+ #
+# |                            Auto Trasher Item                             | #
+# +--------------------------------------------------------------------------+ #
+################################################################################
+
+# You can change all attributes of the Trasher item
+# without making old/previous Trashers unusable.
+
+# The name of the Auto Trasher item.
+name: '&c自動回收器'
+
+# Set any amount of lore.
+lore:
+  - '&e左鍵 &a來切換.'
+  - '&e右鍵 &a來打開設定.'
+
+# If true the item will glow.
+glow: false
+
+# Set the material and optionally the data value for it.
+# The material name and data value are split by a ':'.
+# Examples: WOOL, WOOL:14, DIRT, STONE etc.
+# N.b. data values are not supported on 1.13+; only the default below:
+material: WOOL:14
+
+# Should players be able to craft the Auto Trasher item?
+craftable: true
+# Shaped or shapeless recipe.
+shaped: true
+# The recipe for the Auto Trasher.
+# Use null if no item is needed in that slot.
+recipe:
+  - 'GOLD_INGOT, DIAMOND, GOLD_INGOT'
+  - 'DIAMOND, REDSTONE_BLOCK, DIAMOND'
+  - 'GOLD_INGOT, DIAMOND, GOLD_INGOT'
+
+# Set whether players are required to have the Auto Trasher item
+# in their inventory for it to trash their configured items.
+RequireInInventory: true
+
+# Ignore item durability.
+# E.g. putting a full durability axe in the trasher will also trash axes with e.g. 10 durability left.
+ignoreDurability: false
+
+
+################################################################################
+# +--------------------------------------------------------------------------+ #
+# |                       Auto Trasher GUI Appearance                        | #
+# +--------------------------------------------------------------------------+ #
+################################################################################
+
+# Set the title of the GUI.
+title: '&9&l自動回收器: '
+
+# The state of the Auto Trasher is appended to the title.
+active: '&7(&aOn&7)'
+inactive: '&7(&cOff&7)'
+
+# Specify the size of the Auto Trasher. Max 54.
+# If you chose a number that is not a multiple of 9 the remaining
+# slots in the last inventory row will contain the 'lockedSlot' item below.
+size: 9
+
+# Set the information on the items below.
+# The info is added to the lore in the gui.
+info:
+  - ''
+  - '&c已回收: &a%trashed%'
+
+# The item that appears in slots a player can't use.
+lockedSlot:
+  name: '&c鎖定欄位!'
+  lore:
+    - '&7此欄位已被鎖定!'
+  glow: false
+  material: STAINED_GLASS_PANE:14

@@ -1,0 +1,20 @@
+# This is the Message file for all Auto Trasher messages.
+# 
+# All messages are fully customizable and support color codes, formatting and ASCII symbols.
+# Set the Prefix and use %prefix% to add the prefix to any message.
+# Leave a message blank ('') to disable it.
+
+
+Prefix: '&7[&eTrasher&7]'
+Messages:
+  invalidPermission: '%prefix% &cYou do not have permission to do this!'
+  invalidArguments: '%prefix% &cInvalid arguments!'
+  unknownCommand: '%prefix% &cUnknown command!'
+  playerOnly: '%prefix% &cCommand can only be used as a Player!'
+  unknownPlayer: '%prefix% &cUnknown Player!'
+  configurationsReloaded: '%prefix% &aConfiguration files successfully reloaded!'
+  activated: '%prefix% &e&lAuto Trasher: &a&lActivated'
+  deactivated: '%prefix% &e&lAuto Trasher: &c&lDeactivated'
+  trasherAdded: '%prefix% &aAdded an Auto Trasher to your inventory.'
+  receivedTrasher: '%prefix% &aYou received an Auto Trasher.'
+  deletedTrasher: '%prefix% &aSuccessfully deleted players data.'

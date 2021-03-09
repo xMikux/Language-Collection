@@ -1,0 +1,28 @@
+UpdateCheckerEnabled: true
+name: '[lang]AutoTrasher.config.name[/lang]'
+lore:
+  - '[lang]AutoTrasher.config.lore.0[/lang]'
+  - '[lang]AutoTrasher.config.lore.1[/lang]'
+glow: false
+material: 'WOOL:14'
+craftable: true
+shaped: true
+recipe:
+  - 'GOLD_INGOT, DIAMOND, GOLD_INGOT'
+  - 'DIAMOND, REDSTONE_BLOCK, DIAMOND'
+  - 'GOLD_INGOT, DIAMOND, GOLD_INGOT'
+RequireInInventory: true
+ignoreDurability: false
+title: '[lang]AutoTrasher.config.title[/lang]'
+active: '[lang]AutoTrasher.config.active[/lang]'
+inactive: '[lang]AutoTrasher.config.inactive[/lang]'
+size: 9
+info:
+  - ''
+  - '[lang]AutoTrasher.config.info.1[args][arg]%trashed%[/arg][/args][/lang]'
+lockedSlot:
+  name: '[lang]AutoTrasher.config.lockedSlot.name[/lang]'
+  lore:
+    - '[lang]AutoTrasher.config.lockedSlot.lore.0[/lang]'
+  glow: false
+  material: 'STAINED_GLASS_PANE:14'

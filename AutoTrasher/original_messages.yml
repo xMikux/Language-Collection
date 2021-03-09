@@ -1,0 +1,24 @@
+Prefix: '[lang]AutoTrasher.messages.Prefix[/lang]'
+Messages:
+  invalidPermission: >-
+    [lang]AutoTrasher.messages.Messages.invalidPermission[args][arg]%prefix%[/arg][/args][/lang]
+  invalidArguments: >-
+    [lang]AutoTrasher.messages.Messages.invalidArguments[args][arg]%prefix%[/arg][/args][/lang]
+  unknownCommand: >-
+    [lang]AutoTrasher.messages.Messages.unknownCommand[args][arg]%prefix%[/arg][/args][/lang]
+  playerOnly: >-
+    [lang]AutoTrasher.messages.Messages.playerOnly[args][arg]%prefix%[/arg][/args][/lang]
+  unknownPlayer: >-
+    [lang]AutoTrasher.messages.Messages.unknownPlayer[args][arg]%prefix%[/arg][/args][/lang]
+  configurationsReloaded: >-
+    [lang]AutoTrasher.messages.Messages.configurationsReloaded[args][arg]%prefix%[/arg][/args][/lang]
+  activated: >-
+    [lang]AutoTrasher.messages.Messages.activated[args][arg]%prefix%[/arg][/args][/lang]
+  deactivated: >-
+    [lang]AutoTrasher.messages.Messages.deactivated[args][arg]%prefix%[/arg][/args][/lang]
+  trasherAdded: >-
+    [lang]AutoTrasher.messages.Messages.trasherAdded[args][arg]%prefix%[/arg][/args][/lang]
+  receivedTrasher: >-
+    [lang]AutoTrasher.messages.Messages.receivedTrasher[args][arg]%prefix%[/arg][/args][/lang]
+  deletedTrasher: >-
+    [lang]AutoTrasher.messages.Messages.deletedTrasher[args][arg]%prefix%[/arg][/args][/lang]

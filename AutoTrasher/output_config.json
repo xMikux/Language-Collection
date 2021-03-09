@@ -1,0 +1,74 @@
+[
+  {
+    "key": "AutoTrasher.config.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&cAuto Trasher",
+      "zh_TW": "&c自動回收器"
+    }
+  },
+  {
+    "key": "AutoTrasher.config.lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&eLeft-Click &ato toggle.",
+      "zh_TW": "&e左鍵 &a來切換."
+    }
+  },
+  {
+    "key": "AutoTrasher.config.lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&eRight-Click &ato open setup.",
+      "zh_TW": "&e右鍵 &a來打開設定."
+    }
+  },
+  {
+    "key": "AutoTrasher.config.title",
+    "type": "text",
+    "languages": {
+      "en_US": "&9&lAuto Trasher: ",
+      "zh_TW": "&9&l自動回收器: "
+    }
+  },
+  {
+    "key": "AutoTrasher.config.active",
+    "type": "text",
+    "languages": {
+      "en_US": "&7(&aOn&7)",
+      "zh_TW": "&7(&aOn&7)"
+    }
+  },
+  {
+    "key": "AutoTrasher.config.inactive",
+    "type": "text",
+    "languages": {
+      "en_US": "&7(&cOff&7)",
+      "zh_TW": "&7(&cOff&7)"
+    }
+  },
+  {
+    "key": "AutoTrasher.config.info.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&cTrashed: &a%1",
+      "zh_TW": "&c已回收: &a%1"
+    }
+  },
+  {
+    "key": "AutoTrasher.config.lockedSlot.name",
+    "type": "text",
+    "languages": {
+      "en_US": "&cLocked Slot!",
+      "zh_TW": "&c鎖定欄位!"
+    }
+  },
+  {
+    "key": "AutoTrasher.config.lockedSlot.lore.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&7This slot is locked!",
+      "zh_TW": "&7此欄位已被鎖定!"
+    }
+  }
+]
