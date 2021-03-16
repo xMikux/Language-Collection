@@ -6,19 +6,15 @@
 
 ## Triton設定
 
-**Prefix:** `ZombieApocalypse.`
-**Variable Regex:** `{\w+}`
+**Prefix:** `ZombieApocalypse.`  
+**Variable Regex:** `{\w+}`  
 **Ignored keys:**
 
 ```
-zombies.DEFAULT.head
-zombies.SPRINTER.head
-zombies.BOOMER.head
-zombies.THROWER.head
-zombies.TANK.head
-zombies.NINJA.head
-zombies.MULTIPLIER.head
-zombies.JUMPER.head
-zombies.PILLAR.head
+check-for-updates
+zombies\..+
 allow-babies
+burn-in-day
+do-bossbar
+do-zombie-block-damage
 ```

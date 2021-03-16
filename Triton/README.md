@@ -6,8 +6,8 @@
 
 ## Triton設定
 
-**Prefix:** `Triton.`
-**Variable Regex:** `%\d`
+**Prefix:** `Triton.`  
+**Variable Regex:** `%\d`  
 **Ignored keys:**
 
 ```

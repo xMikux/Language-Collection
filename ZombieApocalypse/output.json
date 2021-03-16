@@ -116,7 +116,7 @@
     "type": "text",
     "languages": {
       "en_US": "§aSet the maximum zombie spawns per chunk to %1 in world '%2'",
-      "zh_TW": "§a設定最大殭屍於每個區塊生成上限為 %1 在世界 '%2"
+      "zh_TW": "§a設定最大殭屍於每個區塊生成上限為 %1 在世界 '%2'"
     }
   },
   {

@@ -6,8 +6,8 @@
 
 ## Triton設定
 
-**Prefix:** `SFCalc.`
-**Variable Regex:** `%\w`
+**Prefix:** `SFCalc.`  
+**Variable Regex:** `%\w`  
 **Ignored keys:**
 
 ```

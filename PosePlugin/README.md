@@ -6,8 +6,8 @@
 
 ## Triton設定
 
-**Prefix:** `PosePlugin.`
-**Variable Regex:** 
+**Prefix:** `PosePlugin.`  
+**Variable Regex:**  
 **Ignored keys:**
 
 ```

@@ -6,8 +6,8 @@
 
 ## Triton設定
 
-**Prefix:** `Tamablefoxes.`
-**Variable Regex:** `%\w+%`
+**Prefix:** `Tamablefoxes.`  
+**Variable Regex:** `%\w+%`  
 **Ignored keys:**
 
 ```

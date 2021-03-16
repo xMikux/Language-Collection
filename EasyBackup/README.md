@@ -6,8 +6,8 @@
 
 ## Triton設定
 
-**Prefix:** `EasyBackup.`
-**Variable Regex:** `{\w+}`
+**Prefix:** `EasyBackup.`  
+**Variable Regex:** `{\w+}`  
 **Ignored keys:**
 
 ```

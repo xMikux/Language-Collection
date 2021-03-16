@@ -6,8 +6,8 @@
 
 ## Triton設定
 
-**Prefix:** `X-Mas.`
-**Variable Regex:**
+**Prefix:** `X-Mas.`  
+**Variable Regex:**  
 **Ignored keys:**
 
 ```

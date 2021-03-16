@@ -6,8 +6,8 @@
 
 ## Triton設定 Config
 
-**Prefix:** `AutoTrasher.config.`
-**Variable Regex:** `%\w+%`
+**Prefix:** `AutoTrasher.config.`  
+**Variable Regex:** `%\w+%`  
 **Ignored keys:**
 
 ```

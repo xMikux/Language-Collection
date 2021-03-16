@@ -9,8 +9,8 @@
 
 ## Triton設定
 
-**Prefix:** `Vivaldi.`
-**Variable Regex:** `%\w`
+**Prefix:** `Vivaldi.`  
+**Variable Regex:** `%\w`  
 **Ignored keys:**
 
 ```

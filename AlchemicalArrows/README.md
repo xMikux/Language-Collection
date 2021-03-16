@@ -6,8 +6,8 @@
 
 ## Triton設定
 
-**Prefix:** `AlchemicalArrows.`
-**Variable Regex:** `%\w+%`
+**Prefix:** `AlchemicalArrows.`  
+**Variable Regex:** `%\w+%`  
 **Ignored keys:**
 
 ```
