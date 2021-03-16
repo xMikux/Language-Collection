@@ -1,6 +1,6 @@
 [
   {
-    "key": "MoreOres.Incorrect Command Syntax",
+    "key": "MoreOres.Incorrect-Command-Syntax",
     "type": "text",
     "languages": {
       "zh_TW": "指令語法不正確. 使用 %1",
@@ -8,7 +8,7 @@
     }
   },
   {
-    "key": "MoreOres.No Permission",
+    "key": "MoreOres.No-Permission",
     "type": "text",
     "languages": {
       "zh_TW": "你沒有權限執行此指令!",
@@ -16,7 +16,7 @@
     }
   },
   {
-    "key": "MoreOres.Storage Warning",
+    "key": "MoreOres.Storage-Warning",
     "type": "text",
     "languages": {
       "zh_TW": "無法保存 Storage.yml. 這可能會導致在重新啟動時出問題.  如果此錯誤仍然繼續, 回報給開發者.",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "key": "MoreOres.Config Explanation",
+    "key": "MoreOres.Config-Explanation",
     "type": "text",
     "languages": {
       "zh_TW": "可以在旁邊的連結找設定說明 https://www.spigotmc.org/resources/%E2%9B%8F%EF%B8%8Fmore-ores%E2%9B%8F%EF%B8%8F.77221/",
@@ -32,7 +32,7 @@
     }
   },
   {
-    "key": "MoreOres.Start clear/generate",
+    "key": "MoreOres.Start-clear/generate",
     "type": "text",
     "languages": {
       "zh_TW": "開始 [clear/generate]",
@@ -56,7 +56,7 @@
     }
   },
   {
-    "key": "MoreOres.No World",
+    "key": "MoreOres.No-World",
     "type": "text",
     "languages": {
       "zh_TW": "此伺服器上並不存在該世界!",
@@ -64,7 +64,7 @@
     }
   },
   {
-    "key": "MoreOres.clear/generate Confirm 1",
+    "key": "MoreOres.clear/generate-Confirm-1",
     "type": "text",
     "languages": {
       "zh_TW": "你確定要 [clear/generate] 礦石於 %1?",
@@ -72,7 +72,7 @@
     }
   },
   {
-    "key": "MoreOres.clear/generate Confirm 2",
+    "key": "MoreOres.clear/generate-Confirm-2",
     "type": "text",
     "languages": {
       "zh_TW": "這是可逆的, 但可能會導致一些卡頓",
@@ -80,7 +80,7 @@
     }
   },
   {
-    "key": "MoreOres.clear/generate/remove Confirm",
+    "key": "MoreOres.clear/generate/remove-Confirm",
     "type": "text",
     "languages": {
       "zh_TW": "如果確定, 請輸入 %1",
@@ -88,7 +88,7 @@
     }
   },
   {
-    "key": "MoreOres.clear Confirm",
+    "key": "MoreOres.clear-Confirm",
     "type": "text",
     "languages": {
       "zh_TW": "礦石仍將在 %1 生成, 如果未在config內禁用.",
@@ -96,7 +96,7 @@
     }
   },
   {
-    "key": "MoreOres.generate Confirm 1",
+    "key": "MoreOres.generate-Confirm-1",
     "type": "text",
     "languages": {
       "zh_TW": "如果你執行此指令, /moreores clear %1 將不會清除任何礦石在你運行此指令之前生成的.",
@@ -104,7 +104,7 @@
     }
   },
   {
-    "key": "MoreOres.generate Confirm 2",
+    "key": "MoreOres.generate-Confirm-2",
     "type": "text",
     "languages": {
       "zh_TW": "如果未在設定啟用礦石, 則可能不會在  %1 中生成礦石.",
@@ -112,7 +112,7 @@
     }
   },
   {
-    "key": "MoreOres.Remove Confirm 1",
+    "key": "MoreOres.Remove-Confirm-1",
     "type": "text",
     "languages": {
       "zh_TW": "你確定要從 %1 中移除礦石?",
@@ -120,7 +120,7 @@
     }
   },
   {
-    "key": "MoreOres.Remove Confirm 2",
+    "key": "MoreOres.Remove-Confirm-2",
     "type": "text",
     "languages": {
       "zh_TW": "/moreores clear <world> 通常運作的更好",
@@ -128,7 +128,7 @@
     }
   },
   {
-    "key": "MoreOres.Remove Start 1",
+    "key": "MoreOres.Remove-Start-1",
     "type": "text",
     "languages": {
       "zh_TW": "礦石現在將從 %1 中移除",
@@ -136,7 +136,7 @@
     }
   },
   {
-    "key": "MoreOres.Remove Start 2",
+    "key": "MoreOres.Remove-Start-2",
     "type": "text",
     "languages": {
       "zh_TW": "將 %1 設定為不在設定中生成礦石",
@@ -144,7 +144,7 @@
     }
   },
   {
-    "key": "MoreOres.Remove End",
+    "key": "MoreOres.Remove-End",
     "type": "text",
     "languages": {
       "zh_TW": "礦石將不在從 %1 中移除",
@@ -152,7 +152,7 @@
     }
   },
   {
-    "key": "MoreOres.Change in Config",
+    "key": "MoreOres.Change-in-Config",
     "type": "text",
     "languages": {
       "zh_TW": "你可以在設定中更改",
@@ -160,7 +160,7 @@
     }
   },
   {
-    "key": "MoreOres.Reload Config",
+    "key": "MoreOres.Reload-Config",
     "type": "text",
     "languages": {
       "zh_TW": "重新加載設定",
@@ -168,7 +168,7 @@
     }
   },
   {
-    "key": "MoreOres.Players Only",
+    "key": "MoreOres.Players-Only",
     "type": "text",
     "languages": {
       "zh_TW": "只有玩家可以執行此指令.",
@@ -176,7 +176,7 @@
     }
   },
   {
-    "key": "MoreOres.Not Item",
+    "key": "MoreOres.Not-Item",
     "type": "text",
     "languages": {
       "zh_TW": "那並不是個物品",
@@ -184,7 +184,7 @@
     }
   },
   {
-    "key": "MoreOres.Help Title",
+    "key": "MoreOres.Help-Title",
     "type": "text",
     "languages": {
       "zh_TW": "更多礦石幫助",
@@ -200,7 +200,7 @@
     }
   },
   {
-    "key": "MoreOres./moreores menu",
+    "key": "MoreOres./moreores-menu",
     "type": "text",
     "languages": {
       "zh_TW": "開啟一個物品欄包含所有更多礦石的物品",
@@ -208,7 +208,7 @@
     }
   },
   {
-    "key": "MoreOres./moreores <ore> [amount]",
+    "key": "MoreOres./moreores-<ore>-[amount]",
     "type": "text",
     "languages": {
       "zh_TW": "給予你指定的礦石",
@@ -216,7 +216,7 @@
     }
   },
   {
-    "key": "MoreOres./moreores reload",
+    "key": "MoreOres./moreores-reload",
     "type": "text",
     "languages": {
       "zh_TW": "重新加載設定",
@@ -224,7 +224,7 @@
     }
   },
   {
-    "key": "MoreOres./moreores clear <world>",
+    "key": "MoreOres./moreores-clear-<world>",
     "type": "text",
     "languages": {
       "zh_TW": "清除世界上所有的礦石",
@@ -232,7 +232,7 @@
     }
   },
   {
-    "key": "MoreOres./moreores generate <world>",
+    "key": "MoreOres./moreores-generate-<world>",
     "type": "text",
     "languages": {
       "zh_TW": "強制礦石在世界上生成",
@@ -240,7 +240,7 @@
     }
   },
   {
-    "key": "MoreOres./moreores remove <world>",
+    "key": "MoreOres./moreores-remove-<world>",
     "type": "text",
     "languages": {
       "zh_TW": "將世界添加至刪除礦石列表中, 並根據啟用內容將其從 黑名單/移除 中刪除",
@@ -248,7 +248,7 @@
     }
   },
   {
-    "key": "MoreOres.Recieved Item",
+    "key": "MoreOres.Recieved-Item",
     "type": "text",
     "languages": {
       "zh_TW": "你收到 %1 %2",
@@ -256,7 +256,7 @@
     }
   },
   {
-    "key": "MoreOres.Dolphin Pants Lore 1",
+    "key": "MoreOres.Dolphin-Pants-Lore-1",
     "type": "text",
     "languages": {
       "zh_TW": "在水中提供海豚悠游",
@@ -264,7 +264,7 @@
     }
   },
   {
-    "key": "MoreOres.Drowned Chestplate Lore 1",
+    "key": "MoreOres.Drowned-Chestplate-Lore-1",
     "type": "text",
     "languages": {
       "zh_TW": "在水中提供挖掘加速",
@@ -272,7 +272,7 @@
     }
   },
   {
-    "key": "MoreOres.Dolphin Pants/Drowned Chestplate Lore 2",
+    "key": "MoreOres.Dolphin-Pants/Drowned-Chestplate-Lore-2",
     "type": "text",
     "languages": {
       "zh_TW": "在有限的時間內",
@@ -280,7 +280,7 @@
     }
   },
   {
-    "key": "MoreOres.Noncombustible Boots Lore 1",
+    "key": "MoreOres.Noncombustible-Boots-Lore-1",
     "type": "text",
     "languages": {
       "zh_TW": "提供抗火為",
@@ -288,7 +288,7 @@
     }
   },
   {
-    "key": "MoreOres.Noncombustible Boots Lore 2",
+    "key": "MoreOres.Noncombustible-Boots-Lore-2",
     "type": "text",
     "languages": {
       "zh_TW": "有限的時間內在熔岩中",
@@ -296,7 +296,7 @@
     }
   },
   {
-    "key": "MoreOres.Unstable TNT Lore",
+    "key": "MoreOres.Unstable-TNT-Lore",
     "type": "text",
     "languages": {
       "zh_TW": "破壞時爆炸",
@@ -304,7 +304,7 @@
     }
   },
   {
-    "key": "MoreOres.Corrupted Armor Lore 1",
+    "key": "MoreOres.Corrupted-Armor-Lore-1",
     "type": "text",
     "languages": {
       "zh_TW": "每10秒提供一次速度",
@@ -312,7 +312,7 @@
     }
   },
   {
-    "key": "MoreOres.Corrupted Armor Lore 2",
+    "key": "MoreOres.Corrupted-Armor-Lore-2",
     "type": "text",
     "languages": {
       "zh_TW": "有很小的機率會有緩速",
@@ -320,7 +320,7 @@
     }
   },
   {
-    "key": "MoreOres.Corrupted Armor Lore 3",
+    "key": "MoreOres.Corrupted-Armor-Lore-3",
     "type": "text",
     "languages": {
       "zh_TW": "全套將會總是給予速度",
@@ -328,7 +328,7 @@
     }
   },
   {
-    "key": "MoreOres.Ice Boots Lore",
+    "key": "MoreOres.Ice-Boots-Lore",
     "type": "text",
     "languages": {
       "zh_TW": "行走在水上",
@@ -336,7 +336,7 @@
     }
   },
   {
-    "key": "MoreOres.Ice Helmet Lore",
+    "key": "MoreOres.Ice-Helmet-Lore",
     "type": "text",
     "languages": {
       "zh_TW": "有一定的機率當你戴在頭上時凍結攻擊者",
@@ -344,7 +344,7 @@
     }
   },
   {
-    "key": "MoreOres.Scuba Lore",
+    "key": "MoreOres.Scuba-Lore",
     "type": "text",
     "languages": {
       "zh_TW": "升級版海龜殼",
@@ -352,7 +352,7 @@
     }
   },
   {
-    "key": "MoreOres.Kelp Ore Lore",
+    "key": "MoreOres.Kelp-Ore-Lore",
     "type": "text",
     "languages": {
       "zh_TW": "此礦石熔煉海帶",
@@ -360,7 +360,7 @@
     }
   },
   {
-    "key": "MoreOres.Petrified Wood Lore",
+    "key": "MoreOres.Petrified-Wood-Lore",
     "type": "text",
     "languages": {
       "zh_TW": "熔煉此獲得木頭",
@@ -368,7 +368,7 @@
     }
   },
   {
-    "key": "MoreOres.Health Ore Lore",
+    "key": "MoreOres.Health-Ore-Lore",
     "type": "text",
     "languages": {
       "zh_TW": "將四個這個一起製作獲得醫療包",
@@ -376,7 +376,7 @@
     }
   },
   {
-    "key": "MoreOres.Medkit Lore 1",
+    "key": "MoreOres.Medkit-Lore-1",
     "type": "text",
     "languages": {
       "zh_TW": "用於怪物或其他玩家來治療它們",
@@ -384,7 +384,7 @@
     }
   },
   {
-    "key": "MoreOres.Medkit Lore 2",
+    "key": "MoreOres.Medkit-Lore-2",
     "type": "text",
     "languages": {
       "zh_TW": "將四個這個一起製作來獲得金醫療包",
@@ -392,7 +392,7 @@
     }
   },
   {
-    "key": "MoreOres.Liquid Ore Lore",
+    "key": "MoreOres.Liquid-Ore-Lore",
     "type": "text",
     "languages": {
       "zh_TW": "此礦石熔煉成液態錠",
@@ -400,7 +400,7 @@
     }
   },
   {
-    "key": "MoreOres.Liquid Ingot Lore 1",
+    "key": "MoreOres.Liquid-Ingot-Lore-1",
     "type": "text",
     "languages": {
       "zh_TW": "用這些包住烏龜殼",
@@ -408,7 +408,7 @@
     }
   },
   {
-    "key": "MoreOres.Liquid Ingot Lore 2",
+    "key": "MoreOres.Liquid-Ingot-Lore-2",
     "type": "text",
     "languages": {
       "zh_TW": "來製作潛水頭盔",
@@ -416,7 +416,7 @@
     }
   },
   {
-    "key": "MoreOres.Liquid Ingot Lore 3",
+    "key": "MoreOres.Liquid-Ingot-Lore-3",
     "type": "text",
     "languages": {
       "zh_TW": "用於製作護腿, 靴子和胸甲",
@@ -424,7 +424,7 @@
     }
   },
   {
-    "key": "MoreOres.Golden Medkit Lore 1",
+    "key": "MoreOres.Golden-Medkit-Lore-1",
     "type": "text",
     "languages": {
       "zh_TW": "在怪物或玩家上使用",
@@ -432,7 +432,7 @@
     }
   },
   {
-    "key": "MoreOres.Golden Medkit Lore 2",
+    "key": "MoreOres.Golden-Medkit-Lore-2",
     "type": "text",
     "languages": {
       "zh_TW": "來給予它們吸收效果",
@@ -440,7 +440,7 @@
     }
   },
   {
-    "key": "MoreOres.Fire Ore Lore",
+    "key": "MoreOres.Fire-Ore-Lore",
     "type": "text",
     "languages": {
       "zh_TW": "將9個這結合起來製作火焰水晶",
@@ -448,7 +448,7 @@
     }
   },
   {
-    "key": "MoreOres.Fire Crystal Lore 1",
+    "key": "MoreOres.Fire-Crystal-Lore-1",
     "type": "text",
     "languages": {
       "zh_TW": "右鍵丟出!",
@@ -456,7 +456,7 @@
     }
   },
   {
-    "key": "MoreOres.Fire Crystal Lore 2",
+    "key": "MoreOres.Fire-Crystal-Lore-2",
     "type": "text",
     "languages": {
       "zh_TW": "固化液體",
@@ -464,7 +464,7 @@
     }
   },
   {
-    "key": "MoreOres.Fire Crystal Lore 3",
+    "key": "MoreOres.Fire-Crystal-Lore-3",
     "type": "text",
     "languages": {
       "zh_TW": "高度爆炸性",
@@ -472,7 +472,7 @@
     }
   },
   {
-    "key": "MoreOres.Explosive Ore Lore 1",
+    "key": "MoreOres.Explosive-Ore-Lore-1",
     "type": "text",
     "languages": {
       "zh_TW": "將會爆炸, 除非使用 %1 來挖",
@@ -480,7 +480,7 @@
     }
   },
   {
-    "key": "MoreOres.Explosive Ore Lore 2",
+    "key": "MoreOres.Explosive-Ore-Lore-2",
     "type": "text",
     "languages": {
       "zh_TW": "熔煉成火藥",
@@ -488,7 +488,7 @@
     }
   },
   {
-    "key": "MoreOres.Explosive Ore Lore 3",
+    "key": "MoreOres.Explosive-Ore-Lore-3",
     "type": "text",
     "languages": {
       "zh_TW": "與TNT一起製作不穩定TNT",
@@ -496,7 +496,7 @@
     }
   },
   {
-    "key": "MoreOres.Pearl Fragment Lore 1",
+    "key": "MoreOres.Pearl-Fragment-Lore-1",
     "type": "text",
     "languages": {
       "zh_TW": "將4個這個結合在一起製作升級版終界珍珠",
@@ -504,7 +504,7 @@
     }
   },
   {
-    "key": "MoreOres.Pearl Fragment Lore 2",
+    "key": "MoreOres.Pearl-Fragment-Lore-2",
     "type": "text",
     "languages": {
       "zh_TW": "用9個這個結合在一起製作衝刺終界珍珠",
@@ -512,7 +512,7 @@
     }
   },
   {
-    "key": "MoreOres.Upgraded Pearl Lore",
+    "key": "MoreOres.Upgraded-Pearl-Lore",
     "type": "text",
     "languages": {
       "zh_TW": "可控制的終界珍珠",
@@ -520,7 +520,7 @@
     }
   },
   {
-    "key": "MoreOres.Rush Pearl Lore",
+    "key": "MoreOres.Rush-Pearl-Lore",
     "type": "text",
     "languages": {
       "zh_TW": "可騎乘的終界珍珠",
@@ -528,7 +528,7 @@
     }
   },
   {
-    "key": "MoreOres.Corrupted Ore Lore 1",
+    "key": "MoreOres.Corrupted-Ore-Lore-1",
     "type": "text",
     "languages": {
       "zh_TW": "結合9個這個來獲得純粹損壞",
@@ -536,7 +536,7 @@
     }
   },
   {
-    "key": "MoreOres.Corrupted Ore Lore 2",
+    "key": "MoreOres.Corrupted-Ore-Lore-2",
     "type": "text",
     "languages": {
       "zh_TW": "用於製作盔甲",
@@ -544,7 +544,7 @@
     }
   },
   {
-    "key": "MoreOres.Pure Corruption Lore 1",
+    "key": "MoreOres.Pure-Corruption-Lore-1",
     "type": "text",
     "languages": {
       "zh_TW": "用於劍上將其損壞",
@@ -552,7 +552,7 @@
     }
   },
   {
-    "key": "MoreOres.Pure Corruption Lore 2",
+    "key": "MoreOres.Pure-Corruption-Lore-2",
     "type": "text",
     "languages": {
       "zh_TW": "損壞的劍將會產生凋零效果",
@@ -560,7 +560,7 @@
     }
   },
   {
-    "key": "MoreOres.Pure Corruption Lore 3",
+    "key": "MoreOres.Pure-Corruption-Lore-3",
     "type": "text",
     "languages": {
       "zh_TW": "但它們將會更快的失去耐久度",
@@ -568,7 +568,7 @@
     }
   },
   {
-    "key": "MoreOres.Hardened End Stone Lore 1",
+    "key": "MoreOres.Hardened-End-Stone-Lore-1",
     "type": "text",
     "languages": {
       "zh_TW": "用鑽石鎬破壞",
@@ -576,7 +576,7 @@
     }
   },
   {
-    "key": "MoreOres.Hardened End Stone Lore 2",
+    "key": "MoreOres.Hardened-End-Stone-Lore-2",
     "type": "text",
     "languages": {
       "zh_TW": "對於隨機的珍貴物品",
@@ -584,7 +584,7 @@
     }
   },
   {
-    "key": "MoreOres.Ice Ore Lore",
+    "key": "MoreOres.Ice-Ore-Lore",
     "type": "text",
     "languages": {
       "zh_TW": "用於製作冰頭盔與靴子",
@@ -592,7 +592,7 @@
     }
   },
   {
-    "key": "MoreOres.Rush Pearl Warning",
+    "key": "MoreOres.Rush-Pearl-Warning",
     "type": "text",
     "languages": {
       "zh_TW": "衝刺終界珍珠還剩餘 %1 秒!",
@@ -616,7 +616,7 @@
     }
   },
   {
-    "key": "MoreOres.Kelp Ore",
+    "key": "MoreOres.Kelp-Ore",
     "type": "text",
     "languages": {
       "zh_TW": "海帶礦石",
@@ -624,7 +624,7 @@
     }
   },
   {
-    "key": "MoreOres.Petrified Wood",
+    "key": "MoreOres.Petrified-Wood",
     "type": "text",
     "languages": {
       "zh_TW": "石化木",
@@ -632,7 +632,7 @@
     }
   },
   {
-    "key": "MoreOres.Experience Ore",
+    "key": "MoreOres.Experience-Ore",
     "type": "text",
     "languages": {
       "zh_TW": "經驗礦石",
@@ -640,7 +640,7 @@
     }
   },
   {
-    "key": "MoreOres.Random Ore",
+    "key": "MoreOres.Random-Ore",
     "type": "text",
     "languages": {
       "zh_TW": "隨機礦石",
@@ -648,7 +648,7 @@
     }
   },
   {
-    "key": "MoreOres.Potion Ore",
+    "key": "MoreOres.Potion-Ore",
     "type": "text",
     "languages": {
       "zh_TW": "藥水礦石",
@@ -664,7 +664,7 @@
     }
   },
   {
-    "key": "MoreOres.Health Ore",
+    "key": "MoreOres.Health-Ore",
     "type": "text",
     "languages": {
       "zh_TW": "治療礦石",
@@ -672,7 +672,7 @@
     }
   },
   {
-    "key": "MoreOres.Liquid Ore",
+    "key": "MoreOres.Liquid-Ore",
     "type": "text",
     "languages": {
       "zh_TW": "液體礦石",
@@ -680,7 +680,7 @@
     }
   },
   {
-    "key": "MoreOres.Liquid Ingot",
+    "key": "MoreOres.Liquid-Ingot",
     "type": "text",
     "languages": {
       "zh_TW": "液體錠",
@@ -688,7 +688,7 @@
     }
   },
   {
-    "key": "MoreOres.Scuba Helmet",
+    "key": "MoreOres.Scuba-Helmet",
     "type": "text",
     "languages": {
       "zh_TW": "潛水頭盔",
@@ -696,7 +696,7 @@
     }
   },
   {
-    "key": "MoreOres.Golden Medkit",
+    "key": "MoreOres.Golden-Medkit",
     "type": "text",
     "languages": {
       "zh_TW": "金醫療包",
@@ -704,7 +704,7 @@
     }
   },
   {
-    "key": "MoreOres.Fire Ore",
+    "key": "MoreOres.Fire-Ore",
     "type": "text",
     "languages": {
       "zh_TW": "火焰礦石",
@@ -712,7 +712,7 @@
     }
   },
   {
-    "key": "MoreOres.Fire Crystal",
+    "key": "MoreOres.Fire-Crystal",
     "type": "text",
     "languages": {
       "zh_TW": "火焰水晶",
@@ -720,7 +720,7 @@
     }
   },
   {
-    "key": "MoreOres.Bone Ore",
+    "key": "MoreOres.Bone-Ore",
     "type": "text",
     "languages": {
       "zh_TW": "骨礦石",
@@ -728,7 +728,7 @@
     }
   },
   {
-    "key": "MoreOres.Explosive Ore",
+    "key": "MoreOres.Explosive-Ore",
     "type": "text",
     "languages": {
       "zh_TW": "爆炸礦石",
@@ -736,7 +736,7 @@
     }
   },
   {
-    "key": "MoreOres.Pearl Fragment",
+    "key": "MoreOres.Pearl-Fragment",
     "type": "text",
     "languages": {
       "zh_TW": "終界珍珠碎片",
@@ -744,7 +744,7 @@
     }
   },
   {
-    "key": "MoreOres.Upgraded Pearl",
+    "key": "MoreOres.Upgraded-Pearl",
     "type": "text",
     "languages": {
       "zh_TW": "升級版終界珍珠",
@@ -752,7 +752,7 @@
     }
   },
   {
-    "key": "MoreOres.Rush Pearl",
+    "key": "MoreOres.Rush-Pearl",
     "type": "text",
     "languages": {
       "zh_TW": "衝刺終界珍珠",
@@ -760,7 +760,7 @@
     }
   },
   {
-    "key": "MoreOres.Corrupted Ore",
+    "key": "MoreOres.Corrupted-Ore",
     "type": "text",
     "languages": {
       "zh_TW": "損毀礦石",
@@ -768,7 +768,7 @@
     }
   },
   {
-    "key": "MoreOres.Pure Corruption",
+    "key": "MoreOres.Pure-Corruption",
     "type": "text",
     "languages": {
       "zh_TW": "純粹損壞",
@@ -776,7 +776,7 @@
     }
   },
   {
-    "key": "MoreOres.Hardened End Stone",
+    "key": "MoreOres.Hardened-End-Stone",
     "type": "text",
     "languages": {
       "zh_TW": "硬化終界石",
@@ -784,7 +784,7 @@
     }
   },
   {
-    "key": "MoreOres.Ice Ore",
+    "key": "MoreOres.Ice-Ore",
     "type": "text",
     "languages": {
       "zh_TW": "冰礦石",
@@ -792,7 +792,7 @@
     }
   },
   {
-    "key": "MoreOres.Dolphin Pants",
+    "key": "MoreOres.Dolphin-Pants",
     "type": "text",
     "languages": {
       "zh_TW": "海豚褲",
@@ -800,7 +800,7 @@
     }
   },
   {
-    "key": "MoreOres.Chestplate of the Drowned",
+    "key": "MoreOres.Chestplate-of-the-Drowned",
     "type": "text",
     "languages": {
       "zh_TW": "沉屍的胸甲",
@@ -808,7 +808,7 @@
     }
   },
   {
-    "key": "MoreOres.Noncombustible Boots",
+    "key": "MoreOres.Noncombustible-Boots",
     "type": "text",
     "languages": {
       "zh_TW": "不可燃靴子",
@@ -816,7 +816,7 @@
     }
   },
   {
-    "key": "MoreOres.Unstable TNT",
+    "key": "MoreOres.Unstable-TNT",
     "type": "text",
     "languages": {
       "zh_TW": "不穩定TNT",
@@ -824,7 +824,7 @@
     }
   },
   {
-    "key": "MoreOres.Corrupted Helmet",
+    "key": "MoreOres.Corrupted-Helmet",
     "type": "text",
     "languages": {
       "zh_TW": "損毀頭盔",
@@ -832,7 +832,7 @@
     }
   },
   {
-    "key": "MoreOres.Corrupted Chestplate",
+    "key": "MoreOres.Corrupted-Chestplate",
     "type": "text",
     "languages": {
       "zh_TW": "損毀胸甲",
@@ -840,7 +840,7 @@
     }
   },
   {
-    "key": "MoreOres.Corrupted Leggings",
+    "key": "MoreOres.Corrupted-Leggings",
     "type": "text",
     "languages": {
       "zh_TW": "損毀護腿",
@@ -848,7 +848,7 @@
     }
   },
   {
-    "key": "MoreOres.Corrupted Boots",
+    "key": "MoreOres.Corrupted-Boots",
     "type": "text",
     "languages": {
       "zh_TW": "損毀靴子",
@@ -856,7 +856,7 @@
     }
   },
   {
-    "key": "MoreOres.Ice Boots",
+    "key": "MoreOres.Ice-Boots",
     "type": "text",
     "languages": {
       "zh_TW": "冰靴子",
@@ -864,7 +864,7 @@
     }
   },
   {
-    "key": "MoreOres.Ice Helmet",
+    "key": "MoreOres.Ice-Helmet",
     "type": "text",
     "languages": {
       "zh_TW": "冰頭盔",
@@ -872,7 +872,7 @@
     }
   },
   {
-    "key": "MoreOres.Pregen Warning 1",
+    "key": "MoreOres.Pregen-Warning-1",
     "type": "text",
     "languages": {
       "zh_TW": "請確保你不是在嘗試使用 /mo generate, 這樣將會更安全!",
@@ -880,7 +880,7 @@
     }
   },
   {
-    "key": "MoreOres.Pregen Warning 2",
+    "key": "MoreOres.Pregen-Warning-2",
     "type": "text",
     "languages": {
       "zh_TW": "此指令可能會導致某些伺服器崩潰!",
@@ -888,7 +888,7 @@
     }
   },
   {
-    "key": "MoreOres.Pregen Warning 3",
+    "key": "MoreOres.Pregen-Warning-3",
     "type": "text",
     "languages": {
       "zh_TW": "%1 區塊將在 %2 分鐘內加載",
@@ -904,7 +904,7 @@
     }
   },
   {
-    "key": "MoreOres./moreores pregenerate <world>",
+    "key": "MoreOres./moreores-pregenerate-<world>",
     "type": "text",
     "languages": {
       "zh_TW": "在世界生成部分礦石 (實驗性)",
