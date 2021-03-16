@@ -1,0 +1,115 @@
+# Use § for color codes (e. g. §3)
+Incorrect Command Syntax: 指令語法不正確. 使用 [command]
+No Permission: 你沒有權限執行此指令!
+Storage Warning: 無法保存 Storage.yml. 這可能會導致在重新啟動時出問題.  如果此錯誤仍然繼續, 回報給開發者.
+Config Explanation: 可以在旁邊的連結找設定說明 https://www.spigotmc.org/resources/%E2%9B%8F%EF%B8%8Fmore-ores%E2%9B%8F%EF%B8%8F.77221/
+Start clear/generate: 開始 [clear/generate]
+Update: 添加更多礦石更新...
+Finish: 完成!
+No World: 此伺服器上並不存在該世界!
+clear/generate Confirm 1: 你確定要 [clear/generate] 礦石於 [world]?
+clear/generate Confirm 2: 這是可逆的, 但可能會導致一些卡頓
+clear/generate/remove Confirm: 如果確定, 請輸入 [command]
+clear Confirm: 礦石仍將在 [world] 生成, 如果未在config內禁用.
+generate Confirm 1: 如果你執行此指令, /moreores clear [world] 將不會清除任何礦石在你運行此指令之前生成的.
+generate Confirm 2: 如果未在設定啟用礦石, 則可能不會在  [world] 中生成礦石.
+Remove Confirm 1: 你確定要從 [world] 中移除礦石?
+Remove Confirm 2: /moreores clear <world> 通常運作的更好
+Remove Start 1: 礦石現在將從 [world] 中移除
+Remove Start 2: 將 [world] 設定為不在設定中生成礦石
+Remove End: 礦石將不在從 [world] 中移除
+Change in Config: 你可以在設定中更改
+Reload Config: 重新加載設定
+Players Only: 只有玩家可以執行此指令.
+Not Item: 那並不是個物品
+Help Title: 更多礦石幫助
+/moreores: 顯示此幫助選單
+/moreores menu: 開啟一個物品欄包含所有更多礦石的物品
+/moreores <ore> [amount]: 給予你指定的礦石
+/moreores reload: 重新加載設定
+/moreores clear <world>: 清除世界上所有的礦石
+/moreores generate <world>: 強制礦石在世界上生成
+/moreores remove <world>: 將世界添加至刪除礦石列表中, 並根據啟用內容將其從 黑名單/移除 中刪除
+Recieved Item: 你收到 [amount] [item]
+Dolphin Pants Lore 1: 在水中提供海豚悠游
+Drowned Chestplate Lore 1: 在水中提供挖掘加速
+Dolphin Pants/Drowned Chestplate Lore 2: 在有限的時間內
+Noncombustible Boots Lore 1: 提供抗火為
+Noncombustible Boots Lore 2: 有限的時間內在熔岩中
+Unstable TNT Lore: 破壞時爆炸
+Corrupted Armor Lore 1: 每10秒提供一次速度
+Corrupted Armor Lore 2: 有很小的機率會有緩速
+Corrupted Armor Lore 3: 全套將會總是給予速度
+Ice Boots Lore: 行走在水上
+Ice Helmet Lore: 有一定的機率當你戴在頭上時凍結攻擊者
+Scuba Lore: 升級版海龜殼
+Kelp Ore Lore: 此礦石熔煉海帶
+Petrified Wood Lore: 熔煉此獲得木頭
+Health Ore Lore: 將四個這個一起製作獲得醫療包
+Medkit Lore 1: 用於怪物或其他玩家來治療它們
+Medkit Lore 2: 將四個這個一起製作來獲得金醫療包
+Liquid Ore Lore: 此礦石熔煉成液態錠
+Liquid Ingot Lore 1: 用這些包住烏龜殼
+Liquid Ingot Lore 2: 來製作潛水頭盔
+Liquid Ingot Lore 3: 用於製作護腿, 靴子和胸甲
+Golden Medkit Lore 1: 在怪物或玩家上使用
+Golden Medkit Lore 2: 來給予它們吸收效果
+Fire Ore Lore: 將9個這結合起來製作火焰水晶
+Fire Crystal Lore 1: 右鍵丟出!
+Fire Crystal Lore 2: 固化液體
+Fire Crystal Lore 3: 高度爆炸性
+Explosive Ore Lore 1: 將會爆炸, 除非使用 [item] 來挖
+Explosive Ore Lore 2: 熔煉成火藥
+Explosive Ore Lore 3: 與TNT一起製作不穩定TNT
+Pearl Fragment Lore 1: 將4個這個結合在一起製作升級版終界珍珠
+Pearl Fragment Lore 2: 用9個這個結合在一起製作衝刺終界珍珠
+Upgraded Pearl Lore: 可控制的終界珍珠
+Rush Pearl Lore: 可騎乘的終界珍珠
+Corrupted Ore Lore 1: 結合9個這個來獲得純粹損壞
+Corrupted Ore Lore 2: 用於製作盔甲
+Pure Corruption Lore 1: 用於劍上將其損壞
+Pure Corruption Lore 2: 損壞的劍將會產生凋零效果
+Pure Corruption Lore 3: 但它們將會更快的失去耐久度
+Hardened End Stone Lore 1: 用鑽石鎬破壞
+Hardened End Stone Lore 2: 對於隨機的珍貴物品
+Ice Ore Lore: 用於製作冰頭盔與靴子
+Rush Pearl Warning: 衝刺終界珍珠還剩餘 [time] 秒!
+Corrupted: 損毀
+StorageHeader: DO NOT CHANGE THIS
+Kelp Ore: 海帶礦石
+Petrified Wood: 石化木
+Experience Ore: 經驗礦石
+Random Ore: 隨機礦石
+Potion Ore: 藥水礦石
+Medkit: 醫療包
+Health Ore: 治療礦石
+Liquid Ore: 液體礦石
+Liquid Ingot: 液體錠
+Scuba Helmet: 潛水頭盔
+Golden Medkit: 金醫療包
+Fire Ore: 火焰礦石
+Fire Crystal: 火焰水晶
+Bone Ore: 骨礦石
+Explosive Ore: 爆炸礦石
+Pearl Fragment: 終界珍珠碎片
+Upgraded Pearl: 升級版終界珍珠
+Rush Pearl: 衝刺終界珍珠
+Corrupted Ore: 損毀礦石
+Pure Corruption: 純粹損壞
+Hardened End Stone: 硬化終界石
+Ice Ore: 冰礦石
+Dolphin Pants: 海豚褲
+Chestplate of the Drowned: 沉屍的胸甲
+Noncombustible Boots: 不可燃靴子
+Unstable TNT: 不穩定TNT
+Corrupted Helmet: 損毀頭盔
+Corrupted Chestplate: 損毀胸甲
+Corrupted Leggings: 損毀護腿
+Corrupted Boots: 損毀靴子
+Ice Boots: 冰靴子
+Ice Helmet: 冰頭盔
+Pregen Warning 1: 請確保你不是在嘗試使用 /mo generate, 這樣將會更安全!
+Pregen Warning 2: 此指令可能會導致某些伺服器崩潰!
+Pregen Warning 3: '[chunks] 區塊將在 [time] 分鐘內加載'
+Worldborder: 你的世界邊界必須小於 [size]
+/moreores pregenerate <world>: 在世界生成部分礦石 (實驗性)

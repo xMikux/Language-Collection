@@ -1,0 +1,119 @@
+# Use § for color codes (e. g. §3)
+Incorrect Command Syntax: Incorrect command syntax. Use [command]
+No Permission: You do not have permission to run this command!
+Storage Warning: Couldn't save Storage.yml. This could cause problems when the server
+  restarts. If this error continues, report it to the developer.
+Config Explanation: Explanation for the config can be found at https://www.spigotmc.org/resources/%E2%9B%8F%EF%B8%8Fmore-ores%E2%9B%8F%EF%B8%8F.77221/
+Start clear/generate: Starting to [clear/generate]
+Update: Applying More Ores Update...
+Finish: Finished!
+No World: This world does not exist on this server!
+clear/generate Confirm 1: Are you sure you want to [clear/generate] ores for [world]?
+clear/generate Confirm 2: This is reversable, but it may cause some lag
+clear/generate/remove Confirm: If you are sure, use [command]
+clear Confirm: Ores will still generate in [world] if it isn't disabled in the config.
+generate Confirm 1: If you do this, /moreores clear [world] will not clear any ores
+  that were generated before you ran this command.
+generate Confirm 2: Ores may not generate in [world] if it isn't enabled in the config.
+Remove Confirm 1: Are you sure you want ores to be removed from [world]?
+Remove Confirm 2: /moreores clear <world> usually works better
+Remove Start 1: Ores will now be removed from [world]
+Remove Start 2: Set [world] to no longer spawn ores in the config
+Remove End: Ores will no longer be removed from [world]
+Change in Config: You can change this in the config
+Reload Config: Reloaded Config
+Players Only: Only players can run this command.
+Not Item: That isn't an item
+Help Title: More Ores Help
+/moreores: Displays this help menu
+/moreores menu: Opens an inventory with all of the More Ores items
+/moreores <ore> [amount]: Gives you the specified ore
+/moreores reload: Reloads the config
+/moreores clear <world>: Clears all ores from a world
+/moreores generate <world>: Forces ores to generate in a world
+/moreores remove <world>: Adds the world to the Remove Ores list in the config and
+  the blacklist/removes it from the whitelist depending on what is enabled
+Recieved Item: You recieved [amount] [item]
+Dolphin Pants Lore 1: Provides dolphin's grace in water
+Drowned Chestplate Lore 1: Provides haste in water
+Dolphin Pants/Drowned Chestplate Lore 2: for a limited amount of time
+Noncombustible Boots Lore 1: Provides fire resistance for a
+Noncombustible Boots Lore 2: limited amount of time in lava
+Unstable TNT Lore: Explodes when broken
+Corrupted Armor Lore 1: Provides speed every 10 seconds
+Corrupted Armor Lore 2: with a slight chance of slowness
+Corrupted Armor Lore 3: Full set always gives speed
+Ice Boots Lore: Walk on water
+Ice Helmet Lore: Has a chance to freeze attackers while on head
+Scuba Lore: An upgraded turtle shell
+Kelp Ore Lore: This ore smelts into kelp
+Petrified Wood Lore: Smelt this to get wood
+Health Ore Lore: Craft 4 of these together to get a medkit
+Medkit Lore 1: Use on a mob or another player to heal them
+Medkit Lore 2: Craft 4 of these together to make a Golden Medkit
+Liquid Ore Lore: This ore smelts into liquid ingots
+Liquid Ingot Lore 1: Surround a turtle shell with these
+Liquid Ingot Lore 2: to craft a scuba helmet
+Liquid Ingot Lore 3: Used to craft pants, boots, and chestplates
+Golden Medkit Lore 1: Use on a mob or another player
+Golden Medkit Lore 2: to give them absorption
+Fire Ore Lore: Combine 9 of these to make a fire crystal
+Fire Crystal Lore 1: Right click to throw!
+Fire Crystal Lore 2: Solidifies liquids
+Fire Crystal Lore 3: Highly explosive
+Explosive Ore Lore 1: Explodes unless mined with a [item]
+Explosive Ore Lore 2: Smelts into gunpowder
+Explosive Ore Lore 3: Craft with TNT to get Unstable TNT
+Pearl Fragment Lore 1: Combine 4 of these to make an upgraded pearl
+Pearl Fragment Lore 2: Combine 9 of these to make a rush pearl
+Upgraded Pearl Lore: An ender pearl that can be controlled
+Rush Pearl Lore: A rideable ender pearl
+Corrupted Ore Lore 1: Combine 9 of these to get Pure Corruption
+Corrupted Ore Lore 2: Used to make armor
+Pure Corruption Lore 1: Use on a sword to corrupt it
+Pure Corruption Lore 2: Corrupted swords will have a withering effect
+Pure Corruption Lore 3: but they will lose durability faster
+Hardened End Stone Lore 1: Break with a diamond pickaxe
+Hardened End Stone Lore 2: for a random valuable item
+Ice Ore Lore: Used to make an ice helmet and boots
+Rush Pearl Warning: Rush Pearl has [time] seconds left!
+Corrupted: Corrupted
+StorageHeader: DO NOT CHANGE THIS
+Kelp Ore: Kelp Ore
+Petrified Wood: Petrified Wood
+Experience Ore: Experience Ore
+Random Ore: Random Ore
+Potion Ore: Potion Ore
+Medkit: Medkit
+Health Ore: Health Ore
+Liquid Ore: Liquid Ore
+Liquid Ingot: Liquid Ingot
+Scuba Helmet: Scuba Helmet
+Golden Medkit: Golden Medkit
+Fire Ore: Fire Ore
+Fire Crystal: Fire Crystal
+Bone Ore: Bone Ore
+Explosive Ore: Explosive Ore
+Pearl Fragment: Pearl Fragment
+Upgraded Pearl: Upgraded Pearl
+Rush Pearl: Rush Pearl
+Corrupted Ore: Corrupted Ore
+Pure Corruption: Pure Corruption
+Hardened End Stone: Hardened End Stone
+Ice Ore: Ice Ore
+Dolphin Pants: Dolphin Pants
+Chestplate of the Drowned: Chestplate of the Drowned
+Noncombustible Boots: Noncombustible Boots
+Unstable TNT: Unstable TNT
+Corrupted Helmet: Corrupted Helmet
+Corrupted Chestplate: Corrupted Chestplate
+Corrupted Leggings: Corrupted Leggings
+Corrupted Boots: Corrupted Boots
+Ice Boots: Ice Boots
+Ice Helmet: Ice Helmet
+Pregen Warning 1: Make sure you are not trying to use /mo generate, which is much
+  safer!
+Pregen Warning 2: This Command may cause some servers to crash!
+Pregen Warning 3: '[chunks] Chunks will be loaded in [time] minutes'
+Worldborder: Your world border needs to be smaller than [size]
+/moreores pregenerate <world>: Pregenerates ores in a world (experimental)

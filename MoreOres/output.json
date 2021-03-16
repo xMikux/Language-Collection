@@ -1,0 +1,914 @@
+[
+  {
+    "key": "MoreOres.Incorrect Command Syntax",
+    "type": "text",
+    "languages": {
+      "zh_TW": "指令語法不正確. 使用 %1",
+      "en_US": "Incorrect command syntax. Use %1"
+    }
+  },
+  {
+    "key": "MoreOres.No Permission",
+    "type": "text",
+    "languages": {
+      "zh_TW": "你沒有權限執行此指令!",
+      "en_US": "You do not have permission to run this command!"
+    }
+  },
+  {
+    "key": "MoreOres.Storage Warning",
+    "type": "text",
+    "languages": {
+      "zh_TW": "無法保存 Storage.yml. 這可能會導致在重新啟動時出問題.  如果此錯誤仍然繼續, 回報給開發者.",
+      "en_US": "Couldn't save Storage.yml. This could cause problems when the server restarts. If this error continues, report it to the developer."
+    }
+  },
+  {
+    "key": "MoreOres.Config Explanation",
+    "type": "text",
+    "languages": {
+      "zh_TW": "可以在旁邊的連結找設定說明 https://www.spigotmc.org/resources/%E2%9B%8F%EF%B8%8Fmore-ores%E2%9B%8F%EF%B8%8F.77221/",
+      "en_US": "Explanation for the config can be found at https://www.spigotmc.org/resources/%E2%9B%8F%EF%B8%8Fmore-ores%E2%9B%8F%EF%B8%8F.77221/"
+    }
+  },
+  {
+    "key": "MoreOres.Start clear/generate",
+    "type": "text",
+    "languages": {
+      "zh_TW": "開始 [clear/generate]",
+      "en_US": "Starting to [clear/generate]"
+    }
+  },
+  {
+    "key": "MoreOres.Update",
+    "type": "text",
+    "languages": {
+      "zh_TW": "添加更多礦石更新...",
+      "en_US": "Applying More Ores Update..."
+    }
+  },
+  {
+    "key": "MoreOres.Finish",
+    "type": "text",
+    "languages": {
+      "zh_TW": "完成!",
+      "en_US": "Finished!"
+    }
+  },
+  {
+    "key": "MoreOres.No World",
+    "type": "text",
+    "languages": {
+      "zh_TW": "此伺服器上並不存在該世界!",
+      "en_US": "This world does not exist on this server!"
+    }
+  },
+  {
+    "key": "MoreOres.clear/generate Confirm 1",
+    "type": "text",
+    "languages": {
+      "zh_TW": "你確定要 [clear/generate] 礦石於 %1?",
+      "en_US": "Are you sure you want to [clear/generate] ores for %1?"
+    }
+  },
+  {
+    "key": "MoreOres.clear/generate Confirm 2",
+    "type": "text",
+    "languages": {
+      "zh_TW": "這是可逆的, 但可能會導致一些卡頓",
+      "en_US": "This is reversable, but it may cause some lag"
+    }
+  },
+  {
+    "key": "MoreOres.clear/generate/remove Confirm",
+    "type": "text",
+    "languages": {
+      "zh_TW": "如果確定, 請輸入 %1",
+      "en_US": "If you are sure, use %1"
+    }
+  },
+  {
+    "key": "MoreOres.clear Confirm",
+    "type": "text",
+    "languages": {
+      "zh_TW": "礦石仍將在 %1 生成, 如果未在config內禁用.",
+      "en_US": "Ores will still generate in %1 if it isn't disabled in the config."
+    }
+  },
+  {
+    "key": "MoreOres.generate Confirm 1",
+    "type": "text",
+    "languages": {
+      "zh_TW": "如果你執行此指令, /moreores clear %1 將不會清除任何礦石在你運行此指令之前生成的.",
+      "en_US": "If you do this, /moreores clear %1 will not clear any ores that were generated before you ran this command."
+    }
+  },
+  {
+    "key": "MoreOres.generate Confirm 2",
+    "type": "text",
+    "languages": {
+      "zh_TW": "如果未在設定啟用礦石, 則可能不會在  %1 中生成礦石.",
+      "en_US": "Ores may not generate in %1 if it isn't enabled in the config."
+    }
+  },
+  {
+    "key": "MoreOres.Remove Confirm 1",
+    "type": "text",
+    "languages": {
+      "zh_TW": "你確定要從 %1 中移除礦石?",
+      "en_US": "Are you sure you want ores to be removed from %1?"
+    }
+  },
+  {
+    "key": "MoreOres.Remove Confirm 2",
+    "type": "text",
+    "languages": {
+      "zh_TW": "/moreores clear <world> 通常運作的更好",
+      "en_US": "/moreores clear <world> usually works better"
+    }
+  },
+  {
+    "key": "MoreOres.Remove Start 1",
+    "type": "text",
+    "languages": {
+      "zh_TW": "礦石現在將從 %1 中移除",
+      "en_US": "Ores will now be removed from %1"
+    }
+  },
+  {
+    "key": "MoreOres.Remove Start 2",
+    "type": "text",
+    "languages": {
+      "zh_TW": "將 %1 設定為不在設定中生成礦石",
+      "en_US": "Set %1 to no longer spawn ores in the config"
+    }
+  },
+  {
+    "key": "MoreOres.Remove End",
+    "type": "text",
+    "languages": {
+      "zh_TW": "礦石將不在從 %1 中移除",
+      "en_US": "Ores will no longer be removed from %1"
+    }
+  },
+  {
+    "key": "MoreOres.Change in Config",
+    "type": "text",
+    "languages": {
+      "zh_TW": "你可以在設定中更改",
+      "en_US": "You can change this in the config"
+    }
+  },
+  {
+    "key": "MoreOres.Reload Config",
+    "type": "text",
+    "languages": {
+      "zh_TW": "重新加載設定",
+      "en_US": "Reloaded Config"
+    }
+  },
+  {
+    "key": "MoreOres.Players Only",
+    "type": "text",
+    "languages": {
+      "zh_TW": "只有玩家可以執行此指令.",
+      "en_US": "Only players can run this command."
+    }
+  },
+  {
+    "key": "MoreOres.Not Item",
+    "type": "text",
+    "languages": {
+      "zh_TW": "那並不是個物品",
+      "en_US": "That isn't an item"
+    }
+  },
+  {
+    "key": "MoreOres.Help Title",
+    "type": "text",
+    "languages": {
+      "zh_TW": "更多礦石幫助",
+      "en_US": "More Ores Help"
+    }
+  },
+  {
+    "key": "MoreOres./moreores",
+    "type": "text",
+    "languages": {
+      "zh_TW": "顯示此幫助選單",
+      "en_US": "Displays this help menu"
+    }
+  },
+  {
+    "key": "MoreOres./moreores menu",
+    "type": "text",
+    "languages": {
+      "zh_TW": "開啟一個物品欄包含所有更多礦石的物品",
+      "en_US": "Opens an inventory with all of the More Ores items"
+    }
+  },
+  {
+    "key": "MoreOres./moreores <ore> [amount]",
+    "type": "text",
+    "languages": {
+      "zh_TW": "給予你指定的礦石",
+      "en_US": "Gives you the specified ore"
+    }
+  },
+  {
+    "key": "MoreOres./moreores reload",
+    "type": "text",
+    "languages": {
+      "zh_TW": "重新加載設定",
+      "en_US": "Reloads the config"
+    }
+  },
+  {
+    "key": "MoreOres./moreores clear <world>",
+    "type": "text",
+    "languages": {
+      "zh_TW": "清除世界上所有的礦石",
+      "en_US": "Clears all ores from a world"
+    }
+  },
+  {
+    "key": "MoreOres./moreores generate <world>",
+    "type": "text",
+    "languages": {
+      "zh_TW": "強制礦石在世界上生成",
+      "en_US": "Forces ores to generate in a world"
+    }
+  },
+  {
+    "key": "MoreOres./moreores remove <world>",
+    "type": "text",
+    "languages": {
+      "zh_TW": "將世界添加至刪除礦石列表中, 並根據啟用內容將其從 黑名單/移除 中刪除",
+      "en_US": "Adds the world to the Remove Ores list in the config and the blacklist/removes it from the whitelist depending on what is enabled"
+    }
+  },
+  {
+    "key": "MoreOres.Recieved Item",
+    "type": "text",
+    "languages": {
+      "zh_TW": "你收到 %1 %2",
+      "en_US": "You recieved %1 %2"
+    }
+  },
+  {
+    "key": "MoreOres.Dolphin Pants Lore 1",
+    "type": "text",
+    "languages": {
+      "zh_TW": "在水中提供海豚悠游",
+      "en_US": "Provides dolphin's grace in water"
+    }
+  },
+  {
+    "key": "MoreOres.Drowned Chestplate Lore 1",
+    "type": "text",
+    "languages": {
+      "zh_TW": "在水中提供挖掘加速",
+      "en_US": "Provides haste in water"
+    }
+  },
+  {
+    "key": "MoreOres.Dolphin Pants/Drowned Chestplate Lore 2",
+    "type": "text",
+    "languages": {
+      "zh_TW": "在有限的時間內",
+      "en_US": "for a limited amount of time"
+    }
+  },
+  {
+    "key": "MoreOres.Noncombustible Boots Lore 1",
+    "type": "text",
+    "languages": {
+      "zh_TW": "提供抗火為",
+      "en_US": "Provides fire resistance for a"
+    }
+  },
+  {
+    "key": "MoreOres.Noncombustible Boots Lore 2",
+    "type": "text",
+    "languages": {
+      "zh_TW": "有限的時間內在熔岩中",
+      "en_US": "limited amount of time in lava"
+    }
+  },
+  {
+    "key": "MoreOres.Unstable TNT Lore",
+    "type": "text",
+    "languages": {
+      "zh_TW": "破壞時爆炸",
+      "en_US": "Explodes when broken"
+    }
+  },
+  {
+    "key": "MoreOres.Corrupted Armor Lore 1",
+    "type": "text",
+    "languages": {
+      "zh_TW": "每10秒提供一次速度",
+      "en_US": "Provides speed every 10 seconds"
+    }
+  },
+  {
+    "key": "MoreOres.Corrupted Armor Lore 2",
+    "type": "text",
+    "languages": {
+      "zh_TW": "有很小的機率會有緩速",
+      "en_US": "with a slight chance of slowness"
+    }
+  },
+  {
+    "key": "MoreOres.Corrupted Armor Lore 3",
+    "type": "text",
+    "languages": {
+      "zh_TW": "全套將會總是給予速度",
+      "en_US": "Full set always gives speed"
+    }
+  },
+  {
+    "key": "MoreOres.Ice Boots Lore",
+    "type": "text",
+    "languages": {
+      "zh_TW": "行走在水上",
+      "en_US": "Walk on water"
+    }
+  },
+  {
+    "key": "MoreOres.Ice Helmet Lore",
+    "type": "text",
+    "languages": {
+      "zh_TW": "有一定的機率當你戴在頭上時凍結攻擊者",
+      "en_US": "Has a chance to freeze attackers while on head"
+    }
+  },
+  {
+    "key": "MoreOres.Scuba Lore",
+    "type": "text",
+    "languages": {
+      "zh_TW": "升級版海龜殼",
+      "en_US": "An upgraded turtle shell"
+    }
+  },
+  {
+    "key": "MoreOres.Kelp Ore Lore",
+    "type": "text",
+    "languages": {
+      "zh_TW": "此礦石熔煉海帶",
+      "en_US": "This ore smelts into kelp"
+    }
+  },
+  {
+    "key": "MoreOres.Petrified Wood Lore",
+    "type": "text",
+    "languages": {
+      "zh_TW": "熔煉此獲得木頭",
+      "en_US": "Smelt this to get wood"
+    }
+  },
+  {
+    "key": "MoreOres.Health Ore Lore",
+    "type": "text",
+    "languages": {
+      "zh_TW": "將四個這個一起製作獲得醫療包",
+      "en_US": "Craft 4 of these together to get a medkit"
+    }
+  },
+  {
+    "key": "MoreOres.Medkit Lore 1",
+    "type": "text",
+    "languages": {
+      "zh_TW": "用於怪物或其他玩家來治療它們",
+      "en_US": "Use on a mob or another player to heal them"
+    }
+  },
+  {
+    "key": "MoreOres.Medkit Lore 2",
+    "type": "text",
+    "languages": {
+      "zh_TW": "將四個這個一起製作來獲得金醫療包",
+      "en_US": "Craft 4 of these together to make a Golden Medkit"
+    }
+  },
+  {
+    "key": "MoreOres.Liquid Ore Lore",
+    "type": "text",
+    "languages": {
+      "zh_TW": "此礦石熔煉成液態錠",
+      "en_US": "This ore smelts into liquid ingots"
+    }
+  },
+  {
+    "key": "MoreOres.Liquid Ingot Lore 1",
+    "type": "text",
+    "languages": {
+      "zh_TW": "用這些包住烏龜殼",
+      "en_US": "Surround a turtle shell with these"
+    }
+  },
+  {
+    "key": "MoreOres.Liquid Ingot Lore 2",
+    "type": "text",
+    "languages": {
+      "zh_TW": "來製作潛水頭盔",
+      "en_US": "to craft a scuba helmet"
+    }
+  },
+  {
+    "key": "MoreOres.Liquid Ingot Lore 3",
+    "type": "text",
+    "languages": {
+      "zh_TW": "用於製作護腿, 靴子和胸甲",
+      "en_US": "Used to craft pants, boots, and chestplates"
+    }
+  },
+  {
+    "key": "MoreOres.Golden Medkit Lore 1",
+    "type": "text",
+    "languages": {
+      "zh_TW": "在怪物或玩家上使用",
+      "en_US": "Use on a mob or another player"
+    }
+  },
+  {
+    "key": "MoreOres.Golden Medkit Lore 2",
+    "type": "text",
+    "languages": {
+      "zh_TW": "來給予它們吸收效果",
+      "en_US": "to give them absorption"
+    }
+  },
+  {
+    "key": "MoreOres.Fire Ore Lore",
+    "type": "text",
+    "languages": {
+      "zh_TW": "將9個這結合起來製作火焰水晶",
+      "en_US": "Combine 9 of these to make a fire crystal"
+    }
+  },
+  {
+    "key": "MoreOres.Fire Crystal Lore 1",
+    "type": "text",
+    "languages": {
+      "zh_TW": "右鍵丟出!",
+      "en_US": "Right click to throw!"
+    }
+  },
+  {
+    "key": "MoreOres.Fire Crystal Lore 2",
+    "type": "text",
+    "languages": {
+      "zh_TW": "固化液體",
+      "en_US": "Solidifies liquids"
+    }
+  },
+  {
+    "key": "MoreOres.Fire Crystal Lore 3",
+    "type": "text",
+    "languages": {
+      "zh_TW": "高度爆炸性",
+      "en_US": "Highly explosive"
+    }
+  },
+  {
+    "key": "MoreOres.Explosive Ore Lore 1",
+    "type": "text",
+    "languages": {
+      "zh_TW": "將會爆炸, 除非使用 %1 來挖",
+      "en_US": "Explodes unless mined with a %1"
+    }
+  },
+  {
+    "key": "MoreOres.Explosive Ore Lore 2",
+    "type": "text",
+    "languages": {
+      "zh_TW": "熔煉成火藥",
+      "en_US": "Smelts into gunpowder"
+    }
+  },
+  {
+    "key": "MoreOres.Explosive Ore Lore 3",
+    "type": "text",
+    "languages": {
+      "zh_TW": "與TNT一起製作不穩定TNT",
+      "en_US": "Craft with TNT to get Unstable TNT"
+    }
+  },
+  {
+    "key": "MoreOres.Pearl Fragment Lore 1",
+    "type": "text",
+    "languages": {
+      "zh_TW": "將4個這個結合在一起製作升級版終界珍珠",
+      "en_US": "Combine 4 of these to make an upgraded pearl"
+    }
+  },
+  {
+    "key": "MoreOres.Pearl Fragment Lore 2",
+    "type": "text",
+    "languages": {
+      "zh_TW": "用9個這個結合在一起製作衝刺終界珍珠",
+      "en_US": "Combine 9 of these to make a rush pearl"
+    }
+  },
+  {
+    "key": "MoreOres.Upgraded Pearl Lore",
+    "type": "text",
+    "languages": {
+      "zh_TW": "可控制的終界珍珠",
+      "en_US": "An ender pearl that can be controlled"
+    }
+  },
+  {
+    "key": "MoreOres.Rush Pearl Lore",
+    "type": "text",
+    "languages": {
+      "zh_TW": "可騎乘的終界珍珠",
+      "en_US": "A rideable ender pearl"
+    }
+  },
+  {
+    "key": "MoreOres.Corrupted Ore Lore 1",
+    "type": "text",
+    "languages": {
+      "zh_TW": "結合9個這個來獲得純粹損壞",
+      "en_US": "Combine 9 of these to get Pure Corruption"
+    }
+  },
+  {
+    "key": "MoreOres.Corrupted Ore Lore 2",
+    "type": "text",
+    "languages": {
+      "zh_TW": "用於製作盔甲",
+      "en_US": "Used to make armor"
+    }
+  },
+  {
+    "key": "MoreOres.Pure Corruption Lore 1",
+    "type": "text",
+    "languages": {
+      "zh_TW": "用於劍上將其損壞",
+      "en_US": "Use on a sword to corrupt it"
+    }
+  },
+  {
+    "key": "MoreOres.Pure Corruption Lore 2",
+    "type": "text",
+    "languages": {
+      "zh_TW": "損壞的劍將會產生凋零效果",
+      "en_US": "Corrupted swords will have a withering effect"
+    }
+  },
+  {
+    "key": "MoreOres.Pure Corruption Lore 3",
+    "type": "text",
+    "languages": {
+      "zh_TW": "但它們將會更快的失去耐久度",
+      "en_US": "but they will lose durability faster"
+    }
+  },
+  {
+    "key": "MoreOres.Hardened End Stone Lore 1",
+    "type": "text",
+    "languages": {
+      "zh_TW": "用鑽石鎬破壞",
+      "en_US": "Break with a diamond pickaxe"
+    }
+  },
+  {
+    "key": "MoreOres.Hardened End Stone Lore 2",
+    "type": "text",
+    "languages": {
+      "zh_TW": "對於隨機的珍貴物品",
+      "en_US": "for a random valuable item"
+    }
+  },
+  {
+    "key": "MoreOres.Ice Ore Lore",
+    "type": "text",
+    "languages": {
+      "zh_TW": "用於製作冰頭盔與靴子",
+      "en_US": "Used to make an ice helmet and boots"
+    }
+  },
+  {
+    "key": "MoreOres.Rush Pearl Warning",
+    "type": "text",
+    "languages": {
+      "zh_TW": "衝刺終界珍珠還剩餘 %1 秒!",
+      "en_US": "Rush Pearl has %1 seconds left!"
+    }
+  },
+  {
+    "key": "MoreOres.Corrupted",
+    "type": "text",
+    "languages": {
+      "zh_TW": "損毀",
+      "en_US": "Corrupted"
+    }
+  },
+  {
+    "key": "MoreOres.StorageHeader",
+    "type": "text",
+    "languages": {
+      "zh_TW": "DO NOT CHANGE THIS",
+      "en_US": "DO NOT CHANGE THIS"
+    }
+  },
+  {
+    "key": "MoreOres.Kelp Ore",
+    "type": "text",
+    "languages": {
+      "zh_TW": "海帶礦石",
+      "en_US": "Kelp Ore"
+    }
+  },
+  {
+    "key": "MoreOres.Petrified Wood",
+    "type": "text",
+    "languages": {
+      "zh_TW": "石化木",
+      "en_US": "Petrified Wood"
+    }
+  },
+  {
+    "key": "MoreOres.Experience Ore",
+    "type": "text",
+    "languages": {
+      "zh_TW": "經驗礦石",
+      "en_US": "Experience Ore"
+    }
+  },
+  {
+    "key": "MoreOres.Random Ore",
+    "type": "text",
+    "languages": {
+      "zh_TW": "隨機礦石",
+      "en_US": "Random Ore"
+    }
+  },
+  {
+    "key": "MoreOres.Potion Ore",
+    "type": "text",
+    "languages": {
+      "zh_TW": "藥水礦石",
+      "en_US": "Potion Ore"
+    }
+  },
+  {
+    "key": "MoreOres.Medkit",
+    "type": "text",
+    "languages": {
+      "zh_TW": "醫療包",
+      "en_US": "Medkit"
+    }
+  },
+  {
+    "key": "MoreOres.Health Ore",
+    "type": "text",
+    "languages": {
+      "zh_TW": "治療礦石",
+      "en_US": "Health Ore"
+    }
+  },
+  {
+    "key": "MoreOres.Liquid Ore",
+    "type": "text",
+    "languages": {
+      "zh_TW": "液體礦石",
+      "en_US": "Liquid Ore"
+    }
+  },
+  {
+    "key": "MoreOres.Liquid Ingot",
+    "type": "text",
+    "languages": {
+      "zh_TW": "液體錠",
+      "en_US": "Liquid Ingot"
+    }
+  },
+  {
+    "key": "MoreOres.Scuba Helmet",
+    "type": "text",
+    "languages": {
+      "zh_TW": "潛水頭盔",
+      "en_US": "Scuba Helmet"
+    }
+  },
+  {
+    "key": "MoreOres.Golden Medkit",
+    "type": "text",
+    "languages": {
+      "zh_TW": "金醫療包",
+      "en_US": "Golden Medkit"
+    }
+  },
+  {
+    "key": "MoreOres.Fire Ore",
+    "type": "text",
+    "languages": {
+      "zh_TW": "火焰礦石",
+      "en_US": "Fire Ore"
+    }
+  },
+  {
+    "key": "MoreOres.Fire Crystal",
+    "type": "text",
+    "languages": {
+      "zh_TW": "火焰水晶",
+      "en_US": "Fire Crystal"
+    }
+  },
+  {
+    "key": "MoreOres.Bone Ore",
+    "type": "text",
+    "languages": {
+      "zh_TW": "骨礦石",
+      "en_US": "Bone Ore"
+    }
+  },
+  {
+    "key": "MoreOres.Explosive Ore",
+    "type": "text",
+    "languages": {
+      "zh_TW": "爆炸礦石",
+      "en_US": "Explosive Ore"
+    }
+  },
+  {
+    "key": "MoreOres.Pearl Fragment",
+    "type": "text",
+    "languages": {
+      "zh_TW": "終界珍珠碎片",
+      "en_US": "Pearl Fragment"
+    }
+  },
+  {
+    "key": "MoreOres.Upgraded Pearl",
+    "type": "text",
+    "languages": {
+      "zh_TW": "升級版終界珍珠",
+      "en_US": "Upgraded Pearl"
+    }
+  },
+  {
+    "key": "MoreOres.Rush Pearl",
+    "type": "text",
+    "languages": {
+      "zh_TW": "衝刺終界珍珠",
+      "en_US": "Rush Pearl"
+    }
+  },
+  {
+    "key": "MoreOres.Corrupted Ore",
+    "type": "text",
+    "languages": {
+      "zh_TW": "損毀礦石",
+      "en_US": "Corrupted Ore"
+    }
+  },
+  {
+    "key": "MoreOres.Pure Corruption",
+    "type": "text",
+    "languages": {
+      "zh_TW": "純粹損壞",
+      "en_US": "Pure Corruption"
+    }
+  },
+  {
+    "key": "MoreOres.Hardened End Stone",
+    "type": "text",
+    "languages": {
+      "zh_TW": "硬化終界石",
+      "en_US": "Hardened End Stone"
+    }
+  },
+  {
+    "key": "MoreOres.Ice Ore",
+    "type": "text",
+    "languages": {
+      "zh_TW": "冰礦石",
+      "en_US": "Ice Ore"
+    }
+  },
+  {
+    "key": "MoreOres.Dolphin Pants",
+    "type": "text",
+    "languages": {
+      "zh_TW": "海豚褲",
+      "en_US": "Dolphin Pants"
+    }
+  },
+  {
+    "key": "MoreOres.Chestplate of the Drowned",
+    "type": "text",
+    "languages": {
+      "zh_TW": "沉屍的胸甲",
+      "en_US": "Chestplate of the Drowned"
+    }
+  },
+  {
+    "key": "MoreOres.Noncombustible Boots",
+    "type": "text",
+    "languages": {
+      "zh_TW": "不可燃靴子",
+      "en_US": "Noncombustible Boots"
+    }
+  },
+  {
+    "key": "MoreOres.Unstable TNT",
+    "type": "text",
+    "languages": {
+      "zh_TW": "不穩定TNT",
+      "en_US": "Unstable TNT"
+    }
+  },
+  {
+    "key": "MoreOres.Corrupted Helmet",
+    "type": "text",
+    "languages": {
+      "zh_TW": "損毀頭盔",
+      "en_US": "Corrupted Helmet"
+    }
+  },
+  {
+    "key": "MoreOres.Corrupted Chestplate",
+    "type": "text",
+    "languages": {
+      "zh_TW": "損毀胸甲",
+      "en_US": "Corrupted Chestplate"
+    }
+  },
+  {
+    "key": "MoreOres.Corrupted Leggings",
+    "type": "text",
+    "languages": {
+      "zh_TW": "損毀護腿",
+      "en_US": "Corrupted Leggings"
+    }
+  },
+  {
+    "key": "MoreOres.Corrupted Boots",
+    "type": "text",
+    "languages": {
+      "zh_TW": "損毀靴子",
+      "en_US": "Corrupted Boots"
+    }
+  },
+  {
+    "key": "MoreOres.Ice Boots",
+    "type": "text",
+    "languages": {
+      "zh_TW": "冰靴子",
+      "en_US": "Ice Boots"
+    }
+  },
+  {
+    "key": "MoreOres.Ice Helmet",
+    "type": "text",
+    "languages": {
+      "zh_TW": "冰頭盔",
+      "en_US": "Ice Helmet"
+    }
+  },
+  {
+    "key": "MoreOres.Pregen Warning 1",
+    "type": "text",
+    "languages": {
+      "zh_TW": "請確保你不是在嘗試使用 /mo generate, 這樣將會更安全!",
+      "en_US": "Make sure you are not trying to use /mo generate, which is much safer!"
+    }
+  },
+  {
+    "key": "MoreOres.Pregen Warning 2",
+    "type": "text",
+    "languages": {
+      "zh_TW": "此指令可能會導致某些伺服器崩潰!",
+      "en_US": "This Command may cause some servers to crash!"
+    }
+  },
+  {
+    "key": "MoreOres.Pregen Warning 3",
+    "type": "text",
+    "languages": {
+      "zh_TW": "%1 區塊將在 %2 分鐘內加載",
+      "en_US": "%1 Chunks will be loaded in %2 minutes"
+    }
+  },
+  {
+    "key": "MoreOres.Worldborder",
+    "type": "text",
+    "languages": {
+      "zh_TW": "你的世界邊界必須小於 %1",
+      "en_US": "Your world border needs to be smaller than %1"
+    }
+  },
+  {
+    "key": "MoreOres./moreores pregenerate <world>",
+    "type": "text",
+    "languages": {
+      "zh_TW": "在世界生成部分礦石 (實驗性)",
+      "en_US": "Pregenerates ores in a world (experimental)"
+    }
+  }
+]
