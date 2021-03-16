@@ -1,0 +1,346 @@
+[
+  {
+    "key": "gravy.Messages.world_already_enabled_msg.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&e[¡] &rWorld &e[%1] &ris already &2enabled!",
+      "zh_TW": "&e[¡] &r世界 &e[%1] &r已經&2啟用!"
+    }
+  },
+  {
+    "key": "gravy.Messages.list_graves_msg.0",
+    "type": "text",
+    "languages": {
+      "en_US": "[★] Grave in [&7%1&r] at [&4%2&r][&a%3&r][&9%4&r] time left [&d%5&r]",
+      "zh_TW": "[★] 墳墓於 [&7%1&r] 在 [&4%2&r][&a%3&r][&9%4&r] 剩餘時間 [&d%5&r]"
+    }
+  },
+  {
+    "key": "gravy.Messages.grave_expiring_msg.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&e[¡] &rYour grave at :",
+      "zh_TW": "&e[¡] &r你的墓碑在 :"
+    }
+  },
+  {
+    "key": "gravy.Messages.grave_expiring_msg.1",
+    "type": "text",
+    "languages": {
+      "en_US": "[&4%1&r][&a%2&r][&9%3&r][%4]",
+      "zh_TW": "[&4%1&r][&a%2&r][&9%3&r][%4]"
+    }
+  },
+  {
+    "key": "gravy.Messages.grave_expiring_msg.2",
+    "type": "text",
+    "languages": {
+      "en_US": "&4expires &rin [&d%1&r]",
+      "zh_TW": "&4過期&r於 [&d%1&r]"
+    }
+  },
+  {
+    "key": "gravy.Messages.grave_right_click_msg.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&rGrave Owner : &2%1",
+      "zh_TW": "&r墳墓主人 : &2%1"
+    }
+  },
+  {
+    "key": "gravy.Messages.grave_right_click_msg.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&rTime Left : &5%1",
+      "zh_TW": "&r剩餘時間 : &5%1"
+    }
+  },
+  {
+    "key": "gravy.Messages.world_enable_msg.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&e[¡] &rWorld &e[%1] &rhas been &2enabled!",
+      "zh_TW": "&e[¡] &r世界 &e[%1] &r已&2啟用!"
+    }
+  },
+  {
+    "key": "gravy.Messages.breaking_grave_msg.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&e[¡] &rYou've broken a grave!",
+      "zh_TW": "&e[¡] &r你已破壞了墳墓!"
+    }
+  },
+  {
+    "key": "gravy.Messages.vault_not_enough_funds_msg.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&e[¡] can't spawn grave!:",
+      "zh_TW": "&e[¡] 無法生成墳墓!:"
+    }
+  },
+  {
+    "key": "gravy.Messages.vault_not_enough_funds_msg.1",
+    "type": "text",
+    "languages": {
+      "en_US": "-&r[&2%1&r] required! you have [&4%2&r]",
+      "zh_TW": "-&r[&2%1&r] 需求! 你有 [&4%2&r]"
+    }
+  },
+  {
+    "key": "gravy.Messages.vault_grave_cost_subtracted_msg.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&e[¡]&r[&4%1&r] removed! and now have [&2%2&r]",
+      "zh_TW": "&e[¡]&r[&4%1&r] 已刪除! 現在有 [&2%2&r]"
+    }
+  },
+  {
+    "key": "gravy.Messages.graves_not_found_msg.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&4[✖] No Graves Found!",
+      "zh_TW": "&4[✖] 未找到墳墓!"
+    }
+  },
+  {
+    "key": "gravy.Messages.chat_prefix.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&7[GR]&r",
+      "zh_TW": "&7[GR]&r"
+    }
+  },
+  {
+    "key": "gravy.Messages.recover_gui_grave_name.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&4Death Point",
+      "zh_TW": "&4死亡點"
+    }
+  },
+  {
+    "key": "gravy.Messages.teleport_to_grave_msg.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&2[✔] You've been teleported to your grave location!",
+      "zh_TW": "&2[✔] 你已被傳送至自己的墳墓位置!"
+    }
+  },
+  {
+    "key": "gravy.Messages.token_item_name.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&r[&7&lGravy &6&lToken&r]",
+      "zh_TW": "&r[&7&l墳墓&6&l代幣&r]"
+    }
+  },
+  {
+    "key": "gravy.Messages.dimension_teleport_warning_msg.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&e[¡] &rYou can only teleport to graves in the same dimension!",
+      "zh_TW": "&e[¡] &r你只能從相同的維度來傳送至你的墳墓!"
+    }
+  },
+  {
+    "key": "gravy.Messages.token_consumed_msg.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&e[¡] &rx1 &r[&7&lGravy &6&lToken&r] has been consumed!",
+      "zh_TW": "&e[¡] &rx1 &r[&7&l墳墓&6&l代幣&r] 已消耗!"
+    }
+  },
+  {
+    "key": "gravy.Messages.update_available_msg.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&e[¡] &rA new update for Gravy[&e%version%&r]",
+      "zh_TW": "&e[¡] &r一個新的Gravy更新[&e%version%&r]"
+    }
+  },
+  {
+    "key": "gravy.Messages.update_available_msg.1",
+    "type": "text",
+    "languages": {
+      "en_US": "        is available at:",
+      "zh_TW": "        在以下位置可下載:"
+    }
+  },
+  {
+    "key": "gravy.Messages.update_available_msg.2",
+    "type": "text",
+    "languages": {
+      "en_US": "        [&e%url%&r]",
+      "zh_TW": "        [&e%url%&r]"
+    }
+  },
+  {
+    "key": "gravy.Messages.expired_grave_msg.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&e[¡] &rYour grave at :",
+      "zh_TW": "&e[¡] &r你的墳墓在 :"
+    }
+  },
+  {
+    "key": "gravy.Messages.expired_grave_msg.1",
+    "type": "text",
+    "languages": {
+      "en_US": "[&4%1&r][&a%2&r][&9%3&r][%4]",
+      "zh_TW": "[&4%1&r][&a%2&r][&9%3&r][%4]"
+    }
+  },
+  {
+    "key": "gravy.Messages.expired_grave_msg.2",
+    "type": "text",
+    "languages": {
+      "en_US": "&rhas &4expired!",
+      "zh_TW": "&r已&4過期!"
+    }
+  },
+  {
+    "key": "gravy.Messages.vault_no_account_msg.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&e[¡] &rNo Account found for player [&4%1&r]",
+      "zh_TW": "&e[¡] &r未找到該玩家的帳號 [&4%1&r]"
+    }
+  },
+  {
+    "key": "gravy.Messages.protected_grave_msg.0",
+    "type": "text",
+    "languages": {
+      "en_US": "[☠] A Powerful Spirit is guarding this grave!",
+      "zh_TW": "[☠] 一個強大的精神正守護著這個墳墓!"
+    }
+  },
+  {
+    "key": "gravy.Messages.world_disabled_msg.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&e[¡] &rWorld &e[%1] &rhas been &4disabled!",
+      "zh_TW": "&e[¡] &r世界 &e[%1] &r已被&4禁用!"
+    }
+  },
+  {
+    "key": "gravy.Messages.inventory_full_msg.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&4[✖] Inventory Full!",
+      "zh_TW": "&4[✖] 背包已滿!"
+    }
+  },
+  {
+    "key": "gravy.Messages.token_lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "This item will be consumed",
+      "zh_TW": "此物品將被消耗"
+    }
+  },
+  {
+    "key": "gravy.Messages.token_lore.2",
+    "type": "text",
+    "languages": {
+      "en_US": "if the player die",
+      "zh_TW": "當玩家死亡"
+    }
+  },
+  {
+    "key": "gravy.Messages.token_lore.3",
+    "type": "text",
+    "languages": {
+      "en_US": "in order to spawn a grave",
+      "zh_TW": "會產生一個墳墓"
+    }
+  },
+  {
+    "key": "gravy.Messages.token_lore.4",
+    "type": "text",
+    "languages": {
+      "en_US": "containing all the player items.",
+      "zh_TW": "包含所有玩家的物品."
+    }
+  },
+  {
+    "key": "gravy.Messages.vault_error_msg.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&4[✖] An error occured!:",
+      "zh_TW": "&4[✖] 發生錯誤!:"
+    }
+  },
+  {
+    "key": "gravy.Messages.vault_error_msg.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&r[&e%1&r]",
+      "zh_TW": "&r[&e%1&r]"
+    }
+  },
+  {
+    "key": "gravy.Messages.recover_gui_grave_lore.1",
+    "type": "text",
+    "languages": {
+      "en_US": "[&4x&r][%1]",
+      "zh_TW": "[&4x&r][%1]"
+    }
+  },
+  {
+    "key": "gravy.Messages.recover_gui_grave_lore.2",
+    "type": "text",
+    "languages": {
+      "en_US": "[&2y&r][%1]",
+      "zh_TW": "[&2y&r][%1]"
+    }
+  },
+  {
+    "key": "gravy.Messages.recover_gui_grave_lore.3",
+    "type": "text",
+    "languages": {
+      "en_US": "[&9z&r][%1]",
+      "zh_TW": "[&9z&r][%1]"
+    }
+  },
+  {
+    "key": "gravy.Messages.recover_gui_grave_lore.4",
+    "type": "text",
+    "languages": {
+      "en_US": "[world][%1]",
+      "zh_TW": "[世界][%1]"
+    }
+  },
+  {
+    "key": "gravy.Messages.recover_gui_grave_lore.5",
+    "type": "text",
+    "languages": {
+      "en_US": "[&5timer&r][%1]",
+      "zh_TW": "[&5計時&r][%1]"
+    }
+  },
+  {
+    "key": "gravy.Messages.world_already_disabled_msg.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&e[¡] &rWorld &e[%1] &ris already &4disabled!",
+      "zh_TW": "&e[¡] &rWorld &e[%1] &r已經&4禁用!"
+    }
+  },
+  {
+    "key": "gravy.Messages.player_not_found_msg.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&4[✖] Player doesn''t exist or Offline!",
+      "zh_TW": "&4[✖] 玩家並不存在或離線!"
+    }
+  },
+  {
+    "key": "gravy.Messages.invalid_world_msg.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&4[✖] World [%1] does not exist!",
+      "zh_TW": "&4[✖] 世界 [%1] 不存在!"
+    }
+  }
+]

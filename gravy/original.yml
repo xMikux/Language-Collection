@@ -1,0 +1,93 @@
+Messages:
+  world_already_enabled_msg:
+    - >-
+      [lang]gravy.Messages.world_already_enabled_msg.0[args][arg]%%world%%[/arg][/args][/lang]
+  list_graves_msg:
+    - >-
+      [lang]gravy.Messages.list_graves_msg.0[args][arg]%%world%%[/arg][arg]%%xpos%%[/arg][arg]%%ypos%%[/arg][arg]%%zpos%%[/arg][arg]%%time%%[/arg][/args][/lang]
+  grave_expiring_msg:
+    - '[lang]gravy.Messages.grave_expiring_msg.0[/lang]'
+    - >-
+      [lang]gravy.Messages.grave_expiring_msg.1[args][arg]%%xpos%%[/arg][arg]%%ypos%%[/arg][arg]%%zpos%%[/arg][arg]%%world%%[/arg][/args][/lang]
+    - >-
+      [lang]gravy.Messages.grave_expiring_msg.2[args][arg]%%time%%[/arg][/args][/lang]
+  grave_right_click_msg:
+    - >-
+      [lang]gravy.Messages.grave_right_click_msg.0[args][arg]%%grave_owner%%[/arg][/args][/lang]
+    - >-
+      [lang]gravy.Messages.grave_right_click_msg.1[args][arg]%%time%%[/arg][/args][/lang]
+  world_enable_msg:
+    - >-
+      [lang]gravy.Messages.world_enable_msg.0[args][arg]%%world%%[/arg][/args][/lang]
+  breaking_grave_msg:
+    - '[lang]gravy.Messages.breaking_grave_msg.0[/lang]'
+  vault_not_enough_funds_msg:
+    - '[lang]gravy.Messages.vault_not_enough_funds_msg.0[/lang]'
+    - >-
+      [lang]gravy.Messages.vault_not_enough_funds_msg.1[args][arg]%%amount%%[/arg][arg]%%balance%%[/arg][/args][/lang]
+  vault_grave_cost_subtracted_msg:
+    - >-
+      [lang]gravy.Messages.vault_grave_cost_subtracted_msg.0[args][arg]%%amount%%[/arg][arg]%%balance%%[/arg][/args][/lang]
+  graves_not_found_msg:
+    - '[lang]gravy.Messages.graves_not_found_msg.0[/lang]'
+  chat_prefix:
+    - '[lang]gravy.Messages.chat_prefix.0[/lang]'
+  recover_gui_grave_name:
+    - '[lang]gravy.Messages.recover_gui_grave_name.0[/lang]'
+  teleport_to_grave_msg:
+    - '[lang]gravy.Messages.teleport_to_grave_msg.0[/lang]'
+  token_item_name:
+    - '[lang]gravy.Messages.token_item_name.0[/lang]'
+  dimension_teleport_warning_msg:
+    - '[lang]gravy.Messages.dimension_teleport_warning_msg.0[/lang]'
+  token_consumed_msg:
+    - '[lang]gravy.Messages.token_consumed_msg.0[/lang]'
+  update_available_msg:
+    - '[lang]gravy.Messages.update_available_msg.0[/lang]'
+    - '[lang]gravy.Messages.update_available_msg.1[/lang]'
+    - '[lang]gravy.Messages.update_available_msg.2[/lang]'
+  expired_grave_msg:
+    - '[lang]gravy.Messages.expired_grave_msg.0[/lang]'
+    - >-
+      [lang]gravy.Messages.expired_grave_msg.1[args][arg]%%xpos%%[/arg][arg]%%ypos%%[/arg][arg]%%zpos%%[/arg][arg]%%world%%[/arg][/args][/lang]
+    - '[lang]gravy.Messages.expired_grave_msg.2[/lang]'
+  vault_no_account_msg:
+    - >-
+      [lang]gravy.Messages.vault_no_account_msg.0[args][arg]%%player%%[/arg][/args][/lang]
+  protected_grave_msg:
+    - '[lang]gravy.Messages.protected_grave_msg.0[/lang]'
+  world_disabled_msg:
+    - >-
+      [lang]gravy.Messages.world_disabled_msg.0[args][arg]%%world%%[/arg][/args][/lang]
+  inventory_full_msg:
+    - '[lang]gravy.Messages.inventory_full_msg.0[/lang]'
+  token_lore:
+    - ''
+    - '[lang]gravy.Messages.token_lore.1[/lang]'
+    - '[lang]gravy.Messages.token_lore.2[/lang]'
+    - '[lang]gravy.Messages.token_lore.3[/lang]'
+    - '[lang]gravy.Messages.token_lore.4[/lang]'
+  vault_error_msg:
+    - '[lang]gravy.Messages.vault_error_msg.0[/lang]'
+    - >-
+      [lang]gravy.Messages.vault_error_msg.1[args][arg]%%error%%[/arg][/args][/lang]
+  recover_gui_grave_lore:
+    - ''
+    - >-
+      [lang]gravy.Messages.recover_gui_grave_lore.1[args][arg]%%xpos%%[/arg][/args][/lang]
+    - >-
+      [lang]gravy.Messages.recover_gui_grave_lore.2[args][arg]%%ypos%%[/arg][/args][/lang]
+    - >-
+      [lang]gravy.Messages.recover_gui_grave_lore.3[args][arg]%%zpos%%[/arg][/args][/lang]
+    - >-
+      [lang]gravy.Messages.recover_gui_grave_lore.4[args][arg]%%world%%[/arg][/args][/lang]
+    - >-
+      [lang]gravy.Messages.recover_gui_grave_lore.5[args][arg]%%time%%[/arg][/args][/lang]
+  world_already_disabled_msg:
+    - >-
+      [lang]gravy.Messages.world_already_disabled_msg.0[args][arg]%%world%%[/arg][/args][/lang]
+  player_not_found_msg:
+    - '[lang]gravy.Messages.player_not_found_msg.0[/lang]'
+  invalid_world_msg:
+    - >-
+      [lang]gravy.Messages.invalid_world_msg.0[args][arg]%%world%%[/arg][/args][/lang]

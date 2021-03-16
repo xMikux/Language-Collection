@@ -1,0 +1,74 @@
+Messages:
+  world_already_enabled_msg:
+  - '&e[¡] &rWorld &e[%%world%%] &ris already &2enabled!'
+  list_graves_msg:
+  - '[★] Grave in [&7%%world%%&r] at [&4%%xpos%%&r][&a%%ypos%%&r][&9%%zpos%%&r] time
+    left [&d%%time%%&r]'
+  grave_expiring_msg:
+  - '&e[¡] &rYour grave at :'
+  - '[&4%%xpos%%&r][&a%%ypos%%&r][&9%%zpos%%&r][%%world%%]'
+  - '&4expires &rin [&d%%time%%&r]'
+  grave_right_click_msg:
+  - '&rGrave Owner : &2%%grave_owner%%'
+  - '&rTime Left : &5%%time%%'
+  world_enable_msg:
+  - '&e[¡] &rWorld &e[%%world%%] &rhas been &2enabled!'
+  breaking_grave_msg:
+  - '&e[¡] &rYou''ve broken a grave!'
+  vault_not_enough_funds_msg:
+  - '&e[¡] can''t spawn grave!:'
+  - -&r[&2%%amount%%&r] required! you have [&4%%balance%%&r]
+  vault_grave_cost_subtracted_msg:
+  - '&e[¡]&r[&4%%amount%%&r] removed! and now have [&2%%balance%%&r]'
+  graves_not_found_msg:
+  - '&4[✖] No Graves Found!'
+  chat_prefix:
+  - '&7[GR]&r'
+  recover_gui_grave_name:
+  - '&4Death Point'
+  teleport_to_grave_msg:
+  - '&2[✔] You''ve been teleported to your grave location!'
+  token_item_name:
+  - '&r[&7&lGravy &6&lToken&r]'
+  dimension_teleport_warning_msg:
+  - '&e[¡] &rYou can only teleport to graves in the same dimension!'
+  token_consumed_msg:
+  - '&e[¡] &rx1 &r[&7&lGravy &6&lToken&r] has been consumed!'
+  update_available_msg:
+  - '&e[¡] &rA new update for Gravy[&e%version%&r]'
+  - '        is available at:'
+  - '        [&e%url%&r]'
+  expired_grave_msg:
+  - '&e[¡] &rYour grave at :'
+  - '[&4%%xpos%%&r][&a%%ypos%%&r][&9%%zpos%%&r][%%world%%]'
+  - '&rhas &4expired!'
+  vault_no_account_msg:
+  - '&e[¡] &rNo Account found for player [&4%%player%%&r]'
+  protected_grave_msg:
+  - '[☠] A Powerful Spirit is guarding this grave!'
+  world_disabled_msg:
+  - '&e[¡] &rWorld &e[%%world%%] &rhas been &4disabled!'
+  inventory_full_msg:
+  - '&4[✖] Inventory Full!'
+  token_lore:
+  - ''
+  - This item will be consumed
+  - if the player die
+  - in order to spawn a grave
+  - containing all the player items.
+  vault_error_msg:
+  - '&4[✖] An error occured!:'
+  - '&r[&e%%error%%&r]'
+  recover_gui_grave_lore:
+  - ''
+  - '[&4x&r][%%xpos%%]'
+  - '[&2y&r][%%ypos%%]'
+  - '[&9z&r][%%zpos%%]'
+  - '[world][%%world%%]'
+  - '[&5timer&r][%%time%%]'
+  world_already_disabled_msg:
+  - '&e[¡] &rWorld &e[%%world%%] &ris already &4disabled!'
+  player_not_found_msg:
+  - '&4[✖] Player doesn''''t exist or Offline!'
+  invalid_world_msg:
+  - '&4[✖] World [%%world%%] does not exist!'

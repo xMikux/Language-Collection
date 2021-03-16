@@ -1,0 +1,91 @@
+Messages:
+  Hive-info:
+    Action-bar: true
+    Message: >-
+      [lang]BetterBees.Messages.Hive-info.Message[args][arg]{HONEYLEVEL}[/arg][arg]{MAXHONEYLEVEL}[/arg][arg]{BEES}[/arg][/args][/lang]
+  Hive-item-info:
+    Action-bar: true
+    Message: >-
+      [lang]BetterBees.Messages.Hive-item-info.Message[args][arg]{HONEYLEVEL}[/arg][arg]{MAXHONEYLEVEL}[/arg][arg]{BEES}[/arg][/args][/lang]
+  Bee-info:
+    Action-bar: true
+    Message: >-
+      [lang]BetterBees.Messages.Bee-info.Message[args][arg]{NECTAR}[/arg][arg]{HIVE}[/arg][arg]{FLOWER}[/arg][arg]{STING}[/arg][/args][/lang]
+  Keywords:
+    Yes-word: '[lang]BetterBees.Messages.Keywords.Yes-word[/lang]'
+    No-word: '[lang]BetterBees.Messages.Keywords.No-word[/lang]'
+  Commands:
+    No-permission: '[lang]BetterBees.Messages.Commands.No-permission[/lang]'
+    Reloaded: '[lang]BetterBees.Messages.Commands.Reloaded[/lang]'
+    Help:
+      - >-
+        [lang]BetterBees.Messages.Commands.Help.0[args][arg]{VERSION}[/arg][/args][/lang]
+      - '[lang]BetterBees.Messages.Commands.Help.1[/lang]'
+      - '[lang]BetterBees.Messages.Commands.Help.2[/lang]'
+Options:
+  Permissions:
+    Hive-info-permission: none
+    Hive-item-info-permission: none
+    Bee-info-permission: none
+    Admin-permission: betterbees.admin
+  Hooks:
+    WorldGuard:
+      Hook: false
+    GriefPrevention:
+      Hook: true
+      Prevent-damage: true
+      Prevent-steal: false
+    Lands:
+      Hook: true
+  Bees:
+    Path-to-hive:
+      Enabled: true
+      Color: "ebdc13"
+      Time: 2
+    Path-to-flower:
+      Enabled: true
+      Color: "eb2113"
+      Time: 2
+  Lore:
+    Enabled: true
+    Message:
+      - >-
+        [lang]BetterBees.Options.Lore.Message.0[args][arg]{HONEYLEVEL}[/arg][/args][/lang]
+      - >-
+        [lang]BetterBees.Options.Lore.Message.1[args][arg]{BEES}[/arg][/args][/lang]
+      - ''
+      - '[lang]BetterBees.Options.Lore.Message.3[/lang]'
+  Auto-name:
+    Enabled: true
+    Hooks:
+      Global: true
+      GriefPrevention: true
+      Lands: true
+    Format-global: '&e{BEENAME}'
+    Format-owner:
+      GriefPrevention: '&e{BEENAME} &f- &6{OWNER}&e''s bee'
+      Lands: '&e{BEENAME}'
+      Lands-name: '&e{BEENAME} &f- &6{LANDNAME}'
+    Available-names:
+      - Jennie
+      - Michael
+      - Sunflower
+      - Mike
+      - Peter
+      - Jane
+      - Honey
+      - Bumble
+      - Pollen
+      - Beeny
+      - Taylor
+      - Daisy
+      - Alonso
+      - Mary
+      - Tony
+      - '&d&lQueen'
+Updates:
+  Auto-update-configuration: false
+  Check-updates: true
+  Notify-updates: true
+  Permission: '[lang]BetterBees.Updates.Permission[/lang]'
+  Message: '[lang]BetterBees.Updates.Message[args][arg]{LINK}[/arg][/args][/lang]'
