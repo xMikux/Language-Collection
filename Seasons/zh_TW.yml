@@ -1,0 +1,104 @@
+# To stop a message from appearing, set the value to 'none'
+# Some names cannot be disabled, such as weather names, because the plugin cannot run without them
+
+weathers:
+  name:
+    beautiful: '&a漂亮'
+    breezy: '&7和煦春風'
+    chilly: '&9寒冷'
+    rainy: '&9多雨'
+    scorching: '&e灼熱'
+    hot: '&e炎熱'
+    warm: '&e溫暖'
+    cold: '&9寒冷'
+    stormy: '&c風暴'
+    freezing: '&9極冷'
+    snowy: '&7多雪'
+    night: '&7平靜'
+  on-trigger:
+    beautiful: '&a陽光明媚, 草地綠, 今天的天氣為 %weather%'
+    breezy: '&7涼爽的微風拂過你的皮膚, 這將是 %weather%'
+    chilly: '&3你顫抖著霜凍在你周圍閃閃發亮, 這非常的 %weather%'
+    rainy: '&3一陣大雨把地面澆濕, 是 %weather%'
+    scorching: '&e太陽灼傷你的皮膚, 大地在觸摸時很痛, 這是 %weather%'
+    hot: '&e今天會非常的 %weather%'
+    warm: '&e舒適的溫暖在你移動時擁抱你, 這是 %weather% &e的一天'
+    cold: '&3今天的水非常的 %weather%'
+    stormy: '&c一場 %weather% &c在醞釀, 眾神都在生氣... 振作起來!'
+    freezing: '&3水在地上結冰, 你感受到很冷, 是 %weather%'
+    snowy: '&7一條巨大的白色毯子遮蓋了整個世界, 這是 %weather%'
+    night: '&7世界在太陽的落下一切都平靜了... 直到怪物來吃掉你!'
+seasons:
+  name:
+    spring: '&e春季'
+    summer: '&6夏季'
+    autumn: '&2秋季'
+    winter: '&9冬季'
+  on-trigger:
+    spring: 太陽升起, 花兒聞起來很清新, 你的腳步有了 %season% ... 字面上的意思!
+    summer: 今天感覺比其他時候更加溫暖, 甚至可能太暖了... %season% 到來!
+    autumn: 一陣涼風輕佛著從樹上掉下的樹葉, 這是 %season%!
+    winter: 幾片雪花飄落, 世界變得寒冷, 是時候讓 %season% 留下自己的印記...
+effects:
+  on-trigger:
+    devastation: '&c你的心臟快速跳動, 雙腿在顫抖, 直到你發覺這場災難過後, 你才能恢復你的健康!'
+    feels-good: '&a微風在你的皮膚上感覺很好, 但穿著裝備會破壞效果...'
+    fluffy-coat: '&a你的裝備帶給你舒適的溫暖, 使你抵禦嚴寒!'
+    frostbite: '&c世界已凍結, 如果你無法穿上你的裝備, 你也會一樣!'
+    hold-onto-your-hat: '&7注意你的帽子, 起風了...'
+    hot-sand: '&e在這種高溫下行走在沙子上一定很痛苦!'
+    icy: '&9當水變成冰時, 將使你背脊發涼!'
+    primitive-heating: '&9在這種寒冷之中, 隨身攜帶熱源是很好的!'
+    revitalized: '&a這樣的天氣真讓人心曠神怡!'
+    soldering-iron: '&e附近的鐵開始嘶嘶作響, 最好暫時先放下...'
+    strong-current: '&9水流目前很大, 會很難在水流中跋涉!'
+    sweating: '&e這絕對不是全副武裝的天氣...'
+    the-shivers: '&c水非常接近冰的溫度, 觸碰到會有非常危險的冷...'
+    wet-mud: '&7在這種天氣下, 泥土覆蓋在你的靴子上, 變得難以移動...'
+    warming-stew: '&7你的胃開始咕咕叫, 你開始渴望一些豐盛的湯...'
+    wind-in-your-boots: '&7今天感受到的風對你有利!'
+  on-give:
+    feels-good: '&a陽光照射在沒有裝備的皮膚上為你提供能量, 感覺很棒!'
+    fluffy-coat: '&a你的裝備帶給你舒適與溫暖, 使你對世界更有抵抗力'
+    hold-onto-your-hat: '&e哦 親愛的, 你的帽子剛剛被吹掉!'
+    primitive-heating: '&a背包內有熱物品將使你的心臟感受到溫暖, 使你更能夠抵禦寒冷的世界'
+    revitalized: '&a來自這世界的陽光讓人&e恢復生機&a, 它正使你再生!'
+    icy: '&c水在你的水桶內結冰了...'
+    soldering-iron: '&c鐵非常的燙, 請盡可能不要拿著太久!'
+    strong-current: '&c水流正沖撞著你, 你的肌肉因疼痛而哭泣著...'
+    sweating: '&c額頭上流淌著汗水, 今天太熱了, 不適合穿裝備...'
+    the-shivers: '&c冰凍的水正在殺死你, 如果你想要活下去, 就離開它!'
+    warming-stew: '&a這就對了, 美味的燉湯使你的傷口更可以忍受...'
+    wet-mud: '&e泥巴黏在你的靴子上, 讓你變慢了...'
+    wind-in-your-boots: '&a你在靴子內感受到一股風, 然後向前飛馳而去!'
+  on-remove:
+    feels-good: '&e當你離開世界時, 充滿活力的陽光將逐漸消失...'
+    fluffy-coat: '&c沒有裝備, 你的身體再次感受到寒冷, 並不再有抗性'
+    primitive-heating: '&e你的身體不再暖活, 抗性也逐漸消退...'
+    revitalized: '&e隨著世界之光離開你的皮膚時, &6恢復生機&e的能量也離開了...'
+    strong-current: '&a水再次的平靜下來, 並將會保持增長...'
+    sweating: '&a空氣轉涼, 你擦去額頭上的汗水...'
+command:
+  effects-list-title: '&7對於天氣 &e%weather%, &7效果為:'
+  effects-list-element: '&6&l%effect%: &7%description%'
+  season-info:
+  - '%season-color%你在的世界是 %season%'
+  - '&7當前的天氣是 &2%weather%'
+  - '&e今天是第 %day% 天 (共 %max-days% 天)'
+  season-info-footer: '&7要查看天氣的效果影響, 請使用指令 &e/seasons effects'
+  list-help:
+  - '&7你目前可以列出: %options%'
+  - '&7用法: &e/seasons list <option>'
+  list-error: '&c沒有該類型的列表!'
+  permission-denied: '&c你沒有權限執行此操作!'
+  all-effects-disabled: '&c伺服器管理員已關閉所有效果!'
+  barren-world: '&c這個世界荒蕪的, 並充滿著黑暗... 這裡沒有季節之分.'
+  force-day: '&7時間在你眼前破碎, 現在是 &b第 %day% 天'
+  force-weather: '&7天空變得寂靜, 伴隨著巨大的轟鳴聲, 現在的天氣是 %weather%'
+  force-season: '&7周圍的空氣神秘的變化, 變成 %season%'
+misc:
+  prefix: '&e&lSeasons&7∙ &r'
+  catastrophic-alert: '&c&l災難性的天氣警報 - 小心規劃你的一天'
+  weather-change: '&7天氣已改變'
+  season-change: '&7季節已改變'
+version: 4.0

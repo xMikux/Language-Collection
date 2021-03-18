@@ -1,0 +1,690 @@
+[
+  {
+    "key": "Seasons.weathers.name.beautiful",
+    "type": "text",
+    "languages": {
+      "en_US": "&aBeautiful",
+      "zh_TW": "&a漂亮"
+    }
+  },
+  {
+    "key": "Seasons.weathers.name.breezy",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Breezy",
+      "zh_TW": "&7和煦春風"
+    }
+  },
+  {
+    "key": "Seasons.weathers.name.chilly",
+    "type": "text",
+    "languages": {
+      "en_US": "&9Chilly",
+      "zh_TW": "&9寒冷"
+    }
+  },
+  {
+    "key": "Seasons.weathers.name.rainy",
+    "type": "text",
+    "languages": {
+      "en_US": "&9Rainy",
+      "zh_TW": "&9多雨"
+    }
+  },
+  {
+    "key": "Seasons.weathers.name.scorching",
+    "type": "text",
+    "languages": {
+      "en_US": "&eScorching",
+      "zh_TW": "&e灼熱"
+    }
+  },
+  {
+    "key": "Seasons.weathers.name.hot",
+    "type": "text",
+    "languages": {
+      "en_US": "&eHot",
+      "zh_TW": "&e炎熱"
+    }
+  },
+  {
+    "key": "Seasons.weathers.name.warm",
+    "type": "text",
+    "languages": {
+      "en_US": "&eWarm",
+      "zh_TW": "&e溫暖"
+    }
+  },
+  {
+    "key": "Seasons.weathers.name.cold",
+    "type": "text",
+    "languages": {
+      "en_US": "&9Cold",
+      "zh_TW": "&9寒冷"
+    }
+  },
+  {
+    "key": "Seasons.weathers.name.stormy",
+    "type": "text",
+    "languages": {
+      "en_US": "&cStormy",
+      "zh_TW": "&c風暴"
+    }
+  },
+  {
+    "key": "Seasons.weathers.name.freezing",
+    "type": "text",
+    "languages": {
+      "en_US": "&9Freezing",
+      "zh_TW": "&9極冷"
+    }
+  },
+  {
+    "key": "Seasons.weathers.name.snowy",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Snowy",
+      "zh_TW": "&7多雪"
+    }
+  },
+  {
+    "key": "Seasons.weathers.name.night",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Calm",
+      "zh_TW": "&7平靜"
+    }
+  },
+  {
+    "key": "Seasons.weathers.on-trigger.beautiful",
+    "type": "text",
+    "languages": {
+      "en_US": "&aThe sun is shining, the grass is green and the weather is %1",
+      "zh_TW": "&a陽光明媚, 草地綠, 今天的天氣為 %1"
+    }
+  },
+  {
+    "key": "Seasons.weathers.on-trigger.breezy",
+    "type": "text",
+    "languages": {
+      "en_US": "&7A cool breeze touches your skin, it is going to be %1",
+      "zh_TW": "&7涼爽的微風拂過你的皮膚, 這將是 %1"
+    }
+  },
+  {
+    "key": "Seasons.weathers.on-trigger.chilly",
+    "type": "text",
+    "languages": {
+      "en_US": "&3You shiver as frost glistens around you, it is very %1",
+      "zh_TW": "&3你顫抖著霜凍在你周圍閃閃發亮, 這非常的 %1"
+    }
+  },
+  {
+    "key": "Seasons.weathers.on-trigger.rainy",
+    "type": "text",
+    "languages": {
+      "en_US": "&3A loud rain falls and wets the ground, it is %1",
+      "zh_TW": "&3一陣大雨把地面澆濕, 是 %1"
+    }
+  },
+  {
+    "key": "Seasons.weathers.on-trigger.scorching",
+    "type": "text",
+    "languages": {
+      "en_US": "&eThe sun burns your skin and the ground hurts to touch, it is %1",
+      "zh_TW": "&e太陽灼傷你的皮膚, 大地在觸摸時很痛, 這是 %1"
+    }
+  },
+  {
+    "key": "Seasons.weathers.on-trigger.hot",
+    "type": "text",
+    "languages": {
+      "en_US": "&eIt is going to be very %1 &etoday",
+      "zh_TW": "&e今天會非常的 %1"
+    }
+  },
+  {
+    "key": "Seasons.weathers.on-trigger.warm",
+    "type": "text",
+    "languages": {
+      "en_US": "&eA soothing warmth hugs you as you move, it is a %1 &eday",
+      "zh_TW": "&e舒適的溫暖在你移動時擁抱你, 這是 %1 &e的一天"
+    }
+  },
+  {
+    "key": "Seasons.weathers.on-trigger.cold",
+    "type": "text",
+    "languages": {
+      "en_US": "&3The water is so very %1 &3today",
+      "zh_TW": "&3今天的水非常的 %1"
+    }
+  },
+  {
+    "key": "Seasons.weathers.on-trigger.stormy",
+    "type": "text",
+    "languages": {
+      "en_US": "&cA great %1 &cbrews, the Gods are angry... Brace yourself!",
+      "zh_TW": "&c一場 %1 &c在醞釀, 眾神都在生氣... 振作起來!"
+    }
+  },
+  {
+    "key": "Seasons.weathers.on-trigger.freezing",
+    "type": "text",
+    "languages": {
+      "en_US": "&3The water freezes with a sheet of ice and you feel a great cold, it is %1",
+      "zh_TW": "&3水在地上結冰, 你感受到很冷, 是 %1"
+    }
+  },
+  {
+    "key": "Seasons.weathers.on-trigger.snowy",
+    "type": "text",
+    "languages": {
+      "en_US": "&7A great white blanket covers the world, it is %1",
+      "zh_TW": "&7一條巨大的白色毯子遮蓋了整個世界, 這是 %1"
+    }
+  },
+  {
+    "key": "Seasons.weathers.on-trigger.night",
+    "type": "text",
+    "languages": {
+      "en_US": "&7The world rests with the sun and all is calm... Until the mobs come to eat you!",
+      "zh_TW": "&7世界在太陽的落下一切都平靜了... 直到怪物來吃掉你!"
+    }
+  },
+  {
+    "key": "Seasons.seasons.name.spring",
+    "type": "text",
+    "languages": {
+      "en_US": "&eSpring",
+      "zh_TW": "&e春季"
+    }
+  },
+  {
+    "key": "Seasons.seasons.name.summer",
+    "type": "text",
+    "languages": {
+      "en_US": "&6Summer",
+      "zh_TW": "&6夏季"
+    }
+  },
+  {
+    "key": "Seasons.seasons.name.autumn",
+    "type": "text",
+    "languages": {
+      "en_US": "&2Autumn",
+      "zh_TW": "&2秋季"
+    }
+  },
+  {
+    "key": "Seasons.seasons.name.winter",
+    "type": "text",
+    "languages": {
+      "en_US": "&9Winter",
+      "zh_TW": "&9冬季"
+    }
+  },
+  {
+    "key": "Seasons.seasons.on-trigger.spring",
+    "type": "text",
+    "languages": {
+      "en_US": "The sun rises, the flowers smell fresh and there is a %1 in your step... literally!",
+      "zh_TW": "太陽升起, 花兒聞起來很清新, 你的腳步有了 %1 ... 字面上的意思!"
+    }
+  },
+  {
+    "key": "Seasons.seasons.on-trigger.summer",
+    "type": "text",
+    "languages": {
+      "en_US": "Today feels warmer than the others, maybe even too warm... %1 has arrived!",
+      "zh_TW": "今天感覺比其他時候更加溫暖, 甚至可能太暖了... %1 到來!"
+    }
+  },
+  {
+    "key": "Seasons.seasons.on-trigger.autumn",
+    "type": "text",
+    "languages": {
+      "en_US": "A cool breeze whispers to the leaves that fall from the trees, it is %1!",
+      "zh_TW": "一陣涼風輕佛著從樹上掉下的樹葉, 這是 %1!"
+    }
+  },
+  {
+    "key": "Seasons.seasons.on-trigger.winter",
+    "type": "text",
+    "languages": {
+      "en_US": "A few snowflakes fall and the world grows cold, time for %1 to make its mark...",
+      "zh_TW": "幾片雪花飄落, 世界變得寒冷, 是時候讓 %1 留下自己的印記..."
+    }
+  },
+  {
+    "key": "Seasons.effects.on-trigger.devastation",
+    "type": "text",
+    "languages": {
+      "en_US": "&cYour hearts beats rapidly, yours legs tremble and you find you cannot regenerate health until this Devastation passes!",
+      "zh_TW": "&c你的心臟快速跳動, 雙腿在顫抖, 直到你發覺這場災難過後, 你才能恢復你的健康!"
+    }
+  },
+  {
+    "key": "Seasons.effects.on-trigger.feels-good",
+    "type": "text",
+    "languages": {
+      "en_US": "&aThe breeze feels so good on your skin, armour would just ruin the effect...",
+      "zh_TW": "&a微風在你的皮膚上感覺很好, 但穿著裝備會破壞效果..."
+    }
+  },
+  {
+    "key": "Seasons.effects.on-trigger.fluffy-coat",
+    "type": "text",
+    "languages": {
+      "en_US": "&aYour armour gives you a soothing warmth, making you resistant to the harsh cold!",
+      "zh_TW": "&a你的裝備帶給你舒適的溫暖, 使你抵禦嚴寒!"
+    }
+  },
+  {
+    "key": "Seasons.effects.on-trigger.frostbite",
+    "type": "text",
+    "languages": {
+      "en_US": "&cThe world is freezing over and so will you if you fail to get armour on!",
+      "zh_TW": "&c世界已凍結, 如果你無法穿上你的裝備, 你也會一樣!"
+    }
+  },
+  {
+    "key": "Seasons.effects.on-trigger.hold-onto-your-hat",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Be careful with your hat, the wind is getting up...",
+      "zh_TW": "&7注意你的帽子, 起風了..."
+    }
+  },
+  {
+    "key": "Seasons.effects.on-trigger.hot-sand",
+    "type": "text",
+    "languages": {
+      "en_US": "&eWalking on sand in this heat must be painful!",
+      "zh_TW": "&e在這種高溫下行走在沙子上一定很痛苦!"
+    }
+  },
+  {
+    "key": "Seasons.effects.on-trigger.icy",
+    "type": "text",
+    "languages": {
+      "en_US": "&9A chill runs down your spine as water turns to ice!",
+      "zh_TW": "&9當水變成冰時, 將使你背脊發涼!"
+    }
+  },
+  {
+    "key": "Seasons.effects.on-trigger.primitive-heating",
+    "type": "text",
+    "languages": {
+      "en_US": "&9A source of heat would be great to carry around in this cold!",
+      "zh_TW": "&9在這種寒冷之中, 隨身攜帶熱源是很好的!"
+    }
+  },
+  {
+    "key": "Seasons.effects.on-trigger.revitalized",
+    "type": "text",
+    "languages": {
+      "en_US": "&aThis weather is so revitalizing!",
+      "zh_TW": "&a這樣的天氣真讓人心曠神怡!"
+    }
+  },
+  {
+    "key": "Seasons.effects.on-trigger.soldering-iron",
+    "type": "text",
+    "languages": {
+      "en_US": "&eThe nearby iron starts to sizzle, better put it down for now...",
+      "zh_TW": "&e附近的鐵開始嘶嘶作響, 最好暫時先放下..."
+    }
+  },
+  {
+    "key": "Seasons.effects.on-trigger.strong-current",
+    "type": "text",
+    "languages": {
+      "en_US": "&9The water flows with a strong current, it will be hard to wade through!",
+      "zh_TW": "&9水流目前很大, 會很難在水流中跋涉!"
+    }
+  },
+  {
+    "key": "Seasons.effects.on-trigger.sweating",
+    "type": "text",
+    "languages": {
+      "en_US": "&eThis is most definitely NOT the weather for full armour...",
+      "zh_TW": "&e這絕對不是全副武裝的天氣..."
+    }
+  },
+  {
+    "key": "Seasons.effects.on-trigger.the-shivers",
+    "type": "text",
+    "languages": {
+      "en_US": "&cThe water is near ice and dangerously cold to the touch...",
+      "zh_TW": "&c水非常接近冰的溫度, 觸碰到會有非常危險的冷..."
+    }
+  },
+  {
+    "key": "Seasons.effects.on-trigger.wet-mud",
+    "type": "text",
+    "languages": {
+      "en_US": "&7The dirt coats your boots and becomes hard to move through in this weather...",
+      "zh_TW": "&7在這種天氣下, 泥土覆蓋在你的靴子上, 變得難以移動..."
+    }
+  },
+  {
+    "key": "Seasons.effects.on-trigger.warming-stew",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Your stomach starts to grumble and you begin to crave some hearty soup...",
+      "zh_TW": "&7你的胃開始咕咕叫, 你開始渴望一些豐盛的湯..."
+    }
+  },
+  {
+    "key": "Seasons.effects.on-trigger.wind-in-your-boots",
+    "type": "text",
+    "languages": {
+      "en_US": "&7You feel the wind in your favour today!",
+      "zh_TW": "&7今天感受到的風對你有利!"
+    }
+  },
+  {
+    "key": "Seasons.effects.on-give.feels-good",
+    "type": "text",
+    "languages": {
+      "en_US": "&aThe sun on your skin without armour gives you energy, Feels Good!",
+      "zh_TW": "&a陽光照射在沒有裝備的皮膚上為你提供能量, 感覺很棒!"
+    }
+  },
+  {
+    "key": "Seasons.effects.on-give.fluffy-coat",
+    "type": "text",
+    "languages": {
+      "en_US": "&aYour armour gives you a soothing warmth and makes you more Resistant to the world",
+      "zh_TW": "&a你的裝備帶給你舒適與溫暖, 使你對世界更有抵抗力"
+    }
+  },
+  {
+    "key": "Seasons.effects.on-give.hold-onto-your-hat",
+    "type": "text",
+    "languages": {
+      "en_US": "&eYour hat just blew off, oh dear!",
+      "zh_TW": "&e哦 親愛的, 你的帽子剛剛被吹掉!"
+    }
+  },
+  {
+    "key": "Seasons.effects.on-give.primitive-heating",
+    "type": "text",
+    "languages": {
+      "en_US": "&aA hot item in your inventory warms your heart and makes you Resistant to the cold world",
+      "zh_TW": "&a背包內有熱物品將使你的心臟感受到溫暖, 使你更能夠抵禦寒冷的世界"
+    }
+  },
+  {
+    "key": "Seasons.effects.on-give.revitalized",
+    "type": "text",
+    "languages": {
+      "en_US": "&aThe sun from this world is so &eRevitalising&a, it is Regenerating you!",
+      "zh_TW": "&a來自這世界的陽光讓人&e恢復生機&a, 它正使你再生!"
+    }
+  },
+  {
+    "key": "Seasons.effects.on-give.icy",
+    "type": "text",
+    "languages": {
+      "en_US": "&cThe water freezes in your bucket...",
+      "zh_TW": "&c水在你的水桶內結冰了..."
+    }
+  },
+  {
+    "key": "Seasons.effects.on-give.soldering-iron",
+    "type": "text",
+    "languages": {
+      "en_US": "&cThe iron is soldering hot, try not to hold it for too long!",
+      "zh_TW": "&c鐵非常的燙, 請盡可能不要拿著太久!"
+    }
+  },
+  {
+    "key": "Seasons.effects.on-give.strong-current",
+    "type": "text",
+    "languages": {
+      "en_US": "&cThe current crashes against you and your muscles cry in pain...",
+      "zh_TW": "&c水流正沖撞著你, 你的肌肉因疼痛而哭泣著..."
+    }
+  },
+  {
+    "key": "Seasons.effects.on-give.sweating",
+    "type": "text",
+    "languages": {
+      "en_US": "&cSweat drips from your forehead, it is too Hot for armour today...",
+      "zh_TW": "&c額頭上流淌著汗水, 今天太熱了, 不適合穿裝備..."
+    }
+  },
+  {
+    "key": "Seasons.effects.on-give.the-shivers",
+    "type": "text",
+    "languages": {
+      "en_US": "&cThe freezing water is killing you, get out of it if you want to live!",
+      "zh_TW": "&c冰凍的水正在殺死你, 如果你想要活下去, 就離開它!"
+    }
+  },
+  {
+    "key": "Seasons.effects.on-give.warming-stew",
+    "type": "text",
+    "languages": {
+      "en_US": "&aThat hit the spot, the delicious stew makes your wounds a little more bearable...",
+      "zh_TW": "&a這就對了, 美味的燉湯使你的傷口更可以忍受..."
+    }
+  },
+  {
+    "key": "Seasons.effects.on-give.wet-mud",
+    "type": "text",
+    "languages": {
+      "en_US": "&eThe mud sticks to your boots, slowing you down...",
+      "zh_TW": "&e泥巴黏在你的靴子上, 讓你變慢了..."
+    }
+  },
+  {
+    "key": "Seasons.effects.on-give.wind-in-your-boots",
+    "type": "text",
+    "languages": {
+      "en_US": "&aYou feel a rush of Wind in your Boots and go hurtling forwards!",
+      "zh_TW": "&a你在靴子內感受到一股風, 然後向前飛馳而去!"
+    }
+  },
+  {
+    "key": "Seasons.effects.on-remove.feels-good",
+    "type": "text",
+    "languages": {
+      "en_US": "&eAs you leave the world behind, the energising sunlight wears off...",
+      "zh_TW": "&e當你離開世界時, 充滿活力的陽光將逐漸消失..."
+    }
+  },
+  {
+    "key": "Seasons.effects.on-remove.fluffy-coat",
+    "type": "text",
+    "languages": {
+      "en_US": "&cWithout armour, your body feels the cold once again and is no longer resistant to it",
+      "zh_TW": "&c沒有裝備, 你的身體再次感受到寒冷, 並不再有抗性"
+    }
+  },
+  {
+    "key": "Seasons.effects.on-remove.primitive-heating",
+    "type": "text",
+    "languages": {
+      "en_US": "&eYour body is no longer warmed and its Resistance wears away...",
+      "zh_TW": "&e你的身體不再暖活, 抗性也逐漸消退..."
+    }
+  },
+  {
+    "key": "Seasons.effects.on-remove.revitalized",
+    "type": "text",
+    "languages": {
+      "en_US": "&eAs the light of the world light leaves your skin, the &6Revitalising &eenergy leaves too...",
+      "zh_TW": "&e隨著世界之光離開你的皮膚時, &6恢復生機&e的能量也離開了..."
+    }
+  },
+  {
+    "key": "Seasons.effects.on-remove.strong-current",
+    "type": "text",
+    "languages": {
+      "en_US": "&aThe waters die down and grow still...",
+      "zh_TW": "&a水再次的平靜下來, 並將會保持增長..."
+    }
+  },
+  {
+    "key": "Seasons.effects.on-remove.sweating",
+    "type": "text",
+    "languages": {
+      "en_US": "&aThe air turns cooler and you wipe the sweat from your forehead...",
+      "zh_TW": "&a空氣轉涼, 你擦去額頭上的汗水..."
+    }
+  },
+  {
+    "key": "Seasons.command.effects-list-title",
+    "type": "text",
+    "languages": {
+      "en_US": "&7For the weather &e%1, &7the effects are:",
+      "zh_TW": "&7對於天氣 &e%1, &7效果為:"
+    }
+  },
+  {
+    "key": "Seasons.command.effects-list-element",
+    "type": "text",
+    "languages": {
+      "en_US": "&6&l%1: &7%2",
+      "zh_TW": "&6&l%1: &7%2"
+    }
+  },
+  {
+    "key": "Seasons.command.season-info.0",
+    "type": "text",
+    "languages": {
+      "en_US": "%1Your world is in %2",
+      "zh_TW": "%1你在的世界是 %2"
+    }
+  },
+  {
+    "key": "Seasons.command.season-info.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&7The weather is currently &2%1",
+      "zh_TW": "&7當前的天氣是 &2%1"
+    }
+  },
+  {
+    "key": "Seasons.command.season-info.2",
+    "type": "text",
+    "languages": {
+      "en_US": "&eToday is Day %1 of %2",
+      "zh_TW": "&e今天是第 %1 天 (共 %2 天)"
+    }
+  },
+  {
+    "key": "Seasons.command.season-info-footer",
+    "type": "text",
+    "languages": {
+      "en_US": "&7To see the effects of this weather, use the command &e/seasons effects",
+      "zh_TW": "&7要查看天氣的效果影響, 請使用指令 &e/seasons effects"
+    }
+  },
+  {
+    "key": "Seasons.command.list-help.0",
+    "type": "text",
+    "languages": {
+      "en_US": "&7You can currently list: %1",
+      "zh_TW": "&7你目前可以列出: %1"
+    }
+  },
+  {
+    "key": "Seasons.command.list-help.1",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Usage: &e/seasons list <option>",
+      "zh_TW": "&7用法: &e/seasons list <option>"
+    }
+  },
+  {
+    "key": "Seasons.command.list-error",
+    "type": "text",
+    "languages": {
+      "en_US": "&cThere are no lists of that type available!",
+      "zh_TW": "&c沒有該類型的列表!"
+    }
+  },
+  {
+    "key": "Seasons.command.permission-denied",
+    "type": "text",
+    "languages": {
+      "en_US": "&cYou do not have permission to do that!",
+      "zh_TW": "&c你沒有權限執行此操作!"
+    }
+  },
+  {
+    "key": "Seasons.command.all-effects-disabled",
+    "type": "text",
+    "languages": {
+      "en_US": "&cThe server administrator has disabled all effects!",
+      "zh_TW": "&c伺服器管理員已關閉所有效果!"
+    }
+  },
+  {
+    "key": "Seasons.command.barren-world",
+    "type": "text",
+    "languages": {
+      "en_US": "&cThis world is barren and full of darkness... There are no seasons here.",
+      "zh_TW": "&c這個世界荒蕪的, 並充滿著黑暗... 這裡沒有季節之分."
+    }
+  },
+  {
+    "key": "Seasons.command.force-day",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Time shatters before you and now it is &bDay %1",
+      "zh_TW": "&7時間在你眼前破碎, 現在是 &b第 %1 天"
+    }
+  },
+  {
+    "key": "Seasons.command.force-weather",
+    "type": "text",
+    "languages": {
+      "en_US": "&7The skies grow silent and with a great rumble, the weather is now %1",
+      "zh_TW": "&7天空變得寂靜, 伴隨著巨大的轟鳴聲, 現在的天氣是 %1"
+    }
+  },
+  {
+    "key": "Seasons.command.force-season",
+    "type": "text",
+    "languages": {
+      "en_US": "&7The air around you changes mystically and becomes %1",
+      "zh_TW": "&7周圍的空氣神秘的變化, 變成 %1"
+    }
+  },
+  {
+    "key": "Seasons.misc.prefix",
+    "type": "text",
+    "languages": {
+      "en_US": "&e&lSeasons&7∙ &r",
+      "zh_TW": "&e&lSeasons&7∙ &r"
+    }
+  },
+  {
+    "key": "Seasons.misc.catastrophic-alert",
+    "type": "text",
+    "languages": {
+      "en_US": "&c&lCATASTROPHIC WEATHER ALERT - Take care to plan your day",
+      "zh_TW": "&c&l災難性的天氣警報 - 小心規劃你的一天"
+    }
+  },
+  {
+    "key": "Seasons.misc.weather-change",
+    "type": "text",
+    "languages": {
+      "en_US": "&7The weather has changed",
+      "zh_TW": "&7天氣已改變"
+    }
+  },
+  {
+    "key": "Seasons.misc.season-change",
+    "type": "text",
+    "languages": {
+      "en_US": "&7The season has changed",
+      "zh_TW": "&7季節已改變"
+    }
+  }
+]

@@ -1,0 +1,121 @@
+weathers:
+  name:
+    beautiful: '[lang]Seasons.weathers.name.beautiful[/lang]'
+    breezy: '[lang]Seasons.weathers.name.breezy[/lang]'
+    chilly: '[lang]Seasons.weathers.name.chilly[/lang]'
+    rainy: '[lang]Seasons.weathers.name.rainy[/lang]'
+    scorching: '[lang]Seasons.weathers.name.scorching[/lang]'
+    hot: '[lang]Seasons.weathers.name.hot[/lang]'
+    warm: '[lang]Seasons.weathers.name.warm[/lang]'
+    cold: '[lang]Seasons.weathers.name.cold[/lang]'
+    stormy: '[lang]Seasons.weathers.name.stormy[/lang]'
+    freezing: '[lang]Seasons.weathers.name.freezing[/lang]'
+    snowy: '[lang]Seasons.weathers.name.snowy[/lang]'
+    night: '[lang]Seasons.weathers.name.night[/lang]'
+  on-trigger:
+    beautiful: >-
+      [lang]Seasons.weathers.on-trigger.beautiful[args][arg]%weather%[/arg][/args][/lang]
+    breezy: >-
+      [lang]Seasons.weathers.on-trigger.breezy[args][arg]%weather%[/arg][/args][/lang]
+    chilly: >-
+      [lang]Seasons.weathers.on-trigger.chilly[args][arg]%weather%[/arg][/args][/lang]
+    rainy: >-
+      [lang]Seasons.weathers.on-trigger.rainy[args][arg]%weather%[/arg][/args][/lang]
+    scorching: >-
+      [lang]Seasons.weathers.on-trigger.scorching[args][arg]%weather%[/arg][/args][/lang]
+    hot: >-
+      [lang]Seasons.weathers.on-trigger.hot[args][arg]%weather%[/arg][/args][/lang]
+    warm: >-
+      [lang]Seasons.weathers.on-trigger.warm[args][arg]%weather%[/arg][/args][/lang]
+    cold: >-
+      [lang]Seasons.weathers.on-trigger.cold[args][arg]%weather%[/arg][/args][/lang]
+    stormy: >-
+      [lang]Seasons.weathers.on-trigger.stormy[args][arg]%weather%[/arg][/args][/lang]
+    freezing: >-
+      [lang]Seasons.weathers.on-trigger.freezing[args][arg]%weather%[/arg][/args][/lang]
+    snowy: >-
+      [lang]Seasons.weathers.on-trigger.snowy[args][arg]%weather%[/arg][/args][/lang]
+    night: '[lang]Seasons.weathers.on-trigger.night[/lang]'
+seasons:
+  name:
+    spring: '[lang]Seasons.seasons.name.spring[/lang]'
+    summer: '[lang]Seasons.seasons.name.summer[/lang]'
+    autumn: '[lang]Seasons.seasons.name.autumn[/lang]'
+    winter: '[lang]Seasons.seasons.name.winter[/lang]'
+  on-trigger:
+    spring: >-
+      [lang]Seasons.seasons.on-trigger.spring[args][arg]%season%[/arg][/args][/lang]
+    summer: >-
+      [lang]Seasons.seasons.on-trigger.summer[args][arg]%season%[/arg][/args][/lang]
+    autumn: >-
+      [lang]Seasons.seasons.on-trigger.autumn[args][arg]%season%[/arg][/args][/lang]
+    winter: >-
+      [lang]Seasons.seasons.on-trigger.winter[args][arg]%season%[/arg][/args][/lang]
+effects:
+  on-trigger:
+    devastation: '[lang]Seasons.effects.on-trigger.devastation[/lang]'
+    feels-good: '[lang]Seasons.effects.on-trigger.feels-good[/lang]'
+    fluffy-coat: '[lang]Seasons.effects.on-trigger.fluffy-coat[/lang]'
+    frostbite: '[lang]Seasons.effects.on-trigger.frostbite[/lang]'
+    hold-onto-your-hat: '[lang]Seasons.effects.on-trigger.hold-onto-your-hat[/lang]'
+    hot-sand: '[lang]Seasons.effects.on-trigger.hot-sand[/lang]'
+    icy: '[lang]Seasons.effects.on-trigger.icy[/lang]'
+    primitive-heating: '[lang]Seasons.effects.on-trigger.primitive-heating[/lang]'
+    revitalized: '[lang]Seasons.effects.on-trigger.revitalized[/lang]'
+    soldering-iron: '[lang]Seasons.effects.on-trigger.soldering-iron[/lang]'
+    strong-current: '[lang]Seasons.effects.on-trigger.strong-current[/lang]'
+    sweating: '[lang]Seasons.effects.on-trigger.sweating[/lang]'
+    the-shivers: '[lang]Seasons.effects.on-trigger.the-shivers[/lang]'
+    wet-mud: '[lang]Seasons.effects.on-trigger.wet-mud[/lang]'
+    warming-stew: '[lang]Seasons.effects.on-trigger.warming-stew[/lang]'
+    wind-in-your-boots: '[lang]Seasons.effects.on-trigger.wind-in-your-boots[/lang]'
+  on-give:
+    feels-good: '[lang]Seasons.effects.on-give.feels-good[/lang]'
+    fluffy-coat: '[lang]Seasons.effects.on-give.fluffy-coat[/lang]'
+    hold-onto-your-hat: '[lang]Seasons.effects.on-give.hold-onto-your-hat[/lang]'
+    primitive-heating: '[lang]Seasons.effects.on-give.primitive-heating[/lang]'
+    revitalized: '[lang]Seasons.effects.on-give.revitalized[/lang]'
+    icy: '[lang]Seasons.effects.on-give.icy[/lang]'
+    soldering-iron: '[lang]Seasons.effects.on-give.soldering-iron[/lang]'
+    strong-current: '[lang]Seasons.effects.on-give.strong-current[/lang]'
+    sweating: '[lang]Seasons.effects.on-give.sweating[/lang]'
+    the-shivers: '[lang]Seasons.effects.on-give.the-shivers[/lang]'
+    warming-stew: '[lang]Seasons.effects.on-give.warming-stew[/lang]'
+    wet-mud: '[lang]Seasons.effects.on-give.wet-mud[/lang]'
+    wind-in-your-boots: '[lang]Seasons.effects.on-give.wind-in-your-boots[/lang]'
+  on-remove:
+    feels-good: '[lang]Seasons.effects.on-remove.feels-good[/lang]'
+    fluffy-coat: '[lang]Seasons.effects.on-remove.fluffy-coat[/lang]'
+    primitive-heating: '[lang]Seasons.effects.on-remove.primitive-heating[/lang]'
+    revitalized: '[lang]Seasons.effects.on-remove.revitalized[/lang]'
+    strong-current: '[lang]Seasons.effects.on-remove.strong-current[/lang]'
+    sweating: '[lang]Seasons.effects.on-remove.sweating[/lang]'
+command:
+  effects-list-title: >-
+    [lang]Seasons.command.effects-list-title[args][arg]%weather%[/arg][/args][/lang]
+  effects-list-element: >-
+    [lang]Seasons.command.effects-list-element[args][arg]%effect%[/arg][arg]%description%[/arg][/args][/lang]
+  season-info:
+    - >-
+      [lang]Seasons.command.season-info.0[args][arg]%season-color%[/arg][arg]%season%[/arg][/args][/lang]
+    - >-
+      [lang]Seasons.command.season-info.1[args][arg]%weather%[/arg][/args][/lang]
+    - >-
+      [lang]Seasons.command.season-info.2[args][arg]%day%[/arg][arg]%max-days%[/arg][/args][/lang]
+  season-info-footer: '[lang]Seasons.command.season-info-footer[/lang]'
+  list-help:
+    - '[lang]Seasons.command.list-help.0[args][arg]%options%[/arg][/args][/lang]'
+    - '[lang]Seasons.command.list-help.1[/lang]'
+  list-error: '[lang]Seasons.command.list-error[/lang]'
+  permission-denied: '[lang]Seasons.command.permission-denied[/lang]'
+  all-effects-disabled: '[lang]Seasons.command.all-effects-disabled[/lang]'
+  barren-world: '[lang]Seasons.command.barren-world[/lang]'
+  force-day: '[lang]Seasons.command.force-day[args][arg]%day%[/arg][/args][/lang]'
+  force-weather: '[lang]Seasons.command.force-weather[args][arg]%weather%[/arg][/args][/lang]'
+  force-season: '[lang]Seasons.command.force-season[args][arg]%season%[/arg][/args][/lang]'
+misc:
+  prefix: '[lang]Seasons.misc.prefix[/lang]'
+  catastrophic-alert: '[lang]Seasons.misc.catastrophic-alert[/lang]'
+  weather-change: '[lang]Seasons.misc.weather-change[/lang]'
+  season-change: '[lang]Seasons.misc.season-change[/lang]'
+version: 4
