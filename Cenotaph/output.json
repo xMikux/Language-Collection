@@ -1,0 +1,650 @@
+[
+  {
+    "key": "Cenotaph.permission_denied",
+    "type": "text",
+    "languages": {
+      "en_US": "Permission Denied",
+      "zh_TW": "沒有權限"
+    }
+  },
+  {
+    "key": "Cenotaph.you_have_no_cenotaphs",
+    "type": "text",
+    "languages": {
+      "en_US": "You have no cenotaphs.",
+      "zh_TW": "你沒有紀念碑."
+    }
+  },
+  {
+    "key": "Cenotaph.there_are_no_cenotaphs",
+    "type": "text",
+    "languages": {
+      "en_US": "There are no cenotaphs.",
+      "zh_TW": "那裡沒有紀念碑."
+    }
+  },
+  {
+    "key": "Cenotaph.no_cenotaphs_found_for_x",
+    "type": "text",
+    "languages": {
+      "en_US": "No cenotaphs found for %1.",
+      "zh_TW": "找不到紀念碑於 %1."
+    }
+  },
+  {
+    "key": "Cenotaph.players_with_cenotaphs",
+    "type": "text",
+    "languages": {
+      "en_US": "Players with cenotaphs:",
+      "zh_TW": "玩家跟紀念碑:"
+    }
+  },
+  {
+    "key": "Cenotaph.player_not_found",
+    "type": "text",
+    "languages": {
+      "en_US": "Player %1 not found.",
+      "zh_TW": "玩家 %1 未找到."
+    }
+  },
+  {
+    "key": "Cenotaph.cenotaph_list",
+    "type": "text",
+    "languages": {
+      "en_US": "Cenotaph list:",
+      "zh_TW": "紀念碑列表:"
+    }
+  },
+  {
+    "key": "Cenotaph.world",
+    "type": "text",
+    "languages": {
+      "en_US": "World:",
+      "zh_TW": "世界:"
+    }
+  },
+  {
+    "key": "Cenotaph.locked",
+    "type": "text",
+    "languages": {
+      "en_US": " [Locked]",
+      "zh_TW": " [鎖定]"
+    }
+  },
+  {
+    "key": "Cenotaph.locked_time",
+    "type": "text",
+    "languages": {
+      "en_US": " [Locked %1]",
+      "zh_TW": " [鎖定 %1]"
+    }
+  },
+  {
+    "key": "Cenotaph.unlocked",
+    "type": "text",
+    "languages": {
+      "en_US": " [Unlocked]",
+      "zh_TW": " [解鎖]"
+    }
+  },
+  {
+    "key": "Cenotaph.invalid_cenotaph_entry_verbose",
+    "type": "text",
+    "languages": {
+      "en_US": "Invalid cenotaph entry or no cenotaphs active. Check with //cenlist.",
+      "zh_TW": "無效的紀念碑輸入或沒有紀念碑存在. 檢查於 //cenlist."
+    }
+  },
+  {
+    "key": "Cenotaph.invalid_cenotaph_entry",
+    "type": "text",
+    "languages": {
+      "en_US": "Invalid cenotaph entry.",
+      "zh_TW": "無效的紀念碑輸入."
+    }
+  },
+  {
+    "key": "Cenotaph.course",
+    "type": "text",
+    "languages": {
+      "en_US": "Course: %1 (%2). Your compass has been set to point that direction. Use //cenreset to reset it to your spawn point.",
+      "zh_TW": "路程: %1 (%2). 你的羅盤已設置為指向該方向. 使用 //cenreset 來重置它到你的重生點."
+    }
+  },
+  {
+    "key": "Cenotaph.admin_cen_find_with_dir",
+    "type": "text",
+    "languages": {
+      "en_US": "Location: %1,%2,%3, to the %4.",
+      "zh_TW": "位置: %1,%2,%3, to the %4."
+    }
+  },
+  {
+    "key": "Cenotaph.admin_cen_find",
+    "type": "text",
+    "languages": {
+      "en_US": "Location: %1,%2,%3.",
+      "zh_TW": "位置: %1,%2,%3."
+    }
+  },
+  {
+    "key": "Cenotaph.config_reloaded",
+    "type": "text",
+    "languages": {
+      "en_US": "Configuration reloaded from file.",
+      "zh_TW": "設定已從文件中重新加載."
+    }
+  },
+  {
+    "key": "Cenotaph.command_cannot_be_used_from_the_console",
+    "type": "text",
+    "languages": {
+      "en_US": "Command cannot be used from the console.",
+      "zh_TW": "指令無法在控制台上使用."
+    }
+  },
+  {
+    "key": "Cenotaph.invalid_command",
+    "type": "text",
+    "languages": {
+      "en_US": "Invalid command",
+      "zh_TW": "無效指令"
+    }
+  },
+  {
+    "key": "Cenotaph.missing_subcommand",
+    "type": "text",
+    "languages": {
+      "en_US": "Missing Subcommand:",
+      "zh_TW": "缺失子指令:"
+    }
+  },
+  {
+    "key": "Cenotaph.usage",
+    "type": "text",
+    "languages": {
+      "en_US": "Usage: ",
+      "zh_TW": "用法: "
+    }
+  },
+  {
+    "key": "Cenotaph.your_cenotaph_has_broken",
+    "type": "text",
+    "languages": {
+      "en_US": "Your cenotaph has broken.",
+      "zh_TW": "你的紀念碑已破壞."
+    }
+  },
+  {
+    "key": "Cenotaph.your_cenotaph_has_been_destroyed_by_x",
+    "type": "text",
+    "languages": {
+      "en_US": "Your cenotaph has been broken by %1!",
+      "zh_TW": "你的紀念碑被 %1 破壞!"
+    }
+  },
+  {
+    "key": "Cenotaph.this_cenotaph_is_secured",
+    "type": "text",
+    "languages": {
+      "en_US": "This cenotaph is secured.",
+      "zh_TW": "此紀念碑是安全的."
+    }
+  },
+  {
+    "key": "Cenotaph.security",
+    "type": "text",
+    "languages": {
+      "en_US": "Security: ",
+      "zh_TW": "安全性: "
+    }
+  },
+  {
+    "key": "Cenotaph.secured",
+    "type": "text",
+    "languages": {
+      "en_US": "Secured",
+      "zh_TW": "安全"
+    }
+  },
+  {
+    "key": "Cenotaph.unsecured",
+    "type": "text",
+    "languages": {
+      "en_US": "Unsecured",
+      "zh_TW": "不安全"
+    }
+  },
+  {
+    "key": "Cenotaph.sectime",
+    "type": "text",
+    "languages": {
+      "en_US": " SecTime: ",
+      "zh_TW": " 安全時間: "
+    }
+  },
+  {
+    "key": "Cenotaph.inf",
+    "type": "text",
+    "languages": {
+      "en_US": "Inf ",
+      "zh_TW": "資訊 "
+    }
+  },
+  {
+    "key": "Cenotaph.breaktime",
+    "type": "text",
+    "languages": {
+      "en_US": "BreakTime:",
+      "zh_TW": "移除時間:"
+    }
+  },
+  {
+    "key": "Cenotaph.breakoverride",
+    "type": "text",
+    "languages": {
+      "en_US": "BreakOverride: ",
+      "zh_TW": "破壞複寫: "
+    }
+  },
+  {
+    "key": "Cenotaph.break_on_empty",
+    "type": "text",
+    "languages": {
+      "en_US": "Break on empty",
+      "zh_TW": "破壞在空時"
+    }
+  },
+  {
+    "key": "Cenotaph.keep_until_empty",
+    "type": "text",
+    "languages": {
+      "en_US": "Keep until empty",
+      "zh_TW": "保留直到空"
+    }
+  },
+  {
+    "key": "Cenotaph.worldguard_area",
+    "type": "text",
+    "languages": {
+      "en_US": "In a WorldGuard protected area. Inv dropped.",
+      "zh_TW": "在 WorldGuard 保護區域內. 物品已掉落."
+    }
+  },
+  {
+    "key": "Cenotaph.towny_area",
+    "type": "text",
+    "languages": {
+      "en_US": "In a protected Towny area. Inv dropped.",
+      "zh_TW": "在受保護的Towny區域內. 物品已掉落."
+    }
+  },
+  {
+    "key": "Cenotaph.inv_empty",
+    "type": "text",
+    "languages": {
+      "en_US": "Inv empty.",
+      "zh_TW": "空物品欄."
+    }
+  },
+  {
+    "key": "Cenotaph.cenotaph_disabled_in_world",
+    "type": "text",
+    "languages": {
+      "en_US": "Cenotaph disabled in %1. Inv dropped.",
+      "zh_TW": "紀念碑已關閉在 %1. 物品已掉落."
+    }
+  },
+  {
+    "key": "Cenotaph.chest_would_be_in_the_void",
+    "type": "text",
+    "languages": {
+      "en_US": "Chest would be in the Void. Inv dropped.",
+      "zh_TW": "箱子會在虛空中. 物品已掉落."
+    }
+  },
+  {
+    "key": "Cenotaph.not_enough_money",
+    "type": "text",
+    "languages": {
+      "en_US": "Not enough money! Inv dropped.",
+      "zh_TW": "沒有足夠多的錢! 物品已掉落."
+    }
+  },
+  {
+    "key": "Cenotaph.no_chest",
+    "type": "text",
+    "languages": {
+      "en_US": "No chest! Inv dropped.",
+      "zh_TW": "沒有箱子! 物品已掉落."
+    }
+  },
+  {
+    "key": "Cenotaph.no_room_to_place_chest",
+    "type": "text",
+    "languages": {
+      "en_US": "No room to place chest. Inv dropped.",
+      "zh_TW": "沒有足夠空間放置箱子. 物品已掉落."
+    }
+  },
+  {
+    "key": "Cenotaph.could_not_access_chest",
+    "type": "text",
+    "languages": {
+      "en_US": "Could not access chest. Inv dropped.",
+      "zh_TW": "無法存取箱子. 物品已掉落."
+    }
+  },
+  {
+    "key": "Cenotaph.no_cenotaph_for_pvp_deaths",
+    "type": "text",
+    "languages": {
+      "en_US": "No cenotaph for PVP deaths! Inv dropped.",
+      "zh_TW": "沒有紀念碑在PVP死亡! 物品已掉落."
+    }
+  },
+  {
+    "key": "Cenotaph.inv_stored",
+    "type": "text",
+    "languages": {
+      "en_US": "Inv stored. ",
+      "zh_TW": "物品已儲存. "
+    }
+  },
+  {
+    "key": "Cenotaph.overflow",
+    "type": "text",
+    "languages": {
+      "en_US": "Overflow: ",
+      "zh_TW": "溢出: "
+    }
+  },
+  {
+    "key": "Cenotaph.cenotaph_paid_for",
+    "type": "text",
+    "languages": {
+      "en_US": "%1 %2 has been taken from your account.",
+      "zh_TW": "%1 %2 已從你的帳號中提取."
+    }
+  },
+  {
+    "key": "Cenotaph.removed_x_holograms",
+    "type": "text",
+    "languages": {
+      "en_US": "Removed %1 hologram(s).",
+      "zh_TW": "移除 %1 漂浮文字."
+    }
+  },
+  {
+    "key": "Cenotaph.no_holograms_found",
+    "type": "text",
+    "languages": {
+      "en_US": "No holograms found within 5 blocks. You must be in the same chunk as the hologram.",
+      "zh_TW": "沒有漂浮文字在五格方塊內發現. 你必須與漂浮文字在同一個區塊中."
+    }
+  },
+  {
+    "key": "Cenotaph.north",
+    "type": "text",
+    "languages": {
+      "en_US": "North",
+      "zh_TW": "北"
+    }
+  },
+  {
+    "key": "Cenotaph.northeast",
+    "type": "text",
+    "languages": {
+      "en_US": "Northeast",
+      "zh_TW": "東北"
+    }
+  },
+  {
+    "key": "Cenotaph.east",
+    "type": "text",
+    "languages": {
+      "en_US": "East",
+      "zh_TW": "東"
+    }
+  },
+  {
+    "key": "Cenotaph.southeast",
+    "type": "text",
+    "languages": {
+      "en_US": "Southeast",
+      "zh_TW": "東南"
+    }
+  },
+  {
+    "key": "Cenotaph.south",
+    "type": "text",
+    "languages": {
+      "en_US": "South",
+      "zh_TW": "南"
+    }
+  },
+  {
+    "key": "Cenotaph.southwest",
+    "type": "text",
+    "languages": {
+      "en_US": "Southwest",
+      "zh_TW": "西南"
+    }
+  },
+  {
+    "key": "Cenotaph.west",
+    "type": "text",
+    "languages": {
+      "en_US": "West",
+      "zh_TW": "西"
+    }
+  },
+  {
+    "key": "Cenotaph.northwest",
+    "type": "text",
+    "languages": {
+      "en_US": "Northwest",
+      "zh_TW": "西北"
+    }
+  },
+  {
+    "key": "Cenotaph.unknown",
+    "type": "text",
+    "languages": {
+      "en_US": "Unknown",
+      "zh_TW": "未知"
+    }
+  },
+  {
+    "key": "Cenotaph.dispenser",
+    "type": "text",
+    "languages": {
+      "en_US": "Dispenser",
+      "zh_TW": "發射器"
+    }
+  },
+  {
+    "key": "Cenotaph.cactus",
+    "type": "text",
+    "languages": {
+      "en_US": "Cactus",
+      "zh_TW": "仙人掌"
+    }
+  },
+  {
+    "key": "Cenotaph.suffocaton",
+    "type": "text",
+    "languages": {
+      "en_US": "Suffocation",
+      "zh_TW": "窒息"
+    }
+  },
+  {
+    "key": "Cenotaph.fall",
+    "type": "text",
+    "languages": {
+      "en_US": "Fall",
+      "zh_TW": "跌落"
+    }
+  },
+  {
+    "key": "Cenotaph.fire",
+    "type": "text",
+    "languages": {
+      "en_US": "Fire",
+      "zh_TW": "火焰"
+    }
+  },
+  {
+    "key": "Cenotaph.burning",
+    "type": "text",
+    "languages": {
+      "en_US": "Burning",
+      "zh_TW": "燃燒"
+    }
+  },
+  {
+    "key": "Cenotaph.lava",
+    "type": "text",
+    "languages": {
+      "en_US": "Lava",
+      "zh_TW": "熔岩"
+    }
+  },
+  {
+    "key": "Cenotaph.drowning",
+    "type": "text",
+    "languages": {
+      "en_US": "Drowning",
+      "zh_TW": "溺死"
+    }
+  },
+  {
+    "key": "Cenotaph.explosion",
+    "type": "text",
+    "languages": {
+      "en_US": "Explosion",
+      "zh_TW": "爆炸"
+    }
+  },
+  {
+    "key": "Cenotaph.tnt",
+    "type": "text",
+    "languages": {
+      "en_US": "TNT",
+      "zh_TW": "TNT"
+    }
+  },
+  {
+    "key": "Cenotaph.ghast",
+    "type": "text",
+    "languages": {
+      "en_US": "Ghast",
+      "zh_TW": "地獄幽靈"
+    }
+  },
+  {
+    "key": "Cenotaph.creeper",
+    "type": "text",
+    "languages": {
+      "en_US": "Creeper",
+      "zh_TW": "苦力怕"
+    }
+  },
+  {
+    "key": "Cenotaph.void",
+    "type": "text",
+    "languages": {
+      "en_US": "The Void",
+      "zh_TW": "虛空"
+    }
+  },
+  {
+    "key": "Cenotaph.lightning",
+    "type": "text",
+    "languages": {
+      "en_US": "Lightning",
+      "zh_TW": "閃電"
+    }
+  },
+  {
+    "key": "Cenotaph.anvil",
+    "type": "text",
+    "languages": {
+      "en_US": "Anvil",
+      "zh_TW": "鐵砧"
+    }
+  },
+  {
+    "key": "Cenotaph.magic",
+    "type": "text",
+    "languages": {
+      "en_US": "Magic",
+      "zh_TW": "魔法"
+    }
+  },
+  {
+    "key": "Cenotaph.withereffect",
+    "type": "text",
+    "languages": {
+      "en_US": "Withered Away",
+      "zh_TW": "凋零"
+    }
+  },
+  {
+    "key": "Cenotaph.starvation",
+    "type": "text",
+    "languages": {
+      "en_US": "Starvation",
+      "zh_TW": "餓死"
+    }
+  },
+  {
+    "key": "Cenotaph.poison",
+    "type": "text",
+    "languages": {
+      "en_US": "Poisoned",
+      "zh_TW": "中毒"
+    }
+  },
+  {
+    "key": "Cenotaph.suicide",
+    "type": "text",
+    "languages": {
+      "en_US": "Suicide",
+      "zh_TW": "自殺"
+    }
+  },
+  {
+    "key": "Cenotaph.flyintowall",
+    "type": "text",
+    "languages": {
+      "en_US": "Hit a Wall",
+      "zh_TW": "撞牆"
+    }
+  },
+  {
+    "key": "Cenotaph.hotfloor",
+    "type": "text",
+    "languages": {
+      "en_US": "Stepping on Magma",
+      "zh_TW": "踩在岩漿塊"
+    }
+  },
+  {
+    "key": "Cenotaph.dragonbreath",
+    "type": "text",
+    "languages": {
+      "en_US": "Dragon's Breath",
+      "zh_TW": "龍之吐息"
+    }
+  },
+  {
+    "key": "Cenotaph.thorns",
+    "type": "text",
+    "languages": {
+      "en_US": "Thorns",
+      "zh_TW": "尖刺"
+    }
+  }
+]
