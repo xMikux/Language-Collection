@@ -1,0 +1,138 @@
+[
+  {
+    "key": "ChestSort.message-when-using-chest",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Hint: Type &6/chestsort&7 to enable automatic chest sorting.",
+      "zh_TW": "&7小提醒: 輸入 &6/chestsort&7 來開啟自動整理箱子"
+    }
+  },
+  {
+    "key": "ChestSort.message-when-using-chest2",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Hint: Type &6/chestsort&7 to disable automatic chest sorting.",
+      "zh_TW": "&7小提醒: 輸入 &6/chestsort&7 來關閉自動整理箱子"
+    }
+  },
+  {
+    "key": "ChestSort.message-sorting-disabled",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Automatic chest sorting has been &cdisabled&7.",
+      "zh_TW": "&7自動整理箱子已 &c關閉&7"
+    }
+  },
+  {
+    "key": "ChestSort.message-sorting-enabled",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Automatic chest sorting has been &aenabled&7.",
+      "zh_TW": "&7自動整理箱子已 &a開啟&7"
+    }
+  },
+  {
+    "key": "ChestSort.message-inv-sorting-disabled",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Automatic inventory sorting has been &cdisabled&7.",
+      "zh_TW": "&7自動整理背包已 &c關閉&7."
+    }
+  },
+  {
+    "key": "ChestSort.message-inv-sorting-enabled",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Automatic inventory sorting has been &aenabled&7.",
+      "zh_TW": "&7自動整理背包已 &a開啟&7."
+    }
+  },
+  {
+    "key": "ChestSort.message-player-inventory-sorted",
+    "type": "text",
+    "languages": {
+      "en_US": "&7Your inventory has been sorted.",
+      "zh_TW": "&7你的背包已成功整理."
+    }
+  },
+  {
+    "key": "ChestSort.message-error-players-only",
+    "type": "text",
+    "languages": {
+      "en_US": "&cError: This command can only be run by players.",
+      "zh_TW": "&c錯誤: 這個指令只能由玩家使用"
+    }
+  },
+  {
+    "key": "ChestSort.message-error-invalid-options",
+    "type": "text",
+    "languages": {
+      "en_US": "&cError: Unknown option %1. Valid options are %2.",
+      "zh_TW": "&c錯誤: 未知選項 %1. 有效的選項為 %2."
+    }
+  },
+  {
+    "key": "ChestSort.message-gui-enabled",
+    "type": "text",
+    "languages": {
+      "en_US": "&aEnabled",
+      "zh_TW": "&a開啟"
+    }
+  },
+  {
+    "key": "ChestSort.message-gui-disabled",
+    "type": "text",
+    "languages": {
+      "en_US": "&cDisabled",
+      "zh_TW": "&c關閉"
+    }
+  },
+  {
+    "key": "ChestSort.message-gui-middle-click",
+    "type": "text",
+    "languages": {
+      "en_US": "Middle-Click",
+      "zh_TW": "中鍵"
+    }
+  },
+  {
+    "key": "ChestSort.message-gui-shift-click",
+    "type": "text",
+    "languages": {
+      "en_US": "Shift + Click",
+      "zh_TW": "Shift + 左鍵"
+    }
+  },
+  {
+    "key": "ChestSort.message-gui-double-click",
+    "type": "text",
+    "languages": {
+      "en_US": "Double-Click",
+      "zh_TW": "雙擊左鍵"
+    }
+  },
+  {
+    "key": "ChestSort.message-gui-shift-right-click",
+    "type": "text",
+    "languages": {
+      "en_US": "Shift + Right-Click",
+      "zh_TW": "Shift + 右鍵"
+    }
+  },
+  {
+    "key": "ChestSort.message-gui-left-click",
+    "type": "text",
+    "languages": {
+      "en_US": "Fill Chest (Left-Click/Double-Left-Click)",
+      "zh_TW": "填滿箱子 (左鍵/雙擊左鍵)"
+    }
+  },
+  {
+    "key": "ChestSort.message-gui-right-click",
+    "type": "text",
+    "languages": {
+      "en_US": "Empty Chest (Right-Click/Double-Right-Click)",
+      "zh_TW": "清空箱子 (右鍵/雙擊右鍵)"
+    }
+  }
+]

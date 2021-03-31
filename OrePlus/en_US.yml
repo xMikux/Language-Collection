@@ -1,0 +1,18 @@
+# I am a novice developer, if there is something wrong or something is missing write it down and don't cut my head off! :D
+# By Narcox V2.1
+# Versions: 1.16-1.16.5
+# Edit all message for self, effect and particles configurable soon!
+# Thanks for use my plugin, is you like my "Low" resources rate 5 stars! :D
+
+ReloadMessage: '&8[&fOrePlus&8] &aSuccess reload!'
+Settings:
+  Diamond: '&b+ Slow mining 2 &8| &7(30 sec)'
+  Emerald: '&a+ Hero of the village 1 &8| &7(1 min)'
+  Gold: '&6+ Fast mining 2 &8| &7(30 sec)'
+  Iron: '&f+ Speed 3 &8| &7(3 min)'
+  Coal: '&e+ Glow 1 &8| &7(2 min 3 sec)'
+  Lapis: '&6+ Absorption 3 &8| &7(3 min)'
+  Redstone: '&c+ Regeneration 4 &8| &7(2 min 4 sec)'
+  Debris: '&6+ Fire resistence 1 &8| &7(1 min)'
+  Nethergold: '&f+ Slowness 1 &8| &7(30 sec)'
+  Quartz: '&b+ Slow falling 1 &8| &7(30 sec)'

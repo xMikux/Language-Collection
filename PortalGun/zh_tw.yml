@@ -1,0 +1,23 @@
+user:
+  no_permissions: 你沒有權限執行!
+  remove_death: 由於你死亡, 你的傳送門已被移除.
+  remove_all: 你已移除所有傳送門.
+  get_portalboots: 已給予傳送靴!
+  other_remove: '[player] 已移除你的傳送門.'
+  get_portalgun: 已給予傳送槍!
+  no_portals: 你沒有任何已開啟的傳送門.
+  remove: 你已成功的刪除了你的傳送門.
+  remove_others: 你已移除 [player] 的傳送門.
+  other_no_portals: '[player] 沒有任何已打開的傳送門.'
+  not_found: '[player] 未找到.'
+portal:
+  open: '[player] 在 [pos] 開啟了傳送門.'
+  far: 該方塊距離太遠, 無法放置傳送門.
+  deny: 你無法在此開啟傳送門.
+  collides: 你不能將兩個傳送門放在相同的地方!
+help:
+  remove_portals: 移除你的傳送門.
+  remove_others_portals: 移除其他人的傳送門.
+  get_portalgun: 獲取傳送槍.
+  get_portalboots: 獲取傳送靴.
+  remove_all_portals: 刪除所有傳送門.

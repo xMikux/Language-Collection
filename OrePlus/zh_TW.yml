@@ -1,0 +1,18 @@
+# I am a novice developer, if there is something wrong or something is missing write it down and don't cut my head off! :D
+# By Narcox V2.1
+# Versions: 1.16-1.16.5
+# Edit all message for self, effect and particles configurable soon!
+# Thanks for use my plugin, is you like my "Low" resources rate 5 stars! :D
+
+ReloadMessage: '&8[&fOrePlus&8] &a成功重新加載!'
+Settings:
+  Diamond: '&b+ 挖掘疲勞 2 &8| &7(30秒)'
+  Emerald: '&a+ 村莊英雄 1 &8| &7(1分鐘)'
+  Gold: '&6+ 挖掘加速 2 &8| &7(30秒)'
+  Iron: '&f+ 加速 3 &8| &7(3分鐘)'
+  Coal: '&e+ 發光 1 &8| &7(2分鐘 3秒)'
+  Lapis: '&6+ 吸收 3 &8| &7(3分鐘)'
+  Redstone: '&c+ 回復 4 &8| &7(2分鐘 4秒)'
+  Debris: '&6+ 抗火 1 &8| &7(1分鐘)'
+  Nethergold: '&f+ 緩速 1 &8| &7(30秒)'
+  Quartz: '&b+ 緩降 1 &8| &7(30秒)'

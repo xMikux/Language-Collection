@@ -1,0 +1,23 @@
+user:
+  no_permissions: You don't have permissions to do this!
+  remove_death: Your portals have been removed due to your death.
+  remove_all: You have removed all portals.
+  get_portalboots: PortalBoots gived!
+  other_remove: '[player] has removed your portals.'
+  get_portalgun: PortalGun gived!
+  no_portals: You don't have any opened portals right now.
+  remove: You have removed successfully your portals.
+  remove_others: You have removed [player]'s portals.
+  other_no_portals: '[player] doesn''t have any opened portals.'
+  not_found: '[player] not found.'
+portal:
+  open: '[player] has opened a portal at [pos].'
+  far: That block is too far to place a portal.
+  deny: You can't open a portal here.
+  collides: You can't place both portals at the same block!
+help:
+  remove_portals: Delete your active portals.
+  remove_others_portals: Delete others' active portals.
+  get_portalgun: Get the PortalGun.
+  get_portalboots: Get the PortalBoots.
+  remove_all_portals: Delete all the active portals.

@@ -1,0 +1,90 @@
+[
+  {
+    "key": "OrePlus.ReloadMessage",
+    "type": "text",
+    "languages": {
+      "en_US": "&8[&fOrePlus&8] &aSuccess reload!",
+      "zh_TW": "&8[&fOrePlus&8] &a成功重新加載!"
+    }
+  },
+  {
+    "key": "OrePlus.Settings.Diamond",
+    "type": "text",
+    "languages": {
+      "en_US": "&b+ Slow mining 2 &8| &7(30 sec)",
+      "zh_TW": "&b+ 挖掘疲勞 2 &8| &7(30秒)"
+    }
+  },
+  {
+    "key": "OrePlus.Settings.Emerald",
+    "type": "text",
+    "languages": {
+      "en_US": "&a+ Hero of the village 1 &8| &7(1 min)",
+      "zh_TW": "&a+ 村莊英雄 1 &8| &7(1分鐘)"
+    }
+  },
+  {
+    "key": "OrePlus.Settings.Gold",
+    "type": "text",
+    "languages": {
+      "en_US": "&6+ Fast mining 2 &8| &7(30 sec)",
+      "zh_TW": "&6+ 挖掘加速 2 &8| &7(30秒)"
+    }
+  },
+  {
+    "key": "OrePlus.Settings.Iron",
+    "type": "text",
+    "languages": {
+      "en_US": "&f+ Speed 3 &8| &7(3 min)",
+      "zh_TW": "&f+ 加速 3 &8| &7(3分鐘)"
+    }
+  },
+  {
+    "key": "OrePlus.Settings.Coal",
+    "type": "text",
+    "languages": {
+      "en_US": "&e+ Glow 1 &8| &7(2 min 3 sec)",
+      "zh_TW": "&e+ 發光 1 &8| &7(2分鐘 3秒)"
+    }
+  },
+  {
+    "key": "OrePlus.Settings.Lapis",
+    "type": "text",
+    "languages": {
+      "en_US": "&6+ Absorption 3 &8| &7(3 min)",
+      "zh_TW": "&6+ 吸收 3 &8| &7(3分鐘)"
+    }
+  },
+  {
+    "key": "OrePlus.Settings.Redstone",
+    "type": "text",
+    "languages": {
+      "en_US": "&c+ Regeneration 4 &8| &7(2 min 4 sec)",
+      "zh_TW": "&c+ 回復 4 &8| &7(2分鐘 4秒)"
+    }
+  },
+  {
+    "key": "OrePlus.Settings.Debris",
+    "type": "text",
+    "languages": {
+      "en_US": "&6+ Fire resistence 1 &8| &7(1 min)",
+      "zh_TW": "&6+ 抗火 1 &8| &7(1分鐘)"
+    }
+  },
+  {
+    "key": "OrePlus.Settings.Nethergold",
+    "type": "text",
+    "languages": {
+      "en_US": "&f+ Slowness 1 &8| &7(30 sec)",
+      "zh_TW": "&f+ 緩速 1 &8| &7(30秒)"
+    }
+  },
+  {
+    "key": "OrePlus.Settings.Quartz",
+    "type": "text",
+    "languages": {
+      "en_US": "&b+ Slow falling 1 &8| &7(30 sec)",
+      "zh_TW": "&b+ 緩降 1 &8| &7(30秒)"
+    }
+  }
+]

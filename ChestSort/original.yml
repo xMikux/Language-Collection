@@ -1,0 +1,60 @@
+use-permissions: true
+allow-automatic-sorting: true
+allow-automatic-inventory-sorting: true
+sorting-enabled-by-default: false
+inv-sorting-enabled-by-default: false
+show-message-when-using-chest: true
+show-message-when-using-chest-and-sorting-is-enabled: false
+show-message-again-after-logout: true
+auto-generate-category-files: true
+sort-time: close
+verbose: true
+allow-sorting-hotkeys: true
+sorting-hotkeys:
+  middle-click: true
+  shift-click: true
+  double-click: true
+  shift-right-click: true
+hotkey-cooldown: 0.2
+allow-additional-hotkeys: true
+additional-hotkeys:
+  left-click: false
+  right-click: false
+check-for-updates: true
+check-interval: 4
+disabled-worlds: null
+hook-crackshot: true
+hook-crackshot-prefix: crackshot_weapon
+hook-inventorypages: true
+hook-minepacks: true
+hook-playervaults: true
+hook-endercontainers: true
+hook-cratereloaded: true
+hook-goldencrates: true
+hook-headdatabase: true
+dont-move-slimefun-backpacks: false
+hook-generic: true
+sorting-method: '{category},{itemsFirst},{name},{color},{customName}'
+message-when-using-chest: '[lang]ChestSort.message-when-using-chest[/lang]'
+message-when-using-chest2: '[lang]ChestSort.message-when-using-chest2[/lang]'
+message-sorting-disabled: '[lang]ChestSort.message-sorting-disabled[/lang]'
+message-sorting-enabled: '[lang]ChestSort.message-sorting-enabled[/lang]'
+message-inv-sorting-disabled: '[lang]ChestSort.message-inv-sorting-disabled[/lang]'
+message-inv-sorting-enabled: '[lang]ChestSort.message-inv-sorting-enabled[/lang]'
+message-player-inventory-sorted: '[lang]ChestSort.message-player-inventory-sorted[/lang]'
+message-error-players-only: '[lang]ChestSort.message-error-players-only[/lang]'
+message-error-invalid-options: >-
+  [lang]ChestSort.message-error-invalid-options[args][arg]%s[/arg][arg]%s[/arg][/args][/lang]
+message-gui-enabled: '[lang]ChestSort.message-gui-enabled[/lang]'
+message-gui-disabled: '[lang]ChestSort.message-gui-disabled[/lang]'
+message-gui-middle-click: '[lang]ChestSort.message-gui-middle-click[/lang]'
+message-gui-shift-click: '[lang]ChestSort.message-gui-shift-click[/lang]'
+message-gui-double-click: '[lang]ChestSort.message-gui-double-click[/lang]'
+message-gui-shift-right-click: '[lang]ChestSort.message-gui-shift-right-click[/lang]'
+message-gui-left-click: '[lang]ChestSort.message-gui-left-click[/lang]'
+message-gui-right-click: '[lang]ChestSort.message-gui-right-click[/lang]'
+dump: false
+debug: false
+debug2: false
+log: false
+config-version: 47

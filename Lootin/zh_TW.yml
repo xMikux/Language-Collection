@@ -1,0 +1,29 @@
+# the list of world where lootin will not modify loot chests
+blacklist-worlds: []
+
+
+# message that will be displayed if a player tries to break a lootin chest
+# pro-tip: use "" to not send any message
+blockbreak-with-message: "&a破壞儲物箱會刪除你的獨特戰利品與物品! 如果還是要破壞, &2你必須在這樣做的同時蹲下..\n&a 戰利品生成是 &2每個玩家每個儲物箱&a, 只有在真的需要的時候在破壞."
+
+blockbreak-without-permission-message: "&c你沒有權限破壞戰利品儲物箱"
+
+# weather or not to drop items when a lootin chest is broken
+delete-items-on-break: true
+
+# weather or not to change minecarts found in mineshafts
+change-minecarts: true
+
+# Loot chest and minecarts titles
+# color codes supported
+title:
+  single-chest: "儲物箱"
+  double-chest: "大型儲物箱"
+  minecart: "儲物箱礦車"
+
+# list of structures where lootin will not modify loot chests
+# valid structure names can be found here https://www.spigotmc.org/resources/90453/
+blacklist-structures: []
+
+# weather or not to prevent lootin chest from being exploded by tnt or creeper
+prevent-explosion: true

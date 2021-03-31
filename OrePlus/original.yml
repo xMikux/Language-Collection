@@ -1,0 +1,12 @@
+ReloadMessage: '[lang]OrePlus.ReloadMessage[/lang]'
+Settings:
+  Diamond: '[lang]OrePlus.Settings.Diamond[/lang]'
+  Emerald: '[lang]OrePlus.Settings.Emerald[/lang]'
+  Gold: '[lang]OrePlus.Settings.Gold[/lang]'
+  Iron: '[lang]OrePlus.Settings.Iron[/lang]'
+  Coal: '[lang]OrePlus.Settings.Coal[/lang]'
+  Lapis: '[lang]OrePlus.Settings.Lapis[/lang]'
+  Redstone: '[lang]OrePlus.Settings.Redstone[/lang]'
+  Debris: '[lang]OrePlus.Settings.Debris[/lang]'
+  Nethergold: '[lang]OrePlus.Settings.Nethergold[/lang]'
+  Quartz: '[lang]OrePlus.Settings.Quartz[/lang]'

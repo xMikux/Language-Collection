@@ -1,0 +1,29 @@
+# the list of world where lootin will not modify loot chests
+blacklist-worlds: []
+
+
+# message that will be displayed if a player tries to break a lootin chest
+# pro-tip: use "" to not send any message
+blockbreak-with-message: "&aBreaking the chest will delete your unique loot and items! In order to break, &2you must sneak while doing so..\n&a As loot is &2per player per chest&a, only break if really needed."
+
+blockbreak-without-permission-message: "&cYou dont have permission to break loot chests"
+
+# weather or not to drop items when a lootin chest is broken
+delete-items-on-break: true
+
+# weather or not to change minecarts found in mineshafts
+change-minecarts: true
+
+# Loot chest and minecarts titles
+# color codes supported
+title:
+  single-chest: "Chest"
+  double-chest: "Double Chest"
+  minecart: "Minecart with Chest"
+
+# list of structures where lootin will not modify loot chests
+# valid structure names can be found here https://www.spigotmc.org/resources/90453/
+blacklist-structures: []
+
+# weather or not to prevent lootin chest from being exploded by tnt or creeper
+prevent-explosion: true

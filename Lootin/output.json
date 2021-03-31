@@ -1,0 +1,42 @@
+[
+  {
+    "key": "Lootin.blockbreak-with-message",
+    "type": "text",
+    "languages": {
+      "en_US": "&aBreaking the chest will delete your unique loot and items! In order to break, &2you must sneak while doing so..\n&a As loot is &2per player per chest&a, only break if really needed.",
+      "zh_TW": "&a破壞儲物箱會刪除你的獨特戰利品與物品! 如果還是要破壞, &2你必須在這樣做的同時蹲下..\n&a 戰利品生成是 &2每個玩家每個儲物箱&a, 只有在真的需要的時候在破壞."
+    }
+  },
+  {
+    "key": "Lootin.blockbreak-without-permission-message",
+    "type": "text",
+    "languages": {
+      "en_US": "&cYou dont have permission to break loot chests",
+      "zh_TW": "&c你沒有權限破壞戰利品儲物箱"
+    }
+  },
+  {
+    "key": "Lootin.title.single-chest",
+    "type": "text",
+    "languages": {
+      "en_US": "Chest",
+      "zh_TW": "儲物箱"
+    }
+  },
+  {
+    "key": "Lootin.title.double-chest",
+    "type": "text",
+    "languages": {
+      "en_US": "Double Chest",
+      "zh_TW": "大型儲物箱"
+    }
+  },
+  {
+    "key": "Lootin.title.minecart",
+    "type": "text",
+    "languages": {
+      "en_US": "Minecart with Chest",
+      "zh_TW": "儲物箱礦車"
+    }
+  }
+]

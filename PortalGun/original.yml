@@ -1,0 +1,24 @@
+user:
+  no_permissions: '[lang]PortalGun.user.no_permissions[/lang]'
+  remove_death: '[lang]PortalGun.user.remove_death[/lang]'
+  remove_all: '[lang]PortalGun.user.remove_all[/lang]'
+  get_portalboots: '[lang]PortalGun.user.get_portalboots[/lang]'
+  other_remove: '[lang]PortalGun.user.other_remove[args][arg][player][/arg][/args][/lang]'
+  get_portalgun: '[lang]PortalGun.user.get_portalgun[/lang]'
+  no_portals: '[lang]PortalGun.user.no_portals[/lang]'
+  remove: '[lang]PortalGun.user.remove[/lang]'
+  remove_others: '[lang]PortalGun.user.remove_others[args][arg][player][/arg][/args][/lang]'
+  other_no_portals: '[lang]PortalGun.user.other_no_portals[args][arg][player][/arg][/args][/lang]'
+  not_found: '[lang]PortalGun.user.not_found[args][arg][player][/arg][/args][/lang]'
+portal:
+  open: >-
+    [lang]PortalGun.portal.open[args][arg][player][/arg][arg][pos][/arg][/args][/lang]
+  far: '[lang]PortalGun.portal.far[/lang]'
+  deny: '[lang]PortalGun.portal.deny[/lang]'
+  collides: '[lang]PortalGun.portal.collides[/lang]'
+help:
+  remove_portals: '[lang]PortalGun.help.remove_portals[/lang]'
+  remove_others_portals: '[lang]PortalGun.help.remove_others_portals[/lang]'
+  get_portalgun: '[lang]PortalGun.help.get_portalgun[/lang]'
+  get_portalboots: '[lang]PortalGun.help.get_portalboots[/lang]'
+  remove_all_portals: '[lang]PortalGun.help.remove_all_portals[/lang]'
