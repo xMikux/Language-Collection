@@ -12,5 +12,5 @@
 **Ignored keys:**
 
 ```
-
+(?:Diamond|Emerald|Gold|Iron|Coal|Lapis|Redstone|Debris|Nethergold|Quartz)\.(?!BreakMessage).+
 ```

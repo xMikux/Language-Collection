@@ -1,18 +1,89 @@
 # I am a novice developer, if there is something wrong or something is missing write it down and don't cut my head off! :D
-# By Narcox V2.1
+# By Narcox V2.5
 # Versions: 1.16-1.16.5
 # Edit all message for self, effect and particles configurable soon!
 # Thanks for use my plugin, is you like my "Low" resources rate 5 stars! :D
-
 ReloadMessage: '&8[&fOrePlus&8] &a成功重新加載!'
-Settings:
-  Diamond: '&b+ 挖掘疲勞 2 &8| &7(30秒)'
-  Emerald: '&a+ 村莊英雄 1 &8| &7(1分鐘)'
-  Gold: '&6+ 挖掘加速 2 &8| &7(30秒)'
-  Iron: '&f+ 加速 3 &8| &7(3分鐘)'
-  Coal: '&e+ 發光 1 &8| &7(2分鐘 3秒)'
-  Lapis: '&6+ 吸收 3 &8| &7(3分鐘)'
-  Redstone: '&c+ 回復 4 &8| &7(2分鐘 4秒)'
-  Debris: '&6+ 抗火 1 &8| &7(1分鐘)'
-  Nethergold: '&f+ 緩速 1 &8| &7(30秒)'
-  Quartz: '&b+ 緩降 1 &8| &7(30秒)'
+Mobs:
+  CreeperName: '&a&lBum? 哈哈!'
+  SpawnMessage: '&a➤ 嗨, 我的朋友!'
+Diamond:
+  BreakMessage: '&b+ 挖掘疲勞 2 &8| &7(30秒)'
+  BreakSound: block.anvil.land
+  BreakSoundVolume: 20
+  BreakSoundPitch: 5
+  BreakPotionEffect: SLOW_DIGGING
+  BreakPotionStrength: 1
+  BreakPotionDurability: 600
+Emerald:
+  BreakMessage: '&a+ 村莊英雄 1 &8| &7(1分鐘)'
+  BreakSound: block.anvil.land
+  BreakSoundVolume: 20
+  BreakSoundPitch: 5
+  BreakPotionEffect: HERO_OF_THE_VILLAGE
+  BreakPotionStrength: 0
+  BreakPotionDurability: 1200
+Gold:
+  BreakMessage: '&6+ 挖掘加速 2 &8| &7(30秒)'
+  BreakSound: block.anvil.land
+  BreakSoundVolume: 20
+  BreakSoundPitch: 5
+  BreakPotionEffect: FAST_DIGGING
+  BreakPotionStrength: 1
+  BreakPotionDurability: 600
+Iron:
+  BreakMessage: '&f+ 加速 3 &8| &7(3分鐘)'
+  BreakSound: block.anvil.land
+  BreakSoundVolume: 20
+  BreakSoundPitch: 5
+  BreakPotionEffect: SPEED
+  BreakPotionStrength: 2
+  BreakPotionDurability: 3600
+Coal:
+  BreakMessage: '&e+ 發光 1 &8| &7(2分鐘 3秒)'
+  BreakSound: block.anvil.land
+  BreakSoundVolume: 20
+  BreakSoundPitch: 5
+  BreakPotionEffect: GLOWING
+  BreakPotionStrength: 3
+  BreakPotionDurability: 2500
+Lapis:
+  BreakMessage: '&6+ 吸收 3 &8| &7(3分鐘)'
+  BreakSound: block.anvil.land
+  BreakSoundVolume: 20
+  BreakSoundPitch: 5
+  BreakPotionEffect: ABSORPTION
+  BreakPotionStrength: 3
+  BreakPotionDurability: 3600
+Redstone:
+  BreakMessage: '&c+ 回復 4 &8| &7(2分鐘 4秒)'
+  BreakSound: block.anvil.land
+  BreakSoundVolume: 20
+  BreakSoundPitch: 5
+  BreakPotionEffect: REGENERATION
+  BreakPotionStrength: 3
+  BreakPotionDurability: 2500
+Debris:
+  BreakMessage: '&6+ 抗火 1 &8| &7(1分鐘)'
+  BreakSound: block.anvil.land
+  BreakSoundVolume: 20
+  BreakSoundPitch: 5
+  BreakPotionEffect: FIRE_RESISTANCE
+  BreakPotionStrength: 0
+  BreakPotionDurability: 4200
+Nethergold:
+  BreakMessage: '&f+ 緩速 1 &8| &7(30秒)'
+  BreakSound: block.anvil.land
+  BreakSoundVolume: 20
+  BreakSoundPitch: 5
+  BreakPotionEffect: SLOW
+  BreakPotionStrength: 0
+  BreakPotionDurability: 600
+Quartz:
+  BreakMessage: '&b+ 緩降 1 &8| &7(30秒)'
+  BreakSound: block.anvil.land
+  BreakSoundVolume: 20
+  BreakSoundPitch: 5
+  BreakPotionEffect: SLOW_FALLING
+  BreakPotionStrength: 0
+  BreakPotionDurability: 600

@@ -1,12 +1,84 @@
 ReloadMessage: '[lang]OrePlus.ReloadMessage[/lang]'
-Settings:
-  Diamond: '[lang]OrePlus.Settings.Diamond[/lang]'
-  Emerald: '[lang]OrePlus.Settings.Emerald[/lang]'
-  Gold: '[lang]OrePlus.Settings.Gold[/lang]'
-  Iron: '[lang]OrePlus.Settings.Iron[/lang]'
-  Coal: '[lang]OrePlus.Settings.Coal[/lang]'
-  Lapis: '[lang]OrePlus.Settings.Lapis[/lang]'
-  Redstone: '[lang]OrePlus.Settings.Redstone[/lang]'
-  Debris: '[lang]OrePlus.Settings.Debris[/lang]'
-  Nethergold: '[lang]OrePlus.Settings.Nethergold[/lang]'
-  Quartz: '[lang]OrePlus.Settings.Quartz[/lang]'
+Mobs:
+  CreeperName: '[lang]OrePlus.Mobs.CreeperName[/lang]'
+  SpawnMessage: '[lang]OrePlus.Mobs.SpawnMessage[/lang]'
+Diamond:
+  BreakMessage: '[lang]OrePlus.Diamond.BreakMessage[/lang]'
+  BreakSound: block.anvil.land
+  BreakSoundVolume: 20
+  BreakSoundPitch: 5
+  BreakPotionEffect: SLOW_DIGGING
+  BreakPotionStrength: 1
+  BreakPotionDurability: 600
+Emerald:
+  BreakMessage: '[lang]OrePlus.Emerald.BreakMessage[/lang]'
+  BreakSound: block.anvil.land
+  BreakSoundVolume: 20
+  BreakSoundPitch: 5
+  BreakPotionEffect: HERO_OF_THE_VILLAGE
+  BreakPotionStrength: 0
+  BreakPotionDurability: 1200
+Gold:
+  BreakMessage: '[lang]OrePlus.Gold.BreakMessage[/lang]'
+  BreakSound: block.anvil.land
+  BreakSoundVolume: 20
+  BreakSoundPitch: 5
+  BreakPotionEffect: FAST_DIGGING
+  BreakPotionStrength: 1
+  BreakPotionDurability: 600
+Iron:
+  BreakMessage: '[lang]OrePlus.Iron.BreakMessage[/lang]'
+  BreakSound: block.anvil.land
+  BreakSoundVolume: 20
+  BreakSoundPitch: 5
+  BreakPotionEffect: SPEED
+  BreakPotionStrength: 2
+  BreakPotionDurability: 3600
+Coal:
+  BreakMessage: '[lang]OrePlus.Coal.BreakMessage[/lang]'
+  BreakSound: block.anvil.land
+  BreakSoundVolume: 20
+  BreakSoundPitch: 5
+  BreakPotionEffect: GLOWING
+  BreakPotionStrength: 3
+  BreakPotionDurability: 2500
+Lapis:
+  BreakMessage: '[lang]OrePlus.Lapis.BreakMessage[/lang]'
+  BreakSound: block.anvil.land
+  BreakSoundVolume: 20
+  BreakSoundPitch: 5
+  BreakPotionEffect: ABSORPTION
+  BreakPotionStrength: 3
+  BreakPotionDurability: 3600
+Redstone:
+  BreakMessage: '[lang]OrePlus.Redstone.BreakMessage[/lang]'
+  BreakSound: block.anvil.land
+  BreakSoundVolume: 20
+  BreakSoundPitch: 5
+  BreakPotionEffect: REGENERATION
+  BreakPotionStrength: 3
+  BreakPotionDurability: 2500
+Debris:
+  BreakMessage: '[lang]OrePlus.Debris.BreakMessage[/lang]'
+  BreakSound: block.anvil.land
+  BreakSoundVolume: 20
+  BreakSoundPitch: 5
+  BreakPotionEffect: FIRE_RESISTANCE
+  BreakPotionStrength: 0
+  BreakPotionDurability: 4200
+Nethergold:
+  BreakMessage: '[lang]OrePlus.Nethergold.BreakMessage[/lang]'
+  BreakSound: block.anvil.land
+  BreakSoundVolume: 20
+  BreakSoundPitch: 5
+  BreakPotionEffect: SLOW
+  BreakPotionStrength: 0
+  BreakPotionDurability: 600
+Quartz:
+  BreakMessage: '[lang]OrePlus.Quartz.BreakMessage[/lang]'
+  BreakSound: block.anvil.land
+  BreakSoundVolume: 20
+  BreakSoundPitch: 5
+  BreakPotionEffect: SLOW_FALLING
+  BreakPotionStrength: 0
+  BreakPotionDurability: 600

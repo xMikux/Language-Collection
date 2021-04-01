@@ -3,7 +3,7 @@
     "key": "PortalGun.user.no_permissions",
     "type": "text",
     "languages": {
-      "zh_tw": "你沒有權限執行!",
+      "zh_TW": "你沒有權限執行!",
       "en_US": "You don't have permissions to do this!"
     }
   },
@@ -11,7 +11,7 @@
     "key": "PortalGun.user.remove_death",
     "type": "text",
     "languages": {
-      "zh_tw": "由於你死亡, 你的傳送門已被移除.",
+      "zh_TW": "由於你死亡, 你的傳送門已被移除.",
       "en_US": "Your portals have been removed due to your death."
     }
   },
@@ -19,7 +19,7 @@
     "key": "PortalGun.user.remove_all",
     "type": "text",
     "languages": {
-      "zh_tw": "你已移除所有傳送門.",
+      "zh_TW": "你已移除所有傳送門.",
       "en_US": "You have removed all portals."
     }
   },
@@ -27,7 +27,7 @@
     "key": "PortalGun.user.get_portalboots",
     "type": "text",
     "languages": {
-      "zh_tw": "已給予傳送靴!",
+      "zh_TW": "已給予傳送靴!",
       "en_US": "PortalBoots gived!"
     }
   },
@@ -35,7 +35,7 @@
     "key": "PortalGun.user.other_remove",
     "type": "text",
     "languages": {
-      "zh_tw": "%1 已移除你的傳送門.",
+      "zh_TW": "%1 已移除你的傳送門.",
       "en_US": "%1 has removed your portals."
     }
   },
@@ -43,7 +43,7 @@
     "key": "PortalGun.user.get_portalgun",
     "type": "text",
     "languages": {
-      "zh_tw": "已給予傳送槍!",
+      "zh_TW": "已給予傳送槍!",
       "en_US": "PortalGun gived!"
     }
   },
@@ -51,7 +51,7 @@
     "key": "PortalGun.user.no_portals",
     "type": "text",
     "languages": {
-      "zh_tw": "你沒有任何已開啟的傳送門.",
+      "zh_TW": "你沒有任何已開啟的傳送門.",
       "en_US": "You don't have any opened portals right now."
     }
   },
@@ -59,7 +59,7 @@
     "key": "PortalGun.user.remove",
     "type": "text",
     "languages": {
-      "zh_tw": "你已成功的刪除了你的傳送門.",
+      "zh_TW": "你已成功的刪除了你的傳送門.",
       "en_US": "You have removed successfully your portals."
     }
   },
@@ -67,7 +67,7 @@
     "key": "PortalGun.user.remove_others",
     "type": "text",
     "languages": {
-      "zh_tw": "你已移除 %1 的傳送門.",
+      "zh_TW": "你已移除 %1 的傳送門.",
       "en_US": "You have removed %1's portals."
     }
   },
@@ -75,7 +75,7 @@
     "key": "PortalGun.user.other_no_portals",
     "type": "text",
     "languages": {
-      "zh_tw": "%1 沒有任何已打開的傳送門.",
+      "zh_TW": "%1 沒有任何已打開的傳送門.",
       "en_US": "%1 doesn't have any opened portals."
     }
   },
@@ -83,7 +83,7 @@
     "key": "PortalGun.user.not_found",
     "type": "text",
     "languages": {
-      "zh_tw": "%1 未找到.",
+      "zh_TW": "%1 未找到.",
       "en_US": "%1 not found."
     }
   },
@@ -91,7 +91,7 @@
     "key": "PortalGun.portal.open",
     "type": "text",
     "languages": {
-      "zh_tw": "%1 在 %2 開啟了傳送門.",
+      "zh_TW": "%1 在 %2 開啟了傳送門.",
       "en_US": "%1 has opened a portal at %2."
     }
   },
@@ -99,7 +99,7 @@
     "key": "PortalGun.portal.far",
     "type": "text",
     "languages": {
-      "zh_tw": "該方塊距離太遠, 無法放置傳送門.",
+      "zh_TW": "該方塊距離太遠, 無法放置傳送門.",
       "en_US": "That block is too far to place a portal."
     }
   },
@@ -107,7 +107,7 @@
     "key": "PortalGun.portal.deny",
     "type": "text",
     "languages": {
-      "zh_tw": "你無法在此開啟傳送門.",
+      "zh_TW": "你無法在此開啟傳送門.",
       "en_US": "You can't open a portal here."
     }
   },
@@ -115,7 +115,7 @@
     "key": "PortalGun.portal.collides",
     "type": "text",
     "languages": {
-      "zh_tw": "你不能將兩個傳送門放在相同的地方!",
+      "zh_TW": "你不能將兩個傳送門放在相同的地方!",
       "en_US": "You can't place both portals at the same block!"
     }
   },
@@ -123,7 +123,7 @@
     "key": "PortalGun.help.remove_portals",
     "type": "text",
     "languages": {
-      "zh_tw": "移除你的傳送門.",
+      "zh_TW": "移除你的傳送門.",
       "en_US": "Delete your active portals."
     }
   },
@@ -131,7 +131,7 @@
     "key": "PortalGun.help.remove_others_portals",
     "type": "text",
     "languages": {
-      "zh_tw": "移除其他人的傳送門.",
+      "zh_TW": "移除其他人的傳送門.",
       "en_US": "Delete others' active portals."
     }
   },
@@ -139,7 +139,7 @@
     "key": "PortalGun.help.get_portalgun",
     "type": "text",
     "languages": {
-      "zh_tw": "獲取傳送槍.",
+      "zh_TW": "獲取傳送槍.",
       "en_US": "Get the PortalGun."
     }
   },
@@ -147,7 +147,7 @@
     "key": "PortalGun.help.get_portalboots",
     "type": "text",
     "languages": {
-      "zh_tw": "獲取傳送靴.",
+      "zh_TW": "獲取傳送靴.",
       "en_US": "Get the PortalBoots."
     }
   },
@@ -155,7 +155,7 @@
     "key": "PortalGun.help.remove_all_portals",
     "type": "text",
     "languages": {
-      "zh_tw": "刪除所有傳送門.",
+      "zh_TW": "刪除所有傳送門.",
       "en_US": "Delete all the active portals."
     }
   }
