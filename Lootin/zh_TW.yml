@@ -27,3 +27,9 @@ blacklist-structures: []
 
 # weather or not to prevent lootin chest from being exploded by tnt or creeper
 prevent-explosion: true
+
+# list of TERRA structures where lootin will not modify loot chests
+# LootinTerraAddon(in plugins/Terra/addons folder) and Terra plugin(in plugins folder) is required for this to function
+blacklist-terra-strucutres: []
+
+

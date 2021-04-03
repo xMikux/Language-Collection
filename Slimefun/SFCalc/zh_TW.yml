@@ -1,30 +1,17 @@
-options:
-  auto-update: true
-
-
-
-# The messages for showing recipes. Replace numbers with %d and item names with %s.
-# Header string ("Recipe for Solar Panel"). Defaults to "&eRecipe for %s:"
-header-string: "&e&n配方於 %s:"
-# The messages for showing recipes with an amount. Replace numbers with %d, item names with %s, and amount with %d.
-# Header string ("Recipe for 64 Solar Panel"). Defaults to "&eRecipe for %d %s:"
-header-amount-string: "&e&n配方於 %d %s:"
-# Amount string ("200 of Copper Dust"). Defaults to "%d of %s".
-amount-string: "&e%d 個 %s"
-# Needed string ("10 more Silicon needed"). Defaults to "&e%d more %s needed"
-needed-string: "&e需要 %d 個 %s"
-# Item not found string ("That item was not found."). Defaults to "&cThat item was not found."
-no-item-string: "&c找不到該物品."
-# Not a number string ("That's not a number!"). Defaults to "&cThat's not a number!"
-no-number-string: "&c那不是數字!"
-# Too many categories/items strings
-# ("That many categories/items is not supported yet. Please use the command form of the calculator.").
-# Defaults to "&cThat many categories/items is not supported yet. Please use the command form of the calculator.".
-category-error-string: "&c尚不支持許多類別. 請使用指令來計算."
-item-error-string: "&c尚不支持許多物品. 請使用指令來計算."
-# Not a player string ("You must be a player to send this message!").
-# Defaults to "&cYou must be a player to send this message!"
-not-a-player-string: "&c你必須是玩家才能發送此訊息!"
-# Invalid number string ("Invalid number!").
-# Defaults to "&cInvalid number!"
-invalid-number-string: "&c無效數量!"
+# The messages for showing recipes. Percent signs with numbers are placeholders for either item names or
+# numbers. See the comments above individual options to see what they are replaced by
+# 
+# Header string ("Recipe for Synthetic Diamond")
+# %1 name of item
+auto-update: true
+header-string: '&e&n配方於 %1:'
+header-amount-string: '&e&n配方於 %2 %1:'
+stack-string: '&e%1 (%2 x%3 + %4)'
+amount-string: '&e%2 個 %1'
+needed-string: '&e需要 %2 個 %1'
+no-item-string: '&c找不到該物品!'
+not-a-number-string: '&c那不是數字!'
+category-error-string: '&c尚不支持許多類別. 請使用指令來計算.'
+item-error-string: '&c尚不支持許多物品. 請使用指令來計算.'
+not-a-player-string: '&c你必須是玩家才能發送此訊息!'
+invalid-number-string: '&c無效數量!'

@@ -1,12 +1,12 @@
-options:
-  auto-update: true
-header-string: '[lang]SFCalc.header-string[args][arg]%s[/arg][/args][/lang]'
+auto-update: true
+header-string: '[lang]SFCalc.header-string[args][arg]%1[/arg][/args][/lang]'
 header-amount-string: >-
-  [lang]SFCalc.header-amount-string[args][arg]%d[/arg][arg]%s[/arg][/args][/lang]
-amount-string: '[lang]SFCalc.amount-string[args][arg]%d[/arg][arg]%s[/arg][/args][/lang]'
-needed-string: '[lang]SFCalc.needed-string[args][arg]%d[/arg][arg]%s[/arg][/args][/lang]'
+  [lang]SFCalc.header-amount-string[args][arg]%2[/arg][arg]%1[/arg][/args][/lang]
+stack-string: '&e%1 (%2 x%3 + %4)'
+amount-string: '[lang]SFCalc.amount-string[args][arg]%2[/arg][arg]%1[/arg][/args][/lang]'
+needed-string: '[lang]SFCalc.needed-string[args][arg]%2[/arg][arg]%1[/arg][/args][/lang]'
 no-item-string: '[lang]SFCalc.no-item-string[/lang]'
-no-number-string: '[lang]SFCalc.no-number-string[/lang]'
+not-a-number-string: '[lang]SFCalc.not-a-number-string[/lang]'
 category-error-string: '[lang]SFCalc.category-error-string[/lang]'
 item-error-string: '[lang]SFCalc.item-error-string[/lang]'
 not-a-player-string: '[lang]SFCalc.not-a-player-string[/lang]'

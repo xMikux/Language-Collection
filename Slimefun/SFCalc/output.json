@@ -11,36 +11,36 @@
     "key": "SFCalc.header-amount-string",
     "type": "text",
     "languages": {
-      "zh_TW": "&e&n配方於 %1 %2:",
-      "en_US": "&e&nRecipe for %1 %2:"
+      "zh_TW": "&e&n配方於 %2 %1:",
+      "en_US": "&e&nRecipe for %2 %1:"
     }
   },
   {
     "key": "SFCalc.amount-string",
     "type": "text",
     "languages": {
-      "zh_TW": "&e%1 個 %2",
-      "en_US": "&e%1 of %2"
+      "zh_TW": "&e%2 個 %1",
+      "en_US": "&e%2 of %1"
     }
   },
   {
     "key": "SFCalc.needed-string",
     "type": "text",
     "languages": {
-      "zh_TW": "&e需要 %1 個 %2",
-      "en_US": "&e%1 more %2 needed"
+      "zh_TW": "&e需要 %2 個 %1",
+      "en_US": "&e%2 more %1 needed"
     }
   },
   {
     "key": "SFCalc.no-item-string",
     "type": "text",
     "languages": {
-      "zh_TW": "&c找不到該物品.",
-      "en_US": "&cThat item was not found."
+      "zh_TW": "&c找不到該物品!",
+      "en_US": "&cThat item was not found!"
     }
   },
   {
-    "key": "SFCalc.no-number-string",
+    "key": "SFCalc.not-a-number-string",
     "type": "text",
     "languages": {
       "zh_TW": "&c那不是數字!",

@@ -9,3 +9,4 @@ title:
   minecart: '[lang]Lootin.title.minecart[/lang]'
 blacklist-structures: []
 prevent-explosion: true
+blacklist-terra-strucutres: []

@@ -7,9 +7,10 @@
 ## Triton設定
 
 **Prefix:** `SFCalc.`  
-**Variable Regex:** `%\w`  
+**Variable Regex:** `%\d`  
 **Ignored keys:**
 
 ```
 options\.auto-update
+stack-string
 ```
