@@ -1,10 +1,18 @@
 [
   {
-    "key": "OrePlus.ReloadMessage",
+    "key": "OrePlus.Settings.ReloadMessage",
     "type": "text",
     "languages": {
       "en_US": "&8[&fOrePlus&8] &aSuccess reload!",
       "zh_TW": "&8[&fOrePlus&8] &a成功重新加載!"
+    }
+  },
+  {
+    "key": "OrePlus.Settings.NoPermissionMessage",
+    "type": "text",
+    "languages": {
+      "en_US": "&8[&fOrePlus&8] &eYou not have permission to this!",
+      "zh_TW": "&8[&fOrePlus&8] &e你沒有此權限!"
     }
   },
   {
@@ -16,11 +24,27 @@
     }
   },
   {
-    "key": "OrePlus.Mobs.SpawnMessage",
+    "key": "OrePlus.Mobs.CreeperSpawnMessage",
     "type": "text",
     "languages": {
       "en_US": "&a➤ Hello my friend!",
       "zh_TW": "&a➤ 嗨, 我的朋友!"
+    }
+  },
+  {
+    "key": "OrePlus.Mobs.WitherSkeletonName",
+    "type": "text",
+    "languages": {
+      "en_US": "&c&lOne hit? :D",
+      "zh_TW": "&c&l一擊? :D"
+    }
+  },
+  {
+    "key": "OrePlus.Mobs.WitherSkeletonSpawnMessage",
+    "type": "text",
+    "languages": {
+      "en_US": "&c➤ Legends never die!",
+      "zh_TW": "&c➤ 傳奇永不死亡!"
     }
   },
   {

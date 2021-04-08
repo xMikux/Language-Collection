@@ -1,0 +1,234 @@
+[
+  {
+    "key": "BloodNight.mob.ArmoredZombie",
+    "type": "text",
+    "languages": {
+      "zh_TW": "裝甲殭屍",
+      "en_US": "Armored Zombie"
+    }
+  },
+  {
+    "key": "BloodNight.mob.BlazeRider",
+    "type": "text",
+    "languages": {
+      "zh_TW": "烈焰使者騎士",
+      "en_US": "Blaze Rider"
+    }
+  },
+  {
+    "key": "BloodNight.mob.EnderCreeper",
+    "type": "text",
+    "languages": {
+      "zh_TW": "安德苦力怕",
+      "en_US": "Ender Creeper"
+    }
+  },
+  {
+    "key": "BloodNight.mob.FearfulEnderman",
+    "type": "text",
+    "languages": {
+      "zh_TW": "恐懼的終界使者",
+      "en_US": "Fearful Enderman"
+    }
+  },
+  {
+    "key": "BloodNight.mob.FearfulPhantom",
+    "type": "text",
+    "languages": {
+      "zh_TW": "恐懼的夜魅",
+      "en_US": "Fearful Phantom"
+    }
+  },
+  {
+    "key": "BloodNight.mob.FirePhantom",
+    "type": "text",
+    "languages": {
+      "zh_TW": "烈焰夜魅",
+      "en_US": "Fire Phantom"
+    }
+  },
+  {
+    "key": "BloodNight.mob.FireWizard",
+    "type": "text",
+    "languages": {
+      "zh_TW": "火焰巫師",
+      "en_US": "Fire Wizard"
+    }
+  },
+  {
+    "key": "BloodNight.mob.GhostCreeper",
+    "type": "text",
+    "languages": {
+      "zh_TW": "鬼魂苦力怕",
+      "en_US": "Ghost Creeper"
+    }
+  },
+  {
+    "key": "BloodNight.mob.InvisibleSkeleton",
+    "type": "text",
+    "languages": {
+      "zh_TW": "隱形骷髏",
+      "en_US": "Invisible Skeleton"
+    }
+  },
+  {
+    "key": "BloodNight.mob.InvisibleZombie",
+    "type": "text",
+    "languages": {
+      "zh_TW": "隱形殭屍",
+      "en_US": "Invisible Zombie"
+    }
+  },
+  {
+    "key": "BloodNight.mob.MagicSkeleton",
+    "type": "text",
+    "languages": {
+      "zh_TW": "魔法骷髏",
+      "en_US": "Magic Skeleton"
+    }
+  },
+  {
+    "key": "BloodNight.mob.NervousPoweredCreeper",
+    "type": "text",
+    "languages": {
+      "zh_TW": "閃電苦力怕",
+      "en_US": "Nervous Powered Creeper"
+    }
+  },
+  {
+    "key": "BloodNight.mob.PhantomSoul",
+    "type": "text",
+    "languages": {
+      "zh_TW": "靈魂夜魅",
+      "en_US": "Phantom Soul"
+    }
+  },
+  {
+    "key": "BloodNight.mob.SpeedCreeper",
+    "type": "text",
+    "languages": {
+      "zh_TW": "敏捷苦力怕",
+      "en_US": "Speed Creeper"
+    }
+  },
+  {
+    "key": "BloodNight.mob.SpeedSkeletonRider",
+    "type": "text",
+    "languages": {
+      "zh_TW": "敏捷蜘蛛騎士",
+      "en_US": "Speed Skeleton Rider"
+    }
+  },
+  {
+    "key": "BloodNight.mob.SpeedZombie",
+    "type": "text",
+    "languages": {
+      "zh_TW": "敏捷僵屍",
+      "en_US": "Speed Zombie"
+    }
+  },
+  {
+    "key": "BloodNight.mob.ThunderWizard",
+    "type": "text",
+    "languages": {
+      "zh_TW": "雷電巫師",
+      "en_US": "Thunder Wizard"
+    }
+  },
+  {
+    "key": "BloodNight.mob.ToxicCreeper",
+    "type": "text",
+    "languages": {
+      "zh_TW": "劇毒苦力怕",
+      "en_US": "Toxic Creeper"
+    }
+  },
+  {
+    "key": "BloodNight.mob.ToxicEnderman",
+    "type": "text",
+    "languages": {
+      "zh_TW": "劇毒終界使者",
+      "en_US": "Toxic Enderman"
+    }
+  },
+  {
+    "key": "BloodNight.mob.ToxicSlime",
+    "type": "text",
+    "languages": {
+      "zh_TW": "劇毒史萊姆",
+      "en_US": "Toxic Slime"
+    }
+  },
+  {
+    "key": "BloodNight.mob.UnstableCreeper",
+    "type": "text",
+    "languages": {
+      "zh_TW": "不穩定苦力怕",
+      "en_US": "Unstable Creeper"
+    }
+  },
+  {
+    "key": "BloodNight.mob.WitherSkeletonRider",
+    "type": "text",
+    "languages": {
+      "zh_TW": "凋零骷髏騎士",
+      "en_US": "Wither Skeleton Rider"
+    }
+  },
+  {
+    "key": "BloodNight.mob.WitherWizard",
+    "type": "text",
+    "languages": {
+      "zh_TW": "凋零巫師",
+      "en_US": "Wither Wizard"
+    }
+  },
+  {
+    "key": "BloodNight.notify.bloodNightJoined",
+    "type": "text",
+    "languages": {
+      "zh_TW": "你進入了一個啟用血夜的世界.",
+      "en_US": "You joined a world with an active blood night."
+    }
+  },
+  {
+    "key": "BloodNight.notify.bloodNightLeft",
+    "type": "text",
+    "languages": {
+      "zh_TW": "你離開了一個啟用血夜的世界.",
+      "en_US": "You left a world with an active blood night."
+    }
+  },
+  {
+    "key": "BloodNight.notify.nightEnd",
+    "type": "text",
+    "languages": {
+      "zh_TW": "世界 %1 的血夜已經結束了...",
+      "en_US": "The blood night in %1 has ended."
+    }
+  },
+  {
+    "key": "BloodNight.notify.nightStart",
+    "type": "text",
+    "languages": {
+      "zh_TW": "血夜在世界 %1 降臨了...",
+      "en_US": "A blood night has started in %1."
+    }
+  },
+  {
+    "key": "BloodNight.notify.youCantSleep",
+    "type": "text",
+    "languages": {
+      "zh_TW": "你不能在血夜期間睡覺.",
+      "en_US": "You can't sleep during a blood night."
+    }
+  },
+  {
+    "key": "BloodNight.reload.success",
+    "type": "text",
+    "languages": {
+      "zh_TW": "成功重載.",
+      "en_US": "Reload done."
+    }
+  }
+]

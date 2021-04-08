@@ -1,0 +1,3489 @@
+[
+  {
+    "key": "React.action.cull-entities.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "在指定的位置清除指定的實體.",
+      "en_US": "Culls entities in the specified locations and entity types."
+    }
+  },
+  {
+    "key": "React.action.cull-entities.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "清理實體",
+      "en_US": "Cull Entities"
+    }
+  },
+  {
+    "key": "React.action.cull-entities.culled",
+    "type": "text",
+    "languages": {
+      "zh_TW": "清理完畢 ",
+      "en_US": "Culled "
+    }
+  },
+  {
+    "key": "React.action.cull-entities.entities-in",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 實體位於 ",
+      "en_US": " entities in "
+    }
+  },
+  {
+    "key": "React.action.cull-entities.across",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 跳過 ",
+      "en_US": " across "
+    }
+  },
+  {
+    "key": "React.action.cull-entities.chunk",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 區塊",
+      "en_US": " chunk"
+    }
+  },
+  {
+    "key": "React.action.cull-entities.culling",
+    "type": "text",
+    "languages": {
+      "zh_TW": "清理中 ",
+      "en_US": "Culling "
+    }
+  },
+  {
+    "key": "React.action.cull-entities.entities",
+    "type": "text",
+    "languages": {
+      "zh_TW": "實體",
+      "en_US": "entities"
+    }
+  },
+  {
+    "key": "React.action.cull-entities.entity",
+    "type": "text",
+    "languages": {
+      "zh_TW": "實體",
+      "en_US": "entity"
+    }
+  },
+  {
+    "key": "React.action.cull-entities.of-for-culling",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 於 ",
+      "en_US": " of "
+    }
+  },
+  {
+    "key": "React.action.cull-entities.type",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 類型",
+      "en_US": " type"
+    }
+  },
+  {
+    "key": "React.action.cull-entities.status",
+    "type": "text",
+    "languages": {
+      "zh_TW": "清理中 $c / $t ($p)",
+      "en_US": "Culling $c / $t ($p)"
+    }
+  },
+  {
+    "key": "React.action.fix-lighting.chunk",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 區塊",
+      "en_US": " chunk"
+    }
+  },
+  {
+    "key": "React.action.fix-lighting.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "使用FAWE插件選擇暗黑區塊",
+      "en_US": "Relights chunks based on selection using FAWE"
+    }
+  },
+  {
+    "key": "React.action.fix-lighting.fail-relight-no-fawe",
+    "type": "text",
+    "languages": {
+      "zh_TW": "無法點亮該暗黑區塊。缺少前置FastAsnyWorldEdit。",
+      "en_US": "Cannot relight chunks. FastAsyncWorldEdit required."
+    }
+  },
+  {
+    "key": "React.action.fix-lighting.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "修復暗黑區塊",
+      "en_US": "Fix Lighting"
+    }
+  },
+  {
+    "key": "React.action.fix-lighting.relighting",
+    "type": "text",
+    "languages": {
+      "zh_TW": "點亮中",
+      "en_US": "Relighting "
+    }
+  },
+  {
+    "key": "React.action.fix-lighting.relit",
+    "type": "text",
+    "languages": {
+      "zh_TW": "點亮",
+      "en_US": "Relit "
+    }
+  },
+  {
+    "key": "React.action.fix-lighting.status",
+    "type": "text",
+    "languages": {
+      "zh_TW": "修復光源 ($p)",
+      "en_US": "Fix Lighting ($p)"
+    }
+  },
+  {
+    "key": "React.action.lock-fluid.chunk",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 區塊",
+      "en_US": " chunk"
+    }
+  },
+  {
+    "key": "React.action.lock-fluid.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "暫停各區塊的液體流動.",
+      "en_US": "Locks (stops) fluids in various chunks for a time period."
+    }
+  },
+  {
+    "key": "React.action.lock-fluid.for",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 對於",
+      "en_US": " for "
+    }
+  },
+  {
+    "key": "React.action.lock-fluid.locked-in",
+    "type": "text",
+    "languages": {
+      "zh_TW": "已停止液體在",
+      "en_US": "Locked Fluids in "
+    }
+  },
+  {
+    "key": "React.action.lock-fluid.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "停止液體流動",
+      "en_US": "Lock Fluid"
+    }
+  },
+  {
+    "key": "React.action.lock-fluid.status",
+    "type": "text",
+    "languages": {
+      "zh_TW": "暫停液體流動 $p",
+      "en_US": "Locking Fluid $p"
+    }
+  },
+  {
+    "key": "React.action.lock-hopper.chunk",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 區塊",
+      "en_US": " chunk"
+    }
+  },
+  {
+    "key": "React.action.lock-hopper.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "暫停各個區塊的漏斗傳輸.",
+      "en_US": "Locks (stops) hoppers in various chunks for a time period."
+    }
+  },
+  {
+    "key": "React.action.lock-hopper.for",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 對於 ",
+      "en_US": " for "
+    }
+  },
+  {
+    "key": "React.action.lock-hopper.locked-in",
+    "type": "text",
+    "languages": {
+      "zh_TW": "已停止漏斗於 ",
+      "en_US": "Locked Hoppers in "
+    }
+  },
+  {
+    "key": "React.action.lock-hopper.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "鎖定漏斗",
+      "en_US": "Lock Hopper"
+    }
+  },
+  {
+    "key": "React.action.lock-hopper.status",
+    "type": "text",
+    "languages": {
+      "zh_TW": "暫停漏斗中 $c / $t ($p)",
+      "en_US": "Locking Hopper $c / $t ($p)"
+    }
+  },
+  {
+    "key": "React.action.lock-redstone.chunk",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 區塊",
+      "en_US": " chunk"
+    }
+  },
+  {
+    "key": "React.action.lock-redstone.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "暫停紅石線路的運行",
+      "en_US": "Locks (stops) redstone in various chunks for a time period."
+    }
+  },
+  {
+    "key": "React.action.lock-redstone.for",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 對於",
+      "en_US": " for "
+    }
+  },
+  {
+    "key": "React.action.lock-redstone.locked-in",
+    "type": "text",
+    "languages": {
+      "zh_TW": "已暫停紅石線路於 ",
+      "en_US": "Locked Redstone in "
+    }
+  },
+  {
+    "key": "React.action.lock-redstone.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "停止紅石線路",
+      "en_US": "Lock Redstone"
+    }
+  },
+  {
+    "key": "React.action.lock-redstone.status",
+    "type": "text",
+    "languages": {
+      "zh_TW": "暫停紅石中 $c / $t ($p)",
+      "en_US": "Locking Redstone $c / $t ($p)"
+    }
+  },
+  {
+    "key": "React.action.purge-chunks.chunk",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 區塊",
+      "en_US": " chunk"
+    }
+  },
+  {
+    "key": "React.action.purge-chunks.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "卸載指定區域的區塊.",
+      "en_US": "Unloads chunks in the specified locations."
+    }
+  },
+  {
+    "key": "React.action.purge-chunks.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "卸載區塊",
+      "en_US": "Purge Chunks"
+    }
+  },
+  {
+    "key": "React.action.purge-chunks.purged",
+    "type": "text",
+    "languages": {
+      "zh_TW": "已卸載 ",
+      "en_US": "Purged "
+    }
+  },
+  {
+    "key": "React.action.purge-chunks.purging",
+    "type": "text",
+    "languages": {
+      "zh_TW": "卸載中 ",
+      "en_US": "Purging "
+    }
+  },
+  {
+    "key": "React.action.purge-chunks.status",
+    "type": "text",
+    "languages": {
+      "zh_TW": "卸載中 $c / $t ($p)",
+      "en_US": "Purging $c / $t ($p)"
+    }
+  },
+  {
+    "key": "React.action.throttle-chunks.status",
+    "type": "text",
+    "languages": {
+      "zh_TW": "限制區塊生成中 $c / $t ($p)",
+      "en_US": "Throttling $c / $t ($p)"
+    }
+  },
+  {
+    "key": "React.action.purge-entities.across",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 跳過 ",
+      "en_US": " across "
+    }
+  },
+  {
+    "key": "React.action.purge-entities.chunk",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 區塊 ",
+      "en_US": " chunk"
+    }
+  },
+  {
+    "key": "React.action.purge-entities.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "刪除指定區域的目標實體.",
+      "en_US": "Removes targeted entities in the specified locations."
+    }
+  },
+  {
+    "key": "React.action.purge-entities.entities",
+    "type": "text",
+    "languages": {
+      "zh_TW": "實體",
+      "en_US": "entities"
+    }
+  },
+  {
+    "key": "React.action.purge-entities.entities-in",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 實體在 ",
+      "en_US": " entities in "
+    }
+  },
+  {
+    "key": "React.action.purge-entities.entity",
+    "type": "text",
+    "languages": {
+      "zh_TW": "實體",
+      "en_US": "entity"
+    }
+  },
+  {
+    "key": "React.action.purge-entities.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "清理實體",
+      "en_US": "Purge Entities"
+    }
+  },
+  {
+    "key": "React.action.purge-entities.of",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 屬於 ",
+      "en_US": " of "
+    }
+  },
+  {
+    "key": "React.action.purge-entities.purged",
+    "type": "text",
+    "languages": {
+      "zh_TW": "已清理完畢 ",
+      "en_US": "Purged "
+    }
+  },
+  {
+    "key": "React.action.purge-entities.purging",
+    "type": "text",
+    "languages": {
+      "zh_TW": "清理中 ",
+      "en_US": "Purging "
+    }
+  },
+  {
+    "key": "React.action.purge-entities.status",
+    "type": "text",
+    "languages": {
+      "zh_TW": "清理中 $c / $t ($p)",
+      "en_US": "Purging $c / $t ($p)"
+    }
+  },
+  {
+    "key": "React.action.purge-entities.type",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 類型",
+      "en_US": " type"
+    }
+  },
+  {
+    "key": "React.action.unlock-fluid.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "回復各區塊的液體流動.",
+      "en_US": "Unlocks (restarts) fluids in various chunks."
+    }
+  },
+  {
+    "key": "React.action.unlock-fluid.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "回復液體流動",
+      "en_US": "Unlock Fluid"
+    }
+  },
+  {
+    "key": "React.action.unlock-fluid.status",
+    "type": "text",
+    "languages": {
+      "zh_TW": "回復液體流動中 $c / $t ($p)",
+      "en_US": "Unlocking Fluid $c / $t ($p)"
+    }
+  },
+  {
+    "key": "React.action.unlock-hopper.chunk",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 區塊",
+      "en_US": " chunk"
+    }
+  },
+  {
+    "key": "React.action.unlock-hopper.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "回復各區塊的漏斗運輸.",
+      "en_US": "Unlocks (restarts) hoppers in various chunks."
+    }
+  },
+  {
+    "key": "React.action.unlock-hopper.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "回復漏斗運輸",
+      "en_US": "Unlock Hopper"
+    }
+  },
+  {
+    "key": "React.action.unlock-hopper.status",
+    "type": "text",
+    "languages": {
+      "zh_TW": "回復漏斗運輸中 $c / $t ($p)",
+      "en_US": "Unlocking Hopper $c / $t ($p)"
+    }
+  },
+  {
+    "key": "React.action.unlock-hopper.unlocked-in",
+    "type": "text",
+    "languages": {
+      "zh_TW": "回復漏斗運輸於 ",
+      "en_US": "Unlocked Hoppers in "
+    }
+  },
+  {
+    "key": "React.action.unlock-redstone.chunk",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 區塊",
+      "en_US": " chunk"
+    }
+  },
+  {
+    "key": "React.action.unlock-redstone.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "回復各區塊的紅石線路運行.",
+      "en_US": "Unlocks (restarts) redstone in various chunks."
+    }
+  },
+  {
+    "key": "React.action.unlock-redstone.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "回復紅石線路",
+      "en_US": "Unlock Redstone"
+    }
+  },
+  {
+    "key": "React.action.unlock-redstone.status",
+    "type": "text",
+    "languages": {
+      "zh_TW": "回復紅石線路中 $c / $t ($p)",
+      "en_US": "Unlocking Redstone $c / $t ($p)"
+    }
+  },
+  {
+    "key": "React.action.unlock-redstone.unlocked-in",
+    "type": "text",
+    "languages": {
+      "zh_TW": "回復紅石線路於 ",
+      "en_US": "Unlocked Redstone in "
+    }
+  },
+  {
+    "key": "React.actionsource.console",
+    "type": "text",
+    "languages": {
+      "zh_TW": "終端",
+      "en_US": "Console"
+    }
+  },
+  {
+    "key": "React.actionsource.ghost",
+    "type": "text",
+    "languages": {
+      "zh_TW": "未知",
+      "en_US": "A Ghost"
+    }
+  },
+  {
+    "key": "React.block-injector.block-injections-wont",
+    "type": "text",
+    "languages": {
+      "zh_TW": "React客戶端連接將不會被阻止",
+      "en_US": "Block injections will not be executed"
+    }
+  },
+  {
+    "key": "React.block-injector.could-not-find-client",
+    "type": "text",
+    "languages": {
+      "zh_TW": "無法找到用於連接的React客戶端 ",
+      "en_US": "Could not find an injector client for "
+    }
+  },
+  {
+    "key": "React.block-injector.for",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 用於 ",
+      "en_US": " for "
+    }
+  },
+  {
+    "key": "React.block-injector.found-injector",
+    "type": "text",
+    "languages": {
+      "zh_TW": "發現客戶端連接並阻止 ",
+      "en_US": "Found Block Injector "
+    }
+  },
+  {
+    "key": "React.block-injector.injecting-blocks",
+    "type": "text",
+    "languages": {
+      "zh_TW": "== 連接阻止記錄 ===",
+      "en_US": "=== Injecting Blocks ==="
+    }
+  },
+  {
+    "key": "React.command.accept.already-temp",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 已經可以臨時使用React了。你可以使用/re revoke <ID>來取消臨時權限",
+      "en_US": " already has temporary access. You can revoke with /re revoke <player>"
+    }
+  },
+  {
+    "key": "React.command.accept.cant-find",
+    "type": "text",
+    "languages": {
+      "zh_TW": "無法找到 '",
+      "en_US": "Cant find '"
+    }
+  },
+  {
+    "key": "React.command.accept.cant-find-2",
+    "type": "text",
+    "languages": {
+      "zh_TW": "'. 確保你的密鑰能用.",
+      "en_US": "'. Make sure your keyboard is plugged in."
+    }
+  },
+  {
+    "key": "React.command.accept.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "接受申請的用戶獲得臨時權限",
+      "en_US": "Accepts a requesting user to gain temp access"
+    }
+  },
+  {
+    "key": "React.command.accept.fail-accept-temp",
+    "type": "text",
+    "languages": {
+      "zh_TW": "明智的選擇;恐怖的運行能力.",
+      "en_US": "Clever planning; Horrible execution."
+    }
+  },
+  {
+    "key": "React.command.accept.not-requested-but-forcing",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 尚未有使用請求，但他仍然可以使用(/re revoke <ID>撤銷使用權限)",
+      "en_US": " has not requested access, giving access anyways. (/re revoke <player> to revoke)"
+    }
+  },
+  {
+    "key": "React.command.accept.now-has-access",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 現在可以臨時使用React了.",
+      "en_US": " now has temporary access to react."
+    }
+  },
+  {
+    "key": "React.command.accept.temp-disabled",
+    "type": "text",
+    "languages": {
+      "zh_TW": "臨時使用功能已關閉.",
+      "en_US": "Temporary Access is disabled."
+    }
+  },
+  {
+    "key": "React.command.access.already-access",
+    "type": "text",
+    "languages": {
+      "zh_TW": "已經可以臨時使用React了，斷開連接將會撤銷臨時使用權限.",
+      "en_US": "You already have temporary access. Disconnecting will expire the access."
+    }
+  },
+  {
+    "key": "React.command.access.already-have-full-access",
+    "type": "text",
+    "languages": {
+      "zh_TW": "你已經獲得了權限.僅用於申請臨時使用權限.",
+      "en_US": "You already have react permissions. This is used for requesting temporary access."
+    }
+  },
+  {
+    "key": "React.command.access.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "請求使用React (由終端或在線op審核)",
+      "en_US": "Requests access to use react (granted by an online member or console)"
+    }
+  },
+  {
+    "key": "React.command.access.no-perm",
+    "type": "text",
+    "languages": {
+      "zh_TW": "你沒有權限提交臨時使用申請.",
+      "en_US": "You do not have permission to request access."
+    }
+  },
+  {
+    "key": "React.command.access.re-request-sent",
+    "type": "text",
+    "languages": {
+      "zh_TW": "請重新提交申請！並且一個管理員使用 /re accept <你的ID>",
+      "en_US": "Request re-sent! An admin must use /re accept <you>"
+    }
+  },
+  {
+    "key": "React.command.access.request-again",
+    "type": "text",
+    "languages": {
+      "zh_TW": "你可以再次申請臨時使用權限 ",
+      "en_US": "You can request access again in "
+    }
+  },
+  {
+    "key": "React.command.access.request-sent",
+    "type": "text",
+    "languages": {
+      "zh_TW": "成功提交申請! 管理員使用 /re accept <你的ID>",
+      "en_US": "Request sent! An admin must use /re accept <you>"
+    }
+  },
+  {
+    "key": "React.command.access.temp-disabled",
+    "type": "text",
+    "languages": {
+      "zh_TW": "臨時使用已禁用.",
+      "en_US": "Temporary Access is disabled."
+    }
+  },
+  {
+    "key": "React.command.act.action",
+    "type": "text",
+    "languages": {
+      "zh_TW": "行為列表: ",
+      "en_US": "Action: "
+    }
+  },
+  {
+    "key": "React.command.act.action-par-desc",
+    "type": "text",
+    "languages": {
+      "zh_TW": "正在運行的行為名字",
+      "en_US": "The name of the action to run"
+    }
+  },
+  {
+    "key": "React.command.act.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "運行一個行為",
+      "en_US": "Runs an action"
+    }
+  },
+  {
+    "key": "React.command.act.failed-to-parse",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 無法解析輸入.",
+      "en_US": " failed to parse supplied input."
+    }
+  },
+  {
+    "key": "React.command.act.force-against-conf-rules",
+    "type": "text",
+    "languages": {
+      "zh_TW": "與配置規則沖突了",
+      "en_US": "FORCE AGAINST CONFIG RULES"
+    }
+  },
+  {
+    "key": "React.command.act.force-par-desc",
+    "type": "text",
+    "languages": {
+      "zh_TW": "--force 或者 -f 來使用 ",
+      "en_US": "--force or -f to "
+    }
+  },
+  {
+    "key": "React.command.act.no-manual",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 不支持手動調用該行為.",
+      "en_US": " does not support manual invocations."
+    }
+  },
+  {
+    "key": "React.command.act.no-selector",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 不支持該選擇系統: ",
+      "en_US": " does not support the selector: "
+    }
+  },
+  {
+    "key": "React.command.act.options-par-desc",
+    "type": "text",
+    "languages": {
+      "zh_TW": "選擇器(覆合)是用於改變行為執行狀態。詳細請看 /re as.",
+      "en_US": "Special selectors (multiple) which change how the action executes. Use /re a to see specific selector usages."
+    }
+  },
+  {
+    "key": "React.command.act.queued-to-run",
+    "type": "text",
+    "languages": {
+      "zh_TW": "你的行為已經開始運行.",
+      "en_US": "Your action has been queued to run."
+    }
+  },
+  {
+    "key": "React.command.act.selhelp.chunks",
+    "type": "text",
+    "languages": {
+      "zh_TW": "允許使用 @c 來選擇該區塊",
+      "en_US": "Supports selection of chunks using @c to control this action"
+    }
+  },
+  {
+    "key": "React.command.act.selhelp.chunrad",
+    "type": "text",
+    "languages": {
+      "zh_TW": "擇你腳下的區塊(半徑為2個區塊的圓)",
+      "en_US": "Selects your chunk (radius of 2 around you)"
+    }
+  },
+  {
+    "key": "React.command.act.selhelp.default",
+    "type": "text",
+    "languages": {
+      "zh_TW": "默認\n",
+      "en_US": "Default\n"
+    }
+  },
+  {
+    "key": "React.command.act.selhelp.entity-sel",
+    "type": "text",
+    "languages": {
+      "zh_TW": "實體選擇器\n",
+      "en_US": "Entity Selector\n"
+    }
+  },
+  {
+    "key": "React.command.act.selhelp.example",
+    "type": "text",
+    "languages": {
+      "zh_TW": "例如\n",
+      "en_US": "Examples\n"
+    }
+  },
+  {
+    "key": "React.command.act.selhelp.pos-selector",
+    "type": "text",
+    "languages": {
+      "zh_TW": "區域選擇器\n",
+      "en_US": "Positional Selector\n"
+    }
+  },
+  {
+    "key": "React.command.act.selhelp.selallpig",
+    "type": "text",
+    "languages": {
+      "zh_TW": "選擇除豬和牛以外的所有實體",
+      "en_US": "Selects all entities except for pigs and cows"
+    }
+  },
+  {
+    "key": "React.command.act.selhelp.selects-chunk",
+    "type": "text",
+    "languages": {
+      "zh_TW": "選擇你當前所在區塊\n",
+      "en_US": "Selects your chunk\n"
+    }
+  },
+  {
+    "key": "React.command.act.selhelp.selectspigs",
+    "type": "text",
+    "languages": {
+      "zh_TW": "只選擇豬\n",
+      "en_US": "Selects only pigs\n"
+    }
+  },
+  {
+    "key": "React.command.act.selhelp.selexeyours",
+    "type": "text",
+    "languages": {
+      "zh_TW": "選擇以你當前所在的區塊為中心的半徑為2的區塊圈",
+      "en_US": "Selects all chunks except for yours +2 radius"
+    }
+  },
+  {
+    "key": "React.command.act.selhelp.selfh",
+    "type": "text",
+    "languages": {
+      "zh_TW": "五小時",
+      "en_US": "Selects 5 hours"
+    }
+  },
+  {
+    "key": "React.command.act.selhelp.selfs",
+    "type": "text",
+    "languages": {
+      "zh_TW": "五秒\n",
+      "en_US": "Selects 5 seconds\n"
+    }
+  },
+  {
+    "key": "React.command.act.selhelp.sellook",
+    "type": "text",
+    "languages": {
+      "zh_TW": "選擇所有你看見的區塊(半徑為2區塊)",
+      "en_US": "Selects chunk looked at (radius of 2 around you)"
+    }
+  },
+  {
+    "key": "React.command.act.selhelp.selpigcows",
+    "type": "text",
+    "languages": {
+      "zh_TW": "只選擇豬和牛",
+      "en_US": "Selects only pigs and cows"
+    }
+  },
+  {
+    "key": "React.command.act.selhelp.seltwt",
+    "type": "text",
+    "languages": {
+      "zh_TW": "選擇20ticks(一秒)",
+      "en_US": "Selects 20 ticks (1 second)"
+    }
+  },
+  {
+    "key": "React.command.act.selhelp.supports-entity",
+    "type": "text",
+    "languages": {
+      "zh_TW": "支持使用 @e 來選擇實體類型",
+      "en_US": "Supports selection of entity types using @e to control this action"
+    }
+  },
+  {
+    "key": "React.command.act.selhelp.supports-time",
+    "type": "text",
+    "languages": {
+      "zh_TW": "支持使用 @t 來選擇時長",
+      "en_US": "Supports selection of a time length using @t to control this action"
+    }
+  },
+  {
+    "key": "React.command.act.selhelp.time-sel",
+    "type": "text",
+    "languages": {
+      "zh_TW": "時間選擇器\n",
+      "en_US": "Time Selector\n"
+    }
+  },
+  {
+    "key": "React.command.act.unknown-action",
+    "type": "text",
+    "languages": {
+      "zh_TW": "未知的行為:",
+      "en_US": "Unknown Action: "
+    }
+  },
+  {
+    "key": "React.command.action-log.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "計分板監控狀態切換",
+      "en_US": "Toggles Scoreboard Monitoring"
+    }
+  },
+  {
+    "key": "React.command.bandwidth",
+    "type": "text",
+    "languages": {
+      "zh_TW": "帶寬流量",
+      "en_US": "Bandwidth"
+    }
+  },
+  {
+    "key": "React.command.bandwidth-down",
+    "type": "text",
+    "languages": {
+      "zh_TW": "下降",
+      "en_US": "Down"
+    }
+  },
+  {
+    "key": "React.command.bandwidth-up",
+    "type": "text",
+    "languages": {
+      "zh_TW": "上升",
+      "en_US": "Up"
+    }
+  },
+  {
+    "key": "React.command.cblame.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "匯集所有已加載的區塊，並且发送誰加載這些區塊(玩家或插件)",
+      "en_US": "Compiles a list of total chunk loads, with who loaded them (plugin or player)"
+    }
+  },
+  {
+    "key": "React.command.cpu-score.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "給CPU跑分",
+      "en_US": "Benchmarks the cpu to a score"
+    }
+  },
+  {
+    "key": "React.command.cpu",
+    "type": "text",
+    "languages": {
+      "zh_TW": "CPU",
+      "en_US": "CPU"
+    }
+  },
+  {
+    "key": "React.command.cpu-scorecpu-score",
+    "type": "text",
+    "languages": {
+      "zh_TW": "CPU跑分成績:",
+      "en_US": "CPU Score: "
+    }
+  },
+  {
+    "key": "React.command.ctp.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "傳送至區塊",
+      "en_US": "Teleport to a chunk"
+    }
+  },
+  {
+    "key": "React.command.description.cap",
+    "type": "text",
+    "languages": {
+      "zh_TW": "查詢React的功能並且推送React啟用了哪些功能.",
+      "en_US": "Checks react's capabilities and what features work."
+    }
+  },
+  {
+    "key": "React.command.description.env",
+    "type": "text",
+    "languages": {
+      "zh_TW": "伺服器環境資訊.",
+      "en_US": "Retrieve Server environment information."
+    }
+  },
+  {
+    "key": "React.command.description.sub",
+    "type": "text",
+    "languages": {
+      "zh_TW": "已訂閱通知頻道",
+      "en_US": "Subscribe to a notification channel"
+    }
+  },
+  {
+    "key": "React.command.description.unsub",
+    "type": "text",
+    "languages": {
+      "zh_TW": "取消訂閱通知頻道",
+      "en_US": "Unsubscribe to a notification channel"
+    }
+  },
+  {
+    "key": "React.command.explosion-ms",
+    "type": "text",
+    "languages": {
+      "zh_TW": "爆炸 MS",
+      "en_US": "Explosion MS"
+    }
+  },
+  {
+    "key": "React.command.feature.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "開啟或關閉此功能，並對其進行配置.",
+      "en_US": "Turn on and off features and configure them."
+    }
+  },
+  {
+    "key": "React.command.fix.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "開啟配置文件里設定好的行為和一些調整來解決常見的伺服器問題.",
+      "en_US": "Run predefined actions and tweaks to fix common server issues."
+    }
+  },
+  {
+    "key": "React.command.glass.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "切換React反射",
+      "en_US": "Toggles React Glass"
+    }
+  },
+  {
+    "key": "React.command.growth-ms",
+    "type": "text",
+    "languages": {
+      "zh_TW": "生長 MS",
+      "en_US": "Growth MS"
+    }
+  },
+  {
+    "key": "React.command.help.aliases",
+    "type": "text",
+    "languages": {
+      "zh_TW": "簡寫",
+      "en_US": "Aliases"
+    }
+  },
+  {
+    "key": "React.command.help.basic-par",
+    "type": "text",
+    "languages": {
+      "zh_TW": "基本參數",
+      "en_US": "Basic Parameter"
+    }
+  },
+  {
+    "key": "React.command.help.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "顯示使用的指令列表",
+      "en_US": "Shows a list of commands to use"
+    }
+  },
+  {
+    "key": "React.command.help.descriptor-page",
+    "type": "text",
+    "languages": {
+      "zh_TW": "顯示指令頁面，默認為 0",
+      "en_US": "The page of commands to display. Defaults to 0"
+    }
+  },
+  {
+    "key": "React.command.help.descriptor-react",
+    "type": "text",
+    "languages": {
+      "zh_TW": "React主指令",
+      "en_US": "React Root Command"
+    }
+  },
+  {
+    "key": "React.command.help.mode-par",
+    "type": "text",
+    "languages": {
+      "zh_TW": "模式",
+      "en_US": "Mode Type"
+    }
+  },
+  {
+    "key": "React.command.help.ndescription",
+    "type": "text",
+    "languages": {
+      "zh_TW": "\n描述",
+      "en_US": "\nDescription"
+    }
+  },
+  {
+    "key": "React.command.help.next-page",
+    "type": "text",
+    "languages": {
+      "zh_TW": "下一頁",
+      "en_US": "Next Page"
+    }
+  },
+  {
+    "key": "React.command.help.nondescript",
+    "type": "text",
+    "languages": {
+      "zh_TW": "未找到任何描述.",
+      "en_US": "No description found."
+    }
+  },
+  {
+    "key": "React.command.help.nreact",
+    "type": "text",
+    "languages": {
+      "zh_TW": "\n/react ",
+      "en_US": "\n/react "
+    }
+  },
+  {
+    "key": "React.command.help.ofs",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 關於 ",
+      "en_US": " of "
+    }
+  },
+  {
+    "key": "React.command.help.optional-par",
+    "type": "text",
+    "languages": {
+      "zh_TW": "可選參數",
+      "en_US": "Optional Parameter"
+    }
+  },
+  {
+    "key": "React.command.help.or-re",
+    "type": "text",
+    "languages": {
+      "zh_TW": "\n或 /re",
+      "en_US": "\nor /re"
+    }
+  },
+  {
+    "key": "React.command.help.page",
+    "type": "text",
+    "languages": {
+      "zh_TW": "[page]",
+      "en_US": "[page]"
+    }
+  },
+  {
+    "key": "React.command.help.previous-page",
+    "type": "text",
+    "languages": {
+      "zh_TW": "上一頁",
+      "en_US": "Previous Page"
+    }
+  },
+  {
+    "key": "React.command.help.react-cmd",
+    "type": "text",
+    "languages": {
+      "zh_TW": "/react",
+      "en_US": "/react"
+    }
+  },
+  {
+    "key": "React.command.help.rehelpjumper",
+    "type": "text",
+    "languages": {
+      "zh_TW": "/re help ",
+      "en_US": "/re help "
+    }
+  },
+  {
+    "key": "React.command.help.required-par",
+    "type": "text",
+    "languages": {
+      "zh_TW": "必填參數",
+      "en_US": "Required Parameter"
+    }
+  },
+  {
+    "key": "React.command.map.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "打開地圖",
+      "en_US": "Toggles the map"
+    }
+  },
+  {
+    "key": "React.command.monitor.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "打開性能監控",
+      "en_US": "Toggles the monitor"
+    }
+  },
+  {
+    "key": "React.command.ping.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "查看實時圖形化的延遲 (單位：納秒)",
+      "en_US": "View and even graph realtime ping (nanosecond accuracy)"
+    }
+  },
+  {
+    "key": "React.command.ping.all.info",
+    "type": "text",
+    "languages": {
+      "zh_TW": "\n當前Ping: %ping% ms",
+      "en_US": "\nCurrent Ping: %ping% ms"
+    }
+  },
+  {
+    "key": "React.command.ping.all.measured",
+    "type": "text",
+    "languages": {
+      "zh_TW": "\n獲取於 %time% 納秒前",
+      "en_US": "\nMeasured %time% ago"
+    }
+  },
+  {
+    "key": "React.command.ping.all.tp",
+    "type": "text",
+    "languages": {
+      "zh_TW": " [點擊傳送]",
+      "en_US": " [Click to Teleport]"
+    }
+  },
+  {
+    "key": "React.command.pps",
+    "type": "text",
+    "languages": {
+      "zh_TW": "PPS",
+      "en_US": "PPS"
+    }
+  },
+  {
+    "key": "React.command.reload.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "重載React",
+      "en_US": "Reloads React"
+    }
+  },
+  {
+    "key": "React.command.requests.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "顯示當前所有的臨時使用請求",
+      "en_US": "Shows all current requests for temp access"
+    }
+  },
+  {
+    "key": "React.command.revoke.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "撤銷已同意臨時使用用戶的權限",
+      "en_US": "Revokes access from an already accepted user"
+    }
+  },
+  {
+    "key": "React.command.status.chunks-loaded",
+    "type": "text",
+    "languages": {
+      "zh_TW": "已加載區塊: ",
+      "en_US": "Chunks Loaded: "
+    }
+  },
+  {
+    "key": "React.command.status.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "給予一本伺服器狀態書",
+      "en_US": "Give a book of status information"
+    }
+  },
+  {
+    "key": "React.command.status.elips",
+    "type": "text",
+    "languages": {
+      "zh_TW": "...",
+      "en_US": "..."
+    }
+  },
+  {
+    "key": "React.command.status.general",
+    "type": "text",
+    "languages": {
+      "zh_TW": "全局\n",
+      "en_US": "General\n"
+    }
+  },
+  {
+    "key": "React.command.status.memory",
+    "type": "text",
+    "languages": {
+      "zh_TW": "內存\n",
+      "en_US": "Memory\n"
+    }
+  },
+  {
+    "key": "React.command.status.of",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 關於 ",
+      "en_US": " of "
+    }
+  },
+  {
+    "key": "React.command.status.players-online",
+    "type": "text",
+    "languages": {
+      "zh_TW": "在線玩家: ",
+      "en_US": "Players Online: "
+    }
+  },
+  {
+    "key": "React.command.status.server-spikes",
+    "type": "text",
+    "languages": {
+      "zh_TW": "伺服器峰值\n",
+      "en_US": "Server Spikes\n"
+    }
+  },
+  {
+    "key": "React.command.status.server-status",
+    "type": "text",
+    "languages": {
+      "zh_TW": "伺服器狀態",
+      "en_US": "Server Status"
+    }
+  },
+  {
+    "key": "React.command.status.tick",
+    "type": "text",
+    "languages": {
+      "zh_TW": "Tick\n",
+      "en_US": "Tick\n"
+    }
+  },
+  {
+    "key": "React.command.status.tick-usage",
+    "type": "text",
+    "languages": {
+      "zh_TW": "Tick使用: ",
+      "en_US": "Tick Usage: "
+    }
+  },
+  {
+    "key": "React.command.status.worlds-loaded",
+    "type": "text",
+    "languages": {
+      "zh_TW": "已加載世界: ",
+      "en_US": "Worlds Loaded: "
+    }
+  },
+  {
+    "key": "React.command.topchunk.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "顯示負載量最大的區塊的列表.",
+      "en_US": "Shows a list of the hardest hitting chunks."
+    }
+  },
+  {
+    "key": "React.command.version.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "獲取React版本",
+      "en_US": "Get react's version"
+    }
+  },
+  {
+    "key": "React.controller.action-log.monitor",
+    "type": "text",
+    "languages": {
+      "zh_TW": "監控",
+      "en_US": "Monitor"
+    }
+  },
+  {
+    "key": "React.controller.action-log.queue",
+    "type": "text",
+    "languages": {
+      "zh_TW": "隊列: ",
+      "en_US": "Queue: "
+    }
+  },
+  {
+    "key": "React.controller.action-log.scoreboard-name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "React",
+      "en_US": "React"
+    }
+  },
+  {
+    "key": "React.controller.entity-culler.built",
+    "type": "text",
+    "languages": {
+      "zh_TW": "構建 ",
+      "en_US": "Built "
+    }
+  },
+  {
+    "key": "React.controller.entity-culler.cannot-defer-refused",
+    "type": "text",
+    "languages": {
+      "zh_TW": "無法延遲REFUSED參數的運行 (",
+      "en_US": "Cannot defer a REFUSED flag ("
+    }
+  },
+  {
+    "key": "React.controller.entity-culler.cannot-find-entity-type",
+    "type": "text",
+    "languages": {
+      "zh_TW": "無法找到的實體類型: ",
+      "en_US": "Could not find entity of type: "
+    }
+  },
+  {
+    "key": "React.controller.entity-culler.could-not-parse-any",
+    "type": "text",
+    "languages": {
+      "zh_TW": "無法解析任何實體類型 ",
+      "en_US": "Could not parse any entity types for "
+    }
+  },
+  {
+    "key": "React.controller.entity-culler.defers",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 延時",
+      "en_US": " Defers"
+    }
+  },
+  {
+    "key": "React.controller.entity-culler.duplicate-defer",
+    "type": "text",
+    "languages": {
+      "zh_TW": "延時參數重覆 (",
+      "en_US": "Duplicate Defer Flag ("
+    }
+  },
+  {
+    "key": "React.controller.entity-culler.duplicate-refuse",
+    "type": "text",
+    "languages": {
+      "zh_TW": "拒絕參數重覆 (",
+      "en_US": "Duplicate Refuse Flag ("
+    }
+  },
+  {
+    "key": "React.controller.entity-culler.filters",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 篩選",
+      "en_US": " Filters"
+    }
+  },
+  {
+    "key": "React.controller.entity-culler.must-start-with-restrict",
+    "type": "text",
+    "languages": {
+      "zh_TW": "必需帶有參數 @Restrict <A,B,C,...> 或者 @Refuse <TYPE>",
+      "en_US": "Must start with @Restrict <A,B,C,...> OR @Refuse <TYPE>"
+    }
+  },
+  {
+    "key": "React.controller.entity-culler.refusals",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 拒絕",
+      "en_US": " Refusals"
+    }
+  },
+  {
+    "key": "React.controller.entity-culler.unable-to-parse",
+    "type": "text",
+    "languages": {
+      "zh_TW": "無法解析: ",
+      "en_US": "Unable to parse: "
+    }
+  },
+  {
+    "key": "React.controller.entity-culler.unable-to-parse-int",
+    "type": "text",
+    "languages": {
+      "zh_TW": "該整數無法解析 ",
+      "en_US": "Unable to parse integer at "
+    }
+  },
+  {
+    "key": "React.controller.hopper-warp.hopper-warp-max-less-than-min",
+    "type": "text",
+    "languages": {
+      "zh_TW": "漏斗設置中的WARP MAX小於WARP MIN,所以回復為默認值.",
+      "en_US": "Hopper WARP MAX is less than Hopper WARP MIN. Reverting to defaults."
+    }
+  },
+  {
+    "key": "React.controller.sampler.failed-to-sample",
+    "type": "text",
+    "languages": {
+      "zh_TW": "無法采樣 ",
+      "en_US": "Failed to sample "
+    }
+  },
+  {
+    "key": "React.controller.spike-manager.completed",
+    "type": "text",
+    "languages": {
+      "zh_TW": "成功!",
+      "en_US": "Completed!"
+    }
+  },
+  {
+    "key": "React.controller.spike-manager.scanning-plugins",
+    "type": "text",
+    "languages": {
+      "zh_TW": "瀏覽插件中...",
+      "en_US": "Scanning Plugins..."
+    }
+  },
+  {
+    "key": "React.message.error.capabilities.action-bars",
+    "type": "text",
+    "languages": {
+      "zh_TW": "行為面板",
+      "en_US": "Action Bars"
+    }
+  },
+  {
+    "key": "React.message.error.capabilities.attrib",
+    "type": "text",
+    "languages": {
+      "zh_TW": "屬性",
+      "en_US": "Attributes"
+    }
+  },
+  {
+    "key": "React.message.error.capabilities.dual-wield",
+    "type": "text",
+    "languages": {
+      "zh_TW": "雙核運行",
+      "en_US": "Dual Wielding"
+    }
+  },
+  {
+    "key": "React.message.error.capabilities.eai",
+    "type": "text",
+    "languages": {
+      "zh_TW": "實體 AI",
+      "en_US": "Entity AI"
+    }
+  },
+  {
+    "key": "React.message.error.capabilities.entity-names",
+    "type": "text",
+    "languages": {
+      "zh_TW": "實體名稱",
+      "en_US": "Entity Names"
+    }
+  },
+  {
+    "key": "React.message.error.capabilities.hoppers",
+    "type": "text",
+    "languages": {
+      "zh_TW": "漏斗",
+      "en_US": "Hoppers"
+    }
+  },
+  {
+    "key": "React.message.error.capabilities.is-capable",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 可以執行 ",
+      "en_US": " is capable of "
+    }
+  },
+  {
+    "key": "React.message.error.capabilities.is-not-capable",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 無法執行 ",
+      "en_US": " is not capable of "
+    }
+  },
+  {
+    "key": "React.message.error.capabilities.score0",
+    "type": "text",
+    "languages": {
+      "zh_TW": "計分板",
+      "en_US": "Scoreboards"
+    }
+  },
+  {
+    "key": "React.message.fail.no-permission",
+    "type": "text",
+    "languages": {
+      "zh_TW": "權限不足",
+      "en_US": "Insufficient Permission"
+    }
+  },
+  {
+    "key": "React.message.fail.unload-chunk",
+    "type": "text",
+    "languages": {
+      "zh_TW": "無法卸載區塊 ",
+      "en_US": "Failed to unload a chunk "
+    }
+  },
+  {
+    "key": "React.message.failure.does-not-support-side",
+    "type": "text",
+    "languages": {
+      "zh_TW": "該指令不受支持 ",
+      "en_US": "This command does not support "
+    }
+  },
+  {
+    "key": "React.message.goal.achieved",
+    "type": "text",
+    "languages": {
+      "zh_TW": "成功",
+      "en_US": "Achieved"
+    }
+  },
+  {
+    "key": "React.message.goal.achieved-sp",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 成功",
+      "en_US": " Achieved"
+    }
+  },
+  {
+    "key": "React.message.goal.failing",
+    "type": "text",
+    "languages": {
+      "zh_TW": "失敗",
+      "en_US": "Failing"
+    }
+  },
+  {
+    "key": "React.message.goal.goals",
+    "type": "text",
+    "languages": {
+      "zh_TW": "目標: ",
+      "en_US": "Goals: "
+    }
+  },
+  {
+    "key": "React.message.goal.interventions-in-past",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 歷史干預措施",
+      "en_US": " interventions in the past "
+    }
+  },
+  {
+    "key": "React.message.rai-offline",
+    "type": "text",
+    "languages": {
+      "zh_TW": "React AI已關閉.",
+      "en_US": "RAI is now offline."
+    }
+  },
+  {
+    "key": "React.message.rai-online",
+    "type": "text",
+    "languages": {
+      "zh_TW": "React AI已開啟!",
+      "en_US": "RAI Online!"
+    }
+  },
+  {
+    "key": "React.message.rai-status",
+    "type": "text",
+    "languages": {
+      "zh_TW": "React AI狀態",
+      "en_US": "RAI Status"
+    }
+  },
+  {
+    "key": "React.message.status.glass.disabled",
+    "type": "text",
+    "languages": {
+      "zh_TW": "鏡像已關閉",
+      "en_US": "Glass Disabled"
+    }
+  },
+  {
+    "key": "React.message.status.glass.enabled",
+    "type": "text",
+    "languages": {
+      "zh_TW": "鏡像已啟用",
+      "en_US": "Glass Enabled"
+    }
+  },
+  {
+    "key": "React.message.status.logging.disabled",
+    "type": "text",
+    "languages": {
+      "zh_TW": "計分板監控已關閉",
+      "en_US": "Scoreboard Monitoring Disabled"
+    }
+  },
+  {
+    "key": "React.message.status.logging.enabled",
+    "type": "text",
+    "languages": {
+      "zh_TW": "計分板監控已啟用",
+      "en_US": "Scoreboard Monitoring Enabled"
+    }
+  },
+  {
+    "key": "React.message.status.monitoring.disabled",
+    "type": "text",
+    "languages": {
+      "zh_TW": "監控已關閉",
+      "en_US": "Monitoring Disabled"
+    }
+  },
+  {
+    "key": "React.message.status.monitoring.enabled",
+    "type": "text",
+    "languages": {
+      "zh_TW": "監控已啟用",
+      "en_US": "Monitoring Enabled"
+    }
+  },
+  {
+    "key": "React.messages.fail.cannot-clip",
+    "type": "text",
+    "languages": {
+      "zh_TW": "無法縮減 ",
+      "en_US": "Cannot clip "
+    }
+  },
+  {
+    "key": "React.messages.fail.find-key-for-field",
+    "type": "text",
+    "languages": {
+      "zh_TW": "找不到該字段的密鑰: ",
+      "en_US": "Failed to find key for field: "
+    }
+  },
+  {
+    "key": "React.messages.status.adding-new.key",
+    "type": "text",
+    "languages": {
+      "zh_TW": "添加新密鑰: ",
+      "en_US": "Adding new key: "
+    }
+  },
+  {
+    "key": "React.monitor.tab.chunks",
+    "type": "text",
+    "languages": {
+      "zh_TW": "區塊",
+      "en_US": "Chunks"
+    }
+  },
+  {
+    "key": "React.monitor.tab.entities",
+    "type": "text",
+    "languages": {
+      "zh_TW": "實體",
+      "en_US": "Entities"
+    }
+  },
+  {
+    "key": "React.monitor.tab.memory",
+    "type": "text",
+    "languages": {
+      "zh_TW": "內存",
+      "en_US": "Memory"
+    }
+  },
+  {
+    "key": "React.monitor.tab.tick",
+    "type": "text",
+    "languages": {
+      "zh_TW": "Tick",
+      "en_US": "Tick"
+    }
+  },
+  {
+    "key": "React.rai.event-message.fixed1",
+    "type": "text",
+    "languages": {
+      "zh_TW": "看來我們現在正在 %1",
+      "en_US": "Looks like we are now %1"
+    }
+  },
+  {
+    "key": "React.rai.event-message.fixed2",
+    "type": "text",
+    "languages": {
+      "zh_TW": "%2 看起來對我們有益!",
+      "en_US": "The %2 looks good to me!"
+    }
+  },
+  {
+    "key": "React.rai.event-message.react1",
+    "type": "text",
+    "languages": {
+      "zh_TW": "我嘗試使用 %1 去幫助 %2",
+      "en_US": "I'll fire %1 to help with %2"
+    }
+  },
+  {
+    "key": "React.rai.event-message.react2",
+    "type": "text",
+    "languages": {
+      "zh_TW": "我嘗試使用 %1 來修復 %2 ",
+      "en_US": "I'm Trying to fix %2 by running %1"
+    }
+  },
+  {
+    "key": "React.rai.event-message.react3",
+    "type": "text",
+    "languages": {
+      "zh_TW": "我仍在使用 %1 來修復 %2 ",
+      "en_US": "I'm Still Trying to fix %2 with %1"
+    }
+  },
+  {
+    "key": "React.rai.event-message.sample1",
+    "type": "text",
+    "languages": {
+      "zh_TW": "看來伺服器無法使用 %1",
+      "en_US": "It seems like the server is failing to %1"
+    }
+  },
+  {
+    "key": "React.rai.event-message.sample2",
+    "type": "text",
+    "languages": {
+      "zh_TW": "看來我們不能使用 %1",
+      "en_US": "Looks like we can't %1"
+    }
+  },
+  {
+    "key": "React.rai.event-message.sample3",
+    "type": "text",
+    "languages": {
+      "zh_TW": "看來 %2 不穩定.",
+      "en_US": "It seems like the %2 is not stable."
+    }
+  },
+  {
+    "key": "React.rai.goal.chunk-load.chunk-count",
+    "type": "text",
+    "languages": {
+      "zh_TW": "區塊數量",
+      "en_US": "chunk count"
+    }
+  },
+  {
+    "key": "React.rai.goal.chunk-load.chunk-mass",
+    "type": "text",
+    "languages": {
+      "zh_TW": "區塊堆",
+      "en_US": "chunk mass"
+    }
+  },
+  {
+    "key": "React.rai.goal.chunk-load.keep-chunk-count",
+    "type": "text",
+    "languages": {
+      "zh_TW": "保持穩定加載的區塊數量",
+      "en_US": "keep a stable chunk count"
+    }
+  },
+  {
+    "key": "React.rai.goal.chunk-load.reduced-chunk-load",
+    "type": "text",
+    "languages": {
+      "zh_TW": "減少區塊加載",
+      "en_US": "Reduced Chunk Load"
+    }
+  },
+  {
+    "key": "React.rai.goal.entity-count.entity-clustering",
+    "type": "text",
+    "languages": {
+      "zh_TW": "實體群",
+      "en_US": "entity clustering"
+    }
+  },
+  {
+    "key": "React.rai.goal.entity-count.entity-count",
+    "type": "text",
+    "languages": {
+      "zh_TW": "實體數量",
+      "en_US": "entity count"
+    }
+  },
+  {
+    "key": "React.rai.goal.entity-count.keep-stable",
+    "type": "text",
+    "languages": {
+      "zh_TW": "保持穩定加載的實體數量",
+      "en_US": "keep a stable entity count"
+    }
+  },
+  {
+    "key": "React.rai.goal.entity-count.reduced-entity-count",
+    "type": "text",
+    "languages": {
+      "zh_TW": "減少實體數量",
+      "en_US": "Reduced Entity Counts"
+    }
+  },
+  {
+    "key": "React.rai.goal.fluid-tick.fluid-lag",
+    "type": "text",
+    "languages": {
+      "zh_TW": "液體卡頓",
+      "en_US": "fluid lag"
+    }
+  },
+  {
+    "key": "React.rai.goal.fluid-tick.fluid-tick",
+    "type": "text",
+    "languages": {
+      "zh_TW": "液體tick",
+      "en_US": "fluid tick"
+    }
+  },
+  {
+    "key": "React.rai.goal.fluid-tick.keep-stable",
+    "type": "text",
+    "languages": {
+      "zh_TW": "保持穩定加載的液體tick",
+      "en_US": "keep a stable fluid tick"
+    }
+  },
+  {
+    "key": "React.rai.goal.fluid-tick.keeping-stable",
+    "type": "text",
+    "languages": {
+      "zh_TW": "正在保持穩定加載的液體tick",
+      "en_US": "keeping a stable fluid tick"
+    }
+  },
+  {
+    "key": "React.rai.goal.fluid-tick.stable-fluid-tick",
+    "type": "text",
+    "languages": {
+      "zh_TW": "穩定的液體Tick",
+      "en_US": "Stabilize Fluid Tick"
+    }
+  },
+  {
+    "key": "React.rai.goal.redstone-time.keep-stable",
+    "type": "text",
+    "languages": {
+      "zh_TW": "保持穩定加載的紅石tick",
+      "en_US": "keep a stable redstone tick"
+    }
+  },
+  {
+    "key": "React.rai.goal.redstone-time.keeping-stable",
+    "type": "text",
+    "languages": {
+      "zh_TW": "正在保持穩定加載的紅石tick",
+      "en_US": "keeping a stable redstone tick"
+    }
+  },
+  {
+    "key": "React.rai.goal.redstone-time.redstone-lag",
+    "type": "text",
+    "languages": {
+      "zh_TW": "紅石卡頓",
+      "en_US": "redstone lag"
+    }
+  },
+  {
+    "key": "React.rai.goal.redstone-time.redstone-tick",
+    "type": "text",
+    "languages": {
+      "zh_TW": "紅石tick",
+      "en_US": "redstone tick"
+    }
+  },
+  {
+    "key": "React.rai.goal.redstone-time.stablilize",
+    "type": "text",
+    "languages": {
+      "zh_TW": "穩定的紅石tick",
+      "en_US": "Stabilize Redstone Tick"
+    }
+  },
+  {
+    "key": "React.rai.goal.stable-chunk-time.chunk-tick",
+    "type": "text",
+    "languages": {
+      "zh_TW": "區塊tick",
+      "en_US": "chunk tick"
+    }
+  },
+  {
+    "key": "React.rai.goal.stable-chunk-time.keep",
+    "type": "text",
+    "languages": {
+      "zh_TW": "保持穩定加載的區塊tick",
+      "en_US": "keep a stable chunk tick"
+    }
+  },
+  {
+    "key": "React.rai.goal.stable-chunk-time.keeping",
+    "type": "text",
+    "languages": {
+      "zh_TW": "正在保持穩定加載的區塊tick",
+      "en_US": "keeping a stable chunk tick"
+    }
+  },
+  {
+    "key": "React.rai.goal.stable-chunk-time.stable",
+    "type": "text",
+    "languages": {
+      "zh_TW": "穩定的區塊tick",
+      "en_US": "Stablilize Chunk Time"
+    }
+  },
+  {
+    "key": "React.rai.goal.stable-entity-tick.entity-tick",
+    "type": "text",
+    "languages": {
+      "zh_TW": "實體tick",
+      "en_US": "entity tick"
+    }
+  },
+  {
+    "key": "React.rai.goal.stable-entity-tick.keep-stable",
+    "type": "text",
+    "languages": {
+      "zh_TW": "保持穩定加載的實體Tick",
+      "en_US": "keep a stable entity tick"
+    }
+  },
+  {
+    "key": "React.rai.goal.stable-entity-tick.keeping-stable",
+    "type": "text",
+    "languages": {
+      "zh_TW": "正在保持穩定加載的實體tick",
+      "en_US": "keeping a stable entity tick"
+    }
+  },
+  {
+    "key": "React.rai.goal.stable-entity-tick.stabilize-entity-tick",
+    "type": "text",
+    "languages": {
+      "zh_TW": "穩定的實體tick",
+      "en_US": "Stabilize Entity Tick"
+    }
+  },
+  {
+    "key": "React.rai.goal.stable-hopper-time.hopper-lag",
+    "type": "text",
+    "languages": {
+      "zh_TW": "漏斗卡頓",
+      "en_US": "hopper lag"
+    }
+  },
+  {
+    "key": "React.rai.goal.stable-hopper-time.hopper-tick",
+    "type": "text",
+    "languages": {
+      "zh_TW": "漏斗tick",
+      "en_US": "hopper tick"
+    }
+  },
+  {
+    "key": "React.rai.goal.stable-hopper-time.keep-stable",
+    "type": "text",
+    "languages": {
+      "zh_TW": "保持穩定加載的漏斗tick",
+      "en_US": "keep a stable hopper tick"
+    }
+  },
+  {
+    "key": "React.rai.goal.stable-hopper-time.keeping-stable",
+    "type": "text",
+    "languages": {
+      "zh_TW": "正在保持穩定加載的漏斗tick",
+      "en_US": "keeping a stable hopper tick"
+    }
+  },
+  {
+    "key": "React.rai.goal.stable-hopper-time.stablize",
+    "type": "text",
+    "languages": {
+      "zh_TW": "穩定的漏斗Tick",
+      "en_US": "Stabilize Hopper Tick"
+    }
+  },
+  {
+    "key": "React.rai.goal.stable-tick.keep-stable-tps",
+    "type": "text",
+    "languages": {
+      "zh_TW": "保持穩定的TPS",
+      "en_US": "keep a stable tps"
+    }
+  },
+  {
+    "key": "React.rai.goal.stable-tick.keeping-stable",
+    "type": "text",
+    "languages": {
+      "zh_TW": "正在保持穩定的TPS",
+      "en_US": "keeping a stable tps"
+    }
+  },
+  {
+    "key": "React.rai.goal.stable-tick.stable-tps",
+    "type": "text",
+    "languages": {
+      "zh_TW": "穩定的TPS",
+      "en_US": "Stabilize TPS"
+    }
+  },
+  {
+    "key": "React.rai.goal.stable-tick.tps",
+    "type": "text",
+    "languages": {
+      "zh_TW": "tps",
+      "en_US": "tps"
+    }
+  },
+  {
+    "key": "React.react.action.chunks-from-selection-blocked",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 個來自選擇器的區塊(已阻止)",
+      "en_US": " chunk(s) from selection (blocked)"
+    }
+  },
+  {
+    "key": "React.react.action.collect-garbagecollected",
+    "type": "text",
+    "languages": {
+      "zh_TW": "收集 ",
+      "en_US": "Collected "
+    }
+  },
+  {
+    "key": "React.react.action.collect-garbagecollecting-garbage",
+    "type": "text",
+    "languages": {
+      "zh_TW": "收集垃圾",
+      "en_US": "Collecting Garbage"
+    }
+  },
+  {
+    "key": "React.react.action.collect-garbageno-free",
+    "type": "text",
+    "languages": {
+      "zh_TW": "無法清理空閑的內存.",
+      "en_US": "Could not free a measurable amount of memory."
+    }
+  },
+  {
+    "key": "React.react.action.collect-garbageof-garbage",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 的垃圾.",
+      "en_US": " of garbage."
+    }
+  },
+  {
+    "key": "React.react.action.no-chunks-failed",
+    "type": "text",
+    "languages": {
+      "zh_TW": "行為執行失敗. 沒有區塊被選上.",
+      "en_US": "Action failed. No chunks selected."
+    }
+  },
+  {
+    "key": "React.react.action.removed",
+    "type": "text",
+    "languages": {
+      "zh_TW": "移除 ",
+      "en_US": "Removed "
+    }
+  },
+  {
+    "key": "React.react.bench.benchmarking-for",
+    "type": "text",
+    "languages": {
+      "zh_TW": "正在對CPU跑分 ~",
+      "en_US": "Benchmarking CPU for ~"
+    }
+  },
+  {
+    "key": "React.react.bench.cpu",
+    "type": "text",
+    "languages": {
+      "zh_TW": " CPU",
+      "en_US": " CPU"
+    }
+  },
+  {
+    "key": "React.react.bench.cpu-score",
+    "type": "text",
+    "languages": {
+      "zh_TW": "CPU 跑分結果: ",
+      "en_US": "CPU Score: "
+    }
+  },
+  {
+    "key": "React.react.bench.looks-like-its",
+    "type": "text",
+    "languages": {
+      "zh_TW": "看起來像是 ",
+      "en_US": "Looks like it's a "
+    }
+  },
+  {
+    "key": "React.react.bench.score-type.avg",
+    "type": "text",
+    "languages": {
+      "zh_TW": "平均值",
+      "en_US": "Average"
+    }
+  },
+  {
+    "key": "React.react.bench.score-type.fast",
+    "type": "text",
+    "languages": {
+      "zh_TW": "快的",
+      "en_US": "Fast"
+    }
+  },
+  {
+    "key": "React.react.bench.score-type.good",
+    "type": "text",
+    "languages": {
+      "zh_TW": "很好的",
+      "en_US": "Good"
+    }
+  },
+  {
+    "key": "React.react.bench.score-type.pcmr",
+    "type": "text",
+    "languages": {
+      "zh_TW": "超好的",
+      "en_US": "Ultra Fast"
+    }
+  },
+  {
+    "key": "React.react.bench.score-type.slow",
+    "type": "text",
+    "languages": {
+      "zh_TW": "慢",
+      "en_US": "Slow"
+    }
+  },
+  {
+    "key": "React.react.bench.score-type.ultra-slow",
+    "type": "text",
+    "languages": {
+      "zh_TW": "超慢",
+      "en_US": "Ultra Slow"
+    }
+  },
+  {
+    "key": "React.react.bench.score-type.very-fast",
+    "type": "text",
+    "languages": {
+      "zh_TW": "很快",
+      "en_US": "Very Fast"
+    }
+  },
+  {
+    "key": "React.react.bench.score-type.very-slow",
+    "type": "text",
+    "languages": {
+      "zh_TW": "很慢",
+      "en_US": "Very Slow"
+    }
+  },
+  {
+    "key": "React.react.capabilities.action-bars",
+    "type": "text",
+    "languages": {
+      "zh_TW": "行為面板",
+      "en_US": "Action Bars"
+    }
+  },
+  {
+    "key": "React.react.capabilities.adv-scoreboard",
+    "type": "text",
+    "languages": {
+      "zh_TW": "高級計分板",
+      "en_US": "Advanced Scoreboards"
+    }
+  },
+  {
+    "key": "React.react.capabilities.chunk-relighting",
+    "type": "text",
+    "languages": {
+      "zh_TW": "修復暗黑區塊",
+      "en_US": "Chunk Relighting"
+    }
+  },
+  {
+    "key": "React.react.capabilities.dual-wield",
+    "type": "text",
+    "languages": {
+      "zh_TW": "雙核運行",
+      "en_US": "Dual Wielding"
+    }
+  },
+  {
+    "key": "React.react.capabilities.entity-ai",
+    "type": "text",
+    "languages": {
+      "zh_TW": "實體 AI",
+      "en_US": "Entity AI"
+    }
+  },
+  {
+    "key": "React.react.capabilities.entity-att",
+    "type": "text",
+    "languages": {
+      "zh_TW": "實體屬性",
+      "en_US": "Entity Attributes"
+    }
+  },
+  {
+    "key": "React.react.capabilities.entity-naming",
+    "type": "text",
+    "languages": {
+      "zh_TW": "命名實體",
+      "en_US": "Entity Naming"
+    }
+  },
+  {
+    "key": "React.react.capabilities.fawe",
+    "type": "text",
+    "languages": {
+      "zh_TW": "FastAsyncWorldEdit",
+      "en_US": "FastAsyncWorldEdit"
+    }
+  },
+  {
+    "key": "React.react.capabilities.hopper",
+    "type": "text",
+    "languages": {
+      "zh_TW": "漏斗",
+      "en_US": "Hoppers"
+    }
+  },
+  {
+    "key": "React.react.capabilities.monitor-submissive",
+    "type": "text",
+    "languages": {
+      "zh_TW": "服從監控",
+      "en_US": "Monitor Submissiveness"
+    }
+  },
+  {
+    "key": "React.react.capabilities.passengers",
+    "type": "text",
+    "languages": {
+      "zh_TW": "乘坐中的實體",
+      "en_US": "Entity Passengers"
+    }
+  },
+  {
+    "key": "React.react.capabilities.ping",
+    "type": "text",
+    "languages": {
+      "zh_TW": "高速Ping",
+      "en_US": "Accelerated Ping"
+    }
+  },
+  {
+    "key": "React.react.capabilities.proto",
+    "type": "text",
+    "languages": {
+      "zh_TW": "ProtocolLib",
+      "en_US": "ProtocolLib"
+    }
+  },
+  {
+    "key": "React.react.capabilities.requires",
+    "type": "text",
+    "languages": {
+      "zh_TW": " (需求 ",
+      "en_US": " (requires "
+    }
+  },
+  {
+    "key": "React.react.capabilities.scoreboard",
+    "type": "text",
+    "languages": {
+      "zh_TW": "計分板",
+      "en_US": "Scoreboards"
+    }
+  },
+  {
+    "key": "React.react.capabilities.throttling",
+    "type": "text",
+    "languages": {
+      "zh_TW": "實體節流(壓縮)",
+      "en_US": "Entity Throttling"
+    }
+  },
+  {
+    "key": "React.react.capabilities.tile-throttling",
+    "type": "text",
+    "languages": {
+      "zh_TW": "Tile節流(壓縮)",
+      "en_US": "Tile Throttling"
+    }
+  },
+  {
+    "key": "React.react.capabilities.title-bar",
+    "type": "text",
+    "languages": {
+      "zh_TW": "標題面板",
+      "en_US": "Title Bar"
+    }
+  },
+  {
+    "key": "React.react.command.chunktp.world",
+    "type": "text",
+    "languages": {
+      "zh_TW": "傳送至世界",
+      "en_US": "The world to teleport to"
+    }
+  },
+  {
+    "key": "React.react.command.chunktp.x",
+    "type": "text",
+    "languages": {
+      "zh_TW": "X坐標",
+      "en_US": "The X Coord"
+    }
+  },
+  {
+    "key": "React.react.command.chunktp.y",
+    "type": "text",
+    "languages": {
+      "zh_TW": "Y坐標",
+      "en_US": "The Y Coord"
+    }
+  },
+  {
+    "key": "React.react.command.chunktp.z",
+    "type": "text",
+    "languages": {
+      "zh_TW": "Z坐標",
+      "en_US": "The Z Coord"
+    }
+  },
+  {
+    "key": "React.react.fix-instance",
+    "type": "text",
+    "languages": {
+      "zh_TW": "實例不存在,修復中?",
+      "en_US": "Instance null, fixing?"
+    }
+  },
+  {
+    "key": "React.react.reinstance-jar",
+    "type": "text",
+    "languages": {
+      "zh_TW": "正在為更新的jar實例化",
+      "en_US": "Reinstancing from updated jar"
+    }
+  },
+  {
+    "key": "React.sampler.async-queue.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "總異步隊列",
+      "en_US": "Total async tasks"
+    }
+  },
+  {
+    "key": "React.sampler.async-queue.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "異步隊列",
+      "en_US": "ATasks"
+    }
+  },
+  {
+    "key": "React.sampler.chunk-time.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "區塊樣品總加載時間",
+      "en_US": "Samples Chunk total load times"
+    }
+  },
+  {
+    "key": "React.sampler.chunk-time.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "區塊加載時間",
+      "en_US": "Chunk Time"
+    }
+  },
+  {
+    "key": "React.sampler.chunks-loaded.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "總加載區塊",
+      "en_US": "Total loaded chunks"
+    }
+  },
+  {
+    "key": "React.sampler.chunks-loaded.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "區塊",
+      "en_US": "Chunks"
+    }
+  },
+  {
+    "key": "React.sampler.chunks-per-second.chunks-per-second",
+    "type": "text",
+    "languages": {
+      "zh_TW": "平均區塊每秒",
+      "en_US": "Chunks per second"
+    }
+  },
+  {
+    "key": "React.sampler.chunks-per-second.chunks-sec",
+    "type": "text",
+    "languages": {
+      "zh_TW": "區塊/s",
+      "en_US": "Chunks/s"
+    }
+  },
+  {
+    "key": "React.sampler.chunks-per-second.ps",
+    "type": "text",
+    "languages": {
+      "zh_TW": "/s",
+      "en_US": "/s"
+    }
+  },
+  {
+    "key": "React.sampler.entities-dropped-ticks.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "掉落實體樣品Tick",
+      "en_US": "Samples Dropped Entity Ticks"
+    }
+  },
+  {
+    "key": "React.sampler.entities-dropped-ticks.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "掉落實體Tick",
+      "en_US": "Entity Dropped Ticks"
+    }
+  },
+  {
+    "key": "React.sampler.entities-drops.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "總掉落實體",
+      "en_US": "Total Drops"
+    }
+  },
+  {
+    "key": "React.sampler.entities-drops.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "掉落物",
+      "en_US": "Drops"
+    }
+  },
+  {
+    "key": "React.sampler.entities-living.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "總存活實體",
+      "en_US": "Total Living"
+    }
+  },
+  {
+    "key": "React.sampler.entities-living.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "存活實體",
+      "en_US": "Living"
+    }
+  },
+  {
+    "key": "React.sampler.entities-tiles.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "總Tile數量",
+      "en_US": "Total Tiles"
+    }
+  },
+  {
+    "key": "React.sampler.entities-tiles.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "Tiles",
+      "en_US": "Tiles"
+    }
+  },
+  {
+    "key": "React.sampler.entities-total.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "總實體",
+      "en_US": "Total Entities"
+    }
+  },
+  {
+    "key": "React.sampler.entities-total.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "實體",
+      "en_US": "Entities"
+    }
+  },
+  {
+    "key": "React.sampler.entity-time-lock.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "實體鎖定樣本Tick",
+      "en_US": "Samples Entity Tick Time Lock"
+    }
+  },
+  {
+    "key": "React.sampler.entity-time-lock.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "實體鎖定Tick",
+      "en_US": "Entity Tick Time Lock"
+    }
+  },
+  {
+    "key": "React.sampler.entity-time.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "實體樣本Tick",
+      "en_US": "Samples Entity Tick Time"
+    }
+  },
+  {
+    "key": "React.sampler.entity-time.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "實體樣本Tick",
+      "en_US": "Entity Tick Time"
+    }
+  },
+  {
+    "key": "React.sampler.fluid-per-second.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "每秒液體更新",
+      "en_US": "Samples fluid updates per second"
+    }
+  },
+  {
+    "key": "React.sampler.fluid-per-second.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "每秒液體更新",
+      "en_US": "Fluid Per Second"
+    }
+  },
+  {
+    "key": "React.sampler.fluid-per-second.ps",
+    "type": "text",
+    "languages": {
+      "zh_TW": "/s",
+      "en_US": "/s"
+    }
+  },
+  {
+    "key": "React.sampler.fluid-per-tick.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "每秒液體運行Tick",
+      "en_US": "Samples fluid updates per tick"
+    }
+  },
+  {
+    "key": "React.sampler.fluid-per-tick.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "液體Tick",
+      "en_US": "Fluid Per Tick"
+    }
+  },
+  {
+    "key": "React.sampler.fluid-per-tick.pt",
+    "type": "text",
+    "languages": {
+      "zh_TW": "/t",
+      "en_US": "/t"
+    }
+  },
+  {
+    "key": "React.sampler.fluid-tick-time.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "液體樣品的Tick",
+      "en_US": "Samples Fluid Tick Time"
+    }
+  },
+  {
+    "key": "React.sampler.fluid-tick-time.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "液體Tick",
+      "en_US": "Fluid Tick Time"
+    }
+  },
+  {
+    "key": "React.sampler.fluid-tick-utilization.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "液體樣品Tick利用率百分比",
+      "en_US": "Samples Fluid Tick Time Utilization"
+    }
+  },
+  {
+    "key": "React.sampler.fluid-tick-utilization.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "液體Tick利用率",
+      "en_US": "Fluid Tick Time Utilization"
+    }
+  },
+  {
+    "key": "React.sampler.hopper-per-second.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "采樣的漏斗每秒更新次數",
+      "en_US": "Samples hopper updates per second"
+    }
+  },
+  {
+    "key": "React.sampler.hopper-per-second.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "每秒漏斗更新",
+      "en_US": "Hoppers Per Second"
+    }
+  },
+  {
+    "key": "React.sampler.hopper-per-second.ps",
+    "type": "text",
+    "languages": {
+      "zh_TW": "/s",
+      "en_US": "/s"
+    }
+  },
+  {
+    "key": "React.sampler.hopper-per-tick.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "每Tick漏斗樣本更新次數",
+      "en_US": "Samples hopper updates per tick"
+    }
+  },
+  {
+    "key": "React.sampler.hopper-per-tick.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "每Tick漏斗更新",
+      "en_US": "Hopper Per Tick"
+    }
+  },
+  {
+    "key": "React.sampler.hopper-per-tick.pt",
+    "type": "text",
+    "languages": {
+      "zh_TW": "/t",
+      "en_US": "/t"
+    }
+  },
+  {
+    "key": "React.sampler.hopper-tick-time.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "漏斗樣品Tick",
+      "en_US": "Samples Hopper Tick Time"
+    }
+  },
+  {
+    "key": "React.sampler.hopper-tick-time.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "漏斗Tick",
+      "en_US": "Hopper Tick Time"
+    }
+  },
+  {
+    "key": "React.sampler.hopper-tick-utilization.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "每Tick樣品漏斗利用率的百分比",
+      "en_US": "Samples Hopper Tick Time Utilization"
+    }
+  },
+  {
+    "key": "React.sampler.hopper-tick-utilization.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "漏斗Tick利用率",
+      "en_US": "Hopper Tick Time Utilization"
+    }
+  },
+  {
+    "key": "React.sampler.mahs.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "每秒分配的內存",
+      "en_US": "Memory allocated per second"
+    }
+  },
+  {
+    "key": "React.sampler.mahs.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "每秒分配內存",
+      "en_US": "Memory allocated per second"
+    }
+  },
+  {
+    "key": "React.sampler.memory-allocated.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "已分配內存",
+      "en_US": "Allocated Memory"
+    }
+  },
+  {
+    "key": "React.sampler.memory-allocated.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "已分配內存",
+      "en_US": "Allocated Memory"
+    }
+  },
+  {
+    "key": "React.sampler.memory-free.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "當前可用的內存",
+      "en_US": "Memory currently free"
+    }
+  },
+  {
+    "key": "React.sampler.memory-free.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "空余內存",
+      "en_US": "Free Memory"
+    }
+  },
+  {
+    "key": "React.sampler.memory-max.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "最大內存",
+      "en_US": "Maximum Memory"
+    }
+  },
+  {
+    "key": "React.sampler.memory-max.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "最大內存",
+      "en_US": "Max Memory"
+    }
+  },
+  {
+    "key": "React.sampler.memory-used.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "當前已用內存",
+      "en_US": "Memory currently used"
+    }
+  },
+  {
+    "key": "React.sampler.memory-used.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "已用內存",
+      "en_US": "Used Memory"
+    }
+  },
+  {
+    "key": "React.sampler.name.allocated-memory",
+    "type": "text",
+    "languages": {
+      "zh_TW": "已分配內存",
+      "en_US": "Allocated"
+    }
+  },
+  {
+    "key": "React.sampler.name.async-queue",
+    "type": "text",
+    "languages": {
+      "zh_TW": "異步隊列",
+      "en_US": "Async Queue"
+    }
+  },
+  {
+    "key": "React.sampler.name.chunk-time",
+    "type": "text",
+    "languages": {
+      "zh_TW": "區塊 MS",
+      "en_US": "Chunk MS"
+    }
+  },
+  {
+    "key": "React.sampler.name.chunks-second",
+    "type": "text",
+    "languages": {
+      "zh_TW": "區塊/s",
+      "en_US": "Chunks/s"
+    }
+  },
+  {
+    "key": "React.sampler.name.entities-count",
+    "type": "text",
+    "languages": {
+      "zh_TW": "實體",
+      "en_US": "Entities"
+    }
+  },
+  {
+    "key": "React.sampler.name.entities-drops-count",
+    "type": "text",
+    "languages": {
+      "zh_TW": "掉落物",
+      "en_US": "Drops"
+    }
+  },
+  {
+    "key": "React.sampler.name.entities-living-count",
+    "type": "text",
+    "languages": {
+      "zh_TW": "怪物",
+      "en_US": "Mobs"
+    }
+  },
+  {
+    "key": "React.sampler.name.entities-tiles-count",
+    "type": "text",
+    "languages": {
+      "zh_TW": "Tiles",
+      "en_US": "Tiles"
+    }
+  },
+  {
+    "key": "React.sampler.name.entity-drop-tick",
+    "type": "text",
+    "languages": {
+      "zh_TW": "實體掉落Tick",
+      "en_US": "Entity DTick"
+    }
+  },
+  {
+    "key": "React.sampler.name.entity-throttle",
+    "type": "text",
+    "languages": {
+      "zh_TW": "實體節流Tick",
+      "en_US": "Entity LCK"
+    }
+  },
+  {
+    "key": "React.sampler.name.entity-time",
+    "type": "text",
+    "languages": {
+      "zh_TW": "實體 MS",
+      "en_US": "Entity MS"
+    }
+  },
+  {
+    "key": "React.sampler.name.fluid-second",
+    "type": "text",
+    "languages": {
+      "zh_TW": "液體/s",
+      "en_US": "Fluid/s"
+    }
+  },
+  {
+    "key": "React.sampler.name.fluid-tick",
+    "type": "text",
+    "languages": {
+      "zh_TW": "液體/t",
+      "en_US": "Fluid/t"
+    }
+  },
+  {
+    "key": "React.sampler.name.fluid-time",
+    "type": "text",
+    "languages": {
+      "zh_TW": "液體 MS",
+      "en_US": "Fluid MS"
+    }
+  },
+  {
+    "key": "React.sampler.name.fluid-utilization",
+    "type": "text",
+    "languages": {
+      "zh_TW": "液體UTick",
+      "en_US": "Fluid UTick"
+    }
+  },
+  {
+    "key": "React.sampler.name.free-memory",
+    "type": "text",
+    "languages": {
+      "zh_TW": "空余內存",
+      "en_US": "Free Mem"
+    }
+  },
+  {
+    "key": "React.sampler.name.hopper-second",
+    "type": "text",
+    "languages": {
+      "zh_TW": "漏斗/s",
+      "en_US": "Hopper/s"
+    }
+  },
+  {
+    "key": "React.sampler.name.hopper-tick",
+    "type": "text",
+    "languages": {
+      "zh_TW": "漏斗/t",
+      "en_US": "Hopper/t"
+    }
+  },
+  {
+    "key": "React.sampler.name.hopper-time",
+    "type": "text",
+    "languages": {
+      "zh_TW": "漏斗 MS",
+      "en_US": "Hopper MS"
+    }
+  },
+  {
+    "key": "React.sampler.name.hopper-utilization",
+    "type": "text",
+    "languages": {
+      "zh_TW": "漏斗UTick",
+      "en_US": "Hopper UTick"
+    }
+  },
+  {
+    "key": "React.sampler.name.loaded-chunks",
+    "type": "text",
+    "languages": {
+      "zh_TW": "已加載區塊",
+      "en_US": "Loaded Chunks"
+    }
+  },
+  {
+    "key": "React.sampler.name.max-memory",
+    "type": "text",
+    "languages": {
+      "zh_TW": "最大內存",
+      "en_US": "Max Mem"
+    }
+  },
+  {
+    "key": "React.sampler.name.memory-allocated-per-second",
+    "type": "text",
+    "languages": {
+      "zh_TW": "MAH/s",
+      "en_US": "MAH/s"
+    }
+  },
+  {
+    "key": "React.sampler.name.physics-time",
+    "type": "text",
+    "languages": {
+      "zh_TW": "物理量 MS",
+      "en_US": "Physics MS"
+    }
+  },
+  {
+    "key": "React.sampler.name.redstone-tick",
+    "type": "text",
+    "languages": {
+      "zh_TW": "紅石/t",
+      "en_US": "Redstone/t"
+    }
+  },
+  {
+    "key": "React.sampler.name.redstone-time",
+    "type": "text",
+    "languages": {
+      "zh_TW": "紅石 MS",
+      "en_US": "Redstone MS"
+    }
+  },
+  {
+    "key": "React.sampler.name.redstone-utilization",
+    "type": "text",
+    "languages": {
+      "zh_TW": "紅石UTick",
+      "en_US": "Redstone UTick"
+    }
+  },
+  {
+    "key": "React.sampler.name.redstone.second",
+    "type": "text",
+    "languages": {
+      "zh_TW": "紅石/s",
+      "en_US": "Redstone/s"
+    }
+  },
+  {
+    "key": "React.sampler.name.server-tick-time",
+    "type": "text",
+    "languages": {
+      "zh_TW": "伺服器Tick MS",
+      "en_US": "Server Tick MS"
+    }
+  },
+  {
+    "key": "React.sampler.name.server-tick-utilization",
+    "type": "text",
+    "languages": {
+      "zh_TW": "加載",
+      "en_US": "Load"
+    }
+  },
+  {
+    "key": "React.sampler.name.sync-queue",
+    "type": "text",
+    "languages": {
+      "zh_TW": "異步隊列",
+      "en_US": "Sync Queue"
+    }
+  },
+  {
+    "key": "React.sampler.name.ticks-per-second",
+    "type": "text",
+    "languages": {
+      "zh_TW": "TPS",
+      "en_US": "TPS"
+    }
+  },
+  {
+    "key": "React.sampler.name.tile-drop-tick",
+    "type": "text",
+    "languages": {
+      "zh_TW": "Tile掉落Tick",
+      "en_US": "Tile DTick"
+    }
+  },
+  {
+    "key": "React.sampler.name.tile-throttle",
+    "type": "text",
+    "languages": {
+      "zh_TW": "Tile節流Tick",
+      "en_US": "Tile LCK"
+    }
+  },
+  {
+    "key": "React.sampler.name.tile-time",
+    "type": "text",
+    "languages": {
+      "zh_TW": "Tile MS",
+      "en_US": "Tile MS"
+    }
+  },
+  {
+    "key": "React.sampler.name.used-memory",
+    "type": "text",
+    "languages": {
+      "zh_TW": "已用內存",
+      "en_US": "Used Mem"
+    }
+  },
+  {
+    "key": "React.sampler.redstone-per-tick.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "每Tick樣品紅石更新",
+      "en_US": "Samples redstone updates per tick"
+    }
+  },
+  {
+    "key": "React.sampler.redstone-per-tick.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "每Tick紅石更新",
+      "en_US": "Redstone Per Tick"
+    }
+  },
+  {
+    "key": "React.sampler.redstone-per-tick.pt",
+    "type": "text",
+    "languages": {
+      "zh_TW": "/t",
+      "en_US": "/t"
+    }
+  },
+  {
+    "key": "React.sampler.redstone-second.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "每秒樣品紅石更新",
+      "en_US": "Samples redstone updates per second"
+    }
+  },
+  {
+    "key": "React.sampler.redstone-second.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "每秒紅石更新",
+      "en_US": "Redstone Per Second"
+    }
+  },
+  {
+    "key": "React.sampler.redstone-second.ps",
+    "type": "text",
+    "languages": {
+      "zh_TW": "/s",
+      "en_US": "/s"
+    }
+  },
+  {
+    "key": "React.sampler.redstone-tick-time.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "紅石樣品Tick",
+      "en_US": "Samples Redstone Tick Time"
+    }
+  },
+  {
+    "key": "React.sampler.redstone-tick-time.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "紅石Tick",
+      "en_US": "Redstone Tick Time"
+    }
+  },
+  {
+    "key": "React.sampler.redstone-tick-utilization.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "紅石每Tick利用率的百分比",
+      "en_US": "Samples Redstone Tick Time Utilization"
+    }
+  },
+  {
+    "key": "React.sampler.redstone-tick-utilization.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "紅石Tick利用率",
+      "en_US": "Redstone Tick Time Utilization"
+    }
+  },
+  {
+    "key": "React.sampler.sync-queue.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "總異步隊列",
+      "en_US": "Total sync tasks"
+    }
+  },
+  {
+    "key": "React.sampler.sync-queue.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "隊列",
+      "en_US": "Tasks"
+    }
+  },
+  {
+    "key": "React.sampler.tick-time.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "每毫秒執行的Tick",
+      "en_US": "Tick time in milliseconds"
+    }
+  },
+  {
+    "key": "React.sampler.tick-time.milliseconds",
+    "type": "text",
+    "languages": {
+      "zh_TW": "ms",
+      "en_US": "ms"
+    }
+  },
+  {
+    "key": "React.sampler.tick-time.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "Tick",
+      "en_US": "Tick Time"
+    }
+  },
+  {
+    "key": "React.sampler.tick-utilization.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "Tick的使用百分比",
+      "en_US": "Tick usage via percent"
+    }
+  },
+  {
+    "key": "React.sampler.tick-utilization.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "Tick使用率",
+      "en_US": "Tick Utilization"
+    }
+  },
+  {
+    "key": "React.sampler.tile-time-lock.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "Tile鎖定樣本Ticks",
+      "en_US": "Samples Tile Tick Time Lock"
+    }
+  },
+  {
+    "key": "React.sampler.tile-time-lock.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "Tile鎖定Ticks",
+      "en_US": "Tile Tick Time Lock"
+    }
+  },
+  {
+    "key": "React.sampler.tile-time.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "Tile樣本Ticks",
+      "en_US": "Samples Tile Tick Time"
+    }
+  },
+  {
+    "key": "React.sampler.tile-time.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "Tile Ticks 時間",
+      "en_US": "Tile Tick Time"
+    }
+  },
+  {
+    "key": "React.sampler.tile.dropped-ticks.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "Tile掉落樣本Ticks",
+      "en_US": "Samples Dropped Tile Ticks"
+    }
+  },
+  {
+    "key": "React.sampler.tile.dropped-ticks.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "Tile掉落Ticks",
+      "en_US": "Tile Dropped Ticks"
+    }
+  },
+  {
+    "key": "React.sampler.tps.description",
+    "type": "text",
+    "languages": {
+      "zh_TW": "TPS樣本",
+      "en_US": "Samples the tps"
+    }
+  },
+  {
+    "key": "React.sampler.tps.name",
+    "type": "text",
+    "languages": {
+      "zh_TW": "每秒執行Ticks",
+      "en_US": "Ticks Per Second"
+    }
+  },
+  {
+    "key": "React.unlock-fluid.chunk",
+    "type": "text",
+    "languages": {
+      "zh_TW": " 區塊",
+      "en_US": " chunk"
+    }
+  },
+  {
+    "key": "React.unlock-fluid.unlocked-in",
+    "type": "text",
+    "languages": {
+      "zh_TW": "解鎖液體於 ",
+      "en_US": "Unlocked Fluids in "
+    }
+  },
+  {
+    "key": "React.command.memory.description",
+    "type": "text",
+    "languages": {
+      "en_US": "Displays memory information"
+    }
+  }
+]
