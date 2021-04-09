@@ -12,5 +12,6 @@
 **Ignored keys:**
 
 ```
-(?:Diamond|Emerald|Gold|Iron|Coal|Lapis|Redstone|Debris|Nethergold|Quartz)-Ore\.(?!BreakMessage|BreakMobCreeperSpawnMessage|BreakMobWitherSkeletonSpawnMessage).+
+(?:Diamond|Emerald|Gold|Iron|Coal|Lapis|Redstone|Nethergold|Netherquartz)-Ore\.(?!BreakMessage|BreakMobCreeperName|BreakMobCreeperSpawnMessage).+
+(?:Ancient-Debris)\.(?!BreakMessage|BreakMobWitherSkeletonName|BreakMobWitherSkeletonSpawnMessage).+
 ```
