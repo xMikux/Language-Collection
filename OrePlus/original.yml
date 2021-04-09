@@ -1,100 +1,325 @@
 Settings:
   ReloadMessage: '[lang]OrePlus.Settings.ReloadMessage[/lang]'
   NoPermissionMessage: '[lang]OrePlus.Settings.NoPermissionMessage[/lang]'
-Mobs:
-  EnableCreeper: true
-  CreeperName: '[lang]OrePlus.Mobs.CreeperName[/lang]'
-  CreeperSpawnMessage: '[lang]OrePlus.Mobs.CreeperSpawnMessage[/lang]'
-  EnableWitherSkeleton: true
-  WitherSkeletonName: '[lang]OrePlus.Mobs.WitherSkeletonName[/lang]'
-  WitherSkeletonSpawnMessage: '[lang]OrePlus.Mobs.WitherSkeletonSpawnMessage[/lang]'
-Diamond:
-  Enable: true
-  BreakMessage: '[lang]OrePlus.Diamond.BreakMessage[/lang]'
+Diamond-Ore:
+  BreakParticleEnable: true
+  BreakMobCreeperEnable: true
+  BreakMobCreeperSpawnPercentage: 20
+  BreakMobCreeperName: '[lang]OrePlus.Diamond-Ore.BreakMobCreeperName[/lang]'
+  BreakMobCreeperSpawnMessage: '[lang]OrePlus.Diamond-Ore.BreakMobCreeperSpawnMessage[/lang]'
+  BreakSoundEnable: true
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
   BreakSoundPitch: 5
+  BreakMessageAndEffectEnable: true
+  BreakMessage: '[lang]OrePlus.Diamond-Ore.BreakMessage[/lang]'
   BreakPotionEffect: SLOW_DIGGING
+  BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 1
   BreakPotionDurability: 600
-Emerald:
-  Enable: true
-  BreakMessage: '[lang]OrePlus.Emerald.BreakMessage[/lang]'
+  BreakCommandsEnable: true
+  BreakCommandsPercentage: 60
+  BreakCommands:
+    - eco give %player% 500
+    - 'give %player% minecraft:dirt'
+  BreakCustomItemDropEnable: true
+  BreakItemsDropPercentage: 50
+  BreakCustomItemDrop:
+    ItemsDrop:
+      - '==': org.bukkit.inventory.ItemStack
+        v: 2584
+        type: TRIDENT
+        meta:
+          '==': ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6OrePlus
+          lore:
+            - §eExample! By Narcox
+          enchants:
+            CHANNELING: 1
+            IMPALING: 1
+            LOYALTY: 1
+            MENDING: 1
+            DURABILITY: 1
+      - '==': org.bukkit.inventory.ItemStack
+        v: 2584
+        type: CROSSBOW
+        meta:
+          '==': ItemMeta
+          meta-type: CROSSBOW
+          display-name: §6OrePlus
+          lore:
+            - §eExample! By Narcox
+          enchants:
+            MENDING: 1
+            MULTISHOT: 1
+            PIERCING: 1
+            QUICK_CHARGE: 1
+            DURABILITY: 1
+          charged: false
+Emerald-Ore:
+  BreakParticleEnable: true
+  BreakSoundEnable: true
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
   BreakSoundPitch: 5
+  BreakMessageAndEffectEnable: true
+  BreakMessage: '[lang]OrePlus.Emerald-Ore.BreakMessage[/lang]'
   BreakPotionEffect: HERO_OF_THE_VILLAGE
+  BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 0
   BreakPotionDurability: 1200
-Gold:
-  Enable: true
-  BreakMessage: '[lang]OrePlus.Gold.BreakMessage[/lang]'
+  BreakCommandsEnable: false
+  BreakCommandsPercentage: 60
+  BreakCommands:
+    - eco give %player% 500
+    - 'give %player% minecraft:dirt'
+  BreakCustomItemDropEnable: true
+  BreakItemsDropPercentage: 50
+  BreakCustomItemDrop:
+    ItemsDrop:
+      - '==': org.bukkit.inventory.ItemStack
+        v: 2230
+        type: GOLDEN_APPLE
+        amount: 1
+      - '==': org.bukkit.inventory.ItemStack
+        v: 2230
+        type: GOLDEN_APPLE
+        amount: 1
+Gold-Ore:
+  BreakParticleEnable: true
+  BreakSoundEnable: true
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
   BreakSoundPitch: 5
+  BreakMessageAndEffectEnable: true
+  BreakMessage: '[lang]OrePlus.Gold-Ore.BreakMessage[/lang]'
   BreakPotionEffect: FAST_DIGGING
+  BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 1
   BreakPotionDurability: 600
-Iron:
-  Enable: true
-  BreakMessage: '[lang]OrePlus.Iron.BreakMessage[/lang]'
+  BreakCommandsEnable: false
+  BreakCommandsPercentage: 60
+  BreakCommands:
+    - eco give %player% 500
+    - 'give %player% minecraft:dirt'
+  BreakCustomItemDropEnable: false
+  BreakItemsDropPercentage: 50
+  BreakCustomItemDrop:
+    ItemsDrop:
+      - '==': org.bukkit.inventory.ItemStack
+        v: 2230
+        type: GOLDEN_APPLE
+        amount: 1
+      - '==': org.bukkit.inventory.ItemStack
+        v: 2230
+        type: GOLDEN_APPLE
+        amount: 1
+Iron-Ore:
+  BreakParticleEnable: true
+  BreakSoundEnable: true
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
   BreakSoundPitch: 5
+  BreakMessageAndEffectEnable: true
+  BreakMessage: '[lang]OrePlus.Iron-Ore.BreakMessage[/lang]'
   BreakPotionEffect: SPEED
+  BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 2
   BreakPotionDurability: 3600
-Coal:
-  Enable: true
-  BreakMessage: '[lang]OrePlus.Coal.BreakMessage[/lang]'
+  BreakCommandsEnable: false
+  BreakCommandsPercentage: 60
+  BreakCommands:
+    - eco give %player% 500
+    - 'give %player% minecraft:dirt'
+  BreakCustomItemDropEnable: false
+  BreakItemsDropPercentage: 50
+  BreakCustomItemDrop:
+    ItemsDrop:
+      - '==': org.bukkit.inventory.ItemStack
+        v: 2230
+        type: GOLDEN_APPLE
+        amount: 1
+      - '==': org.bukkit.inventory.ItemStack
+        v: 2230
+        type: GOLDEN_APPLE
+        amount: 1
+Coal-Ore:
+  BreakParticleEnable: true
+  BreakSoundEnable: true
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
   BreakSoundPitch: 5
+  BreakMessageAndEffectEnable: true
+  BreakMessage: '[lang]OrePlus.Coal-Ore.BreakMessage[/lang]'
   BreakPotionEffect: GLOWING
+  BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 3
   BreakPotionDurability: 2500
-Lapis:
-  Enable: true
-  BreakMessage: '[lang]OrePlus.Lapis.BreakMessage[/lang]'
+  BreakPotionEffectPercentage: 50
+  BreakCommandsEnable: false
+  BreakCommandsPercentage: 60
+  BreakCommands:
+    - eco give %player% 500
+    - 'give %player% minecraft:dirt'
+  BreakCustomItemDropEnable: false
+  BreakItemsDropPercentage: 50
+  BreakCustomItemDrop:
+    ItemsDrop:
+      - '==': org.bukkit.inventory.ItemStack
+        v: 2230
+        type: GOLDEN_APPLE
+        amount: 1
+      - '==': org.bukkit.inventory.ItemStack
+        v: 2230
+        type: GOLDEN_APPLE
+        amount: 1
+Lapis-Ore:
+  BreakParticleEnable: true
+  BreakSoundEnable: true
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
   BreakSoundPitch: 5
+  BreakMessageAndEffectEnable: true
+  BreakMessage: '[lang]OrePlus.Lapis-Ore.BreakMessage[/lang]'
   BreakPotionEffect: ABSORPTION
+  BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 3
   BreakPotionDurability: 3600
-Redstone:
-  Enable: true
-  BreakMessage: '[lang]OrePlus.Redstone.BreakMessage[/lang]'
+  BreakCommandsEnable: false
+  BreakCommandsPercentage: 60
+  BreakCommands:
+    - eco give %player% 500
+    - 'give %player% minecraft:dirt'
+  BreakCustomItemDropEnable: false
+  BreakItemsDropPercentage: 50
+  BreakCustomItemDrop:
+    ItemsDrop:
+      - '==': org.bukkit.inventory.ItemStack
+        v: 2230
+        type: GOLDEN_APPLE
+        amount: 1
+      - '==': org.bukkit.inventory.ItemStack
+        v: 2230
+        type: GOLDEN_APPLE
+        amount: 1
+Redstone-Ore:
+  BreakParticleEnable: true
+  BreakSoundEnable: true
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
   BreakSoundPitch: 5
+  BreakMessageAndEffectEnable: true
+  BreakMessage: '[lang]OrePlus.Redstone-Ore.BreakMessage[/lang]'
   BreakPotionEffect: REGENERATION
+  BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 3
   BreakPotionDurability: 2500
-Debris:
-  Enable: true
-  BreakMessage: '[lang]OrePlus.Debris.BreakMessage[/lang]'
+  BreakCommandsEnable: false
+  BreakCommandsPercentage: 60
+  BreakCommands:
+    - eco give %player% 500
+    - 'give %player% minecraft:dirt'
+  BreakCustomItemDropEnable: false
+  BreakItemsDropPercentage: 50
+  BreakCustomItemDrop:
+    ItemsDrop:
+      - '==': org.bukkit.inventory.ItemStack
+        v: 2230
+        type: GOLDEN_APPLE
+        amount: 1
+      - '==': org.bukkit.inventory.ItemStack
+        v: 2230
+        type: GOLDEN_APPLE
+        amount: 1
+Ancient-Debris:
+  BreakParticleEnable: true
+  BreakMobWitherSkeletonEnable: true
+  BreakMobWitherSkeletonSpawnPercentage: 50
+  BreakMobWitherSkeletonName: '[lang]OrePlus.Ancient-Debris.BreakMobWitherSkeletonName[/lang]'
+  BreakMobWitherSkeletonSpawnMessage: '[lang]OrePlus.Ancient-Debris.BreakMobWitherSkeletonSpawnMessage[/lang]'
+  BreakSoundEnable: true
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
   BreakSoundPitch: 5
+  BreakMessageAndEffectEnable: true
+  BreakMessage: '[lang]OrePlus.Ancient-Debris.BreakMessage[/lang]'
   BreakPotionEffect: FIRE_RESISTANCE
+  BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 0
   BreakPotionDurability: 4200
-Nethergold:
-  Enable: true
-  BreakMessage: '[lang]OrePlus.Nethergold.BreakMessage[/lang]'
+  BreakCommandsEnable: false
+  BreakCommandsPercentage: 60
+  BreakCommands:
+    - eco give %player% 500
+    - 'give %player% minecraft:dirt'
+  BreakCustomItemDropEnable: false
+  BreakItemsDropPercentage: 50
+  BreakCustomItemDrop:
+    ItemsDrop:
+      - '==': org.bukkit.inventory.ItemStack
+        v: 2230
+        type: GOLDEN_APPLE
+        amount: 1
+      - '==': org.bukkit.inventory.ItemStack
+        v: 2230
+        type: GOLDEN_APPLE
+        amount: 1
+Nethergold-Ore:
+  BreakParticleEnable: true
+  BreakSoundEnable: true
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
   BreakSoundPitch: 5
+  BreakMessageAndEffectEnable: true
+  BreakMessage: '[lang]OrePlus.Nethergold-Ore.BreakMessage[/lang]'
   BreakPotionEffect: SLOW
+  BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 0
   BreakPotionDurability: 600
-Quartz:
-  Enable: true
-  BreakMessage: '[lang]OrePlus.Quartz.BreakMessage[/lang]'
+  BreakCommandsEnable: false
+  BreakCommandsPercentage: 60
+  BreakCommands:
+    - eco give %player% 500
+    - 'give %player% minecraft:dirt'
+  BreakCustomItemDropEnable: false
+  BreakItemsDropPercentage: 50
+  BreakCustomItemDrop:
+    ItemsDrop:
+      - '==': org.bukkit.inventory.ItemStack
+        v: 2230
+        type: GOLDEN_APPLE
+        amount: 1
+      - '==': org.bukkit.inventory.ItemStack
+        v: 2230
+        type: GOLDEN_APPLE
+        amount: 1
+Netherquartz-Ore:
+  BreakParticleEnable: false
+  BreakSoundEnable: false
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
   BreakSoundPitch: 5
+  BreakMessageAndEffectEnable: false
+  BreakMessage: '[lang]OrePlus.Netherquartz-Ore.BreakMessage[/lang]'
   BreakPotionEffect: SLOW_FALLING
+  BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 0
   BreakPotionDurability: 600
+  BreakCommandsEnable: false
+  BreakCommandsPercentage: 60
+  BreakCommands:
+    - eco give %player% 500
+    - 'give %player% minecraft:dirt'
+  BreakCustomItemDropEnable: false
+  BreakItemsDropPercentage: 50
+  BreakCustomItemDrop:
+    ItemsDrop:
+      - '==': org.bukkit.inventory.ItemStack
+        v: 2230
+        type: GOLDEN_APPLE
+        amount: 1
+      - '==': org.bukkit.inventory.ItemStack
+        v: 2230
+        type: GOLDEN_APPLE
+        amount: 1

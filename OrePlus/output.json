@@ -16,7 +16,7 @@
     }
   },
   {
-    "key": "OrePlus.Mobs.CreeperName",
+    "key": "OrePlus.Diamond-Ore.BreakMobCreeperName",
     "type": "text",
     "languages": {
       "en_US": "&a&lBum? hahah!",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "key": "OrePlus.Mobs.CreeperSpawnMessage",
+    "key": "OrePlus.Diamond-Ore.BreakMobCreeperSpawnMessage",
     "type": "text",
     "languages": {
       "en_US": "&a➤ Hello my friend!",
@@ -32,23 +32,7 @@
     }
   },
   {
-    "key": "OrePlus.Mobs.WitherSkeletonName",
-    "type": "text",
-    "languages": {
-      "en_US": "&c&lOne hit? :D",
-      "zh_TW": "&c&l一擊? :D"
-    }
-  },
-  {
-    "key": "OrePlus.Mobs.WitherSkeletonSpawnMessage",
-    "type": "text",
-    "languages": {
-      "en_US": "&c➤ Legends never die!",
-      "zh_TW": "&c➤ 傳奇永不死亡!"
-    }
-  },
-  {
-    "key": "OrePlus.Diamond.BreakMessage",
+    "key": "OrePlus.Diamond-Ore.BreakMessage",
     "type": "text",
     "languages": {
       "en_US": "&b+ Slow mining 2 &8| &7(30 sec)",
@@ -56,7 +40,7 @@
     }
   },
   {
-    "key": "OrePlus.Emerald.BreakMessage",
+    "key": "OrePlus.Emerald-Ore.BreakMessage",
     "type": "text",
     "languages": {
       "en_US": "&a+ Hero of the village 1 &8| &7(1 min)",
@@ -64,7 +48,7 @@
     }
   },
   {
-    "key": "OrePlus.Gold.BreakMessage",
+    "key": "OrePlus.Gold-Ore.BreakMessage",
     "type": "text",
     "languages": {
       "en_US": "&6+ Fast mining 2 &8| &7(30 sec)",
@@ -72,7 +56,7 @@
     }
   },
   {
-    "key": "OrePlus.Iron.BreakMessage",
+    "key": "OrePlus.Iron-Ore.BreakMessage",
     "type": "text",
     "languages": {
       "en_US": "&f+ Speed 3 &8| &7(3 min)",
@@ -80,7 +64,7 @@
     }
   },
   {
-    "key": "OrePlus.Coal.BreakMessage",
+    "key": "OrePlus.Coal-Ore.BreakMessage",
     "type": "text",
     "languages": {
       "en_US": "&e+ Glow 1 &8| &7(2 min 3 sec)",
@@ -88,7 +72,7 @@
     }
   },
   {
-    "key": "OrePlus.Lapis.BreakMessage",
+    "key": "OrePlus.Lapis-Ore.BreakMessage",
     "type": "text",
     "languages": {
       "en_US": "&6+ Absorption 3 &8| &7(3 min)",
@@ -96,7 +80,7 @@
     }
   },
   {
-    "key": "OrePlus.Redstone.BreakMessage",
+    "key": "OrePlus.Redstone-Ore.BreakMessage",
     "type": "text",
     "languages": {
       "en_US": "&c+ Regeneration 4 &8| &7(2 min 4 sec)",
@@ -104,7 +88,23 @@
     }
   },
   {
-    "key": "OrePlus.Debris.BreakMessage",
+    "key": "OrePlus.Ancient-Debris.BreakMobWitherSkeletonName",
+    "type": "text",
+    "languages": {
+      "en_US": "&c&lOne hit? :D",
+      "zh_TW": "&c&l一擊? :D"
+    }
+  },
+  {
+    "key": "OrePlus.Ancient-Debris.BreakMobWitherSkeletonSpawnMessage",
+    "type": "text",
+    "languages": {
+      "en_US": "&c➤ Legends never die!",
+      "zh_TW": "&c➤ 傳奇永不死亡!"
+    }
+  },
+  {
+    "key": "OrePlus.Ancient-Debris.BreakMessage",
     "type": "text",
     "languages": {
       "en_US": "&6+ Fire resistence 1 &8| &7(1 min)",
@@ -112,7 +112,7 @@
     }
   },
   {
-    "key": "OrePlus.Nethergold.BreakMessage",
+    "key": "OrePlus.Nethergold-Ore.BreakMessage",
     "type": "text",
     "languages": {
       "en_US": "&f+ Slowness 1 &8| &7(30 sec)",
@@ -120,7 +120,7 @@
     }
   },
   {
-    "key": "OrePlus.Quartz.BreakMessage",
+    "key": "OrePlus.Netherquartz-Ore.BreakMessage",
     "type": "text",
     "languages": {
       "en_US": "&b+ Slow falling 1 &8| &7(30 sec)",
