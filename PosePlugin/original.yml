@@ -31,3 +31,7 @@ handshake:
   handmode-change: '[lang]PosePlugin.handshake.handmode-change[/lang]'
   stop: '[lang]PosePlugin.handshake.stop[/lang]'
   usage: '§9/handshake [right/left/off]'
+pray:
+  play: '[lang]PosePlugin.pray.play[/lang]'
+  damage: '[lang]PosePlugin.pray.damage[/lang]'
+  stop: '[lang]PosePlugin.pray.stop[/lang]'

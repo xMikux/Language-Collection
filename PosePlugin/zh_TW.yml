@@ -6,8 +6,8 @@ swim:
 lay:
   play: "§b你躺下來了"
   damage: "§c你猛然站了起來, 因為你受傷了"
-  prevent-use-when-invisible: "§c你無法設置躺下姿勢當你正在隱形"
-  prevent-use-invisibility-when-use: "§c你無法在躺下姿勢時使用隱形藥水"
+  prevent-use-when-invisible: "§c你無法在隱形的狀態下躺下"
+  prevent-use-invisibility-when-use: "§c不能在水平位置喝隱形藥水"
   stop: "§a你站了起來"
 sit:
   play: "§b你坐下了"
@@ -31,3 +31,7 @@ handshake:
   handmode-change: "§a你換一了隻手握手"
   stop: "§a你停止握手"
   usage: "§9/handshake [right/left/off]"
+pray:
+  play: "§b你開始祈禱"
+  damage: "§c你猛然站了起來, 因為你受傷了"
+  stop: "§a你站了起來"

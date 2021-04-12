@@ -51,16 +51,16 @@
     "key": "PosePlugin.lay.prevent-use-when-invisible",
     "type": "text",
     "languages": {
-      "en_US": "§cYou can't set lying pose being invisible",
-      "zh_TW": "§c你無法設置躺下姿勢當你正在隱形"
+      "en_US": "§cYou can't lay while you are invisible",
+      "zh_TW": "§c你無法在隱形的狀態下躺下"
     }
   },
   {
     "key": "PosePlugin.lay.prevent-use-invisibility-when-use",
     "type": "text",
     "languages": {
-      "en_US": "§cYou can't use invisibility potion while using lay pose",
-      "zh_TW": "§c你無法在躺下姿勢時使用隱形藥水"
+      "en_US": "§cDon't drink invisibility potions in horizontal position",
+      "zh_TW": "§c不能在水平位置喝隱形藥水"
     }
   },
   {
@@ -189,6 +189,30 @@
     "languages": {
       "en_US": "§aYou've stopped your handshake",
       "zh_TW": "§a你停止握手"
+    }
+  },
+  {
+    "key": "PosePlugin.pray.play",
+    "type": "text",
+    "languages": {
+      "en_US": "§bYou've started praying",
+      "zh_TW": "§b你開始祈禱"
+    }
+  },
+  {
+    "key": "PosePlugin.pray.damage",
+    "type": "text",
+    "languages": {
+      "en_US": "§cYou suddenly stood up, because you got damaged",
+      "zh_TW": "§c你猛然站了起來, 因為你受傷了"
+    }
+  },
+  {
+    "key": "PosePlugin.pray.stop",
+    "type": "text",
+    "languages": {
+      "en_US": "§aYou stood up",
+      "zh_TW": "§a你站了起來"
     }
   }
 ]
