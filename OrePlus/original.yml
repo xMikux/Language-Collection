@@ -11,8 +11,9 @@ Diamond-Ore:
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
   BreakSoundPitch: 5
-  BreakMessageAndEffectEnable: true
+  BreakMessageEnable: true
   BreakMessage: '[lang]OrePlus.Diamond-Ore.BreakMessage[/lang]'
+  BreakEffectEnable: true
   BreakPotionEffect: SLOW_DIGGING
   BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 1
@@ -63,8 +64,9 @@ Emerald-Ore:
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
   BreakSoundPitch: 5
-  BreakMessageAndEffectEnable: true
+  BreakMessageEnable: true
   BreakMessage: '[lang]OrePlus.Emerald-Ore.BreakMessage[/lang]'
+  BreakEffectEnable: true
   BreakPotionEffect: HERO_OF_THE_VILLAGE
   BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 0
@@ -92,8 +94,9 @@ Gold-Ore:
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
   BreakSoundPitch: 5
-  BreakMessageAndEffectEnable: true
+  BreakMessageEnable: true
   BreakMessage: '[lang]OrePlus.Gold-Ore.BreakMessage[/lang]'
+  BreakEffectEnable: true
   BreakPotionEffect: FAST_DIGGING
   BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 1
@@ -121,8 +124,9 @@ Iron-Ore:
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
   BreakSoundPitch: 5
-  BreakMessageAndEffectEnable: true
+  BreakMessageEnable: true
   BreakMessage: '[lang]OrePlus.Iron-Ore.BreakMessage[/lang]'
+  BreakEffectEnable: true
   BreakPotionEffect: SPEED
   BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 2
@@ -150,8 +154,9 @@ Coal-Ore:
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
   BreakSoundPitch: 5
-  BreakMessageAndEffectEnable: true
+  BreakMessageEnable: true
   BreakMessage: '[lang]OrePlus.Coal-Ore.BreakMessage[/lang]'
+  BreakEffectEnable: true
   BreakPotionEffect: GLOWING
   BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 3
@@ -180,8 +185,9 @@ Lapis-Ore:
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
   BreakSoundPitch: 5
-  BreakMessageAndEffectEnable: true
+  BreakMessageEnable: true
   BreakMessage: '[lang]OrePlus.Lapis-Ore.BreakMessage[/lang]'
+  BreakEffectEnable: true
   BreakPotionEffect: ABSORPTION
   BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 3
@@ -209,8 +215,9 @@ Redstone-Ore:
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
   BreakSoundPitch: 5
-  BreakMessageAndEffectEnable: true
+  BreakMessageEnable: true
   BreakMessage: '[lang]OrePlus.Redstone-Ore.BreakMessage[/lang]'
+  BreakEffectEnable: true
   BreakPotionEffect: REGENERATION
   BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 3
@@ -242,8 +249,9 @@ Ancient-Debris:
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
   BreakSoundPitch: 5
-  BreakMessageAndEffectEnable: true
+  BreakMessageEnable: true
   BreakMessage: '[lang]OrePlus.Ancient-Debris.BreakMessage[/lang]'
+  BreakEffectEnable: true
   BreakPotionEffect: FIRE_RESISTANCE
   BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 0
@@ -271,8 +279,9 @@ Nethergold-Ore:
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
   BreakSoundPitch: 5
-  BreakMessageAndEffectEnable: true
+  BreakMessageEnable: true
   BreakMessage: '[lang]OrePlus.Nethergold-Ore.BreakMessage[/lang]'
+  BreakEffectEnable: true
   BreakPotionEffect: SLOW
   BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 0
@@ -300,8 +309,9 @@ Netherquartz-Ore:
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
   BreakSoundPitch: 5
-  BreakMessageAndEffectEnable: false
+  BreakMessageEnable: true
   BreakMessage: '[lang]OrePlus.Netherquartz-Ore.BreakMessage[/lang]'
+  BreakEffectEnable: true
   BreakPotionEffect: SLOW_FALLING
   BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 0

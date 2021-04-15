@@ -1,6 +1,6 @@
 # I am a novice developer, if there is something wrong or something is missing write it down and don't cut my head off!:D
 
-# By Narcox V3.0 (Beta finish)
+# By Narcox V0.3.1
 # Versions: 1.16.x
 
 # Edit all for self!
@@ -22,14 +22,17 @@ Diamond-Ore:
   BreakMobCreeperSpawnMessage: "&a➤ 嗨, 我的朋友!" # Here is creeper spawn message!
 
 # Sound
-  BreakSoundEnable: true # Example! Enable sounds?
-  BreakSound: block.anvil.land # Example! Here is break sound!
-  BreakSoundVolume: 20 # Example! Here is break sound volume!
-  BreakSoundPitch: 5 # Example! Here is break sound pitch!
+  BreakSoundEnable: true # Enable sounds?
+  BreakSound: block.anvil.land # Here is break sound!
+  BreakSoundVolume: 20 # Here is break sound volume!
+  BreakSoundPitch: 5 # Here is break sound pitch!
+
+# Message
+  BreakMessageEnable: true # This message only works if players have no effect to not spam the chat.
+  BreakMessage: "&b+ 挖掘疲勞 2 &8| &7(30秒)" # Here is break message!
 
 # Potion and message...
-  BreakMessageAndEffectEnable: true # Enable messages and effect?
-  BreakMessage: "&b+ 挖掘疲勞 2 &8| &7(30秒)" # Here is break message!
+  BreakEffectEnable: true # Enable messages and effect?
   BreakPotionEffect: SLOW_DIGGING # Potion effect!
   BreakMessageAndPotionPercentage: 50 # Set percentage for potion give and message! (Please don't use > %)
   BreakPotionStrength: 1 # Potion effect strength (0 IS 1 1 IS 2!4!4...)
@@ -87,8 +90,10 @@ Emerald-Ore:
   BreakSoundVolume: 20
   BreakSoundPitch: 5
 
-  BreakMessageAndEffectEnable: true
+  BreakMessageEnable: true
   BreakMessage: "&a+ 村莊英雄 1 &8| &7(1分鐘)"
+
+  BreakEffectEnable: true
   BreakPotionEffect: HERO_OF_THE_VILLAGE
   BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 0
@@ -121,8 +126,10 @@ Gold-Ore:
   BreakSoundVolume: 20
   BreakSoundPitch: 5
 
-  BreakMessageAndEffectEnable: true
+  BreakMessageEnable: true
   BreakMessage: "&6+ 挖掘加速 2 &8| &7(30秒)"
+
+  BreakEffectEnable: true
   BreakPotionEffect: FAST_DIGGING
   BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 1
@@ -156,8 +163,10 @@ Iron-Ore:
   BreakSoundVolume: 20
   BreakSoundPitch: 5
 
-  BreakMessageAndEffectEnable: true
+  BreakMessageEnable: true
   BreakMessage: "&f+ 加速 3 &8| &7(3分鐘)"
+
+  BreakEffectEnable: true
   BreakPotionEffect: SPEED
   BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 2
@@ -190,8 +199,10 @@ Coal-Ore:
   BreakSoundVolume: 20
   BreakSoundPitch: 5
 
-  BreakMessageAndEffectEnable: true
+  BreakMessageEnable: true
   BreakMessage: "&e+ 發光 1 &8| &7(2分鐘 3秒)"
+
+  BreakEffectEnable: true
   BreakPotionEffect: GLOWING
   BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 3
@@ -225,8 +236,10 @@ Lapis-Ore:
   BreakSoundVolume: 20
   BreakSoundPitch: 5
 
-  BreakMessageAndEffectEnable: true
+  BreakMessageEnable: true
   BreakMessage: "&6+ 吸收 3 &8| &7(3分鐘)"
+
+  BreakEffectEnable: true
   BreakPotionEffect: ABSORPTION
   BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 3
@@ -259,8 +272,10 @@ Redstone-Ore:
   BreakSoundVolume: 20
   BreakSoundPitch: 5
 
-  BreakMessageAndEffectEnable: true
+  BreakMessageEnable: true
   BreakMessage: "&c+ 回復 4 &8| &7(2分鐘 4秒)"
+
+  BreakEffectEnable: true
   BreakPotionEffect: REGENERATION
   BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 3
@@ -298,8 +313,10 @@ Ancient-Debris:
   BreakSoundVolume: 20
   BreakSoundPitch: 5
 
-  BreakMessageAndEffectEnable: true
+  BreakMessageEnable: true
   BreakMessage: "&6+ 抗火 1 &8| &7(1分鐘)"
+
+  BreakEffectEnable: true
   BreakPotionEffect: FIRE_RESISTANCE
   BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 0
@@ -332,8 +349,10 @@ Nethergold-Ore:
   BreakSoundVolume: 20
   BreakSoundPitch: 5
 
-  BreakMessageAndEffectEnable: true
+  BreakMessageEnable: true
   BreakMessage: "&f+ 緩速 1 &8| &7(30秒)"
+
+  BreakEffectEnable: true
   BreakPotionEffect: SLOW
   BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 0
@@ -366,8 +385,10 @@ Netherquartz-Ore:
   BreakSoundVolume: 20
   BreakSoundPitch: 5
 
-  BreakMessageAndEffectEnable: false
+  BreakMessageEnable: true
   BreakMessage: "&b+ 緩降 1 &8| &7(30秒)"
+
+  BreakEffectEnable: true
   BreakPotionEffect: SLOW_FALLING
   BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 0
