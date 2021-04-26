@@ -11,10 +11,5 @@
 **Ignored keys:**
 
 ```
-check-for-updates
 zombies\..+
-allow-babies
-burn-in-day
-do-bossbar
-do-zombie-block-damage
 ```

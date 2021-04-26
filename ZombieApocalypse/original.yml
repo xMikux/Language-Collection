@@ -50,6 +50,8 @@ allow-babies: true
 burn-in-day: false
 do-bossbar: true
 do-zombie-block-damage: true
+spawn-pigmen-in-nether: true
+allow-sleep: true
 messages:
   no-command-permission: '[lang]ZombieApocalypse.messages.no-command-permission[/lang]'
   started-success: >-
@@ -75,6 +77,7 @@ messages:
     [lang]ZombieApocalypse.messages.invalid-world[args][arg]{world_name}[/arg][/args][/lang]
   console-no-world-provided: '[lang]ZombieApocalypse.messages.console-no-world-provided[/lang]'
   apocalypse-boss-bar-title: '[lang]ZombieApocalypse.messages.apocalypse-boss-bar-title[/lang]'
+  no-apocalypse-sleep: '[lang]ZombieApocalypse.messages.no-apocalypse-sleep[/lang]'
   given-zombie-egg: >-
     [lang]ZombieApocalypse.messages.given-zombie-egg[args][arg]{item_name}[/arg][/args][/lang]
   invalid-egg-type: '[lang]ZombieApocalypse.messages.invalid-egg-type[/lang]'
