@@ -1,8 +1,8 @@
 in-air: '[lang]PosePlugin.in-air[/lang]'
-swim:
-  play: '[lang]PosePlugin.swim.play[/lang]'
-  damage: '[lang]PosePlugin.swim.damage[/lang]'
-  stop: '[lang]PosePlugin.swim.stop[/lang]'
+crawl:
+  play: '[lang]PosePlugin.crawl.play[/lang]'
+  damage: '[lang]PosePlugin.crawl.damage[/lang]'
+  stop: '[lang]PosePlugin.crawl.stop[/lang]'
 lay:
   play: '[lang]PosePlugin.lay.play[/lang]'
   damage: '[lang]PosePlugin.lay.damage[/lang]'

@@ -1,6 +1,6 @@
 in-air: "§c你不能在空中做這個"
-swim:
-  play: "§b你在游泳"
+crawl:
+  play: "§b你開始爬行"
   damage: "&c你猛然站了起來, 因為你受傷了"
   stop: "§a你站了起來"
 lay:

@@ -8,15 +8,15 @@
     }
   },
   {
-    "key": "PosePlugin.swim.play",
+    "key": "PosePlugin.crawl.play",
     "type": "text",
     "languages": {
-      "en_US": "§bYou're swimming",
-      "zh_TW": "§b你在游泳"
+      "en_US": "§bYou're crawling",
+      "zh_TW": "§b你開始爬行"
     }
   },
   {
-    "key": "PosePlugin.swim.damage",
+    "key": "PosePlugin.crawl.damage",
     "type": "text",
     "languages": {
       "en_US": "&cYou suddenly stood up, because you got damaged",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "key": "PosePlugin.swim.stop",
+    "key": "PosePlugin.crawl.stop",
     "type": "text",
     "languages": {
       "en_US": "§aYou stood up",
