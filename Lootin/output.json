@@ -1,6 +1,6 @@
 [
   {
-    "key": "Lootin.blockbreak-with-message",
+    "key": "Lootin.messages.blockbreak-with-permission",
     "type": "text",
     "languages": {
       "en_US": "&aBreaking the chest will delete your unique loot and items! In order to break, &2you must sneak while doing so..\n&a As loot is &2per player per chest&a, only break if really needed.",
@@ -8,7 +8,7 @@
     }
   },
   {
-    "key": "Lootin.blockbreak-without-permission-message",
+    "key": "Lootin.messages.blockbreak-without-permission",
     "type": "text",
     "languages": {
       "en_US": "&cYou dont have permission to break loot chests",

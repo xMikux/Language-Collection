@@ -1,0 +1,288 @@
+# For information on what each option does. Please refer to https://github.com/LOOHP/InteractiveChat/blob/master/src/main/resources/config_default.yml
+Options:
+  Updater: true
+  ShowCancelledNotice: true
+Messages:
+  NoPermission: '&cYou do not have permission to use that command!'
+  InvExpired: '&cThis inventory view has expired!'
+  ReloadPlugin: '&aInteractive Chat has been reloaded!'
+  LimitReached: '&cPlease do not use an excessive amount of placeholders in one message!'
+  ColorsDisabled: '&lYou have colors disabled in your client settings! All messages
+    will be white and respect the settings!'
+  ColorsReEnabled: '&aYou have colors re-enabled in your client settings! All messages
+    will be colored from this point!'
+  EnableMentions: '&aPlayer Mentions Enabled!'
+  DisableMentions: '&ePlayer Mentions Disabled!'
+  ListPlaceholdersHeader: '&eList of Chat Placeholders:'
+  ListPlaceholdersBody: '&b{Order}. "&f&l{Keyword}&b" &6- &e{Description}'
+  SetInventoryDisplayLayout: '&aSet inventory display layout to Layout &e{Layout}'
+  PlayerOnlyCommand: '&cThis command cannot be used in the console!'
+  InvalidPlayer: '&cThat is not a valid player!'
+  NoEnoughArgs: '&cInsufficent arguments!'
+  InvalidArgs: '&cInvalid arguments!'
+Settings:
+  Bungeecord: false
+  ChatListeningPlugins:
+  - Plugin:PlayerWarps, Class:.*, EventPriority:LOWEST
+  - Plugin:QuickShop, Class:.*, EventPriority:LOWEST
+  - Plugin:WordGamesPlus, Class:.*, EventPriority:MONITOR
+  - Plugin:MangoQuest, Class:.*, EventPriority:NORMAL
+  - Plugin:Quests, Class:.*, EventPriority:NORMAL
+  - Plugin:JetsMinions, Class:.*, EventPriority:NORMAL
+  UseAccurateSenderParser: true
+  SendOriginalMessageIfExceedLengthLimit: true
+  BungeecordUnknownItem:
+    ReplaceItem: BARRIER
+    DisplayName: '&cUnknown Item {Type}'
+    Lore:
+    - '&7Unable to parse item'
+    - '&7This is likely to be an item that'
+    - '&7does not exist in this version of Minecraft'
+  Language: en_us
+  UseCustomPlaceholderPermissions: false
+  ContainerViewTitle: Container Contents
+  CommandsToParse:
+  - (?i)/emsg.*
+  - (?i)/msg.*
+  - (?i)/pm.*
+  - (?i)/tell.*
+  - (?i)/r.*
+  MessagesToIgnore:
+  - .*\[.*IGNORE.*\].*
+  UniversalCooldown: 0
+  MaxPlaceholders: -1
+  PlayerNotFound:
+    Hover:
+      Enable: true
+      Text:
+      - '&cUnable to parse placeholder..'
+    Click:
+      Enable: false
+      Action: SUGGEST_COMMAND
+      Value: ''
+    Replace:
+      Enable: true
+      ReplaceText: '&c{Placeholer}&r'
+Commands:
+  Enabled: true
+  Format: '[{Command}]'
+  Text: '&b[&e{Command}&b]'
+  EnforceReplaceTextColor: true
+  Action: SUGGEST_COMMAND
+  HoverMessage:
+  - '&eClick to use command!'
+Chat:
+  TranslateAltColorCode: '&'
+  AllowMention: true
+  MentionPrefix: '@'
+  MentionedSound: ENTITY_EXPERIENCE_ORB_PICKUP
+  MentionedTitle: '&c&lMentioned'
+  MentionedTitleDuration: 1.5
+  UnknownPlayerMentionSubtitle: '&fSomeone had mentioned you in the chat!'
+  UnknownPlayerMentionActionbar: ''
+  KnownPlayerMentionSubtitle: '&3%player_name% &fmentioned you in the chat!'
+  KnownPlayerMentionActionbar: ''
+  MentionHighlight: '&e{MentionedPlayer}'
+  MentionHoverText:
+  - '&b{Sender} mentioned you!'
+ItemDisplay:
+  Settings:
+    Timeout: 360
+  Item:
+    Enabled: true
+    CaseSensitive: false
+    Keyword: '[item]'
+    Aliases:
+    - (?i)(\[i\])
+    Text: '&f[&f{Item} &bx{Amount}&f]'
+    InventoryTitle: '%player_name%''s Item'
+    Cooldown: 0
+    GUIEnabled: true
+    Frame:
+      Primary: BLACK_STAINED_GLASS_PANE
+      Secondary: WHITE_STAINED_GLASS_PANE
+    PreviewMaps: true
+    Description: '&aShow the Item you are holding in the chat!'
+    HoverableItemsTranslation:
+      Enabled: true
+      InventoryTitle: Item Preview
+  Inventory:
+    Enabled: true
+    CaseSensitive: false
+    Keyword: '[inv]'
+    Aliases:
+    - (?i)(\[inventory\])
+    Text: '&f[&b%player_name%''s Inventory&f]'
+    InventoryTitle: '%player_name%''s Inventory'
+    Cooldown: 0
+    Layout: 0
+    SkullDisplayName: '&e%player_name%'
+    Frame:
+      Primary: BLACK_STAINED_GLASS_PANE
+      Secondary: WHITE_STAINED_GLASS_PANE
+    HoverMessage:
+    - '&bClick to view!'
+    Description: '&bShow your Inventory in the chat!'
+  EnderChest:
+    Enabled: true
+    CaseSensitive: false
+    Keyword: '[ender]'
+    Aliases:
+    - (?i)(\[e\])
+    Text: '&f[&d%player_name%''s Ender Chest&f]'
+    InventoryTitle: '%player_name%''s Ender Chest'
+    Cooldown: 0
+    HoverMessage:
+    - '&bClick to view!'
+    Description: '&dShow your Ender Chest in the chat!'
+Player:
+  UsePlayerNameInteraction: true
+  UseOnTranslatableComponents: true
+  CaseSensitive: true
+  Hover:
+    Enable: true
+    Text:
+    - '&aWorld: &7%player_world% &aX: &7%player_x% &aY: &7%player_y% &aZ: &7%player_z%'
+    - '&eBiome: &6%player_biome%'
+    - '&cHealth: %player_health_rounded%&7/%player_max_health_rounded%'
+    - '&bPing: &7%player_colored_ping% &bms'
+  Click:
+    Enable: true
+    Action: SUGGEST_COMMAND
+    Value: '/msg %player_name% '
+TabCompletion:
+  PlayerNameToolTip:
+    Enabled: true
+    ToolTip: '&aWorld: &7%player_world% &aX: &7%player_x% &aY: &7%player_y% &aZ: &7%player_z%'
+CustomPlaceholders:
+  '1':
+    ParsePlayer: sender
+    Text: '[money]'
+    Aliases:
+    - (?i)(\[m\])
+    ParseKeyword: false
+    CaseSensitive: true
+    Cooldown: 0
+    Hover:
+      Enable: true
+      Text:
+      - '&6%player_name%''s Balance: $%vault_eco_balance_commas%'
+    Click:
+      Enable: true
+      Action: SUGGEST_COMMAND
+      Value: '/pay %player_name% '
+    Replace:
+      Enable: true
+      ReplaceText: '[%player_name%''s Balance]'
+    Description: '&eShow the amount of money you have in the chat!'
+  '2':
+    ParsePlayer: viewer
+    Text: '[loohpjames]'
+    Aliases: []
+    ParseKeyword: false
+    CaseSensitive: false
+    Cooldown: 0
+    Hover:
+      Enable: true
+      Text:
+      - '&eVisit the author''s website!'
+      - '&bClick me!'
+    Click:
+      Enable: true
+      Action: OPEN_URL
+      Value: https://loohpjames.com
+    Replace:
+      Enable: true
+      ReplaceText: '&3&lLoohp&6&lJames'
+    Description: '&eLink to author''s website!'
+  '3':
+    ParsePlayer: sender
+    Text: '[gametime]'
+    Aliases: []
+    ParseKeyword: false
+    CaseSensitive: true
+    Cooldown: 0
+    Hover:
+      Enable: false
+      Text: []
+    Click:
+      Enable: false
+      Action: ''
+      Value: ''
+    Replace:
+      Enable: true
+      ReplaceText: '%player_world_time_24%'
+    Description: '&eShows the current time of the world you are in!'
+  '4':
+    ParsePlayer: viewer
+    Text: '[Hover]'
+    Aliases: []
+    ParseKeyword: false
+    CaseSensitive: false
+    Cooldown: 0
+    Hover:
+      Enable: true
+      Text:
+      - '&bHover Text is cool!'
+    Click:
+      Enable: false
+      Action: ''
+      Value: ''
+    Replace:
+      Enable: false
+      ReplaceText: ''
+    Description: '&eExample Hover Text'
+  '5':
+    ParsePlayer: sender
+    Text: '[time]'
+    Aliases: []
+    ParseKeyword: false
+    CaseSensitive: true
+    Cooldown: 0
+    Hover:
+      Enable: false
+      Text: []
+    Click:
+      Enable: false
+      Action: ''
+      Value: ''
+    Replace:
+      Enable: true
+      ReplaceText: '%server_time_dd/MM/yyyy HH:mm:ss zzz%'
+    Description: '&eShows the current time of the server in the real world!'
+  '6':
+    ParsePlayer: sender
+    Text: '[pos]'
+    Aliases: []
+    ParseKeyword: false
+    CaseSensitive: true
+    Cooldown: 0
+    Hover:
+      Enable: false
+      Text: []
+    Click:
+      Enable: false
+      Action: ''
+      Value: ''
+    Replace:
+      Enable: true
+      ReplaceText: '&bWorld: &f%player_world% &eX:&f%player_x% &eY:&f%player_y% &eZ:&f%player_z%'
+    Description: '&eShows your current position!'
+  '7':
+    ParsePlayer: sender
+    Text: '[ping]'
+    Aliases: []
+    ParseKeyword: false
+    CaseSensitive: true
+    Cooldown: 0
+    Hover:
+      Enable: false
+      Text: []
+    Click:
+      Enable: false
+      Action: ''
+      Value: ''
+    Replace:
+      Enable: true
+      ReplaceText: '%player_colored_ping% &bms'
+    Description: '&eShows your current ping!'

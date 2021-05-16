@@ -1,0 +1,286 @@
+# For information on what each option does. Please refer to https://github.com/LOOHP/InteractiveChat/blob/master/src/main/resources/config_default.yml
+Options:
+  Updater: true
+  ShowCancelledNotice: true
+Messages:
+  NoPermission: '&c你沒有權限使用此指令!'
+  InvExpired: '&c此背包查看已過期!'
+  ReloadPlugin: '&aInteractive Chat 已重新加載!'
+  LimitReached: '&c請不要使用過多的變數在一則訊息內!'
+  ColorsDisabled: '&l你在客戶端已關閉顏色設定! 所有訊息將會呈現白的來遵從設定!'
+  ColorsReEnabled: '&a你已在你的設定內重新啟用顏色! 所有訊息將從現在開始變成彩色!'
+  EnableMentions: '&a玩家提及已啟用!'
+  DisableMentions: '&e玩家提及已關閉!'
+  ListPlaceholdersHeader: '&e聊天室變數列表:'
+  ListPlaceholdersBody: '&b{Order}. "&f&l{Keyword}&b" &6- &e{Description}'
+  SetInventoryDisplayLayout: '&a設置背包展示的樣式至樣式 &e{Layout}'
+  PlayerOnlyCommand: '&c此指令不能在控制台中使用!'
+  InvalidPlayer: '&c那不是一個有效玩家!'
+  NoEnoughArgs: '&c參數不足!'
+  InvalidArgs: '&c未知參數!'
+Settings:
+  Bungeecord: false
+  ChatListeningPlugins:
+  - Plugin:PlayerWarps, Class:.*, EventPriority:LOWEST
+  - Plugin:QuickShop, Class:.*, EventPriority:LOWEST
+  - Plugin:WordGamesPlus, Class:.*, EventPriority:MONITOR
+  - Plugin:MangoQuest, Class:.*, EventPriority:NORMAL
+  - Plugin:Quests, Class:.*, EventPriority:NORMAL
+  - Plugin:JetsMinions, Class:.*, EventPriority:NORMAL
+  UseAccurateSenderParser: true
+  SendOriginalMessageIfExceedLengthLimit: true
+  BungeecordUnknownItem:
+    ReplaceItem: BARRIER
+    DisplayName: '&c未知物品 {Type}'
+    Lore:
+    - '&7無法解析物品'
+    - '&7這很有可能是該物品'
+    - '&7在此Minecraft版本中不存在'
+  Language: en_us
+  UseCustomPlaceholderPermissions: false
+  ContainerViewTitle: Container Contents
+  CommandsToParse:
+  - (?i)/emsg.*
+  - (?i)/msg.*
+  - (?i)/pm.*
+  - (?i)/tell.*
+  - (?i)/r.*
+  MessagesToIgnore:
+  - .*\[.*IGNORE.*\].*
+  UniversalCooldown: 0
+  MaxPlaceholders: -1
+  PlayerNotFound:
+    Hover:
+      Enable: true
+      Text:
+      - '&c無法解析變數..'
+    Click:
+      Enable: false
+      Action: SUGGEST_COMMAND
+      Value: ''
+    Replace:
+      Enable: true
+      ReplaceText: '&c{Placeholer}&r'
+Commands:
+  Enabled: true
+  Format: '[{Command}]'
+  Text: '&b[&e{Command}&b]'
+  EnforceReplaceTextColor: true
+  Action: SUGGEST_COMMAND
+  HoverMessage:
+  - '&e點擊使用指令!'
+Chat:
+  TranslateAltColorCode: '&'
+  AllowMention: true
+  MentionPrefix: '@'
+  MentionedSound: ENTITY_EXPERIENCE_ORB_PICKUP
+  MentionedTitle: '&c&l提及'
+  MentionedTitleDuration: 1.5
+  UnknownPlayerMentionSubtitle: '&f有人在聊天室內提及了你!'
+  UnknownPlayerMentionActionbar: ''
+  KnownPlayerMentionSubtitle: '&3%player_name% &f在聊天室內提及了你!'
+  KnownPlayerMentionActionbar: ''
+  MentionHighlight: '&e{MentionedPlayer}'
+  MentionHoverText:
+  - '&b{Sender} 提及了你!'
+ItemDisplay:
+  Settings:
+    Timeout: 360
+  Item:
+    Enabled: true
+    CaseSensitive: false
+    Keyword: '[item]'
+    Aliases:
+    - (?i)(\[i\])
+    Text: '&f[&f{Item} &bx{Amount}&f]'
+    InventoryTitle: '%player_name% 的物品'
+    Cooldown: 0
+    GUIEnabled: true
+    Frame:
+      Primary: BLACK_STAINED_GLASS_PANE
+      Secondary: WHITE_STAINED_GLASS_PANE
+    PreviewMaps: true
+    Description: '&a在聊天室顯示你手上拿的物品!'
+    HoverableItemsTranslation:
+      Enabled: true
+      InventoryTitle: Item Preview
+  Inventory:
+    Enabled: true
+    CaseSensitive: false
+    Keyword: '[inv]'
+    Aliases:
+    - (?i)(\[inventory\])
+    Text: '&f[&b%player_name% &f的背包&f]'
+    InventoryTitle: '%player_name% &f的背包'
+    Cooldown: 0
+    Layout: 0
+    SkullDisplayName: '&e%player_name%'
+    Frame:
+      Primary: BLACK_STAINED_GLASS_PANE
+      Secondary: WHITE_STAINED_GLASS_PANE
+    HoverMessage:
+    - '&b點擊查看!'
+    Description: '&b顯示你的背包在聊天室!'
+  EnderChest:
+    Enabled: true
+    CaseSensitive: false
+    Keyword: '[ender]'
+    Aliases:
+    - (?i)(\[e\])
+    Text: '&f[&d%player_name% 的終界箱&f]'
+    InventoryTitle: '%player_name% 的終界箱'
+    Cooldown: 0
+    HoverMessage:
+    - '&b點擊查看!'
+    Description: '&d顯示你的終界箱在聊天室!'
+Player:
+  UsePlayerNameInteraction: true
+  UseOnTranslatableComponents: true
+  CaseSensitive: true
+  Hover:
+    Enable: true
+    Text:
+    - '&a世界: &7%player_world% &aX: &7%player_x% &aY: &7%player_y% &aZ: &7%player_z%'
+    - '&e生態域: &6%player_biome%'
+    - '&c血量: %player_health_rounded%&7/%player_max_health_rounded%'
+    - '&b延遲: &7%player_colored_ping% &bms'
+  Click:
+    Enable: true
+    Action: SUGGEST_COMMAND
+    Value: '/msg %player_name% '
+TabCompletion:
+  PlayerNameToolTip:
+    Enabled: true
+    ToolTip: '&a世界: &7%player_world% &aX: &7%player_x% &aY: &7%player_y% &aZ: &7%player_z%'
+CustomPlaceholders:
+  '1':
+    ParsePlayer: sender
+    Text: '[money]'
+    Aliases:
+    - (?i)(\[m\])
+    ParseKeyword: false
+    CaseSensitive: true
+    Cooldown: 0
+    Hover:
+      Enable: true
+      Text:
+      - '&6%player_name% 錢包: $%vault_eco_balance_commas%'
+    Click:
+      Enable: true
+      Action: SUGGEST_COMMAND
+      Value: '/pay %player_name% '
+    Replace:
+      Enable: true
+      ReplaceText: '[%player_name% 錢包]'
+    Description: '&e在聊天室內顯示你所持有的錢!'
+  '2':
+    ParsePlayer: viewer
+    Text: '[loohpjames]'
+    Aliases: []
+    ParseKeyword: false
+    CaseSensitive: false
+    Cooldown: 0
+    Hover:
+      Enable: true
+      Text:
+      - '&e訪問作者的網站!'
+      - '&b點擊我!'
+    Click:
+      Enable: true
+      Action: OPEN_URL
+      Value: https://loohpjames.com
+    Replace:
+      Enable: true
+      ReplaceText: '&3&lLoohp&6&lJames'
+    Description: '&e鏈接至插件作者的網站!'
+  '3':
+    ParsePlayer: sender
+    Text: '[gametime]'
+    Aliases: []
+    ParseKeyword: false
+    CaseSensitive: true
+    Cooldown: 0
+    Hover:
+      Enable: false
+      Text: []
+    Click:
+      Enable: false
+      Action: ''
+      Value: ''
+    Replace:
+      Enable: true
+      ReplaceText: '%player_world_time_24%'
+    Description: '&e顯示你所在的世界當前時間!'
+  '4':
+    ParsePlayer: viewer
+    Text: '[Hover]'
+    Aliases: []
+    ParseKeyword: false
+    CaseSensitive: false
+    Cooldown: 0
+    Hover:
+      Enable: true
+      Text:
+      - '&b懸停文字很酷!'
+    Click:
+      Enable: false
+      Action: ''
+      Value: ''
+    Replace:
+      Enable: false
+      ReplaceText: ''
+    Description: '&e懸停文字示例'
+  '5':
+    ParsePlayer: sender
+    Text: '[time]'
+    Aliases: []
+    ParseKeyword: false
+    CaseSensitive: true
+    Cooldown: 0
+    Hover:
+      Enable: false
+      Text: []
+    Click:
+      Enable: false
+      Action: ''
+      Value: ''
+    Replace:
+      Enable: true
+      ReplaceText: '%server_time_dd/MM/yyyy HH:mm:ss zzz%'
+    Description: '&e顯示伺服器在現實的當前時間!'
+  '6':
+    ParsePlayer: sender
+    Text: '[pos]'
+    Aliases: []
+    ParseKeyword: false
+    CaseSensitive: true
+    Cooldown: 0
+    Hover:
+      Enable: false
+      Text: []
+    Click:
+      Enable: false
+      Action: ''
+      Value: ''
+    Replace:
+      Enable: true
+      ReplaceText: '&b世界: &f%player_world% &eX:&f%player_x% &eY:&f%player_y% &eZ:&f%player_z%'
+    Description: '&e顯示你目前的位置!'
+  '7':
+    ParsePlayer: sender
+    Text: '[ping]'
+    Aliases: []
+    ParseKeyword: false
+    CaseSensitive: true
+    Cooldown: 0
+    Hover:
+      Enable: false
+      Text: []
+    Click:
+      Enable: false
+      Action: ''
+      Value: ''
+    Replace:
+      Enable: true
+      ReplaceText: '%player_colored_ping% &bms'
+    Description: '&e顯示你目前的延遲!'

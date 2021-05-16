@@ -1,6 +1,7 @@
 blacklist-worlds: []
-blockbreak-with-message: '[lang]Lootin.blockbreak-with-message[/lang]'
-blockbreak-without-permission-message: '[lang]Lootin.blockbreak-without-permission-message[/lang]'
+messages:
+  blockbreak-with-permission: '[lang]Lootin.messages.blockbreak-with-permission[/lang]'
+  blockbreak-without-permission: '[lang]Lootin.messages.blockbreak-without-permission[/lang]'
 delete-items-on-break: true
 change-minecarts: true
 title:
