@@ -3,6 +3,10 @@ Settings:
   NoPermissionMessage: '[lang]OrePlus.Settings.NoPermissionMessage[/lang]'
 Diamond-Ore:
   BreakParticleEnable: true
+  BlockParticleRGBSize: 10
+  BlockParticleRGBRed: 51
+  BlockParticleRGBGreen: 204
+  BlockParticleRGBBlue: 255
   BreakMobCreeperEnable: true
   BreakMobCreeperSpawnPercentage: 20
   BreakMobCreeperName: '[lang]OrePlus.Diamond-Ore.BreakMobCreeperName[/lang]'
@@ -60,6 +64,10 @@ Diamond-Ore:
           charged: false
 Emerald-Ore:
   BreakParticleEnable: true
+  BlockParticleRGBSize: 10
+  BlockParticleRGBRed: 128
+  BlockParticleRGBGreen: 255
+  BlockParticleRGBBlue: 0
   BreakSoundEnable: true
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
@@ -90,6 +98,10 @@ Emerald-Ore:
         amount: 1
 Gold-Ore:
   BreakParticleEnable: true
+  BlockParticleRGBSize: 10
+  BlockParticleRGBRed: 255
+  BlockParticleRGBGreen: 255
+  BlockParticleRGBBlue: 0
   BreakSoundEnable: true
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
@@ -120,6 +132,10 @@ Gold-Ore:
         amount: 1
 Iron-Ore:
   BreakParticleEnable: true
+  BlockParticleRGBSize: 10
+  BlockParticleRGBRed: 192
+  BlockParticleRGBGreen: 192
+  BlockParticleRGBBlue: 192
   BreakSoundEnable: true
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
@@ -150,6 +166,10 @@ Iron-Ore:
         amount: 1
 Coal-Ore:
   BreakParticleEnable: true
+  BlockParticleRGBSize: 10
+  BlockParticleRGBRed: 99
+  BlockParticleRGBGreen: 99
+  BlockParticleRGBBlue: 98
   BreakSoundEnable: true
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
@@ -181,6 +201,10 @@ Coal-Ore:
         amount: 1
 Lapis-Ore:
   BreakParticleEnable: true
+  BlockParticleRGBSize: 10
+  BlockParticleRGBRed: 0
+  BlockParticleRGBGreen: 0
+  BlockParticleRGBBlue: 255
   BreakSoundEnable: true
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
@@ -211,6 +235,10 @@ Lapis-Ore:
         amount: 1
 Redstone-Ore:
   BreakParticleEnable: true
+  BlockParticleRGBSize: 10
+  BlockParticleRGBRed: 255
+  BlockParticleRGBGreen: 0
+  BlockParticleRGBBlue: 0
   BreakSoundEnable: true
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
@@ -241,6 +269,10 @@ Redstone-Ore:
         amount: 1
 Ancient-Debris:
   BreakParticleEnable: true
+  BlockParticleRGBSize: 10
+  BlockParticleRGBRed: 51
+  BlockParticleRGBGreen: 25
+  BlockParticleRGBBlue: 0
   BreakMobWitherSkeletonEnable: true
   BreakMobWitherSkeletonSpawnPercentage: 50
   BreakMobWitherSkeletonName: '[lang]OrePlus.Ancient-Debris.BreakMobWitherSkeletonName[/lang]'
@@ -275,6 +307,10 @@ Ancient-Debris:
         amount: 1
 Nethergold-Ore:
   BreakParticleEnable: true
+  BlockParticleRGBSize: 10
+  BlockParticleRGBRed: 155
+  BlockParticleRGBGreen: 153
+  BlockParticleRGBBlue: 51
   BreakSoundEnable: true
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
@@ -305,6 +341,10 @@ Nethergold-Ore:
         amount: 1
 Netherquartz-Ore:
   BreakParticleEnable: false
+  BlockParticleRGBSize: 10
+  BlockParticleRGBRed: 224
+  BlockParticleRGBGreen: 224
+  BlockParticleRGBBlue: 224
   BreakSoundEnable: false
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
