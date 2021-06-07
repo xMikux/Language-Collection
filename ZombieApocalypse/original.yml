@@ -51,6 +51,7 @@ burn-in-day: false
 do-bossbar: true
 do-zombie-block-damage: true
 spawn-pigmen-in-nether: true
+remove-zombies-after-apocalypse: true
 allow-sleep: true
 messages:
   no-command-permission: '[lang]ZombieApocalypse.messages.no-command-permission[/lang]'
