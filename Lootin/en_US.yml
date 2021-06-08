@@ -7,6 +7,7 @@ blacklist-worlds: []
 messages:
   blockbreak-with-permission: "&aBreaking the chest will delete your unique loot and items! In order to break, &2you must sneak while doing so..\n&a As loot is &2per player per chest&a, only break if really needed."
   blockbreak-without-permission: "&cYou dont have permission to break loot chests"
+  chest-editing: "&cChest is being edited, cant break it"
 
 
 
@@ -23,6 +24,7 @@ title:
   single-chest: "Chest"
   double-chest: "Double Chest"
   minecart: "Minecart with Chest"
+  barrel: "Barrel"
 
 # list of structures where lootin will not modify loot chests
 # valid structure names can be found here https://www.spigotmc.org/resources/90453/
@@ -34,5 +36,11 @@ prevent-explosion: true
 # list of TERRA structures where lootin will not modify loot chests
 # LootinTerraAddon(in plugins/Terra/addons folder) and Terra plugin(in plugins folder) is required for this to function
 blacklist-terra-strucutres: []
+
+# list of CustomStructures where lootin will not modify loot chests
+blacklist-custom-structures: []
+
+# list of Oh The Dungeon structures where lootin will not modify loot chests/barrels
+blacklist-otd-structures: []
 
 

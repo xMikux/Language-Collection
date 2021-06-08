@@ -7,6 +7,7 @@ blacklist-worlds: []
 messages:
   blockbreak-with-permission: "&a破壞儲物箱會刪除你的獨特戰利品與物品! 如果還是要破壞, &2你必須在這樣做的同時蹲下..\n&a 戰利品生成是 &2每個玩家每個儲物箱&a, 只有在真的需要的時候在破壞."
   blockbreak-without-permission: "&c你沒有權限破壞戰利品儲物箱"
+  chest-editing: "&c儲物箱正在編輯中, 無法破壞它"
 
 
 
@@ -23,6 +24,7 @@ title:
   single-chest: "儲物箱"
   double-chest: "大型儲物箱"
   minecart: "儲物箱礦車"
+  barrel: "木桶"
 
 # list of structures where lootin will not modify loot chests
 # valid structure names can be found here https://www.spigotmc.org/resources/90453/
@@ -34,5 +36,11 @@ prevent-explosion: true
 # list of TERRA structures where lootin will not modify loot chests
 # LootinTerraAddon(in plugins/Terra/addons folder) and Terra plugin(in plugins folder) is required for this to function
 blacklist-terra-strucutres: []
+
+# list of CustomStructures where lootin will not modify loot chests
+blacklist-custom-structures: []
+
+# list of Oh The Dungeon structures where lootin will not modify loot chests/barrels
+blacklist-otd-structures: []
 
 

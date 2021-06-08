@@ -2,12 +2,16 @@ blacklist-worlds: []
 messages:
   blockbreak-with-permission: '[lang]Lootin.messages.blockbreak-with-permission[/lang]'
   blockbreak-without-permission: '[lang]Lootin.messages.blockbreak-without-permission[/lang]'
+  chest-editing: '[lang]Lootin.messages.chest-editing[/lang]'
 delete-items-on-break: true
 change-minecarts: true
 title:
   single-chest: '[lang]Lootin.title.single-chest[/lang]'
   double-chest: '[lang]Lootin.title.double-chest[/lang]'
   minecart: '[lang]Lootin.title.minecart[/lang]'
+  barrel: '[lang]Lootin.title.barrel[/lang]'
 blacklist-structures: []
 prevent-explosion: true
 blacklist-terra-strucutres: []
+blacklist-custom-structures: []
+blacklist-otd-structures: []

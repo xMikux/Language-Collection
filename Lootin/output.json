@@ -3,40 +3,56 @@
     "key": "Lootin.messages.blockbreak-with-permission",
     "type": "text",
     "languages": {
-      "en_US": "&aBreaking the chest will delete your unique loot and items! In order to break, &2you must sneak while doing so..\n&a As loot is &2per player per chest&a, only break if really needed.",
-      "zh_TW": "&a破壞儲物箱會刪除你的獨特戰利品與物品! 如果還是要破壞, &2你必須在這樣做的同時蹲下..\n&a 戰利品生成是 &2每個玩家每個儲物箱&a, 只有在真的需要的時候在破壞."
+      "zh_TW": "&a破壞儲物箱會刪除你的獨特戰利品與物品! 如果還是要破壞, &2你必須在這樣做的同時蹲下..\n&a 戰利品生成是 &2每個玩家每個儲物箱&a, 只有在真的需要的時候在破壞.",
+      "en_US": "&aBreaking the chest will delete your unique loot and items! In order to break, &2you must sneak while doing so..\n&a As loot is &2per player per chest&a, only break if really needed."
     }
   },
   {
     "key": "Lootin.messages.blockbreak-without-permission",
     "type": "text",
     "languages": {
-      "en_US": "&cYou dont have permission to break loot chests",
-      "zh_TW": "&c你沒有權限破壞戰利品儲物箱"
+      "zh_TW": "&c你沒有權限破壞戰利品儲物箱",
+      "en_US": "&cYou dont have permission to break loot chests"
+    }
+  },
+  {
+    "key": "Lootin.messages.chest-editing",
+    "type": "text",
+    "languages": {
+      "zh_TW": "&c儲物箱正在編輯中, 無法破壞它",
+      "en_US": "&cChest is being edited, cant break it"
     }
   },
   {
     "key": "Lootin.title.single-chest",
     "type": "text",
     "languages": {
-      "en_US": "Chest",
-      "zh_TW": "儲物箱"
+      "zh_TW": "儲物箱",
+      "en_US": "Chest"
     }
   },
   {
     "key": "Lootin.title.double-chest",
     "type": "text",
     "languages": {
-      "en_US": "Double Chest",
-      "zh_TW": "大型儲物箱"
+      "zh_TW": "大型儲物箱",
+      "en_US": "Double Chest"
     }
   },
   {
     "key": "Lootin.title.minecart",
     "type": "text",
     "languages": {
-      "en_US": "Minecart with Chest",
-      "zh_TW": "儲物箱礦車"
+      "zh_TW": "儲物箱礦車",
+      "en_US": "Minecart with Chest"
+    }
+  },
+  {
+    "key": "Lootin.title.barrel",
+    "type": "text",
+    "languages": {
+      "zh_TW": "木桶",
+      "en_US": "Barrel"
     }
   }
 ]
