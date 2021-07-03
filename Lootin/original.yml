@@ -1,17 +1,19 @@
-blacklist-worlds: []
+gui-titles:
+  chest: '[lang]Lootin.gui-titles.chest[/lang]'
+  double-chest: '[lang]Lootin.gui-titles.double-chest[/lang]'
+  minecart: '[lang]Lootin.gui-titles.minecart[/lang]'
+  barrel: '[lang]Lootin.gui-titles.barrel[/lang]'
+metrics: true
 messages:
-  blockbreak-with-permission: '[lang]Lootin.messages.blockbreak-with-permission[/lang]'
-  blockbreak-without-permission: '[lang]Lootin.messages.blockbreak-without-permission[/lang]'
-  chest-editing: '[lang]Lootin.messages.chest-editing[/lang]'
+  prefix: '[lang]Lootin.messages.prefix[/lang]'
+  no-permission: '[lang]Lootin.messages.no-permission[/lang]'
+  chestbreak-with-permission: '[lang]Lootin.messages.chestbreak-with-permission[/lang]'
+  chestbreak-without-permission: '[lang]Lootin.messages.chestbreak-without-permission[/lang]'
+  chest-edited: '[lang]Lootin.messages.chest-edited[/lang]'
+  reloaded: '[lang]Lootin.messages.reloaded[/lang]'
 delete-items-on-break: true
-change-minecarts: true
-title:
-  single-chest: '[lang]Lootin.title.single-chest[/lang]'
-  double-chest: '[lang]Lootin.title.double-chest[/lang]'
-  minecart: '[lang]Lootin.title.minecart[/lang]'
-  barrel: '[lang]Lootin.title.barrel[/lang]'
-blacklist-structures: []
-prevent-explosion: true
-blacklist-terra-strucutres: []
-blacklist-custom-structures: []
-blacklist-otd-structures: []
+prevent-explosions: true
+black-list-worlds: []
+black-list-structures: []
+black-list-customstructures: []
+black-list-otd-structures: []

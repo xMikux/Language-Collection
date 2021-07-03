@@ -1,46 +1,43 @@
-# the list of world where lootin will not modify loot chests
-blacklist-worlds: []
+# Thank you for downloading Lootin :)
+# If you find any bug/issue let me know on discord https://discord.com/invite/tTHs4jKu6f
 
+# Titles for chest interfaces
+gui-titles:
+  chest: '&6Chest'
+  double-chest: '&6Large Chest'
+  minecart: '&6Minecart with Chest'
+  barrel: '&6Barrel'
 
-# message that will be displayed if a player tries to break a lootin chest
-# pro-tip: use "" to not send any message
+ 
+# Its bstats 
+metrics: true
+
 messages:
-  blockbreak-with-permission: "&aBreaking the chest will delete your unique loot and items! In order to break, &2you must sneak while doing so..\n&a As loot is &2per player per chest&a, only break if really needed."
-  blockbreak-without-permission: "&cYou dont have permission to break loot chests"
-  chest-editing: "&cChest is being edited, cant break it"
+  prefix: '&e[&6Lootin&e] '
+  no-permission: '&cYou dont have permission to execute command'
+  chestbreak-with-permission: '&aBreaking the chest will delete your unique loot and items! In order to break, &2you must sneak while doing so..\n&a As loot is &2per player per chest&a, only break if really needed.'
+  chestbreak-without-permission: '&cYou dont have permission to break loot chests'
+  chest-edited: '&cChest is being edited, cant break it'
+  reloaded: '&aConfig file reloaded'
 
-
-
-
-# weather or not to drop items when a lootin chest is broken
+# weather or not to delete items when player breaks loot chest successfully
 delete-items-on-break: true
 
-# weather or not to change minecarts found in mineshafts
-change-minecarts: true
-
-# Loot chest and minecarts titles
-# color codes supported
-title:
-  single-chest: "Chest"
-  double-chest: "Double Chest"
-  minecart: "Minecart with Chest"
-  barrel: "Barrel"
-
-# list of structures where lootin will not modify loot chests
-# valid structure names can be found here https://www.spigotmc.org/resources/90453/
-blacklist-structures: []
-
 # weather or not to prevent lootin chest from being exploded by tnt or creeper
-prevent-explosion: true
+prevent-explosions: true
 
-# list of TERRA structures where lootin will not modify loot chests
-# LootinTerraAddon(in plugins/Terra/addons folder) and Terra plugin(in plugins folder) is required for this to function
-blacklist-terra-strucutres: []
+# list of worlds where lootin will not modify loot chests
+black-list-worlds: []
 
-# list of CustomStructures where lootin will not modify loot chests
-blacklist-custom-structures: []
-
-# list of Oh The Dungeon structures where lootin will not modify loot chests/barrels
-blacklist-otd-structures: []
+# list of vanilla structures where lootin will not modify loot chests
+# valid structure names can be found here https://www.spigotmc.org/resources/90453/
+black-list-structures: []
 
 
+# list of CustomStructures where lootin will not modify loot chests.
+# only applicable if CustomStructures is installed.
+black-list-customstructures: []
+
+# list of OhTheDungeon structure names where lootin will not modify loot chests.
+# only applicable if OhTheDungeon is installed.
+black-list-otd-structures: []

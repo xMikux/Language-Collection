@@ -1,218 +1,282 @@
 [
   {
+    "key": "PosePlugin.pose-not-support-version",
+    "type": "text",
+    "languages": {
+      "zh_TW": "§c此Pose插件僅限於較新的Minecraft版本",
+      "en_US": "§cThis pose is for newer versions of Minecraft"
+    }
+  },
+  {
     "key": "PosePlugin.in-air",
     "type": "text",
     "languages": {
-      "en_US": "§cYou can't do this in air",
-      "zh_TW": "§c你不能在空中做這個"
+      "zh_TW": "§c你不能在空中做這個",
+      "en_US": "§cYou can't do this in air"
     }
   },
   {
     "key": "PosePlugin.crawl.play",
     "type": "text",
     "languages": {
-      "en_US": "§bYou're crawling",
-      "zh_TW": "§b你開始爬行"
+      "zh_TW": "§b你開始爬行",
+      "en_US": "§bYou're crawling"
     }
   },
   {
     "key": "PosePlugin.crawl.damage",
     "type": "text",
     "languages": {
-      "en_US": "&cYou suddenly stood up, because you got damaged",
-      "zh_TW": "&c你猛然站了起來, 因為你受傷了"
+      "zh_TW": "&c你猛然站了起來, 因為你受傷了",
+      "en_US": "&cYou suddenly stood up, because you got damaged"
     }
   },
   {
     "key": "PosePlugin.crawl.stop",
     "type": "text",
     "languages": {
-      "en_US": "§aYou stood up",
-      "zh_TW": "§a你站了起來"
+      "zh_TW": "§a你站了起來",
+      "en_US": "§aYou stood up"
     }
   },
   {
     "key": "PosePlugin.lay.play",
     "type": "text",
     "languages": {
-      "en_US": "§bYou've laid down",
-      "zh_TW": "§b你躺下來了"
+      "zh_TW": "§b你躺下來了",
+      "en_US": "§bYou've laid down"
     }
   },
   {
     "key": "PosePlugin.lay.damage",
     "type": "text",
     "languages": {
-      "en_US": "§cYou suddenly stood up, because you got damaged",
-      "zh_TW": "§c你猛然站了起來, 因為你受傷了"
+      "zh_TW": "§c你猛然站了起來, 因為你受傷了",
+      "en_US": "§cYou suddenly stood up, because you got damaged"
     }
   },
   {
     "key": "PosePlugin.lay.prevent-use-when-invisible",
     "type": "text",
     "languages": {
-      "en_US": "§cYou can't lay while you are invisible",
-      "zh_TW": "§c你無法在隱形的狀態下躺下"
+      "zh_TW": "§c你無法在隱形的狀態下躺下",
+      "en_US": "§cYou can't lay while you are invisible"
     }
   },
   {
     "key": "PosePlugin.lay.prevent-use-invisibility-when-use",
     "type": "text",
     "languages": {
-      "en_US": "§cDon't drink invisibility potions in horizontal position",
-      "zh_TW": "§c不能在水平位置喝隱形藥水"
+      "zh_TW": "§c不能在水平位置喝隱形藥水",
+      "en_US": "§cDon't drink invisibility potions in horizontal position"
     }
   },
   {
     "key": "PosePlugin.lay.stop",
     "type": "text",
     "languages": {
-      "en_US": "§aYou stood up",
-      "zh_TW": "§a你站了起來"
+      "zh_TW": "§a你站了起來",
+      "en_US": "§aYou stood up"
     }
   },
   {
     "key": "PosePlugin.sit.play",
     "type": "text",
     "languages": {
-      "en_US": "§bYou've sat down",
-      "zh_TW": "§b你坐下了"
+      "zh_TW": "§b你坐下了",
+      "en_US": "§bYou've sat down"
     }
   },
   {
     "key": "PosePlugin.sit.damage",
     "type": "text",
     "languages": {
-      "en_US": "§cYou suddenly stood up, because you got damaged",
-      "zh_TW": "§c你猛然站了起來, 因為你受傷了"
+      "zh_TW": "§c你猛然站了起來, 因為你受傷了",
+      "en_US": "§cYou suddenly stood up, because you got damaged"
     }
   },
   {
     "key": "PosePlugin.sit.stop",
     "type": "text",
     "languages": {
-      "en_US": "§aYou stood up",
-      "zh_TW": "§a你站了起來"
+      "zh_TW": "§a你站了起來",
+      "en_US": "§aYou stood up"
     }
   },
   {
     "key": "PosePlugin.wave.play",
     "type": "text",
     "languages": {
-      "en_US": "§bYou started to wave your hand",
-      "zh_TW": "§b你開始揮手"
+      "zh_TW": "§b你開始揮手",
+      "en_US": "§bYou started to wave your hand"
     }
   },
   {
     "key": "PosePlugin.wave.damage",
     "type": "text",
     "languages": {
-      "en_US": "§cYou suddenly stood up, because you got damaged",
-      "zh_TW": "§c你猛然站了起來, 因為你受傷了"
+      "zh_TW": "§c你猛然站了起來, 因為你受傷了",
+      "en_US": "§cYou suddenly stood up, because you got damaged"
     }
   },
   {
     "key": "PosePlugin.wave.handmode-change",
     "type": "text",
     "languages": {
-      "en_US": "§aYou've changed your hand to wave with",
-      "zh_TW": "§a你換了一隻手揮手"
+      "zh_TW": "§a你換了一隻手揮手",
+      "en_US": "§aYou've changed your hand to wave with"
     }
   },
   {
     "key": "PosePlugin.wave.stop",
     "type": "text",
     "languages": {
-      "en_US": "§aYou've stopped waving",
-      "zh_TW": "§a你停止揮手"
+      "zh_TW": "§a你停止揮手",
+      "en_US": "§aYou've stopped waving"
     }
   },
   {
     "key": "PosePlugin.point.play",
     "type": "text",
     "languages": {
-      "en_US": "§bYou started to point with your finger",
-      "zh_TW": "§b你開始用手指向"
+      "zh_TW": "§b你開始用手指向",
+      "en_US": "§bYou started to point with your finger"
     }
   },
   {
     "key": "PosePlugin.point.damage",
     "type": "text",
     "languages": {
-      "en_US": "§cYou suddenly stood up, because you got damaged",
-      "zh_TW": "§c你猛然站了起來, 因為你受傷了"
+      "zh_TW": "§c你猛然站了起來, 因為你受傷了",
+      "en_US": "§cYou suddenly stood up, because you got damaged"
     }
   },
   {
     "key": "PosePlugin.point.handmode-change",
     "type": "text",
     "languages": {
-      "en_US": "§aYou've changed your hand to point with",
-      "zh_TW": "§a你已經換手指向"
+      "zh_TW": "§a你已經換手指向",
+      "en_US": "§aYou've changed your hand to point with"
     }
   },
   {
     "key": "PosePlugin.point.stop",
     "type": "text",
     "languages": {
-      "en_US": "§aYou've stopped pointing",
-      "zh_TW": "§a你停止指向"
+      "zh_TW": "§a你停止指向",
+      "en_US": "§aYou've stopped pointing"
     }
   },
   {
     "key": "PosePlugin.handshake.play",
     "type": "text",
     "languages": {
-      "en_US": "§bYou started handshaking with you hand.",
-      "zh_TW": "§b你開始用手握手."
+      "zh_TW": "§bYou started handshaking with your hand.",
+      "en_US": "§bYou started handshaking with your hand."
     }
   },
   {
     "key": "PosePlugin.handshake.damage",
     "type": "text",
     "languages": {
-      "en_US": "§cYou suddenly stood up, because you got damaged",
-      "zh_TW": "§c你猛然站了起來, 因為你受傷了"
+      "zh_TW": "§c你猛然站了起來, 因為你受傷了",
+      "en_US": "§cYou suddenly stood up, because you got damaged"
     }
   },
   {
     "key": "PosePlugin.handshake.handmode-change",
     "type": "text",
     "languages": {
-      "en_US": "§aYou've changed your hand to handshake with",
-      "zh_TW": "§a你換一了隻手握手"
+      "zh_TW": "§a你換一了隻手握手",
+      "en_US": "§aYou've changed your hand to handshake with"
     }
   },
   {
     "key": "PosePlugin.handshake.stop",
     "type": "text",
     "languages": {
-      "en_US": "§aYou've stopped your handshake",
-      "zh_TW": "§a你停止握手"
+      "zh_TW": "§a你停止握手",
+      "en_US": "§aYou've stopped your handshake"
+    }
+  },
+  {
+    "key": "PosePlugin.clap.play",
+    "type": "text",
+    "languages": {
+      "zh_TW": "§b你開始拍手.",
+      "en_US": "§bYou started clapping with your hands."
+    }
+  },
+  {
+    "key": "PosePlugin.clap.damage",
+    "type": "text",
+    "languages": {
+      "zh_TW": "§c你猛然站了起來, 因為你受傷了",
+      "en_US": "§cYou suddenly stood up, because you got damaged"
+    }
+  },
+  {
+    "key": "PosePlugin.clap.handmode-change",
+    "type": "text",
+    "languages": {
+      "zh_TW": "§a你換了一隻手來拍手",
+      "en_US": "§aYou've changed your hand to clap with"
+    }
+  },
+  {
+    "key": "PosePlugin.clap.stop",
+    "type": "text",
+    "languages": {
+      "zh_TW": "§a你停止拍手",
+      "en_US": "§aYou've stopped clapping"
     }
   },
   {
     "key": "PosePlugin.pray.play",
     "type": "text",
     "languages": {
-      "en_US": "§bYou've started praying",
-      "zh_TW": "§b你開始祈禱"
+      "zh_TW": "§b你開始祈禱",
+      "en_US": "§bYou've started praying"
     }
   },
   {
     "key": "PosePlugin.pray.damage",
     "type": "text",
     "languages": {
-      "en_US": "§cYou suddenly stood up, because you got damaged",
-      "zh_TW": "§c你猛然站了起來, 因為你受傷了"
+      "zh_TW": "§c猛然站了起來, 因為你受傷了",
+      "en_US": "§cYou suddenly stood up, because you got damaged"
     }
   },
   {
     "key": "PosePlugin.pray.stop",
     "type": "text",
     "languages": {
-      "en_US": "§aYou stood up",
-      "zh_TW": "§a你站了起來"
+      "zh_TW": "§a你站了起來",
+      "en_US": "§aYou stood up"
+    }
+  },
+  {
+    "key": "PosePlugin.spinjitsu.play",
+    "type": "text",
+    "languages": {
+      "zh_TW": "§b你開始旋轉",
+      "en_US": "§bYou've started spinjitsu"
+    }
+  },
+  {
+    "key": "PosePlugin.spinjitsu.damage",
+    "type": "text",
+    "languages": {
+      "zh_TW": "§c猛然站了起來, 因為你受傷了",
+      "en_US": "§cYou suddenly stood up, because you got damaged"
+    }
+  },
+  {
+    "key": "PosePlugin.spinjitsu.stop",
+    "type": "text",
+    "languages": {
+      "zh_TW": "§a你站了起來",
+      "en_US": "§aYou stood up"
     }
   }
 ]

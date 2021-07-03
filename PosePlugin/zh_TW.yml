@@ -1,3 +1,4 @@
+pose-not-support-version: "§c此Pose插件僅限於較新的Minecraft版本"
 in-air: "§c你不能在空中做這個"
 crawl:
   play: "§b你開始爬行"
@@ -26,12 +27,22 @@ point:
   stop: "§a你停止指向"
   usage: "§9/point [right/left/off]"
 handshake:
-  play: "§b你開始用手握手."
+  play: "§bYou started handshaking with your hand."
   damage: "§c你猛然站了起來, 因為你受傷了"
   handmode-change: "§a你換一了隻手握手"
   stop: "§a你停止握手"
   usage: "§9/handshake [right/left/off]"
+clap:
+  play: "§b你開始拍手."
+  damage: "§c你猛然站了起來, 因為你受傷了"
+  handmode-change: "§a你換了一隻手來拍手"
+  stop: "§a你停止拍手"
+  usage: "§9/clap [right/left/off]"
 pray:
   play: "§b你開始祈禱"
-  damage: "§c你猛然站了起來, 因為你受傷了"
+  damage: "§c猛然站了起來, 因為你受傷了"
+  stop: "§a你站了起來"
+spinjitsu:
+  play: "§b你開始旋轉"
+  damage: "§c猛然站了起來, 因為你受傷了"
   stop: "§a你站了起來"

@@ -1,46 +1,43 @@
-# the list of world where lootin will not modify loot chests
-blacklist-worlds: []
+# Thank you for downloading Lootin :)
+# If you find any bug/issue let me know on discord https://discord.com/invite/tTHs4jKu6f
 
+# Titles for chest interfaces
+gui-titles:
+  chest: '&6儲物箱'
+  double-chest: '&6大型儲物箱'
+  minecart: '&6儲物箱礦車'
+  barrel: '&6木桶'
 
-# message that will be displayed if a player tries to break a lootin chest
-# pro-tip: use "" to not send any message
+ 
+# Its bstats 
+metrics: true
+
 messages:
-  blockbreak-with-permission: "&a破壞儲物箱會刪除你的獨特戰利品與物品! 如果還是要破壞, &2你必須在這樣做的同時蹲下..\n&a 戰利品生成是 &2每個玩家每個儲物箱&a, 只有在真的需要的時候在破壞."
-  blockbreak-without-permission: "&c你沒有權限破壞戰利品儲物箱"
-  chest-editing: "&c儲物箱正在編輯中, 無法破壞它"
+  prefix: '&e[&6Lootin&e] '
+  no-permission: '&c你沒有權限來執行此指令'
+  chestbreak-with-permission: '&a破壞儲物箱會刪除你的獨特戰利品與物品! 如果還是要破壞, &22你必須在這樣做的同時蹲下..\n&a 戰利品生成是 &2每個玩家每個儲物箱&a, 只有在真的需要的時候在破壞.'
+  chestbreak-without-permission: '&c你沒有權限破壞戰利品儲物箱'
+  chest-edited: '&c儲物箱正在編輯中, 無法破壞它'
+  reloaded: '&a設定檔已重新加載'
 
-
-
-
-# weather or not to drop items when a lootin chest is broken
+# weather or not to delete items when player breaks loot chest successfully
 delete-items-on-break: true
 
-# weather or not to change minecarts found in mineshafts
-change-minecarts: true
-
-# Loot chest and minecarts titles
-# color codes supported
-title:
-  single-chest: "儲物箱"
-  double-chest: "大型儲物箱"
-  minecart: "儲物箱礦車"
-  barrel: "木桶"
-
-# list of structures where lootin will not modify loot chests
-# valid structure names can be found here https://www.spigotmc.org/resources/90453/
-blacklist-structures: []
-
 # weather or not to prevent lootin chest from being exploded by tnt or creeper
-prevent-explosion: true
+prevent-explosions: true
 
-# list of TERRA structures where lootin will not modify loot chests
-# LootinTerraAddon(in plugins/Terra/addons folder) and Terra plugin(in plugins folder) is required for this to function
-blacklist-terra-strucutres: []
+# list of worlds where lootin will not modify loot chests
+black-list-worlds: []
 
-# list of CustomStructures where lootin will not modify loot chests
-blacklist-custom-structures: []
-
-# list of Oh The Dungeon structures where lootin will not modify loot chests/barrels
-blacklist-otd-structures: []
+# list of vanilla structures where lootin will not modify loot chests
+# valid structure names can be found here https://www.spigotmc.org/resources/90453/
+black-list-structures: []
 
 
+# list of CustomStructures where lootin will not modify loot chests.
+# only applicable if CustomStructures is installed.
+black-list-customstructures: []
+
+# list of OhTheDungeon structure names where lootin will not modify loot chests.
+# only applicable if OhTheDungeon is installed.
+black-list-otd-structures: []

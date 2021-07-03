@@ -11,5 +11,5 @@
 **Ignored keys:**
 
 ```
-(?:wave|point|handshake)\.usage
+(?:wave|point|handshake|clap)\.usage
 ```

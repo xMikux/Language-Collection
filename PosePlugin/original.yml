@@ -1,3 +1,4 @@
+pose-not-support-version: '[lang]PosePlugin.pose-not-support-version[/lang]'
 in-air: '[lang]PosePlugin.in-air[/lang]'
 crawl:
   play: '[lang]PosePlugin.crawl.play[/lang]'
@@ -31,7 +32,17 @@ handshake:
   handmode-change: '[lang]PosePlugin.handshake.handmode-change[/lang]'
   stop: '[lang]PosePlugin.handshake.stop[/lang]'
   usage: '§9/handshake [right/left/off]'
+clap:
+  play: '[lang]PosePlugin.clap.play[/lang]'
+  damage: '[lang]PosePlugin.clap.damage[/lang]'
+  handmode-change: '[lang]PosePlugin.clap.handmode-change[/lang]'
+  stop: '[lang]PosePlugin.clap.stop[/lang]'
+  usage: '§9/clap [right/left/off]'
 pray:
   play: '[lang]PosePlugin.pray.play[/lang]'
   damage: '[lang]PosePlugin.pray.damage[/lang]'
   stop: '[lang]PosePlugin.pray.stop[/lang]'
+spinjitsu:
+  play: '[lang]PosePlugin.spinjitsu.play[/lang]'
+  damage: '[lang]PosePlugin.spinjitsu.damage[/lang]'
+  stop: '[lang]PosePlugin.spinjitsu.stop[/lang]'
