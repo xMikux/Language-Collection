@@ -1,4 +1,5 @@
-# Use § for color codes (e. g. §3)
+---
+#Use § for color codes (e. g. §3)
 Incorrect Command Syntax: 指令語法不正確. 使用 [command]
 No Permission: 你沒有權限執行此指令!
 Storage Warning: 無法保存 Storage.yml. 這可能會導致在重新啟動時出問題.  如果此錯誤仍然繼續, 回報給開發者.
@@ -25,7 +26,7 @@ Not Item: 那並不是個物品
 Help Title: 更多礦石幫助
 /moreores: 顯示此幫助選單
 /moreores menu: 開啟一個物品欄包含所有更多礦石的物品
-/moreores <ore> [amount]: 給予你指定的礦石
+"/moreores <ore> [amount]": 給予你指定的礦石
 /moreores reload: 重新加載設定
 /moreores clear <world>: 清除世界上所有的礦石
 /moreores generate <world>: 強制礦石在世界上生成
