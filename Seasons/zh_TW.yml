@@ -1,6 +1,6 @@
-# To stop a message from appearing, set the value to 'none'
-# Some names cannot be disabled, such as weather names, because the plugin cannot run without them
-
+---
+#To stop a message from appearing, set the value to 'none'
+#Some names cannot be disabled, such as weather names, because the plugin cannot run without them
 weathers:
   name:
     beautiful: '&a漂亮'
@@ -82,13 +82,13 @@ command:
   effects-list-title: '&7對於天氣 &e%weather%, &7效果為:'
   effects-list-element: '&6&l%effect%: &7%description%'
   season-info:
-  - '%season-color%你在的世界是 %season%'
-  - '&7當前的天氣是 &2%weather%'
-  - '&e今天是第 %day% 天 (共 %max-days% 天)'
+    - '%season-color%你在的世界是 %season%'
+    - '&7當前的天氣是 &2%weather%'
+    - '&e今天是第 %day% 天 (共 %max-days% 天)'
   season-info-footer: '&7要查看天氣的效果影響, 請使用指令 &e/seasons effects'
   list-help:
-  - '&7你目前可以列出: %options%'
-  - '&7用法: &e/seasons list <option>'
+    - '&7你目前可以列出: %options%'
+    - '&7用法: &e/seasons list <option>'
   list-error: '&c沒有該類型的列表!'
   permission-denied: '&c你沒有權限執行此操作!'
   all-effects-disabled: '&c伺服器管理員已關閉所有效果!'
