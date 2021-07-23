@@ -1,0 +1,5 @@
+files:
+  - source: /**/en_US.yml
+    ignore:
+      - /Slimefun/
+    translation: /**/%locale_with_underscore%.yml
