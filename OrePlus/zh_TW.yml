@@ -1,60 +1,52 @@
-# I am a novice developer, if there is something wrong or something is missing write it down and don't cut my head off!:D
-
-# By Narcox V0.3.2
-# Versions: 1.16.x
-
-# Edit all for self!
-# Thanks for use my plugin, is you like my "Low" resources rate 5 stars! :D
-
+---
+#I am a novice developer, if there is something wrong or something is missing write it down and don't cut my head off!:D
+#By Narcox V0.3.2
+#Versions: 1.16.x
+#Edit all for self!
+#Thanks for use my plugin, is you like my "Low" resources rate 5 stars! :D
 Settings:
-  ReloadMessage: "&8[&fOrePlus&8] &a成功重新加載!" # Reload Message
-  NoPermissionMessage: "&8[&fOrePlus&8] &e你沒有此權限!" # Reload no permission
-
-# Diamond ore
+  ReloadMessage: "&8[&fOrePlus&8] &a成功重新加載!" #Reload Message
+  NoPermissionMessage: "&8[&fOrePlus&8] &e你沒有此權限!" #Reload no permission
+#Diamond ore
 Diamond-Ore:
-# Custom rgb particles
-  BreakParticleEnable: true # Enable particles?
-  BlockParticleRGBSize: 10 # Particle size.
-  BlockParticleRGBRed: 51 # Red color.
-  BlockParticleRGBGreen: 204 # Green color.
-  BlockParticleRGBBlue: 255  # Blue color.
-
-# Creeper spawn
-  BreakMobCreeperEnable: true # Enable creeper or not. (true - false)
-  BreakMobCreeperSpawnPercentage: 20 # Set percentage for creeper spawn (Please don't use > %)
-  BreakMobCreeperName: "&a&lBum? 哈哈!" # Here is creeper name!
-  BreakMobCreeperSpawnMessage: "&a➤ 嗨, 我的朋友!" # Here is creeper spawn message!
-
-# Sound
-  BreakSoundEnable: true # Enable sounds?
-  BreakSound: block.anvil.land # Here is break sound!
-  BreakSoundVolume: 20 # Here is break sound volume!
-  BreakSoundPitch: 5 # Here is break sound pitch!
-
-# Message
-  BreakMessageEnable: true # This message only works if players have no effect to not spam the chat.
-  BreakMessage: "&b+ 挖掘疲勞 2 &8| &7(30秒)" # Here is break message!
-
-# Potion and message...
-  BreakEffectEnable: true # Enable messages and effect?
-  BreakPotionEffect: SLOW_DIGGING # Potion effect!
-  BreakMessageAndPotionPercentage: 50 # Set percentage for potion give and message! (Please don't use > %)
-  BreakPotionStrength: 1 # Potion effect strength (0 IS 1 1 IS 2!4!4...)
-  BreakPotionDurability: 600 # Potion effect durability (IN TICK SPEED!!)
-
-# Commands on block break
-  BreakCommandsEnable: true # Enable commands or not?
-  BreakCommandsPercentage: 60 # Set percentage for commands. (Please don't use > %)
-  BreakCommands: # Commands
+  #Custom rgb particles
+  BreakParticleEnable: true #Enable particles?
+  BlockParticleRGBSize: 10 #Particle size.
+  BlockParticleRGBRed: 51 #Red color.
+  BlockParticleRGBGreen: 204 #Green color.
+  BlockParticleRGBBlue: 255 #Blue color.
+  #Creeper spawn
+  BreakMobCreeperEnable: true #Enable creeper or not. (true - false)
+  BreakMobCreeperSpawnPercentage: 20
+  BreakMobCreeperName: "&a&lBum? 哈哈!" #Here is creeper name!
+  BreakMobCreeperSpawnMessage: "&a➤ 嗨, 我的朋友!" #Here is creeper spawn message!
+  #Sound
+  BreakSoundEnable: true #Enable sounds?
+  BreakSound: block.anvil.land #Here is break sound!
+  BreakSoundVolume: 20 #Here is break sound volume!
+  BreakSoundPitch: 5 #Here is break sound pitch!
+  #Message
+  BreakMessageEnable: true #This message only works if players have no effect to not spam the chat.
+  BreakMessage: "&b+ 挖掘疲勞 2 &8| &7(30秒)" #Here is break message!
+  #Potion and message...
+  BreakEffectEnable: true #Enable messages and effect?
+  BreakPotionEffect: SLOW_DIGGING #Potion effect!
+  BreakMessageAndPotionPercentage: 50
+  BreakPotionStrength: 1 #Potion effect strength (0 IS 1 1 IS 2!4!4...)
+  BreakPotionDurability: 600 #Potion effect durability (IN TICK SPEED!!)
+  #Commands on block break
+  BreakCommandsEnable: true #Enable commands or not?
+  BreakCommandsPercentage: 60
+  BreakCommands:  #Commands
     - "eco give %player% 500"
     - "give %player% minecraft:dirt"
-
-# Item drop
-  BreakCustomItemDropEnable: true # Enable custom ore drops?
-  BreakItemsDropPercentage: 50 # Set percentage for loot drop! (Please don't use > %)
-  BreakCustomItemDrop: # Item drop if you mine diamond ore!
+  #Item drop
+  BreakCustomItemDropEnable: true #Enable custom ore drops?
+  BreakItemsDropPercentage: 50
+  BreakCustomItemDrop:  #Item drop if you mine diamond ore!
     ItemsDrop:
-      - ==: org.bukkit.inventory.ItemStack
+      - 
+        ==: org.bukkit.inventory.ItemStack
         v: 2584
         type: TRIDENT
         meta:
@@ -69,7 +61,8 @@ Diamond-Ore:
             LOYALTY: 1
             MENDING: 1
             DURABILITY: 1
-      - ==: org.bukkit.inventory.ItemStack
+      - 
+        ==: org.bukkit.inventory.ItemStack
         v: 2584
         type: CROSSBOW
         meta:
@@ -85,370 +78,332 @@ Diamond-Ore:
             QUICK_CHARGE: 1
             DURABILITY: 1
           charged: false
-
 Emerald-Ore:
   BreakParticleEnable: true
   BlockParticleRGBSize: 10
   BlockParticleRGBRed: 128
   BlockParticleRGBGreen: 255
   BlockParticleRGBBlue: 0
-
   BreakSoundEnable: true
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
   BreakSoundPitch: 5
-
   BreakMessageEnable: true
   BreakMessage: "&a+ 村莊英雄 1 &8| &7(1分鐘)"
-
   BreakEffectEnable: true
   BreakPotionEffect: HERO_OF_THE_VILLAGE
   BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 0
   BreakPotionDurability: 1200
-
   BreakCommandsEnable: false
   BreakCommandsPercentage: 60
   BreakCommands:
     - "eco give %player% 500"
     - "give %player% minecraft:dirt"
-
   BreakCustomItemDropEnable: true
   BreakItemsDropPercentage: 50
   BreakCustomItemDrop:
     ItemsDrop:
-      - ==: org.bukkit.inventory.ItemStack
+      - 
+        ==: org.bukkit.inventory.ItemStack
         v: 2230
         type: GOLDEN_APPLE
         amount: 1
-      - ==: org.bukkit.inventory.ItemStack
+      - 
+        ==: org.bukkit.inventory.ItemStack
         v: 2230
         type: GOLDEN_APPLE
         amount: 1
-
 Gold-Ore:
   BreakParticleEnable: true
   BlockParticleRGBSize: 10
   BlockParticleRGBRed: 255
   BlockParticleRGBGreen: 255
   BlockParticleRGBBlue: 0
-
   BreakSoundEnable: true
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
   BreakSoundPitch: 5
-
   BreakMessageEnable: true
   BreakMessage: "&6+ 挖掘加速 2 &8| &7(30秒)"
-
   BreakEffectEnable: true
   BreakPotionEffect: FAST_DIGGING
   BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 1
   BreakPotionDurability: 600
-
   BreakCommandsEnable: false
   BreakCommandsPercentage: 60
   BreakCommands:
     - "eco give %player% 500"
     - "give %player% minecraft:dirt"
-
   BreakCustomItemDropEnable: false
   BreakItemsDropPercentage: 50
   BreakCustomItemDrop:
     ItemsDrop:
-      - ==: org.bukkit.inventory.ItemStack
+      - 
+        ==: org.bukkit.inventory.ItemStack
         v: 2230
         type: GOLDEN_APPLE
         amount: 1
-      - ==: org.bukkit.inventory.ItemStack
+      - 
+        ==: org.bukkit.inventory.ItemStack
         v: 2230
         type: GOLDEN_APPLE
         amount: 1
-
-
 Iron-Ore:
   BreakParticleEnable: true
   BlockParticleRGBSize: 10
   BlockParticleRGBRed: 192
   BlockParticleRGBGreen: 192
   BlockParticleRGBBlue: 192
-
   BreakSoundEnable: true
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
   BreakSoundPitch: 5
-
   BreakMessageEnable: true
   BreakMessage: "&f+ 加速 3 &8| &7(3分鐘)"
-
   BreakEffectEnable: true
   BreakPotionEffect: SPEED
   BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 2
   BreakPotionDurability: 3600
-
   BreakCommandsEnable: false
   BreakCommandsPercentage: 60
   BreakCommands:
     - "eco give %player% 500"
     - "give %player% minecraft:dirt"
-
   BreakCustomItemDropEnable: false
   BreakItemsDropPercentage: 50
   BreakCustomItemDrop:
     ItemsDrop:
-      - ==: org.bukkit.inventory.ItemStack
+      - 
+        ==: org.bukkit.inventory.ItemStack
         v: 2230
         type: GOLDEN_APPLE
         amount: 1
-      - ==: org.bukkit.inventory.ItemStack
+      - 
+        ==: org.bukkit.inventory.ItemStack
         v: 2230
         type: GOLDEN_APPLE
         amount: 1
-
 Coal-Ore:
   BreakParticleEnable: true
   BlockParticleRGBSize: 10
   BlockParticleRGBRed: 99
   BlockParticleRGBGreen: 99
   BlockParticleRGBBlue: 98
-
   BreakSoundEnable: true
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
   BreakSoundPitch: 5
-
   BreakMessageEnable: true
   BreakMessage: "&e+ 發光 1 &8| &7(2分鐘 3秒)"
-
   BreakEffectEnable: true
   BreakPotionEffect: GLOWING
   BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 3
   BreakPotionDurability: 2500
   BreakPotionEffectPercentage: 50
-
   BreakCommandsEnable: false
   BreakCommandsPercentage: 60
   BreakCommands:
     - "eco give %player% 500"
     - "give %player% minecraft:dirt"
-
   BreakCustomItemDropEnable: false
   BreakItemsDropPercentage: 50
   BreakCustomItemDrop:
     ItemsDrop:
-      - ==: org.bukkit.inventory.ItemStack
+      - 
+        ==: org.bukkit.inventory.ItemStack
         v: 2230
         type: GOLDEN_APPLE
         amount: 1
-      - ==: org.bukkit.inventory.ItemStack
+      - 
+        ==: org.bukkit.inventory.ItemStack
         v: 2230
         type: GOLDEN_APPLE
         amount: 1
-
 Lapis-Ore:
   BreakParticleEnable: true
   BlockParticleRGBSize: 10
   BlockParticleRGBRed: 0
   BlockParticleRGBGreen: 0
   BlockParticleRGBBlue: 255
-
   BreakSoundEnable: true
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
   BreakSoundPitch: 5
-
   BreakMessageEnable: true
   BreakMessage: "&6+ 吸收 3 &8| &7(3分鐘)"
-
   BreakEffectEnable: true
   BreakPotionEffect: ABSORPTION
   BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 3
   BreakPotionDurability: 3600
-
   BreakCommandsEnable: false
   BreakCommandsPercentage: 60
   BreakCommands:
     - "eco give %player% 500"
     - "give %player% minecraft:dirt"
-
   BreakCustomItemDropEnable: false
   BreakItemsDropPercentage: 50
   BreakCustomItemDrop:
     ItemsDrop:
-      - ==: org.bukkit.inventory.ItemStack
+      - 
+        ==: org.bukkit.inventory.ItemStack
         v: 2230
         type: GOLDEN_APPLE
         amount: 1
-      - ==: org.bukkit.inventory.ItemStack
+      - 
+        ==: org.bukkit.inventory.ItemStack
         v: 2230
         type: GOLDEN_APPLE
         amount: 1
-
 Redstone-Ore:
   BreakParticleEnable: true
   BlockParticleRGBSize: 10
   BlockParticleRGBRed: 255
   BlockParticleRGBGreen: 0
   BlockParticleRGBBlue: 0
-
   BreakSoundEnable: true
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
   BreakSoundPitch: 5
-
   BreakMessageEnable: true
   BreakMessage: "&c+ 回復 4 &8| &7(2分鐘 4秒)"
-
   BreakEffectEnable: true
   BreakPotionEffect: REGENERATION
   BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 3
   BreakPotionDurability: 2500
-
   BreakCommandsEnable: false
   BreakCommandsPercentage: 60
   BreakCommands:
     - "eco give %player% 500"
     - "give %player% minecraft:dirt"
-
   BreakCustomItemDropEnable: false
   BreakItemsDropPercentage: 50
   BreakCustomItemDrop:
     ItemsDrop:
-      - ==: org.bukkit.inventory.ItemStack
+      - 
+        ==: org.bukkit.inventory.ItemStack
         v: 2230
         type: GOLDEN_APPLE
         amount: 1
-      - ==: org.bukkit.inventory.ItemStack
+      - 
+        ==: org.bukkit.inventory.ItemStack
         v: 2230
         type: GOLDEN_APPLE
         amount: 1
-
 Ancient-Debris:
   BreakParticleEnable: true
   BlockParticleRGBSize: 10
   BlockParticleRGBRed: 51
   BlockParticleRGBGreen: 25
   BlockParticleRGBBlue: 0
-
   BreakMobWitherSkeletonEnable: true
   BreakMobWitherSkeletonSpawnPercentage: 50
   BreakMobWitherSkeletonName: "&c&l一擊? :D"
   BreakMobWitherSkeletonSpawnMessage: "&c➤ 傳奇永不死亡!"
-
   BreakSoundEnable: true
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
   BreakSoundPitch: 5
-
   BreakMessageEnable: true
   BreakMessage: "&6+ 抗火 1 &8| &7(1分鐘)"
-
   BreakEffectEnable: true
   BreakPotionEffect: FIRE_RESISTANCE
   BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 0
   BreakPotionDurability: 4200
-
   BreakCommandsEnable: false
   BreakCommandsPercentage: 60
   BreakCommands:
     - "eco give %player% 500"
     - "give %player% minecraft:dirt"
-
   BreakCustomItemDropEnable: false
   BreakItemsDropPercentage: 50
   BreakCustomItemDrop:
     ItemsDrop:
-      - ==: org.bukkit.inventory.ItemStack
+      - 
+        ==: org.bukkit.inventory.ItemStack
         v: 2230
         type: GOLDEN_APPLE
         amount: 1
-      - ==: org.bukkit.inventory.ItemStack
+      - 
+        ==: org.bukkit.inventory.ItemStack
         v: 2230
         type: GOLDEN_APPLE
         amount: 1
-
 Nethergold-Ore:
   BreakParticleEnable: true
   BlockParticleRGBSize: 10
   BlockParticleRGBRed: 155
   BlockParticleRGBGreen: 153
   BlockParticleRGBBlue: 51
-
   BreakSoundEnable: true
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
   BreakSoundPitch: 5
-
   BreakMessageEnable: true
   BreakMessage: "&f+ 緩速 1 &8| &7(30秒)"
-
   BreakEffectEnable: true
   BreakPotionEffect: SLOW
   BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 0
   BreakPotionDurability: 600
-
   BreakCommandsEnable: false
   BreakCommandsPercentage: 60
   BreakCommands:
     - "eco give %player% 500"
     - "give %player% minecraft:dirt"
-
   BreakCustomItemDropEnable: false
   BreakItemsDropPercentage: 50
   BreakCustomItemDrop:
     ItemsDrop:
-      - ==: org.bukkit.inventory.ItemStack
+      - 
+        ==: org.bukkit.inventory.ItemStack
         v: 2230
         type: GOLDEN_APPLE
         amount: 1
-      - ==: org.bukkit.inventory.ItemStack
+      - 
+        ==: org.bukkit.inventory.ItemStack
         v: 2230
         type: GOLDEN_APPLE
         amount: 1
-
 Netherquartz-Ore:
   BreakParticleEnable: false
   BlockParticleRGBSize: 10
   BlockParticleRGBRed: 224
   BlockParticleRGBGreen: 224
   BlockParticleRGBBlue: 224
-
   BreakSoundEnable: false
   BreakSound: block.anvil.land
   BreakSoundVolume: 20
   BreakSoundPitch: 5
-
   BreakMessageEnable: true
   BreakMessage: "&b+ 緩降 1 &8| &7(30秒)"
-
   BreakEffectEnable: true
   BreakPotionEffect: SLOW_FALLING
   BreakMessageAndPotionPercentage: 50
   BreakPotionStrength: 0
   BreakPotionDurability: 600
-
   BreakCommandsEnable: false
   BreakCommandsPercentage: 60
   BreakCommands:
     - "eco give %player% 500"
     - "give %player% minecraft:dirt"
-
   BreakCustomItemDropEnable: false
   BreakItemsDropPercentage: 50
   BreakCustomItemDrop:
     ItemsDrop:
-      - ==: org.bukkit.inventory.ItemStack
+      - 
+        ==: org.bukkit.inventory.ItemStack
         v: 2230
         type: GOLDEN_APPLE
         amount: 1
-      - ==: org.bukkit.inventory.ItemStack
+      - 
+        ==: org.bukkit.inventory.ItemStack
         v: 2230
         type: GOLDEN_APPLE
         amount: 1

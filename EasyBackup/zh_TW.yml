@@ -1,307 +1,271 @@
-#                                                                                                        
-#     _/_/_/_/                                _/_/_/                        _/                           
-#    _/          _/_/_/    _/_/_/  _/    _/  _/    _/    _/_/_/    _/_/_/  _/  _/    _/    _/  _/_/_/    
-#   _/_/_/    _/    _/  _/_/      _/    _/  _/_/_/    _/    _/  _/        _/_/      _/    _/  _/    _/   
-#  _/        _/    _/      _/_/  _/    _/  _/    _/  _/    _/  _/        _/  _/    _/    _/  _/    _/    
-# _/_/_/_/    _/_/_/  _/_/_/      _/_/_/  _/_/_/      _/_/_/    _/_/_/  _/    _/    _/_/_/  _/_/_/       
-#                                    _/                                                    _/            
-#                               _/_/                                                      _/             
-# Messages Configuration
-#  
-# Thank you very much for purchasing my plugin <3
-# If you have any questions / problems, please use my online service desk:
-# https://prodigysupport.team/tickets/servicedesk/customer/portal/1
-# ~ JarFiles
-
-# String which will appear in front of each message
-# You can use the {prefix} placeholder in almost any message.
-# NOTE:
-# Sometimes {prefix} will be replaced with nothing, if the message must not contain a prefix
+---
+#_/_/_/_/                                _/_/_/                        _/
+#_/          _/_/_/    _/_/_/  _/    _/  _/    _/    _/_/_/    _/_/_/  _/  _/    _/    _/  _/_/_/
+#_/_/_/    _/    _/  _/_/      _/    _/  _/_/_/    _/    _/  _/        _/_/      _/    _/  _/    _/
+#_/        _/    _/      _/_/  _/    _/  _/    _/  _/    _/  _/        _/  _/    _/    _/  _/    _/
+#_/_/_/_/    _/_/_/  _/_/_/      _/_/_/  _/_/_/      _/_/_/    _/_/_/  _/    _/    _/_/_/  _/_/_/
+#_/                                                    _/
+#_/_/                                                      _/
+#Messages Configuration
+#Thank you very much for purchasing my plugin <3
+#If you have any questions / problems, please use my online service desk:
+#https://prodigysupport.team/tickets/servicedesk/customer/portal/1
+#~ JarFiles
+#String which will appear in front of each message
+#You can use the {prefix} placeholder in almost any message.
+#NOTE:
+#Sometimes {prefix} will be replaced with nothing, if the message must not contain a prefix
 prefix: '&8[&6EasyBackup&8]: '
-# Message which will appear if ingame commands have been disabled
+#Message which will appear if ingame commands have been disabled
 ingame-commands-disabled: '{prefix}&7遊戲中的指令&c已禁用&7, 抱歉!'
-# Completely disable all notification messages (NOT RECOMMENDED)
+#Completely disable all notification messages (NOT RECOMMENDED)
 disable-notifications: false
-# Message which will be sent if you try to execute a command which is made for the spigot edition only
+#Message which will be sent if you try to execute a command which is made for the spigot edition only
 spigot-only-command: '{prefix}&7此指令&c只能&7在&cspigot伺服器&7上運行, 抱歉!'
-# Message which will appear if a player doesn't have the permission to execute a command
+#Message which will appear if a player doesn't have the permission to execute a command
 no-permission: '{prefix} &c你沒有權限使用該指令!'
-# Message which will appear if a player doesn't have the permission to excute a specific argument in a command
+#Message which will appear if a player doesn't have the permission to excute a specific argument in a command
 no-permission-argument: '{prefix} &c你沒有權限使用該指令'
-# Message which will appear if an unknown error occurs while executing a command
+#Message which will appear if an unknown error occurs while executing a command
 generic-error: '{prefix}&7抱歉, 但有些東西出了&c問題&7在執行此指令 請查看終端獲取更多詳細訊息!'
-# Message which will appear if the executed command does not exist
+#Message which will appear if the executed command does not exist
 unknown: '{prefix}&7抱歉, 但此指令&c不存在&7!'
-# Message which will be sent if the command syntax is wrong
-#  
-# Placeholders:
-# {command} - will be replaced with the command
-# {syntax} -  will be replaced with the expected syntax
+#Message which will be sent if the command syntax is wrong
+#Placeholders:
+#{command} - will be replaced with the command
+#{syntax} -  will be replaced with the expected syntax
 invalid-syntax: '{prefix}&7錯誤 &cusage&7. 使用 &6{command} {syntax}&7!'
-# Message which will be sent if an error occurs while executing the command
+#Message which will be sent if an error occurs while executing the command
 error-performing-command: '{prefix}&7在執行此指令時發生&c錯誤&7!'
-# Message which will be sent if a specific value is expected but not present
-#  
-# Placeholders:
-# {valid} - will be replaced with the expected values
+#Message which will be sent if a specific value is expected but not present
+#Placeholders:
+#{valid} - will be replaced with the expected values
 please-specify-one-of: '{prefix}&7請指定 &c{valid} &7的一個'
-# Message which will be sent if a number value is expected but not present
-#  
-# Placeholders:
-# {num} - will be replaced with the given value
+#Message which will be sent if a number value is expected but not present
+#Placeholders:
+#{num} - will be replaced with the given value
 must-be-a-number: '{prefix}&c{num} &7必須為&c數字&7!'
-# Message which will be sent if a character value is expected but the given one has too less characters
-#  
-# Placeholders:
-# {min} - will be replaced with the excepted minimum length
+#Message which will be sent if a character value is expected but the given one has too less characters
+#Placeholders:
+#{min} - will be replaced with the excepted minimum length
 min-length: '{prefix}&7必須至少 &c{min} 個字符&7長!'
-# Message which will be sent if a number value is expected but the given one is too low
-#  
-# Placeholders:
-# {min} - will be replaced with the excepted minimum value
+#Message which will be sent if a number value is expected but the given one is too low
+#Placeholders:
+#{min} - will be replaced with the excepted minimum value
 at-least: '{prefix}&7請指定一個值,且&c至少 {min}&7!'
-# Message which will be sent if a number value is expected but the given one is too high
-#  
-# Placeholders:
-# {min} - will be replaced with the excepted maximum value
+#Message which will be sent if a number value is expected but the given one is too high
+#Placeholders:
+#{min} - will be replaced with the excepted maximum value
 max-length: '{prefix}&7請指定一個值, 且&c不大於 {max}&7!'
-# Message which will be sent if the console is not allowed to execute a command
+#Message which will be sent if the console is not allowed to execute a command
 no-console: '{prefix}&c終端無法&7執行此指令!'
-# Message which will be sent if a player value is expected but the given one is not present
-#  
-# Placeholders:
-# {search} - the given player name
+#Message which will be sent if a player value is expected but the given one is not present
+#Placeholders:
+#{search} - the given player name
 player-not-found: '{prefix}&7找不到名稱為 &c{search} &7的玩家!'
-# Message which will be sent if someone searches for a command which does not exist
-#  
-# Placeholders:
-# {search} - the given search query
+#Message which will be sent if someone searches for a command which does not exist
+#Placeholders:
+#{search} - the given search query
 no-command-found: '{prefix}&7找不到與 &c{search} &7匹配的指令!'
 help:
-  # Message which displays the help page information
-  #  
-  # Placeholders:
-  # {page} - current page
-  # {totalpages} - number of total pages
-  # {results} - number of results
+  #Message which displays the help page information
+  #Placeholders:
+  #{page} - current page
+  #{totalpages} - number of total pages
+  #{results} - number of results
   information: '{prefix}&7顯示頁面 &6{page}&7/&6{totalpages} &7結果: &6{results}'
-  # Message which will be sent if no more results are found
+  #Message which will be sent if no more results are found
   no-results: '{prefix}&c沒有更多的&7結果'
-  # Message which displays the header of a help message
-  #  
-  # Placeholders:
-  # {commandprefix} - prefix of a command
-  # {command} - name of the command
+  #Message which displays the header of a help message
+  #Placeholders:
+  #{commandprefix} - prefix of a command
+  #{command} - name of the command
   header: '{prefix}&7顯示幫助 &6{commandprefix}{command}&7:'
-  # Format of each help message entry
-  #  
-  # Placeholders:
-  # {command} - name of the command
-  # {parameters} - arguments / parameters of the command
-  # {seperator} - just for styling. [-] (will be replaced with nothing if there is no command description)
-  # {description} - description of the command
+  #Format of each help message entry
+  #Placeholders:
+  #{command} - name of the command
+  #{parameters} - arguments / parameters of the command
+  #{seperator} - just for styling. [-] (will be replaced with nothing if there is no command description)
+  #{description} - description of the command
   format: '{prefix}&7/{command} &6{parameters}'
   detailed:
-    # Message which displays the detailed header of a help message
-    #  
-    # Placeholders:
-    # {commandprefix} - prefix of a command
-    # {command} - name of the command
+    #Message which displays the detailed header of a help message
+    #Placeholders:
+    #{commandprefix} - prefix of a command
+    #{command} - name of the command
     header: '{prefix}&7顯示詳細幫助 &6{commandprefix}{command}&7:'
-    # Format of each detailed command help message entry
-    #  
-    # Placeholders:
-    # {command} - name of the command
-    # {parameters} - arguments / parameters of the command
-    # {seperator} - just for styling. [-] (will be replaced with nothing if there is no command description)
-    # {description} - description of the command
+    #Format of each detailed command help message entry
+    #Placeholders:
+    #{command} - name of the command
+    #{parameters} - arguments / parameters of the command
+    #{seperator} - just for styling. [-] (will be replaced with nothing if there is no command description)
+    #{description} - description of the command
     command-format: '{prefix}&7/{command} &6{parameters} &7{separator} &b{description}'
-    # Format of each detailed parameter help message entry
-    #  
-    # Placeholders:
-    # {syntaxorname} - name of the parameter
-    # {description} - description of the parameter
+    #Format of each detailed parameter help message entry
+    #Placeholders:
+    #{syntaxorname} - name of the parameter
+    #{description} - description of the parameter
     parameter-format: '{prefix}&7{syntaxorname}: &b{description}'
-  # Message which displays the header of a search help message
-  #  
-  # Placeholders:
-  # {commandprefix} - prefix of a command
-  # {command} - name of the command
-  # {search} - search result
+  #Message which displays the header of a search help message
+  #Placeholders:
+  #{commandprefix} - prefix of a command
+  #{command} - name of the command
+  #{search} - search result
   search-header: '{prefix}&7搜尋結果 &6{commandprefix}{command} &b{search}&7:'
-# Message which will be sent if an error occurs while executing the command
-# Is used by messages in the *.error.* section
-#  
-# Placeholders:
-# {message} - will be replaced with the error message
+#Message which will be sent if an error occurs while executing the command
+#Is used by messages in the *.error.* section
+#Placeholders:
+#{message} - will be replaced with the error message
 error-prefix: '{prefix}&c錯誤: &7{message}!'
-# Message which will be sent if you try to execute a command which is made for the bungee edition only
+#Message which will be sent if you try to execute a command which is made for the bungee edition only
 bungee-only-command: '{prefix}&7此指令只能在 &cbungee伺服器&7上運行, 抱歉!'
 cleaner:
-  # Message which will be sent once the cleaner starts
+  #Message which will be sent once the cleaner starts
   start-clean: '{prefix}&7清理&6已開始&7...'
-  # Message which will be sent if a manually cleaner finishes
-  #  
-  # Placeholders:
-  # {time} - Time for the cleaner
+  #Message which will be sent if a manually cleaner finishes
+  #Placeholders:
+  #{time} - Time for the cleaner
   finish: '{prefix}&2成功完成&6清理&7, 花費 &b{time}'
-  # Message which will be sent if you try to run the cleaner but it's not enabled
+  #Message which will be sent if you try to run the cleaner but it's not enabled
   not-enabled: '{errorprefix}&7清理&c未&7啟用'
-  # Message which will be sent once the cleaner finishes cleaning a directory
-  #  
-  # Placeholders:
-  # {directory} - directory which has been cleaned
-  # {amount} - amount of files which have been deleted
+  #Message which will be sent once the cleaner finishes cleaning a directory
+  #Placeholders:
+  #{directory} - directory which has been cleaned
+  #{amount} - amount of files which have been deleted
   clean-dir-done: '{prefix}&2成功&7清理 &6{directory} &7(刪除: &b{amount} 個檔案&7)'
-  # Message which will be sent once the cleaner starts cleaning a directory
-  #  
-  # Placeholders:
-  # {directory} - name of the directory
+  #Message which will be sent once the cleaner starts cleaning a directory
+  #Placeholders:
+  #{directory} - name of the directory
   clean-dir: '{prefix}&7清理 &6{directory}&7...'
-# Message which will be sent if a character value is expected but the given one has too many characters
-#  
-# Placeholders:
-# {max} - will be replaced with the excepted minimum length
+#Message which will be sent if a character value is expected but the given one has too many characters
+#Placeholders:
+#{max} - will be replaced with the excepted minimum length
 must-be-max-length: '{prefix}&7不得超過 &c{min} &7個字符!'
 backup:
-  # Will be send when a backup has been started
+  #Will be send when a backup has been started
   start-creation: '{prefix}&6開始&7備份...'
-  # Will be send when a backup has been created
-  #  
-  # Placeholders:
-  # {time} - will be replaced with the backup create duration
+  #Will be send when a backup has been created
+  #Placeholders:
+  #{time} - will be replaced with the backup create duration
   finish-creation: '{prefix}&2已創建好&7備份. 花費 &6{time}'
-  # Will be send when an error occurs during the backup creation or the upload process
+  #Will be send when an error occurs during the backup creation or the upload process
   error: '{prefix}&7創建備份時&c發生錯誤'
-  # Will be send when the backup process has been cancelled
+  #Will be send when the backup process has been cancelled
   cancel: '{prefix}&7你已&c取消&7備份'
-  # Message which will be sent every 5 seconds with the current save percentage
-  #  
-  # Placeholders:
-  # {saved} - saved bytes
-  # {totalsize} - total size of the backup
-  # {percent} - percentage of the zip saving
-  # {speed} - current backup speed
-  save-percent: '{prefix}&7保存 &6{saved} &e/ &6{totalsize} &7(&b{percent}%&7) | &b{speed}'
-  # Delay between each percentage message in seconds
+  #Message which will be sent every 5 seconds with the current save percentage
+  #Placeholders:
+  #{saved} - saved bytes
+  #{totalsize} - total size of the backup
+  #{percent} - percentage of the zip saving
+  #{speed} - current backup speed
+  save-percent: |
+    {prefix}&7保存 &6{saved} &e/ &6{totalsize} &7(&b{percent}%&7) | &b{speed}
+  #Delay between each percentage message in seconds
   percent-msg-delay: 5
-  # Message which will be sent once the plugin finishes deleting old backups
-  #  
-  # Placeholders:
-  # {amount} - amount of deleted files
+  #Message which will be sent once the plugin finishes deleting old backups
+  #Placeholders:
+  #{amount} - amount of deleted files
   deleted-previous: '{prefix}&7成功&2刪除 &6{amount} &7以前的備份'
   anti-lag:
-    # Message which will be sent if the server is lagging
+    #Message which will be sent if the server is lagging
     slow-down: '{prefix}&c減緩&7備份,因伺服器正在&c卡盪'
-    # Message which will be sent if the backup has returned to it's max speed
+    #Message which will be sent if the backup has returned to it's max speed
     speed-up: '{prefix}&7備份已恢復到&2最大速度'
-  # Message which will be sent if you try to upload a backup but the backup directory hasn't been created yet
+  #Message which will be sent if you try to upload a backup but the backup directory hasn't been created yet
   directory-does-not-exist: '{errorprefix}&7備份目錄&c不存在'
-  # Message which will be sent if you try to create a backup while it's already running
+  #Message which will be sent if you try to create a backup while it's already running
   already-running: '{errorprefix}&7備份&c已經&7在運行'
-  # Message which will be sent if you try to cancel a backup while it's not running
+  #Message which will be sent if you try to cancel a backup while it's not running
   not-running: '{errorprefix}&7備份&c未&7運行'
-  # Message which will be sent if the specified backup could not be found
+  #Message which will be sent if the specified backup could not be found
   file-not-found: '{errorprefix}&7備份檔案&c不存在&7或&c不是檔案'
 upload:
-  # Message which will be sent if you start an upload
+  #Message which will be sent if you start an upload
   start: '{prefix}&7開始&6上傳&7最新備份'
-  # Message which will be sent if a manually upload finishes
-  #  
-  # Placeholders:
-  # {time} - Time for the upload
+  #Message which will be sent if a manually upload finishes
+  #Placeholders:
+  #{time} - Time for the upload
   finish: '{prefix}&2成功&7完成&6所有備份&7在 &b{time}'
-  # Message which will be sent if you start an upload but there is no latest backup
+  #Message which will be sent if you start an upload but there is no latest backup
   no-backup: '{errorprefix}&c無法&7在目錄中獲取最新備份'
 upload-services:
-  # Message which will be sent once an upload starts
-  #  
-  # Placeholders:
-  # {service} - name of the upload service
+  #Message which will be sent once an upload starts
+  #Placeholders:
+  #{service} - name of the upload service
   start-upload: '{prefix}&7開始&6上傳&7到 &6{service}'
-  # Message which will be sent once the plugin established the connetion to the service
-  #  
-  # Placeholders:
-  # {service} - name of the upload service
+  #Message which will be sent once the plugin established the connetion to the service
+  #Placeholders:
+  #{service} - name of the upload service
   logged-in: '{prefix}&7成功&2登入&7到 &6{service}'
-  # Message which will be sent once the plugin finishes deleting old backups
-  #  
-  # Placeholders:
-  # {service} - name of the upload service
-  # {amount} - amount of deleted files
+  #Message which will be sent once the plugin finishes deleting old backups
+  #Placeholders:
+  #{service} - name of the upload service
+  #{amount} - amount of deleted files
   deleted-previous: '{prefix}&7已成功從 &6{service} &2刪除 &6{amount} &7個以前的備份'
-  # Message which will be sent every 5 seconds with the current upload percentage
-  #  
-  # Placeholders:
-  # {service} - name of the upload service
-  # {saved} - saved bytes
-  # {totalsize} - total size of the backup
-  # {percent} - percentage of the zip saving
-  # {speed} - current backup speed
+  #Message which will be sent every 5 seconds with the current upload percentage
+  #Placeholders:
+  #{service} - name of the upload service
+  #{saved} - saved bytes
+  #{totalsize} - total size of the backup
+  #{percent} - percentage of the zip saving
+  #{speed} - current backup speed
   upload-percent: '{prefix}&7上傳 &6{saved} &e/ &6{totalsize} &7(&b{percent}%&7) | &b{speed}'
-  # Delay between each percentage message in seconds
+  #Delay between each percentage message in seconds
   percent-msg-delay: 5
-  # Message which will be sent once an upload has been finished
-  #  
-  # Placeholders:
-  # {service} - name of the upload service
+  #Message which will be sent once an upload has been finished
+  #Placeholders:
+  #{service} - name of the upload service
   finish-upload: '{prefix}&7完成&6上傳&7到 &6{service}'
-  # Message which will be sent once the local backup file has been deleted successfully
+  #Message which will be sent once the local backup file has been deleted successfully
   delete-local: '{prefix}&2成功&7刪除&6本地備份檔案'
-  # Message which will be sent if you try to upload something but there is no internet connection available
+  #Message which will be sent if you try to upload something but there is no internet connection available
   no-internet: '{prefix}&7由於&c沒有可用的網際網路連線&7,上傳已被&c關閉'
-  # Message which will be sent if there aren't any upload services enabled
+  #Message which will be sent if there aren't any upload services enabled
   no-service-enabled: '{prefix}&c未啟用&7任何上傳服務, 因此&c無法&7上傳備份'
 restore:
-  # Message which will be sent if you start restoring a backup
+  #Message which will be sent if you start restoring a backup
   start: '{prefix}&6還原&7程序&6已開始'
-  # Message which will be sent when kicking all players
+  #Message which will be sent when kicking all players
   kick-message: '{prefix}&6還原備份. 伺服器應該很快回來'
-  # Message which will be sent if restoring a backup fails
+  #Message which will be sent if restoring a backup fails
   fail: '{prefix}&7還原&c失敗'
-  # Will be send when restoring a backup was successful
-  #  
-  # Placeholders:
-  # {time} - will be replaced with the restore duration
+  #Will be send when restoring a backup was successful
+  #Placeholders:
+  #{time} - will be replaced with the restore duration
   finish: '{prefix}&7還原&2完成&7 &c立即關閉伺服器&7. 花費 &6{time}'
-  # Message which will sent if you try to restore an encrypted backup but you didn't specify a password
+  #Message which will sent if you try to restore an encrypted backup but you didn't specify a password
   backup-password-missing: '{errorprefix}指定備份已加密, 但未指定密碼'
-  # Message which will be sent if try to restore an incremental backup
+  #Message which will be sent if try to restore an incremental backup
   no-incremental-backups: '{errorprefix}你&c無法&7還原&c增量備份'
 disk:
-  # Message which will be sent if use the disk command
-  #  
-  # Placeholders:
-  # {used} - used disk space
-  # {totalsize} - total available space
+  #Message which will be sent if use the disk command
+  #Placeholders:
+  #{used} - used disk space
+  #{totalsize} - total available space
   space: '{prefix}&7EasyBackup 使用 &6{used} &7/ &6{totalsize}'
-  # Message which will be sent if use the disk command
-  #  
-  # Placeholders:
-  # {amount} - directory amount
+  #Message which will be sent if use the disk command
+  #Placeholders:
+  #{amount} - directory amount
   folder: '{prefix}&7目錄: &6{amount}'
-  # Message which will be sent if use the disk command
-  #  
-  # Placeholders:
-  # {amount} - files amount
+  #Message which will be sent if use the disk command
+  #Placeholders:
+  #{amount} - files amount
   files: '{prefix}&7檔案: &6{amount}'
 reload:
-  # Message which will be sent once the plugin starts reloading the config
+  #Message which will be sent once the plugin starts reloading the config
   start: '{prefix}&7重新加載設定. 請稍候...'
-  # Message which will be sent once the plugin finishes reloading the config
+  #Message which will be sent once the plugin finishes reloading the config
   finish: '{prefix}&2成功&7重新加載設定'
-  # Message which will be sent once the plugin finishes reloading the config
+  #Message which will be sent once the plugin finishes reloading the config
   finish-note: '{prefix}&7請注意,重新加載配置&c只會更改一些值&7和&c並不會&7重新加載整個插件'
-  # Message which will be sent if an error occurs while reloading the config
+  #Message which will be sent if an error occurs while reloading the config
   fail: '{prefix}&7無法&c重新&7加載配置'
 delete:
-  # Message which will be sent if the backup deletion finishes successfully
-  #  
-  # Placeholders:
-  # {backup} - backup file name
+  #Message which will be sent if the backup deletion finishes successfully
+  #Placeholders:
+  #{backup} - backup file name
   success: '{prefix}&7備份&2已成功&7刪除'
-  # Message which will be sent if the backup deletion fails
-  #  
-  # Placeholders:
-  # {backup} - backup file name
+  #Message which will be sent if the backup deletion fails
+  #Placeholders:
+  #{backup} - backup file name
   fail: '{prefix}&7備份&c無法&7刪除'

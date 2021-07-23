@@ -1,141 +1,115 @@
-# The config of the ZombieApocalypse plugin
-# Created by 3ricL, minecraft name: Ericdebouwer
-# -
-# Edit this configuration with care, and NEVER use tabs!
-# If this configuration breaks, my plugin will try to explain what should be changed/fixed
-# to reset it, simply remove it from the "ZombieApocalypse" folder and it will generate a new one
-# -
-# You can sometimes pass arguments between curly braces,
-# so {world_name} is replaced with the actual world's name for example
-# Not including the argument will work just fine, but might be less helpful to users
-# You can use color codes by using the §-symbol, as seen on: https://www.digminecraft.com/lists/color_list_pc.php
+---
+#The config of the ZombieApocalypse plugin
+#Created by 3ricL, minecraft name: Ericdebouwer
+#-
+#Edit this configuration with care, and NEVER use tabs!
+#If this configuration breaks, my plugin will try to explain what should be changed/fixed
+#to reset it, simply remove it from the "ZombieApocalypse" folder and it will generate a new one
+#-
+#You can sometimes pass arguments between curly braces,
+#so {world_name} is replaced with the actual world's name for example
+#Not including the argument will work just fine, but might be less helpful to users
+#You can use color codes by using the §-symbol, as seen on: https://www.digminecraft.com/lists/color_list_pc.php
 ###################################################################
-
-# This is shown before all messages this plugin sends in chat
+#This is shown before all messages this plugin sends in chat
 plugin-prefix: "§7<<§4殭屍§2啟示錄§7>>§r "
-
-# whether the plugin will check for updates on start-up
+#whether the plugin will check for updates on start-up
 check-for-updates: true
-
-# Settings for the different types of zombies.
-# For more details see: https://github.com/EricLangezaal/ZombieApocalypse/wiki/Configuring-the-zombies
+#Settings for the different types of zombies.
+#For more details see: https://github.com/EricLangezaal/ZombieApocalypse/wiki/Configuring-the-zombies
 zombies:
-   DEFAULT:
-      enabled: true
-      head: ""
-   SPRINTER:
-      enabled: true
-      head: "http://textures.minecraft.net/texture/608d83a505cb9220db26e0ce87187c7b46dcc7b1d171ec23752bab0f7a87e2e7"
-      attributes:
-         generic_movement_speed: 0.45
-   BOOMER:
-      enabled: true
-      head: "http://textures.minecraft.net/texture/3ec33735f71e2b7756d7cfafcf5cb0a9cd357d4174a47c5f073c1134902cf4d"
-   THROWER:
-      enabled: true
-      head: "http://textures.minecraft.net/texture/4fd55a13b973d6d4cc5badda11c8a0436470b601a9883b91c4b59c48c9a76aab"
-   TANK:
-      enabled: true
-      head: "http://textures.minecraft.net/texture/65e97ef120d94e916d196fc65c141a31c20540b083daf86a00b201885b4ef49c"
-      attributes:
-         generic_movement_speed: 0.2
-         generic_max_health: 40.0
-         generic_knockback_resistance: 1
-         generic_attack_damage: 10.0
-
-   NINJA:
-      enabled: true
-      head: "http://textures.minecraft.net/texture/b72fdeb1274cba67316b206c9f77438964c90971af996c35be2395f6477469b"
-      attributes:
-         generic_movement_speed: 0.4
-         generic_max_health: 10.0
-         generic_attack_damage: 6.0
-   MULTIPLIER:
-      enabled: true
-      head: "http://textures.minecraft.net/texture/bf938ae03138b2d022d6280858fc67e2612086e8112f9d1546764561978425b1"
-   JUMPER:
-      enabled: true
-      head: "http://textures.minecraft.net/texture/a20e84d32d1e9c919d3fdbb53f2b37ba274c121c57b2810e5a472f40dacf004f"
-   PILLAR:
-      enabled: true
-      head: ""
-    
-# whether or not some of the zombies can spawn as babies, like zombies normally do
+  DEFAULT:
+    enabled: true
+    head: ""
+  SPRINTER:
+    enabled: true
+    head: "http://textures.minecraft.net/texture/608d83a505cb9220db26e0ce87187c7b46dcc7b1d171ec23752bab0f7a87e2e7"
+    attributes:
+      generic_movement_speed: 0.45
+  BOOMER:
+    enabled: true
+    head: "http://textures.minecraft.net/texture/3ec33735f71e2b7756d7cfafcf5cb0a9cd357d4174a47c5f073c1134902cf4d"
+  THROWER:
+    enabled: true
+    head: "http://textures.minecraft.net/texture/4fd55a13b973d6d4cc5badda11c8a0436470b601a9883b91c4b59c48c9a76aab"
+  TANK:
+    enabled: true
+    head: "http://textures.minecraft.net/texture/65e97ef120d94e916d196fc65c141a31c20540b083daf86a00b201885b4ef49c"
+    attributes:
+      generic_movement_speed: 0.2
+      generic_max_health: 40.0
+      generic_knockback_resistance: 1
+      generic_attack_damage: 10.0
+  NINJA:
+    enabled: true
+    head: "http://textures.minecraft.net/texture/b72fdeb1274cba67316b206c9f77438964c90971af996c35be2395f6477469b"
+    attributes:
+      generic_movement_speed: 0.4
+      generic_max_health: 10.0
+      generic_attack_damage: 6.0
+  MULTIPLIER:
+    enabled: true
+    head: "http://textures.minecraft.net/texture/bf938ae03138b2d022d6280858fc67e2612086e8112f9d1546764561978425b1"
+  JUMPER:
+    enabled: true
+    head: "http://textures.minecraft.net/texture/a20e84d32d1e9c919d3fdbb53f2b37ba274c121c57b2810e5a472f40dacf004f"
+  PILLAR:
+    enabled: true
+    head: ""
+#whether or not some of the zombies can spawn as babies, like zombies normally do
 allow-babies: true
-
-# zombies with custom heads will never burn, should the ones without burn in the day?
+#zombies with custom heads will never burn, should the ones without burn in the day?
 burn-in-day: false
-
-# whether or not the bossbar appears for players inside an apocalypse
+#whether or not the bossbar appears for players inside an apocalypse
 do-bossbar: true
-
-# if zombies (currently only boomer) should do block damage
+#if zombies (currently only boomer) should do block damage
 do-zombie-block-damage: true
-
-# if set to false, it will spawn 'overworld' zombies in the nether,
-# by default those will be zombified pigmen/piglins instead
+#if set to false, it will spawn 'overworld' zombies in the nether,
+#by default those will be zombified pigmen/piglins instead
 spawn-pigmen-in-nether: true
-
-# whether or not my plugin will remove all custom zombies from an apocalypse world after the apocalypse has ended
+#whether or not my plugin will remove all custom zombies from an apocalypse world after the apocalypse has ended
 remove-zombies-after-apocalypse: true
-
-# whether players can sleep when there is an apocalypse ongoing
+#whether players can sleep when there is an apocalypse ongoing
 allow-sleep: true
-
-
 messages:
-   no-command-permission: "§4§l抱歉§r§7, 你沒有權限!"
-
-   # started-success supports placeholder {world_name}
-   started-success: "§a啟示錄成功開始在 '{world_name}'!"
-   # started-broadcast supports placeholder {world_name}
-   started-broadcast: "§d殭屍啟示錄剛剛開始了!"
-   # started-failed supports placeholder {world_name}
-   start-failed: "§c啟示錄已經開始在 '{world_name}'"
-   # started-failed supports placeholder {input}, for the users faulty duration input
-   start-invalid-duration: "§c啟示錄持續的分鐘必須為整數!"
-
-   # ended-success supports placeholder {world_name}
-   ended-success: "§a啟示錄結束於世界: '{world_name}'!"
-   # ended-failed supports placeholder {world_name}
-   end-failed: "§c沒有啟示錄在 '{world_name}'" 
-   # ended-broadcast supports placeholder {world_name}
-   ended-broadcast: "§d殭屍啟示錄已經結束, 你現在安全了 (目前)!"
-   
-   reload-success: "§a插件成功重新載入!"
-   reload-fail: "§c重新加載配置失敗! 請查看後台獲取更多資訊."
-   
-   mobcap-too-few-arguments: "§c請同時提供世界名稱和所需怪物數量!"
-   # supports placeholder {input} for the invalid user input
-   mobcap-invalid-amount: "§c請 (同樣) 提供怪物上限為整數"
-   # supports placeholder {world_name}
-   mobcap-no-apocalypse: "§7沒有§4殭屍§2啟示錄§7在世界 '{world_name}'"
-   # supports placeholders {world_name} and {mobcap} for the new mob cap
-   mobcap-success: "§a設定最大殭屍於每個區塊生成上限為 {mobcap} 在世界 '{world_name}'"
-
-   # invalid-world supports placeholder {world_name}
-   invalid-world: "§c世界 '{world_name}' 並不存在或尚未加載"
-
-   # only for when this plugin is used from console and no world name is provided
-   console-no-world-provided: "請同時提供世界名稱"
-
-   # The text that will show up in the bar on the top of the screen in apocalyptic worlds
-   apocalypse-boss-bar-title: "§5殭屍啟示錄正在發生中!"
-
-   # sent when a player tries to sleep and `allow-sleep` (see above) is set to false.
-   no-apocalypse-sleep: "§7那將會太簡單..."
-
-   # also used when a custom spawner is given!
-   # given-zombie-egg supports placeholder {item_name} for the name of the egg just received
-   given-zombie-egg: "§7你已給予一個 §r§6{item_name}"
-
-   # also used when a custom spawner type is incorrect!
-   # invalid-egg-type supports placeholder {input} for the users faulty zombie type input
-   invalid-egg-type: "§c那殭屍類型並不存在!"
-  
-   
-   
-   
+  no-command-permission: "§4§l抱歉§r§7, 你沒有權限!"
+  #started-success supports placeholder {world_name}
+  started-success: "§a啟示錄成功開始在 '{world_name}'!"
+  #started-broadcast supports placeholder {world_name}
+  started-broadcast: "§d殭屍啟示錄剛剛開始了!"
+  #started-failed supports placeholder {world_name}
+  start-failed: "§c啟示錄已經開始在 '{world_name}'"
+  #started-failed supports placeholder {input}, for the users faulty duration input
+  start-invalid-duration: "§c啟示錄持續的分鐘必須為整數!"
+  #ended-success supports placeholder {world_name}
+  ended-success: "§a啟示錄結束於世界: '{world_name}'!"
+  #ended-failed supports placeholder {world_name}
+  end-failed: "§c沒有啟示錄在 '{world_name}'"
+  #ended-broadcast supports placeholder {world_name}
+  ended-broadcast: "§d殭屍啟示錄已經結束, 你現在安全了 (目前)!"
+  reload-success: "§a插件成功重新載入!"
+  reload-fail: "§c重新加載配置失敗! 請查看後台獲取更多資訊."
+  mobcap-too-few-arguments: "§c請同時提供世界名稱和所需怪物數量!"
+  #supports placeholder {input} for the invalid user input
+  mobcap-invalid-amount: "§c請 (同樣) 提供怪物上限為整數"
+  #supports placeholder {world_name}
+  mobcap-no-apocalypse: "§7沒有§4殭屍§2啟示錄§7在世界 '{world_name}'"
+  #supports placeholders {world_name} and {mobcap} for the new mob cap
+  mobcap-success: "§a設定最大殭屍於每個區塊生成上限為 {mobcap} 在世界 '{world_name}'"
+  #invalid-world supports placeholder {world_name}
+  invalid-world: "§c世界 '{world_name}' 並不存在或尚未加載"
+  #only for when this plugin is used from console and no world name is provided
+  console-no-world-provided: "請同時提供世界名稱"
+  #The text that will show up in the bar on the top of the screen in apocalyptic worlds
+  apocalypse-boss-bar-title: "§5殭屍啟示錄正在發生中!"
+  #sent when a player tries to sleep and `allow-sleep` (see above) is set to false.
+  no-apocalypse-sleep: "§7那將會太簡單..."
+  #also used when a custom spawner is given!
+  #given-zombie-egg supports placeholder {item_name} for the name of the egg just received
+  given-zombie-egg: "§7你已給予一個 §r§6{item_name}"
+  #also used when a custom spawner type is incorrect!
+  #invalid-egg-type supports placeholder {input} for the users faulty zombie type input
+  invalid-egg-type: "§c那殭屍類型並不存在!"
 
 
 

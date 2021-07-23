@@ -1,28 +1,24 @@
-# Traditional Chinese
-
+---
+#English language file.
+#Use "§"-symbol for color picking, not the "&".
 PLUGIN_PREFIX: "§8§l[§2§lVivaldi§8§l]§r"
-
 SEASON_WINTER: "§3冬季"
 SEASON_SPRING: "§a春季"
 SEASON_SUMMER: "§2夏季"
 SEASON_AUTUMN: "§6秋季"
-
 DAY_CHANGE_MESSAGE: "§7新的一天要開始了... 今天是: 第§c%d§7天的%s§7." #%d for day, %s for season
 DAY_CHANGE_LOG: "日期已更改! 今天是: %d day of %s." #%d for day, %s for season
-
 SEASON_CHANGE_MESSAGE: "§4%s §7到了!" #%s for season
 SEASON_CHANGE_LOG: "季節已更改! 新季節是: %s." #%s for season
-
 COMMAND_WELCOME_MESSAGE: "§7歡迎使用Vivaldi插件. 輸入§a/vivaldi §bhelp §7獲取有關指令的信息."
-COMMAND_HELP_MESSAGE: 
- - "§4§l指令清單:" 
- - "§7- §a/vivaldi §binfo §8(or §2i§8) §7- 獲取有關當前季節和日期的信息"
- - "§7- §a/vivaldi §bsetseason §8(or §2ss§8) §3<season> §7- 更改季節"
- - "§7- §a/vivaldi §bsetday §8(or §2sd§8) §3<day> §7- 更改日期"
- - "§7- §a/vivaldi §breload §8(or §2r§8) §7- 重新加載Vivaldi"
+COMMAND_HELP_MESSAGE:
+  - "§4§l指令清單:"
+  - "§7- §a/vivaldi §binfo §8(or §2i§8) §7- 獲取有關當前季節和日期的信息"
+  - "§7- §a/vivaldi §bsetseason §8(or §2ss§8) §3<season> §7- 更改季節"
+  - "§7- §a/vivaldi §bsetday §8(or §2sd§8) §3<day> §7- 更改日期"
+  - "§7- §a/vivaldi §breload §8(or §2r§8) §7- 重新加載Vivaldi"
 COMMAND_INFO_MESSAGE: "§7今天是第§c%d§7天的%s§7." #%d for day, %s for season
 COMMAND_PLUGIN_RELOADED: "§7插件已重新加載."
-
 ERROR_COMMAND_DOESNT_EXIST: "§cError! §7指令不存在: §4%s§7." #%s for command
 ERROR_SEASON_DOESNT_EXIST: "§cError! §7當前 §4%s §7並不存在." #%s for season
 ERROR_SEASON_DOESNT_SPECIFIED: "§cError! §7請指定季節."

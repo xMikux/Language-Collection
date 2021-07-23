@@ -1,6 +1,6 @@
+---
 version: 0.1
 language: Traditional Chinese
-
 permission_denied: '沒有權限'
 you_have_no_cenotaphs: '你沒有紀念碑.'
 there_are_no_cenotaphs: '那裡沒有紀念碑.'
@@ -49,8 +49,7 @@ overflow: '溢出: '
 cenotaph_paid_for: '%s %s 已從你的帳號中提取.'
 removed_x_holograms: '移除 %s 漂浮文字.'
 no_holograms_found: '沒有漂浮文字在五格方塊內發現. 你必須與漂浮文字在同一個區塊中.'
-
-# Cardinal directions.
+#Cardinal directions.
 north: '北'
 northeast: '東北'
 east: '東'
@@ -59,8 +58,7 @@ south: '南'
 southwest: '西南'
 west: '西'
 northwest: '西北'
-
-# Death reasons.
+#Death reasons.
 unknown: '未知'
 dispenser: '發射器'
 cactus: '仙人掌'

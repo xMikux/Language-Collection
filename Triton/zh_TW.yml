@@ -1,3 +1,4 @@
+---
 error:
   no-permission: "&c沒有權限. 需要權限: &4%1"
   message-not-found: "錯誤 404: 未找到信息: '%1'!"
