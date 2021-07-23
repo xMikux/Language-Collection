@@ -37,7 +37,7 @@ Settings:
       - '&7無法解析物品'
       - '&7這很有可能是該物品'
       - '&7在此Minecraft版本中不存在'
-  Language: en_us
+  Language: zh_tw
   UseCustomPlaceholderPermissions: false
   ContainerViewTitle: Container Contents
   CommandsToParse:
