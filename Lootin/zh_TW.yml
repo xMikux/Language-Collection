@@ -3,19 +3,20 @@
 #If you find any bug/issue let me know on discord https://discord.com/invite/tTHs4jKu6f
 #Titles for chest interfaces
 gui-titles:
-  chest: '&6儲物箱'
-  double-chest: '&6大型儲物箱'
-  minecart: '&6儲物箱礦車'
-  barrel: '&6木桶'
+  chest: "&6儲物箱"
+  double-chest: "&6大型儲物箱"
+  minecart: "&6儲物箱礦車"
+  barrel: "&6木桶"
 #Its bstats
 metrics: true
 messages:
-  prefix: '&e[&6Lootin&e] '
-  no-permission: '&c你沒有權限來執行此指令'
+  prefix: "&e[&6Lootin&e] "
+  no-permission: "&c你沒有權限來執行此指令"
   chestbreak-with-permission: "&a破壞儲物箱會刪除你的獨特戰利品與物品! 如果還是要破壞, &22你必須在這樣做的同時蹲下..\n&a 戰利品生成是 &2每個玩家每個儲物箱&a, 只有在真的需要的時候在破壞."
-  chestbreak-without-permission: '&c你沒有權限破壞戰利品儲物箱'
-  chest-edited: '&c儲物箱正在編輯中, 無法破壞它'
-  reloaded: '&a設定檔已重新加載'
+  chestbreak-without-permission: "&c你沒有權限破壞戰利品儲物箱"
+  chest-edited: "&c儲物箱正在編輯中, 無法破壞它"
+  reloaded: "&a設定檔已重新加載"
+  cant-place-double-chest: "&c無法將普通箱子放在戰利品箱附近"
 #weather or not to delete items when player breaks loot chest successfully
 delete-items-on-break: true
 #weather or not to prevent lootin chest from being exploded by tnt or creeper
