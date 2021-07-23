@@ -1,10 +1,9 @@
+---
 ####################
-#    BetterBees
-# By AlonsoAliaga
+#BetterBees
+#By AlonsoAliaga
 ####################
-
 #Configuration updated to version 0.3-BETA
-
 Messages:
   #Sent when right clicking a beehive or bee nest without items in hand.
   Hive-info:
@@ -12,9 +11,9 @@ Messages:
     #Otherwise it will be sent as message.
     Action-bar: true
     #Available placeholders:
-    # {HONEYLEVEL} - Honey level in hive.
-    # {BEES} - Amount of bees.
-    # {MAXHONEYLEVEL} - Always replaced with 5.
+    #{HONEYLEVEL} - Honey level in hive.
+    #{BEES} - Amount of bees.
+    #{MAXHONEYLEVEL} - Always replaced with 5.
     Message: "&e&l蜂蜜等級: &b&l{HONEYLEVEL}/{MAXHONEYLEVEL} &f&l- &e&l蜜蜂: &b&l{BEES} &c❤"
   #Sent when right clicking a beehive or bee nest item in hand.
   Hive-item-info:
@@ -36,7 +35,6 @@ Messages:
       - " &6&l&nBetterBees&e by AlonsoAliaga &7- &ev&6{VERSION}"
       - " &6/betterbees &f- &e顯示此訊息."
       - " &6/betterbees reload&f- &e重新加載訊息與一些檢查 (不包括hooks)"
-
 Options:
   Permissions:
     #Permissions to get information. If "none", it will be ignored.
@@ -101,18 +99,18 @@ Options:
       Lands: true
     #Format used if Global is enabled.
     #Placeholders available:
-    # {BEENAME} - Replaced with the random name selected.
+    #{BEENAME} - Replaced with the random name selected.
     Format-global: "&e{BEENAME}"
     #Format used if bee spawns in a claimed land (GriefPrevention or Lands).
-    # {BEENAME} - Replaced with the random name selected.
+    #{BEENAME} - Replaced with the random name selected.
     Format-owner:
       #Available placeholders:
-      # {OWNER} - Replaced with the name of the owner of the claim IF available (Currently only with GriefPrevention).
+      #{OWNER} - Replaced with the name of the owner of the claim IF available (Currently only with GriefPrevention).
       GriefPrevention: "&e{BEENAME} &f- &6{OWNER}&e 的蜜蜂"
       #If land doesn't have a name defined.
       Lands: "&e{BEENAME}"
       #Available placeholders:
-      # {LANDNAME} - Replaced with the name of the land IF available (Currently only with Lands).
+      #{LANDNAME} - Replaced with the name of the land IF available (Currently only with Lands).
       Lands-name: "&e{BEENAME} &f- &6{LANDNAME}"
     #List of names to choose from randomly. (You can also use color nodes here)
     Available-names:
@@ -132,7 +130,6 @@ Options:
       - "Mary"
       - "Tony"
       - "&d&lQueen"
-
 Updates:
   #CAUTION: IF ENABLED, COMMENTS WILL BE DELETED.
   Auto-update-configuration: false
