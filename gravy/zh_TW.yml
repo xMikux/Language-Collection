@@ -1,73 +1,75 @@
+---
 Messages:
   world_already_enabled_msg:
-  - '&e[¡] &r世界 &e[%%world%%] &r已經&2啟用!'
+    - '&e[¡] &r世界 &e[%%world%%] &r已經&2啟用!'
   list_graves_msg:
-  - '[★] 墳墓於 [&7%%world%%&r] 在 [&4%%xpos%%&r][&a%%ypos%%&r][&9%%zpos%%&r] 剩餘時間 [&d%%time%%&r]'
+    - '[★] 墳墓於 [&7%%world%%&r] 在 [&4%%xpos%%&r][&a%%ypos%%&r][&9%%zpos%%&r] 剩餘時間 [&d%%time%%&r]'
   grave_expiring_msg:
-  - '&e[¡] &r你的墓碑在 :'
-  - '[&4%%xpos%%&r][&a%%ypos%%&r][&9%%zpos%%&r][%%world%%]'
-  - '&4過期&r於 [&d%%time%%&r]'
+    - '&e[¡] &r你的墓碑在 :'
+    - '[&4%%xpos%%&r][&a%%ypos%%&r][&9%%zpos%%&r][%%world%%]'
+    - '&4過期&r於 [&d%%time%%&r]'
   grave_right_click_msg:
-  - '&r墳墓主人 : &2%%grave_owner%%'
-  - '&r剩餘時間 : &5%%time%%'
+    - '&r墳墓主人 : &2%%grave_owner%%'
+    - '&r剩餘時間 : &5%%time%%'
   world_enable_msg:
-  - '&e[¡] &r世界 &e[%%world%%] &r已&2啟用!'
+    - '&e[¡] &r世界 &e[%%world%%] &r已&2啟用!'
   breaking_grave_msg:
-  - '&e[¡] &r你已破壞了墳墓!'
+    - '&e[¡] &r你已破壞了墳墓!'
   vault_not_enough_funds_msg:
-  - '&e[¡] 無法生成墳墓!:'
-  - -&r[&2%%amount%%&r] 需求! 你有 [&4%%balance%%&r]
+    - '&e[¡] 無法生成墳墓!:'
+    - 
+      - '&r[&2%%amount%%&r] 需求! 你有 [&4%%balance%%&r]'
   vault_grave_cost_subtracted_msg:
-  - '&e[¡]&r[&4%%amount%%&r] 已刪除! 現在有 [&2%%balance%%&r]'
+    - '&e[¡]&r[&4%%amount%%&r] 已刪除! 現在有 [&2%%balance%%&r]'
   graves_not_found_msg:
-  - '&4[✖] 未找到墳墓!'
+    - '&4[✖] 未找到墳墓!'
   chat_prefix:
-  - '&7[GR]&r'
+    - '&7[GR]&r'
   recover_gui_grave_name:
-  - '&4死亡點'
+    - '&4死亡點'
   teleport_to_grave_msg:
-  - '&2[✔] 你已被傳送至自己的墳墓位置!'
+    - '&2[✔] 你已被傳送至自己的墳墓位置!'
   token_item_name:
-  - '&r[&7&l墳墓&6&l代幣&r]'
+    - '&r[&7&l墳墓&6&l代幣&r]'
   dimension_teleport_warning_msg:
-  - '&e[¡] &r你只能從相同的維度來傳送至你的墳墓!'
+    - '&e[¡] &r你只能從相同的維度來傳送至你的墳墓!'
   token_consumed_msg:
-  - '&e[¡] &rx1 &r[&7&l墳墓&6&l代幣&r] 已消耗!'
+    - '&e[¡] &rx1 &r[&7&l墳墓&6&l代幣&r] 已消耗!'
   update_available_msg:
-  - '&e[¡] &r一個新的Gravy更新[&e%version%&r]'
-  - '        在以下位置可下載:'
-  - '        [&e%url%&r]'
+    - '&e[¡] &r一個新的Gravy更新[&e%version%&r]'
+    - '        在以下位置可下載:'
+    - '        [&e%url%&r]'
   expired_grave_msg:
-  - '&e[¡] &r你的墳墓在 :'
-  - '[&4%%xpos%%&r][&a%%ypos%%&r][&9%%zpos%%&r][%%world%%]'
-  - '&r已&4過期!'
+    - '&e[¡] &r你的墳墓在 :'
+    - '[&4%%xpos%%&r][&a%%ypos%%&r][&9%%zpos%%&r][%%world%%]'
+    - '&r已&4過期!'
   vault_no_account_msg:
-  - '&e[¡] &r未找到該玩家的帳號 [&4%%player%%&r]'
+    - '&e[¡] &r未找到該玩家的帳號 [&4%%player%%&r]'
   protected_grave_msg:
-  - '[☠] 一個強大的精神正守護著這個墳墓!'
+    - '[☠] 一個強大的精神正守護著這個墳墓!'
   world_disabled_msg:
-  - '&e[¡] &r世界 &e[%%world%%] &r已被&4禁用!'
+    - '&e[¡] &r世界 &e[%%world%%] &r已被&4禁用!'
   inventory_full_msg:
-  - '&4[✖] 背包已滿!'
+    - '&4[✖] 背包已滿!'
   token_lore:
-  - ''
-  - 此物品將被消耗
-  - 當玩家死亡
-  - 會產生一個墳墓
-  - 包含所有玩家的物品.
+    - ''
+    - 此物品將被消耗
+    - 當玩家死亡
+    - 會產生一個墳墓
+    - 包含所有玩家的物品.
   vault_error_msg:
-  - '&4[✖] 發生錯誤!:'
-  - '&r[&e%%error%%&r]'
+    - '&4[✖] 發生錯誤!:'
+    - '&r[&e%%error%%&r]'
   recover_gui_grave_lore:
-  - ''
-  - '[&4x&r][%%xpos%%]'
-  - '[&2y&r][%%ypos%%]'
-  - '[&9z&r][%%zpos%%]'
-  - '[世界][%%world%%]'
-  - '[&5計時&r][%%time%%]'
+    - ''
+    - '[&4x&r][%%xpos%%]'
+    - '[&2y&r][%%ypos%%]'
+    - '[&9z&r][%%zpos%%]'
+    - '[世界][%%world%%]'
+    - '[&5計時&r][%%time%%]'
   world_already_disabled_msg:
-  - '&e[¡] &rWorld &e[%%world%%] &r已經&4禁用!'
+    - '&e[¡] &rWorld &e[%%world%%] &r已經&4禁用!'
   player_not_found_msg:
-  - '&4[✖] 玩家並不存在或離線!'
+    - '&4[✖] 玩家並不存在或離線!'
   invalid_world_msg:
-  - '&4[✖] 世界 [%%world%%] 不存在!'
+    - '&4[✖] 世界 [%%world%%] 不存在!'
