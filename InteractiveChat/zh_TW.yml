@@ -1,4 +1,5 @@
-# For information on what each option does. Please refer to https://github.com/LOOHP/InteractiveChat/blob/master/src/main/resources/config_default.yml
+---
+#For information on what each option does. Please refer to https://github.com/LOOHP/InteractiveChat/blob/master/src/main/resources/config_default.yml
 Options:
   Updater: true
   ShowCancelledNotice: true
@@ -21,39 +22,39 @@ Messages:
 Settings:
   Bungeecord: false
   ChatListeningPlugins:
-  - Plugin:PlayerWarps, Class:.*, EventPriority:LOWEST
-  - Plugin:QuickShop, Class:.*, EventPriority:LOWEST
-  - Plugin:WordGamesPlus, Class:.*, EventPriority:MONITOR
-  - Plugin:MangoQuest, Class:.*, EventPriority:NORMAL
-  - Plugin:Quests, Class:.*, EventPriority:NORMAL
-  - Plugin:JetsMinions, Class:.*, EventPriority:NORMAL
+    - Plugin:PlayerWarps, Class:.*, EventPriority:LOWEST
+    - Plugin:QuickShop, Class:.*, EventPriority:LOWEST
+    - Plugin:WordGamesPlus, Class:.*, EventPriority:MONITOR
+    - Plugin:MangoQuest, Class:.*, EventPriority:NORMAL
+    - Plugin:Quests, Class:.*, EventPriority:NORMAL
+    - Plugin:JetsMinions, Class:.*, EventPriority:NORMAL
   UseAccurateSenderParser: true
   SendOriginalMessageIfExceedLengthLimit: true
   BungeecordUnknownItem:
     ReplaceItem: BARRIER
     DisplayName: '&c未知物品 {Type}'
     Lore:
-    - '&7無法解析物品'
-    - '&7這很有可能是該物品'
-    - '&7在此Minecraft版本中不存在'
+      - '&7無法解析物品'
+      - '&7這很有可能是該物品'
+      - '&7在此Minecraft版本中不存在'
   Language: en_us
   UseCustomPlaceholderPermissions: false
   ContainerViewTitle: Container Contents
   CommandsToParse:
-  - (?i)/emsg.*
-  - (?i)/msg.*
-  - (?i)/pm.*
-  - (?i)/tell.*
-  - (?i)/r.*
+    - (?i)/emsg.*
+    - (?i)/msg.*
+    - (?i)/pm.*
+    - (?i)/tell.*
+    - (?i)/r.*
   MessagesToIgnore:
-  - .*\[.*IGNORE.*\].*
+    - .*\[.*IGNORE.*\].*
   UniversalCooldown: 0
   MaxPlaceholders: -1
   PlayerNotFound:
     Hover:
       Enable: true
       Text:
-      - '&c無法解析變數..'
+        - '&c無法解析變數..'
     Click:
       Enable: false
       Action: SUGGEST_COMMAND
@@ -68,7 +69,7 @@ Commands:
   EnforceReplaceTextColor: true
   Action: SUGGEST_COMMAND
   HoverMessage:
-  - '&e點擊使用指令!'
+    - '&e點擊使用指令!'
 Chat:
   TranslateAltColorCode: '&'
   AllowMention: true
@@ -82,7 +83,7 @@ Chat:
   KnownPlayerMentionActionbar: ''
   MentionHighlight: '&e{MentionedPlayer}'
   MentionHoverText:
-  - '&b{Sender} 提及了你!'
+    - '&b{Sender} 提及了你!'
 ItemDisplay:
   Settings:
     Timeout: 360
@@ -91,7 +92,7 @@ ItemDisplay:
     CaseSensitive: false
     Keyword: '[item]'
     Aliases:
-    - (?i)(\[i\])
+      - (?i)(\[i\])
     Text: '&f[&f{Item} &bx{Amount}&f]'
     InventoryTitle: '%player_name% 的物品'
     Cooldown: 0
@@ -109,7 +110,7 @@ ItemDisplay:
     CaseSensitive: false
     Keyword: '[inv]'
     Aliases:
-    - (?i)(\[inventory\])
+      - (?i)(\[inventory\])
     Text: '&f[&b%player_name% &f的背包&f]'
     InventoryTitle: '%player_name% &f的背包'
     Cooldown: 0
@@ -119,19 +120,19 @@ ItemDisplay:
       Primary: BLACK_STAINED_GLASS_PANE
       Secondary: WHITE_STAINED_GLASS_PANE
     HoverMessage:
-    - '&b點擊查看!'
+      - '&b點擊查看!'
     Description: '&b顯示你的背包在聊天室!'
   EnderChest:
     Enabled: true
     CaseSensitive: false
     Keyword: '[ender]'
     Aliases:
-    - (?i)(\[e\])
+      - (?i)(\[e\])
     Text: '&f[&d%player_name% 的終界箱&f]'
     InventoryTitle: '%player_name% 的終界箱'
     Cooldown: 0
     HoverMessage:
-    - '&b點擊查看!'
+      - '&b點擊查看!'
     Description: '&d顯示你的終界箱在聊天室!'
 Player:
   UsePlayerNameInteraction: true
@@ -140,10 +141,10 @@ Player:
   Hover:
     Enable: true
     Text:
-    - '&a世界: &7%player_world% &aX: &7%player_x% &aY: &7%player_y% &aZ: &7%player_z%'
-    - '&e生態域: &6%player_biome%'
-    - '&c血量: %player_health_rounded%&7/%player_max_health_rounded%'
-    - '&b延遲: &7%player_colored_ping% &bms'
+      - '&a世界: &7%player_world% &aX: &7%player_x% &aY: &7%player_y% &aZ: &7%player_z%'
+      - '&e生態域: &6%player_biome%'
+      - '&c血量: %player_health_rounded%&7/%player_max_health_rounded%'
+      - '&b延遲: &7%player_colored_ping% &bms'
   Click:
     Enable: true
     Action: SUGGEST_COMMAND
@@ -157,14 +158,14 @@ CustomPlaceholders:
     ParsePlayer: sender
     Text: '[money]'
     Aliases:
-    - (?i)(\[m\])
+      - (?i)(\[m\])
     ParseKeyword: false
     CaseSensitive: true
     Cooldown: 0
     Hover:
       Enable: true
       Text:
-      - '&6%player_name% 錢包: $%vault_eco_balance_commas%'
+        - '&6%player_name% 錢包: $%vault_eco_balance_commas%'
     Click:
       Enable: true
       Action: SUGGEST_COMMAND
@@ -176,15 +177,15 @@ CustomPlaceholders:
   '2':
     ParsePlayer: viewer
     Text: '[loohpjames]'
-    Aliases: []
+    Aliases: [ ]
     ParseKeyword: false
     CaseSensitive: false
     Cooldown: 0
     Hover:
       Enable: true
       Text:
-      - '&e訪問作者的網站!'
-      - '&b點擊我!'
+        - '&e訪問作者的網站!'
+        - '&b點擊我!'
     Click:
       Enable: true
       Action: OPEN_URL
@@ -196,13 +197,13 @@ CustomPlaceholders:
   '3':
     ParsePlayer: sender
     Text: '[gametime]'
-    Aliases: []
+    Aliases: [ ]
     ParseKeyword: false
     CaseSensitive: true
     Cooldown: 0
     Hover:
       Enable: false
-      Text: []
+      Text: [ ]
     Click:
       Enable: false
       Action: ''
@@ -214,14 +215,14 @@ CustomPlaceholders:
   '4':
     ParsePlayer: viewer
     Text: '[Hover]'
-    Aliases: []
+    Aliases: [ ]
     ParseKeyword: false
     CaseSensitive: false
     Cooldown: 0
     Hover:
       Enable: true
       Text:
-      - '&b懸停文字很酷!'
+        - '&b懸停文字很酷!'
     Click:
       Enable: false
       Action: ''
@@ -233,13 +234,13 @@ CustomPlaceholders:
   '5':
     ParsePlayer: sender
     Text: '[time]'
-    Aliases: []
+    Aliases: [ ]
     ParseKeyword: false
     CaseSensitive: true
     Cooldown: 0
     Hover:
       Enable: false
-      Text: []
+      Text: [ ]
     Click:
       Enable: false
       Action: ''
@@ -251,13 +252,13 @@ CustomPlaceholders:
   '6':
     ParsePlayer: sender
     Text: '[pos]'
-    Aliases: []
+    Aliases: [ ]
     ParseKeyword: false
     CaseSensitive: true
     Cooldown: 0
     Hover:
       Enable: false
-      Text: []
+      Text: [ ]
     Click:
       Enable: false
       Action: ''
@@ -269,13 +270,13 @@ CustomPlaceholders:
   '7':
     ParsePlayer: sender
     Text: '[ping]'
-    Aliases: []
+    Aliases: [ ]
     ParseKeyword: false
     CaseSensitive: true
     Cooldown: 0
     Hover:
       Enable: false
-      Text: []
+      Text: [ ]
     Click:
       Enable: false
       Action: ''
