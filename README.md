@@ -1,8 +1,10 @@
 # 語言收集
+[![Crowdin](https://badges.crowdin.net/language-collection/localized.svg)](https://crowdin.com/project/language-collection)
 
 這將不定期更新我所翻過的Minecraft插件 <br>
 歡迎加入此迷你的翻譯群一起討論! <br>
 也歡迎貢獻自己所翻譯過的翻譯. <br>
+此翻譯使用[crowdin](https://crowdin.com/project/language-collection)進行翻譯!<br>
 [Discord](https://discord.gg/GF4CwjFXT9) <br>
 
 ## 需要安裝Triton嗎?
