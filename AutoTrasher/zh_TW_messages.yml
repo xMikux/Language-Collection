@@ -1,10 +1,8 @@
-# This is the Message file for all Auto Trasher messages.
-# 
-# All messages are fully customizable and support color codes, formatting and ASCII symbols.
-# Set the Prefix and use %prefix% to add the prefix to any message.
-# Leave a message blank ('') to disable it.
-
-
+---
+#This is the Message file for all Auto Trasher messages.
+#All messages are fully customizable and support color codes, formatting and ASCII symbols.
+#Set the Prefix and use %prefix% to add the prefix to any message.
+#Leave a message blank ('') to disable it.
 Prefix: '&7[&e垃圾回收&7]'
 Messages:
   invalidPermission: '%prefix% &c你沒有權限執行!'
