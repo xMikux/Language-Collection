@@ -58,8 +58,8 @@ ignoreDurability: false
 #Set the title of the GUI.
 title: '&9&l自動回收器: '
 #The state of the Auto Trasher is appended to the title.
-active: '&7(&aOn&7)'
-inactive: '&7(&cOff&7)'
+active: '&7(&a啟動&7)'
+inactive: '&7(&c關閉&7)'
 #Specify the size of the Auto Trasher. Max 54.
 #If you chose a number that is not a multiple of 9 the remaining
 #slots in the last inventory row will contain the 'lockedSlot' item below.
