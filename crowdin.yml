@@ -1,5 +1,15 @@
 files:
-  - source: /**/en_US.yml
+  - source: /**/en_US.*
     ignore:
-      - /Slimefun/
-    translation: /**/%locale_with_underscore%.yml
+      - /Slimefun/DynaTech
+      - /Slimefun/EcoPower
+      - /Slimefun/ElectricSpawners
+      - /Slimefun/FoxyMachines
+      - /Slimefun/PrivateStorage
+      - /Slimefun/Slimefun4
+      - /AutoTrasher
+    translation: /**/%locale_with_underscore%.%file_extension%
+  - source: /**/en_US_messages.*
+    translation: /**/%locale_with_underscore%_messages.%file_extension%
+  - source: /**/en_US_config.*
+    translation: /**/%locale_with_underscore%_config.%file_extension%
