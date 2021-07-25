@@ -3,25 +3,26 @@
 
 # Titles for chest interfaces
 gui-titles:
-  chest: '&6Chest'
-  double-chest: '&6Large Chest'
-  minecart: '&6Minecart with Chest'
-  barrel: '&6Barrel'
+  chest: "&6Chest"
+  double-chest: "&6Large Chest"
+  minecart: "&6Minecart with Chest"
+  barrel: "&6Barrel"
 
  
 # Its bstats 
 metrics: true
 
 messages:
-  prefix: '&e[&6Lootin&e] '
-  no-permission: '&cYou dont have permission to execute command'
-  chestbreak-with-permission: '&aBreaking the chest will delete your unique loot and items! In order to break, &2you must sneak while doing so..\n&a As loot is &2per player per chest&a, only break if really needed.'
-  chestbreak-without-permission: '&cYou dont have permission to break loot chests'
-  chest-edited: '&cChest is being edited, cant break it'
-  reloaded: '&aConfig file reloaded'
+  prefix: "&e[&6Lootin&e] "
+  no-permission: "&cYou dont have permission to execute command"
+  chestbreak-with-permission: "&aBreaking the chest will delete your unique loot and items! In order to break, &2you must sneak while doing so..\n&a As loot is &2per player per chest&a, only break if really needed."
+  chestbreak-without-permission: "&cYou dont have permission to break loot chests"
+  chest-edited: "&cChest is being edited, cant break it"
+  reloaded: "&aConfig file reloaded"
+  cant-place-double-chest: "&cCant place normal chest near loot chest"
 
 # weather or not to delete items when player breaks loot chest successfully
-delete-items-on-break: true
+delete-items-on-break: true  
 
 # weather or not to prevent lootin chest from being exploded by tnt or creeper
 prevent-explosions: true
