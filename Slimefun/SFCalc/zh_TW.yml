@@ -1,8 +1,8 @@
-# The messages for showing recipes. Percent signs with numbers are placeholders for either item names or
-# numbers. See the comments above individual options to see what they are replaced by
-# 
-# Header string ("Recipe for Synthetic Diamond")
-# %1 name of item
+---
+#The messages for showing recipes. Percent signs with numbers are placeholders for either item names or
+#numbers. See the comments above individual options to see what they are replaced by
+#Header string ("Recipe for Synthetic Diamond")
+#%1 name of item
 auto-update: true
 header-string: '&e&n配方於 %1:'
 header-amount-string: '&e&n配方於 %2 %1:'
