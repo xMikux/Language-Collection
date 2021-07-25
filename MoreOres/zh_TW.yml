@@ -1,8 +1,8 @@
 ---
-#Use § for color codes (e. g. §3)
 Incorrect Command Syntax: 指令語法不正確. 使用 [command]
 No Permission: 你沒有權限執行此指令!
 Storage Warning: 無法保存 Storage.yml. 這可能會導致在重新啟動時出問題.  如果此錯誤仍然繼續, 回報給開發者.
+Config Issue: 設定中目前有一個問題
 Config Explanation: 可以在旁邊的連結找設定說明 https://www.spigotmc.org/resources/%E2%9B%8F%EF%B8%8Fmore-ores%E2%9B%8F%EF%B8%8F.77221/
 Start clear/generate: 開始 [clear/generate]
 Update: 添加更多礦石更新...
@@ -31,6 +31,7 @@ Help Title: 更多礦石幫助
 /moreores clear <world>: 清除世界上所有的礦石
 /moreores generate <world>: 強制礦石在世界上生成
 /moreores remove <world>: 將世界添加至刪除礦石列表中, 並根據啟用內容將其從 黑名單/移除 中刪除
+Help Wiki: '§l點擊§a§o這裡 §2§l來打開更多更多礦石Wiki'
 Recieved Item: 你收到 [amount] [item]
 Dolphin Pants Lore 1: 在水中提供海豚悠游
 Drowned Chestplate Lore 1: 在水中提供挖掘加速
@@ -109,8 +110,3 @@ Corrupted Leggings: 損毀護腿
 Corrupted Boots: 損毀靴子
 Ice Boots: 冰靴子
 Ice Helmet: 冰頭盔
-Pregen Warning 1: 請確保你不是在嘗試使用 /mo generate, 這樣將會更安全!
-Pregen Warning 2: 此指令可能會導致某些伺服器崩潰!
-Pregen Warning 3: '[chunks] 區塊將在 [time] 分鐘內加載'
-Worldborder: 你的世界邊界必須小於 [size]
-/moreores pregenerate <world>: 在世界生成部分礦石 (實驗性)

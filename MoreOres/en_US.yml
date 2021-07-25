@@ -1,9 +1,8 @@
-# Use § for color codes (e. g. §3)
 Incorrect Command Syntax: Incorrect command syntax. Use [command]
 No Permission: You do not have permission to run this command!
-Storage Warning: Couldn't save Storage.yml. This could cause problems when the server
-  restarts. If this error continues, report it to the developer.
-Config Explanation: Explanation for the config can be found at https://www.spigotmc.org/resources/%E2%9B%8F%EF%B8%8Fmore-ores%E2%9B%8F%EF%B8%8F.77221/
+Storage Warning: Couldn't save Storage.yml. This could cause problems when the server restarts. If this error continues, report it to the developer.
+Config Issue: There was an issue in the config with
+Config Explanation: Explanation for the config can be found at https://more-ores.fandom.com/wiki/Config.yml
 Start clear/generate: Starting to [clear/generate]
 Update: Applying More Ores Update...
 Finish: Finished!
@@ -12,8 +11,7 @@ clear/generate Confirm 1: Are you sure you want to [clear/generate] ores for [wo
 clear/generate Confirm 2: This is reversable, but it may cause some lag
 clear/generate/remove Confirm: If you are sure, use [command]
 clear Confirm: Ores will still generate in [world] if it isn't disabled in the config.
-generate Confirm 1: If you do this, /moreores clear [world] will not clear any ores
-  that were generated before you ran this command.
+generate Confirm 1: If you do this, /moreores clear [world] will not clear any ores that were generated before you ran this command.
 generate Confirm 2: Ores may not generate in [world] if it isn't enabled in the config.
 Remove Confirm 1: Are you sure you want ores to be removed from [world]?
 Remove Confirm 2: /moreores clear <world> usually works better
@@ -31,8 +29,8 @@ Help Title: More Ores Help
 /moreores reload: Reloads the config
 /moreores clear <world>: Clears all ores from a world
 /moreores generate <world>: Forces ores to generate in a world
-/moreores remove <world>: Adds the world to the Remove Ores list in the config and
-  the blacklist/removes it from the whitelist depending on what is enabled
+/moreores remove <world>: Adds the world to the Remove Ores list in the config and the blacklist/removes it from the whitelist depending on what is enabled
+Help Wiki: §lClick §a§ohere §2§lto open the More Ores Wiki
 Recieved Item: You recieved [amount] [item]
 Dolphin Pants Lore 1: Provides dolphin's grace in water
 Drowned Chestplate Lore 1: Provides haste in water
@@ -92,7 +90,7 @@ Scuba Helmet: Scuba Helmet
 Golden Medkit: Golden Medkit
 Fire Ore: Fire Ore
 Fire Crystal: Fire Crystal
-Bone Ore: Bone Ore
+Bone Ore: Bone Ore 
 Explosive Ore: Explosive Ore
 Pearl Fragment: Pearl Fragment
 Upgraded Pearl: Upgraded Pearl
@@ -111,9 +109,3 @@ Corrupted Leggings: Corrupted Leggings
 Corrupted Boots: Corrupted Boots
 Ice Boots: Ice Boots
 Ice Helmet: Ice Helmet
-Pregen Warning 1: Make sure you are not trying to use /mo generate, which is much
-  safer!
-Pregen Warning 2: This Command may cause some servers to crash!
-Pregen Warning 3: '[chunks] Chunks will be loaded in [time] minutes'
-Worldborder: Your world border needs to be smaller than [size]
-/moreores pregenerate <world>: Pregenerates ores in a world (experimental)
