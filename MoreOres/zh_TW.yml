@@ -3,7 +3,7 @@ Incorrect Command Syntax: 指令語法不正確. 使用 [command]
 No Permission: 你沒有權限執行此指令!
 Storage Warning: 無法保存 Storage.yml. 這可能會導致在重新啟動時出問題.  如果此錯誤仍然繼續, 回報給開發者.
 Config Issue: 設定中目前有一個問題
-Config Explanation: 可以在旁邊的連結找設定說明 https://www.spigotmc.org/resources/%E2%9B%8F%EF%B8%8Fmore-ores%E2%9B%8F%EF%B8%8F.77221/
+Config Explanation: 可以在旁邊的連結找設定說明 https://more-ores.fandom.com/wiki/Config.yml
 Start clear/generate: 開始 [clear/generate]
 Update: 添加更多礦石更新...
 Finish: 完成!
