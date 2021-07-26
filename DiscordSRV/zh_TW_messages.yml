@@ -303,21 +303,21 @@ MinecraftPlayerAchievementMessage:
 ChannelTopicUpdaterChatChannelTopicFormat: "%playercount%/%playermax% players online | %totalplayers% unique players ever joined | Server online for %uptimemins% minutes | Last update: %date%"
 ChannelTopicUpdaterConsoleChannelTopicFormat: "TPS: %tps% | Mem: %usedmemorygb%GB used/%freememorygb%GB free/%maxmemorygb%GB max | %serverversion%"
 #AtServerShutdownFormats ONLY supports %totalplayers%, %serverversion%, & %date% / %time%
-ChannelTopicUpdaterChatChannelTopicAtServerShutdownFormat: "Server is offline | %totalplayers% unique players ever joined"
-ChannelTopicUpdaterConsoleChannelTopicAtServerShutdownFormat: "Server is offline | %serverversion%"
+ChannelTopicUpdaterChatChannelTopicAtServerShutdownFormat: "伺服器被關閉 | %totalplayers% 位玩家進入過伺服器"
+ChannelTopicUpdaterConsoleChannelTopicAtServerShutdownFormat: "伺服器被關閉 | %serverversion%"
 #Discord command message
 #This is the message sent to players when they run "/discord". It's recommended to leave command syntax as a part of this
 #Use {INVITE} as a placeholder for the invite link people need to join the Discord server, uses DiscordInviteLink configured in config.yml
 DiscordCommandFormat: "&bJoin us on Discord at {INVITE}&b. For command help, do \"/discord ?\""
 #No permission message
-NoPermissionMessage: "&cYou do not have permission to perform this command."
+NoPermissionMessage: "&c你沒有權限使用此指令."
 #Unknown command message
-UnknownCommandMessage: "&bThat command doesn't exist!"
+UnknownCommandMessage: "&b該指令並不存在!"
 #Server startup/shutdown messages
 #DiscordChatChannelServerStartupMessage: message to be sent when server starts; leave blank to disable
 #DiscordChatChannelServerShutdownMessage: message to be sent when server shuts down; leave blank to disable
-DiscordChatChannelServerStartupMessage: ":white_check_mark: **Server has started**"
-DiscordChatChannelServerShutdownMessage: ":octagonal_sign: **Server has stopped**"
+DiscordChatChannelServerStartupMessage: ":white_check_mark: **伺服器已啟動**"
+DiscordChatChannelServerShutdownMessage: ":octagonal_sign: **伺服器已關閉**"
 #Server watchdog message
 #The watchdog constantly monitors the last time your server performed a game tick
 #If the time since the last tick goes above the set interval in seconds, Discord messages can be triggered
