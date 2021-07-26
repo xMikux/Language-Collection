@@ -13,3 +13,7 @@ files:
     translation: /**/%locale_with_underscore%_messages.%file_extension%
   - source: /**/en_US_config.*
     translation: /**/%locale_with_underscore%_config.%file_extension%
+  - source: /DiscordSRV/en_US_linking.*
+    translation: /DiscordSRV/%locale_with_underscore%_linking.%file_extension%
+  - source: /DiscordSRV/en_US_synchronization.*
+    translation: /DiscordSRV/%locale_with_underscore%_synchronization.%file_extension%
