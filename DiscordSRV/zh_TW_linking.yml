@@ -24,7 +24,7 @@ Require linked account to play:
   #Use {BOT} as a placeholder for the bot's name
   #Use {CODE} as a placeholder for the code people need to DM the bot
   #Use {INVITE} as a placeholder for the invite link people need to join the Discord server, uses DiscordInviteLink configured in config.yml
-  Not linked message: "&7You must link your &9Discord &7account to play.\n\n&7Send a DM to &b{BOT}&7 in the Discord server containing just &b{CODE}&7 to link your account.\n\n&7Discord Invite » &b{INVITE}"
+  Not linked message: "&7您必須連接你的 &9Discord &7帳戶才能進行遊玩。\n\n&7向 Discord 伺服器中的 &b{BOT}&7 發送 邀請碼，其中僅包含 &b{CODE}&7 以關聯您的帳戶。\n\n&7Discord 邀請 » &b{INVITE}"
   #If enabled, players will not only need to have their accounts linked but will also be required
   #to be a member of a Discord server that the bot is also in.
   #Acceptable formats:
@@ -44,10 +44,10 @@ Require linked account to play:
       - "00000000000000000"
       - "00000000000000000"
     Require all of the listed roles: false #when false, only one of the above roles is required
-    Kick message: "&cYou must be subscribed on Twitch to be able to play."
+    Kick message: "&c你必須在Twitch 訂閱，才能進入遊戲進行遊玩。"
   Messages:
-    DiscordSRV still starting: "&cCurrently unavailable to check link status because the server is still connecting to Discord.\n\nTry again in a minute."
-    Not in server: "&cYou are currently not a part of our Discord server.\n\nJoin at {INVITE}!"
-    Failed to find subscriber role: "&cFailed to find any subscriber role on Discord.\n\nContact your server admins about this issue."
-    Failed for unknown reason: "&cAn error occurred while trying to verify your account.\n\nContact your server admin about this issue."
-    Kicked for unlinking: "&cYou have been kicked from the server for unlinking your accounts.\n\nPlease rejoin the server to link your accounts again."
+    DiscordSRV still starting: "&c當前無法檢查鏈接狀態，因為伺服器仍在連接 Discord。\n\n請在一分鐘後在嘗試."
+    Not in server: "&c您目前不是我的 Discord 伺服器的成員。\n\n加入 {INVITE}!"
+    Failed to find subscriber role: "&c未能在 Discord 找尋到任何訂閱者身分組。\n\n有任何問題請聯繫你的伺服器管理員解決該問題。"
+    Failed for unknown reason: "&c在嘗試驗證您的帳戶發生異常。\n\n有任何問題請聯繫你的伺服器管理員解決該問題。"
+    Kicked for unlinking: "&c您因為取消帳戶連結而被踢出伺服器。\n\n請重新加入伺服器並重新連結您的帳戶。"
