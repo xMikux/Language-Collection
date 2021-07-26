@@ -45,5 +45,5 @@ GroupRoleSynchronizationCycleCompletely: false
 #BanSynchronizationDiscordToMinecraftReason: the message to be used as the ban reason for banning players from the Minecraft server
 #BanSynchronizationMinecraftToDiscord: whether or not to ban people on the Discord server if they get banned from the Minecraft server
 BanSynchronizationDiscordToMinecraft: false
-BanSynchronizationDiscordToMinecraftReason: "&cYou have been banned until further notice from the server because you were banned on our Discord server."
+BanSynchronizationDiscordToMinecraftReason: "&c因為你在我們的Discord伺服器上被停權，所以在這裡進一步通知您被禁止進入伺服器。"
 BanSynchronizationMinecraftToDiscord: false
