@@ -47,7 +47,7 @@ Require linked account to play:
     Kick message: "&c你必須在Twitch 訂閱，才能進入遊戲進行遊玩。"
   Messages:
     DiscordSRV still starting: "&c當前無法檢查鏈接狀態，因為伺服器仍在連接 Discord。\n\n請在一分鐘後在嘗試."
-    Not in server: "&c您目前不是我的 Discord 伺服器的成員。\n\n加入 {INVITE}!"
+    Not in server: "&c您目前不是我們的 Discord 伺服器的成員。\n\n加入 {INVITE}!"
     Failed to find subscriber role: "&c未能在 Discord 找尋到任何訂閱者身分組。\n\n有任何問題請聯繫你的伺服器管理員解決該問題。"
     Failed for unknown reason: "&c在嘗試驗證您的帳戶發生異常。\n\n有任何問題請聯繫你的伺服器管理員解決該問題。"
     Kicked for unlinking: "&c您因為取消帳戶連結而被踢出伺服器。\n\n請重新加入伺服器並重新連結您的帳戶。"
