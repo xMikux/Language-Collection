@@ -264,7 +264,7 @@ MinecraftPlayerAchievementMessage:
     Color: "#ffd700"
     Author:
       ImageUrl: "%embedavatarurl%"
-      Name: "%username% has made the advancement %achievement%!"
+      Name: "%username% 獲得了成就 %achievement%!"
       Url: ""
     ThumbnailUrl: ""
     Title:
@@ -300,15 +300,15 @@ MinecraftPlayerAchievementMessage:
 #%maxmemorygb%:   max memory of the JVM in GB
 #%tps%:           average TPS of the server
 #PlaceholderAPI placeholders are also supported
-ChannelTopicUpdaterChatChannelTopicFormat: "%playercount%/%playermax% players online | %totalplayers% unique players ever joined | Server online for %uptimemins% minutes | Last update: %date%"
-ChannelTopicUpdaterConsoleChannelTopicFormat: "TPS: %tps% | Mem: %usedmemorygb%GB used/%freememorygb%GB free/%maxmemorygb%GB max | %serverversion%"
+ChannelTopicUpdaterChatChannelTopicFormat: "%playercount%/%playermax% 玩家在線上 | %totalplayers% 加入過伺服器 | 伺服器已開啟 %uptimemins% 分鐘 | 最後更新: %date%"
+ChannelTopicUpdaterConsoleChannelTopicFormat: "TPS: %tps% | 記憶體: %usedmemorygb%GB 使用/%freememorygb%GB 可用/%maxmemorygb%GB 最大 | %serverversion%"
 #AtServerShutdownFormats ONLY supports %totalplayers%, %serverversion%, & %date% / %time%
-ChannelTopicUpdaterChatChannelTopicAtServerShutdownFormat: "伺服器被關閉 | %totalplayers% 位玩家進入過伺服器"
-ChannelTopicUpdaterConsoleChannelTopicAtServerShutdownFormat: "伺服器被關閉 | %serverversion%"
+ChannelTopicUpdaterChatChannelTopicAtServerShutdownFormat: "伺服器已關閉 | %totalplayers% 位玩家進入過伺服器"
+ChannelTopicUpdaterConsoleChannelTopicAtServerShutdownFormat: "伺服器已關閉 | %serverversion%"
 #Discord command message
 #This is the message sent to players when they run "/discord". It's recommended to leave command syntax as a part of this
 #Use {INVITE} as a placeholder for the invite link people need to join the Discord server, uses DiscordInviteLink configured in config.yml
-DiscordCommandFormat: "&bJoin us on Discord at {INVITE}&b. For command help, do \"/discord ?\""
+DiscordCommandFormat: "&b加入我們的 Discord {INVITE}&b. 對於指令的幫助, 請輸入 \"/discord ?\""
 #No permission message
 NoPermissionMessage: "&c你沒有權限使用此指令."
 #Unknown command message
@@ -326,7 +326,7 @@ DiscordChatChannelServerShutdownMessage: ":octagonal_sign: **伺服器已關閉*
 #you can @mention roles by using "<@&ROLEID>", i.e. "<@&12345678901234567890>"; see console when discordsrv loads for role ids
 #you can @mention the owner of the server by using "%guildowner%"
 #you can put the date and time of the crash in the message by using %date%
-ServerWatchdogMessage: "`%date%` %guildowner%, the server room is on :fire::bangbang:"
+ServerWatchdogMessage: "`%date%` %guildowner%, 伺服器機房正在 :fire::bangbang:"
 #Account link messages
 #These are messages used when accounts are linked
 #Available placeholders:
@@ -345,8 +345,8 @@ ServerWatchdogMessage: "`%date%` %guildowner%, the server room is on :fire::bang
 #MinecraftNobodyFound:         %target%:       the input that led to no results being found
 #Discord
 CodeGenerated: "Your link code is %code%. PM the bot on Discord (%botname%) containing just this code as the message to link your accounts."
-UnknownCode: "I don't know of such a code, try again."
-InvalidCode: "Are you sure that's your code? Link codes are 4 numbers long."
+UnknownCode: "我並不知道此驗證碼, 請再試一次."
+InvalidCode: "你確定這真的是你的驗證碼嗎? 驗證碼只有4個數字長度."
 DiscordAccountLinked: "Your Discord account has been linked to %name% (%uuid%)"
 DiscordAccountAlreadyLinked: "You are already linked to %username% (%uuid%)"
 DiscordLinkedAccountRequired: "You attempted to say the following message to the game chat but this server requires that you have your Minecraft account linked to your Discord account. Link it in-game by typing `/discord link`. \n```%message%```"
