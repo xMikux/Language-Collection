@@ -1,0 +1,53 @@
+---
+Require linked account to play:
+  Enabled: false
+  #If you don't know what these mean, don't touch them
+  #The priority that the join listener should be on
+  #In order of first to last, available values are LOWEST, LOW, NORMAL, HIGH, HIGHEST
+  #You might need to change this to a later priority for a ban plugin to kick the player before DiscordSRV denies them
+  Listener priority: LOWEST
+  #The event that the link module should listen and disallow logins on
+  #Some whitelist plugins use AsyncPlayerPreLoginEvent (good), some use PlayerLoginEvent (not as good)
+  Listener event: AsyncPlayerPreLoginEvent
+  #If you don't know what these mean, don't touch them
+  #Minecraft IGNs to always allow whether linked or subscriber or not
+  Bypass names:
+    - Scarsz
+    - Vankka
+  #Whether or not players on the VANILLA whitelist will bypass the need to link their accounts/have a sub role
+  Whitelisted players bypass check: true
+  #Whether or not to let players in the VANILLA banlist be able to link their accounts
+  Check banned players: false
+  #Whether or not players not in the VANILLA banlist will bypass the need to link their accounts/have a sub role
+  Only check banned players: false
+  #Message to kick players with telling them to link their accounts
+  #Use {BOT} as a placeholder for the bot's name
+  #Use {CODE} as a placeholder for the code people need to DM the bot
+  #Use {INVITE} as a placeholder for the invite link people need to join the Discord server, uses DiscordInviteLink configured in config.yml
+  Not linked message: "&7您必須連接你的 &9Discord &7帳戶才能進行遊玩。\n\n&7向 Discord 伺服器中的 &b{BOT}&7 發送 邀請碼，其中僅包含 &b{CODE}&7 以關聯您的帳戶。\n\n&7Discord 邀請 » &b{INVITE}"
+  #If enabled, players will not only need to have their accounts linked but will also be required
+  #to be a member of a Discord server that the bot is also in.
+  #Acceptable formats:
+  #true/false: linked account must be in at least one Discord server that the bot is also in
+  #ex: true
+  #<server id>: linked account must be in the given Discord server
+  #ex: 135634590575493120
+  #[<server id>, <server id>, ...]: linked account must be in ALL of the given Discord servers
+  #ex: [135634590575493120, 690411863766466590]
+  #This option's value is superseded when you have subscriber roles enforced below.
+  Must be in Discord server: true
+  #Optionally require people to not only be linked but also to have a one of or all specified roles like a Twitch sub role
+  Subscriber role:
+    Require subscriber role to join: false
+    Subscriber roles:
+      - "00000000000000000"
+      - "00000000000000000"
+      - "00000000000000000"
+    Require all of the listed roles: false #when false, only one of the above roles is required
+    Kick message: "&c你必須在Twitch 訂閱，才能進入遊戲進行遊玩。"
+  Messages:
+    DiscordSRV still starting: "&c當前無法檢查鏈接狀態，因為伺服器仍在連接 Discord。\n\n請在一分鐘後在嘗試."
+    Not in server: "&c您目前不是我們的 Discord 伺服器的成員。\n\n加入 {INVITE}!"
+    Failed to find subscriber role: "&c未能在 Discord 找尋到任何訂閱者身分組。\n\n有任何問題請聯繫你的伺服器管理員解決該問題。"
+    Failed for unknown reason: "&c在嘗試驗證您的帳戶發生異常。\n\n有任何問題請聯繫你的伺服器管理員解決該問題。"
+    Kicked for unlinking: "&c您因為取消帳戶連結而被踢出伺服器。\n\n請重新加入伺服器並重新連結您的帳戶。"
