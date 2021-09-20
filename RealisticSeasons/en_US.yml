@@ -1,16 +1,17 @@
-SEASON-TO-WINTER: "&b&lWinter is starting!"
-SEASON-TO-FALL: "&b&lFall is starting!"
-SEASON-TO-SPRING: "&b&lSpring is starting!"
-SEASON-TO-SUMMER: "&b&lSummer is starting!"
-NO-PERMISSION-MESSAGE: "&cYou don't have the permission to do that!"
-WINTER-DISPLAY-NAME: "Winter"
-FALL-DISPLAY-NAME: "Fall"
-SPRING-DISPLAY-NAME: "Spring"
-SUMMER-DISPLAY-NAME: "Summer"
-SEASONCOMMAND-DISABLED: "&cSeasons are disabled in this world"
-SEASONCOMMAND-RESTORING: "&cThis world is currently restoring!"
-SEASONSCOMMAND-CURRENTSEASON: "&aCurrent season: &2$current_season$"
-SEASONSCOMMAND-CURRENTYEAR: "&aCurrent year: &7$current_year$"
-SEASONSCOMMAND-CURRENTDAY: "&aCurrent day: &7$current_day$"
-SEASONSCOMMAND-DAYSUNTILNEXTSEASON: "&aDays until next season (&2$next_season$&a): &7$days_until_next_season$"
-TOGGLESEASONSCOMMAND-MESSAGE: "&aSeason colors are now &2$status$ &afor you"
+SEASON-TO-WINTER: '&b&lWinter is starting!'
+SEASON-TO-FALL: '&b&lFall is starting!'
+SEASON-TO-SPRING: '&b&lSpring is starting!'
+SEASON-TO-SUMMER: '&b&lSummer is starting!'
+NO-PERMISSION-MESSAGE: '&cYou don''t have the permission to do that!'
+WINTER-DISPLAY-NAME: Winter
+FALL-DISPLAY-NAME: Fall
+SPRING-DISPLAY-NAME: Spring
+SUMMER-DISPLAY-NAME: Summer
+SEASONCOMMAND-DISABLED: '&cSeasons are disabled in this world'
+SEASONCOMMAND-RESTORING: '&cThis world is currently restoring!'
+SEASONCOMMAND-CURRENTDATE: '&aCurrent date: &2$current_weekday$, $current_month$ $current_day$,
+  year $current_year$'
+SEASONSCOMMAND-CURRENTSEASON: '&aCurrent season: &2$current_season$'
+SEASONSCOMMAND-DAYSUNTILNEXTSEASON: '&aDays until next season (&2$next_season$&a):
+  &7$days_until_next_season$'
+TOGGLESEASONSCOMMAND-MESSAGE: '&aSeason colors are now &2$status$ &afor you'
