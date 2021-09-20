@@ -1,17 +1,16 @@
 ---
-SEASON-TO-WINTER: "&b&l冬季到來了!"
-SEASON-TO-FALL: "&b&l秋季到來了!"
-SEASON-TO-SPRING: "&b&l春季到來了!"
-SEASON-TO-SUMMER: "&b&l夏季到來了!"
-NO-PERMISSION-MESSAGE: "&c你沒有權限執行!"
-WINTER-DISPLAY-NAME: "冬季"
-FALL-DISPLAY-NAME: "秋季"
-SPRING-DISPLAY-NAME: "春季"
-SUMMER-DISPLAY-NAME: "夏季"
-SEASONCOMMAND-DISABLED: "&c這個世界的季節系統已被停用"
-SEASONCOMMAND-RESTORING: "&c這個世界正在還原中!"
-SEASONSCOMMAND-CURRENTSEASON: "&a當前季節: &2$current_season$"
-SEASONSCOMMAND-CURRENTYEAR: "&a當前年份: &7$current_year$"
-SEASONSCOMMAND-CURRENTDAY: "&a當前日期: &7$current_day$"
-SEASONSCOMMAND-DAYSUNTILNEXTSEASON: "&a距離下一個季節的天數 (&2$next_season$&a): &7$days_until_next_season$"
-TOGGLESEASONSCOMMAND-MESSAGE: "&a季節顏色現在對於你來說是 &2$status$ &a的"
+SEASON-TO-WINTER: '&b&l冬季到來了!'
+SEASON-TO-FALL: '&b&l秋季到來了!'
+SEASON-TO-SPRING: '&b&l春季到來了!'
+SEASON-TO-SUMMER: '&b&l夏季到來了!'
+NO-PERMISSION-MESSAGE: '&c你沒有權限執行!'
+WINTER-DISPLAY-NAME: 冬季
+FALL-DISPLAY-NAME: 秋季
+SPRING-DISPLAY-NAME: 春季
+SUMMER-DISPLAY-NAME: 夏季
+SEASONCOMMAND-DISABLED: '&c這個世界的季節系統已被停用'
+SEASONCOMMAND-RESTORING: '&c這個世界正在還原中!'
+SEASONCOMMAND-CURRENTDATE: '&a當前日期: &2$current_year$ 年 $current_month$ 月 $current_weekday$ 日 $current_day$'
+SEASONSCOMMAND-CURRENTSEASON: '&a當前季節: &2$current_season$'
+SEASONSCOMMAND-DAYSUNTILNEXTSEASON: '&a距離下一個季節的天數 (&2$next_season$&a): &7$days_until_next_season$'
+TOGGLESEASONSCOMMAND-MESSAGE: '&a季節顏色現在對於你來說是 &2$status$ &a的'
