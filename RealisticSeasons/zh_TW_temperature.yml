@@ -57,9 +57,9 @@ display:
   warnings:
     messages:
       enabled: true
-      overheating: '&4&lWarning! &4&rYour temperature is really high, cool down quickly!'
-      freezing: '&3&lWarning! &3&rYour temperature is really low, heat up quickly!'
+      overheating: '&4&l警告! &4&r你的體溫過高, 請趕緊降溫!'
+      freezing: '&3&l警告! &3&r你的體溫過低, 請趕緊升溫!'
     actionbar:
       enabled: true
-      overheating: 'Cool down!'
-      freezing: 'Heat up!'
+      overheating: '降溫!'
+      freezing: '升溫!'
