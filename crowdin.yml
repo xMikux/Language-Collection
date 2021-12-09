@@ -17,3 +17,5 @@ files:
     translation: /DiscordSRV/%locale_with_underscore%_linking.%file_extension%
   - source: /DiscordSRV/en_US_synchronization.*
     translation: /DiscordSRV/%locale_with_underscore%_synchronization.%file_extension%
+  - source: /RealisticSeasons/en_US_temperature.*
+    translation: /RealisticSeasons/%locale_with_underscore%_temperature.%file_extension%
