@@ -344,19 +344,19 @@ ServerWatchdogMessage: "`%date%` %guildowner%, 伺服器機房正在 :fire::bang
 #UnlinkCommandSuccess:         %name%:         the discord username of the Discord user that the user's Minecraft account was linked to
 #MinecraftNobodyFound:         %target%:       the input that led to no results being found
 #Discord
-CodeGenerated: "Your link code is %code%. PM the bot on Discord (%botname%) containing just this code as the message to link your accounts."
+CodeGenerated: "你的鏈結代碼是 %code%. 私訊機器人在 Discord (%botname%) 僅包含此代碼來連結你的帳號."
 UnknownCode: "我並不知道此驗證碼, 請再試一次."
 InvalidCode: "你確定這真的是你的驗證碼嗎? 驗證碼只有4個數字長度."
-DiscordAccountLinked: "Your Discord account has been linked to %name% (%uuid%)"
-DiscordAccountAlreadyLinked: "You are already linked to %username% (%uuid%)"
-DiscordLinkedAccountRequired: "You attempted to say the following message to the game chat but this server requires that you have your Minecraft account linked to your Discord account. Link it in-game by typing `/discord link`. \n```%message%```"
-DiscordLinkedAccountCheckFailed: "Unable to check if your account is linked, please try again later"
+DiscordAccountLinked: "你的 Discord 帳號已被連結至 %name% (%uuid%)"
+DiscordAccountAlreadyLinked: "你已經連結至 %username% (%uuid%)"
+DiscordLinkedAccountRequired: "你試圖在遊戲聊天室內說出以下訊息, 但這個伺服器要求你必須將 Minecraft 帳號連結至 Discord帳號. 請在遊戲中輸入 `/discord link` 來連接你的帳號. \n```%message%```"
+DiscordLinkedAccountCheckFailed: "無法確定你的帳號是否連結, 請稍後再嘗試"
 #Minecraft
 ClickToCopyCode: "點擊複製"
 MinecraftAccountLinked: "&b您的 UUID 已鏈結至 Discord 使用者 %username% (%id%)"
-MinecraftAccountAlreadyLinked: "&bYour Minecraft account is already associated with a Discord account. Should you have permission to, you can unlink your account with /discord unlink."
+MinecraftAccountAlreadyLinked: "&b你的 Minecraft 帳號已與 Discord 帳號連動. 如果你有權限, 那你可使用 /discord unlink 來取消連結你的帳號."
 LinkedCommandSuccess: "&b您的 Minecraft 帳戶與 %name% 相關聯。"
 UnlinkCommandSuccess: "&b您的 Minecraft 帳戶已不再與 %name% 相關聯。"
 MinecraftNoLinkedAccount: "&c您的 Minecraft 帳戶未與 Discord 帳戶 進行連接。"
-LinkingError: "&cCurrently unable to link accounts due to an internal error. Contact your server administration team."
-MinecraftNobodyFound: "&cNobody found with Discord ID/Discord name/Minecraft name/Minecraft UUID matching \"%target%\" to look up."
+LinkingError: "&c由於內部網路錯誤, 目前無法連接你的帳號. 請聯繫你的伺服器管理團隊."
+MinecraftNobodyFound: "&c沒有找到符合與 %target% 的 Discord ID / Discord 名稱/ Minecraft 名稱/ Minecraft UUID."
