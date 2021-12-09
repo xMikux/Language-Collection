@@ -1,0 +1,25 @@
+---
+#Config wiki and help can be found at https://github.com/OpticFusion1/Aurora/wiki/General-Configuration
+#For internal reference only, do not change the config version
+config-version: 1
+no-permission: "&4你沒有權限使用此指令"
+player-required: "&c你必須是玩家才能使用此指令"
+command:
+  help:
+    - "&8&m*]----------[*&r &5Aurora &8&m*]----------[*&r"
+    - "&5/aurora help&f -&d 顯示這個幫助頁面"
+    - "&5/aurora toggle <on/off>&f -&d 切換客戶端的環境粒子特效"
+    - "&5/aurora reload&f -&d 重新加載插件的設定與粒子檔案"
+    - "&5/aurora status&f -&d 查看伺服器啟用中的粒子資訊"
+    - "&5/aurora fixlighting [radius]&f -&d 更新與刷新光源在附近的 [radius] 區塊範圍"
+    - "&8&m*]------------------------------[*&r"
+  toggle:
+    enable: "&aAurora 環境粒子已啟用"
+    disable: "&cAurora 環境粒子已停用"
+  reload: "&5成功重新加載設定與 &d%arg1% &5粒子檔案"
+  status:
+    - "&b狀態 | &a啟用 &f| &c停用 &f"
+    - "粒子檔案 (%arg1%): %arg2%"
+  fixlighting:
+    start: "&5正在嘗試修復光源. 這個操作可能需要幾秒鐘..."
+    done: "&5成功重新加載光源在 &d%arg1%x%arg2% &5區塊範圍"
