@@ -1,0 +1,26 @@
+# Config wiki and help can be found at https://github.com/OpticFusion1/Aurora/wiki/General-Configuration
+# For internal reference only, do not change the config version
+config-version: 1
+
+no-permission: "&4You do not have permission to use this command"
+player-required: "&cYou must be a player to use this command"
+
+command:
+  help:
+    - "&8&m*]----------[*&r &5Aurora &8&m*]----------[*&r"
+    - "&5/aurora help&f -&d Shows this help page"
+    - "&5/aurora toggle <on/off>&f -&d Toggle client-side ambient particle effects"
+    - "&5/aurora reload&f -&d Reload all plugin configs and particle files"
+    - "&5/aurora status&f -&d View information on enabled particles in the server"
+    - "&5/aurora fixlighting [radius]&f -&d Update and refresh lighting on [radius] nearby chunks"
+    - "&8&m*]------------------------------[*&r"
+  toggle:
+    enable: "&aAurora ambient particles have been enabled"
+    disable: "&cAurora ambient particles have been disabled"
+  reload: "&5Successfully reloaded config and &d%arg1% &5particle files"
+  status:
+    - "&bActive | &aEnabled &f| &cDisabled &f"
+    - "Particle Files (%arg1%): %arg2%"
+  fixlighting:
+    start: "&5Attempting to fix lighting. This action may take a few seconds..."
+    done: "&5Successfully reloaded lighting in a &d%arg1%x%arg2% &5chunk radius"
