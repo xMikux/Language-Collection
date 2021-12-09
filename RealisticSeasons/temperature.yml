@@ -1,0 +1,65 @@
+enabled: true
+modifiers:
+  season-base-temperature:
+    winter:
+      min-temp: -12
+      max-temp: 0
+    spring:
+      min-temp: 0
+      max-temp: 20
+    summer:
+      min-temp: 20
+      max-temp: 40
+    fall:
+      min-temp: 5
+      max-temp: 20
+  armor:
+    leather: 20
+    iron: 5
+    gold: 5
+    diamond: 5
+    netherite: 3
+  weather:
+    rain: -4
+    storm: -5
+  block-light: 15
+  touching-water:
+    summer: -10
+    spring: -4
+    fall: -4
+    winter: -10
+  foods-and-drinks:
+    water-bottle: -10
+    full-hunger-bar: 5
+  max-sprinting-modifier: 4
+  height:
+    enabled: true
+effects:
+  cold:
+    hunger: -10
+    slowness: -15
+    freezing: -20
+  boosts:
+    min: 15
+    max: 30
+    potioneffects:
+    - HEALTH_BOOST
+  warm:
+    no-healing: 50
+    slowness: 60
+    fire: 65
+display:
+  convert-to-fahrenheit: false
+  temperature:
+    actionbar: true
+    actionbar-display: '                         [ %temperature%°C ]'
+  warnings:
+    messages:
+      enabled: true
+      overheating: '&4&lWarning! &4&rYour temperature is really high, cool down quickly!'
+      freezing: '&3&lWarning! &3&rYour temperature is really low, heat up quickly!'
+    actionbar:
+      enabled: true
+      overheating: 'Cool down!'
+      freezing: 'Heat up!'
+    
