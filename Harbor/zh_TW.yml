@@ -1,0 +1,67 @@
+---
+#Harbor - Sleep mechanics enhancement plugin
+#An open-source project by TechToolbox (@nkomarn)
+#https://github.com/nkomarn/Harbor
+#Important note regarding Essentials:
+#Please make sure you negate the permission "essentials.sleepingignored" to
+#prevent issues with Harbor and server operators when running Essentials.
+night-skip:
+  enabled: true #Skip the night if a percentage of the players in a world are sleeping
+  percentage: 50 #Percentage of players required to be sleeping to skip the night (0 - 100)
+  time-rate: 70 #The amount of ticks added to the current time every tick when skipping the night
+  daytime-ticks: 1200 #The time in ticks that Harbor considers day
+  instant-skip: false #Instantly skip the night when the percentage threshold is reached instead of showing the full animation
+  proportional-acceleration: false #Increase the night skipping speed based on the amount of sleeping players
+  clear-rain: true
+  clear-thunder: true
+  reset-phantom-statistic: true #Treats everyone online as if they have slept in the last 3 days after the night is skipped (check out /gamerule doInsomnia on 1.15+)
+exclusions:
+  ignored-permission: true
+  exclude-adventure: true #Exclude players in adventure mode from the sleeping count
+  exclude-creative: true #Exclude players in creative mode from the sleeping count
+  exclude-spectator: true #Exclude players in spectator mode from the sleeping count
+  exclude-vanished: true #Exclude vanished players from the sleeping count
+#Detect AFK players and automatically remove them from the required sleeping count
+#Essentials API is used for AFK detection when available- otherwise a fallback system is used
+afk-detection:
+  enabled: true
+  timeout: 15 #Time in minutes until a player is considered AFK
+#Blacklist for worlds- Harbor will ignore these worlds
+blacklisted-worlds:
+  - "world_nether"
+  - "world_the_end"
+whitelist-mode: false #Will treat the above list as a whitelist instead of a blacklist
+messages:
+  chat:
+    enabled: true
+    message-cooldown: 5 #The amount of time in seconds before a player can send another bed enter or leave message
+    player-sleeping: "&e[player] 現在正在睡覺 ([sleeping]/[needed], 還需要 [more] 人睡覺來跳過此夜)."
+    player-left-bed: "&e[player] 起床了 ([sleeping]/[needed], 還需要 [more] 人睡覺來跳過此夜)."
+    night-skipping:
+      - "&e加速夜晚中."
+      - "&e快到白天了."
+    night-skipped:
+      - "&e夜晚已被跳過."
+      - "&e阿, 終於早上了."
+      - "&e阿, 外面太亮了."
+      - "&e太陽曬屁股了"
+  actionbar:
+    enabled: true
+    players-sleeping: "&e[sleeping] 人中有 [needed] 名玩家正在睡覺 (還需要 [more] 人)"
+    night-skipping: "&e大家都在睡覺- 美好的夢!"
+  bossbar:
+    enabled: true
+    players-sleeping:
+      message: "&f&l[sleeping] 人中有 [needed] 在睡覺覺 &7&l(還需要 [more] 人)"
+      color: BLUE
+    night-skipping:
+      message: "&f&l大家都在睡覺. 甜美的夢!"
+      color: GREEN
+  miscellaneous:
+    chat-prefix: "&8&l(&6&lHarbor&8&l)&f "
+    unrecognized-command: "無法識別的指令."
+#Spooky internal controls
+version: 1.6.3
+interval: 1
+metrics: true
+debug: false
