@@ -2,13 +2,19 @@
 
 [![Crowdin](https://badges.crowdin.net/language-collection/localized.svg)](https://crowdin.com/project/language-collection)
 
-這將不定期更新我所翻過的Minecraft插件
+此翻譯使用[crowdin](https://crowdin.com/project/language-collection)進行翻譯!
+
+## 介紹
+
+這是我安裝過的插件 所翻譯過的檔案
+
+會不定期更新插件的語言檔案或新增新的插件!
+
+## Discord
 
 歡迎加入此迷你的翻譯群一起討論!
 
 也歡迎貢獻自己所翻譯過的翻譯.
-
-此翻譯使用[crowdin](https://crowdin.com/project/language-collection)進行翻譯!
 
 [Discord](https://discord.gg/GF4CwjFXT9)
 
