@@ -1,0 +1,21 @@
+---
+check-for-updates: true
+shooting-stars-enabled: true
+falling-stars-enabled: true
+shooting-stars-per-minute: 6
+falling-stars-per-minute: 0.2
+falling-stars-radius: 75
+falling-stars-sound-enabled: true
+falling-stars-volume: 6
+falling-stars-spark-time: 200
+falling-stars-experience: 100
+falling-stars-loot:
+  diamond: 60
+  emerald: 20
+  fire_charge: 20
+new-moon-meteor-shower: true
+shooting-stars-per-minute-during-meteor-showers: 15
+falling-stars-per-minute-during-meteor-showers: 0.3
+shooting-stars-summon-text: "許個願吧!"
+falling-stars-summon-text: "許個願吧!"
+debug: false
