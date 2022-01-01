@@ -1,12 +1,7 @@
 files:
   - source: /**/en_US.*
     ignore:
-      - /Slimefun/DynaTech
-      - /Slimefun/EcoPower
-      - /Slimefun/ElectricSpawners
-      - /Slimefun/FoxyMachines
-      - /Slimefun/PrivateStorage
-      - /Slimefun/Slimefun4
+      - /Slimefun/Abandoned/
       - /AutoTrasher
     translation: /**/%locale_with_underscore%.%file_extension%
   - source: /**/en_US_messages.*
@@ -21,3 +16,5 @@ files:
     translation: /RealisticSeasons/%locale_with_underscore%_temperature.%file_extension%
   - source: /Slimefun/CrystamaeHistoria/blocks_en_US.*
     translation: /Slimefun/CrystamaeHistoria/blocks_%locale_with_underscore%.%file_extension%
+  - source: /Slimefun/CrystamaeHistoria/generic-stories_en_US.*
+    translation: /Slimefun/CrystamaeHistoria/generic-stories_%locale_with_underscore%.%file_extension%
