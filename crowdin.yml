@@ -19,3 +19,5 @@ files:
     translation: /DiscordSRV/%locale_with_underscore%_synchronization.%file_extension%
   - source: /RealisticSeasons/en_US_temperature.*
     translation: /RealisticSeasons/%locale_with_underscore%_temperature.%file_extension%
+  - source: /Slimefun/CrystamaeHistoria/blocks_en_US.*
+    translation: /Slimefun/CrystamaeHistoria/blocks_%locale_with_underscore%.%file_extension%
