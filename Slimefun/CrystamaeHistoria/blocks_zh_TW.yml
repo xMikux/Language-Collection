@@ -6,10 +6,10 @@ ACACIA_BOAT:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: Ship-shape (Acacia)
+    name: 整齊的 (相思)
     type: PHILOSOPHICAL
     lore:
-      - Live in the sunshine, swim the sea and drink in the wild air
+      - 生活在陽光下，在海裡游泳，於狂野的空氣中喝酒
     shards:
       - 1
       - 0
@@ -26,10 +26,10 @@ ACACIA_BUTTON:
     - HUMAN
     - MECHANICAL
   story:
-    name: Depressed (Acacia)
+    name: 鬱悶 (相思)
     type: HUMAN
     lore:
-      - Can get easily depressed
+      - 容易受到鬱悶
     shards:
       - 0
       - 1
@@ -46,12 +46,12 @@ ACACIA_DOOR:
     - HUMAN
     - MECHANICAL
   story:
-    name: Gateway (Acacia)
+    name: 出入口 (相思)
     type: HUMAN
     lore:
-      - Every entrance  is also an exit.
-      - Doors protects from the outside but
-      - don't let them keep you in!
+      - 每一個入口也是一個出口.
+      - 門可以保護外界，但
+      - 不要讓它們把你擋在門外!
     shards:
       - 0
       - 2
@@ -68,11 +68,11 @@ ACACIA_FENCE:
     - HUMAN
     - ANIMAL
   story:
-    name: Livestock (Acacia)
+    name: 家畜 (相思)
     type: ANIMAL
     lore:
-      - Nothing brings more joy to a fence
-      - than keeping your livestock safe.
+      - 能保護好牲畜的安全,
+      - 是你家的圍欄這一生最大的快樂.
     shards:
       - 0
       - 0
@@ -90,11 +90,11 @@ ACACIA_FENCE_GATE:
     - MECHANICAL
     - ANIMAL
   story:
-    name: Gate (Acacia)
+    name: 門 (相思)
     type: MECHANICAL
     lore:
-      - Still round the corner there may wait,
-      - A new road or a secret gate.
+      - 仍然在轉角處可能等待,
+      - 新的路或秘密的門.
     shards:
       - 0
       - 2
@@ -112,12 +112,12 @@ ACACIA_LEAVES:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: Leaf me alone! (Acacia)
+    name: 讓我一個人呆著! (相思)
     type: PHILOSOPHICAL
     lore:
-      - Gently swaying in a cool breeze,
-      - Leaves want nothing more than to be
-      - left alone to their thoughts.
+      - 在涼爽的微風中輕輕搖曳,
+      - 葉子只想
+      - 讓他們獨自思考.
     shards:
       - 1
       - 0
@@ -134,11 +134,11 @@ ACACIA_LOG:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: Punching Trees Gives Me Log (Acacia)
+    name: 衝孔樹給了我日誌 (相思)
     type: ELEMENTAL
     lore:
-      - Every adventure begins with a good tree
-      - punch
+      - 每一次冒險都從一棵好樹開始
+      - 用拳猛擊
     shards:
       - 2
       - 0
@@ -155,11 +155,11 @@ ACACIA_PLANKS:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Walk the Plank (Acacia)
+    name: 走上木板 (相思)
     type: HUMAN
     lore:
-      - The first step on your crafting journey
-      - driving new players forwards.
+      - 製作旅程的第一步
+      - 推動新玩家前進.
     shards:
       - 1
       - 0
@@ -176,11 +176,11 @@ ACACIA_PRESSURE_PLATE:
     - MECHANICAL
     - VOID
   story:
-    name: Under Pressure (Acacia)
+    name: 在壓力之下 (相思)
     type: VOID
     lore:
-      - Being walked all over will drop any
-      - spirit.
+      - 被走遍會掉任何
+      - 精神.
     shards:
       - 0
       - 2
@@ -197,11 +197,11 @@ ACACIA_SAPLING:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Growth (Acacia)
+    name: 成長 (相思)
     type: ELEMENTAL
     lore:
-      - A youthful spirit empowered to grow
-      - into a mighty tree
+      - 一個年輕的精神
+      - 有能力成長為一棵大樹
     shards:
       - 1
       - 0
@@ -218,11 +218,11 @@ ACACIA_SIGN:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Signed (Acacia)
+    name: 署名 (相思)
     type: PHILOSOPHICAL
     lore:
-      - Imbued with the thoughts of those
-      - authors
+      - 充滿了那些作者的
+      - 想法
     shards:
       - 0
       - 0
@@ -238,11 +238,11 @@ ACACIA_SLAB:
   elements:
     - HUMAN
   story:
-    name: A Cut Below (Acacia)
+    name: 切開底下 (相思)
     type: HUMAN
     lore:
-      - Ripped in half and divided from
-      - self. A soul torn asunder
+      - 撕成兩半，與自己分開.
+      - 被撕裂的靈魂
     shards:
       - 1
       - 1
@@ -259,11 +259,11 @@ ACACIA_STAIRS:
     - HUMAN
     - CELESTIAL
   story:
-    name: Arise (Acacia)
+    name: 出現 (相思)
     type: CELESTIAL
     lore:
-      - Lives to feel the joy of others being
-      - raised to new heights.
+      - 活著是為了感受他人
+      - 被提升到新高度的喜悅.
     shards:
       - 0
       - 1
@@ -280,11 +280,11 @@ ACACIA_TRAPDOOR:
     - HUMAN
     - VOID
   story:
-    name: To the Pits (Acacia)
+    name: 去坑 (相思)
     type: VOID
     lore:
-      - Awaiting the perfect moment to drop an
-      - unsuspecting person to their end
+      - 等待一個完美的時刻
+      - 讓一個毫無戒心的人走到盡頭
     shards:
       - 0
       - 1
@@ -301,11 +301,11 @@ ACACIA_WOOD:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: Punching Trees Gives Me Wood (Acacia)
+    name: 砍樹給我木頭 (相思)
     type: ELEMENTAL
     lore:
-      - Every adventure begins with a good tree
-      - punch
+      - 每一次冒險都從一個好的樹開始
+      - 砍
     shards:
       - 2
       - 0
@@ -322,13 +322,13 @@ ACTIVATOR_RAIL:
     - MECHANICAL
     - HUMAN
   story:
-    name: Activate!
+    name: 啟動!
     type: MECHANICAL
     lore:
-      - Nothing provides more of a rush than
-      - the cracking of a cart over this track.
-      - A singular purpose with an ecstatic
-      - result.
+      - 沒有什麼比一輛小車在
+      - 這條軌道上開裂更能帶來匆忙了.
+      - 一個令人欣喜若狂的結果
+      - 單一目的.
     shards:
       - 0
       - 2
@@ -345,11 +345,11 @@ ALLIUM:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Sweet Smell (Allium)
+    name: 甜甜的氣味 (蔥屬)
     type: ANIMAL
     lore:
-      - A wafting fragrance to quell the most
-      - vicious of temperaments.
+      - 飄散的芬芳最能平息
+      - 脾氣暴躁.
     shards:
       - 1
       - 0
@@ -366,11 +366,11 @@ AMETHYST_BLOCK:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: Glittering Spirit
+    name: 閃亮發光的靈魂
     type: ELEMENTAL
     lore:
-      - A glittering, scattering spirit residing
-      - within the resonance of this Crystal
+      - 在這個水晶共鳴中, 居住著
+      - 一個閃亮發光, 散射的靈魂
     shards:
       - 2
       - 0
@@ -388,11 +388,11 @@ AMETHYST_CLUSTER:
     - HISTORICAL
     - PHILOSOPHICAL
   story:
-    name: Looks Familiar?
+    name: 看起來很熟悉?
     type: PHILOSOPHICAL
     lore:
-      - Something about this Crystal feels familiar.
-      - Feels receptive to magic, but...
+      - 關於這個水晶, 有些東西感覺很熟悉.
+      - 感覺很容易能接受魔法, 但...
     shards:
       - 1
       - 0
@@ -410,11 +410,11 @@ AMETHYST_SHARD:
     - HISTORICAL
     - PHILOSOPHICAL
   story:
-    name: Chipped Perfection
+    name: 缺陷的完美
     type: ELEMENTAL
     lore:
-      - A shattered dream taken, a myriad
-      - of broken shards shaken
+      - 一個破碎的夢被奪走了,
+      - 無數破碎的碎片被晃動了.
     shards:
       - 1
       - 0
@@ -431,12 +431,12 @@ ANCIENT_DEBRIS:
     - ELEMENTAL
     - ALCHEMICAL
   story:
-    name: Depths
+    name: 深淵
     type: ELEMENTAL
     lore:
-      - Used in the creation of the strongest
-      - items. Hidden in the depths by an old
-      - civilisation.
+      - 用於製作最強的物品.
+      - 隱藏在古老文明
+      - 的最深處.
     shards:
       - 1
       - 0
@@ -454,11 +454,11 @@ ANDESITE:
     - HUMAN
     - ALCHEMICAL
   story:
-    name: Polished
+    name: 拋光的
     type: HUMAN
     lore:
-      - Often thrown away as dull and boring,
-      - at his block is filled with an epic sadness
+      - 往往被認為枯燥乏味而被丟棄
+      - 它的方塊之心內充滿著史詩級的悲傷
     shards:
       - 2
       - 0
@@ -475,12 +475,12 @@ ANDESITE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Half Pint (Andesite)
+    name: 半品脫 (安山岩)
     type: HUMAN
     lore:
-      - Half as big, and twice-so unappreciated
-      - this little fellow protects you from
-      - mobs day in and day out.
+      - 這小傢伙只有一半大,
+      - 而且是不被重視的兩倍,
+      - 但它一天又一天的保護你免於怪物的侵害.
     shards:
       - 1
       - 1
@@ -497,12 +497,12 @@ ANDESITE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Rising on up (Andesite)
+    name: 崛起 (安山岩)
     type: PHILOSOPHICAL
     lore:
-      - Every step is either an incline to
-      - future glory or a possible descent
-      - into further madness...
+      - 每一步都是通往未來的榮耀,
+      - 或者是墮入進一步的
+      - 瘋狂之中...
     shards:
       - 0
       - 1
@@ -519,11 +519,11 @@ ANDESITE_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: Beating down the walls (Andesite)
+    name: 打倒牆壁 (安山岩)
     type: HISTORICAL
     lore:
-      - Protecting for years working to keep
-      - those inside save and sound.
+      - 保護多年的工作,
+      - 使裡面的人得以安全與健全.
     shards:
       - 0
       - 0
@@ -540,12 +540,12 @@ ANVIL:
     - MECHANICAL
     - HUMAN
   story:
-    name: Hammer Time!
+    name: 鐵鎚時間!
     type: MECHANICAL
     lore:
-      - The essence of every tool that
-      - has touched the anvil imparts
-      - a part of itself to the anvil.
+      - 每一個接觸過鐵砧的
+      - 工具, 都會把自己本質
+      - 的一部份傳承給鐵砧.
     shards:
       - 0
       - 2
@@ -563,10 +563,10 @@ APPLE:
     - ANIMAL
     - CELESTIAL
   story:
-    name: Just one a day
+    name: 一天一個
     type: CELESTIAL
     lore:
-      - Keeps the doctor away!
+      - 讓醫生遠離!
     shards:
       - 0
       - 0
@@ -583,13 +583,13 @@ ARMOR_STAND:
     - MECHANICAL
     - VOID
   story:
-    name: Boiling Resentment
+    name: 沸騰的怨恨
     type: VOID
     lore:
-      - Not able to move, used, manipulated and
-      - forced to have blocks in it's head. The
-      - resentment builds until it can take no
-      - more.
+      - 不能移動, 被利用, 被操縱
+      - 並迫使在它的腦袋上裝上方塊.
+      - 怨恨不斷被累積,
+      - 直到它再也無法承受.
     shards:
       - 0
       - 1
@@ -606,12 +606,12 @@ ARROW:
     - MECHANICAL
     - VOID
   story:
-    name: Piercing Through
+    name: 穿透
     type: VOID
     lore:
-      - Memories of flying through air give
-      - this spirit solace. Ripping through
-      - flesh is just a bonus.
+      - 在空中飛行的記憶給予
+      - 這個精神帶來安慰. 撕裂肉體
+      - 只是另一個額外好處.
     shards:
       - 0
       - 1
@@ -628,12 +628,12 @@ AXOLOTL_BUCKET:
     - HUMAN
     - ANIMAL
   story:
-    name: Small but Cosy! (Axolotl)
+    name: 小但溫馨! (六角恐龍)
     type: ANIMAL
     lore:
-      - Even though most organisms hate
-      - being locked up, the axolotl
-      - loves it
+      - 儘管大多數生物都
+      - 討厭被關起來, 但六角恐龍
+      - 喜歡
     shards:
       - 1
       - 0
@@ -651,12 +651,12 @@ AZALEA:
     - ELEMENTAL
     - CELESTIAL
   story:
-    name: Blooming Potential
+    name: 綻放潛能
     type: CELESTIAL
     lore:
-      - Such a small point of force with the
-      - potential to become something mighty
-      - and strong.
+      - 這麼小一點力量,
+      - 也有可能成為
+      - 強大的東西.
     shards:
       - 1
       - 0
@@ -673,12 +673,12 @@ AZALEA_LEAVES:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: Leaf me alone! (Azalea)
+    name: 讓我靜靜 (杜鵑叢)
     type: PHILOSOPHICAL
     lore:
-      - Gently swaying in a cool breeze,
-      - Leaves want nothing more than to be
-      - left alone to their thoughts.
+      - 在微風中輕輕搖曳,
+      - 葉子只想要獨自思考
+      - (Leaf me alone!)
     shards:
       - 1
       - 0
@@ -695,11 +695,11 @@ AZURE_BLUET:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Sweet Smell (Azure Bluet)
+    name: 甜蜜氣味 (雛草)
     type: ANIMAL
     lore:
-      - A wafting fragrance to quell the most
-      - vicious of temperaments.
+      - 飄散的芬芳可以
+      - 平息最兇惡的脾氣.
     shards:
       - 1
       - 0
@@ -716,10 +716,10 @@ BAKED_POTATO:
     - ANIMAL
     - VOID
   story:
-    name: Hot Potato, Hot Potato
+    name: 熱馬鈴薯, 熱馬鈴薯
     type: VOID
     lore:
-      - Cold Spaghetti, Cold Spaghetti
+      - 冷義大利麵, 冷義大利麵
     shards:
       - 0
       - 0
@@ -736,10 +736,10 @@ BAMBOO:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Jeff's Hunger
+    name: Jeff的飢餓
     type: ANIMAL
     lore:
-      - Jeff's go-to snack, abundant and rich
+      - Jeff常吃的零食, 豐富且充實
     shards:
       - 1
       - 1
@@ -756,12 +756,12 @@ BARREL:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: No Fish
+    name: 沒有魚
     type: PHILOSOPHICAL
     lore:
-      - Used through time to store fish and
-      - no cared enough to notice, it cannot
-      - stand the smell!
+      - 久而久之就變成拿來存魚
+      - 並且沒有去關心與注意,
+      - 它不能忍受這種氣味!
     shards:
       - 0
       - 1
@@ -777,12 +777,12 @@ BASALT:
   elements:
     - ELEMENTAL
   story:
-    name: Chill Out!
+    name: 冷靜!
     type: ELEMENTAL
     lore:
-      - Once a volcanic force, this block
-      - had to undergo an extreme cooling
-      - that calmed both mind and 'body'
+      - 這個方塊曾經是火山的力量,
+      - 必須經過極度的冷卻, 才能使
+      - 心靈和'身體'都得到平靜
     shards:
       - 1
       - 0
@@ -800,12 +800,12 @@ BEACON:
     - HUMAN
     - VOID
   story:
-    name: Bringing home the b(e)acon
+    name: 帶培根(烽火台)回家 (b(e)acon)
     type: ALCHEMICAL
     lore:
-      - The light in the distance...
-      - The smell of your base...
-      - The warmth of Regeneration II...
+      - 遠處的光...
+      - 你基地的氣味...
+      - 溫暖的恢復II...
     shards:
       - 0
       - 2
@@ -823,12 +823,12 @@ BEEF:
     - ANIMAL
     - HUMAN
   story:
-    name: Raw (Beef)
+    name: 生 (牛肉)
     type: ANIMAL
     lore:
-      - Packed with unused potential.
-      - Longs for nothing more than a
-      - nice fire
+      - 充滿了未使用的潛力.
+      - 只渴望有一個好的火,
+      - 而不是別的
     shards:
       - 0
       - 0
@@ -844,12 +844,12 @@ BEEHIVE:
   elements:
     - ANIMAL
   story:
-    name: Home sweet home
+    name: 家, 甜蜜的家
     type: ANIMAL
     lore:
-      - The magical resonance from this
-      - block is bolstered with the life
-      - kept inside.
+      - 這個方塊內產生了魔法的共鳴
+      - 用於保存裡面的
+      - 生命支持.
     shards:
       - 0
       - 0
@@ -867,11 +867,11 @@ BEETROOT:
     - ANIMAL
     - CELESTIAL
   story:
-    name: Farmers Delight (Beetroot)
+    name: 農夫的喜悅 (甜菜根)
     type: HUMAN
     lore:
-      - With every sprout, leaf and root this
-      - item gives joy and nourishment to all
+      - 每一個新芽, 每片葉子和每一個根,
+      - 都給所有人帶來快樂和營養
     shards:
       - 0
       - 0
@@ -888,12 +888,12 @@ BEETROOT_SEEDS:
     - HUMAN
     - ANIMAL
   story:
-    name: Untapped Potential (Beetroot)
+    name: 未開發的潛力 (甜菜根)
     type: HUMAN
     lore:
-      - Busting with innate magic drawn in
-      - due to the raw and untapped potential
-      - of this seed.
+      - 由於這顆種子的
+      - 原始和未開發的潛力
+      - 它有與生俱來的魔法潛力.
     shards:
       - 0
       - 0
@@ -909,12 +909,12 @@ BEETROOT_SOUP:
   elements:
     - HUMAN
   story:
-    name: Hearty (Beetroot)
+    name: 爽朗 (甜菜根)
     type: HUMAN
     lore:
-      - Warming to both body and soul.
-      - Infers it's latent Crysta to those
-      - drinking it.
+      - 溫暖身體與靈魂.
+      - 向飲用它的人推給它
+      - 潛在的水晶.
     shards:
       - 0
       - 0
@@ -931,12 +931,12 @@ BEE_NEST:
     - ANIMAL
     - HUMAN
   story:
-    name: Home sweet home
+    name: 家, 甜蜜的家
     type: ANIMAL
     lore:
-      - The magical resonance from this
-      - block is bolstered with the life
-      - kept inside.
+      - 這個方塊內產生了魔法的共鳴
+      - 用於保存裡面的
+      - 生命支持.
     shards:
       - 0
       - 0
@@ -3712,7 +3712,7 @@ COBBLESTONE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Rising on up (Andesite)
+    name: Rising on up (安山岩)
     type: PHILOSOPHICAL
     lore:
       - Every step is either an incline to
@@ -14851,7 +14851,7 @@ POLISHED_ANDESITE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Half Pint (Polished Andesite)
+    name: Half Pint (拋光安山岩)
     type: HUMAN
     lore:
       - Half as big, and twice-so unappreciated
@@ -14873,7 +14873,7 @@ POLISHED_ANDESITE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Rising on up (Polished Andesite)
+    name: Rising on up (拋光安山岩)
     type: PHILOSOPHICAL
     lore:
       - Every step is either an incline to
@@ -14895,7 +14895,7 @@ POLISHED_BASALT:
     - MECHANICAL
     - HUMAN
   story:
-    name: Time to Gleam (Basalt)
+    name: Time to Gleam (玄武岩)
     type: HUMAN
     lore:
       - With a bit of love, any block can
@@ -17658,7 +17658,7 @@ SKULL_BANNER_PATTERN:
     - HUMAN
     - ALCHEMICAL
   story:
-    name: Star Spangled (Skull)
+    name: Star Spangled (頭骨)
     type: HUMAN
     lore:
       - Absorbs magic generated from the pride
@@ -17701,7 +17701,7 @@ SLIME_BLOCK:
     - ANIMAL
     - ALCHEMICAL
   story:
-    name: A Sticky Situation (Slime)
+    name: A Sticky Situation (史萊姆)
     type: ALCHEMICAL
     lore:
       - Desperate to not be alone, this block
@@ -17723,7 +17723,7 @@ SMALL_AMETHYST_BUD:
     - VOID
     - ELEMENTAL
   story:
-    name: Devoid of magic (Small)
+    name: Devoid of magic (小的)
     type: VOID
     lore:
       - Amethyst buds are Crystal deposits that couldn't
@@ -17745,7 +17745,7 @@ SMALL_DRIPLEAF:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: Trying Hard (Small)
+    name: Trying Hard (小的)
     type: PHILOSOPHICAL
     lore:
       - The dripleaf tries it's absolute
@@ -17813,7 +17813,7 @@ SMOOTH_BASALT:
     - ELEMENTAL
     - CELESTIAL
   story:
-    name: A Debonair Delight (Basalt)
+    name: A Debonair Delight (玄武岩)
     type: ELEMENTAL
     lore:
       - It should be criminal to be this
@@ -17834,7 +17834,7 @@ SMOOTH_QUARTZ:
     - ELEMENTAL
     - CELESTIAL
   story:
-    name: A Debonair Delight (Quartz)
+    name: A Debonair Delight (石英)
     type: ELEMENTAL
     lore:
       - It should be criminal to be this
@@ -17856,7 +17856,7 @@ SMOOTH_QUARTZ_SLAB:
     - VOID
     - ALCHEMICAL
   story:
-    name: A Cut Below (Smooth Quartz)
+    name: A Cut Below (平滑石英方塊)
     type: HUMAN
     lore:
       - Ripped in half and divided from
@@ -17878,7 +17878,7 @@ SMOOTH_QUARTZ_STAIRS:
     - PHILOSOPHICAL
     - ALCHEMICAL
   story:
-    name: Rising on up (Smooth Quartz)
+    name: Rising on up (平滑石英方塊)
     type: PHILOSOPHICAL
     lore:
       - Every step is either an incline to
@@ -20211,7 +20211,7 @@ WARPED_PRESSURE_PLATE:
     - MECHANICAL
     - VOID
   story:
-    name: Under Pressure (Acacia)
+    name: Under Pressure (相思)
     type: VOID
     lore:
       - Being walked all over will drop any
@@ -21377,7 +21377,7 @@ WRITTEN_BOOK:
     - PHILOSOPHICAL
     - HUMAN
   story:
-    name: The Press (Finished)
+    name: The Press (完成的)
     type: PHILOSOPHICAL
     lore:
       - Oh the day when humans invented
@@ -21399,7 +21399,7 @@ YELLOW_BANNER:
     - HISTORICAL
     - HUMAN
   story:
-    name: Flying Free (Yellow)
+    name: Flying Free (黃色)
     type: HISTORICAL
     lore:
       - Flying proud day after day for
@@ -21420,7 +21420,7 @@ YELLOW_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (Yellow)
+    name: A Good Night (黃色)
     type: PHILOSOPHICAL
     lore:
       - It's commonly thought that a persons
@@ -21443,7 +21443,7 @@ YELLOW_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (Yellow)
+    name: A Constant Drive (黃色)
     type: HUMAN
     lore:
       - Burning bright for as long as possible
@@ -21465,7 +21465,7 @@ YELLOW_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (Yellow)
+    name: Trampled (黃色)
     type: PHILOSOPHICAL
     lore:
       - Trampled on a daily basis, the carpet
@@ -21487,7 +21487,7 @@ YELLOW_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (Yellow)
+    name: Future Proof (黃色)
     type: HISTORICAL
     lore:
       - A block able to withstand the test
@@ -21509,7 +21509,7 @@ YELLOW_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (Yellow)
+    name: Self Identification (黃色)
     type: HUMAN
     lore:
       - Being a blend of other distinct blocks
@@ -21531,7 +21531,7 @@ YELLOW_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (Yellow)
+    name: The Gamut (黃色)
     type: ALCHEMICAL
     lore:
       - Dye's singular purpose is to bring
@@ -21554,7 +21554,7 @@ YELLOW_GLAZED_TERRACOTTA:
     - HUMAN
     - CELESTIAL
   story:
-    name: Non-Stick (Yellow)
+    name: Non-Stick (黃色)
     type: HUMAN
     lore:
       - A complex composition allows this block
@@ -21576,7 +21576,7 @@ YELLOW_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (Yellow)
+    name: Prism (黃色)
     type: CELESTIAL
     lore:
       - While this block has no innate magic
@@ -21598,7 +21598,7 @@ YELLOW_STAINED_GLASS_PANE:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (Yellow Pane)
+    name: Prism (黃色玻璃)
     type: CELESTIAL
     lore:
       - While this block has no innate magic
@@ -21620,7 +21620,7 @@ YELLOW_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (Yellow)
+    name: Sculptor's Delight (黃色)
     type: HUMAN
     lore:
       - Having the potential to be shaped into any
@@ -21641,7 +21641,7 @@ YELLOW_WOOL:
   elements:
     - ANIMAL
   story:
-    name: Soft! (yellow)
+    name: Soft! (黃色)
     type: ANIMAL
     lore:
       - Fluffy and yellow, the most comfortable
@@ -21663,7 +21663,7 @@ ZOMBIE_HEAD:
   elements:
     - VOID
   story:
-    name: Decapitation (Zombie)
+    name: Decapitation (殭屍)
     type: VOID
     lore:
       - While a despicable practice, some magics
