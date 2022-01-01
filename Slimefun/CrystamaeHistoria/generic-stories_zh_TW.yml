@@ -1,0 +1,726 @@
+---
+COMMON:
+  Quiet Days:
+    name: 寧靜的一天
+    type: ELEMENTAL
+    shards:
+      - 1
+      - 0
+      - 1
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    lore:
+      - 出現在世界之初.
+      - 一切都是 寂靜, 平靜, 安詳.
+  Grinding Gears:
+    name: 磨動的齒輪
+    type: MECHANICAL
+    shards:
+      - 0
+      - 1
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+    lore:
+      - 不斷的使用而不感謝感激,
+      - 會輕易地消磨精神.
+  Lead into Gold:
+    name: 鉛成金
+    type: ALCHEMICAL
+    shards:
+      - 0
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 0
+    lore:
+      - 一種無意識的追求財富
+      - 衝動使許多人發瘋.
+  Everlasting:
+    name: 永恆
+    type: HISTORICAL
+    shards:
+      - 1
+      - 0
+      - 1
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    lore:
+      - 見證了帝國的興衰,
+      - 這個方塊被證明是永恆堅定的.
+  Toil:
+    name: 辛勞
+    type: HUMAN
+    shards:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+    lore:
+      - 見證了歷代人的辛勞, 在可能的情況下
+      - 提供幫助, 這是一個沒有結果的任務
+  Free Range:
+    name: 自由放養
+    type: ANIMAL
+    shards:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 1
+      - 0
+      - 1
+    lore:
+      - 只有自由才能自由馳騁, 沒有甚麼比
+      - 動物的自由漫遊更能激發魔力.
+  Moonlit:
+    name: 月照之下
+    type: CELESTIAL
+    shards:
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 1
+      - 0
+      - 0
+    lore:
+      - 一種心靈享受沐浴
+      - 在殘月光芒之下.
+  Despair:
+    name: 絕望
+    type: VOID
+    shards:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 1
+      - 1
+    lore:
+      - 對渴望更多緊緊抓住心靈的最深處,
+      - 導致絕望與悲傷.
+  Good Life:
+    name: 美好生活
+    type: PHILOSOPHICAL
+    shards:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 2
+    lore:
+      - 由於不知道美好生活的定義,
+      - 這個方塊的問題仍未得到解答.
+UNCOMMON:
+  Quiet Days:
+    name: 寧靜的一天
+    type: ELEMENTAL
+    shards:
+      - 1
+      - 0
+      - 1
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    lore:
+      - 出現在世界之初.
+      - 一切都是 寂靜, 平靜, 安詳.
+  Grinding Gears:
+    name: 磨動的齒輪
+    type: MECHANICAL
+    shards:
+      - 0
+      - 1
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+    lore:
+      - 不斷的使用而不感謝感激,
+      - 會輕易地消磨精神.
+  Lead into Gold:
+    name: 鉛成金
+    type: ALCHEMICAL
+    shards:
+      - 0
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 0
+    lore:
+      - 一種無意識的追求財富
+      - 衝動使許多人發瘋.
+  Everlasting:
+    name: 永恆
+    type: HISTORICAL
+    shards:
+      - 1
+      - 0
+      - 1
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    lore:
+      - 見證了帝國的興衰,
+      - 這個方塊被證明是永恆堅定的.
+  Toil:
+    name: 辛勞
+    type: HUMAN
+    shards:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+    lore:
+      - 見證了歷代人的辛勞, 在可能的情況下
+      - 提供幫助, 這是一個沒有結果的任務
+  Free Range:
+    name: 自由放養
+    type: ANIMAL
+    shards:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 1
+      - 0
+      - 1
+    lore:
+      - 只有自由才能自由馳騁, 沒有甚麼比
+      - 動物的自由漫遊更能激發魔力.
+  Moonlit:
+    name: 月照之下
+    type: CELESTIAL
+    shards:
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 1
+      - 0
+      - 0
+    lore:
+      - 一種心靈享受沐浴
+      - 在殘月光芒之下.
+  Despair:
+    name: 絕望
+    type: VOID
+    shards:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 1
+      - 1
+    lore:
+      - 對渴望更多緊緊抓住心靈的最深處,
+      - 導致絕望與悲傷.
+  Good Life:
+    name: 美好生活
+    type: PHILOSOPHICAL
+    shards:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 2
+    lore:
+      - 由於不知道美好生活的定義,
+      - 這個方塊的問題仍未得到解答.
+RARE:
+  Quiet Days:
+    name: 寧靜的一天
+    type: ELEMENTAL
+    shards:
+      - 1
+      - 0
+      - 1
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    lore:
+      - 出現在世界之初.
+      - 一切都是 寂靜, 平靜, 安詳.
+  Grinding Gears:
+    name: 磨動的齒輪
+    type: MECHANICAL
+    shards:
+      - 0
+      - 1
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+    lore:
+      - 不斷的使用而不感謝感激,
+      - 會輕易地消磨精神.
+  Lead into Gold:
+    name: 鉛成金
+    type: ALCHEMICAL
+    shards:
+      - 0
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 0
+    lore:
+      - 一種無意識的追求財富
+      - 衝動使許多人發瘋.
+  Everlasting:
+    name: 永恆
+    type: HISTORICAL
+    shards:
+      - 1
+      - 0
+      - 1
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    lore:
+      - 見證了帝國的興衰,
+      - 這個方塊被證明是永恆堅定的.
+  Toil:
+    name: 辛勞
+    type: HUMAN
+    shards:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+    lore:
+      - 見證了歷代人的辛勞, 在可能的情況下
+      - 提供幫助, 這是一個沒有結果的任務
+  Free Range:
+    name: 自由放養
+    type: ANIMAL
+    shards:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 1
+      - 0
+      - 1
+    lore:
+      - 只有自由才能自由馳騁, 沒有甚麼比
+      - 動物的自由漫遊更能激發魔力.
+  Moonlit:
+    name: 月照之下
+    type: CELESTIAL
+    shards:
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 1
+      - 0
+      - 0
+    lore:
+      - 一種心靈享受沐浴
+      - 在殘月光芒之下.
+  Despair:
+    name: 絕望
+    type: VOID
+    shards:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 1
+      - 1
+    lore:
+      - 對渴望更多緊緊抓住心靈的最深處,
+      - 導致絕望與悲傷.
+  Good Life:
+    name: 美好生活
+    type: PHILOSOPHICAL
+    shards:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 2
+    lore:
+      - 由於不知道美好生活的定義,
+      - 這個方塊的問題仍未得到解答.
+EPIC:
+  Quiet Days:
+    name: 寧靜的一天
+    type: ELEMENTAL
+    shards:
+      - 1
+      - 0
+      - 1
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    lore:
+      - 出現在世界之初.
+      - 一切都是 寂靜, 平靜, 安詳.
+  Grinding Gears:
+    name: 磨動的齒輪
+    type: MECHANICAL
+    shards:
+      - 0
+      - 1
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+    lore:
+      - 不斷的使用而不感謝感激,
+      - 會輕易地消磨精神.
+  Lead into Gold:
+    name: 鉛成金
+    type: ALCHEMICAL
+    shards:
+      - 0
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 0
+    lore:
+      - 一種無意識的追求財富
+      - 衝動使許多人發瘋.
+  Everlasting:
+    name: 永恆
+    type: HISTORICAL
+    shards:
+      - 1
+      - 0
+      - 1
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    lore:
+      - 見證了帝國的興衰,
+      - 這個方塊被證明是永恆堅定的.
+  Toil:
+    name: 辛勞
+    type: HUMAN
+    shards:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+    lore:
+      - 見證了歷代人的辛勞, 在可能的情況下
+      - 提供幫助, 這是一個沒有結果的任務
+  Free Range:
+    name: 自由放養
+    type: ANIMAL
+    shards:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 1
+      - 0
+      - 1
+    lore:
+      - 只有自由才能自由馳騁, 沒有甚麼比
+      - 動物的自由漫遊更能激發魔力.
+  Moonlit:
+    name: 月照之下
+    type: CELESTIAL
+    shards:
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 1
+      - 0
+      - 0
+    lore:
+      - 一種心靈享受沐浴
+      - 在殘月光芒之下.
+  Despair:
+    name: 絕望
+    type: VOID
+    shards:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 1
+      - 1
+    lore:
+      - 對渴望更多緊緊抓住心靈的最深處,
+      - 導致絕望與悲傷.
+  Good Life:
+    name: 美好生活
+    type: PHILOSOPHICAL
+    shards:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 2
+    lore:
+      - 由於不知道美好生活的定義,
+      - 這個方塊的問題仍未得到解答.
+MYTHICAL:
+  Quiet Days:
+    name: 寧靜的一天
+    type: ELEMENTAL
+    shards:
+      - 1
+      - 0
+      - 1
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    lore:
+      - 出現在世界之初.
+      - 一切都是 寂靜, 平靜, 安詳.
+  Grinding Gears:
+    name: 磨動的齒輪
+    type: MECHANICAL
+    shards:
+      - 0
+      - 1
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+    lore:
+      - 不斷的使用而不感謝感激,
+      - 會輕易地消磨精神.
+  Lead into Gold:
+    name: 鉛成金
+    type: ALCHEMICAL
+    shards:
+      - 0
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 0
+    lore:
+      - 一種無意識的追求財富
+      - 衝動使許多人發瘋.
+  Everlasting:
+    name: 永恆
+    type: HISTORICAL
+    shards:
+      - 1
+      - 0
+      - 1
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    lore:
+      - 見證了帝國的興衰,
+      - 這個方塊被證明是永恆堅定的.
+  Toil:
+    name: 辛勞
+    type: HUMAN
+    shards:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 1
+      - 0
+      - 1
+    lore:
+      - 見證了歷代人的辛勞, 在可能的情況下
+      - 提供幫助, 這是一個沒有結果的任務
+  Free Range:
+    name: 自由放養
+    type: ANIMAL
+    shards:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 1
+      - 0
+      - 1
+    lore:
+      - 只有自由才能自由馳騁, 沒有甚麼比
+      - 動物的自由漫遊更能激發魔力.
+  Moonlit:
+    name: 月照之下
+    type: CELESTIAL
+    shards:
+      - 1
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 1
+      - 0
+      - 0
+    lore:
+      - 一種心靈享受沐浴
+      - 在殘月光芒之下.
+  Despair:
+    name: 絕望
+    type: VOID
+    shards:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 1
+      - 1
+    lore:
+      - 對渴望更多緊緊抓住心靈的最深處,
+      - 導致絕望與悲傷.
+  Good Life:
+    name: 美好生活
+    type: PHILOSOPHICAL
+    shards:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 2
+    lore:
+      - 由於不知道美好生活的定義,
+      - 這個方塊的問題仍未得到解答.
