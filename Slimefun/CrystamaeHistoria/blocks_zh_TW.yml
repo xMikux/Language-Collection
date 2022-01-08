@@ -138,7 +138,7 @@ ACACIA_LOG:
     type: ELEMENTAL
     lore:
       - 每一次冒險都從一棵好樹開始
-      - 用拳猛擊
+      - 敲
     shards:
       - 2
       - 0
@@ -155,11 +155,11 @@ ACACIA_PLANKS:
     - ELEMENTAL
     - HUMAN
   story:
-    name: 走上木板 (相思)
+    name: 走上木材 (相思木)
     type: HUMAN
     lore:
       - 製作旅程的第一步
-      - 推動新玩家前進.
+      - 引領著新玩家向前邁進
     shards:
       - 1
       - 0
@@ -305,7 +305,7 @@ ACACIA_WOOD:
     type: ELEMENTAL
     lore:
       - 每一次冒險都從一個好的樹開始
-      - 砍
+      - 敲
     shards:
       - 2
       - 0
@@ -1125,11 +1125,11 @@ BIRCH_LOG:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: Punching Trees Gives Me Log (Birch)
+    name: 敲樹以獲得原木 (樺木)
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good tree
-      - punch
+      - 敲
     shards:
       - 2
       - 0
@@ -1146,11 +1146,11 @@ BIRCH_PLANKS:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Walk the Plank (Birch)
+    name: 走上木材 (樺木)
     type: HUMAN
     lore:
-      - The first step on your crafting journey
-      - driving new players forwards.
+      - 製作旅程的第一步
+      - 引領著新玩家向前邁進
     shards:
       - 1
       - 0
@@ -1292,11 +1292,11 @@ BIRCH_WOOD:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: Punching Trees Gives Me Wood (Birch)
+    name: 敲樹以獲得木頭 (樺木)
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good tree
-      - punch
+      - 敲
     shards:
       - 2
       - 0
@@ -4478,11 +4478,11 @@ CRIMSON_HYPHAE:
     - HISTORICAL
     - VOID
   story:
-    name: Punching Trees Gives Me... Huh? (Crimson)
+    name: 敲樹以獲得...... 蛤? (緋紅)
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good fungus
-      - punch
+      - 敲
     shards:
       - 2
       - 0
@@ -4523,11 +4523,11 @@ CRIMSON_PLANKS:
     - HUMAN
     - VOID
   story:
-    name: Walk the Plank (Crimson)
+    name: 走上木材 (緋紅)
     type: HUMAN
     lore:
-      - The first step on your crafting journey
-      - driving new players forwards.
+      - 製作旅程的第一步
+      - 引領著新玩家向前邁進
     shards:
       - 1
       - 0
@@ -4652,11 +4652,11 @@ CRIMSON_STEM:
     - HISTORICAL
     - VOID
   story:
-    name: Punching Trees Gives Me... Huh? (Crimson Stem)
+    name: 敲樹以獲得...... 蛤? (緋紅蕈柄)
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good fungus
-      - punch
+      - 敲
     shards:
       - 2
       - 0
@@ -5323,11 +5323,11 @@ DARK_OAK_LOG:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: Punching Trees Gives Me Log (Dark Oak)
+    name: 敲樹以獲得原木 (黑橡木)
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good tree
-      - punch
+      - 敲
     shards:
       - 2
       - 0
@@ -5344,11 +5344,11 @@ DARK_OAK_PLANKS:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Walk the Plank (Dark Oak)
+    name: 走上木材 (黑橡木)
     type: HUMAN
     lore:
-      - The first step on your crafting journey
-      - driving new players forwards.
+      - 製作旅程的第一步
+      - 引領著新玩家向前邁進
     shards:
       - 1
       - 0
@@ -5490,11 +5490,11 @@ DARK_OAK_WOOD:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: Punching Trees Gives Me Wood (Dark Oak)
+    name: 敲樹以獲得木頭 (黑橡木)
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good tree
-      - punch
+      - 敲
     shards:
       - 2
       - 0
@@ -10300,11 +10300,11 @@ JUNGLE_LOG:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: Punching Trees Gives Me Log (Jungle)
+    name: 敲樹以獲得原木 (叢林木)
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good tree
-      - punch
+      - 敲
     shards:
       - 2
       - 0
@@ -10321,11 +10321,11 @@ JUNGLE_PLANKS:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Walk the Plank (Jungle)
+    name: 走上木材 (叢林木)
     type: HUMAN
     lore:
-      - The first step on your crafting journey
-      - driving new players forwards.
+      - 製作旅程的第一步
+      - 引領著新玩家向前邁進
     shards:
       - 1
       - 0
@@ -10467,11 +10467,11 @@ JUNGLE_WOOD:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: Punching Trees Gives Me Wood (Jungle)
+    name: 敲樹以獲得木頭 (叢林木)
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good tree
-      - punch
+      - 敲
     shards:
       - 2
       - 0
@@ -13677,11 +13677,11 @@ OAK_LOG:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: Punching Trees Gives Me Log (Oak)
+    name: 敲樹以獲得原木 (橡木)
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good tree
-      - punch
+      - 敲
     shards:
       - 2
       - 0
@@ -13698,11 +13698,11 @@ OAK_PLANKS:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Walk the Plank (Oak)
+    name: 走上木材 (橡木)
     type: HUMAN
     lore:
-      - The first step on your crafting journey
-      - driving new players forwards.
+      - 製作旅程的第一步
+      - 引領著新玩家向前邁進
     shards:
       - 1
       - 0
@@ -13844,11 +13844,11 @@ OAK_WOOD:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: Punching Trees Gives Me Wood (Oak)
+    name: 敲樹以獲得木頭 (橡木)
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good tree
-      - punch
+      - 敲
     shards:
       - 2
       - 0
@@ -16943,10 +16943,10 @@ RED_SAND:
   elements:
     - ELEMENTAL
   story:
-    name: Silica (Red)
+    name: 二氧化矽 (紅色)
     type: ELEMENTAL
     lore:
-      - Weathered away for generations, sand is
+      - 歷經幾十年的風化
       - imparted with the Crysta of a thousand
       - different items.
     shards:
@@ -17333,10 +17333,10 @@ SAND:
   elements:
     - ELEMENTAL
   story:
-    name: Silica
+    name: 二氧化矽
     type: ELEMENTAL
     lore:
-      - Weathered away for generations, sand is
+      - 歷經幾十年的風化
       - imparted with the Crysta of a thousand
       - different items.
     shards:
@@ -18490,11 +18490,11 @@ SPRUCE_LOG:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: Punching Trees Gives Me Log (Spruce)
+    name: 敲樹以獲得原木 (杉木)
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good tree
-      - punch
+      - 敲
     shards:
       - 2
       - 0
@@ -18511,11 +18511,11 @@ SPRUCE_PLANKS:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Walk the Plank (Spruce)
+    name: 走上木材 (杉木)
     type: HUMAN
     lore:
-      - The first step on your crafting journey
-      - driving new players forwards.
+      - 製作旅程的第一步
+      - 引領著新玩家向前邁進
     shards:
       - 1
       - 0
@@ -18657,11 +18657,11 @@ SPRUCE_WOOD:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: Punching Trees Gives Me Wood (Spruce)
+    name: 敲樹以獲得木頭 (杉木)
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good tree
-      - punch
+      - 敲
     shards:
       - 2
       - 0
@@ -20145,11 +20145,11 @@ WARPED_HYPHAE:
     - HISTORICAL
     - VOID
   story:
-    name: Punching Trees Gives Me... Huh? (Warped)
+    name: 敲樹以獲得...... 蛤? (扭曲)
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good fungus
-      - punch
+      - 敲
     shards:
       - 2
       - 0
@@ -20190,11 +20190,11 @@ WARPED_PLANKS:
     - HUMAN
     - VOID
   story:
-    name: Walk the Plank (Warped)
+    name: 走上木材 (扭曲)
     type: HUMAN
     lore:
-      - The first step on your crafting journey
-      - driving new players forwards.
+      - 製作旅程的第一步
+      - 引領著新玩家向前邁進
     shards:
       - 1
       - 0
@@ -20319,11 +20319,11 @@ WARPED_STEM:
     - HISTORICAL
     - VOID
   story:
-    name: Punching Trees Gives Me... Huh? (Warped Stem)
+    name: 敲樹以獲得...... 蛤? (扭曲蕈柄)
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good fungus
-      - punch
+      - 敲
     shards:
       - 2
       - 0
