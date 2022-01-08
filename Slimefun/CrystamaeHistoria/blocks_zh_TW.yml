@@ -134,7 +134,7 @@ ACACIA_LOG:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: 衝孔樹給了我日誌 (相思)
+    name: 敲樹以獲得原木 (相思木)
     type: ELEMENTAL
     lore:
       - 每一次冒險都從一棵好樹開始
@@ -301,7 +301,7 @@ ACACIA_WOOD:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: 砍樹給我木頭 (相思)
+    name: 敲樹以獲得木頭 (相思木)
     type: ELEMENTAL
     lore:
       - 每一次冒險都從一個好的樹開始
@@ -997,7 +997,7 @@ BIRCH_BOAT:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: Ship-shape (Birch)
+    name: 船形( 樺木 )
     type: PHILOSOPHICAL
     lore:
       - 在陽光下生活, 在海洋裡優游, 和在野外的空氣中暢飲.
@@ -1017,10 +1017,10 @@ BIRCH_BUTTON:
     - HUMAN
     - MECHANICAL
   story:
-    name: Depressed (Birch)
+    name: 鬱悶 (樺木)
     type: HUMAN
     lore:
-      - Can get easily depressed
+      - 容易受到鬱悶
     shards:
       - 0
       - 1
@@ -4369,7 +4369,7 @@ CRIMSON_BUTTON:
     name: Depressed (Crimson)
     type: HUMAN
     lore:
-      - Can get easily depressed
+      - 容易受到鬱悶
     shards:
       - 0
       - 1
@@ -5218,7 +5218,7 @@ DARK_OAK_BUTTON:
     name: Depressed (Dark Oak)
     type: HUMAN
     lore:
-      - Can get easily depressed
+      - 容易受到鬱悶
     shards:
       - 0
       - 1
@@ -10195,7 +10195,7 @@ JUNGLE_BUTTON:
     name: Depressed (Jungle)
     type: HUMAN
     lore:
-      - Can get easily depressed
+      - 容易受到鬱悶
     shards:
       - 0
       - 1
@@ -13572,7 +13572,7 @@ OAK_BUTTON:
     name: Depressed (Oak)
     type: HUMAN
     lore:
-      - Can get easily depressed
+      - 容易受到鬱悶
     shards:
       - 0
       - 1
@@ -15029,7 +15029,7 @@ POLISHED_BLACKSTONE_BUTTON:
     name: Depressed (Polished Blackstone)
     type: HUMAN
     lore:
-      - Can get easily depressed
+      - 容易受到鬱悶
     shards:
       - 1
       - 1
@@ -18385,7 +18385,7 @@ SPRUCE_BUTTON:
     name: Depressed (Spruce)
     type: HUMAN
     lore:
-      - Can get easily depressed
+      - 容易受到鬱悶
     shards:
       - 0
       - 1
@@ -18897,7 +18897,7 @@ STONE_BUTTON:
     name: Depressed (Stone)
     type: HUMAN
     lore:
-      - Can get easily depressed
+      - 容易受到鬱悶
     shards:
       - 1
       - 1
@@ -20017,7 +20017,7 @@ WARPED_BUTTON:
     name: Depressed (Warped)
     type: HUMAN
     lore:
-      - Can get easily depressed
+      - 容易受到鬱悶
     shards:
       - 0
       - 1
