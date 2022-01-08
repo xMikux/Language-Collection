@@ -1000,7 +1000,7 @@ BIRCH_BOAT:
     name: Ship-shape (Birch)
     type: PHILOSOPHICAL
     lore:
-      - Live in the sunshine, swim the sea and drink in the wild air
+      - 在陽光下生活, 在海洋裡優游, 和在野外的空氣中暢飲.
     shards:
       - 1
       - 0
