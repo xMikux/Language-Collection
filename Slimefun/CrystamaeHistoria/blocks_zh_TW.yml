@@ -8643,7 +8643,7 @@ GRAVEL:
     - ELEMENTAL
     - VOID
   story:
-    name: Hammered
+    name: 被敲碎
     type: VOID
     lore:
       - Determined to be more than the sum of its
@@ -16947,8 +16947,8 @@ RED_SAND:
     type: ELEMENTAL
     lore:
       - 歷經幾十年的風化
-      - imparted with the Crysta of a thousand
-      - different items.
+      - 沙子被賦予了
+      - 來自上千個不同物品的水晶能量
     shards:
       - 2
       - 0
@@ -17337,8 +17337,8 @@ SAND:
     type: ELEMENTAL
     lore:
       - 歷經幾十年的風化
-      - imparted with the Crysta of a thousand
-      - different items.
+      - 沙子被賦予了
+      - 來自上千個不同物品的水晶能量
     shards:
       - 2
       - 0
