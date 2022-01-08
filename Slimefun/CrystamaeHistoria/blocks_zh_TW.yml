@@ -3542,11 +3542,11 @@ COAL_ORE:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: A Humble Soul
+    name: 謙虛的心
     type: PHILOSOPHICAL
     lore:
-      - It's hard to be humble when
-      - you are as popular as coal
+      - 你很難在像煤炭一樣
+      - 受歡迎的時候保持謙遜
     shards:
       - 1
       - 0
@@ -6057,11 +6057,11 @@ DEEPSLATE_COAL_ORE:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: A Humble Soul (Deepslate)
+    name: 謙虛的心 (深板岩)
     type: PHILOSOPHICAL
     lore:
-      - It's hard to be humble when
-      - you are as popular as coal
+      - 你很難在像煤炭一樣
+      - 受歡迎的時候保持謙遜
     shards:
       - 1
       - 0
@@ -6717,12 +6717,12 @@ DIRT:
   elements:
     - ELEMENTAL
   story:
-    name: Grounded
+    name: 基礎
     type: ELEMENTAL
     lore:
-      - Shaping the very face of the minecraft
-      - world, dirt is a constant keeping us
-      - all grounded.
+      - 塑造出Minecraft世界的地形
+      - 泥土給了我們
+      - 一個立足之地
     shards:
       - 2
       - 0
@@ -8646,9 +8646,9 @@ GRAVEL:
     name: 被敲碎
     type: VOID
     lore:
-      - Determined to be more than the sum of its
-      - parts, gravel lives only to have been hammered
-      - and then sifted for its content. Sad.
+      - 在下定決心要超越它部分的總和之後
+      - 礫石就只能過著被敲碎然後篩出內容物的生活
+      - 令人不勝唏噓
     shards:
       - 1
       - 0
