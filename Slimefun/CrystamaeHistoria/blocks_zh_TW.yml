@@ -8622,10 +8622,10 @@ GRASS_BLOCK:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Start of the Chain
+    name: 連鎖的起點
     type: ANIMAL
     lore:
-      - The start of the food web. Grass brings
+      - 食物網的起點
       - life into this world.
     shards:
       - 1
