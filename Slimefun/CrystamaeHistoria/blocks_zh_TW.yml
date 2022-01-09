@@ -3584,11 +3584,11 @@ COBBLED_DEEPSLATE:
   elements:
     - ELEMENTAL
   story:
-    name: Improvised (Deepslate)
+    name: 暫時的 (深板岩)
     type: ELEMENTAL
     lore:
-      - Fractured and fragmented, Cobblestone longs
-      - to be back to it's full form.
+      - 已經變得支離破碎
+      - 鵝卵石渴望回復成它的完整形態
     shards:
       - 1
       - 0
@@ -3669,11 +3669,11 @@ COBBLESTONE:
   elements:
     - ELEMENTAL
   story:
-    name: Improvised
+    name: 暫時的
     type: ELEMENTAL
     lore:
-      - Fractured and fragmented, Cobblestone longs
-      - to be back to it's full form.
+      - 已經變得支離破碎
+      - 鵝卵石渴望回復成它的完整形態
     shards:
       - 1
       - 0
@@ -5951,7 +5951,7 @@ DEEPSLATE:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: Resolute (Deepslate)
+    name: 堅毅 (深板岩)
     type: ELEMENTAL
     lore:
       - Stone is the resolute backbone of the world's
@@ -8626,7 +8626,7 @@ GRASS_BLOCK:
     type: ANIMAL
     lore:
       - 食物網的起點
-      - life into this world.
+      - 草地為這世界帶來了生命
     shards:
       - 1
       - 0
@@ -18744,7 +18744,7 @@ STONE:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: Resolute
+    name: 堅毅
     type: ELEMENTAL
     lore:
       - Stone is the resolute backbone of the world's
