@@ -138,7 +138,7 @@ ACACIA_LOG:
     type: ELEMENTAL
     lore:
       - 每一次冒險都從一棵好樹開始
-      - 敲
+      - 用拳猛擊
     shards:
       - 2
       - 0
@@ -305,7 +305,7 @@ ACACIA_WOOD:
     type: ELEMENTAL
     lore:
       - 每一次冒險都從一個好的樹開始
-      - 敲
+      - 砍
     shards:
       - 2
       - 0
@@ -1129,7 +1129,7 @@ BIRCH_LOG:
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good tree
-      - 敲
+      - punch
     shards:
       - 2
       - 0
@@ -1296,7 +1296,7 @@ BIRCH_WOOD:
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good tree
-      - 敲
+      - punch
     shards:
       - 2
       - 0
@@ -4482,7 +4482,7 @@ CRIMSON_HYPHAE:
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good fungus
-      - 敲
+      - punch
     shards:
       - 2
       - 0
@@ -4656,7 +4656,7 @@ CRIMSON_STEM:
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good fungus
-      - 敲
+      - punch
     shards:
       - 2
       - 0
@@ -5327,7 +5327,7 @@ DARK_OAK_LOG:
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good tree
-      - 敲
+      - punch
     shards:
       - 2
       - 0
@@ -5494,7 +5494,7 @@ DARK_OAK_WOOD:
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good tree
-      - 敲
+      - punch
     shards:
       - 2
       - 0
@@ -10304,7 +10304,7 @@ JUNGLE_LOG:
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good tree
-      - 敲
+      - punch
     shards:
       - 2
       - 0
@@ -10471,7 +10471,7 @@ JUNGLE_WOOD:
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good tree
-      - 敲
+      - punch
     shards:
       - 2
       - 0
@@ -13681,7 +13681,7 @@ OAK_LOG:
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good tree
-      - 敲
+      - punch
     shards:
       - 2
       - 0
@@ -13848,7 +13848,7 @@ OAK_WOOD:
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good tree
-      - 敲
+      - punch
     shards:
       - 2
       - 0
@@ -18494,7 +18494,7 @@ SPRUCE_LOG:
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good tree
-      - 敲
+      - punch
     shards:
       - 2
       - 0
@@ -18661,7 +18661,7 @@ SPRUCE_WOOD:
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good tree
-      - 敲
+      - punch
     shards:
       - 2
       - 0
@@ -20149,7 +20149,7 @@ WARPED_HYPHAE:
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good fungus
-      - 敲
+      - punch
     shards:
       - 2
       - 0
@@ -20323,7 +20323,7 @@ WARPED_STEM:
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good fungus
-      - 敲
+      - punch
     shards:
       - 2
       - 0
