@@ -974,12 +974,12 @@ BIG_DRIPLEAF:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: Trying Hard (Big)
+    name: 努力嘗試 (大懸葉草)
     type: PHILOSOPHICAL
     lore:
-      - The dripleaf tries it's absolute
-      - best to keep itself up though it
-      - nearly always fails.
+      - 大懸葉草總是在嘗試保持
+      - 自己不要傾斜,
+      - 雖然幾乎總是失敗.
     shards:
       - 1
       - 0
