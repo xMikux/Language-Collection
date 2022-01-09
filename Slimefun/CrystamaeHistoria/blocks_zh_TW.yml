@@ -5954,8 +5954,8 @@ DEEPSLATE:
     name: 堅毅 (深板岩)
     type: ELEMENTAL
     lore:
-      - Stone is the resolute backbone of the world's
-      - makeup. Ever present and everlasting.
+      - 石頭是世界構成之中堅毅的代表
+      - 這是亙古不變的
     shards:
       - 2
       - 0
@@ -18747,8 +18747,8 @@ STONE:
     name: 堅毅
     type: ELEMENTAL
     lore:
-      - Stone is the resolute backbone of the world's
-      - makeup. Ever present and everlasting.
+      - 石頭是世界構成之中堅毅的代表
+      - 這是亙古不變的
     shards:
       - 2
       - 0
@@ -19903,11 +19903,11 @@ TUFF:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: Resolute (Tuff)
+    name: 堅毅 (凝灰岩)
     type: ELEMENTAL
     lore:
-      - Stone is the resolute backbone of the world's
-      - makeup. Ever present and everlasting.
+      - 石頭是世界構成之中堅毅的代表
+      - 這是亙古不變的
     shards:
       - 2
       - 0
