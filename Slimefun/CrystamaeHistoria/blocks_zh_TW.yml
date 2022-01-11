@@ -1425,7 +1425,7 @@ BLACK_BED:
     lore:
       - It's commonly thought that a persons
       - internal magics are recharged during
-      - sleep.
+      - 睡覺.
     shards:
       - 0
       - 0
