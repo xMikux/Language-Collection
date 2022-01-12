@@ -1423,9 +1423,9 @@ BLACK_BED:
     name: A Good Night (Black)
     type: PHILOSOPHICAL
     lore:
-      - It's commonly thought that a persons
-      - internal magics are recharged during
-      - 睡覺.
+      - 人們普遍認為一個人
+      - 內部魔法在睡眠期間被
+      - 充電.
     shards:
       - 0
       - 0
