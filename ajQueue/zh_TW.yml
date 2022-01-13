@@ -71,7 +71,7 @@ list:
 spigot:
   actionbar:
     online: '&7你正在排隊等待 &f{SERVER}&7. &7你目前加入順位是 &f{LEN}&7 人中的第 &f{POS}&7 順位. 預估時間: {TIME}'
-    offline: '&7You are queued for &f{SERVER}&7. &7You are in position &f{POS}&7 of &f{LEN}&7.'
+    offline: '&7你正在排隊等待 &f{SERVER}&7. &7你目前加入順位是 &f{LEN}&7 人中的第 &f{POS}&7 順位.'
 send: '&a添加 &f{PLAYER}&a 到 &f{SERVER} &a的隊列中'
 remove: '&a移除 &f{PLAYER} 在它所在的所有隊列.'
 placeholders:
