@@ -5,12 +5,12 @@ one:
 status:
   offline:
     base: '&c{SERVER} is {STATUS}. &7You are in position &f{POS}&7 of &f{LEN}&7.'
-    offline: offline
-    restarting: restarting
-    full: full
-    restricted: restricted
-    paused: paused
-    whitelisted: whitelisted
+    offline: 離線
+    restarting: 重啟
+    full: 滿人
+    restricted: 受限制
+    paused: 暫停
+    whitelisted: 白名單
   online:
     base: '&7You are in position &f{POS}&7 of &f{LEN}&7. Estimated time: {TIME}'
   left-last-queue: '&aYou left the last queue you were in.'
@@ -18,25 +18,25 @@ status:
     &aYou are now queued for {SERVER}! &7You are in position &f{POS}&7 of &f{LEN}&7.
     &7Type &f/leavequeue&7 or &f<click:run_command:/leavequeue {SERVERNAME}>click here</click>&7 to leave the queue!
   now-in-empty-queue: ''
-  sending-now: '&aSending you to &f{SERVER} &anow..'
+  sending-now: '&a現在傳送你到 &f{SERVER} &a中..'
 errors:
-  server-not-exist: '&cThe server {SERVER} does not exist!'
-  already-queued: '&cYou are already queued for that server!'
-  player-only: '&cThis command can only be executed as a player!'
-  already-connected: '&cYou are already connected to this server!'
-  cant-join-paused: '&cYou cannot join the queue for {SERVER} because it is paused.'
-  deny-joining-from-server: '&cYou are not allowed to join queues from this server!'
+  server-not-exist: '&c伺服器 {SERVER} 並不存在!'
+  already-queued: '&c你已經在排該伺服器的隊伍!'
+  player-only: '&c這個指令只能由玩家執行!'
+  already-connected: '&c你已經連接到此伺服器!'
+  cant-join-paused: '&c你不能加入 {SERVER} 的排隊之中, 因為它已被暫停.'
+  deny-joining-from-server: '&c你不允許加入此伺服器的隊列中!'
   wrong-version:
-    base: <red>You must be on {VERSIONS} to join this server!
-    or: ' or '
+    base: <red>你必須在 {VERSIONS} 版本才能加入這個伺服器!
+    or: ' 或 '
     comma: ', '
 commands:
-  leave-queue: '&aYou left the queue for {SERVER}!'
+  leave-queue: '&a你離開了 {SERVER} 的排隊!'
   reload: '&aConfig and messages reloaded successfully!'
   joinqueue:
-    usage: '&cUsage: /joinqueue <server>'
+    usage: '&c用法: /joinqueue <server>'
   kick:
-    usage: '<red>Usage: /ajqueue kick <player> [queue]'
+    usage: '<red>用法: /ajqueue kick <player> [queue]'
     no-player: '&cCould not find {PLAYER}! Make sure they are in a queue!'
     unknown-server: '&cCould not find queue {QUEUE}. Make sure you spelled it correctly!'
     success: <green>Kicked <white>{PLAYER} <green>from {NUM} queue{s}!
@@ -44,16 +44,16 @@ commands:
     more-args: '&cPlease specify which queue you want to leave! &7You are in these queues: {QUEUES}'
     queues-list-format: '&f{NAME}&7, '
     not-queued: '&cYou are not queued for that server! &7You are in these queues: {QUEUES}'
-    no-queues: '&cYou are not queued!'
+    no-queues: '&c你沒有在排隊!'
   pause:
     more-args: '&cUsage: /ajqueue pause <server> [on/off]'
-    no-server: '&cThat server does not exist!'
-    success: '&aThe queue for &f{SERVER} &ais now {PAUSED}'
+    no-server: '&c這個伺服器並不存在!'
+    success: '&a隊列為 &f{SERVER} &a現在已被 {PAUSED}'
     paused:
-      'true': '&epaused'
-      'false': '&aun-paused'
+      'true': '&e暫停'
+      'false': '&a取消暫停'
   send:
-    player-not-found: '&cThat player could not be found. Make sure they are online!'
+    player-not-found: '&c找不到那個玩家. 請確定它們在線上!'
     usage: '<red>Usage: /ajqueue send <player> <server>'
   listqueues:
     header: '&9Queues:'
@@ -61,13 +61,13 @@ commands:
 noperm: '&cYou do not have permission to do this!'
 format:
   time:
-    mins: '{m}m {s}s'
-    secs: '{s} seconds'
+    mins: '{m}分 {s}秒'
+    secs: '{s} 秒'
 list:
   format: '&b{SERVER} &7({COUNT}): {LIST}'
   playerlist: '&9{NAME}&7, '
   total: '&7Total players in queues: &f{TOTAL}'
-  none: '&7None'
+  none: '&7無'
 spigot:
   actionbar:
     online: '&7You are queued for &f{SERVER}&7. You are in position &f{POS}&7 of &f{LEN}&7. Estimated time: {TIME}'
@@ -76,9 +76,9 @@ send: '&aAdded &f{PLAYER}&a to the queue for &f{SERVER}'
 remove: '&aRemoved &f{PLAYER} from all queues they were in.'
 placeholders:
   queued:
-    none: None
+    none: 無
   position:
-    none: None
+    none: 無
 title:
   title: ''
   subtitle: '<gold>You are <green>#{POS} <gold>in the queue!'
@@ -92,7 +92,7 @@ updater:
     <dark_green>You can download it by <click:run_command:/ajqueue update><bold>clicking here</bold>
     or running <gray>/ajQueue update</click>
     <gray><strikethrough>                                                         <reset>
-  no-update: <red>There is not an update available
-  success: <green>The update has been downloaded! Now just restart the server
-  fail: <red>An error occurred while downloading the update. Check the console for more info.
-  already-downloaded: <red>The update has already been downloaded.
+  no-update: <red>沒有可用的更新
+  success: <green>更新已下載完成! 現在只需要重啟伺服器
+  fail: <red>下載更新時出現錯誤. 請檢查後台獲取更多資訊.
+  already-downloaded: <red>更新已下載.
