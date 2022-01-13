@@ -1,0 +1,98 @@
+---
+one:
+  two:
+    three: four
+status:
+  offline:
+    base: '&c{SERVER} 現在是 {STATUS} 狀態. &7你目前加入順位是 &f{LEN}&7 人中的第 &f{POS}&7 順位.'
+    offline: 離線
+    restarting: 重啟
+    full: 滿人
+    restricted: 受限制
+    paused: 暫停
+    whitelisted: 白名單
+  online:
+    base: '&7你目前加入順位是 &f{LEN}&7 人中的第 &f{POS}&7 順位. 預估時間: {TIME}'
+  left-last-queue: '&a你離開了你所在的最後一個等候隊列.'
+  now-in-queue: |-
+    &a你現在正在排隊等候加入 {SERVER}! &7你目前加入順位是 &f{LEN}&7 人中的第 &f{POS}&7 順位.
+    &7輸入 &f/leavequeue&7 或 &f<click:run_command:/leavequeue {SERVERNAME}>點擊這裡</click>&7 來離開隊列!
+  now-in-empty-queue: ''
+  sending-now: '&a現在傳送你到 &f{SERVER} &a中..'
+errors:
+  server-not-exist: '&c伺服器 {SERVER} 並不存在!'
+  already-queued: '&c你已經在排該伺服器的隊伍!'
+  player-only: '&c這個指令只能由玩家執行!'
+  already-connected: '&c你已經連接到此伺服器!'
+  cant-join-paused: '&c你不能加入 {SERVER} 的排隊之中, 因為它已被暫停.'
+  deny-joining-from-server: '&c你不允許加入此伺服器的隊列中!'
+  wrong-version:
+    base: <red>你必須在 {VERSIONS} 版本才能加入這個伺服器!
+    or: ' 或 '
+    comma: ', '
+commands:
+  leave-queue: '&a你離開了 {SERVER} 的排隊!'
+  reload: '&a設定和語言檔已成功重新加載!'
+  joinqueue:
+    usage: '&c用法: /joinqueue <server>'
+  kick:
+    usage: '<red>用法: /ajqueue kick <player> [queue]'
+    no-player: '&c無法找到 {PLAYER}! 請確認它們在隊列中!'
+    unknown-server: '&c無法找到隊列 {QUEUE}. 請確定你拼寫的正確!'
+    success: <green>踢出 <white>{PLAYER} <green>從 {NUM} 隊列中!
+  leave:
+    more-args: '&c請指定你要離開的隊列! &7你目前在這些隊列中: {QUEUES}'
+    queues-list-format: '&f{NAME}&7, '
+    not-queued: '&c你沒有在排該伺服器的隊伍! &7你在這些隊列中: {QUEUES}'
+    no-queues: '&c你沒有在排隊!'
+  pause:
+    more-args: '&c用法: /ajqueue pause <server> [on/off]'
+    no-server: '&c這個伺服器並不存在!'
+    success: '&a隊列為 &f{SERVER} &a現在已被 {PAUSED}'
+    paused:
+      'true': '&e暫停'
+      'false': '&a取消暫停'
+  send:
+    player-not-found: '&c找不到那個玩家. 請確定它們在線上!'
+    usage: '<red>用法: /ajqueue send <player> <server>'
+  listqueues:
+    header: '&9隊列:'
+    format: '<hover:show_text:''&7狀態: {STATUS}''>{COLOR}{NAME}&7: {COUNT} 排隊中</hover>'
+noperm: '&c你沒有權限做這個!'
+format:
+  time:
+    mins: '{m}分 {s}秒'
+    secs: '{s} 秒'
+list:
+  format: '&b{SERVER} &7({COUNT}): {LIST}'
+  playerlist: '&9{NAME}&7, '
+  total: '&7在排隊的總玩家數量: &f{TOTAL}'
+  none: '&7無'
+spigot:
+  actionbar:
+    online: '&7你正在排隊等待 &f{SERVER}&7. &7你目前加入順位是 &f{LEN}&7 人中的第 &f{POS}&7 順位. 預估時間: {TIME}'
+    offline: '&7你正在排隊等待 &f{SERVER}&7. &7你目前加入順位是 &f{LEN}&7 人中的第 &f{POS}&7 順位.'
+send: '&a添加 &f{PLAYER}&a 到 &f{SERVER} &a的隊列中'
+remove: '&a移除 &f{PLAYER} 在它所在的所有隊列.'
+placeholders:
+  queued:
+    none: 無
+  position:
+    none: 無
+title:
+  title: ''
+  subtitle: '<gold>你在第 <green>#{POS} <gold>排隊順位中!'
+max-tries-reached: '&c無法連線到 {SERVER}. 已達到最大重試次數.'
+auto-queued: '&a你已經被自動排 {SERVER} 的隊伍, 因為你已被踢出.'
+velocity-kick-message: '<red>你在嘗試加入 {SERVER} 時被踢除: <white>{REASON}'
+updater:
+  update-available: |-
+    <gray><strikethrough>                                                         <reset>
+    <green>ajQueue 有可用的更新!
+    <dark_green>你可以下載更新 通過 <click:run_command:/ajqueue update><bold>點擊這裡</bold>
+    或執行指令 <gray>/ajQueue update</click>
+    <gray><strikethrough>                                                         <reset>
+  no-update: <red>沒有可用的更新
+  success: <green>更新已下載完成! 現在只需要重啟伺服器
+  fail: <red>下載更新時出現錯誤. 請檢查後台獲取更多資訊.
+  already-downloaded: <red>更新已下載.
