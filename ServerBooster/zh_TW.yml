@@ -1,0 +1,3 @@
+---
+breed-failed-too-many-mobs: "\n&c餵食失敗.\n這個區域內有太多這種類型的怪物.\n&6每格區塊限制: &b{chunk_limit} &7{mob_type} \n&6每格半徑限制: &b{radius_limit} &7{mob_type} &f(半徑: {radius_size} 方塊)&c.\n嘗試遠離這裡在餵食動物 (你可以嘗試遠離 &b{blocks} 格方塊遠&c)\n\n"
+chunk-too-many-updates: "&c太多 方塊物理 更新 &7(&6{count} 每分鐘&7) &6{coords} &7 座標附近. &c可能包含Lag機器"
