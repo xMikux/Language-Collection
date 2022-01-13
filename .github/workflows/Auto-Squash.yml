@@ -17,7 +17,13 @@ jobs:
     name: Autosquash
     runs-on: ubuntu-latest
     steps:
-      - uses: tibdex/autosquash@v2
-        with:
-          github_token: ${{ secrets.AUTOSQUASH_TOKEN }}
-          label: Suqash
+      - name: AutoSquash & Merge
+        uses: "pascalgn/automerge-action@v0.14.3"
+        env:
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          MERGE_LABELS: "Squash"
+          MERGE_REMOVE_LABELS: "Squash"
+          MERGE_METHOD: "squash"
+          MERGE_FORKS: "false"
+          UPDATE_LABELS: ""
+          UPDATE_METHOD: "rebase"
