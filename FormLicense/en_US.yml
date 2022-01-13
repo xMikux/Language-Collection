@@ -1,0 +1,35 @@
+# FormLicense by poikcue.
+# Active Version: 1.13-1.18.1 (NOT TESTED BETWEEN 1.14 AND 1.17)
+# Report bug: Submit an issue at github.com/poikcue/FormLicense
+# Contact me: poikcue@outlook.com
+# Version:1.3.1
+# WARN: YOU ARE USING BETA VERSION! PLEASE BACK UP!
+FormLicense:
+  HideDevelopmentVersionWarning: false
+  # FormLicense development version warning
+  # This version is alpha,beta or development version.* NOT A OFFICIAL VERSION! *
+  # This means that the version is untested or (possibly) still have bug.
+  # If you modify the plugin and test it yourself, there should be no problem.
+  # If you have any problems with the development version, please submit an issue in GitHub and stop using it immediately. The developer will not bear * any * responsibility for this.
+  # If you want to hide this information, set config.yml 'formlicense 'developmentversion' to false
+PlayerNoLicenseAllow:
+  # If you set TRUE, that means Player without license can't do this.
+  pickup: true
+  UsePortal: true
+  hit:
+    # Umm...Hit means PLAYER WITHOUT LICENSE hit other entity(player,monster,etc.)
+    # Be-hit means OTHER ENTITY hit Player without license.
+    # Added at 1.3.1. If you can hardly understand,contact me :) (at line 4)
+    hit: true
+    be-hit: true
+  target: true
+Message:
+  action-bar-message: "I'm sorry but you don't have license.Please type &a/license &fto check."
+  hit-message:
+    hit-action-bar-message: "You don't have license! Damage has been cancelled."
+    be-hit-action-bar-message: "Oof! You don't have license! Others can't hit you!"
+  no-license-player-join-message: "You don't have license. Some function has been locked."
+  command-with-license: "You don't have license!"
+  command-with-no-license: "You have license!"
+  reload-with-permission: "Successful reload!"
+  reload-with-no-permission: "You can't do this!"
