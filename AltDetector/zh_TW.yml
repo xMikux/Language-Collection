@@ -1,0 +1,34 @@
+---
+#Data expiration time in days
+expiration-time: 60
+#Database type sqlite, mysql
+database-type: sqlite
+mysql:
+  hostname: 127.0.0.1
+  username: username
+  password: password
+  database: databasename
+  prefix: altdetector_
+  port: 3306
+  jdbcurl-properties: ''
+#Convert from yml, sqlite, mysql, none (normally handled automatically)
+convert-from: none
+#Debug SQL statements
+sql-debug: false
+#Messages when player joins the server
+join-player-prefix: "&b[分帳檢測器] "
+join-player: "{0} 可能是分帳, "
+join-player-list: "{0}"
+join-player-separator: ", "
+#Messages for alt command
+altcmd-player: "&c{0}&6可能是分帳, "
+altcmd-player-list: "&c{0}"
+altcmd-player-separator: "&6, "
+altcmd-playernoalts: "&c{0}&6 沒有已知的分帳"
+altcmd-noalts: "&6沒有找到分帳"
+altcmd-playernotfound: "&4{0} 未找到"
+altcmd-paramerror: "&4最多只能指定一名玩家"
+altcmd-noperm: "&4你沒有權限使用此指令"
+#Messages for alt delete command
+delcmd-removedsingular: "&6{0} 的記錄已刪除"
+delcmd-removedplural: "&6{0} 的記錄已刪除"
