@@ -55,12 +55,10 @@ checks:
   fastClimb: A
   #Checks the speeds in some blocks (NoWeb) | A,B
   noWeb: A,B
-  #Checks the speed of sending packets (Timer) | A
-  morePackets: A
   #Checks sending bad packets (NoFall, Speed, etc) | A,B
   groundSpoof: A,B
-  #Checks the knockback after being hit (AntiKnockback) | A
-  antiKnockback: A
+  #Checks the speed of sending packets (Timer) | A
+  morePackets: A
   #Checks hitting on entities (KillAura, MultiAura, etc) | A,B,C,D
   killAura: A,B,C,D
   #Checks the distance to hit entities (Reach) | A,B
