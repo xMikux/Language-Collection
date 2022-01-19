@@ -18,3 +18,5 @@ files:
     translation: /Slimefun/CrystamaeHistoria/blocks_%locale_with_underscore%.%file_extension%
   - source: /Slimefun/CrystamaeHistoria/generic-stories_en_US.*
     translation: /Slimefun/CrystamaeHistoria/generic-stories_%locale_with_underscore%.%file_extension%
+  - source: /DeluxeHub/en_US_serverselector.*
+    translation: /DeluxeHub/%locale_with_underscore%_serverselector.%file_extension%
