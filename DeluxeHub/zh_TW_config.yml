@@ -78,10 +78,10 @@ scoreboard:
   title: "&d&lDeluxeHub 3 &7(%online%/%online_max%)"
   lines:
     - "&7&m----------------------"
-    - "&e&lPlayer:"
+    - "&e&l玩家:"
     - "  &f%player%"
     - ""
-    - "&e&lRank:"
+    - "&e&l頭銜:"
     - "  &f%vault_rank%"
     - "&7&m----------------------"
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
@@ -102,8 +102,8 @@ tablist:
   #Modify the footer of the tablist
   footer:
     - ""
-    - "&6&lWebsite &fwww.examplemc.net"
-    - "&e&lStore &fbuy.examplemc.net"
+    - "&6&l網站 &fwww.examplemc.net"
+    - "&e&l商店 &fbuy.examplemc.net"
     - ""
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 #| AUTO BROADCAST                           |
@@ -124,17 +124,17 @@ announcements:
   announcements:
     test1:
       - "&r"
-      - "<center>&e&lANNOUNCEMENT</center>"
-      - "<center>&7Rate this plugin 5 stars on Spigot!</center>"
+      - "<center>&e&l公告</center>"
+      - "<center>&7在 Spigot 上給這個插件評分 5 星!</center>"
       - "&r"
     test2:
       - "&r"
-      - "<center>&e&lANNOUNCEMENT</center>"
-      - "<center>&7This plugin was created by &eItsLewizzz</center>"
+      - "<center>&e&l公告</center>"
+      - "<center>&7這個插件由 &eItsLewizzz &r&7製作</center>"
       - "&r"
     test3:
       - "&r"
-      - "<center>&e&lANNOUNCEMENT</center>"
+      - "<center>&e&l公告</center>"
       - "<center>&7Configure these messages in the &bconfig.yml</center>"
       - "&r"
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
