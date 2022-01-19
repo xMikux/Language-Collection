@@ -21,12 +21,12 @@ Player:
 #Sent when the player is AFK long enough for a warning to be sent
 Warning: "&8[&6AFK&4+&8]&p 你很快就會因為暫離而被踢出!"
 Help:
-  Help: "The following is a list of commands and their uses:\n"
-  AFKPlus: "\"/afkplus\"\n Shows plugin information"
-  AFKPlusHelp: "\"/afkplus [help]\"\n Displays all of the commands and their uses"
-  AFKPlusUpdate: "\"/afkplus [update]\"\n Checks for and installs any available update"
-  AFKPlusPlayer: "\"/afkplus player [PlayerName]\"\n Tells you the AFK status of the player, if they are AFK it will also tell you how long they have been AFK"
-  AFK: "\"/afk [PlayerName]\"\n Without a players name this will toggle your AFK status\n With a name it will attempt to toggle that players AFK status"
+  Help: "以下是指令列表與它的用途:\n"
+  AFKPlus: "\"/afkplus\"\n 顯示插件資訊"
+  AFKPlusHelp: "\"/afkplus [help]\"\n 顯示所有指令與它的用途"
+  AFKPlusUpdate: "\"/afkplus [update]\"\n 檢查並安裝所有可用更新"
+  AFKPlusPlayer: "\"/afkplus player [PlayerName]\"\n 告訴你玩家的暫離狀態, 如果它們在暫離也將會告訴你已經暫離了多久"
+  AFK: "\"/afk [PlayerName]\"\n 如果沒有玩家ID, 這將會切換你的暫離狀態\n 使用玩家ID, 它將嘗試切換該玩家的暫離狀態"
 Error:
   MustBePlayer: "&s你必須是玩家才能操作"
   PlayerNotFound: "&s玩家未找到"
