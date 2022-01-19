@@ -218,7 +218,7 @@ formatting:
     WARN: '警告'
     MUTE: '禁言'
     KICK: '已踢出'
-    BAN: 'Banned'
+    BAN: '已封鎖'
   #How should the global scope be displayed?
   global-scope-display: 'All servers'
   #When using /blame, how should the console be specified?
