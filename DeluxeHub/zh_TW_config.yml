@@ -103,7 +103,7 @@ tablist:
   footer:
     - ""
     - "&6&l網站 &fwww.examplemc.net"
-    - "&e&l商店 &fbuy.examplemc.net"
+    - "&e&l商城 &fbuy.examplemc.net"
     - ""
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 #| AUTO BROADCAST                           |
@@ -135,7 +135,7 @@ announcements:
     test3:
       - "&r"
       - "<center>&e&l公告</center>"
-      - "<center>&7Configure these messages in the &bconfig.yml</center>"
+      - "<center>&7在 &bconfig.yml &7中設定這些訊息</center>"
       - "&r"
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 #| LAUNCHPAD                                |
@@ -226,21 +226,21 @@ join_leave_messages:
   #Should deluxehub handle join/quit messages?
   enabled: true
   #Set to '' if you want silent join/quit messages
-  join_message: "&2&l+ &6%player% &7Connected"
-  quit_message: "&4&l- &6%player% &7Disconnected"
+  join_message: "&2&l+ &6%player% &7已連接"
+  quit_message: "&4&l- &6%player% &7已離開"
 #Actions executed upon join
 join_events:
   - "[MESSAGE] &8&m+---------------***---------------+"
   - "[MESSAGE] &r"
-  - "[MESSAGE] &r    &7Welcome, &b&n%player%&r &7to the server"
+  - "[MESSAGE] &r    &7歡迎, &b&n%player%&r &7來到這個伺服器"
   - "[MESSAGE] &r"
-  - "[MESSAGE] &r  &2&lWEBSITE &fwww.examplemc.net"
-  - "[MESSAGE] &r  &3&lSTORE &fstore.examplemc.net"
+  - "[MESSAGE] &r  &2&l網站 &fwww.examplemc.net"
+  - "[MESSAGE] &r  &3&l商城 &fstore.examplemc.net"
   - "[MESSAGE] &r  &9&lDISCORD &fdiscord.examplemc.net"
   - "[MESSAGE] &r"
-  - "[MESSAGE] &r            &7&oPowered By DeluxeHub"
+  - "[MESSAGE] &r            &7&o由 DeluxeHub 提供技術"
   - "[MESSAGE] &8&m+---------------***---------------+"
-  - "[TITLE] &b&lWELCOME;&f%player%;1;2;1"
+  - "[TITLE] &b&l歡迎;&f%player%;1;2;1"
   - "[SOUND] ENTITY_PLAYER_LEVELUP"
   - "[GAMEMODE] survival"
   - "[EFFECT] SPEED;1"
@@ -278,24 +278,24 @@ custom_join_items:
       material: BOOK
       amount: 1
       slot: 0
-      display_name: "&dServer Information"
+      display_name: "&d伺服器資訊"
       lore:
         - "&7Right-click to see information about the server!"
       actions:
         - "[MESSAGE] &r"
-        - "[MESSAGE] &e&lServer Information"
+        - "[MESSAGE] &e&l伺服器資訊"
         - "[MESSAGE] &r"
-        - "[MESSAGE] &bWebsite: &fwww.examplemc.net"
-        - "[MESSAGE] &cStore: &fbuy.examplemc.net"
+        - "[MESSAGE] &b網站: &fwww.examplemc.net"
+        - "[MESSAGE] &c商城: &fbuy.examplemc.net"
         - "[MESSAGE] &dDiscord: &fdiscord.examplemc.net"
         - "[MESSAGE] &r"
     server_selector:
       material: NETHER_STAR
       amount: 1
       slot: 4
-      display_name: "&eServer Selector"
+      display_name: "&e伺服器選單"
       lore:
-        - "&7Right-click to open the server selector!"
+        - "&7右鍵打開伺服器選單!"
       actions:
         - "[MENU] serverselector"
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
