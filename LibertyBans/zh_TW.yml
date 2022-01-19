@@ -125,13 +125,13 @@ additions:
     usage: '&cUsage: /ban &e<player> [time] <reason>&c.'
     layout:
       - '&7&lBanned&f'
-      - '&cDuration: &e%TIME_REMAINING%&f'
+      - '&c持續時間: &e%TIME_REMAINING%&f'
       - ''
-      - '&c&lReason&f'
+      - '&c&l原因&f'
       - '&7%REASON%&f'
       - ''
       - '&3&lAppeal Your Punishment&f'
-      - '&cWebsite: &7website&f'
+      - '&c網站: &7website&f'
       - '&cDiscord: &7discord'
     permission:
       duration: '&cYou may not do this for &e%DURATION%&c.'
@@ -164,7 +164,7 @@ additions:
     layout:
       - '&7&lKicked&f'
       - ''
-      - '&c&lReason&f'
+      - '&c&l原因&f'
       - '&7%REASON%'
     permission:
       both: '&cYou may not do this to players and their IP addresses.'
@@ -211,13 +211,13 @@ formatting:
   punishment-type-display:
     WARN: 'Warn'
     MUTE: 'Mute'
-    KICK: 'Kick'
-    BAN: 'Ban'
+    KICK: '踢出'
+    BAN: '封鎖'
   #How should punishment types be displayed as a verb? Used for the %TYPE_VERB% variable.
   punishment-type-verb-display:
-    WARN: 'Warned'
-    MUTE: 'Muted'
-    KICK: 'Kicked'
+    WARN: '警告'
+    MUTE: '禁言'
+    KICK: '已踢出'
     BAN: 'Banned'
   #How should the global scope be displayed?
   global-scope-display: 'All servers'
