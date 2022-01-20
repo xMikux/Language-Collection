@@ -29,7 +29,7 @@
 #Slots of the GUI
 slots: 27
 #Title of the GUI
-title: "Server Selector"
+title: "伺服器選單"
 #Automatically update open inventories.
 #This can be used to update placeholders in the GUI.
 refresh:
@@ -45,13 +45,13 @@ items:
     slot: 11
     amount: 1
     glow: true
-    display_name: '&eFactions'
+    display_name: '&e派系伺服器'
     lore:
-      - '&7Join now!'
-      - '&aPlaceholderAPI support!'
+      - '&7現在加入吧!'
+      - '&aPlaceholderAPI 支持!'
     actions:
       - '[CLOSE]'
-      - '[MESSAGE] &7Sending you to: &eFactions'
+      - '[MESSAGE] &7傳送你到: &e派系伺服器'
       - '[BUNGEE] factions'
   #For multi-world servers using Multiverse-Core, use the action:
   #- '[CONSOLE] mvtp %player% world'
@@ -60,11 +60,11 @@ items:
     slot: 15
     amount: 1
     glow: false
-    display_name: '&aSurvival'
+    display_name: '&a生存伺服器'
     lore:
-      - '&7Join now!'
-      - '&aMulti lore support too!'
+      - '&7現在加入吧!'
+      - '&a多行描述支持!'
     actions:
       - '[CLOSE]'
-      - '[MESSAGE] &7Sending you to: &eSurvival'
+      - '[MESSAGE] &7傳送你到: &e生存伺服器'
       - '[BUNGEE] survival'
