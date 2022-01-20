@@ -124,13 +124,13 @@ additions:
       message: '&aBanned &c&o%VICTIM%&a for &o%DURATION%&r&a because of &e&o%REASON%&a.'
     usage: '&cUsage: /ban &e<player> [time] <reason>&c.'
     layout:
-      - '&7&lBanned&f'
+      - '&7&l已封鎖&f'
       - '&c持續時間: &e%TIME_REMAINING%&f'
       - ''
       - '&c&l原因&f'
       - '&7%REASON%&f'
       - ''
-      - '&3&lAppeal Your Punishment&f'
+      - '&3&l上訴你的懲罰&f'
       - '&c網站: &7website&f'
       - '&cDiscord: &7discord'
     permission:
@@ -157,12 +157,12 @@ additions:
       ip-address: '&cYou may not do this to IP addresses.'
   kicks:
     success:
-      notification: '&c&o%OPERATOR%&7 kicked &c&o%VICTIM%&7 because of &e&o%REASON%&7.'
+      notification: '&c&o%OPERATOR%&7 已被踢出 &c&o%VICTIM%&7 因為 &e&o%REASON%&7.'
       message: '&aKicked &c&o%VICTIM%&a because of &e&o%REASON%&a.'
-    must-be-online: '&c&o%TARGET%&7 must be online.'
-    usage: '&cUsage: /kick &e<player> <reason>&c.'
+    must-be-online: '&c&o%TARGET%&7 必須在線上.'
+    usage: '&c用法: /kick &e<player> <reason>&c.'
     layout:
-      - '&7&lKicked&f'
+      - '&7&l已踢出&f'
       - ''
       - '&c&l原因&f'
       - '&7%REASON%'
