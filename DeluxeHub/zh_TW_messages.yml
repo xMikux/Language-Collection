@@ -5,10 +5,10 @@
 Messages:
   GENERAL:
     PREFIX: "&dDeluxeHub &8❙"
-    NO_PERMISSION: "%prefix% &cYou are forbidden to use this."
-    CUSTOM_COMMAND_NO_PERMISSION: "&cYou are not allowed to execute this command."
-    INVALID_PLAYER: "%prefix% &c%player% is not online!"
-    CONFIG_RELOAD: "%prefix% &aAll configuration files has been reloaded in &7%time%ms"
+    NO_PERMISSION: "%prefix% &c你沒有權限做這個."
+    CUSTOM_COMMAND_NO_PERMISSION: "&c你無法執行此指令."
+    INVALID_PLAYER: "%prefix% &c%player% 並不在線上!"
+    CONFIG_RELOAD: "%prefix% &a所有設定檔案已在 &7%time%ms 中重新加載"
     COOLDOWN_ACTIVE: "%prefix% &cYou must wait &e%time%s &cbefore doing this again!"
   GAMEMODE:
     GAMEMODE_CHANGE: "%prefix% &7You have changed gamemode to &a%gamemode%"
