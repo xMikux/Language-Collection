@@ -64,16 +64,16 @@ lists:
     noPages: '&c&o%TARGET%&7 沒有警告.'
     maxPages: '&7Page &e%PAGE%&7 does not exist.'
     permission:
-      command: '&7You may not view warns.'
+      command: '&7你可能沒有權限查看警告.'
     layout:
-      header: '&7[&eID&7] Operator &8/ &7Reason &8/ &7Time Remaining&f'
+      header: '&7[&eID&7] 執行者 &8/ &7原因 &8/ &7剩餘時間&f'
       body: '&7[&e%ID%&7] %OPERATOR% &8/ &7%REASON% &8/ &7%TIME_REMAINING%&f'
-      footer: '&7Page &e%PAGE%&7.||ttp:Click for next page||cmd:/libertybans warns %TARGET% %NEXTPAGE%'
-    usage: '&cUsage: /warns &e<player> [page]'
+      footer: '&7頁面 &e%PAGE%&7.||ttp:點擊到下一頁||cmd:/libertybans warns %TARGET% %NEXTPAGE%'
+    usage: '&c用法: /warns &e<player> [page]'
   blame:
     perPage: 10
     noPages: '&c&o%TARGET%&7 has not punished any players.'
-    maxPages: '&7Page &e%PAGE%&7 does not exist.'
+    maxPages: '&7頁面 &e%PAGE%&7 並不存在.'
     permission:
       command: '&7You may not use blame.'
     layout:
@@ -84,7 +84,7 @@ lists:
         - '&7[&e%ID%&7] &e&o%VICTIM% &8 / &7%TYPE%&f'
         - '&7%REASON% &8/ &7%START_DATE%&f'
       footer: '&7Page &e%PAGE%&7.||ttp:Click for next page||cmd:/libertybans warns %TARGET% %NEXTPAGE%'
-    usage: '&cUsage: /blame &e<player> [page]'
+    usage: '&c用法: /blame &e<player> [page]'
   history:
     perPage: 10
     noPages: '&c&o%TARGET%&7 has no history.'
@@ -143,12 +143,12 @@ additions:
     success:
       notification: '&c&o%OPERATOR%&7 muted &c&o%VICTIM%&7 for &a&o%DURATION%&7 because of &e&o%REASON%&7.'
       message: '&aMuted &c&o%VICTIM%&a for &o%DURATION%&r&a because of &e&o%REASON%&a.'
-    usage: '&cUsage: /mute &e<player> [time] <reason>&c.'
+    usage: '&c用法: /mute &e<player> [time] <reason>&c.'
     layout:
-      - '&7&lMuted&f'
-      - '&cDuration: &e%TIME_REMAINING%&f'
+      - '&7&l已禁言&f'
+      - '&c持續時間: &e%TIME_REMAINING%&f'
       - ''
-      - '&c&lReason&f'
+      - '&c&l原因&f'
       - '&7%REASON%'
     permission:
       duration: '&cYou may not do this for &e%DURATION%&c.'
@@ -176,8 +176,8 @@ additions:
       message: '&aWarned &c&o%VICTIM%&a for &o%DURATION%&r&a because of &e&o%REASON%&a.'
     usage: '&cUsage: /warn &e<player> [time] <reason>&c.'
     layout:
-      - '&7&lWarned&f'
-      - '&cDuration: &e%TIME_REMAINING%&f'
+      - '&7&l已警告&f'
+      - '&c持續時間: &e%TIME_REMAINING%&f'
       - ''
       - '&c&l原因&f'
       - '&7%REASON%'
@@ -191,7 +191,7 @@ formatting:
   #How should 'permanent' be displayed as a length of time?
   permanent-display:
     #When does a permanent punishment end?
-    absolute: 'Never'
+    absolute: '永不'
     #What do you call a permanent duration?
     duration: '無限'
     #How do you describe the time remaining in a permanent punishment?
@@ -255,10 +255,10 @@ misc:
   sync-chat-denial-message: '&cSynchronous chat denied. &7Please try again.'
 admin:
   importing:
-    failure: '&cImport failed. View the server console for details.'
-    started: '&7Import has started. View your server console for details and progress.'
-    complete: '&7Import completed.'
-    usage: '&cUsage: /libertybans import <advancedban|litebans|vanilla>'
+    failure: '&c導入失敗. 請查看伺服器後台了解更多詳細訊息.'
+    started: '&7導入開始. 查看伺服器後台以了解詳細訊息及進度.'
+    complete: '&7導入完成.'
+    usage: '&c用法: /libertybans import <advancedban|litebans|vanilla>'
     #To prevent mistakes, it is not allowed to import multiple times at once.
     in-progress: '&cThere is already an import in progress.'
   ellipses: '&a...'
@@ -279,7 +279,7 @@ alts:
       - '&7Mere possibility - Linked to banned player by common past address'
     permission: '&cYou may not check alts.'
     none-found: '&7No alt accounts found'
-    usage: '&cUsage: /alts &e<player>&c.'
+    usage: '&c用法: /alts &e<player>&c.'
   formatting:
     #The description for an alt account detected by strict detection.
     strict: '&eMere possibility'
@@ -313,7 +313,7 @@ account-history:
     permission: '&cYou may not delete recorded accounts.'
     no-such-account: '&c%TARGET% has no recorded account for the specified timestamp.'
     usage:
-      - '&cUsage: /accounthistory delete <user> <timestamp>.&f'
+      - '&c用法: /accounthistory delete <user> <timestamp>.&f'
       - '&7The timestamp is in unix seconds and is usually obtained from /accounthistory list'
     success: '&7Successfully deleted the recorded account of &e%TARGET%'
   #Regards /accounthistory list <user>
@@ -322,7 +322,7 @@ account-history:
     header: '&7Known accounts report for &c&o%TARGET%&7 follows.'
     permission: '&cYou may not list recorded accounts.'
     none-found: '&7No recorded accounts found'
-    usage: '&cUsage: /accounthistory list <user|ip>'
+    usage: '&c用法: /accounthistory list <user|ip>'
     #How a single recorded account should be displayed
     #Available variables:
     #%TARGET% - the original input to the command
@@ -331,36 +331,36 @@ account-history:
     #%DATE_RECORDED% - the date the join was recorded
     #%DATE_RECORDED_RAW% - the raw timestamp the join was recorded
     layout: '%USERNAME% &7(on %ADDRESS%) at %DATE_RECORDED% (%DATE_RECORDED_RAW%)||ttp:&7Click to delete this stored account||cmd:/accounthistory delete %TARGET% %DATE_RECORDED_RAW%'
-  usage: '&cUsage: /accounthistory <delete|list>'
+  usage: '&c用法: /accounthistory <delete|list>'
 #Regards /unban, /unmute, /unwarn
 removals:
   bans:
-    not-found: '&c&o%TARGET%&7 is not banned.'
+    not-found: '&c&o%TARGET%&7 並未被封鎖.'
     success:
-      notification: '&c&o%UNOPERATOR%&7 unbanned &c&o%VICTIM%&7.'
-      message: '&7Unbanned &c&o%VICTIM%&7.'
-    usage: '&cUsage: /unban &e<player>&c.'
+      notification: '&c&o%UNOPERATOR%&7 解除封鎖 &c&o%VICTIM%&7.'
+      message: '&7解除封鎖 &c&o%VICTIM%&7.'
+    usage: '&c用法: /unban &e<player>&c.'
     permission:
       both: '&cYou may not do this to players and their IP addresses.'
       uuid: '&cYou may not do this to players.'
       ip-address: '&cYou may not do this to IP addresses.'
   mutes:
-    not-found: '&c&o%TARGET%&7 is not muted.'
+    not-found: '&c&o%TARGET%&7 並未被禁言.'
     success:
-      notification: '&c&o%UNOPERATOR%&7 unmuted &c&o%VICTIM%&7.'
-      message: '&7Unmuted &c&o%VICTIM%&7.'
-    usage: '&cUsage: /unmute &e<player>&c.'
+      notification: '&c&o%UNOPERATOR%&7 解除禁言 &c&o%VICTIM%&7.'
+      message: '&7解除禁言 &c&o%VICTIM%&7.'
+    usage: '&c用法: /unmute &e<player>&c.'
     permission:
       both: '&cYou may not do this to players and their IP addresses.'
       uuid: '&cYou may not do this to players.'
       ip-address: '&cYou may not do this to IP addresses.'
   warns:
-    not-a-number: '&c&o%ID_ARG%&7 is not a number.'
+    not-a-number: '&c&o%ID_ARG%&7 並不是數字.'
     not-found: '&c&o%TARGET%&7 does not have a warn by &c&o%ID%&7.'
     success:
-      notification: '&c&o%UNOPERATOR%&7 unwarned &c&o%VICTIM%&7.'
-      message: '&7Unwarned &c&o%VICTIM%&7.'
-    usage: '&cUsage: /unwarn &e<player> <id>&c.'
+      notification: '&c&o%UNOPERATOR%&7 取消警告 &c&o%VICTIM%&7.'
+      message: '&7取消警告 &c&o%VICTIM%&7.'
+    usage: '&c用法: /unwarn &e<player> <id>&c.'
     permission:
       both: '&cYou may not do this to players and their IP addresses.'
       uuid: '&cYou may not do this to players.'
