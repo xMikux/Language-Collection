@@ -210,7 +210,7 @@ formatting:
   #How should punishment types be displayed?
   punishment-type-display:
     WARN: '警告'
-    MUTE: 'Mute'
+    MUTE: '禁言'
     KICK: '踢出'
     BAN: '封鎖'
   #How should punishment types be displayed as a verb? Used for the %TYPE_VERB% variable.
@@ -220,10 +220,10 @@ formatting:
     KICK: '已踢出'
     BAN: '已封鎖'
   #How should the global scope be displayed?
-  global-scope-display: 'All servers'
+  global-scope-display: '所有伺服器'
   #When using /blame, how should the console be specified?
   console-arguments:
-    - 'console'
+    - '後台'
   #There are 2 ways to make permanent punishments. The first is to not specify a time (/ban <player> <reason>).
   #The second is to specify a permanent amount of time (/ban <player> perm <reason>).
   #When typing commands, what time arguments will be counted as permanent?
@@ -236,20 +236,20 @@ misc:
   time:
     grammar:
       #What should come before the last fragment? Set to empty text to disable
-      and: 'and '
+      and: '和 '
       #If enabled, places commas after each time fragment, except the last one
       comma: true
     #Times are formatted to seconds accuracy, but you may not want to display seconds
     #for most times. However, for very small durations, you need to display a value in seconds.
     #If you are using SECONDS in the above section, this value is meaningless.
-    fallback-seconds: '%VALUE% seconds'
+    fallback-seconds: '%VALUE% 秒'
     fragments:
-      YEARS: '%VALUE% years'
-      MONTHS: '%VALUE% months'
-      HOURS: '%VALUE% hours'
-      WEEKS: '%VALUE% weeks'
-      DAYS: '%VALUE% days'
-      MINUTES: '%VALUE% minutes'
+      YEARS: '%VALUE% 年'
+      MONTHS: '%VALUE% 月'
+      HOURS: '%VALUE% 小時'
+      WEEKS: '%VALUE% 周'
+      DAYS: '%VALUE% 天'
+      MINUTES: '%VALUE% 分'
   unknown-error: '&cAn unknown error occurred.'
   #Only applicable if synchronous enforcement strategy is DENY in the main config
   sync-chat-denial-message: '&cSynchronous chat denied. &7Please try again.'
