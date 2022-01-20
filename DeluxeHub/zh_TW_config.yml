@@ -280,7 +280,7 @@ custom_join_items:
       slot: 0
       display_name: "&d伺服器資訊"
       lore:
-        - "&7Right-click to see information about the server!"
+        - "&7右鍵來查看此伺服器的資訊!"
       actions:
         - "[MESSAGE] &r"
         - "[MESSAGE] &e&l伺服器資訊"
@@ -314,12 +314,12 @@ player_hider:
   not_hidden:
     material: LIME_DYE
     amount: 1
-    display_name: '&dPlayers &8&l> &aShown &7(Right-Click)'
+    display_name: '&d玩家顯示 &8&l> &a顯示 &7(右鍵點擊)'
     lore:
-      - '&7Click to hide all players!'
+      - '&7點擊來隱藏所有玩家顯示!'
   hidden:
     material: GRAY_DYE
     amount: 1
-    display_name: '&dPlayers &8&l> &cHidden &7(Right-Click)'
+    display_name: '&d玩家顯示 &8&l> &c隱藏 &7(右鍵點擊)'
     lore:
-      - '&7Click to show all players!'
+      - '&7點擊來取消隱藏所有玩家!'
