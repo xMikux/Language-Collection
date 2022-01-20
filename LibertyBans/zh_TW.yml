@@ -31,37 +31,37 @@
 lists:
   ban-list:
     perPage: 10
-    noPages: '&7There are no active bans.'
-    maxPages: '&7Page &e%PAGE%&7 does not exist.'
+    noPages: '&7沒有啟用的封鎖.'
+    maxPages: '&7頁面 &e%PAGE%&7 並不存在.'
     permission:
-      command: '&7You may not view the banlist.'
+      command: '&7你可能無法查看封鎖列表.'
     layout:
       header:
         - '&7[&eID&7] &e&oSubject&f'
-        - '&7Operator &8/ &7Reason &8/ &7Time Remaining&f'
+        - '&7執行者 &8/ &7原因 &8/ &7剩餘時間&f'
       body:
         - '&7[&e%ID%&7] &e&o%VICTIM%&f'
         - '&7%OPERATOR% &8/ &7%REASON% &8/ &7%TIME_REMAINING%&f'
-      footer: '&7Page &e%PAGE%&7.||ttp:Click for next page||cmd:/libertybans banlist %NEXTPAGE%'
-    usage: '&cUsage: /banlist &e[page]'
+      footer: '&7頁面 &e%PAGE%&7.||ttp:點擊到下一頁||cmd:/libertybans banlist %NEXTPAGE%'
+    usage: '&c用法: /banlist &e[page]'
   mute-list:
     perPage: 10
-    noPages: '&7There are no active mutes.'
-    maxPages: '&7Page &e%PAGE%&7 does not exist.'
+    noPages: '&7沒有啟用的禁言.'
+    maxPages: '&7頁面 &e%PAGE%&7 並不存在.'
     permission:
-      command: '&7You may not view the mutelist.'
+      command: '&7你可能無法查看禁言列表.'
     layout:
       header:
         - '&7[&eID&7] &e&oSubject&f'
-        - '&7Operator &8/ &7Reason &8/ &7Time Remaining&f'
+        - '&7執行者 &8/ &7原因 &8/ &7剩餘時間&f'
       body:
         - '&7[&e%ID%&7] &e&o%VICTIM%&f'
         - '&7%OPERATOR% &8/ &7%REASON% &8/ &7%TIME_REMAINING%&f'
-      footer: '&7Page &e%PAGE%&7.||ttp:Click for next page||cmd:/libertybans mutelist %NEXTPAGE%'
-    usage: '&cUsage: /mutelist &e[page]'
+      footer: '&7頁面 &e%PAGE%&7.||ttp:點擊到下一頁||cmd:/libertybans mutelist %NEXTPAGE%'
+    usage: '&c用法: /mutelist &e[page]'
   warns:
     perPage: 10
-    noPages: '&c&o%TARGET%&7 has no warns.'
+    noPages: '&c&o%TARGET%&7 沒有警告.'
     maxPages: '&7Page &e%PAGE%&7 does not exist.'
     permission:
       command: '&7You may not view warns.'
@@ -112,13 +112,13 @@ all:
     uuid: '&c&o%TARGET%&7 is not a valid uuidField.'
     player: '&c&o%TARGET%&7 was not found online or offline.'
   #If a player types /libertybans but does not have the permission 'libertybans.commands', this is the denial message
-  base-permission-message: '&cYou may not use this.'
+  base-permission-message: '&c你不能使用這個.'
   usage: '&cUnknown sub command. Displaying usage:'
 #Messages regarding /ban, /mute, /warn, /kick
 #Includes punishment layouts
 additions:
   bans:
-    conflicting: '&c&o%TARGET%&7 is already banned.'
+    conflicting: '&c&o%TARGET%&7 已經被封鎖.'
     success:
       notification: '&c&o%OPERATOR%&7 banned &c&o%VICTIM%&7 for &a&o%DURATION%&7 because of &e&o%REASON%&7.'
       message: '&aBanned &c&o%VICTIM%&a for &o%DURATION%&r&a because of &e&o%REASON%&a.'
@@ -206,10 +206,10 @@ formatting:
     #How do you describe a punishment which is not expired?
     not-expired: 'Not expired'
   #How should the console be displayed?
-  console-display: 'Console'
+  console-display: '後台'
   #How should punishment types be displayed?
   punishment-type-display:
-    WARN: 'Warn'
+    WARN: '警告'
     MUTE: 'Mute'
     KICK: '踢出'
     BAN: '封鎖'
