@@ -9,7 +9,7 @@ Messages:
     CUSTOM_COMMAND_NO_PERMISSION: "&c你無法執行此指令."
     INVALID_PLAYER: "%prefix% &c%player% 並不在線上!"
     CONFIG_RELOAD: "%prefix% &a所有設定檔案已在 &7%time%ms 中重新加載"
-    COOLDOWN_ACTIVE: "%prefix% &c你必須等待 &e%time%s &c後再做一次!"
+    COOLDOWN_ACTIVE: "%prefix% &c你必須等待 &e%time%s &c後再試一次!"
   GAMEMODE:
     GAMEMODE_CHANGE: "%prefix% &7你已將遊戲模式更改成 &a%gamemode%"
     GAMEMODE_CHANGE_OTHER: "%prefix% &7你已將&e%player% &7的遊戲模式更改成 &a%gamemode%  "
