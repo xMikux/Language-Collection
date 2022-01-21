@@ -37,7 +37,7 @@ lists:
       command: '&7你可能無法查看封鎖列表.'
     layout:
       header:
-        - '&7[&eID&7] &e&oSubject&f'
+        - '&7[&eID&7] &e&o受罰者&f'
         - '&7執行者 &8/ &7原因 &8/ &7剩餘時間&f'
       body:
         - '&7[&e%ID%&7] &e&o%VICTIM%&f'
@@ -52,7 +52,7 @@ lists:
       command: '&7你可能無法查看禁言列表.'
     layout:
       header:
-        - '&7[&eID&7] &e&oSubject&f'
+        - '&7[&eID&7] &e&o受罰者&f'
         - '&7執行者 &8/ &7原因 &8/ &7剩餘時間&f'
       body:
         - '&7[&e%ID%&7] &e&o%VICTIM%&f'
@@ -62,7 +62,7 @@ lists:
   warns:
     perPage: 10
     noPages: '&c&o%TARGET%&7 沒有警告.'
-    maxPages: '&7Page &e%PAGE%&7 does not exist.'
+    maxPages: '&7頁面 &e%PAGE%&7 並不存在.'
     permission:
       command: '&7你可能沒有權限查看警告.'
     layout:
@@ -72,34 +72,34 @@ lists:
     usage: '&c用法: /warns &e<player> [page]'
   blame:
     perPage: 10
-    noPages: '&c&o%TARGET%&7 has not punished any players.'
+    noPages: '&c&o%TARGET%&7 沒有懲罰過任何玩家.'
     maxPages: '&7頁面 &e%PAGE%&7 並不存在.'
     permission:
-      command: '&7You may not use blame.'
+      command: '&7你不能使用責備.'
     layout:
       header:
-        - '&7[&eID&7] &e&oSubject &8/ &7Punishment Type&f'
-        - '&7Reason &8/ &7Date Enacted&f'
+        - '&7[&eID&7] &e&o受罰者 &8/ &7懲罰類型&f'
+        - '&7原因 &8/ &7懲罰日期&f'
       body:
         - '&7[&e%ID%&7] &e&o%VICTIM% &8 / &7%TYPE%&f'
         - '&7%REASON% &8/ &7%START_DATE%&f'
-      footer: '&7Page &e%PAGE%&7.||ttp:Click for next page||cmd:/libertybans warns %TARGET% %NEXTPAGE%'
+      footer: '&7頁面 &e%PAGE%&7.||ttp:點擊到下一頁||cmd:/libertybans warns %TARGET% %NEXTPAGE%'
     usage: '&c用法: /blame &e<player> [page]'
   history:
     perPage: 10
-    noPages: '&c&o%TARGET%&7 has no history.'
-    maxPages: '&7Page &e%PAGE%&7 does not exist.'
+    noPages: '&c&o%TARGET%&7 沒有歷史記錄.'
+    maxPages: '&7頁面 &e%PAGE%&7 並不存在.'
     permission:
-      command: '&7You may not view history.'
+      command: '&7你可能沒有權限查看歷史記錄.'
     layout:
       header:
-        - '&7[&eID&7] &8/ &7Punishment Type&f'
-        - '&7Operator &8/ &7Reason &8/ &7Date Enacted&f'
+        - '&7[&eID&7] &8/ &7懲罰類型&f'
+        - '&7執行者 &8/ &7原因 &8/ &7懲罰日期&f'
       body:
         - '&7[&e%ID%&7] / %TYPE%&f'
         - '&7%OPERATOR% &8/ &7%REASON% &8/ &7%START_DATE%&f'
-      footer: '&7Page &e%PAGE%&7.||ttp:Click for next page||cmd:/libertybans history %TARGET% %NEXTPAGE%'
-    usage: '&cUsage: /history &e<player> [page]'
+      footer: '&7頁面 &e%PAGE%&7.||ttp:點擊到下一頁||cmd:/libertybans history %TARGET% %NEXTPAGE%'
+    usage: '&c用法: /history &e<player> [page]'
 all:
   prefix:
     #If enabled, all messages will be prefixed
@@ -108,21 +108,21 @@ all:
     value: '&6&lLibertyBans &8»&7 '
   #When issuing commands, if the specified player or IP was not found, what should the error message be?
   not-found:
-    player-or-address: '&c&o%TARGET%&7 was not found online or offline, and is not a valid IP address.'
-    uuid: '&c&o%TARGET%&7 is not a valid uuidField.'
-    player: '&c&o%TARGET%&7 was not found online or offline.'
+    player-or-address: '&c&o%TARGET%&7 並未被找到在線上或離線, 且並不是一個有效的 IP 位置.'
+    uuid: '&c&o%TARGET%&7 並不是有效的 uuid 字串.'
+    player: '&c&o%TARGET%&7 並未找到在線上或離線.'
   #If a player types /libertybans but does not have the permission 'libertybans.commands', this is the denial message
   base-permission-message: '&c你不能使用這個.'
-  usage: '&cUnknown sub command. Displaying usage:'
+  usage: '&c未知的子指令. 顯示使用方法:'
 #Messages regarding /ban, /mute, /warn, /kick
 #Includes punishment layouts
 additions:
   bans:
     conflicting: '&c&o%TARGET%&7 已經被封鎖.'
     success:
-      notification: '&c&o%OPERATOR%&7 banned &c&o%VICTIM%&7 for &a&o%DURATION%&7 because of &e&o%REASON%&7.'
-      message: '&aBanned &c&o%VICTIM%&a for &o%DURATION%&r&a because of &e&o%REASON%&a.'
-    usage: '&cUsage: /ban &e<player> [time] <reason>&c.'
+      notification: '&c&o%OPERATOR%&7 已封鎖 &c&o%VICTIM%&7 因為 &e&o%REASON%&7, 懲罰時間為 &a&o%DURATION%&7.'
+      message: '&a已封鎖 &c&o%VICTIM%&a 因為 &e&o%REASON%&a, 懲罰時間為 &o%DURATION%&r&a.'
+    usage: '&c用法: /ban &e<player> [time] <reason>&c.'
     layout:
       - '&7&l已封鎖&f'
       - '&c持續時間: &e%TIME_REMAINING%&f'
@@ -134,15 +134,15 @@ additions:
       - '&c網站: &7website&f'
       - '&cDiscord: &7discord'
     permission:
-      duration: '&cYou may not do this for &e%DURATION%&c.'
-      both: '&cYou may not do this to players and their IP addresses.'
-      uuid: '&cYou may not do this to players.'
-      ip-address: '&cYou may not do this to IP addresses.'
+      duration: '&c你不能設置持續時間為 &e%DURATION%&c.'
+      both: '&c你不能對玩家與它們的 IP 位置執行此操作.'
+      uuid: '&c你不能對玩家執行此操作.'
+      ip-address: '&c你不能對 IP 位置執行此操作.'
   mutes:
-    conflicting: '&c&o%TARGET%&7 is already muted.'
+    conflicting: '&c&o%TARGET%&7 已經被禁言.'
     success:
-      notification: '&c&o%OPERATOR%&7 muted &c&o%VICTIM%&7 for &a&o%DURATION%&7 because of &e&o%REASON%&7.'
-      message: '&aMuted &c&o%VICTIM%&a for &o%DURATION%&r&a because of &e&o%REASON%&a.'
+      notification: '&c&o%OPERATOR%&7 已禁言 &c&o%VICTIM%&7 因為 &e&o%REASON%&7, 懲罰時間為 &a&o%DURATION%&7.'
+      message: '&a已禁言 &c&o%VICTIM%&a 因為 &e&o%REASON%&a, 懲罰時間為 &o%DURATION%&r&a.'
     usage: '&c用法: /mute &e<player> [time] <reason>&c.'
     layout:
       - '&7&l已禁言&f'
@@ -151,14 +151,14 @@ additions:
       - '&c&l原因&f'
       - '&7%REASON%'
     permission:
-      duration: '&cYou may not do this for &e%DURATION%&c.'
-      both: '&cYou may not do this to players and their IP addresses.'
-      uuid: '&cYou may not do this to players.'
-      ip-address: '&cYou may not do this to IP addresses.'
+      duration: '&c你不能設置持續時間為 &e%DURATION%&c.'
+      both: '&c你不能對玩家與它們的 IP 位置執行此操作.'
+      uuid: '&c你不能對玩家執行此操作.'
+      ip-address: '&c你不能對 IP 位置執行此操作.'
   kicks:
     success:
       notification: '&c&o%OPERATOR%&7 已被踢出 &c&o%VICTIM%&7 因為 &e&o%REASON%&7.'
-      message: '&aKicked &c&o%VICTIM%&a because of &e&o%REASON%&a.'
+      message: '&a已踢出 &c&o%VICTIM%&a 因為 &e&o%REASON%&a.'
     must-be-online: '&c&o%TARGET%&7 必須在線上.'
     usage: '&c用法: /kick &e<player> <reason>&c.'
     layout:
@@ -167,14 +167,14 @@ additions:
       - '&c&l原因&f'
       - '&7%REASON%'
     permission:
-      both: '&cYou may not do this to players and their IP addresses.'
-      uuid: '&cYou may not do this to players.'
-      ip-address: '&cYou may not do this to IP addresses.'
+      both: '&c你不能對玩家與它們的 IP 位置執行此操作.'
+      uuid: '&c你不能對玩家執行此操作.'
+      ip-address: '&c你不能對 IP 位置執行此操作.'
   warns:
     success:
-      notification: '&c&o%OPERATOR%&7 warned &c&o%VICTIM%&7 for &a&o%DURATION%&7 because of &e&o%REASON%&7.'
-      message: '&aWarned &c&o%VICTIM%&a for &o%DURATION%&r&a because of &e&o%REASON%&a.'
-    usage: '&cUsage: /warn &e<player> [time] <reason>&c.'
+      notification: '&c&o%OPERATOR%&7 已警告 &c&o%VICTIM%&7 因為 &e&o%REASON%&7, 懲罰時間為 &a&o%DURATION%&7.'
+      message: '&a已警告 &c&o%VICTIM%&a 因為 &e&o%REASON%&a, 懲罰時間為 &o%DURATION%&r&a.'
+    usage: '&c用法: /warn &e<player> [time] <reason>&c.'
     layout:
       - '&7&l已警告&f'
       - '&c持續時間: &e%TIME_REMAINING%&f'
@@ -182,10 +182,10 @@ additions:
       - '&c&l原因&f'
       - '&7%REASON%'
     permission:
-      duration: '&cYou may not do this for &e%DURATION%&c.'
-      both: '&cYou may not do this to players and their IP addresses.'
-      uuid: '&cYou may not do this to players.'
-      ip-address: '&cYou may not do this to IP addresses.'
+      duration: '&c你不能設置持續時間為 &e%DURATION%&c.'
+      both: '&c你不能對玩家與它們的 IP 位置執行此操作.'
+      uuid: '&c你不能對玩家執行此操作.'
+      ip-address: '&c你不能對 IP 位置執行此操作.'
 #Specific formatting options
 formatting:
   #How should 'permanent' be displayed as a length of time?
@@ -260,7 +260,7 @@ admin:
     complete: '&7導入完成.'
     usage: '&c用法: /libertybans import <advancedban|litebans|vanilla>'
     #To prevent mistakes, it is not allowed to import multiple times at once.
-    in-progress: '&cThere is already an import in progress.'
+    in-progress: '&c已經有導入正在進行中.'
   ellipses: '&a...'
   reloaded: '&a已重新加載'
   restarted: '&a已重新啟動'
@@ -282,9 +282,9 @@ alts:
     usage: '&c用法: /alts &e<player>&c.'
   formatting:
     #The description for an alt account detected by strict detection.
-    strict: '&eMere possibility'
+    strict: '&e可能性很低'
     #The description for an alt account detected by normal detection.
-    normal: '&cStrong possibility'
+    normal: '&c可能性很高'
     #In the alt-check layout, the username of the alt may be formatted depending upon whether it is banned
     #For example, the usernames of banned alts may be colored red whereas alts not banned are green
     #Variables: %USERNAME%
@@ -299,29 +299,29 @@ alts:
     #%RELEVANT_USER% - the username of the other account, formatted according to the name-display option
     #%RELEVANT_USERID% - the uuidField of the other account
     #%DATE_RECORDED% - the date the alt account was recorded
-    layout: '%RELEVANT_USER% &7(per %ADDRESS%) 在 %DATE_RECORDED% - %DETECTION_KIND%'
+    layout: '%RELEVANT_USER% &7( %ADDRESS% 每個) 在 %DATE_RECORDED% - %DETECTION_KIND%'
   auto-show:
     #The message to display atop the alt check. Set to an empty string to disable
     header:
-      - '&c&o%TARGET%&7 may be an alt account. Report follows.&f'
-      - '&7Strong possibility - Same address as banned player.&f'
-      - '&7Mere possibility - Linked to banned player by common past address'
+      - '&c&o%TARGET%&7 可能是分帳. 報告如下.&f'
+      - '&7可能性很高 - 與被封鎖的玩家 IP 位置相同.&f'
+      - '&7可能性很低 - 與過去被封鎖的玩家 IP 位置相似'
 #Configuration for the /accounthistory command
 account-history:
   #Pertains to /accounthistory delete <user> <timestamp>
   delete:
-    permission: '&cYou may not delete recorded accounts.'
-    no-such-account: '&c%TARGET% has no recorded account for the specified timestamp.'
+    permission: '&c你可能不行刪除已記錄的帳號.'
+    no-such-account: '&c%TARGET% 沒有在該指定時間戳所記錄的帳號.'
     usage:
       - '&c用法: /accounthistory delete <user> <timestamp>.&f'
-      - '&7The timestamp is in unix seconds and is usually obtained from /accounthistory list'
-    success: '&7Successfully deleted the recorded account of &e%TARGET%'
+      - '&7時間戳是以 unix 秒為單位, 通常從 /accounthistory list 中獲取'
+    success: '&7已成功從帳號 &e%TARGET% &7刪除記錄'
   #Regards /accounthistory list <user>
   listing:
     #The message to display before the account listing. Set to an empty string to disable
     header: '&7Known accounts report for &c&o%TARGET%&7 follows.'
-    permission: '&cYou may not list recorded accounts.'
-    none-found: '&7No recorded accounts found'
+    permission: '&c你可能不能查看已記錄的帳號.'
+    none-found: '&7沒有找到該帳號記錄'
     usage: '&c用法: /accounthistory list <user|ip>'
     #How a single recorded account should be displayed
     #Available variables:
@@ -330,7 +330,7 @@ account-history:
     #%ADDRESS% - the address the player connected with
     #%DATE_RECORDED% - the date the join was recorded
     #%DATE_RECORDED_RAW% - the raw timestamp the join was recorded
-    layout: '%USERNAME% &7(on %ADDRESS%) at %DATE_RECORDED% (%DATE_RECORDED_RAW%)||ttp:&7Click to delete this stored account||cmd:/accounthistory delete %TARGET% %DATE_RECORDED_RAW%'
+    layout: '%USERNAME% &7(在 %ADDRESS%) 在 %DATE_RECORDED% (%DATE_RECORDED_RAW%)||ttp:&7點擊以刪除此儲存的帳號||cmd:/accounthistory delete %TARGET% %DATE_RECORDED_RAW%'
   usage: '&c用法: /accounthistory <delete|list>'
 #Regards /unban, /unmute, /unwarn
 removals:
@@ -341,9 +341,9 @@ removals:
       message: '&7解除封鎖 &c&o%VICTIM%&7.'
     usage: '&c用法: /unban &e<player>&c.'
     permission:
-      both: '&cYou may not do this to players and their IP addresses.'
-      uuid: '&cYou may not do this to players.'
-      ip-address: '&cYou may not do this to IP addresses.'
+      both: '&c你不能對玩家與它們的 IP 位置執行此操作.'
+      uuid: '&c你不能對玩家執行此操作.'
+      ip-address: '&c你不能對 IP 位置執行此操作.'
   mutes:
     not-found: '&c&o%TARGET%&7 並未被禁言.'
     success:
@@ -351,17 +351,17 @@ removals:
       message: '&7解除禁言 &c&o%VICTIM%&7.'
     usage: '&c用法: /unmute &e<player>&c.'
     permission:
-      both: '&cYou may not do this to players and their IP addresses.'
-      uuid: '&cYou may not do this to players.'
-      ip-address: '&cYou may not do this to IP addresses.'
+      both: '&c你不能對玩家與它們的 IP 位置執行此操作.'
+      uuid: '&c你不能對玩家執行此操作.'
+      ip-address: '&c你不能對 IP 位置執行此操作.'
   warns:
     not-a-number: '&c&o%ID_ARG%&7 並不是數字.'
-    not-found: '&c&o%TARGET%&7 does not have a warn by &c&o%ID%&7.'
+    not-found: '&c&o%TARGET%&7 沒有 &c&o%ID% &7的警告.'
     success:
       notification: '&c&o%UNOPERATOR%&7 取消警告 &c&o%VICTIM%&7.'
       message: '&7取消警告 &c&o%VICTIM%&7.'
     usage: '&c用法: /unwarn &e<player> <id>&c.'
     permission:
-      both: '&cYou may not do this to players and their IP addresses.'
-      uuid: '&cYou may not do this to players.'
-      ip-address: '&cYou may not do this to IP addresses.'
+      both: '&c你不能對玩家與它們的 IP 位置執行此操作.'
+      uuid: '&c你不能對玩家執行此操作.'
+      ip-address: '&c你不能對 IP 位置執行此操作.'
