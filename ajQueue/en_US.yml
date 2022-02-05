@@ -40,6 +40,9 @@ commands:
         unknown-server: '&cCould not find queue {QUEUE}. Make sure you spelled it
             correctly!'
         success: <green>Kicked <white>{PLAYER} <green>from {NUM} queue{s}!
+    kickall:
+        usage: '<red>Usage: /ajqueue kickall <queue>'
+        success: <green>Kicked <white>{NUM} <green>player{s} from <white>{SERVER}<green>!
     leave:
         more-args: '&cPlease specify which queue you want to leave! &7You are in these
             queues: {QUEUES}'
