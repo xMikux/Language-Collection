@@ -41,8 +41,8 @@ commands:
     unknown-server: '&c無法找到隊列 {QUEUE}. 請確定你拼寫的正確!'
     success: <green>踢出 <white>{PLAYER} <green>從 {NUM} 隊列中!
   kickall:
-    usage: '<red>Usage: /ajqueue kickall <queue>'
-    success: <green>Kicked <white>{NUM} <green>player{s} from <white>{SERVER}<green>!
+    usage: '<red>用法: /ajqueue kickall <queue>'
+    success: <green>踢出 <white>{NUM} <green>player{s} 來自 <white>{SERVER}<green>!
   leave:
     more-args: '&c請指定你要離開的隊列! &7你目前在這些隊列中: {QUEUES}'
     queues-list-format: '&f{NAME}&7, '
