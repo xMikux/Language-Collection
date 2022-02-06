@@ -1167,11 +1167,11 @@ BIRCH_PRESSURE_PLATE:
     - MECHANICAL
     - VOID
   story:
-    name: Under Pressure (Birch)
+    name: 在壓力之下 (樺木)
     type: VOID
     lore:
-      - Being walked all over will drop any
-      - spirit.
+      - 到處行走會下降任何
+      - 精神.
     shards:
       - 0
       - 2
@@ -1209,10 +1209,10 @@ BIRCH_SIGN:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Signed (Birch)
+    name: 簽 (樺木)
     type: PHILOSOPHICAL
     lore:
-      - Imbued with the thoughts of those
+      - 充滿了那些人的想法
       - authors
     shards:
       - 0
