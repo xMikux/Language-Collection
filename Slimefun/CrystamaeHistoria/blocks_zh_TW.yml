@@ -1037,12 +1037,12 @@ BIRCH_DOOR:
     - HUMAN
     - MECHANICAL
   story:
-    name: Gateway (Birch)
+    name: 閘道器 (樺木)
     type: HUMAN
     lore:
-      - Every entrance  is also an exit.
-      - Doors protects from the outside but
-      - don't let them keep you in!
+      - 每個入口也是一個出口.
+      - 門從外面保護 但
+      - 不要讓他們把你關在裡面!
     shards:
       - 0
       - 2
@@ -1059,11 +1059,11 @@ BIRCH_FENCE:
     - HUMAN
     - ANIMAL
   story:
-    name: Livestock (Birch)
+    name: 家畜 (樺木)
     type: ANIMAL
     lore:
-      - Nothing brings more joy to a fence
-      - than keeping your livestock safe.
+      - 沒有什麼比柵欄保護您的
+      - 家畜安全更能給帶來歡樂了.
     shards:
       - 0
       - 0
@@ -1081,11 +1081,11 @@ BIRCH_FENCE_GATE:
     - MECHANICAL
     - ANIMAL
   story:
-    name: Gate (Birch)
+    name: 門 (樺木)
     type: MECHANICAL
     lore:
-      - Still round the corner there may wait,
-      - A new road or a secret gate.
+      - 仍然在拐角處可能等待,
+      - 一條新的道路或一個秘密的門.
     shards:
       - 0
       - 2
