@@ -17599,6 +17599,8 @@ SHROOMLIGHT:
       - While not unheard of, drawing light from
       - the Void is a tricky thing to do. To do so
       - passively is rare indeed.
+      - This block also has memories of a most
+      - courteous milk product.
     shards:
       - 1
       - 0
@@ -17609,6 +17611,7 @@ SHROOMLIGHT:
       - 0
       - 1
       - 0
+    sponsor: GentlemanCheesy
 SHULKER_SHELL:
   tier: 2
   elements:
@@ -21554,12 +21557,11 @@ YELLOW_GLAZED_TERRACOTTA:
     - HUMAN
     - CELESTIAL
   story:
-    name: Non-Stick (黃色)
+    name: One Lucky Ducky
     type: HUMAN
     lore:
-      - A complex composition allows this block
-      - to slide against others with ease making
-      - Glazed Terracotta a common find in elevators.
+      - A singularly lucky duck found only
+      - in the most royal of locations.
     shards:
       - 1
       - 0
@@ -21570,6 +21572,7 @@ YELLOW_GLAZED_TERRACOTTA:
       - 1
       - 0
       - 0
+    sponsor: xLucky
 YELLOW_STAINED_GLASS:
   tier: 2
   elements:
