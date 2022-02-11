@@ -9,7 +9,7 @@ ACACIA_BOAT:
     name: 整齊的 (相思)
     type: PHILOSOPHICAL
     lore:
-      - 生活在陽光下，在海裡游泳，於狂野的空氣中喝酒
+      - 生活在陽光下，在海裡游泳， 於狂野的空氣中喝酒
     shards:
       - 1
       - 0
@@ -112,12 +112,12 @@ ACACIA_LEAVES:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: 讓我一個人呆著! (相思)
+    name: 讓我獨自一片! (相思)
     type: PHILOSOPHICAL
     lore:
-      - 在涼爽的微風中輕輕搖曳,
-      - 葉子只想
-      - 讓他們獨自思考.
+      - 在涼爽的微風中輕輕輕輕搖曳,
+      - 葉子只想要獨自一片
+      - 靜靜思考.
     shards:
       - 1
       - 0
@@ -134,11 +134,11 @@ ACACIA_LOG:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: 敲樹以獲得原木 (相思木)
+    name: 敲樹以獲得原木 (相思)
     type: ELEMENTAL
     lore:
-      - 每一次冒險都從一棵好樹開始
-      - 用拳猛擊
+      - 每次的冒險開始都從
+      - 敲一棵好樹開始
     shards:
       - 2
       - 0
@@ -155,11 +155,11 @@ ACACIA_PLANKS:
     - ELEMENTAL
     - HUMAN
   story:
-    name: 走上木材 (相思木)
+    name: 走上木材 (相思)
     type: HUMAN
     lore:
       - 製作旅程的第一步
-      - 引領著新玩家向前邁進
+      - 引領著新玩家向前邁進.
     shards:
       - 1
       - 0
@@ -179,7 +179,7 @@ ACACIA_PRESSURE_PLATE:
     name: 在壓力之下 (相思)
     type: VOID
     lore:
-      - 被走遍會掉任何
+      - 到處行走會下降任何
       - 精神.
     shards:
       - 0
@@ -221,8 +221,8 @@ ACACIA_SIGN:
     name: 署名 (相思)
     type: PHILOSOPHICAL
     lore:
-      - 充滿了那些作者的
-      - 想法
+      - 充滿了那些
+      - 作者的想法
     shards:
       - 0
       - 0
@@ -238,7 +238,7 @@ ACACIA_SLAB:
   elements:
     - HUMAN
   story:
-    name: 切開底下 (相思)
+    name: 切開之下 (相思)
     type: HUMAN
     lore:
       - 撕成兩半，與自己分開.
@@ -280,7 +280,7 @@ ACACIA_TRAPDOOR:
     - HUMAN
     - VOID
   story:
-    name: 去坑 (相思)
+    name: 到坑內 (相思)
     type: VOID
     lore:
       - 等待一個完美的時刻
@@ -301,11 +301,11 @@ ACACIA_WOOD:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: 敲樹以獲得木頭 (相思木)
+    name: 敲樹以獲得原木 (相思)
     type: ELEMENTAL
     lore:
-      - 每一次冒險都從一個好的樹開始
-      - 砍
+      - 每次的冒險開始都從
+      - 敲一棵好樹開始
     shards:
       - 2
       - 0
@@ -345,11 +345,11 @@ ALLIUM:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: 甜甜的氣味 (蔥屬)
+    name: 甜甜的氣味 (紫紅球花)
     type: ANIMAL
     lore:
       - 飄散的芬芳最能平息
-      - 脾氣暴躁.
+      - 暴躁不安的心情.
     shards:
       - 1
       - 0
@@ -475,7 +475,7 @@ ANDESITE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: 半品脫 (安山岩)
+    name: 半品脫 (Andesite)
     type: HUMAN
     lore:
       - 這小傢伙只有一半大,
@@ -497,7 +497,7 @@ ANDESITE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: 崛起 (安山岩)
+    name: 崛起 (Andesite)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
@@ -519,7 +519,7 @@ ANDESITE_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: 打倒牆壁 (安山岩)
+    name: 打倒牆壁 (Andesite)
     type: HISTORICAL
     lore:
       - 保護多年的工作,
@@ -673,12 +673,12 @@ AZALEA_LEAVES:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: 讓我靜靜 (杜鵑叢)
+    name: 讓我獨自一片! (杜鵑叢)
     type: PHILOSOPHICAL
     lore:
-      - 在微風中輕輕搖曳,
-      - 葉子只想要獨自思考
-      - (Leaf me alone!)
+      - 在涼爽的微風中輕輕輕輕搖曳,
+      - 葉子只想要獨自一片
+      - 靜靜思考.
     shards:
       - 1
       - 0
@@ -695,11 +695,11 @@ AZURE_BLUET:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: 甜蜜氣味 (雛草)
+    name: 甜甜的氣味 (雛草)
     type: ANIMAL
     lore:
-      - 飄散的芬芳可以
-      - 平息最兇惡的脾氣.
+      - 飄散的芬芳最能平息
+      - 暴躁不安的心情.
     shards:
       - 1
       - 0
@@ -716,7 +716,7 @@ BAKED_POTATO:
     - ANIMAL
     - VOID
   story:
-    name: 熱馬鈴薯, 熱馬鈴薯
+    name: 烤馬鈴薯, 熱馬鈴薯
     type: VOID
     lore:
       - 冷義大利麵, 冷義大利麵
@@ -823,7 +823,7 @@ BEEF:
     - ANIMAL
     - HUMAN
   story:
-    name: 生 (牛肉)
+    name: 生食材 (生牛肉)
     type: ANIMAL
     lore:
       - 充滿了未使用的潛力.
@@ -997,10 +997,10 @@ BIRCH_BOAT:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: 船形( 樺木 )
+    name: 整齊的 (Birch)
     type: PHILOSOPHICAL
     lore:
-      - 在陽光下生活, 在海洋裡優游, 和在野外的空氣中暢飲.
+      - 生活在陽光下，在海裡游泳， 於狂野的空氣中喝酒
     shards:
       - 1
       - 0
@@ -1017,7 +1017,7 @@ BIRCH_BUTTON:
     - HUMAN
     - MECHANICAL
   story:
-    name: 鬱悶 (樺木)
+    name: 鬱悶 (Birch)
     type: HUMAN
     lore:
       - 容易受到鬱悶
@@ -1037,12 +1037,12 @@ BIRCH_DOOR:
     - HUMAN
     - MECHANICAL
   story:
-    name: 閘道器 (樺木)
+    name: 出入口 (Birch)
     type: HUMAN
     lore:
-      - 每個入口也是一個出口.
-      - 門從外面保護 但
-      - 不要讓他們把你關在裡面!
+      - 每一個入口也是一個出口.
+      - 門可以保護外界，但
+      - 不要讓它們把你擋在門外!
     shards:
       - 0
       - 2
@@ -1059,11 +1059,11 @@ BIRCH_FENCE:
     - HUMAN
     - ANIMAL
   story:
-    name: 家畜 (樺木)
+    name: 家畜 (Birch)
     type: ANIMAL
     lore:
-      - 沒有什麼比柵欄保護您的
-      - 家畜安全更能給帶來歡樂了.
+      - 能保護好牲畜的安全,
+      - 是你家的圍欄這一生最大的快樂.
     shards:
       - 0
       - 0
@@ -1081,11 +1081,11 @@ BIRCH_FENCE_GATE:
     - MECHANICAL
     - ANIMAL
   story:
-    name: 門 (樺木)
+    name: 門 (Birch)
     type: MECHANICAL
     lore:
-      - 仍然在拐角處可能等待,
-      - 一條新的道路或一個秘密的門.
+      - 仍然在轉角處可能等待,
+      - 新的路或秘密的門.
     shards:
       - 0
       - 2
@@ -1103,12 +1103,12 @@ BIRCH_LEAVES:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: Leaf me alone! (Birch)
+    name: 讓我獨自一片! (Birch)
     type: PHILOSOPHICAL
     lore:
-      - Gently swaying in a cool breeze,
-      - Leaves want nothing more than to be
-      - left alone to their thoughts.
+      - 在涼爽的微風中輕輕輕輕搖曳,
+      - 葉子只想要獨自一片
+      - 靜靜思考.
     shards:
       - 1
       - 0
@@ -1125,11 +1125,11 @@ BIRCH_LOG:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: 敲樹以獲得原木 (樺木)
+    name: 敲樹以獲得原木 (Birch)
     type: ELEMENTAL
     lore:
-      - Every adventure begins with a good tree
-      - punch
+      - 每次的冒險開始都從
+      - 敲一棵好樹開始
     shards:
       - 2
       - 0
@@ -1146,11 +1146,11 @@ BIRCH_PLANKS:
     - ELEMENTAL
     - HUMAN
   story:
-    name: 走上木材 (樺木)
+    name: 走上木材 (Birch)
     type: HUMAN
     lore:
       - 製作旅程的第一步
-      - 引領著新玩家向前邁進
+      - 引領著新玩家向前邁進.
     shards:
       - 1
       - 0
@@ -1167,7 +1167,7 @@ BIRCH_PRESSURE_PLATE:
     - MECHANICAL
     - VOID
   story:
-    name: 在壓力之下 (樺木)
+    name: 在壓力之下 (Birch)
     type: VOID
     lore:
       - 到處行走會下降任何
@@ -1188,11 +1188,11 @@ BIRCH_SAPLING:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Growth (Birch)
+    name: 成長 (Birch)
     type: ELEMENTAL
     lore:
-      - A youthful spirit empowered to grow
-      - into a mighty tree
+      - 一個年輕的精神
+      - 有能力成長為一棵大樹
     shards:
       - 1
       - 0
@@ -1209,10 +1209,10 @@ BIRCH_SIGN:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: 簽 (樺木)
+    name: 署名 (Birch)
     type: PHILOSOPHICAL
     lore:
-      - 充滿了那些人的想法
+      - 充滿了那些
       - authors
     shards:
       - 0
@@ -1229,11 +1229,11 @@ BIRCH_SLAB:
   elements:
     - HUMAN
   story:
-    name: A Cut Below (Birch)
+    name: 切開之下 (Birch)
     type: HUMAN
     lore:
-      - Ripped in half and divided from
-      - self. A soul torn asunder
+      - 撕成兩半，與自己分開.
+      - 被撕裂的靈魂
     shards:
       - 1
       - 1
@@ -1250,11 +1250,11 @@ BIRCH_STAIRS:
     - HUMAN
     - CELESTIAL
   story:
-    name: Arise (Birch)
+    name: 出現 (Birch)
     type: CELESTIAL
     lore:
-      - Lives to feel the joy of others being
-      - raised to new heights.
+      - 活著是為了感受他人
+      - 被提升到新高度的喜悅.
     shards:
       - 0
       - 1
@@ -1271,11 +1271,11 @@ BIRCH_TRAPDOOR:
     - HUMAN
     - VOID
   story:
-    name: To the Pits (Birch)
+    name: 到坑內 (Birch)
     type: VOID
     lore:
-      - Awaiting the perfect moment to drop an
-      - unsuspecting person to their end
+      - 等待一個完美的時刻
+      - 讓一個毫無戒心的人走到盡頭
     shards:
       - 0
       - 1
@@ -1292,11 +1292,11 @@ BIRCH_WOOD:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: 敲樹以獲得木頭 (樺木)
+    name: 敲樹以獲得原木 (Birch)
     type: ELEMENTAL
     lore:
-      - Every adventure begins with a good tree
-      - punch
+      - 每次的冒險開始都從
+      - 敲一棵好樹開始
     shards:
       - 2
       - 0
@@ -1334,12 +1334,12 @@ BLACKSTONE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Half Pint (Blackstone)
+    name: 半品脫 (Blackstone)
     type: HUMAN
     lore:
-      - Half as big, and twice-so unappreciated
-      - this little fellow protects you from
-      - mobs day in and day out.
+      - 這小傢伙只有一半大,
+      - 而且是不被重視的兩倍,
+      - 但它一天又一天的保護你免於怪物的侵害.
     shards:
       - 1
       - 1
@@ -1356,12 +1356,12 @@ BLACKSTONE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Rising on up (Blackstone)
+    name: 崛起 (Blackstone)
     type: PHILOSOPHICAL
     lore:
-      - Every step is either an incline to
-      - future glory or a possible descent
-      - into further madness...
+      - 每一步都是通往未來的榮耀,
+      - 或者是墮入進一步的
+      - 瘋狂之中...
     shards:
       - 0
       - 1
@@ -1378,11 +1378,11 @@ BLACKSTONE_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: Beating down the walls (Blackstone)
+    name: 打倒牆壁 (Blackstone)
     type: HISTORICAL
     lore:
-      - Protecting for years working to keep
-      - those inside save and sound.
+      - 保護多年的工作,
+      - 使裡面的人得以安全與健全.
     shards:
       - 0
       - 0
@@ -1930,11 +1930,11 @@ BLUE_ORCHID:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Sweet Smell (Blue Orchid)
+    name: 甜甜的氣味 (藍色蝴蝶蘭)
     type: ANIMAL
     lore:
-      - A wafting fragrance to quell the most
-      - vicious of temperaments.
+      - 飄散的芬芳最能平息
+      - 暴躁不安的心情.
     shards:
       - 1
       - 0
@@ -2345,12 +2345,12 @@ BRICK_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Half Pint (Brick)
+    name: 半品脫 (Brick)
     type: HUMAN
     lore:
-      - Half as big, and twice-so unappreciated
-      - this little fellow protects you from
-      - mobs day in and day out.
+      - 這小傢伙只有一半大,
+      - 而且是不被重視的兩倍,
+      - 但它一天又一天的保護你免於怪物的侵害.
     shards:
       - 1
       - 1
@@ -2367,12 +2367,12 @@ BRICK_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Rising on up (Brick)
+    name: 崛起 (Brick)
     type: PHILOSOPHICAL
     lore:
-      - Every step is either an incline to
-      - future glory or a possible descent
-      - into further madness...
+      - 每一步都是通往未來的榮耀,
+      - 或者是墮入進一步的
+      - 瘋狂之中...
     shards:
       - 0
       - 1
@@ -2389,11 +2389,11 @@ BRICK_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: Beating down the walls (Brick)
+    name: 打倒牆壁 (Brick)
     type: HISTORICAL
     lore:
-      - Protecting for years working to keep
-      - those inside save and sound.
+      - 保護多年的工作,
+      - 使裡面的人得以安全與健全.
     shards:
       - 0
       - 0
@@ -3198,12 +3198,12 @@ CHICKEN:
     - ANIMAL
     - HUMAN
   story:
-    name: Raw (Chicken)
+    name: 生食材 (生雞肉)
     type: ANIMAL
     lore:
-      - Packed with unused potential.
-      - Longs for nothing more than a
-      - nice fire
+      - 充滿了未使用的潛力.
+      - 只渴望有一個好的火,
+      - 而不是別的
     shards:
       - 0
       - 0
@@ -3220,12 +3220,12 @@ CHIPPED_ANVIL:
     - MECHANICAL
     - HUMAN
   story:
-    name: Hammer Time! (Chipped)
+    name: 鐵鎚時間! (Chipped)
     type: MECHANICAL
     lore:
-      - The essence of every tool that
-      - has touched the anvil imparts
-      - a part of itself to the anvil.
+      - 每一個接觸過鐵砧的
+      - 工具, 都會把自己本質
+      - 的一部份傳承給鐵砧.
     shards:
       - 0
       - 1
@@ -3605,12 +3605,12 @@ COBBLED_DEEPSLATE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Half Pint (Cobbled Deepslate)
+    name: 半品脫 (Cobbled Deepslate)
     type: HUMAN
     lore:
-      - Half as big, and twice-so unappreciated
-      - this little fellow protects you from
-      - mobs day in and day out.
+      - 這小傢伙只有一半大,
+      - 而且是不被重視的兩倍,
+      - 但它一天又一天的保護你免於怪物的侵害.
     shards:
       - 1
       - 1
@@ -3627,12 +3627,12 @@ COBBLED_DEEPSLATE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Rising on up (Cobbled Deepslate)
+    name: 崛起 (Cobbled Deepslate)
     type: PHILOSOPHICAL
     lore:
-      - Every step is either an incline to
-      - future glory or a possible descent
-      - into further madness...
+      - 每一步都是通往未來的榮耀,
+      - 或者是墮入進一步的
+      - 瘋狂之中...
     shards:
       - 0
       - 1
@@ -3649,11 +3649,11 @@ COBBLED_DEEPSLATE_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: Beating down the walls (Cobbled Deepslate)
+    name: 打倒牆壁 (Cobbled Deepslate)
     type: HISTORICAL
     lore:
-      - Protecting for years working to keep
-      - those inside save and sound.
+      - 保護多年的工作,
+      - 使裡面的人得以安全與健全.
     shards:
       - 0
       - 0
@@ -3690,12 +3690,12 @@ COBBLESTONE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Half Pint (Cobblestone)
+    name: 半品脫 (Cobblestone)
     type: HUMAN
     lore:
-      - Half as big, and twice-so unappreciated
-      - this little fellow protects you from
-      - mobs day in and day out.
+      - 這小傢伙只有一半大,
+      - 而且是不被重視的兩倍,
+      - 但它一天又一天的保護你免於怪物的侵害.
     shards:
       - 1
       - 1
@@ -3712,12 +3712,12 @@ COBBLESTONE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Rising on up (安山岩)
+    name: 崛起 (Andesite)
     type: PHILOSOPHICAL
     lore:
-      - Every step is either an incline to
-      - future glory or a possible descent
-      - into further madness...
+      - 每一步都是通往未來的榮耀,
+      - 或者是墮入進一步的
+      - 瘋狂之中...
     shards:
       - 0
       - 1
@@ -3734,11 +3734,11 @@ COBBLESTONE_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: Beating down the walls (Cobblestone)
+    name: 打倒牆壁 (Cobblestone)
     type: HISTORICAL
     lore:
-      - Protecting for years working to keep
-      - those inside save and sound.
+      - 保護多年的工作,
+      - 使裡面的人得以安全與健全.
     shards:
       - 0
       - 0
@@ -3798,12 +3798,12 @@ COD:
     - ANIMAL
     - HUMAN
   story:
-    name: Raw (Cod)
+    name: 生食材 (生鱈魚)
     type: ANIMAL
     lore:
-      - Packed with unused potential.
-      - Longs for nothing more than a
-      - nice fire
+      - 充滿了未使用的潛力.
+      - 只渴望有一個好的火,
+      - 而不是別的
     shards:
       - 0
       - 0
@@ -3820,12 +3820,12 @@ COD_BUCKET:
     - HUMAN
     - ANIMAL
   story:
-    name: Small but Cosy! (Cod)
+    name: 小但溫馨! (鱈魚)
     type: ANIMAL
     lore:
-      - Even though most organisms hate
-      - being locked up, the cod
-      - loves it.. for now
+      - 儘管大多數生物都
+      - 討厭被關起來, 但鱈魚
+      - 喜歡.. 只有現在
     shards:
       - 1
       - 0
@@ -4163,11 +4163,11 @@ CORNFLOWER:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Sweet Smell (Cornflower)
+    name: 甜甜的氣味 (矢車菊)
     type: ANIMAL
     lore:
-      - A wafting fragrance to quell the most
-      - vicious of temperaments.
+      - 飄散的芬芳最能平息
+      - 暴躁不安的心情.
     shards:
       - 1
       - 0
@@ -4366,7 +4366,7 @@ CRIMSON_BUTTON:
     - MECHANICAL
     - VOID
   story:
-    name: Depressed (Crimson)
+    name: 鬱悶 (Crimson)
     type: HUMAN
     lore:
       - 容易受到鬱悶
@@ -4387,12 +4387,12 @@ CRIMSON_DOOR:
     - MECHANICAL
     - VOID
   story:
-    name: Gateway (Crimson)
+    name: 出入口 (Crimson)
     type: HUMAN
     lore:
-      - Every entrance  is also an exit.
-      - Doors protects from the outside but
-      - don't let them keep you in!
+      - 每一個入口也是一個出口.
+      - 門可以保護外界，但
+      - 不要讓它們把你擋在門外!
     shards:
       - 0
       - 2
@@ -4410,11 +4410,11 @@ CRIMSON_FENCE:
     - ANIMAL
     - VOID
   story:
-    name: Livestock (Crimson)
+    name: 家畜 (Crimson)
     type: ANIMAL
     lore:
-      - Nothing brings more joy to a fence
-      - than keeping your livestock safe.
+      - 能保護好牲畜的安全,
+      - 是你家的圍欄這一生最大的快樂.
     shards:
       - 0
       - 0
@@ -4433,11 +4433,11 @@ CRIMSON_FENCE_GATE:
     - ANIMAL
     - VOID
   story:
-    name: Gate (Crimson)
+    name: 門 (Crimson)
     type: MECHANICAL
     lore:
-      - Still round the corner there may wait,
-      - A new road or a secret gate.
+      - 仍然在轉角處可能等待,
+      - 新的路或秘密的門.
     shards:
       - 0
       - 2
@@ -4478,11 +4478,11 @@ CRIMSON_HYPHAE:
     - HISTORICAL
     - VOID
   story:
-    name: 敲樹以獲得...... 蛤? (緋紅)
+    name: 敲一棵好樹開始ing Trees Gives Me... Huh? (Crimson)
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good fungus
-      - punch
+      - 敲一棵好樹開始
     shards:
       - 2
       - 0
@@ -4523,11 +4523,11 @@ CRIMSON_PLANKS:
     - HUMAN
     - VOID
   story:
-    name: 走上木材 (緋紅)
+    name: 走上木材 (Crimson)
     type: HUMAN
     lore:
       - 製作旅程的第一步
-      - 引領著新玩家向前邁進
+      - 引領著新玩家向前邁進.
     shards:
       - 1
       - 0
@@ -4544,10 +4544,10 @@ CRIMSON_PRESSURE_PLATE:
     - MECHANICAL
     - VOID
   story:
-    name: Under Pressure (Crimson)
+    name: 在壓力之下 (Crimson)
     type: VOID
     lore:
-      - Being walked all over will drop any
+      - 到處行走會下降任何
       - spirit.
     shards:
       - 0
@@ -4587,10 +4587,10 @@ CRIMSON_SIGN:
     - PHILOSOPHICAL
     - VOID
   story:
-    name: Signed (Crimson)
+    name: 署名 (Crimson)
     type: PHILOSOPHICAL
     lore:
-      - Imbued with the thoughts of those
+      - 充滿了那些
       - authors
     shards:
       - 0
@@ -4608,11 +4608,11 @@ CRIMSON_SLAB:
     - HUMAN
     - VOID
   story:
-    name: A Cut Below (Crimson)
+    name: 切開之下 (Crimson)
     type: HUMAN
     lore:
-      - Ripped in half and divided from
-      - self. A soul torn asunder
+      - 撕成兩半，與自己分開.
+      - 被撕裂的靈魂
     shards:
       - 1
       - 1
@@ -4630,11 +4630,11 @@ CRIMSON_STAIRS:
     - CELESTIAL
     - VOID
   story:
-    name: Arise (Crimson)
+    name: 出現 (Crimson)
     type: CELESTIAL
     lore:
-      - Lives to feel the joy of others being
-      - raised to new heights.
+      - 活著是為了感受他人
+      - 被提升到新高度的喜悅.
     shards:
       - 0
       - 1
@@ -4652,11 +4652,11 @@ CRIMSON_STEM:
     - HISTORICAL
     - VOID
   story:
-    name: 敲樹以獲得...... 蛤? (緋紅蕈柄)
+    name: 敲一棵好樹開始ing Trees Gives Me... Huh? (Crimson Stem)
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good fungus
-      - punch
+      - 敲一棵好樹開始
     shards:
       - 2
       - 0
@@ -4673,11 +4673,11 @@ CRIMSON_TRAPDOOR:
     - HUMAN
     - VOID
   story:
-    name: To the Pits (Crimson)
+    name: 到坑內 (Crimson)
     type: VOID
     lore:
-      - Awaiting the perfect moment to drop an
-      - unsuspecting person to their end
+      - 等待一個完美的時刻
+      - 讓一個毫無戒心的人走到盡頭
     shards:
       - 0
       - 1
@@ -5151,12 +5151,12 @@ DAMAGED_ANVIL:
     - MECHANICAL
     - HUMAN
   story:
-    name: Hammer Time! (Damaged)
+    name: 鐵鎚時間! (Damaged)
     type: MECHANICAL
     lore:
-      - The essence of every tool that
-      - has touched the anvil imparts
-      - a part of itself to the anvil.
+      - 每一個接觸過鐵砧的
+      - 工具, 都會把自己本質
+      - 的一部份傳承給鐵砧.
     shards:
       - 0
       - 1
@@ -5173,11 +5173,11 @@ DANDELION:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Sweet Smell (Dandelion)
+    name: 甜甜的氣味 (蒲公英)
     type: ANIMAL
     lore:
-      - A wafting fragrance to quell the most
-      - vicious of temperaments.
+      - 飄散的芬芳最能平息
+      - 暴躁不安的心情.
     shards:
       - 1
       - 0
@@ -5195,10 +5195,10 @@ DARK_OAK_BOAT:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: Ship-shape (Dark Oak)
+    name: 整齊的 (Dark Oak)
     type: PHILOSOPHICAL
     lore:
-      - Live in the sunshine, swim the sea and drink in the wild air
+      - 生活在陽光下，在海裡游泳， 於狂野的空氣中喝酒
     shards:
       - 1
       - 0
@@ -5215,7 +5215,7 @@ DARK_OAK_BUTTON:
     - HUMAN
     - MECHANICAL
   story:
-    name: Depressed (Dark Oak)
+    name: 鬱悶 (Dark Oak)
     type: HUMAN
     lore:
       - 容易受到鬱悶
@@ -5235,12 +5235,12 @@ DARK_OAK_DOOR:
     - HUMAN
     - MECHANICAL
   story:
-    name: Gateway (Dark Oak)
+    name: 出入口 (Dark Oak)
     type: HUMAN
     lore:
-      - Every entrance  is also an exit.
-      - Doors protects from the outside but
-      - don't let them keep you in!
+      - 每一個入口也是一個出口.
+      - 門可以保護外界，但
+      - 不要讓它們把你擋在門外!
     shards:
       - 0
       - 2
@@ -5257,11 +5257,11 @@ DARK_OAK_FENCE:
     - HUMAN
     - ANIMAL
   story:
-    name: Livestock (Dark Oak)
+    name: 家畜 (Dark Oak)
     type: ANIMAL
     lore:
-      - Nothing brings more joy to a fence
-      - than keeping your livestock safe.
+      - 能保護好牲畜的安全,
+      - 是你家的圍欄這一生最大的快樂.
     shards:
       - 0
       - 0
@@ -5279,11 +5279,11 @@ DARK_OAK_FENCE_GATE:
     - MECHANICAL
     - ANIMAL
   story:
-    name: Gate (Dark Oak)
+    name: 門 (Dark Oak)
     type: MECHANICAL
     lore:
-      - Still round the corner there may wait,
-      - A new road or a secret gate.
+      - 仍然在轉角處可能等待,
+      - 新的路或秘密的門.
     shards:
       - 0
       - 2
@@ -5301,12 +5301,12 @@ DARK_OAK_LEAVES:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: Leaf me alone! (Dark Oak)
+    name: 讓我獨自一片! (Dark Oak)
     type: PHILOSOPHICAL
     lore:
-      - Gently swaying in a cool breeze,
-      - Leaves want nothing more than to be
-      - left alone to their thoughts.
+      - 在涼爽的微風中輕輕輕輕搖曳,
+      - 葉子只想要獨自一片
+      - 靜靜思考.
     shards:
       - 1
       - 0
@@ -5323,11 +5323,11 @@ DARK_OAK_LOG:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: 敲樹以獲得原木 (黑橡木)
+    name: 敲樹以獲得原木 (Dark Oak)
     type: ELEMENTAL
     lore:
-      - Every adventure begins with a good tree
-      - punch
+      - 每次的冒險開始都從
+      - 敲一棵好樹開始
     shards:
       - 2
       - 0
@@ -5344,11 +5344,11 @@ DARK_OAK_PLANKS:
     - ELEMENTAL
     - HUMAN
   story:
-    name: 走上木材 (黑橡木)
+    name: 走上木材 (Dark Oak)
     type: HUMAN
     lore:
       - 製作旅程的第一步
-      - 引領著新玩家向前邁進
+      - 引領著新玩家向前邁進.
     shards:
       - 1
       - 0
@@ -5365,10 +5365,10 @@ DARK_OAK_PRESSURE_PLATE:
     - MECHANICAL
     - VOID
   story:
-    name: Under Pressure (Dark Oak)
+    name: 在壓力之下 (Dark Oak)
     type: VOID
     lore:
-      - Being walked all over will drop any
+      - 到處行走會下降任何
       - spirit.
     shards:
       - 0
@@ -5386,11 +5386,11 @@ DARK_OAK_SAPLING:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Growth (Dark Oak)
+    name: 成長 (Dark Oak)
     type: ELEMENTAL
     lore:
-      - A youthful spirit empowered to grow
-      - into a mighty tree
+      - 一個年輕的精神
+      - 有能力成長為一棵大樹
     shards:
       - 1
       - 0
@@ -5407,10 +5407,10 @@ DARK_OAK_SIGN:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Signed (Dark Oak)
+    name: 署名 (Dark Oak)
     type: PHILOSOPHICAL
     lore:
-      - Imbued with the thoughts of those
+      - 充滿了那些
       - authors
     shards:
       - 0
@@ -5427,11 +5427,11 @@ DARK_OAK_SLAB:
   elements:
     - HUMAN
   story:
-    name: A Cut Below (Dark Oak)
+    name: 切開之下 (Dark Oak)
     type: HUMAN
     lore:
-      - Ripped in half and divided from
-      - self. A soul torn asunder
+      - 撕成兩半，與自己分開.
+      - 被撕裂的靈魂
     shards:
       - 1
       - 1
@@ -5448,11 +5448,11 @@ DARK_OAK_STAIRS:
     - HUMAN
     - CELESTIAL
   story:
-    name: Arise (Dark Oak)
+    name: 出現 (Dark Oak)
     type: CELESTIAL
     lore:
-      - Lives to feel the joy of others being
-      - raised to new heights.
+      - 活著是為了感受他人
+      - 被提升到新高度的喜悅.
     shards:
       - 0
       - 1
@@ -5469,11 +5469,11 @@ DARK_OAK_TRAPDOOR:
     - HUMAN
     - VOID
   story:
-    name: To the Pits (Dark Oak)
+    name: 到坑內 (Dark Oak)
     type: VOID
     lore:
-      - Awaiting the perfect moment to drop an
-      - unsuspecting person to their end
+      - 等待一個完美的時刻
+      - 讓一個毫無戒心的人走到盡頭
     shards:
       - 0
       - 1
@@ -5490,11 +5490,11 @@ DARK_OAK_WOOD:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: 敲樹以獲得木頭 (黑橡木)
+    name: 敲樹以獲得原木 (Dark Oak)
     type: ELEMENTAL
     lore:
-      - Every adventure begins with a good tree
-      - punch
+      - 每次的冒險開始都從
+      - 敲一棵好樹開始
     shards:
       - 2
       - 0
@@ -5533,11 +5533,11 @@ DARK_PRISMARINE_SLAB:
     - VOID
     - ANIMAL
   story:
-    name: A Cut Below (Dark Prismarine)
+    name: 切開之下 (Dark Prismarine)
     type: HUMAN
     lore:
-      - Ripped in half and divided from
-      - self. A soul torn asunder
+      - 撕成兩半，與自己分開.
+      - 被撕裂的靈魂
     shards:
       - 1
       - 1
@@ -5555,12 +5555,12 @@ DARK_PRISMARINE_STAIRS:
     - PHILOSOPHICAL
     - ANIMAL
   story:
-    name: Rising on up (Dark Prismarine)
+    name: 崛起 (Dark Prismarine)
     type: PHILOSOPHICAL
     lore:
-      - Every step is either an incline to
-      - future glory or a possible descent
-      - into further madness...
+      - 每一步都是通往未來的榮耀,
+      - 或者是墮入進一步的
+      - 瘋狂之中...
     shards:
       - 0
       - 1
@@ -5993,11 +5993,11 @@ DEEPSLATE_BRICK_SLAB:
     - HUMAN
     - VOID
   story:
-    name: A Cut Below (Deepslate Brick)
+    name: 切開之下 (Deepslate Brick)
     type: HUMAN
     lore:
-      - Ripped in half and divided from
-      - self. A soul torn asunder
+      - 撕成兩半，與自己分開.
+      - 被撕裂的靈魂
     shards:
       - 1
       - 1
@@ -6014,12 +6014,12 @@ DEEPSLATE_BRICK_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Rising on up (Deepslate Brick)
+    name: 崛起 (Deepslate Brick)
     type: PHILOSOPHICAL
     lore:
-      - Every step is either an incline to
-      - future glory or a possible descent
-      - into further madness...
+      - 每一步都是通往未來的榮耀,
+      - 或者是墮入進一步的
+      - 瘋狂之中...
     shards:
       - 0
       - 1
@@ -6036,11 +6036,11 @@ DEEPSLATE_BRICK_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: Beating down the walls (Deepslate Brick)
+    name: 打倒牆壁 (Deepslate Brick)
     type: HISTORICAL
     lore:
-      - Protecting for years working to keep
-      - those inside save and sound.
+      - 保護多年的工作,
+      - 使裡面的人得以安全與健全.
     shards:
       - 0
       - 0
@@ -6262,11 +6262,11 @@ DEEPSLATE_TILE_SLAB:
     - HUMAN
     - VOID
   story:
-    name: A Cut Below (Deepslate Tile)
+    name: 切開之下 (Deepslate Tile)
     type: HUMAN
     lore:
-      - Ripped in half and divided from
-      - self. A soul torn asunder
+      - 撕成兩半，與自己分開.
+      - 被撕裂的靈魂
     shards:
       - 1
       - 1
@@ -6283,12 +6283,12 @@ DEEPSLATE_TILE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Rising on up (Deepslate Tile)
+    name: 崛起 (Deepslate Tile)
     type: PHILOSOPHICAL
     lore:
-      - Every step is either an incline to
-      - future glory or a possible descent
-      - into further madness...
+      - 每一步都是通往未來的榮耀,
+      - 或者是墮入進一步的
+      - 瘋狂之中...
     shards:
       - 0
       - 1
@@ -6305,11 +6305,11 @@ DEEPSLATE_TILE_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: Beating down the walls (Deepslate Tile)
+    name: 打倒牆壁 (Deepslate Tile)
     type: HISTORICAL
     lore:
-      - Protecting for years working to keep
-      - those inside save and sound.
+      - 保護多年的工作,
+      - 使裡面的人得以安全與健全.
     shards:
       - 0
       - 0
@@ -6653,12 +6653,12 @@ DIORITE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Half Pint (Diorite)
+    name: 半品脫 (Diorite)
     type: HUMAN
     lore:
-      - Half as big, and twice-so unappreciated
-      - this little fellow protects you from
-      - mobs day in and day out.
+      - 這小傢伙只有一半大,
+      - 而且是不被重視的兩倍,
+      - 但它一天又一天的保護你免於怪物的侵害.
     shards:
       - 1
       - 1
@@ -6675,12 +6675,12 @@ DIORITE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Rising on up (Diorite)
+    name: 崛起 (Diorite)
     type: PHILOSOPHICAL
     lore:
-      - Every step is either an incline to
-      - future glory or a possible descent
-      - into further madness...
+      - 每一步都是通往未來的榮耀,
+      - 或者是墮入進一步的
+      - 瘋狂之中...
     shards:
       - 0
       - 1
@@ -6697,11 +6697,11 @@ DIORITE_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: Beating down the walls (Diorite)
+    name: 打倒牆壁 (Diorite)
     type: HISTORICAL
     lore:
-      - Protecting for years working to keep
-      - those inside save and sound.
+      - 保護多年的工作,
+      - 使裡面的人得以安全與健全.
     shards:
       - 0
       - 0
@@ -7269,11 +7269,11 @@ END_STONE_BRICK_SLAB:
     - HUMAN
     - VOID
   story:
-    name: A Cut Below (End Stone Brick)
+    name: 切開之下 (End Stone Brick)
     type: HUMAN
     lore:
-      - Ripped in half and divided from
-      - self. A soul torn asunder
+      - 撕成兩半，與自己分開.
+      - 被撕裂的靈魂
     shards:
       - 1
       - 1
@@ -7290,12 +7290,12 @@ END_STONE_BRICK_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Rising on up (End Stone Brick)
+    name: 崛起 (End Stone Brick)
     type: PHILOSOPHICAL
     lore:
-      - Every step is either an incline to
-      - future glory or a possible descent
-      - into further madness...
+      - 每一步都是通往未來的榮耀,
+      - 或者是墮入進一步的
+      - 瘋狂之中...
     shards:
       - 0
       - 1
@@ -7313,11 +7313,11 @@ END_STONE_BRICK_WALL:
     - HISTORICAL
     - CELESTIAL
   story:
-    name: Beating down the walls (End Stone Brick)
+    name: 打倒牆壁 (End Stone Brick)
     type: HISTORICAL
     lore:
-      - Protecting for years working to keep
-      - those inside save and sound.
+      - 保護多年的工作,
+      - 使裡面的人得以安全與健全.
     shards:
       - 0
       - 0
@@ -8535,12 +8535,12 @@ GRANITE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Half Pint (Granite)
+    name: 半品脫 (Granite)
     type: HUMAN
     lore:
-      - Half as big, and twice-so unappreciated
-      - this little fellow protects you from
-      - mobs day in and day out.
+      - 這小傢伙只有一半大,
+      - 而且是不被重視的兩倍,
+      - 但它一天又一天的保護你免於怪物的侵害.
     shards:
       - 1
       - 1
@@ -8557,12 +8557,12 @@ GRANITE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Rising on up (Granite)
+    name: 崛起 (Granite)
     type: PHILOSOPHICAL
     lore:
-      - Every step is either an incline to
-      - future glory or a possible descent
-      - into further madness...
+      - 每一步都是通往未來的榮耀,
+      - 或者是墮入進一步的
+      - 瘋狂之中...
     shards:
       - 0
       - 1
@@ -8579,11 +8579,11 @@ GRANITE_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: Beating down the walls (Granite)
+    name: 打倒牆壁 (Granite)
     type: HISTORICAL
     lore:
-      - Protecting for years working to keep
-      - those inside save and sound.
+      - 保護多年的工作,
+      - 使裡面的人得以安全與健全.
     shards:
       - 0
       - 0
@@ -9307,7 +9307,7 @@ HEAVY_WEIGHTED_PRESSURE_PLATE:
     - ELEMENTAL
     - VOID
   story:
-    name: Really Under Pressure (Heavy)
+    name: Really 在壓力之下 (Heavy)
     type: VOID
     lore:
       - The only thing worse than being walked all
@@ -10172,10 +10172,10 @@ JUNGLE_BOAT:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: Ship-shape (Jungle)
+    name: 整齊的 (Jungle)
     type: PHILOSOPHICAL
     lore:
-      - Live in the sunshine, swim the sea and drink in the wild air
+      - 生活在陽光下，在海裡游泳， 於狂野的空氣中喝酒
     shards:
       - 1
       - 0
@@ -10192,7 +10192,7 @@ JUNGLE_BUTTON:
     - HUMAN
     - MECHANICAL
   story:
-    name: Depressed (Jungle)
+    name: 鬱悶 (Jungle)
     type: HUMAN
     lore:
       - 容易受到鬱悶
@@ -10212,12 +10212,12 @@ JUNGLE_DOOR:
     - HUMAN
     - MECHANICAL
   story:
-    name: Gateway (Jungle)
+    name: 出入口 (Jungle)
     type: HUMAN
     lore:
-      - Every entrance  is also an exit.
-      - Doors protects from the outside but
-      - don't let them keep you in!
+      - 每一個入口也是一個出口.
+      - 門可以保護外界，但
+      - 不要讓它們把你擋在門外!
     shards:
       - 0
       - 2
@@ -10234,11 +10234,11 @@ JUNGLE_FENCE:
     - HUMAN
     - ANIMAL
   story:
-    name: Livestock (Jungle)
+    name: 家畜 (Jungle)
     type: ANIMAL
     lore:
-      - Nothing brings more joy to a fence
-      - than keeping your livestock safe.
+      - 能保護好牲畜的安全,
+      - 是你家的圍欄這一生最大的快樂.
     shards:
       - 0
       - 0
@@ -10256,11 +10256,11 @@ JUNGLE_FENCE_GATE:
     - MECHANICAL
     - ANIMAL
   story:
-    name: Gate (Jungle)
+    name: 門 (Jungle)
     type: MECHANICAL
     lore:
-      - Still round the corner there may wait,
-      - A new road or a secret gate.
+      - 仍然在轉角處可能等待,
+      - 新的路或秘密的門.
     shards:
       - 0
       - 2
@@ -10278,12 +10278,12 @@ JUNGLE_LEAVES:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: Leaf me alone! (Jungle)
+    name: 讓我獨自一片! (Jungle)
     type: PHILOSOPHICAL
     lore:
-      - Gently swaying in a cool breeze,
-      - Leaves want nothing more than to be
-      - left alone to their thoughts.
+      - 在涼爽的微風中輕輕輕輕搖曳,
+      - 葉子只想要獨自一片
+      - 靜靜思考.
     shards:
       - 1
       - 0
@@ -10300,11 +10300,11 @@ JUNGLE_LOG:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: 敲樹以獲得原木 (叢林木)
+    name: 敲樹以獲得原木 (Jungle)
     type: ELEMENTAL
     lore:
-      - Every adventure begins with a good tree
-      - punch
+      - 每次的冒險開始都從
+      - 敲一棵好樹開始
     shards:
       - 2
       - 0
@@ -10321,11 +10321,11 @@ JUNGLE_PLANKS:
     - ELEMENTAL
     - HUMAN
   story:
-    name: 走上木材 (叢林木)
+    name: 走上木材 (Jungle)
     type: HUMAN
     lore:
       - 製作旅程的第一步
-      - 引領著新玩家向前邁進
+      - 引領著新玩家向前邁進.
     shards:
       - 1
       - 0
@@ -10342,10 +10342,10 @@ JUNGLE_PRESSURE_PLATE:
     - MECHANICAL
     - VOID
   story:
-    name: Under Pressure (Jungle)
+    name: 在壓力之下 (Jungle)
     type: VOID
     lore:
-      - Being walked all over will drop any
+      - 到處行走會下降任何
       - spirit.
     shards:
       - 0
@@ -10363,11 +10363,11 @@ JUNGLE_SAPLING:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Growth (Jungle)
+    name: 成長 (Jungle)
     type: ELEMENTAL
     lore:
-      - A youthful spirit empowered to grow
-      - into a mighty tree
+      - 一個年輕的精神
+      - 有能力成長為一棵大樹
     shards:
       - 1
       - 0
@@ -10384,10 +10384,10 @@ JUNGLE_SIGN:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Signed (Jungle)
+    name: 署名 (Jungle)
     type: PHILOSOPHICAL
     lore:
-      - Imbued with the thoughts of those
+      - 充滿了那些
       - authors
     shards:
       - 0
@@ -10404,11 +10404,11 @@ JUNGLE_SLAB:
   elements:
     - HUMAN
   story:
-    name: A Cut Below (Jungle)
+    name: 切開之下 (Jungle)
     type: HUMAN
     lore:
-      - Ripped in half and divided from
-      - self. A soul torn asunder
+      - 撕成兩半，與自己分開.
+      - 被撕裂的靈魂
     shards:
       - 1
       - 1
@@ -10425,11 +10425,11 @@ JUNGLE_STAIRS:
     - HUMAN
     - CELESTIAL
   story:
-    name: Arise (Jungle)
+    name: 出現 (Jungle)
     type: CELESTIAL
     lore:
-      - Lives to feel the joy of others being
-      - raised to new heights.
+      - 活著是為了感受他人
+      - 被提升到新高度的喜悅.
     shards:
       - 0
       - 1
@@ -10446,11 +10446,11 @@ JUNGLE_TRAPDOOR:
     - HUMAN
     - VOID
   story:
-    name: To the Pits (Jungle)
+    name: 到坑內 (Jungle)
     type: VOID
     lore:
-      - Awaiting the perfect moment to drop an
-      - unsuspecting person to their end
+      - 等待一個完美的時刻
+      - 讓一個毫無戒心的人走到盡頭
     shards:
       - 0
       - 1
@@ -10467,11 +10467,11 @@ JUNGLE_WOOD:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: 敲樹以獲得木頭 (叢林木)
+    name: 敲樹以獲得原木 (Jungle)
     type: ELEMENTAL
     lore:
-      - Every adventure begins with a good tree
-      - punch
+      - 每次的冒險開始都從
+      - 敲一棵好樹開始
     shards:
       - 2
       - 0
@@ -11430,7 +11430,7 @@ LIGHT_WEIGHTED_PRESSURE_PLATE:
     - ELEMENTAL
     - VOID
   story:
-    name: Really Under Pressure (Light)
+    name: Really 在壓力之下 (Light)
     type: VOID
     lore:
       - The only thing worse than being walked all
@@ -11452,11 +11452,11 @@ LILAC:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Sweet Smell (Lilac)
+    name: 甜甜的氣味 (紫丁香)
     type: ANIMAL
     lore:
-      - A wafting fragrance to quell the most
-      - vicious of temperaments.
+      - 飄散的芬芳最能平息
+      - 暴躁不安的心情.
     shards:
       - 1
       - 0
@@ -11473,11 +11473,11 @@ LILY_OF_THE_VALLEY:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Sweet Smell (Lily of the Valley)
+    name: 甜甜的氣味 (鈴蘭)
     type: ANIMAL
     lore:
-      - A wafting fragrance to quell the most
-      - vicious of temperaments.
+      - 飄散的芬芳最能平息
+      - 暴躁不安的心情.
     shards:
       - 1
       - 0
@@ -12350,12 +12350,12 @@ MOSSY_COBBLESTONE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Half Pint (Mossy Cobblestone)
+    name: 半品脫 (Mossy Cobblestone)
     type: HUMAN
     lore:
-      - Half as big, and twice-so unappreciated
-      - this little fellow protects you from
-      - mobs day in and day out.
+      - 這小傢伙只有一半大,
+      - 而且是不被重視的兩倍,
+      - 但它一天又一天的保護你免於怪物的侵害.
     shards:
       - 1
       - 1
@@ -12372,12 +12372,12 @@ MOSSY_COBBLESTONE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Rising on up (Mossy Cobblestone)
+    name: 崛起 (Mossy Cobblestone)
     type: PHILOSOPHICAL
     lore:
-      - Every step is either an incline to
-      - future glory or a possible descent
-      - into further madness...
+      - 每一步都是通往未來的榮耀,
+      - 或者是墮入進一步的
+      - 瘋狂之中...
     shards:
       - 0
       - 1
@@ -12394,11 +12394,11 @@ MOSSY_COBBLESTONE_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: Beating down the walls (Mossy Cobblestone)
+    name: 打倒牆壁 (Mossy Cobblestone)
     type: HISTORICAL
     lore:
-      - Protecting for years working to keep
-      - those inside save and sound.
+      - 保護多年的工作,
+      - 使裡面的人得以安全與健全.
     shards:
       - 0
       - 0
@@ -12437,12 +12437,12 @@ MOSSY_STONE_BRICK_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Half Pint (Mossy Stone Brick)
+    name: 半品脫 (Mossy Stone Brick)
     type: HUMAN
     lore:
-      - Half as big, and twice-so unappreciated
-      - this little fellow protects you from
-      - mobs day in and day out.
+      - 這小傢伙只有一半大,
+      - 而且是不被重視的兩倍,
+      - 但它一天又一天的保護你免於怪物的侵害.
     shards:
       - 1
       - 1
@@ -12459,12 +12459,12 @@ MOSSY_STONE_BRICK_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Rising on up (Mossy Stone Brick)
+    name: 崛起 (Mossy Stone Brick)
     type: PHILOSOPHICAL
     lore:
-      - Every step is either an incline to
-      - future glory or a possible descent
-      - into further madness...
+      - 每一步都是通往未來的榮耀,
+      - 或者是墮入進一步的
+      - 瘋狂之中...
     shards:
       - 0
       - 1
@@ -12481,11 +12481,11 @@ MOSSY_STONE_BRICK_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: Beating down the walls (Mossy Stone Brick)
+    name: 打倒牆壁 (Mossy Stone Brick)
     type: HISTORICAL
     lore:
-      - Protecting for years working to keep
-      - those inside save and sound.
+      - 保護多年的工作,
+      - 使裡面的人得以安全與健全.
     shards:
       - 0
       - 0
@@ -12890,12 +12890,12 @@ MUTTON:
     - ANIMAL
     - HUMAN
   story:
-    name: Raw (Mutton)
+    name: 生食材 (生羊肉)
     type: ANIMAL
     lore:
-      - Packed with unused potential.
-      - Longs for nothing more than a
-      - nice fire
+      - 充滿了未使用的潛力.
+      - 只渴望有一個好的火,
+      - 而不是別的
     shards:
       - 0
       - 0
@@ -13308,11 +13308,11 @@ NETHER_BRICK_FENCE:
     - ANIMAL
     - VOID
   story:
-    name: Livestock (Nether)
+    name: 家畜 (Nether)
     type: ANIMAL
     lore:
-      - Nothing brings more joy to a fence
-      - than keeping your livestock safe.
+      - 能保護好牲畜的安全,
+      - 是你家的圍欄這一生最大的快樂.
     shards:
       - 0
       - 0
@@ -13330,12 +13330,12 @@ NETHER_BRICK_SLAB:
     - ELEMENTAL
     - VOID
   story:
-    name: Half Pint (Nether Brick)
+    name: 半品脫 (Nether Brick)
     type: HUMAN
     lore:
-      - Half as big, and twice-so unappreciated
-      - this little fellow protects you from
-      - mobs day in and day out.
+      - 這小傢伙只有一半大,
+      - 而且是不被重視的兩倍,
+      - 但它一天又一天的保護你免於怪物的侵害.
     shards:
       - 1
       - 1
@@ -13352,12 +13352,12 @@ NETHER_BRICK_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Rising on up (Nether Brick)
+    name: 崛起 (Nether Brick)
     type: PHILOSOPHICAL
     lore:
-      - Every step is either an incline to
-      - future glory or a possible descent
-      - into further madness...
+      - 每一步都是通往未來的榮耀,
+      - 或者是墮入進一步的
+      - 瘋狂之中...
     shards:
       - 0
       - 1
@@ -13374,11 +13374,11 @@ NETHER_BRICK_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: Beating down the walls (Nether Brick)
+    name: 打倒牆壁 (Nether Brick)
     type: HISTORICAL
     lore:
-      - Protecting for years working to keep
-      - those inside save and sound.
+      - 保護多年的工作,
+      - 使裡面的人得以安全與健全.
     shards:
       - 0
       - 0
@@ -13549,10 +13549,10 @@ OAK_BOAT:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: Ship-shape (Oak)
+    name: 整齊的 (Oak)
     type: PHILOSOPHICAL
     lore:
-      - Live in the sunshine, swim the sea and drink in the wild air
+      - 生活在陽光下，在海裡游泳， 於狂野的空氣中喝酒
     shards:
       - 1
       - 0
@@ -13569,7 +13569,7 @@ OAK_BUTTON:
     - HUMAN
     - MECHANICAL
   story:
-    name: Depressed (Oak)
+    name: 鬱悶 (Oak)
     type: HUMAN
     lore:
       - 容易受到鬱悶
@@ -13589,12 +13589,12 @@ OAK_DOOR:
     - HUMAN
     - MECHANICAL
   story:
-    name: Gateway
+    name: 出入口
     type: HUMAN
     lore:
-      - Every entrance  is also an exit.
-      - Doors protects from the outside but
-      - don't let them keep you in!
+      - 每一個入口也是一個出口.
+      - 門可以保護外界，但
+      - 不要讓它們把你擋在門外!
     shards:
       - 0
       - 2
@@ -13611,11 +13611,11 @@ OAK_FENCE:
     - HUMAN
     - ANIMAL
   story:
-    name: Livestock (Oak)
+    name: 家畜 (Oak)
     type: ANIMAL
     lore:
-      - Nothing brings more joy to a fence
-      - than keeping your livestock safe.
+      - 能保護好牲畜的安全,
+      - 是你家的圍欄這一生最大的快樂.
     shards:
       - 0
       - 0
@@ -13633,11 +13633,11 @@ OAK_FENCE_GATE:
     - MECHANICAL
     - ANIMAL
   story:
-    name: Gate (Oak)
+    name: 門 (Oak)
     type: MECHANICAL
     lore:
-      - Still round the corner there may wait,
-      - A new road or a secret gate.
+      - 仍然在轉角處可能等待,
+      - 新的路或秘密的門.
     shards:
       - 0
       - 2
@@ -13655,12 +13655,12 @@ OAK_LEAVES:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: Leaf me alone! (Oak)
+    name: 讓我獨自一片! (Oak)
     type: PHILOSOPHICAL
     lore:
-      - Gently swaying in a cool breeze,
-      - Leaves want nothing more than to be
-      - left alone to their thoughts.
+      - 在涼爽的微風中輕輕輕輕搖曳,
+      - 葉子只想要獨自一片
+      - 靜靜思考.
     shards:
       - 1
       - 0
@@ -13677,11 +13677,11 @@ OAK_LOG:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: 敲樹以獲得原木 (橡木)
+    name: 敲樹以獲得原木 (Oak)
     type: ELEMENTAL
     lore:
-      - Every adventure begins with a good tree
-      - punch
+      - 每次的冒險開始都從
+      - 敲一棵好樹開始
     shards:
       - 2
       - 0
@@ -13698,11 +13698,11 @@ OAK_PLANKS:
     - ELEMENTAL
     - HUMAN
   story:
-    name: 走上木材 (橡木)
+    name: 走上木材 (Oak)
     type: HUMAN
     lore:
       - 製作旅程的第一步
-      - 引領著新玩家向前邁進
+      - 引領著新玩家向前邁進.
     shards:
       - 1
       - 0
@@ -13719,10 +13719,10 @@ OAK_PRESSURE_PLATE:
     - MECHANICAL
     - VOID
   story:
-    name: Under Pressure (Oak)
+    name: 在壓力之下 (Oak)
     type: VOID
     lore:
-      - Being walked all over will drop any
+      - 到處行走會下降任何
       - spirit.
     shards:
       - 0
@@ -13740,11 +13740,11 @@ OAK_SAPLING:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Growth (Oak)
+    name: 成長 (Oak)
     type: ELEMENTAL
     lore:
-      - A youthful spirit empowered to grow
-      - into a mighty tree
+      - 一個年輕的精神
+      - 有能力成長為一棵大樹
     shards:
       - 1
       - 0
@@ -13761,10 +13761,10 @@ OAK_SIGN:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Signed (Oak)
+    name: 署名 (Oak)
     type: PHILOSOPHICAL
     lore:
-      - Imbued with the thoughts of those
+      - 充滿了那些
       - authors
     shards:
       - 0
@@ -13781,11 +13781,11 @@ OAK_SLAB:
   elements:
     - HUMAN
   story:
-    name: A Cut Below (Oak)
+    name: 切開之下 (Oak)
     type: HUMAN
     lore:
-      - Ripped in half and divided from
-      - self. A soul torn asunder
+      - 撕成兩半，與自己分開.
+      - 被撕裂的靈魂
     shards:
       - 1
       - 1
@@ -13802,11 +13802,11 @@ OAK_STAIRS:
     - HUMAN
     - CELESTIAL
   story:
-    name: Arise (Oak)
+    name: 出現 (Oak)
     type: CELESTIAL
     lore:
-      - Lives to feel the joy of others being
-      - raised to new heights.
+      - 活著是為了感受他人
+      - 被提升到新高度的喜悅.
     shards:
       - 0
       - 1
@@ -13823,11 +13823,11 @@ OAK_TRAPDOOR:
     - HUMAN
     - VOID
   story:
-    name: To the Pits (Oak)
+    name: 到坑內 (Oak)
     type: VOID
     lore:
-      - Awaiting the perfect moment to drop an
-      - unsuspecting person to their end
+      - 等待一個完美的時刻
+      - 讓一個毫無戒心的人走到盡頭
     shards:
       - 0
       - 1
@@ -13844,11 +13844,11 @@ OAK_WOOD:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: 敲樹以獲得木頭 (橡木)
+    name: 敲樹以獲得原木 (Oak)
     type: ELEMENTAL
     lore:
-      - Every adventure begins with a good tree
-      - punch
+      - 每次的冒險開始都從
+      - 敲一棵好樹開始
     shards:
       - 2
       - 0
@@ -14154,11 +14154,11 @@ ORANGE_TULIP:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Sweet Smell (Orange Tulip)
+    name: 甜甜的氣味 (橙色鬱金香)
     type: ANIMAL
     lore:
-      - A wafting fragrance to quell the most
-      - vicious of temperaments.
+      - 飄散的芬芳最能平息
+      - 暴躁不安的心情.
     shards:
       - 1
       - 0
@@ -14198,11 +14198,11 @@ OXEYE_DAISY:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Sweet Smell (Oxeye Daisy)
+    name: 甜甜的氣味 (雛菊)
     type: ANIMAL
     lore:
-      - A wafting fragrance to quell the most
-      - vicious of temperaments.
+      - 飄散的芬芳最能平息
+      - 暴躁不安的心情.
     shards:
       - 1
       - 0
@@ -14370,11 +14370,11 @@ PEONY:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Sweet Smell (Peony)
+    name: 甜甜的氣味 (牡丹花)
     type: ANIMAL
     lore:
-      - A wafting fragrance to quell the most
-      - vicious of temperaments.
+      - 飄散的芬芳最能平息
+      - 暴躁不安的心情.
     shards:
       - 1
       - 0
@@ -14676,11 +14676,11 @@ PINK_TULIP:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Sweet Smell (Pink Tulip)
+    name: 甜甜的氣味 (粉紅色鬱金香)
     type: ANIMAL
     lore:
-      - A wafting fragrance to quell the most
-      - vicious of temperaments.
+      - 飄散的芬芳最能平息
+      - 暴躁不安的心情.
     shards:
       - 1
       - 0
@@ -14851,12 +14851,12 @@ POLISHED_ANDESITE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Half Pint (拋光安山岩)
+    name: 半品脫 (Polished Andesite)
     type: HUMAN
     lore:
-      - Half as big, and twice-so unappreciated
-      - this little fellow protects you from
-      - mobs day in and day out.
+      - 這小傢伙只有一半大,
+      - 而且是不被重視的兩倍,
+      - 但它一天又一天的保護你免於怪物的侵害.
     shards:
       - 1
       - 1
@@ -14873,12 +14873,12 @@ POLISHED_ANDESITE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Rising on up (拋光安山岩)
+    name: 崛起 (Polished Andesite)
     type: PHILOSOPHICAL
     lore:
-      - Every step is either an incline to
-      - future glory or a possible descent
-      - into further madness...
+      - 每一步都是通往未來的榮耀,
+      - 或者是墮入進一步的
+      - 瘋狂之中...
     shards:
       - 0
       - 1
@@ -14961,12 +14961,12 @@ POLISHED_BLACKSTONE_BRICK_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Half Pint (Polished Blackstone Brick)
+    name: 半品脫 (Polished Blackstone Brick)
     type: HUMAN
     lore:
-      - Half as big, and twice-so unappreciated
-      - this little fellow protects you from
-      - mobs day in and day out.
+      - 這小傢伙只有一半大,
+      - 而且是不被重視的兩倍,
+      - 但它一天又一天的保護你免於怪物的侵害.
     shards:
       - 1
       - 1
@@ -14983,12 +14983,12 @@ POLISHED_BLACKSTONE_BRICK_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Rising on up (Polished Blackstone Brick)
+    name: 崛起 (Polished Blackstone Brick)
     type: PHILOSOPHICAL
     lore:
-      - Every step is either an incline to
-      - future glory or a possible descent
-      - into further madness...
+      - 每一步都是通往未來的榮耀,
+      - 或者是墮入進一步的
+      - 瘋狂之中...
     shards:
       - 0
       - 1
@@ -15005,11 +15005,11 @@ POLISHED_BLACKSTONE_BRICK_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: Beating down the walls (Polished Blackstone Brick)
+    name: 打倒牆壁 (Polished Blackstone Brick)
     type: HISTORICAL
     lore:
-      - Protecting for years working to keep
-      - those inside save and sound.
+      - 保護多年的工作,
+      - 使裡面的人得以安全與健全.
     shards:
       - 0
       - 0
@@ -15026,7 +15026,7 @@ POLISHED_BLACKSTONE_BUTTON:
     - HUMAN
     - MECHANICAL
   story:
-    name: Depressed (Polished Blackstone)
+    name: 鬱悶 (Polished Blackstone)
     type: HUMAN
     lore:
       - 容易受到鬱悶
@@ -15046,10 +15046,10 @@ POLISHED_BLACKSTONE_PRESSURE_PLATE:
     - MECHANICAL
     - VOID
   story:
-    name: Under Pressure (Polished Blackstone)
+    name: 在壓力之下 (Polished Blackstone)
     type: VOID
     lore:
-      - Being walked all over will drop any
+      - 到處行走會下降任何
       - spirit.
     shards:
       - 0
@@ -15067,12 +15067,12 @@ POLISHED_BLACKSTONE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Half Pint (Polished Blackstone)
+    name: 半品脫 (Polished Blackstone)
     type: HUMAN
     lore:
-      - Half as big, and twice-so unappreciated
-      - this little fellow protects you from
-      - mobs day in and day out.
+      - 這小傢伙只有一半大,
+      - 而且是不被重視的兩倍,
+      - 但它一天又一天的保護你免於怪物的侵害.
     shards:
       - 1
       - 1
@@ -15089,12 +15089,12 @@ POLISHED_BLACKSTONE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Rising on up (Polished Blackstone)
+    name: 崛起 (Polished Blackstone)
     type: PHILOSOPHICAL
     lore:
-      - Every step is either an incline to
-      - future glory or a possible descent
-      - into further madness...
+      - 每一步都是通往未來的榮耀,
+      - 或者是墮入進一步的
+      - 瘋狂之中...
     shards:
       - 0
       - 1
@@ -15111,11 +15111,11 @@ POLISHED_BLACKSTONE_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: Beating down the walls (Polished Blackstone)
+    name: 打倒牆壁 (Polished Blackstone)
     type: HISTORICAL
     lore:
-      - Protecting for years working to keep
-      - those inside save and sound.
+      - 保護多年的工作,
+      - 使裡面的人得以安全與健全.
     shards:
       - 0
       - 0
@@ -15154,11 +15154,11 @@ POLISHED_DEEPSLATE_SLAB:
     - HUMAN
     - VOID
   story:
-    name: A Cut Below (Polished Deepslate)
+    name: 切開之下 (Polished Deepslate)
     type: HUMAN
     lore:
-      - Ripped in half and divided from
-      - self. A soul torn asunder
+      - 撕成兩半，與自己分開.
+      - 被撕裂的靈魂
     shards:
       - 1
       - 1
@@ -15175,12 +15175,12 @@ POLISHED_DEEPSLATE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Rising on up (Polished Deepslate)
+    name: 崛起 (Polished Deepslate)
     type: PHILOSOPHICAL
     lore:
-      - Every step is either an incline to
-      - future glory or a possible descent
-      - into further madness...
+      - 每一步都是通往未來的榮耀,
+      - 或者是墮入進一步的
+      - 瘋狂之中...
     shards:
       - 0
       - 1
@@ -15197,11 +15197,11 @@ POLISHED_DEEPSLATE_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: Beating down the walls (Polished Deepslate)
+    name: 打倒牆壁 (Polished Deepslate)
     type: HISTORICAL
     lore:
-      - Protecting for years working to keep
-      - those inside save and sound.
+      - 保護多年的工作,
+      - 使裡面的人得以安全與健全.
     shards:
       - 0
       - 0
@@ -15238,12 +15238,12 @@ POLISHED_DIORITE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Half Pint (Polished Diorite)
+    name: 半品脫 (Polished Diorite)
     type: HUMAN
     lore:
-      - Half as big, and twice-so unappreciated
-      - this little fellow protects you from
-      - mobs day in and day out.
+      - 這小傢伙只有一半大,
+      - 而且是不被重視的兩倍,
+      - 但它一天又一天的保護你免於怪物的侵害.
     shards:
       - 1
       - 1
@@ -15260,12 +15260,12 @@ POLISHED_DIORITE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Rising on up (Polished Diorite)
+    name: 崛起 (Polished Diorite)
     type: PHILOSOPHICAL
     lore:
-      - Every step is either an incline to
-      - future glory or a possible descent
-      - into further madness...
+      - 每一步都是通往未來的榮耀,
+      - 或者是墮入進一步的
+      - 瘋狂之中...
     shards:
       - 0
       - 1
@@ -15302,12 +15302,12 @@ POLISHED_GRANITE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Half Pint (Polished Granite)
+    name: 半品脫 (Polished Granite)
     type: HUMAN
     lore:
-      - Half as big, and twice-so unappreciated
-      - this little fellow protects you from
-      - mobs day in and day out.
+      - 這小傢伙只有一半大,
+      - 而且是不被重視的兩倍,
+      - 但它一天又一天的保護你免於怪物的侵害.
     shards:
       - 1
       - 1
@@ -15324,12 +15324,12 @@ POLISHED_GRANITE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Rising on up (Polished Granite)
+    name: 崛起 (Polished Granite)
     type: PHILOSOPHICAL
     lore:
-      - Every step is either an incline to
-      - future glory or a possible descent
-      - into further madness...
+      - 每一步都是通往未來的榮耀,
+      - 或者是墮入進一步的
+      - 瘋狂之中...
     shards:
       - 0
       - 1
@@ -15365,11 +15365,11 @@ POPPY:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Sweet Smell (Poppy)
+    name: 甜甜的氣味 (罌粟)
     type: ANIMAL
     lore:
-      - A wafting fragrance to quell the most
-      - vicious of temperaments.
+      - 飄散的芬芳最能平息
+      - 暴躁不安的心情.
     shards:
       - 1
       - 0
@@ -15386,12 +15386,12 @@ PORKCHOP:
     - ANIMAL
     - HUMAN
   story:
-    name: Raw (Pork)
+    name: 生食材 (生豬肉)
     type: ANIMAL
     lore:
-      - Packed with unused potential.
-      - Longs for nothing more than a
-      - nice fire
+      - 充滿了未使用的潛力.
+      - 只渴望有一個好的火,
+      - 而不是別的
     shards:
       - 0
       - 0
@@ -15541,11 +15541,11 @@ PRISMARINE_BRICK_SLAB:
     - VOID
     - ANIMAL
   story:
-    name: A Cut Below (Prismarine Brick)
+    name: 切開之下 (Prismarine Brick)
     type: HUMAN
     lore:
-      - Ripped in half and divided from
-      - self. A soul torn asunder
+      - 撕成兩半，與自己分開.
+      - 被撕裂的靈魂
     shards:
       - 1
       - 1
@@ -15563,12 +15563,12 @@ PRISMARINE_BRICK_STAIRS:
     - PHILOSOPHICAL
     - ANIMAL
   story:
-    name: Rising on up (Prismarine Brick)
+    name: 崛起 (Prismarine Brick)
     type: PHILOSOPHICAL
     lore:
-      - Every step is either an incline to
-      - future glory or a possible descent
-      - into further madness...
+      - 每一步都是通往未來的榮耀,
+      - 或者是墮入進一步的
+      - 瘋狂之中...
     shards:
       - 0
       - 1
@@ -15628,11 +15628,11 @@ PRISMARINE_SLAB:
     - VOID
     - ANIMAL
   story:
-    name: A Cut Below (Prismarine)
+    name: 切開之下 (Prismarine)
     type: HUMAN
     lore:
-      - Ripped in half and divided from
-      - self. A soul torn asunder
+      - 撕成兩半，與自己分開.
+      - 被撕裂的靈魂
     shards:
       - 1
       - 1
@@ -15650,12 +15650,12 @@ PRISMARINE_STAIRS:
     - PHILOSOPHICAL
     - ANIMAL
   story:
-    name: Rising on up (Diorite)
+    name: 崛起 (Diorite)
     type: PHILOSOPHICAL
     lore:
-      - Every step is either an incline to
-      - future glory or a possible descent
-      - into further madness...
+      - 每一步都是通往未來的榮耀,
+      - 或者是墮入進一步的
+      - 瘋狂之中...
     shards:
       - 0
       - 1
@@ -15673,11 +15673,11 @@ PRISMARINE_WALL:
     - HISTORICAL
     - ANIMAL
   story:
-    name: Beating down the walls (Prismarine)
+    name: 打倒牆壁 (Prismarine)
     type: HISTORICAL
     lore:
-      - Protecting for years working to keep
-      - those inside save and sound.
+      - 保護多年的工作,
+      - 使裡面的人得以安全與健全.
     shards:
       - 0
       - 0
@@ -15715,12 +15715,12 @@ PUFFERFISH_BUCKET:
     - HUMAN
     - ANIMAL
   story:
-    name: Small but Cosy! (Pufferfish)
+    name: 小但溫馨! (河豚)
     type: ANIMAL
     lore:
-      - Even though most organisms hate
-      - being locked up, the pufferfish
-      - loves it.. for now
+      - 儘管大多數生物都
+      - 討厭被關起來, 但河豚
+      - 喜歡... 只有現在
     shards:
       - 1
       - 0
@@ -16116,11 +16116,11 @@ PURPUR_SLAB:
     - VOID
     - CELESTIAL
   story:
-    name: A Cut Below (Purpur)
+    name: 切開之下 (Purpur)
     type: HUMAN
     lore:
-      - Ripped in half and divided from
-      - self. A soul torn asunder
+      - 撕成兩半，與自己分開.
+      - 被撕裂的靈魂
     shards:
       - 1
       - 1
@@ -16138,12 +16138,12 @@ PURPUR_STAIRS:
     - PHILOSOPHICAL
     - CELESTIAL
   story:
-    name: Rising on up (Purpur)
+    name: 崛起 (Purpur)
     type: PHILOSOPHICAL
     lore:
-      - Every step is either an incline to
-      - future glory or a possible descent
-      - into further madness...
+      - 每一步都是通往未來的榮耀,
+      - 或者是墮入進一步的
+      - 瘋狂之中...
     shards:
       - 0
       - 1
@@ -16249,11 +16249,11 @@ QUARTZ_SLAB:
     - VOID
     - ALCHEMICAL
   story:
-    name: A Cut Below (Quartz)
+    name: 切開之下 (Quartz)
     type: HUMAN
     lore:
-      - Ripped in half and divided from
-      - self. A soul torn asunder
+      - 撕成兩半，與自己分開.
+      - 被撕裂的靈魂
     shards:
       - 1
       - 1
@@ -16271,12 +16271,12 @@ QUARTZ_STAIRS:
     - PHILOSOPHICAL
     - ALCHEMICAL
   story:
-    name: Rising on up (Quartz)
+    name: 崛起 (Quartz)
     type: PHILOSOPHICAL
     lore:
-      - Every step is either an incline to
-      - future glory or a possible descent
-      - into further madness...
+      - 每一步都是通往未來的榮耀,
+      - 或者是墮入進一步的
+      - 瘋狂之中...
     shards:
       - 0
       - 1
@@ -16293,12 +16293,12 @@ RABBIT:
     - ANIMAL
     - HUMAN
   story:
-    name: Raw (Rabbit)
+    name: 生食材 (生兔肉)
     type: ANIMAL
     lore:
-      - Packed with unused potential.
-      - Longs for nothing more than a
-      - nice fire
+      - 充滿了未使用的潛力.
+      - 只渴望有一個好的火,
+      - 而不是別的
     shards:
       - 0
       - 0
@@ -16879,12 +16879,12 @@ RED_NETHER_BRICK_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Half Pint (Red Nether Brick)
+    name: 半品脫 (Red Nether Brick)
     type: HUMAN
     lore:
-      - Half as big, and twice-so unappreciated
-      - this little fellow protects you from
-      - mobs day in and day out.
+      - 這小傢伙只有一半大,
+      - 而且是不被重視的兩倍,
+      - 但它一天又一天的保護你免於怪物的侵害.
     shards:
       - 1
       - 1
@@ -16901,12 +16901,12 @@ RED_NETHER_BRICK_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Rising on up (Red Nether Brick)
+    name: 崛起 (Red Nether Brick)
     type: PHILOSOPHICAL
     lore:
-      - Every step is either an incline to
-      - future glory or a possible descent
-      - into further madness...
+      - 每一步都是通往未來的榮耀,
+      - 或者是墮入進一步的
+      - 瘋狂之中...
     shards:
       - 0
       - 1
@@ -16923,11 +16923,11 @@ RED_NETHER_BRICK_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: Beating down the walls (Red Nether Brick)
+    name: 打倒牆壁 (Red Nether Brick)
     type: HISTORICAL
     lore:
-      - Protecting for years working to keep
-      - those inside save and sound.
+      - 保護多年的工作,
+      - 使裡面的人得以安全與健全.
     shards:
       - 0
       - 0
@@ -16986,12 +16986,12 @@ RED_SANDSTONE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Half Pint (Red Sandstone)
+    name: 半品脫 (Red Sandstone)
     type: HUMAN
     lore:
-      - Half as big, and twice-so unappreciated
-      - this little fellow protects you from
-      - mobs day in and day out.
+      - 這小傢伙只有一半大,
+      - 而且是不被重視的兩倍,
+      - 但它一天又一天的保護你免於怪物的侵害.
     shards:
       - 1
       - 1
@@ -17008,12 +17008,12 @@ RED_SANDSTONE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Rising on up (Red Sandstone)
+    name: 崛起 (Red Sandstone)
     type: PHILOSOPHICAL
     lore:
-      - Every step is either an incline to
-      - future glory or a possible descent
-      - into further madness...
+      - 每一步都是通往未來的榮耀,
+      - 或者是墮入進一步的
+      - 瘋狂之中...
     shards:
       - 0
       - 1
@@ -17030,11 +17030,11 @@ RED_SANDSTONE_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: Beating down the walls (Red Sandstone)
+    name: 打倒牆壁 (Red Sandstone)
     type: HISTORICAL
     lore:
-      - Protecting for years working to keep
-      - those inside save and sound.
+      - 保護多年的工作,
+      - 使裡面的人得以安全與健全.
     shards:
       - 0
       - 0
@@ -17117,11 +17117,11 @@ RED_TULIP:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Sweet Smell (Red Tulip)
+    name: 甜甜的氣味 (紅色鬱金香)
     type: ANIMAL
     lore:
-      - A wafting fragrance to quell the most
-      - vicious of temperaments.
+      - 飄散的芬芳最能平息
+      - 暴躁不安的心情.
     shards:
       - 1
       - 0
@@ -17227,11 +17227,11 @@ ROSE_BUSH:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Sweet Smell (Rose Bush)
+    name: 甜甜的氣味 (玫瑰叢)
     type: ANIMAL
     lore:
-      - A wafting fragrance to quell the most
-      - vicious of temperaments.
+      - 飄散的芬芳最能平息
+      - 暴躁不安的心情.
     shards:
       - 1
       - 0
@@ -17289,12 +17289,12 @@ SALMON:
     - ANIMAL
     - HUMAN
   story:
-    name: Raw (Salmon)
+    name: 生食材 (鮭魚)
     type: ANIMAL
     lore:
-      - Packed with unused potential.
-      - Longs for nothing more than a
-      - nice fire
+      - 充滿了未使用的潛力.
+      - 只渴望有一個好的火,
+      - 而不是別的
     shards:
       - 0
       - 0
@@ -17311,12 +17311,12 @@ SALMON_BUCKET:
     - HUMAN
     - ANIMAL
   story:
-    name: Small but Cosy! (Salmon)
+    name: 小但溫馨! (鮭魚)
     type: ANIMAL
     lore:
-      - Even though most organisms hate
-      - being locked up, the salmon
-      - loves it.. for now
+      - 儘管大多數生物都
+      - 討厭被關起來, 但鮭魚
+      - 喜歡... 只有現在
     shards:
       - 1
       - 0
@@ -17376,12 +17376,12 @@ SANDSTONE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Half Pint (Sandstone)
+    name: 半品脫 (Sandstone)
     type: HUMAN
     lore:
-      - Half as big, and twice-so unappreciated
-      - this little fellow protects you from
-      - mobs day in and day out.
+      - 這小傢伙只有一半大,
+      - 而且是不被重視的兩倍,
+      - 但它一天又一天的保護你免於怪物的侵害.
     shards:
       - 1
       - 1
@@ -17398,12 +17398,12 @@ SANDSTONE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Rising on up (Sandstone)
+    name: 崛起 (Sandstone)
     type: PHILOSOPHICAL
     lore:
-      - Every step is either an incline to
-      - future glory or a possible descent
-      - into further madness...
+      - 每一步都是通往未來的榮耀,
+      - 或者是墮入進一步的
+      - 瘋狂之中...
     shards:
       - 0
       - 1
@@ -17420,11 +17420,11 @@ SANDSTONE_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: Beating down the walls (Sandstone)
+    name: 打倒牆壁 (Sandstone)
     type: HISTORICAL
     lore:
-      - Protecting for years working to keep
-      - those inside save and sound.
+      - 保護多年的工作,
+      - 使裡面的人得以安全與健全.
     shards:
       - 0
       - 0
@@ -17859,11 +17859,11 @@ SMOOTH_QUARTZ_SLAB:
     - VOID
     - ALCHEMICAL
   story:
-    name: A Cut Below (平滑石英方塊)
+    name: 切開之下 (Smooth Quartz)
     type: HUMAN
     lore:
-      - Ripped in half and divided from
-      - self. A soul torn asunder
+      - 撕成兩半，與自己分開.
+      - 被撕裂的靈魂
     shards:
       - 1
       - 1
@@ -17881,12 +17881,12 @@ SMOOTH_QUARTZ_STAIRS:
     - PHILOSOPHICAL
     - ALCHEMICAL
   story:
-    name: Rising on up (平滑石英方塊)
+    name: 崛起 (Smooth Quartz)
     type: PHILOSOPHICAL
     lore:
-      - Every step is either an incline to
-      - future glory or a possible descent
-      - into further madness...
+      - 每一步都是通往未來的榮耀,
+      - 或者是墮入進一步的
+      - 瘋狂之中...
     shards:
       - 0
       - 1
@@ -17924,12 +17924,12 @@ SMOOTH_RED_SANDSTONE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Half Pint (Smooth Red Sandstone)
+    name: 半品脫 (Smooth Red Sandstone)
     type: HUMAN
     lore:
-      - Half as big, and twice-so unappreciated
-      - this little fellow protects you from
-      - mobs day in and day out.
+      - 這小傢伙只有一半大,
+      - 而且是不被重視的兩倍,
+      - 但它一天又一天的保護你免於怪物的侵害.
     shards:
       - 1
       - 1
@@ -17946,12 +17946,12 @@ SMOOTH_RED_SANDSTONE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Rising on up (Smooth Red Sandstone)
+    name: 崛起 (Smooth Red Sandstone)
     type: PHILOSOPHICAL
     lore:
-      - Every step is either an incline to
-      - future glory or a possible descent
-      - into further madness...
+      - 每一步都是通往未來的榮耀,
+      - 或者是墮入進一步的
+      - 瘋狂之中...
     shards:
       - 0
       - 1
@@ -17989,12 +17989,12 @@ SMOOTH_SANDSTONE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Half Pint (Smooth Sandstone)
+    name: 半品脫 (Smooth Sandstone)
     type: HUMAN
     lore:
-      - Half as big, and twice-so unappreciated
-      - this little fellow protects you from
-      - mobs day in and day out.
+      - 這小傢伙只有一半大,
+      - 而且是不被重視的兩倍,
+      - 但它一天又一天的保護你免於怪物的侵害.
     shards:
       - 1
       - 1
@@ -18011,12 +18011,12 @@ SMOOTH_SANDSTONE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Rising on up (Smooth Sandstone)
+    name: 崛起 (Smooth Sandstone)
     type: PHILOSOPHICAL
     lore:
-      - Every step is either an incline to
-      - future glory or a possible descent
-      - into further madness...
+      - 每一步都是通往未來的榮耀,
+      - 或者是墮入進一步的
+      - 瘋狂之中...
     shards:
       - 0
       - 1
@@ -18054,12 +18054,12 @@ SMOOTH_STONE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Half Pint (Smooth Stone)
+    name: 半品脫 (Smooth Stone)
     type: HUMAN
     lore:
-      - Half as big, and twice-so unappreciated
-      - this little fellow protects you from
-      - mobs day in and day out.
+      - 這小傢伙只有一半大,
+      - 而且是不被重視的兩倍,
+      - 但它一天又一天的保護你免於怪物的侵害.
     shards:
       - 1
       - 1
@@ -18365,10 +18365,10 @@ SPRUCE_BOAT:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: Ship-shape (Spruce)
+    name: 整齊的 (Spruce)
     type: PHILOSOPHICAL
     lore:
-      - Live in the sunshine, swim the sea and drink in the wild air
+      - 生活在陽光下，在海裡游泳， 於狂野的空氣中喝酒
     shards:
       - 1
       - 0
@@ -18385,7 +18385,7 @@ SPRUCE_BUTTON:
     - HUMAN
     - MECHANICAL
   story:
-    name: Depressed (Spruce)
+    name: 鬱悶 (Spruce)
     type: HUMAN
     lore:
       - 容易受到鬱悶
@@ -18405,12 +18405,12 @@ SPRUCE_DOOR:
     - HUMAN
     - MECHANICAL
   story:
-    name: Gateway
+    name: 出入口
     type: HUMAN
     lore:
-      - Every entrance  is also an exit.
-      - Doors protects from the outside but
-      - don't let them keep you in!
+      - 每一個入口也是一個出口.
+      - 門可以保護外界，但
+      - 不要讓它們把你擋在門外!
     shards:
       - 0
       - 2
@@ -18427,11 +18427,11 @@ SPRUCE_FENCE:
     - HUMAN
     - ANIMAL
   story:
-    name: Livestock (Spruce)
+    name: 家畜 (Spruce)
     type: ANIMAL
     lore:
-      - Nothing brings more joy to a fence
-      - than keeping your livestock safe.
+      - 能保護好牲畜的安全,
+      - 是你家的圍欄這一生最大的快樂.
     shards:
       - 0
       - 0
@@ -18449,11 +18449,11 @@ SPRUCE_FENCE_GATE:
     - MECHANICAL
     - ANIMAL
   story:
-    name: Gate (Spruce)
+    name: 門 (Spruce)
     type: MECHANICAL
     lore:
-      - Still round the corner there may wait,
-      - A new road or a secret gate.
+      - 仍然在轉角處可能等待,
+      - 新的路或秘密的門.
     shards:
       - 0
       - 2
@@ -18471,12 +18471,12 @@ SPRUCE_LEAVES:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: Leaf me alone! (Spruce)
+    name: 讓我獨自一片! (Spruce)
     type: PHILOSOPHICAL
     lore:
-      - Gently swaying in a cool breeze,
-      - Leaves want nothing more than to be
-      - left alone to their thoughts.
+      - 在涼爽的微風中輕輕輕輕搖曳,
+      - 葉子只想要獨自一片
+      - 靜靜思考.
     shards:
       - 1
       - 0
@@ -18493,11 +18493,11 @@ SPRUCE_LOG:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: 敲樹以獲得原木 (杉木)
+    name: 敲樹以獲得原木 (Spruce)
     type: ELEMENTAL
     lore:
-      - Every adventure begins with a good tree
-      - punch
+      - 每次的冒險開始都從
+      - 敲一棵好樹開始
     shards:
       - 2
       - 0
@@ -18514,11 +18514,11 @@ SPRUCE_PLANKS:
     - ELEMENTAL
     - HUMAN
   story:
-    name: 走上木材 (杉木)
+    name: 走上木材 (Spruce)
     type: HUMAN
     lore:
       - 製作旅程的第一步
-      - 引領著新玩家向前邁進
+      - 引領著新玩家向前邁進.
     shards:
       - 1
       - 0
@@ -18535,10 +18535,10 @@ SPRUCE_PRESSURE_PLATE:
     - MECHANICAL
     - VOID
   story:
-    name: Under Pressure (Spruce)
+    name: 在壓力之下 (Spruce)
     type: VOID
     lore:
-      - Being walked all over will drop any
+      - 到處行走會下降任何
       - spirit.
     shards:
       - 0
@@ -18559,8 +18559,8 @@ SPRUCE_SAPLING:
     name: Growth
     type: ELEMENTAL
     lore:
-      - A youthful spirit empowered to grow
-      - into a mighty tree
+      - 一個年輕的精神
+      - 有能力成長為一棵大樹
     shards:
       - 1
       - 0
@@ -18577,10 +18577,10 @@ SPRUCE_SIGN:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Signed (Spruce)
+    name: 署名 (Spruce)
     type: PHILOSOPHICAL
     lore:
-      - Imbued with the thoughts of those
+      - 充滿了那些
       - authors
     shards:
       - 0
@@ -18597,11 +18597,11 @@ SPRUCE_SLAB:
   elements:
     - HUMAN
   story:
-    name: A Cut Below (Spruce)
+    name: 切開之下 (Spruce)
     type: HUMAN
     lore:
-      - Ripped in half and divided from
-      - self. A soul torn asunder
+      - 撕成兩半，與自己分開.
+      - 被撕裂的靈魂
     shards:
       - 1
       - 1
@@ -18618,11 +18618,11 @@ SPRUCE_STAIRS:
     - HUMAN
     - CELESTIAL
   story:
-    name: Arise (Spruce)
+    name: 出現 (Spruce)
     type: CELESTIAL
     lore:
-      - Lives to feel the joy of others being
-      - raised to new heights.
+      - 活著是為了感受他人
+      - 被提升到新高度的喜悅.
     shards:
       - 0
       - 1
@@ -18639,11 +18639,11 @@ SPRUCE_TRAPDOOR:
     - HUMAN
     - VOID
   story:
-    name: To the Pits (Spruce)
+    name: 到坑內 (Spruce)
     type: VOID
     lore:
-      - Awaiting the perfect moment to drop an
-      - unsuspecting person to their end
+      - 等待一個完美的時刻
+      - 讓一個毫無戒心的人走到盡頭
     shards:
       - 0
       - 1
@@ -18660,11 +18660,11 @@ SPRUCE_WOOD:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: 敲樹以獲得木頭 (杉木)
+    name: 敲樹以獲得原木 (Spruce)
     type: ELEMENTAL
     lore:
-      - Every adventure begins with a good tree
-      - punch
+      - 每次的冒險開始都從
+      - 敲一棵好樹開始
     shards:
       - 2
       - 0
@@ -18832,12 +18832,12 @@ STONE_BRICK_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Half Pint (Stone Brick)
+    name: 半品脫 (Stone Brick)
     type: HUMAN
     lore:
-      - Half as big, and twice-so unappreciated
-      - this little fellow protects you from
-      - mobs day in and day out.
+      - 這小傢伙只有一半大,
+      - 而且是不被重視的兩倍,
+      - 但它一天又一天的保護你免於怪物的侵害.
     shards:
       - 1
       - 1
@@ -18854,12 +18854,12 @@ STONE_BRICK_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Rising on up (Stone Brick)
+    name: 崛起 (Stone Brick)
     type: PHILOSOPHICAL
     lore:
-      - Every step is either an incline to
-      - future glory or a possible descent
-      - into further madness...
+      - 每一步都是通往未來的榮耀,
+      - 或者是墮入進一步的
+      - 瘋狂之中...
     shards:
       - 0
       - 1
@@ -18876,11 +18876,11 @@ STONE_BRICK_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: Beating down the walls (Stone Brick)
+    name: 打倒牆壁 (Stone Brick)
     type: HISTORICAL
     lore:
-      - Protecting for years working to keep
-      - those inside save and sound.
+      - 保護多年的工作,
+      - 使裡面的人得以安全與健全.
     shards:
       - 0
       - 0
@@ -18897,7 +18897,7 @@ STONE_BUTTON:
     - HUMAN
     - MECHANICAL
   story:
-    name: Depressed (Stone)
+    name: 鬱悶 (Stone)
     type: HUMAN
     lore:
       - 容易受到鬱悶
@@ -18962,10 +18962,10 @@ STONE_PRESSURE_PLATE:
     - VOID
     - ELEMENTAL
   story:
-    name: Under Pressure (Stone)
+    name: 在壓力之下 (Stone)
     type: VOID
     lore:
-      - Being walked all over will drop any
+      - 到處行走會下降任何
       - spirit.
     shards:
       - 1
@@ -19005,12 +19005,12 @@ STONE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Half Pint (Stone)
+    name: 半品脫 (Stone)
     type: HUMAN
     lore:
-      - Half as big, and twice-so unappreciated
-      - this little fellow protects you from
-      - mobs day in and day out.
+      - 這小傢伙只有一半大,
+      - 而且是不被重視的兩倍,
+      - 但它一天又一天的保護你免於怪物的侵害.
     shards:
       - 1
       - 1
@@ -19027,12 +19027,12 @@ STONE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Rising on up (Stone)
+    name: 崛起 (Stone)
     type: PHILOSOPHICAL
     lore:
-      - Every step is either an incline to
-      - future glory or a possible descent
-      - into further madness...
+      - 每一步都是通往未來的榮耀,
+      - 或者是墮入進一步的
+      - 瘋狂之中...
     shards:
       - 0
       - 1
@@ -19473,11 +19473,11 @@ SUNFLOWER:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Sweet Smell (Sunflower)
+    name: 甜甜的氣味 (向日葵)
     type: ANIMAL
     lore:
-      - A wafting fragrance to quell the most
-      - vicious of temperaments.
+      - 飄散的芬芳最能平息
+      - 暴躁不安的心情.
     shards:
       - 1
       - 0
@@ -19817,12 +19817,12 @@ TROPICAL_FISH_BUCKET:
     - HUMAN
     - ANIMAL
   story:
-    name: Small but Cosy! (Tropical Fish)
+    name: 小但溫馨! (熱帶魚)
     type: ANIMAL
     lore:
-      - Even though most organisms hate
-      - being locked up, the tropical fish
-      - loves it.. for now
+      - 儘管大多數生物都
+      - 討厭被關起來, 但熱帶魚
+      - 喜歡... 只有現在
     shards:
       - 1
       - 0
@@ -20017,7 +20017,7 @@ WARPED_BUTTON:
     - MECHANICAL
     - VOID
   story:
-    name: Depressed (Warped)
+    name: 鬱悶 (Warped)
     type: HUMAN
     lore:
       - 容易受到鬱悶
@@ -20038,12 +20038,12 @@ WARPED_DOOR:
     - MECHANICAL
     - VOID
   story:
-    name: Gateway
+    name: 出入口
     type: HUMAN
     lore:
-      - Every entrance  is also an exit.
-      - Doors protects from the outside but
-      - don't let them keep you in!
+      - 每一個入口也是一個出口.
+      - 門可以保護外界，但
+      - 不要讓它們把你擋在門外!
     shards:
       - 0
       - 2
@@ -20060,11 +20060,11 @@ WARPED_FENCE:
     - HUMAN
     - ANIMAL
   story:
-    name: Livestock (Warped)
+    name: 家畜 (Warped)
     type: ANIMAL
     lore:
-      - Nothing brings more joy to a fence
-      - than keeping your livestock safe.
+      - 能保護好牲畜的安全,
+      - 是你家的圍欄這一生最大的快樂.
     shards:
       - 0
       - 0
@@ -20083,11 +20083,11 @@ WARPED_FENCE_GATE:
     - ANIMAL
     - VOID
   story:
-    name: Gate (Warped)
+    name: 門 (Warped)
     type: MECHANICAL
     lore:
-      - Still round the corner there may wait,
-      - A new road or a secret gate.
+      - 仍然在轉角處可能等待,
+      - 新的路或秘密的門.
     shards:
       - 0
       - 2
@@ -20148,11 +20148,11 @@ WARPED_HYPHAE:
     - HISTORICAL
     - VOID
   story:
-    name: 敲樹以獲得...... 蛤? (扭曲)
+    name: 敲一棵好樹開始ing Trees Gives Me... Huh? (Warped)
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good fungus
-      - punch
+      - 敲一棵好樹開始
     shards:
       - 2
       - 0
@@ -20193,11 +20193,11 @@ WARPED_PLANKS:
     - HUMAN
     - VOID
   story:
-    name: 走上木材 (扭曲)
+    name: 走上木材 (Warped)
     type: HUMAN
     lore:
       - 製作旅程的第一步
-      - 引領著新玩家向前邁進
+      - 引領著新玩家向前邁進.
     shards:
       - 1
       - 0
@@ -20214,10 +20214,10 @@ WARPED_PRESSURE_PLATE:
     - MECHANICAL
     - VOID
   story:
-    name: Under Pressure (相思)
+    name: 在壓力之下 (相思)
     type: VOID
     lore:
-      - Being walked all over will drop any
+      - 到處行走會下降任何
       - spirit.
     shards:
       - 0
@@ -20257,10 +20257,10 @@ WARPED_SIGN:
     - PHILOSOPHICAL
     - VOID
   story:
-    name: Signed (Warped)
+    name: 署名 (Warped)
     type: PHILOSOPHICAL
     lore:
-      - Imbued with the thoughts of those
+      - 充滿了那些
       - authors
     shards:
       - 0
@@ -20278,11 +20278,11 @@ WARPED_SLAB:
     - HUMAN
     - VOID
   story:
-    name: A Cut Below (Warped)
+    name: 切開之下 (Warped)
     type: HUMAN
     lore:
-      - Ripped in half and divided from
-      - self. A soul torn asunder
+      - 撕成兩半，與自己分開.
+      - 被撕裂的靈魂
     shards:
       - 1
       - 1
@@ -20300,11 +20300,11 @@ WARPED_STAIRS:
     - CELESTIAL
     - VOID
   story:
-    name: Arise (Warped)
+    name: 出現 (Warped)
     type: CELESTIAL
     lore:
-      - Lives to feel the joy of others being
-      - raised to new heights.
+      - 活著是為了感受他人
+      - 被提升到新高度的喜悅.
     shards:
       - 0
       - 1
@@ -20322,11 +20322,11 @@ WARPED_STEM:
     - HISTORICAL
     - VOID
   story:
-    name: 敲樹以獲得...... 蛤? (扭曲蕈柄)
+    name: 敲一棵好樹開始ing Trees Gives Me... Huh? (Warped Stem)
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good fungus
-      - punch
+      - 敲一棵好樹開始
     shards:
       - 2
       - 0
@@ -20343,11 +20343,11 @@ WARPED_TRAPDOOR:
     - HUMAN
     - VOID
   story:
-    name: To the Pits (Warped)
+    name: 到坑內 (Warped)
     type: VOID
     lore:
-      - Awaiting the perfect moment to drop an
-      - unsuspecting person to their end
+      - 等待一個完美的時刻
+      - 讓一個毫無戒心的人走到盡頭
     shards:
       - 0
       - 1
@@ -21162,11 +21162,11 @@ WHITE_TULIP:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Sweet Smell (White Tulip)
+    name: 甜甜的氣味 (白色鬱金香)
     type: ANIMAL
     lore:
-      - A wafting fragrance to quell the most
-      - vicious of temperaments.
+      - 飄散的芬芳最能平息
+      - 暴躁不安的心情.
     shards:
       - 1
       - 0
