@@ -1420,12 +1420,12 @@ BLACK_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (黑)
+    name: 美好的晚安 (黑)
     type: PHILOSOPHICAL
     lore:
-      - 人們普遍認為一個人
-      - 內部魔法在睡眠期間被
-      - 充電.
+      - 人們普遍認為,
+      - 一個人在睡眠時,
+      - 將會把內在的魔法重新充能.
     shards:
       - 0
       - 0
@@ -1443,12 +1443,12 @@ BLACK_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (黑)
+    name: 恆定的驅動力 (黑)
     type: HUMAN
     lore:
-      - Burning bright for as long as possible
-      - the candle tries so hard as often feels
-      - burnt out.
+      - 蠟燭盡可能的長時間燃燒
+      - 來明亮周圍, 以至於經常
+      - 覺得自己快要燒壞.
     shards:
       - 1
       - 0
@@ -1465,12 +1465,12 @@ BLACK_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (黑)
+    name: 被踐踏 (黑)
     type: PHILOSOPHICAL
     lore:
-      - Trampled on a daily basis, the carpet
-      - is knows no better and gets it's enjoyment
-      - where possible.
+      - 地毯每天被踐踏著,
+      - 但它並不了解,
+      - 並盡可能地享受著.
     shards:
       - 0
       - 1
@@ -1487,12 +1487,12 @@ BLACK_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (黑)
+    name: 未來的證明 (黑)
     type: HISTORICAL
     lore:
-      - A block able to withstand the test
-      - of time. Concrete is stable, sturdy
-      - and forever more.
+      - 經過時間考驗的方塊.
+      - 混凝土具有穩定,
+      - 堅固的並且永久的.
     shards:
       - 0
       - 1
@@ -1509,13 +1509,13 @@ BLACK_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (黑)
+    name: 自我鑑定 (黑)
     type: HUMAN
     lore:
-      - Being a blend of other distinct blocks
-      - can wreak havoc on a spirit's identity.
-      - Concrete longs for just a drop of water
-      - so it can become itself!
+      - 作為其他不同的方塊混和體,
+      - 會對一個精神造成嚴重損壞.
+      - 混凝土只渴望一滴水,
+      - 這樣它就可以成為自己!
     shards:
       - 1
       - 0
@@ -1751,12 +1751,12 @@ BLUE_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (藍)
+    name: 美好的晚安 (藍)
     type: PHILOSOPHICAL
     lore:
-      - It's commonly thought that a persons
-      - internal magics are recharged during
-      - sleep.
+      - 人們普遍認為,
+      - 一個人在睡眠時,
+      - 將會把內在的魔法重新充能.
     shards:
       - 0
       - 0
@@ -1774,12 +1774,12 @@ BLUE_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (藍)
+    name: 恆定的驅動力 (藍)
     type: HUMAN
     lore:
-      - Burning bright for as long as possible
-      - the candle tries so hard as often feels
-      - burnt out.
+      - 蠟燭盡可能的長時間燃燒
+      - 來明亮周圍, 以至於經常
+      - 覺得自己快要燒壞.
     shards:
       - 1
       - 0
@@ -1796,12 +1796,12 @@ BLUE_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (藍)
+    name: 被踐踏 (藍)
     type: PHILOSOPHICAL
     lore:
-      - Trampled on a daily basis, the carpet
-      - is knows no better and gets it's enjoyment
-      - where possible.
+      - 地毯每天被踐踏著,
+      - 但它並不了解,
+      - 並盡可能地享受著.
     shards:
       - 0
       - 1
@@ -1818,12 +1818,12 @@ BLUE_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (藍)
+    name: 未來的證明 (藍)
     type: HISTORICAL
     lore:
-      - A block able to withstand the test
-      - of time. Concrete is stable, sturdy
-      - and forever more.
+      - 經過時間考驗的方塊.
+      - 混凝土具有穩定,
+      - 堅固的並且永久的.
     shards:
       - 0
       - 1
@@ -1840,13 +1840,13 @@ BLUE_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (藍)
+    name: 自我鑑定 (藍)
     type: HUMAN
     lore:
-      - Being a blend of other distinct blocks
-      - can wreak havoc on a spirit's identity.
-      - Concrete longs for just a drop of water
-      - so it can become itself!
+      - 作為其他不同的方塊混和體,
+      - 會對一個精神造成嚴重損壞.
+      - 混凝土只渴望一滴水,
+      - 這樣它就可以成為自己!
     shards:
       - 1
       - 0
@@ -2431,12 +2431,12 @@ BROWN_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (棕)
+    name: 美好的晚安 (棕)
     type: PHILOSOPHICAL
     lore:
-      - It's commonly thought that a persons
-      - internal magics are recharged during
-      - sleep.
+      - 人們普遍認為,
+      - 一個人在睡眠時,
+      - 將會把內在的魔法重新充能.
     shards:
       - 0
       - 0
@@ -2454,12 +2454,12 @@ BROWN_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (棕)
+    name: 恆定的驅動力 (棕)
     type: HUMAN
     lore:
-      - Burning bright for as long as possible
-      - the candle tries so hard as often feels
-      - burnt out.
+      - 蠟燭盡可能的長時間燃燒
+      - 來明亮周圍, 以至於經常
+      - 覺得自己快要燒壞.
     shards:
       - 1
       - 0
@@ -2476,12 +2476,12 @@ BROWN_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (棕)
+    name: 被踐踏 (棕)
     type: PHILOSOPHICAL
     lore:
-      - Trampled on a daily basis, the carpet
-      - is knows no better and gets it's enjoyment
-      - where possible.
+      - 地毯每天被踐踏著,
+      - 但它並不了解,
+      - 並盡可能地享受著.
     shards:
       - 0
       - 1
@@ -2498,12 +2498,12 @@ BROWN_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (棕)
+    name: 未來的證明 (棕)
     type: HISTORICAL
     lore:
-      - A block able to withstand the test
-      - of time. Concrete is stable, sturdy
-      - and forever more.
+      - 經過時間考驗的方塊.
+      - 混凝土具有穩定,
+      - 堅固的並且永久的.
     shards:
       - 0
       - 1
@@ -2520,13 +2520,13 @@ BROWN_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (棕)
+    name: 自我鑑定 (棕)
     type: HUMAN
     lore:
-      - Being a blend of other distinct blocks
-      - can wreak havoc on a spirit's identity.
-      - Concrete longs for just a drop of water
-      - so it can become itself!
+      - 作為其他不同的方塊混和體,
+      - 會對一個精神造成嚴重損壞.
+      - 混凝土只渴望一滴水,
+      - 這樣它就可以成為自己!
     shards:
       - 1
       - 0
@@ -2892,12 +2892,12 @@ CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive
+    name: 恆定的驅動力
     type: HUMAN
     lore:
-      - Burning bright for as long as possible
-      - the candle tries so hard as often feels
-      - burnt out.
+      - 蠟燭盡可能的長時間燃燒
+      - 來明亮周圍, 以至於經常
+      - 覺得自己快要燒壞.
     shards:
       - 1
       - 0
@@ -4906,12 +4906,12 @@ CYAN_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (青)
+    name: 美好的晚安 (青)
     type: PHILOSOPHICAL
     lore:
-      - It's commonly thought that a persons
-      - internal magics are recharged during
-      - sleep.
+      - 人們普遍認為,
+      - 一個人在睡眠時,
+      - 將會把內在的魔法重新充能.
     shards:
       - 0
       - 0
@@ -4929,12 +4929,12 @@ CYAN_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (青)
+    name: 恆定的驅動力 (青)
     type: HUMAN
     lore:
-      - Burning bright for as long as possible
-      - the candle tries so hard as often feels
-      - burnt out.
+      - 蠟燭盡可能的長時間燃燒
+      - 來明亮周圍, 以至於經常
+      - 覺得自己快要燒壞.
     shards:
       - 1
       - 0
@@ -4951,12 +4951,12 @@ CYAN_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (青)
+    name: 被踐踏 (青)
     type: PHILOSOPHICAL
     lore:
-      - Trampled on a daily basis, the carpet
-      - is knows no better and gets it's enjoyment
-      - where possible.
+      - 地毯每天被踐踏著,
+      - 但它並不了解,
+      - 並盡可能地享受著.
     shards:
       - 0
       - 1
@@ -4973,12 +4973,12 @@ CYAN_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (青)
+    name: 未來的證明 (青)
     type: HISTORICAL
     lore:
-      - A block able to withstand the test
-      - of time. Concrete is stable, sturdy
-      - and forever more.
+      - 經過時間考驗的方塊.
+      - 混凝土具有穩定,
+      - 堅固的並且永久的.
     shards:
       - 0
       - 1
@@ -4995,13 +4995,13 @@ CYAN_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (青)
+    name: 自我鑑定 (青)
     type: HUMAN
     lore:
-      - Being a blend of other distinct blocks
-      - can wreak havoc on a spirit's identity.
-      - Concrete longs for just a drop of water
-      - so it can become itself!
+      - 作為其他不同的方塊混和體,
+      - 會對一個精神造成嚴重損壞.
+      - 混凝土只渴望一滴水,
+      - 這樣它就可以成為自己!
     shards:
       - 1
       - 0
@@ -8686,12 +8686,12 @@ GRAY_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (灰)
+    name: 美好的晚安 (灰)
     type: PHILOSOPHICAL
     lore:
-      - It's commonly thought that a persons
-      - internal magics are recharged during
-      - sleep.
+      - 人們普遍認為,
+      - 一個人在睡眠時,
+      - 將會把內在的魔法重新充能.
     shards:
       - 0
       - 0
@@ -8709,12 +8709,12 @@ GRAY_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (灰)
+    name: 恆定的驅動力 (灰)
     type: HUMAN
     lore:
-      - Burning bright for as long as possible
-      - the candle tries so hard as often feels
-      - burnt out.
+      - 蠟燭盡可能的長時間燃燒
+      - 來明亮周圍, 以至於經常
+      - 覺得自己快要燒壞.
     shards:
       - 1
       - 0
@@ -8731,12 +8731,12 @@ GRAY_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (灰)
+    name: 被踐踏 (灰)
     type: PHILOSOPHICAL
     lore:
-      - Trampled on a daily basis, the carpet
-      - is knows no better and gets it's enjoyment
-      - where possible.
+      - 地毯每天被踐踏著,
+      - 但它並不了解,
+      - 並盡可能地享受著.
     shards:
       - 0
       - 1
@@ -8753,12 +8753,12 @@ GRAY_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (灰)
+    name: 未來的證明 (灰)
     type: HISTORICAL
     lore:
-      - A block able to withstand the test
-      - of time. Concrete is stable, sturdy
-      - and forever more.
+      - 經過時間考驗的方塊.
+      - 混凝土具有穩定,
+      - 堅固的並且永久的.
     shards:
       - 0
       - 1
@@ -8775,13 +8775,13 @@ GRAY_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (灰)
+    name: 自我鑑定 (灰)
     type: HUMAN
     lore:
-      - Being a blend of other distinct blocks
-      - can wreak havoc on a spirit's identity.
-      - Concrete longs for just a drop of water
-      - so it can become itself!
+      - 作為其他不同的方塊混和體,
+      - 會對一個精神造成嚴重損壞.
+      - 混凝土只渴望一滴水,
+      - 這樣它就可以成為自己!
     shards:
       - 1
       - 0
@@ -8951,12 +8951,12 @@ GREEN_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (綠)
+    name: 美好的晚安 (綠)
     type: PHILOSOPHICAL
     lore:
-      - It's commonly thought that a persons
-      - internal magics are recharged during
-      - sleep.
+      - 人們普遍認為,
+      - 一個人在睡眠時,
+      - 將會把內在的魔法重新充能.
     shards:
       - 0
       - 0
@@ -8974,12 +8974,12 @@ GREEN_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (綠)
+    name: 恆定的驅動力 (綠)
     type: HUMAN
     lore:
-      - Burning bright for as long as possible
-      - the candle tries so hard as often feels
-      - burnt out.
+      - 蠟燭盡可能的長時間燃燒
+      - 來明亮周圍, 以至於經常
+      - 覺得自己快要燒壞.
     shards:
       - 1
       - 0
@@ -8996,12 +8996,12 @@ GREEN_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (綠)
+    name: 被踐踏 (綠)
     type: PHILOSOPHICAL
     lore:
-      - Trampled on a daily basis, the carpet
-      - is knows no better and gets it's enjoyment
-      - where possible.
+      - 地毯每天被踐踏著,
+      - 但它並不了解,
+      - 並盡可能地享受著.
     shards:
       - 0
       - 1
@@ -9018,12 +9018,12 @@ GREEN_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (綠)
+    name: 未來的證明 (綠)
     type: HISTORICAL
     lore:
-      - A block able to withstand the test
-      - of time. Concrete is stable, sturdy
-      - and forever more.
+      - 經過時間考驗的方塊.
+      - 混凝土具有穩定,
+      - 堅固的並且永久的.
     shards:
       - 0
       - 1
@@ -9040,13 +9040,13 @@ GREEN_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (綠)
+    name: 自我鑑定 (綠)
     type: HUMAN
     lore:
-      - Being a blend of other distinct blocks
-      - can wreak havoc on a spirit's identity.
-      - Concrete longs for just a drop of water
-      - so it can become itself!
+      - 作為其他不同的方塊混和體,
+      - 會對一個精神造成嚴重損壞.
+      - 混凝土只渴望一滴水,
+      - 這樣它就可以成為自己!
     shards:
       - 1
       - 0
@@ -10919,12 +10919,12 @@ LIGHT_BLUE_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (淺藍)
+    name: 美好的晚安 (淺藍)
     type: PHILOSOPHICAL
     lore:
-      - It's commonly thought that a persons
-      - internal magics are recharged during
-      - sleep.
+      - 人們普遍認為,
+      - 一個人在睡眠時,
+      - 將會把內在的魔法重新充能.
     shards:
       - 0
       - 0
@@ -10942,12 +10942,12 @@ LIGHT_BLUE_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (淺藍)
+    name: 恆定的驅動力 (淺藍)
     type: HUMAN
     lore:
-      - Burning bright for as long as possible
-      - the candle tries so hard as often feels
-      - burnt out.
+      - 蠟燭盡可能的長時間燃燒
+      - 來明亮周圍, 以至於經常
+      - 覺得自己快要燒壞.
     shards:
       - 1
       - 0
@@ -10964,12 +10964,12 @@ LIGHT_BLUE_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (淺藍)
+    name: 被踐踏 (淺藍)
     type: PHILOSOPHICAL
     lore:
-      - Trampled on a daily basis, the carpet
-      - is knows no better and gets it's enjoyment
-      - where possible.
+      - 地毯每天被踐踏著,
+      - 但它並不了解,
+      - 並盡可能地享受著.
     shards:
       - 0
       - 1
@@ -10986,12 +10986,12 @@ LIGHT_BLUE_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (淺藍)
+    name: 未來的證明 (淺藍)
     type: HISTORICAL
     lore:
-      - A block able to withstand the test
-      - of time. Concrete is stable, sturdy
-      - and forever more.
+      - 經過時間考驗的方塊.
+      - 混凝土具有穩定,
+      - 堅固的並且永久的.
     shards:
       - 0
       - 1
@@ -11008,13 +11008,13 @@ LIGHT_BLUE_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (淺藍)
+    name: 自我鑑定 (淺藍)
     type: HUMAN
     lore:
-      - Being a blend of other distinct blocks
-      - can wreak havoc on a spirit's identity.
-      - Concrete longs for just a drop of water
-      - so it can become itself!
+      - 作為其他不同的方塊混和體,
+      - 會對一個精神造成嚴重損壞.
+      - 混凝土只渴望一滴水,
+      - 這樣它就可以成為自己!
     shards:
       - 1
       - 0
@@ -11185,12 +11185,12 @@ LIGHT_GRAY_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (淺灰)
+    name: 美好的晚安 (淺灰)
     type: PHILOSOPHICAL
     lore:
-      - It's commonly thought that a persons
-      - internal magics are recharged during
-      - sleep.
+      - 人們普遍認為,
+      - 一個人在睡眠時,
+      - 將會把內在的魔法重新充能.
     shards:
       - 0
       - 0
@@ -11208,12 +11208,12 @@ LIGHT_GRAY_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (淺灰)
+    name: 恆定的驅動力 (淺灰)
     type: HUMAN
     lore:
-      - Burning bright for as long as possible
-      - the candle tries so hard as often feels
-      - burnt out.
+      - 蠟燭盡可能的長時間燃燒
+      - 來明亮周圍, 以至於經常
+      - 覺得自己快要燒壞.
     shards:
       - 1
       - 0
@@ -11230,12 +11230,12 @@ LIGHT_GRAY_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (淺灰)
+    name: 被踐踏 (淺灰)
     type: PHILOSOPHICAL
     lore:
-      - Trampled on a daily basis, the carpet
-      - is knows no better and gets it's enjoyment
-      - where possible.
+      - 地毯每天被踐踏著,
+      - 但它並不了解,
+      - 並盡可能地享受著.
     shards:
       - 0
       - 1
@@ -11252,12 +11252,12 @@ LIGHT_GRAY_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (淺灰)
+    name: 未來的證明 (淺灰)
     type: HISTORICAL
     lore:
-      - A block able to withstand the test
-      - of time. Concrete is stable, sturdy
-      - and forever more.
+      - 經過時間考驗的方塊.
+      - 混凝土具有穩定,
+      - 堅固的並且永久的.
     shards:
       - 0
       - 1
@@ -11274,13 +11274,13 @@ LIGHT_GRAY_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (淺灰)
+    name: 自我鑑定 (淺灰)
     type: HUMAN
     lore:
-      - Being a blend of other distinct blocks
-      - can wreak havoc on a spirit's identity.
-      - Concrete longs for just a drop of water
-      - so it can become itself!
+      - 作為其他不同的方塊混和體,
+      - 會對一個精神造成嚴重損壞.
+      - 混凝土只渴望一滴水,
+      - 這樣它就可以成為自己!
     shards:
       - 1
       - 0
@@ -11537,12 +11537,12 @@ LIME_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (淺綠)
+    name: 美好的晚安 (淺綠)
     type: PHILOSOPHICAL
     lore:
-      - It's commonly thought that a persons
-      - internal magics are recharged during
-      - sleep.
+      - 人們普遍認為,
+      - 一個人在睡眠時,
+      - 將會把內在的魔法重新充能.
     shards:
       - 0
       - 0
@@ -11560,12 +11560,12 @@ LIME_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (淺綠)
+    name: 恆定的驅動力 (淺綠)
     type: HUMAN
     lore:
-      - Burning bright for as long as possible
-      - the candle tries so hard as often feels
-      - burnt out.
+      - 蠟燭盡可能的長時間燃燒
+      - 來明亮周圍, 以至於經常
+      - 覺得自己快要燒壞.
     shards:
       - 1
       - 0
@@ -11582,12 +11582,12 @@ LIME_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (淺綠)
+    name: 被踐踏 (淺綠)
     type: PHILOSOPHICAL
     lore:
-      - Trampled on a daily basis, the carpet
-      - is knows no better and gets it's enjoyment
-      - where possible.
+      - 地毯每天被踐踏著,
+      - 但它並不了解,
+      - 並盡可能地享受著.
     shards:
       - 0
       - 1
@@ -11604,12 +11604,12 @@ LIME_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (淺綠)
+    name: 未來的證明 (淺綠)
     type: HISTORICAL
     lore:
-      - A block able to withstand the test
-      - of time. Concrete is stable, sturdy
-      - and forever more.
+      - 經過時間考驗的方塊.
+      - 混凝土具有穩定,
+      - 堅固的並且永久的.
     shards:
       - 0
       - 1
@@ -11626,13 +11626,13 @@ LIME_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (淺綠)
+    name: 自我鑑定 (淺綠)
     type: HUMAN
     lore:
-      - Being a blend of other distinct blocks
-      - can wreak havoc on a spirit's identity.
-      - Concrete longs for just a drop of water
-      - so it can become itself!
+      - 作為其他不同的方塊混和體,
+      - 會對一個精神造成嚴重損壞.
+      - 混凝土只渴望一滴水,
+      - 這樣它就可以成為自己!
     shards:
       - 1
       - 0
@@ -11867,12 +11867,12 @@ MAGENTA_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (洋紅)
+    name: 美好的晚安 (洋紅)
     type: PHILOSOPHICAL
     lore:
-      - It's commonly thought that a persons
-      - internal magics are recharged during
-      - sleep.
+      - 人們普遍認為,
+      - 一個人在睡眠時,
+      - 將會把內在的魔法重新充能.
     shards:
       - 0
       - 0
@@ -11890,12 +11890,12 @@ MAGENTA_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (洋紅)
+    name: 恆定的驅動力 (洋紅)
     type: HUMAN
     lore:
-      - Burning bright for as long as possible
-      - the candle tries so hard as often feels
-      - burnt out.
+      - 蠟燭盡可能的長時間燃燒
+      - 來明亮周圍, 以至於經常
+      - 覺得自己快要燒壞.
     shards:
       - 1
       - 0
@@ -11912,12 +11912,12 @@ MAGENTA_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (洋紅)
+    name: 被踐踏 (洋紅)
     type: PHILOSOPHICAL
     lore:
-      - Trampled on a daily basis, the carpet
-      - is knows no better and gets it's enjoyment
-      - where possible.
+      - 地毯每天被踐踏著,
+      - 但它並不了解,
+      - 並盡可能地享受著.
     shards:
       - 0
       - 1
@@ -11934,12 +11934,12 @@ MAGENTA_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (洋紅)
+    name: 未來的證明 (洋紅)
     type: HISTORICAL
     lore:
-      - A block able to withstand the test
-      - of time. Concrete is stable, sturdy
-      - and forever more.
+      - 經過時間考驗的方塊.
+      - 混凝土具有穩定,
+      - 堅固的並且永久的.
     shards:
       - 0
       - 1
@@ -11956,13 +11956,13 @@ MAGENTA_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (洋紅)
+    name: 自我鑑定 (洋紅)
     type: HUMAN
     lore:
-      - Being a blend of other distinct blocks
-      - can wreak havoc on a spirit's identity.
-      - Concrete longs for just a drop of water
-      - so it can become itself!
+      - 作為其他不同的方塊混和體,
+      - 會對一個精神造成嚴重損壞.
+      - 混凝土只渴望一滴水,
+      - 這樣它就可以成為自己!
     shards:
       - 1
       - 0
@@ -12524,12 +12524,12 @@ MOSS_CARPET:
     - PHILOSOPHICAL
     - ELEMENTAL
   story:
-    name: Trampled (Moss)
+    name: 被踐踏 (Moss)
     type: PHILOSOPHICAL
     lore:
-      - Trampled on a daily basis, the carpet
-      - is knows no better and gets it's enjoyment
-      - where possible.
+      - 地毯每天被踐踏著,
+      - 但它並不了解,
+      - 並盡可能地享受著.
     shards:
       - 1
       - 1
@@ -13932,12 +13932,12 @@ ORANGE_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (橙)
+    name: 美好的晚安 (橙)
     type: PHILOSOPHICAL
     lore:
-      - It's commonly thought that a persons
-      - internal magics are recharged during
-      - sleep.
+      - 人們普遍認為,
+      - 一個人在睡眠時,
+      - 將會把內在的魔法重新充能.
     shards:
       - 0
       - 0
@@ -13955,12 +13955,12 @@ ORANGE_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (橙)
+    name: 恆定的驅動力 (橙)
     type: HUMAN
     lore:
-      - Burning bright for as long as possible
-      - the candle tries so hard as often feels
-      - burnt out.
+      - 蠟燭盡可能的長時間燃燒
+      - 來明亮周圍, 以至於經常
+      - 覺得自己快要燒壞.
     shards:
       - 1
       - 0
@@ -13977,12 +13977,12 @@ ORANGE_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (橙)
+    name: 被踐踏 (橙)
     type: PHILOSOPHICAL
     lore:
-      - Trampled on a daily basis, the carpet
-      - is knows no better and gets it's enjoyment
-      - where possible.
+      - 地毯每天被踐踏著,
+      - 但它並不了解,
+      - 並盡可能地享受著.
     shards:
       - 0
       - 1
@@ -13999,12 +13999,12 @@ ORANGE_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (橙)
+    name: 未來的證明 (橙)
     type: HISTORICAL
     lore:
-      - A block able to withstand the test
-      - of time. Concrete is stable, sturdy
-      - and forever more.
+      - 經過時間考驗的方塊.
+      - 混凝土具有穩定,
+      - 堅固的並且永久的.
     shards:
       - 0
       - 1
@@ -14021,13 +14021,13 @@ ORANGE_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (橙)
+    name: 自我鑑定 (橙)
     type: HUMAN
     lore:
-      - Being a blend of other distinct blocks
-      - can wreak havoc on a spirit's identity.
-      - Concrete longs for just a drop of water
-      - so it can become itself!
+      - 作為其他不同的方塊混和體,
+      - 會對一個精神造成嚴重損壞.
+      - 混凝土只渴望一滴水,
+      - 這樣它就可以成為自己!
     shards:
       - 1
       - 0
@@ -14454,12 +14454,12 @@ PINK_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (粉)
+    name: 美好的晚安 (粉)
     type: PHILOSOPHICAL
     lore:
-      - It's commonly thought that a persons
-      - internal magics are recharged during
-      - sleep.
+      - 人們普遍認為,
+      - 一個人在睡眠時,
+      - 將會把內在的魔法重新充能.
     shards:
       - 0
       - 0
@@ -14477,12 +14477,12 @@ PINK_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (粉)
+    name: 恆定的驅動力 (粉)
     type: HUMAN
     lore:
-      - Burning bright for as long as possible
-      - the candle tries so hard as often feels
-      - burnt out.
+      - 蠟燭盡可能的長時間燃燒
+      - 來明亮周圍, 以至於經常
+      - 覺得自己快要燒壞.
     shards:
       - 1
       - 0
@@ -14499,12 +14499,12 @@ PINK_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (粉)
+    name: 被踐踏 (粉)
     type: PHILOSOPHICAL
     lore:
-      - Trampled on a daily basis, the carpet
-      - is knows no better and gets it's enjoyment
-      - where possible.
+      - 地毯每天被踐踏著,
+      - 但它並不了解,
+      - 並盡可能地享受著.
     shards:
       - 0
       - 1
@@ -14521,12 +14521,12 @@ PINK_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (粉)
+    name: 未來的證明 (粉)
     type: HISTORICAL
     lore:
-      - A block able to withstand the test
-      - of time. Concrete is stable, sturdy
-      - and forever more.
+      - 經過時間考驗的方塊.
+      - 混凝土具有穩定,
+      - 堅固的並且永久的.
     shards:
       - 0
       - 1
@@ -14543,13 +14543,13 @@ PINK_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (粉)
+    name: 自我鑑定 (粉)
     type: HUMAN
     lore:
-      - Being a blend of other distinct blocks
-      - can wreak havoc on a spirit's identity.
-      - Concrete longs for just a drop of water
-      - so it can become itself!
+      - 作為其他不同的方塊混和體,
+      - 會對一個精神造成嚴重損壞.
+      - 混凝土只渴望一滴水,
+      - 這樣它就可以成為自己!
     shards:
       - 1
       - 0
@@ -15825,12 +15825,12 @@ PURPLE_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (紫)
+    name: 美好的晚安 (紫)
     type: PHILOSOPHICAL
     lore:
-      - It's commonly thought that a persons
-      - internal magics are recharged during
-      - sleep.
+      - 人們普遍認為,
+      - 一個人在睡眠時,
+      - 將會把內在的魔法重新充能.
     shards:
       - 0
       - 0
@@ -15848,12 +15848,12 @@ PURPLE_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (紫)
+    name: 恆定的驅動力 (紫)
     type: HUMAN
     lore:
-      - Burning bright for as long as possible
-      - the candle tries so hard as often feels
-      - burnt out.
+      - 蠟燭盡可能的長時間燃燒
+      - 來明亮周圍, 以至於經常
+      - 覺得自己快要燒壞.
     shards:
       - 1
       - 0
@@ -15870,12 +15870,12 @@ PURPLE_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (紫)
+    name: 被踐踏 (紫)
     type: PHILOSOPHICAL
     lore:
-      - Trampled on a daily basis, the carpet
-      - is knows no better and gets it's enjoyment
-      - where possible.
+      - 地毯每天被踐踏著,
+      - 但它並不了解,
+      - 並盡可能地享受著.
     shards:
       - 0
       - 1
@@ -15892,12 +15892,12 @@ PURPLE_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (紫)
+    name: 未來的證明 (紫)
     type: HISTORICAL
     lore:
-      - A block able to withstand the test
-      - of time. Concrete is stable, sturdy
-      - and forever more.
+      - 經過時間考驗的方塊.
+      - 混凝土具有穩定,
+      - 堅固的並且永久的.
     shards:
       - 0
       - 1
@@ -15914,13 +15914,13 @@ PURPLE_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (紫)
+    name: 自我鑑定 (紫)
     type: HUMAN
     lore:
-      - Being a blend of other distinct blocks
-      - can wreak havoc on a spirit's identity.
-      - Concrete longs for just a drop of water
-      - so it can become itself!
+      - 作為其他不同的方塊混和體,
+      - 會對一個精神造成嚴重損壞.
+      - 混凝土只渴望一滴水,
+      - 這樣它就可以成為自己!
     shards:
       - 1
       - 0
@@ -16658,12 +16658,12 @@ RED_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (紅)
+    name: 美好的晚安 (紅)
     type: PHILOSOPHICAL
     lore:
-      - It's commonly thought that a persons
-      - internal magics are recharged during
-      - sleep.
+      - 人們普遍認為,
+      - 一個人在睡眠時,
+      - 將會把內在的魔法重新充能.
     shards:
       - 0
       - 0
@@ -16681,12 +16681,12 @@ RED_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (紅)
+    name: 恆定的驅動力 (紅)
     type: HUMAN
     lore:
-      - Burning bright for as long as possible
-      - the candle tries so hard as often feels
-      - burnt out.
+      - 蠟燭盡可能的長時間燃燒
+      - 來明亮周圍, 以至於經常
+      - 覺得自己快要燒壞.
     shards:
       - 1
       - 0
@@ -16703,12 +16703,12 @@ RED_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (紅)
+    name: 被踐踏 (紅)
     type: PHILOSOPHICAL
     lore:
-      - Trampled on a daily basis, the carpet
-      - is knows no better and gets it's enjoyment
-      - where possible.
+      - 地毯每天被踐踏著,
+      - 但它並不了解,
+      - 並盡可能地享受著.
     shards:
       - 0
       - 1
@@ -16725,12 +16725,12 @@ RED_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (紅)
+    name: 未來的證明 (紅)
     type: HISTORICAL
     lore:
-      - A block able to withstand the test
-      - of time. Concrete is stable, sturdy
-      - and forever more.
+      - 經過時間考驗的方塊.
+      - 混凝土具有穩定,
+      - 堅固的並且永久的.
     shards:
       - 0
       - 1
@@ -16747,13 +16747,13 @@ RED_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (紅)
+    name: 自我鑑定 (紅)
     type: HUMAN
     lore:
-      - Being a blend of other distinct blocks
-      - can wreak havoc on a spirit's identity.
-      - Concrete longs for just a drop of water
-      - so it can become itself!
+      - 作為其他不同的方塊混和體,
+      - 會對一個精神造成嚴重損壞.
+      - 混凝土只渴望一滴水,
+      - 這樣它就可以成為自己!
     shards:
       - 1
       - 0
@@ -20940,12 +20940,12 @@ WHITE_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (白)
+    name: 美好的晚安 (白)
     type: PHILOSOPHICAL
     lore:
-      - It's commonly thought that a persons
-      - internal magics are recharged during
-      - sleep.
+      - 人們普遍認為,
+      - 一個人在睡眠時,
+      - 將會把內在的魔法重新充能.
     shards:
       - 0
       - 0
@@ -20963,12 +20963,12 @@ WHITE_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (白)
+    name: 恆定的驅動力 (白)
     type: HUMAN
     lore:
-      - Burning bright for as long as possible
-      - the candle tries so hard as often feels
-      - burnt out.
+      - 蠟燭盡可能的長時間燃燒
+      - 來明亮周圍, 以至於經常
+      - 覺得自己快要燒壞.
     shards:
       - 1
       - 0
@@ -20985,12 +20985,12 @@ WHITE_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (白)
+    name: 被踐踏 (白)
     type: PHILOSOPHICAL
     lore:
-      - Trampled on a daily basis, the carpet
-      - is knows no better and gets it's enjoyment
-      - where possible.
+      - 地毯每天被踐踏著,
+      - 但它並不了解,
+      - 並盡可能地享受著.
     shards:
       - 0
       - 1
@@ -21007,12 +21007,12 @@ WHITE_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (白)
+    name: 未來的證明 (白)
     type: HISTORICAL
     lore:
-      - A block able to withstand the test
-      - of time. Concrete is stable, sturdy
-      - and forever more.
+      - 經過時間考驗的方塊.
+      - 混凝土具有穩定,
+      - 堅固的並且永久的.
     shards:
       - 0
       - 1
@@ -21029,13 +21029,13 @@ WHITE_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (白)
+    name: 自我鑑定 (白)
     type: HUMAN
     lore:
-      - Being a blend of other distinct blocks
-      - can wreak havoc on a spirit's identity.
-      - Concrete longs for just a drop of water
-      - so it can become itself!
+      - 作為其他不同的方塊混和體,
+      - 會對一個精神造成嚴重損壞.
+      - 混凝土只渴望一滴水,
+      - 這樣它就可以成為自己!
     shards:
       - 1
       - 0
@@ -21423,12 +21423,12 @@ YELLOW_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (黃)
+    name: 美好的晚安 (黃)
     type: PHILOSOPHICAL
     lore:
-      - It's commonly thought that a persons
-      - internal magics are recharged during
-      - sleep.
+      - 人們普遍認為,
+      - 一個人在睡眠時,
+      - 將會把內在的魔法重新充能.
     shards:
       - 0
       - 0
@@ -21446,12 +21446,12 @@ YELLOW_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (黃)
+    name: 恆定的驅動力 (黃)
     type: HUMAN
     lore:
-      - Burning bright for as long as possible
-      - the candle tries so hard as often feels
-      - burnt out.
+      - 蠟燭盡可能的長時間燃燒
+      - 來明亮周圍, 以至於經常
+      - 覺得自己快要燒壞.
     shards:
       - 1
       - 0
@@ -21468,12 +21468,12 @@ YELLOW_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (黃)
+    name: 被踐踏 (黃)
     type: PHILOSOPHICAL
     lore:
-      - Trampled on a daily basis, the carpet
-      - is knows no better and gets it's enjoyment
-      - where possible.
+      - 地毯每天被踐踏著,
+      - 但它並不了解,
+      - 並盡可能地享受著.
     shards:
       - 0
       - 1
@@ -21490,12 +21490,12 @@ YELLOW_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (黃)
+    name: 未來的證明 (黃)
     type: HISTORICAL
     lore:
-      - A block able to withstand the test
-      - of time. Concrete is stable, sturdy
-      - and forever more.
+      - 經過時間考驗的方塊.
+      - 混凝土具有穩定,
+      - 堅固的並且永久的.
     shards:
       - 0
       - 1
@@ -21512,13 +21512,13 @@ YELLOW_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (黃)
+    name: 自我鑑定 (黃)
     type: HUMAN
     lore:
-      - Being a blend of other distinct blocks
-      - can wreak havoc on a spirit's identity.
-      - Concrete longs for just a drop of water
-      - so it can become itself!
+      - 作為其他不同的方塊混和體,
+      - 會對一個精神造成嚴重損壞.
+      - 混凝土只渴望一滴水,
+      - 這樣它就可以成為自己!
     shards:
       - 1
       - 0
