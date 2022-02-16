@@ -977,7 +977,7 @@ BIG_DRIPLEAF:
     name: 努力嘗試 (大懸葉草)
     type: PHILOSOPHICAL
     lore:
-      - 大懸葉草總是在嘗試保持
+      - 懸葉草總是在嘗試保持
       - 自己不要傾斜,
       - 雖然幾乎總是失敗.
     shards:
@@ -1313,10 +1313,10 @@ BLACKSTONE:
     - ELEMENTAL
     - VOID
   story:
-    name: Black stone
+    name: 黑石
     type: ELEMENTAL
     lore:
-      - Black stone, what else can it be?
+      - 黑石, 還能是甚麼呢?
     shards:
       - 1
       - 1
@@ -1334,7 +1334,7 @@ BLACKSTONE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: 半品脫 (Blackstone)
+    name: 半品脫 (黑石)
     type: HUMAN
     lore:
       - 這小傢伙只有一半大,
@@ -1356,7 +1356,7 @@ BLACKSTONE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: 崛起 (Blackstone)
+    name: 崛起 (黑石)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
@@ -1378,7 +1378,7 @@ BLACKSTONE_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: 打倒牆壁 (Blackstone)
+    name: 打倒牆壁 (黑石)
     type: HISTORICAL
     lore:
       - 保護多年的工作,
@@ -1399,11 +1399,11 @@ BLACK_BANNER:
     - HISTORICAL
     - HUMAN
   story:
-    name: Flying Free (Black)
+    name: 向自由飄揚 (黑)
     type: HISTORICAL
     lore:
-      - Flying proud day after day for
-      - years and years displaying pride.
+      - 日復一日的在飄揚,
+      - 多年來表現著自豪.
     shards:
       - 0
       - 0
@@ -1420,7 +1420,7 @@ BLACK_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (Black)
+    name: A Good Night (黑)
     type: PHILOSOPHICAL
     lore:
       - 人們普遍認為一個人
@@ -1443,7 +1443,7 @@ BLACK_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (Black)
+    name: A Constant Drive (黑)
     type: HUMAN
     lore:
       - Burning bright for as long as possible
@@ -1465,7 +1465,7 @@ BLACK_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (Black)
+    name: Trampled (黑)
     type: PHILOSOPHICAL
     lore:
       - Trampled on a daily basis, the carpet
@@ -1487,7 +1487,7 @@ BLACK_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (Black)
+    name: Future Proof (黑)
     type: HISTORICAL
     lore:
       - A block able to withstand the test
@@ -1509,7 +1509,7 @@ BLACK_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (Black)
+    name: Self Identification (黑)
     type: HUMAN
     lore:
       - Being a blend of other distinct blocks
@@ -1531,7 +1531,7 @@ BLACK_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (Black)
+    name: The Gamut (黑)
     type: ALCHEMICAL
     lore:
       - Dye's singular purpose is to bring
@@ -1554,7 +1554,7 @@ BLACK_GLAZED_TERRACOTTA:
     - HUMAN
     - CELESTIAL
   story:
-    name: Non-Stick (Black)
+    name: Non-Stick (黑)
     type: HUMAN
     lore:
       - A complex composition allows this block
@@ -1576,7 +1576,7 @@ BLACK_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (Black)
+    name: Prism (黑)
     type: CELESTIAL
     lore:
       - While this block has no innate magic
@@ -1620,7 +1620,7 @@ BLACK_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (Black)
+    name: Sculptor's Delight (黑)
     type: HUMAN
     lore:
       - Having the potential to be shaped into any
@@ -1642,7 +1642,7 @@ BLACK_WOOL:
     - ANIMAL
     - VOID
   story:
-    name: Soft! (Black)
+    name: Soft! (黑)
     type: ANIMAL
     lore:
       - Fluffy and black, the most comfortable
@@ -1730,11 +1730,11 @@ BLUE_BANNER:
     - HISTORICAL
     - HUMAN
   story:
-    name: Flying Free (Blue)
+    name: 向自由飄揚 (藍)
     type: HISTORICAL
     lore:
-      - Flying proud day after day for
-      - years and years displaying pride.
+      - 日復一日的在飄揚,
+      - 多年來表現著自豪.
     shards:
       - 0
       - 0
@@ -1751,7 +1751,7 @@ BLUE_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (Blue)
+    name: A Good Night (藍)
     type: PHILOSOPHICAL
     lore:
       - It's commonly thought that a persons
@@ -1774,7 +1774,7 @@ BLUE_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (Blue)
+    name: A Constant Drive (藍)
     type: HUMAN
     lore:
       - Burning bright for as long as possible
@@ -1796,7 +1796,7 @@ BLUE_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (Blue)
+    name: Trampled (藍)
     type: PHILOSOPHICAL
     lore:
       - Trampled on a daily basis, the carpet
@@ -1818,7 +1818,7 @@ BLUE_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (Blue)
+    name: Future Proof (藍)
     type: HISTORICAL
     lore:
       - A block able to withstand the test
@@ -1840,7 +1840,7 @@ BLUE_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (Blue)
+    name: Self Identification (藍)
     type: HUMAN
     lore:
       - Being a blend of other distinct blocks
@@ -1862,7 +1862,7 @@ BLUE_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (Blue)
+    name: The Gamut (藍)
     type: ALCHEMICAL
     lore:
       - Dye's singular purpose is to bring
@@ -1885,7 +1885,7 @@ BLUE_GLAZED_TERRACOTTA:
     - HUMAN
     - CELESTIAL
   story:
-    name: Non-Stick (Blue)
+    name: Non-Stick (藍)
     type: HUMAN
     lore:
       - A complex composition allows this block
@@ -1951,7 +1951,7 @@ BLUE_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (Blue)
+    name: Prism (藍)
     type: CELESTIAL
     lore:
       - While this block has no innate magic
@@ -1995,7 +1995,7 @@ BLUE_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (Blue)
+    name: Sculptor's Delight (藍)
     type: HUMAN
     lore:
       - Having the potential to be shaped into any
@@ -2017,7 +2017,7 @@ BLUE_WOOL:
     - ANIMAL
     - ELEMENTAL
   story:
-    name: Soft! (Blue)
+    name: Soft! (藍)
     type: ANIMAL
     lore:
       - Fluffy and blue, the most comfortable
@@ -2410,11 +2410,11 @@ BROWN_BANNER:
     - HISTORICAL
     - HUMAN
   story:
-    name: Flying Free (Brown)
+    name: 向自由飄揚 (棕)
     type: HISTORICAL
     lore:
-      - Flying proud day after day for
-      - years and years displaying pride.
+      - 日復一日的在飄揚,
+      - 多年來表現著自豪.
     shards:
       - 0
       - 0
@@ -2431,7 +2431,7 @@ BROWN_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (Brown)
+    name: A Good Night (棕)
     type: PHILOSOPHICAL
     lore:
       - It's commonly thought that a persons
@@ -2454,7 +2454,7 @@ BROWN_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (Brown)
+    name: A Constant Drive (棕)
     type: HUMAN
     lore:
       - Burning bright for as long as possible
@@ -2476,7 +2476,7 @@ BROWN_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (Brown)
+    name: Trampled (棕)
     type: PHILOSOPHICAL
     lore:
       - Trampled on a daily basis, the carpet
@@ -2498,7 +2498,7 @@ BROWN_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (Brown)
+    name: Future Proof (棕)
     type: HISTORICAL
     lore:
       - A block able to withstand the test
@@ -2520,7 +2520,7 @@ BROWN_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (Brown)
+    name: Self Identification (棕)
     type: HUMAN
     lore:
       - Being a blend of other distinct blocks
@@ -2542,7 +2542,7 @@ BROWN_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (Brown)
+    name: The Gamut (棕)
     type: ALCHEMICAL
     lore:
       - Dye's singular purpose is to bring
@@ -2565,7 +2565,7 @@ BROWN_GLAZED_TERRACOTTA:
     - HUMAN
     - CELESTIAL
   story:
-    name: Non-Stick (Brown)
+    name: Non-Stick (棕)
     type: HUMAN
     lore:
       - A complex composition allows this block
@@ -2586,7 +2586,7 @@ BROWN_MUSHROOM:
   elements:
     - ANIMAL
   story:
-    name: Fungal Frugality (Brown)
+    name: Fungal Frugality (棕)
     type: ANIMAL
     lore:
       - While slow, it's strength lies in it's
@@ -2607,7 +2607,7 @@ BROWN_MUSHROOM_BLOCK:
   elements:
     - ANIMAL
   story:
-    name: Gigantism (Brown)
+    name: Gigantism (棕)
     type: ANIMAL
     lore:
       - Through an odd quirk of nature, a mushroom
@@ -2630,7 +2630,7 @@ BROWN_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (Brown)
+    name: Prism (棕)
     type: CELESTIAL
     lore:
       - While this block has no innate magic
@@ -2674,7 +2674,7 @@ BROWN_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (Brown)
+    name: Sculptor's Delight (棕)
     type: HUMAN
     lore:
       - Having the potential to be shaped into any
@@ -2696,7 +2696,7 @@ BROWN_WOOL:
     - ANIMAL
     - HISTORICAL
   story:
-    name: Soft! (Brown)
+    name: Soft! (棕)
     type: ANIMAL
     lore:
       - Fluffy and brown, the most comfortable
@@ -4885,11 +4885,11 @@ CYAN_BANNER:
     - HISTORICAL
     - HUMAN
   story:
-    name: Flying Free (Cyan)
+    name: 向自由飄揚 (青)
     type: HISTORICAL
     lore:
-      - Flying proud day after day for
-      - years and years displaying pride.
+      - 日復一日的在飄揚,
+      - 多年來表現著自豪.
     shards:
       - 0
       - 0
@@ -4906,7 +4906,7 @@ CYAN_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (Cyan)
+    name: A Good Night (青)
     type: PHILOSOPHICAL
     lore:
       - It's commonly thought that a persons
@@ -4929,7 +4929,7 @@ CYAN_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (Cyan)
+    name: A Constant Drive (青)
     type: HUMAN
     lore:
       - Burning bright for as long as possible
@@ -4951,7 +4951,7 @@ CYAN_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (Cyan)
+    name: Trampled (青)
     type: PHILOSOPHICAL
     lore:
       - Trampled on a daily basis, the carpet
@@ -4973,7 +4973,7 @@ CYAN_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (Cyan)
+    name: Future Proof (青)
     type: HISTORICAL
     lore:
       - A block able to withstand the test
@@ -4995,7 +4995,7 @@ CYAN_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (Cyan)
+    name: Self Identification (青)
     type: HUMAN
     lore:
       - Being a blend of other distinct blocks
@@ -5017,7 +5017,7 @@ CYAN_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (Cyan)
+    name: The Gamut (青)
     type: ALCHEMICAL
     lore:
       - Dye's singular purpose is to bring
@@ -5040,7 +5040,7 @@ CYAN_GLAZED_TERRACOTTA:
     - HUMAN
     - CELESTIAL
   story:
-    name: Non-Stick (Cyan)
+    name: Non-Stick (青)
     type: HUMAN
     lore:
       - A complex composition allows this block
@@ -5062,7 +5062,7 @@ CYAN_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (Cyan)
+    name: Prism (青)
     type: CELESTIAL
     lore:
       - While this block has no innate magic
@@ -5106,7 +5106,7 @@ CYAN_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (Cyan)
+    name: Sculptor's Delight (青)
     type: HUMAN
     lore:
       - Having the potential to be shaped into any
@@ -5128,7 +5128,7 @@ CYAN_WOOL:
     - ANIMAL
     - PHILOSOPHICAL
   story:
-    name: Soft! (White)
+    name: Soft! (白)
     type: ANIMAL
     lore:
       - Fluffy and cyan, the most comfortable
@@ -8665,11 +8665,11 @@ GRAY_BANNER:
     - HISTORICAL
     - HUMAN
   story:
-    name: Flying Free (Gray)
+    name: 向自由飄揚 (灰)
     type: HISTORICAL
     lore:
-      - Flying proud day after day for
-      - years and years displaying pride.
+      - 日復一日的在飄揚,
+      - 多年來表現著自豪.
     shards:
       - 0
       - 0
@@ -8686,7 +8686,7 @@ GRAY_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (Gray)
+    name: A Good Night (灰)
     type: PHILOSOPHICAL
     lore:
       - It's commonly thought that a persons
@@ -8709,7 +8709,7 @@ GRAY_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (Gray)
+    name: A Constant Drive (灰)
     type: HUMAN
     lore:
       - Burning bright for as long as possible
@@ -8731,7 +8731,7 @@ GRAY_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (Gray)
+    name: Trampled (灰)
     type: PHILOSOPHICAL
     lore:
       - Trampled on a daily basis, the carpet
@@ -8753,7 +8753,7 @@ GRAY_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (Gray)
+    name: Future Proof (灰)
     type: HISTORICAL
     lore:
       - A block able to withstand the test
@@ -8775,7 +8775,7 @@ GRAY_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (Gray)
+    name: Self Identification (灰)
     type: HUMAN
     lore:
       - Being a blend of other distinct blocks
@@ -8797,7 +8797,7 @@ GRAY_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (Gray)
+    name: The Gamut (灰)
     type: ALCHEMICAL
     lore:
       - Dye's singular purpose is to bring
@@ -8820,7 +8820,7 @@ GRAY_GLAZED_TERRACOTTA:
     - HUMAN
     - CELESTIAL
   story:
-    name: Non-Stick (Gray)
+    name: Non-Stick (灰)
     type: HUMAN
     lore:
       - A complex composition allows this block
@@ -8842,7 +8842,7 @@ GRAY_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (Gray)
+    name: Prism (灰)
     type: CELESTIAL
     lore:
       - While this block has no innate magic
@@ -8886,7 +8886,7 @@ GRAY_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (Gray)
+    name: Sculptor's Delight (灰)
     type: HUMAN
     lore:
       - Having the potential to be shaped into any
@@ -8907,7 +8907,7 @@ GRAY_WOOL:
   elements:
     - ANIMAL
   story:
-    name: Soft! (Gray)
+    name: Soft! (灰)
     type: ANIMAL
     lore:
       - Fluffy and gray, the most comfortable
@@ -8930,11 +8930,11 @@ GREEN_BANNER:
     - HISTORICAL
     - HUMAN
   story:
-    name: Flying Free (Green)
+    name: 向自由飄揚 (綠)
     type: HISTORICAL
     lore:
-      - Flying proud day after day for
-      - years and years displaying pride.
+      - 日復一日的在飄揚,
+      - 多年來表現著自豪.
     shards:
       - 0
       - 0
@@ -8951,7 +8951,7 @@ GREEN_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (Green)
+    name: A Good Night (綠)
     type: PHILOSOPHICAL
     lore:
       - It's commonly thought that a persons
@@ -8974,7 +8974,7 @@ GREEN_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (Green)
+    name: A Constant Drive (綠)
     type: HUMAN
     lore:
       - Burning bright for as long as possible
@@ -8996,7 +8996,7 @@ GREEN_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (Green)
+    name: Trampled (綠)
     type: PHILOSOPHICAL
     lore:
       - Trampled on a daily basis, the carpet
@@ -9018,7 +9018,7 @@ GREEN_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (Green)
+    name: Future Proof (綠)
     type: HISTORICAL
     lore:
       - A block able to withstand the test
@@ -9040,7 +9040,7 @@ GREEN_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (Green)
+    name: Self Identification (綠)
     type: HUMAN
     lore:
       - Being a blend of other distinct blocks
@@ -9062,7 +9062,7 @@ GREEN_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (Green)
+    name: The Gamut (綠)
     type: ALCHEMICAL
     lore:
       - Dye's singular purpose is to bring
@@ -9085,7 +9085,7 @@ GREEN_GLAZED_TERRACOTTA:
     - HUMAN
     - CELESTIAL
   story:
-    name: Non-Stick (Green)
+    name: Non-Stick (綠)
     type: HUMAN
     lore:
       - A complex composition allows this block
@@ -9107,7 +9107,7 @@ GREEN_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (Green)
+    name: Prism (綠)
     type: CELESTIAL
     lore:
       - While this block has no innate magic
@@ -9151,7 +9151,7 @@ GREEN_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (Green)
+    name: Sculptor's Delight (綠)
     type: HUMAN
     lore:
       - Having the potential to be shaped into any
@@ -9173,7 +9173,7 @@ GREEN_WOOL:
     - ANIMAL
     - HUMAN
   story:
-    name: Soft! (Green)
+    name: Soft! (綠)
     type: ANIMAL
     lore:
       - Fluffy and green, the most comfortable
@@ -10898,11 +10898,11 @@ LIGHT_BLUE_BANNER:
     - HISTORICAL
     - HUMAN
   story:
-    name: Flying Free (Light Blue)
+    name: 向自由飄揚 (淺藍)
     type: HISTORICAL
     lore:
-      - Flying proud day after day for
-      - years and years displaying pride.
+      - 日復一日的在飄揚,
+      - 多年來表現著自豪.
     shards:
       - 0
       - 0
@@ -10919,7 +10919,7 @@ LIGHT_BLUE_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (Light Blue)
+    name: A Good Night (淺藍)
     type: PHILOSOPHICAL
     lore:
       - It's commonly thought that a persons
@@ -10942,7 +10942,7 @@ LIGHT_BLUE_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (Light Blue)
+    name: A Constant Drive (淺藍)
     type: HUMAN
     lore:
       - Burning bright for as long as possible
@@ -10964,7 +10964,7 @@ LIGHT_BLUE_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (Light Blue)
+    name: Trampled (淺藍)
     type: PHILOSOPHICAL
     lore:
       - Trampled on a daily basis, the carpet
@@ -10986,7 +10986,7 @@ LIGHT_BLUE_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (Light Blue)
+    name: Future Proof (淺藍)
     type: HISTORICAL
     lore:
       - A block able to withstand the test
@@ -11008,7 +11008,7 @@ LIGHT_BLUE_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (Light Blue)
+    name: Self Identification (淺藍)
     type: HUMAN
     lore:
       - Being a blend of other distinct blocks
@@ -11030,7 +11030,7 @@ LIGHT_BLUE_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (Light Blue)
+    name: The Gamut (淺藍)
     type: ALCHEMICAL
     lore:
       - Dye's singular purpose is to bring
@@ -11076,7 +11076,7 @@ LIGHT_BLUE_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (Light Blue)
+    name: Prism (淺藍)
     type: CELESTIAL
     lore:
       - While this block has no innate magic
@@ -11120,7 +11120,7 @@ LIGHT_BLUE_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (Light Blue)
+    name: Sculptor's Delight (淺藍)
     type: HUMAN
     lore:
       - Having the potential to be shaped into any
@@ -11141,7 +11141,7 @@ LIGHT_BLUE_WOOL:
   elements:
     - ANIMAL
   story:
-    name: Soft! (Light Blue)
+    name: Soft! (淺藍)
     type: ANIMAL
     lore:
       - Fluffy and light blue, the most comfortable
@@ -11164,11 +11164,11 @@ LIGHT_GRAY_BANNER:
     - HISTORICAL
     - HUMAN
   story:
-    name: Flying Free (Light Gray)
+    name: 向自由飄揚 (淺灰)
     type: HISTORICAL
     lore:
-      - Flying proud day after day for
-      - years and years displaying pride.
+      - 日復一日的在飄揚,
+      - 多年來表現著自豪.
     shards:
       - 0
       - 0
@@ -11185,7 +11185,7 @@ LIGHT_GRAY_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (Light Gray)
+    name: A Good Night (淺灰)
     type: PHILOSOPHICAL
     lore:
       - It's commonly thought that a persons
@@ -11208,7 +11208,7 @@ LIGHT_GRAY_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (Light Gray)
+    name: A Constant Drive (淺灰)
     type: HUMAN
     lore:
       - Burning bright for as long as possible
@@ -11230,7 +11230,7 @@ LIGHT_GRAY_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (Light Gray)
+    name: Trampled (淺灰)
     type: PHILOSOPHICAL
     lore:
       - Trampled on a daily basis, the carpet
@@ -11252,7 +11252,7 @@ LIGHT_GRAY_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (Light Gray)
+    name: Future Proof (淺灰)
     type: HISTORICAL
     lore:
       - A block able to withstand the test
@@ -11274,7 +11274,7 @@ LIGHT_GRAY_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (Light Gray)
+    name: Self Identification (淺灰)
     type: HUMAN
     lore:
       - Being a blend of other distinct blocks
@@ -11296,7 +11296,7 @@ LIGHT_GRAY_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (Light Gray)
+    name: The Gamut (淺灰)
     type: ALCHEMICAL
     lore:
       - Dye's singular purpose is to bring
@@ -11319,7 +11319,7 @@ LIGHT_GRAY_GLAZED_TERRACOTTA:
     - HUMAN
     - CELESTIAL
   story:
-    name: Non-Stick (Light Gray)
+    name: Non-Stick (淺灰)
     type: HUMAN
     lore:
       - A complex composition allows this block
@@ -11341,7 +11341,7 @@ LIGHT_GRAY_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (Light Gray)
+    name: Prism (淺灰)
     type: CELESTIAL
     lore:
       - While this block has no innate magic
@@ -11385,7 +11385,7 @@ LIGHT_GRAY_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (Light Gray)
+    name: Sculptor's Delight (淺灰)
     type: HUMAN
     lore:
       - Having the potential to be shaped into any
@@ -11406,7 +11406,7 @@ LIGHT_GRAY_WOOL:
   elements:
     - ANIMAL
   story:
-    name: Soft! (Light Gray)
+    name: Soft! (淺灰)
     type: ANIMAL
     lore:
       - Fluffy and light gray, the most comfortable
@@ -11516,11 +11516,11 @@ LIME_BANNER:
     - HISTORICAL
     - HUMAN
   story:
-    name: Flying Free (Lime)
+    name: 向自由飄揚 (淺綠)
     type: HISTORICAL
     lore:
-      - Flying proud day after day for
-      - years and years displaying pride.
+      - 日復一日的在飄揚,
+      - 多年來表現著自豪.
     shards:
       - 0
       - 0
@@ -11537,7 +11537,7 @@ LIME_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (Lime)
+    name: A Good Night (淺綠)
     type: PHILOSOPHICAL
     lore:
       - It's commonly thought that a persons
@@ -11560,7 +11560,7 @@ LIME_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (Lime)
+    name: A Constant Drive (淺綠)
     type: HUMAN
     lore:
       - Burning bright for as long as possible
@@ -11582,7 +11582,7 @@ LIME_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (Lime)
+    name: Trampled (淺綠)
     type: PHILOSOPHICAL
     lore:
       - Trampled on a daily basis, the carpet
@@ -11604,7 +11604,7 @@ LIME_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (Lime)
+    name: Future Proof (淺綠)
     type: HISTORICAL
     lore:
       - A block able to withstand the test
@@ -11626,7 +11626,7 @@ LIME_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (Lime)
+    name: Self Identification (淺綠)
     type: HUMAN
     lore:
       - Being a blend of other distinct blocks
@@ -11648,7 +11648,7 @@ LIME_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (Lime)
+    name: The Gamut (淺綠)
     type: ALCHEMICAL
     lore:
       - Dye's singular purpose is to bring
@@ -11671,7 +11671,7 @@ LIME_GLAZED_TERRACOTTA:
     - HUMAN
     - CELESTIAL
   story:
-    name: Non-Stick (Lime)
+    name: Non-Stick (淺綠)
     type: HUMAN
     lore:
       - A complex composition allows this block
@@ -11693,7 +11693,7 @@ LIME_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (Lime)
+    name: Prism (淺綠)
     type: CELESTIAL
     lore:
       - While this block has no innate magic
@@ -11737,7 +11737,7 @@ LIME_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (Lime)
+    name: Sculptor's Delight (淺綠)
     type: HUMAN
     lore:
       - Having the potential to be shaped into any
@@ -11759,7 +11759,7 @@ LIME_WOOL:
     - ANIMAL
     - CELESTIAL
   story:
-    name: Soft! (Lime)
+    name: Soft! (淺綠)
     type: ANIMAL
     lore:
       - Fluffy and lime, the most comfortable
@@ -11846,11 +11846,11 @@ MAGENTA_BANNER:
     - HISTORICAL
     - HUMAN
   story:
-    name: Flying Free (Magenta)
+    name: 向自由飄揚 (洋紅)
     type: HISTORICAL
     lore:
-      - Flying proud day after day for
-      - years and years displaying pride.
+      - 日復一日的在飄揚,
+      - 多年來表現著自豪.
     shards:
       - 0
       - 0
@@ -11867,7 +11867,7 @@ MAGENTA_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (Magenta)
+    name: A Good Night (洋紅)
     type: PHILOSOPHICAL
     lore:
       - It's commonly thought that a persons
@@ -11890,7 +11890,7 @@ MAGENTA_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (Magenta)
+    name: A Constant Drive (洋紅)
     type: HUMAN
     lore:
       - Burning bright for as long as possible
@@ -11912,7 +11912,7 @@ MAGENTA_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (Magenta)
+    name: Trampled (洋紅)
     type: PHILOSOPHICAL
     lore:
       - Trampled on a daily basis, the carpet
@@ -11934,7 +11934,7 @@ MAGENTA_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (Magenta)
+    name: Future Proof (洋紅)
     type: HISTORICAL
     lore:
       - A block able to withstand the test
@@ -11956,7 +11956,7 @@ MAGENTA_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (Magenta)
+    name: Self Identification (洋紅)
     type: HUMAN
     lore:
       - Being a blend of other distinct blocks
@@ -11978,7 +11978,7 @@ MAGENTA_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (Magenta)
+    name: The Gamut (洋紅)
     type: ALCHEMICAL
     lore:
       - Dye's singular purpose is to bring
@@ -12001,7 +12001,7 @@ MAGENTA_GLAZED_TERRACOTTA:
     - HUMAN
     - CELESTIAL
   story:
-    name: Non-Stick (Magenta)
+    name: Non-Stick (洋紅)
     type: HUMAN
     lore:
       - A complex composition allows this block
@@ -12023,7 +12023,7 @@ MAGENTA_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (Magenta)
+    name: Prism (洋紅)
     type: CELESTIAL
     lore:
       - While this block has no innate magic
@@ -12067,7 +12067,7 @@ MAGENTA_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (Magenta)
+    name: Sculptor's Delight (洋紅)
     type: HUMAN
     lore:
       - Having the potential to be shaped into any
@@ -12089,7 +12089,7 @@ MAGENTA_WOOL:
     - ANIMAL
     - ALCHEMICAL
   story:
-    name: Soft! (Magenta)
+    name: Soft! (洋紅)
     type: ANIMAL
     lore:
       - Fluffy and magenta, the most comfortable
@@ -13911,11 +13911,11 @@ ORANGE_BANNER:
     - HISTORICAL
     - HUMAN
   story:
-    name: Flying Free (Orange)
+    name: 向自由飄揚 (橙)
     type: HISTORICAL
     lore:
-      - Flying proud day after day for
-      - years and years displaying pride.
+      - 日復一日的在飄揚,
+      - 多年來表現著自豪.
     shards:
       - 0
       - 0
@@ -13932,7 +13932,7 @@ ORANGE_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (Orange)
+    name: A Good Night (橙)
     type: PHILOSOPHICAL
     lore:
       - It's commonly thought that a persons
@@ -13955,7 +13955,7 @@ ORANGE_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (Orange)
+    name: A Constant Drive (橙)
     type: HUMAN
     lore:
       - Burning bright for as long as possible
@@ -13977,7 +13977,7 @@ ORANGE_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (Orange)
+    name: Trampled (橙)
     type: PHILOSOPHICAL
     lore:
       - Trampled on a daily basis, the carpet
@@ -13999,7 +13999,7 @@ ORANGE_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (Orange)
+    name: Future Proof (橙)
     type: HISTORICAL
     lore:
       - A block able to withstand the test
@@ -14021,7 +14021,7 @@ ORANGE_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (Orange)
+    name: Self Identification (橙)
     type: HUMAN
     lore:
       - Being a blend of other distinct blocks
@@ -14043,7 +14043,7 @@ ORANGE_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (Orange)
+    name: The Gamut (橙)
     type: ALCHEMICAL
     lore:
       - Dye's singular purpose is to bring
@@ -14066,7 +14066,7 @@ ORANGE_GLAZED_TERRACOTTA:
     - HUMAN
     - CELESTIAL
   story:
-    name: Non-Stick (Orange)
+    name: Non-Stick (橙)
     type: HUMAN
     lore:
       - A complex composition allows this block
@@ -14088,7 +14088,7 @@ ORANGE_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (Orange)
+    name: Prism (橙)
     type: CELESTIAL
     lore:
       - While this block has no innate magic
@@ -14132,7 +14132,7 @@ ORANGE_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (Orange)
+    name: Sculptor's Delight (橙)
     type: HUMAN
     lore:
       - Having the potential to be shaped into any
@@ -14175,7 +14175,7 @@ ORANGE_WOOL:
     - ANIMAL
     - MECHANICAL
   story:
-    name: Soft! (Orange)
+    name: Soft! (橙)
     type: ANIMAL
     lore:
       - Fluffy and orange, the most comfortable
@@ -14433,11 +14433,11 @@ PINK_BANNER:
     - HISTORICAL
     - HUMAN
   story:
-    name: Flying Free (Pink)
+    name: 向自由飄揚 (粉)
     type: HISTORICAL
     lore:
-      - Flying proud day after day for
-      - years and years displaying pride.
+      - 日復一日的在飄揚,
+      - 多年來表現著自豪.
     shards:
       - 0
       - 0
@@ -14454,7 +14454,7 @@ PINK_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (Pink)
+    name: A Good Night (粉)
     type: PHILOSOPHICAL
     lore:
       - It's commonly thought that a persons
@@ -14477,7 +14477,7 @@ PINK_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (Pink)
+    name: A Constant Drive (粉)
     type: HUMAN
     lore:
       - Burning bright for as long as possible
@@ -14499,7 +14499,7 @@ PINK_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (Pink)
+    name: Trampled (粉)
     type: PHILOSOPHICAL
     lore:
       - Trampled on a daily basis, the carpet
@@ -14521,7 +14521,7 @@ PINK_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (Pink)
+    name: Future Proof (粉)
     type: HISTORICAL
     lore:
       - A block able to withstand the test
@@ -14543,7 +14543,7 @@ PINK_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (Pink)
+    name: Self Identification (粉)
     type: HUMAN
     lore:
       - Being a blend of other distinct blocks
@@ -14565,7 +14565,7 @@ PINK_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (Pink)
+    name: The Gamut (粉)
     type: ALCHEMICAL
     lore:
       - Dye's singular purpose is to bring
@@ -14588,7 +14588,7 @@ PINK_GLAZED_TERRACOTTA:
     - HUMAN
     - CELESTIAL
   story:
-    name: Non-Stick (Pink)
+    name: Non-Stick (粉)
     type: HUMAN
     lore:
       - A complex composition allows this block
@@ -14610,7 +14610,7 @@ PINK_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (Pink)
+    name: Prism (粉)
     type: CELESTIAL
     lore:
       - While this block has no innate magic
@@ -14654,7 +14654,7 @@ PINK_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (Pink)
+    name: Sculptor's Delight (粉)
     type: HUMAN
     lore:
       - Having the potential to be shaped into any
@@ -14696,7 +14696,7 @@ PINK_WOOL:
   elements:
     - ANIMAL
   story:
-    name: Soft! (Pink)
+    name: Soft! (粉)
     type: ANIMAL
     lore:
       - Fluffy and pink, the most comfortable
@@ -14917,7 +14917,7 @@ POLISHED_BLACKSTONE:
     - MECHANICAL
     - HUMAN
   story:
-    name: Time to Gleam (Blackstone)
+    name: Time to Gleam (黑石)
     type: HUMAN
     lore:
       - With a bit of love, any block can
@@ -15804,11 +15804,11 @@ PURPLE_BANNER:
     - HISTORICAL
     - HUMAN
   story:
-    name: Flying Free (Purple)
+    name: 向自由飄揚 (紫)
     type: HISTORICAL
     lore:
-      - Flying proud day after day for
-      - years and years displaying pride.
+      - 日復一日的在飄揚,
+      - 多年來表現著自豪.
     shards:
       - 0
       - 0
@@ -15825,7 +15825,7 @@ PURPLE_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (Purple)
+    name: A Good Night (紫)
     type: PHILOSOPHICAL
     lore:
       - It's commonly thought that a persons
@@ -15848,7 +15848,7 @@ PURPLE_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (Purple)
+    name: A Constant Drive (紫)
     type: HUMAN
     lore:
       - Burning bright for as long as possible
@@ -15870,7 +15870,7 @@ PURPLE_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (Purple)
+    name: Trampled (紫)
     type: PHILOSOPHICAL
     lore:
       - Trampled on a daily basis, the carpet
@@ -15892,7 +15892,7 @@ PURPLE_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (Purple)
+    name: Future Proof (紫)
     type: HISTORICAL
     lore:
       - A block able to withstand the test
@@ -15914,7 +15914,7 @@ PURPLE_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (Purple)
+    name: Self Identification (紫)
     type: HUMAN
     lore:
       - Being a blend of other distinct blocks
@@ -15936,7 +15936,7 @@ PURPLE_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (Purple)
+    name: The Gamut (紫)
     type: ALCHEMICAL
     lore:
       - Dye's singular purpose is to bring
@@ -15959,7 +15959,7 @@ PURPLE_GLAZED_TERRACOTTA:
     - HUMAN
     - CELESTIAL
   story:
-    name: Non-Stick (Purple)
+    name: Non-Stick (紫)
     type: HUMAN
     lore:
       - A complex composition allows this block
@@ -15981,7 +15981,7 @@ PURPLE_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (Purple)
+    name: Prism (紫)
     type: CELESTIAL
     lore:
       - While this block has no innate magic
@@ -16025,7 +16025,7 @@ PURPLE_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (Purple)
+    name: Sculptor's Delight (紫)
     type: HUMAN
     lore:
       - Having the potential to be shaped into any
@@ -16046,7 +16046,7 @@ PURPLE_WOOL:
   elements:
     - ANIMAL
   story:
-    name: Soft! (Purple)
+    name: Soft! (紫)
     type: ANIMAL
     lore:
       - Fluffy and purple, the most comfortable
@@ -16637,11 +16637,11 @@ RED_BANNER:
     - HISTORICAL
     - HUMAN
   story:
-    name: Flying Free (Red)
+    name: 向自由飄揚 (紅)
     type: HISTORICAL
     lore:
-      - Flying proud day after day for
-      - years and years displaying pride.
+      - 日復一日的在飄揚,
+      - 多年來表現著自豪.
     shards:
       - 0
       - 0
@@ -16658,7 +16658,7 @@ RED_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (Red)
+    name: A Good Night (紅)
     type: PHILOSOPHICAL
     lore:
       - It's commonly thought that a persons
@@ -16681,7 +16681,7 @@ RED_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (Red)
+    name: A Constant Drive (紅)
     type: HUMAN
     lore:
       - Burning bright for as long as possible
@@ -16703,7 +16703,7 @@ RED_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (Red)
+    name: Trampled (紅)
     type: PHILOSOPHICAL
     lore:
       - Trampled on a daily basis, the carpet
@@ -16725,7 +16725,7 @@ RED_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (Red)
+    name: Future Proof (紅)
     type: HISTORICAL
     lore:
       - A block able to withstand the test
@@ -16747,7 +16747,7 @@ RED_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (Red)
+    name: Self Identification (紅)
     type: HUMAN
     lore:
       - Being a blend of other distinct blocks
@@ -16769,7 +16769,7 @@ RED_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (Red)
+    name: The Gamut (紅)
     type: ALCHEMICAL
     lore:
       - Dye's singular purpose is to bring
@@ -16792,7 +16792,7 @@ RED_GLAZED_TERRACOTTA:
     - HUMAN
     - CELESTIAL
   story:
-    name: Non-Stick (Red)
+    name: Non-Stick (紅)
     type: HUMAN
     lore:
       - A complex composition allows this block
@@ -16813,7 +16813,7 @@ RED_MUSHROOM:
   elements:
     - ANIMAL
   story:
-    name: Fungal Frugality (Red)
+    name: Fungal Frugality (紅)
     type: ANIMAL
     lore:
       - While slow, it's strength lies in it's
@@ -16834,7 +16834,7 @@ RED_MUSHROOM_BLOCK:
   elements:
     - ANIMAL
   story:
-    name: Gigantism (Red)
+    name: Gigantism (紅)
     type: ANIMAL
     lore:
       - Through an odd quirk of nature, a mushroom
@@ -16943,7 +16943,7 @@ RED_SAND:
   elements:
     - ELEMENTAL
   story:
-    name: 二氧化矽 (紅色)
+    name: Silica (紅)
     type: ELEMENTAL
     lore:
       - 歷經幾十年的風化
@@ -16964,7 +16964,7 @@ RED_SANDSTONE:
   elements:
     - ELEMENTAL
   story:
-    name: Compacted (Red)
+    name: Compacted (紅)
     type: ELEMENTAL
     lore:
       - Over years of compaction, sand becomes
@@ -17051,7 +17051,7 @@ RED_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (Red)
+    name: Prism (紅)
     type: CELESTIAL
     lore:
       - While this block has no innate magic
@@ -17095,7 +17095,7 @@ RED_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (Red)
+    name: Sculptor's Delight (紅)
     type: HUMAN
     lore:
       - Having the potential to be shaped into any
@@ -17137,7 +17137,7 @@ RED_WOOL:
   elements:
     - ANIMAL
   story:
-    name: Soft! (Red)
+    name: Soft! (紅)
     type: ANIMAL
     lore:
       - Fluffy and red, the most comfortable
@@ -17748,12 +17748,12 @@ SMALL_DRIPLEAF:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: Trying Hard (小的)
+    name: 努力嘗試 (小懸葉草)
     type: PHILOSOPHICAL
     lore:
-      - The dripleaf tries it's absolute
-      - best to keep itself up though it
-      - nearly always fails.
+      - 懸葉草總是在嘗試保持
+      - 自己不要傾斜,
+      - 雖然幾乎總是失敗.
     shards:
       - 1
       - 0
@@ -20105,7 +20105,7 @@ WARPED_FUNGUS:
     - ANIMAL
     - VOID
   story:
-    name: Fungal Frugality (Red)
+    name: Fungal Frugality (紅)
     type: ANIMAL
     lore:
       - While slow, it's strength lies in it's
@@ -20919,11 +20919,11 @@ WHITE_BANNER:
     - HISTORICAL
     - HUMAN
   story:
-    name: Flying Free (White)
+    name: 向自由飄揚 (白)
     type: HISTORICAL
     lore:
-      - Flying proud day after day for
-      - years and years displaying pride.
+      - 日復一日的在飄揚,
+      - 多年來表現著自豪.
     shards:
       - 0
       - 0
@@ -20940,7 +20940,7 @@ WHITE_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (White)
+    name: A Good Night (白)
     type: PHILOSOPHICAL
     lore:
       - It's commonly thought that a persons
@@ -20963,7 +20963,7 @@ WHITE_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (White)
+    name: A Constant Drive (白)
     type: HUMAN
     lore:
       - Burning bright for as long as possible
@@ -20985,7 +20985,7 @@ WHITE_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (White)
+    name: Trampled (白)
     type: PHILOSOPHICAL
     lore:
       - Trampled on a daily basis, the carpet
@@ -21007,7 +21007,7 @@ WHITE_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (White)
+    name: Future Proof (白)
     type: HISTORICAL
     lore:
       - A block able to withstand the test
@@ -21029,7 +21029,7 @@ WHITE_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (White)
+    name: Self Identification (白)
     type: HUMAN
     lore:
       - Being a blend of other distinct blocks
@@ -21051,7 +21051,7 @@ WHITE_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (White)
+    name: The Gamut (白)
     type: ALCHEMICAL
     lore:
       - Dye's singular purpose is to bring
@@ -21074,7 +21074,7 @@ WHITE_GLAZED_TERRACOTTA:
     - HUMAN
     - CELESTIAL
   story:
-    name: Non-Stick (White)
+    name: Non-Stick (白)
     type: HUMAN
     lore:
       - A complex composition allows this block
@@ -21096,7 +21096,7 @@ WHITE_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (White)
+    name: Prism (白)
     type: CELESTIAL
     lore:
       - While this block has no innate magic
@@ -21140,7 +21140,7 @@ WHITE_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (White)
+    name: Sculptor's Delight (白)
     type: HUMAN
     lore:
       - Having the potential to be shaped into any
@@ -21182,7 +21182,7 @@ WHITE_WOOL:
   elements:
     - ANIMAL
   story:
-    name: Soft! (White)
+    name: Soft! (白)
     type: ANIMAL
     lore:
       - Fluffy and white, the most comfortable
@@ -21402,11 +21402,11 @@ YELLOW_BANNER:
     - HISTORICAL
     - HUMAN
   story:
-    name: Flying Free (黃色)
+    name: 向自由飄揚 (黃)
     type: HISTORICAL
     lore:
-      - Flying proud day after day for
-      - years and years displaying pride.
+      - 日復一日的在飄揚,
+      - 多年來表現著自豪.
     shards:
       - 0
       - 0
@@ -21423,7 +21423,7 @@ YELLOW_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (黃色)
+    name: A Good Night (黃)
     type: PHILOSOPHICAL
     lore:
       - It's commonly thought that a persons
@@ -21446,7 +21446,7 @@ YELLOW_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (黃色)
+    name: A Constant Drive (黃)
     type: HUMAN
     lore:
       - Burning bright for as long as possible
@@ -21468,7 +21468,7 @@ YELLOW_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (黃色)
+    name: Trampled (黃)
     type: PHILOSOPHICAL
     lore:
       - Trampled on a daily basis, the carpet
@@ -21490,7 +21490,7 @@ YELLOW_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (黃色)
+    name: Future Proof (黃)
     type: HISTORICAL
     lore:
       - A block able to withstand the test
@@ -21512,7 +21512,7 @@ YELLOW_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (黃色)
+    name: Self Identification (黃)
     type: HUMAN
     lore:
       - Being a blend of other distinct blocks
@@ -21534,7 +21534,7 @@ YELLOW_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (黃色)
+    name: The Gamut (黃)
     type: ALCHEMICAL
     lore:
       - Dye's singular purpose is to bring
@@ -21579,7 +21579,7 @@ YELLOW_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (黃色)
+    name: Prism (黃)
     type: CELESTIAL
     lore:
       - While this block has no innate magic
@@ -21623,7 +21623,7 @@ YELLOW_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (黃色)
+    name: Sculptor's Delight (黃)
     type: HUMAN
     lore:
       - Having the potential to be shaped into any
@@ -21644,7 +21644,7 @@ YELLOW_WOOL:
   elements:
     - ANIMAL
   story:
-    name: Soft! (黃色)
+    name: Soft! (黃)
     type: ANIMAL
     lore:
       - Fluffy and yellow, the most comfortable
