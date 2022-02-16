@@ -997,7 +997,7 @@ BIRCH_BOAT:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: 整齊的 (Birch)
+    name: 整齊的 (樺木)
     type: PHILOSOPHICAL
     lore:
       - 生活在陽光下，在海裡游泳， 於狂野的空氣中喝酒
@@ -1037,7 +1037,7 @@ BIRCH_DOOR:
     - HUMAN
     - MECHANICAL
   story:
-    name: 出入口 (Birch)
+    name: 出入口 (樺木)
     type: HUMAN
     lore:
       - 每一個入口也是一個出口.
@@ -1103,7 +1103,7 @@ BIRCH_LEAVES:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: 讓我獨自一片! (Birch)
+    name: 讓我獨自一片! (樺木)
     type: PHILOSOPHICAL
     lore:
       - 在涼爽的微風中輕輕輕輕搖曳,
@@ -1188,7 +1188,7 @@ BIRCH_SAPLING:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: 成長 (Birch)
+    name: 成長 (樺木)
     type: ELEMENTAL
     lore:
       - 一個年輕的精神
@@ -1209,7 +1209,7 @@ BIRCH_SIGN:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: 署名 (Birch)
+    name: 署名 (樺木)
     type: PHILOSOPHICAL
     lore:
       - 充滿了那些
@@ -1229,7 +1229,7 @@ BIRCH_SLAB:
   elements:
     - HUMAN
   story:
-    name: 切開之下 (Birch)
+    name: 切開之下 (樺木)
     type: HUMAN
     lore:
       - 撕成兩半，與自己分開.
@@ -1250,7 +1250,7 @@ BIRCH_STAIRS:
     - HUMAN
     - CELESTIAL
   story:
-    name: 出現 (Birch)
+    name: 出現 (樺木)
     type: CELESTIAL
     lore:
       - 活著是為了感受他人
@@ -1271,7 +1271,7 @@ BIRCH_TRAPDOOR:
     - HUMAN
     - VOID
   story:
-    name: 到坑內 (Birch)
+    name: 到坑內 (樺木)
     type: VOID
     lore:
       - 等待一個完美的時刻
@@ -1292,7 +1292,7 @@ BIRCH_WOOD:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: 敲樹以獲得原木 (Birch)
+    name: 敲樹以獲得原木 (樺木)
     type: ELEMENTAL
     lore:
       - 每次的冒險開始都從
@@ -2915,11 +2915,11 @@ CARROT:
     - ANIMAL
     - CELESTIAL
   story:
-    name: Farmers Delight (Beetroot)
+    name: 農夫的喜悅 (甜菜根)
     type: HUMAN
     lore:
-      - With every sprout, leaf and root this
-      - item gives joy and nourishment to all
+      - 每一個新芽, 每片葉子和每一個根,
+      - 都給所有人帶來快樂和營養
     shards:
       - 0
       - 0
@@ -3712,7 +3712,7 @@ COBBLESTONE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: 崛起 (Andesite)
+    name: 崛起 (安山岩)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
@@ -3777,11 +3777,11 @@ COCOA_BEANS:
     - ANIMAL
     - CELESTIAL
   story:
-    name: Farmers Delight (Cocoa)
+    name: 農夫的喜悅 (可可豆)
     type: HUMAN
     lore:
-      - With every sprout, leaf and root this
-      - item gives joy and nourishment to all
+      - 每一個新芽, 每片葉子和每一個根,
+      - 都給所有人帶來快樂和營養
     shards:
       - 0
       - 0
@@ -12200,11 +12200,11 @@ MELON:
     - ANIMAL
     - CELESTIAL
   story:
-    name: Farmers Delight (Melon)
+    name: 農夫的喜悅 (西瓜)
     type: HUMAN
     lore:
-      - With every sprout, leaf and root this
-      - item gives joy and nourishment to all
+      - 每一個新芽, 每片葉子和每一個根,
+      - 都給所有人帶來快樂和營養
     shards:
       - 0
       - 0
@@ -12221,12 +12221,12 @@ MELON_SEEDS:
     - HUMAN
     - ANIMAL
   story:
-    name: Untapped Potential (Melon)
+    name: 未開發的潛力 (西瓜)
     type: HUMAN
     lore:
-      - Busting with innate magic drawn in
-      - due to the raw and untapped potential
-      - of this seed.
+      - 由於這顆種子的
+      - 原始和未開發的潛力
+      - 它有與生俱來的魔法潛力.
     shards:
       - 0
       - 0
@@ -12568,12 +12568,12 @@ MUSHROOM_STEW:
     - HUMAN
     - ANIMAL
   story:
-    name: Hearty (Mushroom)
+    name: 爽朗 (蘑菇)
     type: HUMAN
     lore:
-      - Warming to both body and soul.
-      - Infers it's latent Crysta to those
-      - drinking it.
+      - 溫暖身體與靈魂.
+      - 向飲用它的人推給它
+      - 潛在的水晶.
     shards:
       - 0
       - 0
@@ -15409,11 +15409,11 @@ POTATO:
     - ANIMAL
     - CELESTIAL
   story:
-    name: Farmers Delight (Potato)
+    name: 農夫的喜悅 (馬鈴薯)
     type: HUMAN
     lore:
-      - With every sprout, leaf and root this
-      - item gives joy and nourishment to all
+      - 每一個新芽, 每片葉子和每一個根,
+      - 都給所有人帶來快樂和營養
     shards:
       - 0
       - 0
@@ -15739,11 +15739,11 @@ PUMPKIN:
     - ANIMAL
     - CELESTIAL
   story:
-    name: Farmers Delight (Pumpkin)
+    name: 農夫的喜悅 (南瓜)
     type: HUMAN
     lore:
-      - With every sprout, leaf and root this
-      - item gives joy and nourishment to all
+      - 每一個新芽, 每片葉子和每一個根,
+      - 都給所有人帶來快樂和營養
     shards:
       - 0
       - 0
@@ -15782,12 +15782,12 @@ PUMPKIN_SEEDS:
     - HUMAN
     - ANIMAL
   story:
-    name: Untapped Potential (Pumpkin)
+    name: 未開發的潛力 (Pumpkin)
     type: HUMAN
     lore:
-      - Busting with innate magic drawn in
-      - due to the raw and untapped potential
-      - of this seed.
+      - 由於這顆種子的
+      - 原始和未開發的潛力
+      - 它有與生俱來的魔法潛力.
     shards:
       - 0
       - 0
@@ -16358,12 +16358,12 @@ RABBIT_STEW:
     - HUMAN
     - ANIMAL
   story:
-    name: Hearty (Rabbit)
+    name: 爽朗 (兔肉湯)
     type: HUMAN
     lore:
-      - Warming to both body and soul.
-      - Infers it's latent Crysta to those
-      - drinking it.
+      - 溫暖身體與靈魂.
+      - 向飲用它的人推給它
+      - 潛在的水晶.
     shards:
       - 0
       - 0
@@ -19515,11 +19515,11 @@ SWEET_BERRIES:
     - ANIMAL
     - CELESTIAL
   story:
-    name: Farmers Delight (Sweet Berries)
+    name: 農夫的喜悅 (甜莓)
     type: HUMAN
     lore:
-      - With every sprout, leaf and root this
-      - item gives joy and nourishment to all
+      - 每一個新芽, 每片葉子和每一個根,
+      - 都給所有人帶來快樂和營養
     shards:
       - 0
       - 0
@@ -20876,11 +20876,11 @@ WHEAT:
     - ANIMAL
     - CELESTIAL
   story:
-    name: Farmers Delight (Wheat)
+    name: 農夫的喜悅 (小麥)
     type: HUMAN
     lore:
-      - With every sprout, leaf and root this
-      - item gives joy and nourishment to all
+      - 每一個新芽, 每片葉子和每一個根,
+      - 都給所有人帶來快樂和營養
     shards:
       - 0
       - 0
@@ -20897,12 +20897,12 @@ WHEAT_SEEDS:
     - HUMAN
     - ANIMAL
   story:
-    name: Untapped Potential (Wheat)
+    name: 未開發的潛力 (小麥)
     type: HUMAN
     lore:
-      - Busting with innate magic drawn in
-      - due to the raw and untapped potential
-      - of this seed.
+      - 由於這顆種子的
+      - 原始和未開發的潛力
+      - 它有與生俱來的魔法潛力.
     shards:
       - 0
       - 0
