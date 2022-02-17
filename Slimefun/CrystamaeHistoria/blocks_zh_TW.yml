@@ -2040,13 +2040,13 @@ BONE:
     - ANIMAL
     - VOID
   story:
-    name: Fractured
+    name: 斷裂
     type: VOID
     lore:
-      - Most commonly, magics drawn from bone
-      - are for necromancy purposes but so long
-      - as the source is pure and the use for good,
-      - the magics will be pure as well.
+      - 最常見的是, 從骨頭中提取
+      - 魔法用於死靈魔法的目的,
+      - 但只要來源是純淨且用於
+      - 良好用途, 魔法也將會是純淨的.
     shards:
       - 0
       - 0
@@ -2085,10 +2085,10 @@ BONE_MEAL:
     - ANIMAL
     - PHILOSOPHICAL
   story:
-    name: Fe Fi Fo Fum
+    name: 我聞到英國人的氣味了
     type: PHILOSOPHICAL
     lore:
-      - I'll grind his bones to make my bread
+      - 我會磨碎它的骨頭來做我的麵包
     shards:
       - 0
       - 0
@@ -2106,12 +2106,12 @@ BOOK:
     - PHILOSOPHICAL
     - HUMAN
   story:
-    name: Learned
+    name: 學到
     type: PHILOSOPHICAL
     lore:
-      - A flash of insight gained while learning
-      - directly translates into Crystamae stored
-      - within the source book.
+      - 在學習過程中獲得
+      - 一閃而過的洞察力,
+      - 並直接將水晶儲存在原始書當中
     shards:
       - 0
       - 0
@@ -2128,12 +2128,12 @@ BOOKSHELF:
     - HISTORICAL
     - PHILOSOPHICAL
   story:
-    name: Knowledge
+    name: 知識
     type: PHILOSOPHICAL
     lore:
-      - An unending source practically dripping with
-      - the knowledge of the smartest people who
-      - ever existed.
+      - 一個永無止境的來源,
+      - 幾乎充滿了歷史上
+      - 所有最聰明的人的知識
     shards:
       - 0
       - 0
@@ -2151,10 +2151,10 @@ BOW:
     - ANIMAL
     - HUMAN
   story:
-    name: The Sharpshooter
+    name: 神射手
     type: HUMAN
     lore:
-      - You Don't Think They Need Me?
+      - 你不認為它們需要我嗎?
     shards:
       - 0
       - 1
