@@ -223,7 +223,7 @@ formatting:
   global-scope-display: '所有伺服器'
   #When using /blame, how should the console be specified?
   console-arguments:
-    - '後台'
+    - 'console'
   #There are 2 ways to make permanent punishments. The first is to not specify a time (/ban <player> <reason>).
   #The second is to specify a permanent amount of time (/ban <player> perm <reason>).
   #When typing commands, what time arguments will be counted as permanent?
