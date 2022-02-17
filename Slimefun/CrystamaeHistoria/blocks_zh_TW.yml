@@ -3605,7 +3605,7 @@ COBBLED_DEEPSLATE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: 半品脫 (Cobbled Deepslate)
+    name: 半品脫 (深板岩碎石)
     type: HUMAN
     lore:
       - 這小傢伙只有一半大,
@@ -3627,7 +3627,7 @@ COBBLED_DEEPSLATE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: 崛起 (Cobbled Deepslate)
+    name: 崛起 (深板岩碎石)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
@@ -3649,7 +3649,7 @@ COBBLED_DEEPSLATE_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: 打倒牆壁 (Cobbled Deepslate)
+    name: 打倒牆壁 (深板岩碎石)
     type: HISTORICAL
     lore:
       - 保護多年的工作,
@@ -3690,7 +3690,7 @@ COBBLESTONE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: 半品脫 (Cobblestone)
+    name: 半品脫 (鵝卵石)
     type: HUMAN
     lore:
       - 這小傢伙只有一半大,
@@ -3734,7 +3734,7 @@ COBBLESTONE_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: 打倒牆壁 (Cobblestone)
+    name: 打倒牆壁 (鵝卵石)
     type: HISTORICAL
     lore:
       - 保護多年的工作,
@@ -4322,7 +4322,7 @@ CREEPER_BANNER_PATTERN:
     - HUMAN
     - VOID
   story:
-    name: Star Spangled (Creeper)
+    name: Star Spangled (苦力怕)
     type: HUMAN
     lore:
       - Absorbs magic generated from the pride
@@ -4342,7 +4342,7 @@ CREEPER_HEAD:
   elements:
     - VOID
   story:
-    name: Decapitation (Creeper)
+    name: Decapitation (苦力怕)
     type: VOID
     lore:
       - While a despicable practice, some magics
@@ -4366,7 +4366,7 @@ CRIMSON_BUTTON:
     - MECHANICAL
     - VOID
   story:
-    name: 鬱悶 (Crimson)
+    name: 鬱悶 (緋紅)
     type: HUMAN
     lore:
       - 容易受到鬱悶
@@ -4387,7 +4387,7 @@ CRIMSON_DOOR:
     - MECHANICAL
     - VOID
   story:
-    name: 出入口 (Crimson)
+    name: 出入口 (緋紅)
     type: HUMAN
     lore:
       - 每一個入口也是一個出口.
@@ -4410,7 +4410,7 @@ CRIMSON_FENCE:
     - ANIMAL
     - VOID
   story:
-    name: 家畜 (Crimson)
+    name: 家畜 (緋紅)
     type: ANIMAL
     lore:
       - 能保護好牲畜的安全,
@@ -4433,7 +4433,7 @@ CRIMSON_FENCE_GATE:
     - ANIMAL
     - VOID
   story:
-    name: 門 (Crimson)
+    name: 門 (緋紅)
     type: MECHANICAL
     lore:
       - 仍然在轉角處可能等待,
@@ -4455,7 +4455,7 @@ CRIMSON_FUNGUS:
     - ANIMAL
     - VOID
   story:
-    name: Fungal Frugality (Crimson)
+    name: Fungal Frugality (緋紅)
     type: ANIMAL
     lore:
       - While slow, it's strength lies in it's
@@ -4478,11 +4478,11 @@ CRIMSON_HYPHAE:
     - HISTORICAL
     - VOID
   story:
-    name: 敲一棵好樹開始ing Trees Gives Me... Huh? (Crimson)
+    name: 敲樹給我... 蛤? (緋紅)
     type: ELEMENTAL
     lore:
-      - Every adventure begins with a good fungus
-      - 敲一棵好樹開始
+      - 每次冒險都從
+      - 敲一棵好菌開始
     shards:
       - 2
       - 0
@@ -4499,7 +4499,7 @@ CRIMSON_NYLIUM:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Not Quite Netherrack (Crimson)
+    name: Not Quite Netherrack (緋紅)
     type: ELEMENTAL
     lore:
       - While normally desolate and barren, it
@@ -4544,7 +4544,7 @@ CRIMSON_PRESSURE_PLATE:
     - MECHANICAL
     - VOID
   story:
-    name: 在壓力之下 (Crimson)
+    name: 在壓力之下 (緋紅)
     type: VOID
     lore:
       - 到處行走會下降任何
@@ -4565,7 +4565,7 @@ CRIMSON_ROOTS:
     - ANIMAL
     - VOID
   story:
-    name: Determination (Crimson)
+    name: Determination (緋紅)
     type: ANIMAL
     lore:
       - Anything growing in a place like the nether
@@ -4587,7 +4587,7 @@ CRIMSON_SIGN:
     - PHILOSOPHICAL
     - VOID
   story:
-    name: 署名 (Crimson)
+    name: 署名 (緋紅)
     type: PHILOSOPHICAL
     lore:
       - 充滿了那些
@@ -4608,7 +4608,7 @@ CRIMSON_SLAB:
     - HUMAN
     - VOID
   story:
-    name: 切開之下 (Crimson)
+    name: 切開之下 (緋紅)
     type: HUMAN
     lore:
       - 撕成兩半，與自己分開.
@@ -4630,7 +4630,7 @@ CRIMSON_STAIRS:
     - CELESTIAL
     - VOID
   story:
-    name: 出現 (Crimson)
+    name: 出現 (緋紅)
     type: CELESTIAL
     lore:
       - 活著是為了感受他人
@@ -4652,11 +4652,11 @@ CRIMSON_STEM:
     - HISTORICAL
     - VOID
   story:
-    name: 敲一棵好樹開始ing Trees Gives Me... Huh? (Crimson Stem)
+    name: 敲樹給我... 蛤? (緋紅蕈柄)
     type: ELEMENTAL
     lore:
-      - Every adventure begins with a good fungus
-      - 敲一棵好樹開始
+      - 每次冒險都從
+      - 敲一棵好菌開始
     shards:
       - 2
       - 0
@@ -4673,7 +4673,7 @@ CRIMSON_TRAPDOOR:
     - HUMAN
     - VOID
   story:
-    name: 到坑內 (Crimson)
+    name: 到坑內 (緋紅)
     type: VOID
     lore:
       - 等待一個完美的時刻
@@ -5195,7 +5195,7 @@ DARK_OAK_BOAT:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: 整齊的 (Dark Oak)
+    name: 整齊的 (黑橡木)
     type: PHILOSOPHICAL
     lore:
       - 生活在陽光下，在海裡游泳， 於狂野的空氣中喝酒
@@ -5215,7 +5215,7 @@ DARK_OAK_BUTTON:
     - HUMAN
     - MECHANICAL
   story:
-    name: 鬱悶 (Dark Oak)
+    name: 鬱悶 (黑橡木)
     type: HUMAN
     lore:
       - 容易受到鬱悶
@@ -5235,7 +5235,7 @@ DARK_OAK_DOOR:
     - HUMAN
     - MECHANICAL
   story:
-    name: 出入口 (Dark Oak)
+    name: 出入口 (黑橡木)
     type: HUMAN
     lore:
       - 每一個入口也是一個出口.
@@ -5257,7 +5257,7 @@ DARK_OAK_FENCE:
     - HUMAN
     - ANIMAL
   story:
-    name: 家畜 (Dark Oak)
+    name: 家畜 (黑橡木)
     type: ANIMAL
     lore:
       - 能保護好牲畜的安全,
@@ -5279,7 +5279,7 @@ DARK_OAK_FENCE_GATE:
     - MECHANICAL
     - ANIMAL
   story:
-    name: 門 (Dark Oak)
+    name: 門 (黑橡木)
     type: MECHANICAL
     lore:
       - 仍然在轉角處可能等待,
@@ -5301,7 +5301,7 @@ DARK_OAK_LEAVES:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: 讓我獨自一片! (Dark Oak)
+    name: 讓我獨自一片! (黑橡木)
     type: PHILOSOPHICAL
     lore:
       - 在涼爽的微風中輕輕輕輕搖曳,
@@ -5365,7 +5365,7 @@ DARK_OAK_PRESSURE_PLATE:
     - MECHANICAL
     - VOID
   story:
-    name: 在壓力之下 (Dark Oak)
+    name: 在壓力之下 (黑橡木)
     type: VOID
     lore:
       - 到處行走會下降任何
@@ -5386,7 +5386,7 @@ DARK_OAK_SAPLING:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: 成長 (Dark Oak)
+    name: 成長 (黑橡木)
     type: ELEMENTAL
     lore:
       - 一個年輕的精神
@@ -5407,7 +5407,7 @@ DARK_OAK_SIGN:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: 署名 (Dark Oak)
+    name: 署名 (黑橡木)
     type: PHILOSOPHICAL
     lore:
       - 充滿了那些
@@ -5427,7 +5427,7 @@ DARK_OAK_SLAB:
   elements:
     - HUMAN
   story:
-    name: 切開之下 (Dark Oak)
+    name: 切開之下 (黑橡木)
     type: HUMAN
     lore:
       - 撕成兩半，與自己分開.
@@ -5448,7 +5448,7 @@ DARK_OAK_STAIRS:
     - HUMAN
     - CELESTIAL
   story:
-    name: 出現 (Dark Oak)
+    name: 出現 (黑橡木)
     type: CELESTIAL
     lore:
       - 活著是為了感受他人
@@ -5469,7 +5469,7 @@ DARK_OAK_TRAPDOOR:
     - HUMAN
     - VOID
   story:
-    name: 到坑內 (Dark Oak)
+    name: 到坑內 (黑橡木)
     type: VOID
     lore:
       - 等待一個完美的時刻
@@ -5490,7 +5490,7 @@ DARK_OAK_WOOD:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: 敲樹以獲得原木 (Dark Oak)
+    name: 敲樹以獲得原木 (黑橡木)
     type: ELEMENTAL
     lore:
       - 每次的冒險開始都從
@@ -9571,7 +9571,7 @@ INFESTED_COBBLESTONE:
     - VOID
     - ANIMAL
   story:
-    name: Infested (Cobblestone)
+    name: Infested (鵝卵石)
     type: VOID
     lore:
       - Bursting with the potential of the
@@ -10172,7 +10172,7 @@ JUNGLE_BOAT:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: 整齊的 (Jungle)
+    name: 整齊的 (叢林木)
     type: PHILOSOPHICAL
     lore:
       - 生活在陽光下，在海裡游泳， 於狂野的空氣中喝酒
@@ -10192,7 +10192,7 @@ JUNGLE_BUTTON:
     - HUMAN
     - MECHANICAL
   story:
-    name: 鬱悶 (Jungle)
+    name: 鬱悶 (叢林木)
     type: HUMAN
     lore:
       - 容易受到鬱悶
@@ -10212,7 +10212,7 @@ JUNGLE_DOOR:
     - HUMAN
     - MECHANICAL
   story:
-    name: 出入口 (Jungle)
+    name: 出入口 (叢林木)
     type: HUMAN
     lore:
       - 每一個入口也是一個出口.
@@ -10234,7 +10234,7 @@ JUNGLE_FENCE:
     - HUMAN
     - ANIMAL
   story:
-    name: 家畜 (Jungle)
+    name: 家畜 (叢林木)
     type: ANIMAL
     lore:
       - 能保護好牲畜的安全,
@@ -10256,7 +10256,7 @@ JUNGLE_FENCE_GATE:
     - MECHANICAL
     - ANIMAL
   story:
-    name: 門 (Jungle)
+    name: 門 (叢林木)
     type: MECHANICAL
     lore:
       - 仍然在轉角處可能等待,
@@ -10278,7 +10278,7 @@ JUNGLE_LEAVES:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: 讓我獨自一片! (Jungle)
+    name: 讓我獨自一片! (叢林木)
     type: PHILOSOPHICAL
     lore:
       - 在涼爽的微風中輕輕輕輕搖曳,
@@ -10342,7 +10342,7 @@ JUNGLE_PRESSURE_PLATE:
     - MECHANICAL
     - VOID
   story:
-    name: 在壓力之下 (Jungle)
+    name: 在壓力之下 (叢林木)
     type: VOID
     lore:
       - 到處行走會下降任何
@@ -10363,7 +10363,7 @@ JUNGLE_SAPLING:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: 成長 (Jungle)
+    name: 成長 (叢林木)
     type: ELEMENTAL
     lore:
       - 一個年輕的精神
@@ -10384,7 +10384,7 @@ JUNGLE_SIGN:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: 署名 (Jungle)
+    name: 署名 (叢林木)
     type: PHILOSOPHICAL
     lore:
       - 充滿了那些
@@ -10404,7 +10404,7 @@ JUNGLE_SLAB:
   elements:
     - HUMAN
   story:
-    name: 切開之下 (Jungle)
+    name: 切開之下 (叢林木)
     type: HUMAN
     lore:
       - 撕成兩半，與自己分開.
@@ -10425,7 +10425,7 @@ JUNGLE_STAIRS:
     - HUMAN
     - CELESTIAL
   story:
-    name: 出現 (Jungle)
+    name: 出現 (叢林木)
     type: CELESTIAL
     lore:
       - 活著是為了感受他人
@@ -10446,7 +10446,7 @@ JUNGLE_TRAPDOOR:
     - HUMAN
     - VOID
   story:
-    name: 到坑內 (Jungle)
+    name: 到坑內 (叢林木)
     type: VOID
     lore:
       - 等待一個完美的時刻
@@ -10467,7 +10467,7 @@ JUNGLE_WOOD:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: 敲樹以獲得原木 (Jungle)
+    name: 敲樹以獲得原木 (叢林木)
     type: ELEMENTAL
     lore:
       - 每次的冒險開始都從
@@ -13549,7 +13549,7 @@ OAK_BOAT:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: 整齊的 (Oak)
+    name: 整齊的 (橡木)
     type: PHILOSOPHICAL
     lore:
       - 生活在陽光下，在海裡游泳， 於狂野的空氣中喝酒
@@ -13569,7 +13569,7 @@ OAK_BUTTON:
     - HUMAN
     - MECHANICAL
   story:
-    name: 鬱悶 (Oak)
+    name: 鬱悶 (橡木)
     type: HUMAN
     lore:
       - 容易受到鬱悶
@@ -13611,7 +13611,7 @@ OAK_FENCE:
     - HUMAN
     - ANIMAL
   story:
-    name: 家畜 (Oak)
+    name: 家畜 (橡木)
     type: ANIMAL
     lore:
       - 能保護好牲畜的安全,
@@ -13633,7 +13633,7 @@ OAK_FENCE_GATE:
     - MECHANICAL
     - ANIMAL
   story:
-    name: 門 (Oak)
+    name: 門 (橡木)
     type: MECHANICAL
     lore:
       - 仍然在轉角處可能等待,
@@ -13655,7 +13655,7 @@ OAK_LEAVES:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: 讓我獨自一片! (Oak)
+    name: 讓我獨自一片! (橡木)
     type: PHILOSOPHICAL
     lore:
       - 在涼爽的微風中輕輕輕輕搖曳,
@@ -13719,7 +13719,7 @@ OAK_PRESSURE_PLATE:
     - MECHANICAL
     - VOID
   story:
-    name: 在壓力之下 (Oak)
+    name: 在壓力之下 (橡木)
     type: VOID
     lore:
       - 到處行走會下降任何
@@ -13740,7 +13740,7 @@ OAK_SAPLING:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: 成長 (Oak)
+    name: 成長 (橡木)
     type: ELEMENTAL
     lore:
       - 一個年輕的精神
@@ -13761,7 +13761,7 @@ OAK_SIGN:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: 署名 (Oak)
+    name: 署名 (橡木)
     type: PHILOSOPHICAL
     lore:
       - 充滿了那些
@@ -13781,7 +13781,7 @@ OAK_SLAB:
   elements:
     - HUMAN
   story:
-    name: 切開之下 (Oak)
+    name: 切開之下 (橡木)
     type: HUMAN
     lore:
       - 撕成兩半，與自己分開.
@@ -13802,7 +13802,7 @@ OAK_STAIRS:
     - HUMAN
     - CELESTIAL
   story:
-    name: 出現 (Oak)
+    name: 出現 (橡木)
     type: CELESTIAL
     lore:
       - 活著是為了感受他人
@@ -13823,7 +13823,7 @@ OAK_TRAPDOOR:
     - HUMAN
     - VOID
   story:
-    name: 到坑內 (Oak)
+    name: 到坑內 (橡木)
     type: VOID
     lore:
       - 等待一個完美的時刻
@@ -13844,7 +13844,7 @@ OAK_WOOD:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: 敲樹以獲得原木 (Oak)
+    name: 敲樹以獲得原木 (橡木)
     type: ELEMENTAL
     lore:
       - 每次的冒險開始都從
@@ -18365,7 +18365,7 @@ SPRUCE_BOAT:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: 整齊的 (Spruce)
+    name: 整齊的 (杉木)
     type: PHILOSOPHICAL
     lore:
       - 生活在陽光下，在海裡游泳， 於狂野的空氣中喝酒
@@ -18385,7 +18385,7 @@ SPRUCE_BUTTON:
     - HUMAN
     - MECHANICAL
   story:
-    name: 鬱悶 (Spruce)
+    name: 鬱悶 (杉木)
     type: HUMAN
     lore:
       - 容易受到鬱悶
@@ -18427,7 +18427,7 @@ SPRUCE_FENCE:
     - HUMAN
     - ANIMAL
   story:
-    name: 家畜 (Spruce)
+    name: 家畜 (杉木)
     type: ANIMAL
     lore:
       - 能保護好牲畜的安全,
@@ -18449,7 +18449,7 @@ SPRUCE_FENCE_GATE:
     - MECHANICAL
     - ANIMAL
   story:
-    name: 門 (Spruce)
+    name: 門 (杉木)
     type: MECHANICAL
     lore:
       - 仍然在轉角處可能等待,
@@ -18471,7 +18471,7 @@ SPRUCE_LEAVES:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: 讓我獨自一片! (Spruce)
+    name: 讓我獨自一片! (杉木)
     type: PHILOSOPHICAL
     lore:
       - 在涼爽的微風中輕輕輕輕搖曳,
@@ -18535,7 +18535,7 @@ SPRUCE_PRESSURE_PLATE:
     - MECHANICAL
     - VOID
   story:
-    name: 在壓力之下 (Spruce)
+    name: 在壓力之下 (杉木)
     type: VOID
     lore:
       - 到處行走會下降任何
@@ -18577,7 +18577,7 @@ SPRUCE_SIGN:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: 署名 (Spruce)
+    name: 署名 (杉木)
     type: PHILOSOPHICAL
     lore:
       - 充滿了那些
@@ -18597,7 +18597,7 @@ SPRUCE_SLAB:
   elements:
     - HUMAN
   story:
-    name: 切開之下 (Spruce)
+    name: 切開之下 (杉木)
     type: HUMAN
     lore:
       - 撕成兩半，與自己分開.
@@ -18618,7 +18618,7 @@ SPRUCE_STAIRS:
     - HUMAN
     - CELESTIAL
   story:
-    name: 出現 (Spruce)
+    name: 出現 (杉木)
     type: CELESTIAL
     lore:
       - 活著是為了感受他人
@@ -18639,7 +18639,7 @@ SPRUCE_TRAPDOOR:
     - HUMAN
     - VOID
   story:
-    name: 到坑內 (Spruce)
+    name: 到坑內 (杉木)
     type: VOID
     lore:
       - 等待一個完美的時刻
@@ -18660,7 +18660,7 @@ SPRUCE_WOOD:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: 敲樹以獲得原木 (Spruce)
+    name: 敲樹以獲得原木 (杉木)
     type: ELEMENTAL
     lore:
       - 每次的冒險開始都從
@@ -19200,7 +19200,7 @@ STRIPPED_CRIMSON_STEM:
     - HUMAN
     - VOID
   story:
-    name: Stripped Bare (Crimson Stem)
+    name: Stripped Bare (緋紅蕈柄)
     type: HUMAN
     lore:
       - With nothing left to hide, this spirit
@@ -19412,7 +19412,7 @@ STRIPPED_WARPED_STEM:
     - HUMAN
     - VOID
   story:
-    name: Stripped Bare (Warped Stem)
+    name: Stripped Bare (扭曲蕈柄)
     type: HUMAN
     lore:
       - With nothing left to hide, this spirit
@@ -20017,7 +20017,7 @@ WARPED_BUTTON:
     - MECHANICAL
     - VOID
   story:
-    name: 鬱悶 (Warped)
+    name: 鬱悶 (扭曲)
     type: HUMAN
     lore:
       - 容易受到鬱悶
@@ -20060,7 +20060,7 @@ WARPED_FENCE:
     - HUMAN
     - ANIMAL
   story:
-    name: 家畜 (Warped)
+    name: 家畜 (扭曲)
     type: ANIMAL
     lore:
       - 能保護好牲畜的安全,
@@ -20083,7 +20083,7 @@ WARPED_FENCE_GATE:
     - ANIMAL
     - VOID
   story:
-    name: 門 (Warped)
+    name: 門 (扭曲)
     type: MECHANICAL
     lore:
       - 仍然在轉角處可能等待,
@@ -20148,11 +20148,11 @@ WARPED_HYPHAE:
     - HISTORICAL
     - VOID
   story:
-    name: 敲一棵好樹開始ing Trees Gives Me... Huh? (Warped)
+    name: 敲樹給我... 蛤? (扭曲)
     type: ELEMENTAL
     lore:
-      - Every adventure begins with a good fungus
-      - 敲一棵好樹開始
+      - 每次冒險都從
+      - 敲一棵好菌開始
     shards:
       - 2
       - 0
@@ -20169,7 +20169,7 @@ WARPED_NYLIUM:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Not Quite Netherrack (Warped)
+    name: Not Quite Netherrack (扭曲)
     type: ELEMENTAL
     lore:
       - While normally desolate and barren, it
@@ -20235,7 +20235,7 @@ WARPED_ROOTS:
     - ANIMAL
     - VOID
   story:
-    name: Determination (Warped)
+    name: Determination (扭曲)
     type: ANIMAL
     lore:
       - Anything growing in a place like the nether
@@ -20257,7 +20257,7 @@ WARPED_SIGN:
     - PHILOSOPHICAL
     - VOID
   story:
-    name: 署名 (Warped)
+    name: 署名 (扭曲)
     type: PHILOSOPHICAL
     lore:
       - 充滿了那些
@@ -20278,7 +20278,7 @@ WARPED_SLAB:
     - HUMAN
     - VOID
   story:
-    name: 切開之下 (Warped)
+    name: 切開之下 (扭曲)
     type: HUMAN
     lore:
       - 撕成兩半，與自己分開.
@@ -20300,7 +20300,7 @@ WARPED_STAIRS:
     - CELESTIAL
     - VOID
   story:
-    name: 出現 (Warped)
+    name: 出現 (扭曲)
     type: CELESTIAL
     lore:
       - 活著是為了感受他人
@@ -20322,11 +20322,11 @@ WARPED_STEM:
     - HISTORICAL
     - VOID
   story:
-    name: 敲一棵好樹開始ing Trees Gives Me... Huh? (Warped Stem)
+    name: 敲樹給我... 蛤? (扭曲蕈柄)
     type: ELEMENTAL
     lore:
-      - Every adventure begins with a good fungus
-      - 敲一棵好樹開始
+      - 每次冒險都從
+      - 敲一棵好菌開始
     shards:
       - 2
       - 0
@@ -20343,7 +20343,7 @@ WARPED_TRAPDOOR:
     - HUMAN
     - VOID
   story:
-    name: 到坑內 (Warped)
+    name: 到坑內 (扭曲)
     type: VOID
     lore:
       - 等待一個完美的時刻
@@ -20363,7 +20363,7 @@ WARPED_WART_BLOCK:
   elements:
     - ALCHEMICAL
   story:
-    name: Alchemical Conduit (Warped)
+    name: Alchemical Conduit (扭曲)
     type: ALCHEMICAL
     lore:
       - Magic as we know it needs Crystals to act
