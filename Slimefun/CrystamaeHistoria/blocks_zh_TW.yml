@@ -1687,12 +1687,12 @@ BLAZE_POWDER:
     - ELEMENTAL
     - VOID
   story:
-    name: Powdered Spirit
+    name: 粉狀的精神
     type: ELEMENTAL
     lore:
-      - While a deplorable action, taking the spirit
-      - of a creature and grinding down to it's essence
-      - gives cheap and easy access to it's magics.
+      - 雖然這是一個可悲的行為,
+      - 但吸取一個生物的靈魂並將它們磨成
+      - 精華, 可以廉價且容易獲得它的魔法.
     shards:
       - 1
       - 0
@@ -1709,11 +1709,11 @@ BLAZE_ROD:
     - ELEMENTAL
     - VOID
   story:
-    name: In a Blaze of Glory
+    name: 在榮耀的火焰中
     type: ELEMENTAL
     lore:
-      - A Blaze Rod is directly imbued with the
-      - ferocity of the blaze's last strike.
+      - 烈焰桿直接灌注了烈焰神
+      - 最後一擊的兇猛.
     shards:
       - 1
       - 0
@@ -1907,13 +1907,13 @@ BLUE_ICE:
     - ELEMENTAL
     - CELESTIAL
   story:
-    name: Slip'n'Slide (Blue Ice)
+    name: 溜滑 (藍冰)
     type: ELEMENTAL
     lore:
-      - During formation, the spirit of this block
-      - wished for nothing more than to see people
-      - slip along it's face. Blue Ice was born
-      - from this sadistic desire.
+      - 在形成的過程中, 這個方塊的精神
+      - 只希望看到人們從它臉上滑下來.
+      - 藍冰就是從這種虐待狂
+      - 的慾望中誕生的.
     shards:
       - 3
       - 0
@@ -9525,13 +9525,13 @@ ICE:
     - ELEMENTAL
     - CELESTIAL
   story:
-    name: Slip'n'Slide
+    name: 溜滑
     type: ELEMENTAL
     lore:
-      - During formation, the spirit of this block
-      - wished for nothing more than to see people
-      - slip along it's face. Blue Ice was born
-      - from this sadistic desire.
+      - 在形成的過程中, 這個方塊的精神
+      - 只希望看到人們從它臉上滑下來.
+      - 藍冰就是從這種虐待狂
+      - 的慾望中誕生的.
     shards:
       - 1
       - 0
@@ -14303,13 +14303,13 @@ PACKED_ICE:
     - ELEMENTAL
     - CELESTIAL
   story:
-    name: Slip'n'Slide (Packed Ice)
+    name: 溜滑 (冰磚)
     type: ELEMENTAL
     lore:
-      - During formation, the spirit of this block
-      - wished for nothing more than to see people
-      - slip along it's face. Blue Ice was born
-      - from this sadistic desire.
+      - 在形成的過程中, 這個方塊的精神
+      - 只希望看到人們從它臉上滑下來.
+      - 藍冰就是從這種虐待狂
+      - 的慾望中誕生的.
     shards:
       - 2
       - 0
