@@ -1531,13 +1531,13 @@ BLACK_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (黑)
+    name: 顏色領域 (黑)
     type: ALCHEMICAL
     lore:
-      - Dye's singular purpose is to bring
-      - color to a dull world. The emanating
-      - magic from this process can be found
-      - everywhere
+      - 染料的唯一目的就是為這個
+      - 沉悶的世界添加繽紛色彩.
+      - 從這個過程中散發出
+      - 的魔力隨處可見.
     shards:
       - 1
       - 0
@@ -1554,12 +1554,12 @@ BLACK_GLAZED_TERRACOTTA:
     - HUMAN
     - CELESTIAL
   story:
-    name: Non-Stick (黑)
+    name: 不黏性 (黑)
     type: HUMAN
     lore:
-      - A complex composition allows this block
-      - to slide against others with ease making
-      - Glazed Terracotta a common find in elevators.
+      - 複雜的成份使該方塊可以輕鬆
+      - 與其他方塊滑順的接在一起,
+      - 使釉陶成為電梯建築中最常見的建材.
     shards:
       - 1
       - 0
@@ -1862,13 +1862,13 @@ BLUE_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (藍)
+    name: 顏色領域 (藍)
     type: ALCHEMICAL
     lore:
-      - Dye's singular purpose is to bring
-      - color to a dull world. The emanating
-      - magic from this process can be found
-      - everywhere
+      - 染料的唯一目的就是為這個
+      - 沉悶的世界添加繽紛色彩.
+      - 從這個過程中散發出
+      - 的魔力隨處可見.
     shards:
       - 1
       - 0
@@ -1885,12 +1885,12 @@ BLUE_GLAZED_TERRACOTTA:
     - HUMAN
     - CELESTIAL
   story:
-    name: Non-Stick (藍)
+    name: 不黏性 (藍)
     type: HUMAN
     lore:
-      - A complex composition allows this block
-      - to slide against others with ease making
-      - Glazed Terracotta a common find in elevators.
+      - 複雜的成份使該方塊可以輕鬆
+      - 與其他方塊滑順的接在一起,
+      - 使釉陶成為電梯建築中最常見的建材.
     shards:
       - 1
       - 0
@@ -2542,13 +2542,13 @@ BROWN_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (棕)
+    name: 顏色領域 (棕)
     type: ALCHEMICAL
     lore:
-      - Dye's singular purpose is to bring
-      - color to a dull world. The emanating
-      - magic from this process can be found
-      - everywhere
+      - 染料的唯一目的就是為這個
+      - 沉悶的世界添加繽紛色彩.
+      - 從這個過程中散發出
+      - 的魔力隨處可見.
     shards:
       - 1
       - 0
@@ -2565,12 +2565,12 @@ BROWN_GLAZED_TERRACOTTA:
     - HUMAN
     - CELESTIAL
   story:
-    name: Non-Stick (棕)
+    name: 不黏性 (棕)
     type: HUMAN
     lore:
-      - A complex composition allows this block
-      - to slide against others with ease making
-      - Glazed Terracotta a common find in elevators.
+      - 複雜的成份使該方塊可以輕鬆
+      - 與其他方塊滑順的接在一起,
+      - 使釉陶成為電梯建築中最常見的建材.
     shards:
       - 1
       - 0
@@ -5017,13 +5017,13 @@ CYAN_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (青)
+    name: 顏色領域 (青)
     type: ALCHEMICAL
     lore:
-      - Dye's singular purpose is to bring
-      - color to a dull world. The emanating
-      - magic from this process can be found
-      - everywhere
+      - 染料的唯一目的就是為這個
+      - 沉悶的世界添加繽紛色彩.
+      - 從這個過程中散發出
+      - 的魔力隨處可見.
     shards:
       - 1
       - 0
@@ -5040,12 +5040,12 @@ CYAN_GLAZED_TERRACOTTA:
     - HUMAN
     - CELESTIAL
   story:
-    name: Non-Stick (青)
+    name: 不黏性 (青)
     type: HUMAN
     lore:
-      - A complex composition allows this block
-      - to slide against others with ease making
-      - Glazed Terracotta a common find in elevators.
+      - 複雜的成份使該方塊可以輕鬆
+      - 與其他方塊滑順的接在一起,
+      - 使釉陶成為電梯建築中最常見的建材.
     shards:
       - 1
       - 0
@@ -8797,13 +8797,13 @@ GRAY_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (灰)
+    name: 顏色領域 (灰)
     type: ALCHEMICAL
     lore:
-      - Dye's singular purpose is to bring
-      - color to a dull world. The emanating
-      - magic from this process can be found
-      - everywhere
+      - 染料的唯一目的就是為這個
+      - 沉悶的世界添加繽紛色彩.
+      - 從這個過程中散發出
+      - 的魔力隨處可見.
     shards:
       - 1
       - 0
@@ -8820,12 +8820,12 @@ GRAY_GLAZED_TERRACOTTA:
     - HUMAN
     - CELESTIAL
   story:
-    name: Non-Stick (灰)
+    name: 不黏性 (灰)
     type: HUMAN
     lore:
-      - A complex composition allows this block
-      - to slide against others with ease making
-      - Glazed Terracotta a common find in elevators.
+      - 複雜的成份使該方塊可以輕鬆
+      - 與其他方塊滑順的接在一起,
+      - 使釉陶成為電梯建築中最常見的建材.
     shards:
       - 1
       - 0
@@ -9062,13 +9062,13 @@ GREEN_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (綠)
+    name: 顏色領域 (綠)
     type: ALCHEMICAL
     lore:
-      - Dye's singular purpose is to bring
-      - color to a dull world. The emanating
-      - magic from this process can be found
-      - everywhere
+      - 染料的唯一目的就是為這個
+      - 沉悶的世界添加繽紛色彩.
+      - 從這個過程中散發出
+      - 的魔力隨處可見.
     shards:
       - 1
       - 0
@@ -9085,12 +9085,12 @@ GREEN_GLAZED_TERRACOTTA:
     - HUMAN
     - CELESTIAL
   story:
-    name: Non-Stick (綠)
+    name: 不黏性 (綠)
     type: HUMAN
     lore:
-      - A complex composition allows this block
-      - to slide against others with ease making
-      - Glazed Terracotta a common find in elevators.
+      - 複雜的成份使該方塊可以輕鬆
+      - 與其他方塊滑順的接在一起,
+      - 使釉陶成為電梯建築中最常見的建材.
     shards:
       - 1
       - 0
@@ -11030,13 +11030,13 @@ LIGHT_BLUE_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (淺藍)
+    name: 顏色領域 (淺藍)
     type: ALCHEMICAL
     lore:
-      - Dye's singular purpose is to bring
-      - color to a dull world. The emanating
-      - magic from this process can be found
-      - everywhere
+      - 染料的唯一目的就是為這個
+      - 沉悶的世界添加繽紛色彩.
+      - 從這個過程中散發出
+      - 的魔力隨處可見.
     shards:
       - 1
       - 0
@@ -11296,13 +11296,13 @@ LIGHT_GRAY_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (淺灰)
+    name: 顏色領域 (淺灰)
     type: ALCHEMICAL
     lore:
-      - Dye's singular purpose is to bring
-      - color to a dull world. The emanating
-      - magic from this process can be found
-      - everywhere
+      - 染料的唯一目的就是為這個
+      - 沉悶的世界添加繽紛色彩.
+      - 從這個過程中散發出
+      - 的魔力隨處可見.
     shards:
       - 1
       - 0
@@ -11319,12 +11319,12 @@ LIGHT_GRAY_GLAZED_TERRACOTTA:
     - HUMAN
     - CELESTIAL
   story:
-    name: Non-Stick (淺灰)
+    name: 不黏性 (淺灰)
     type: HUMAN
     lore:
-      - A complex composition allows this block
-      - to slide against others with ease making
-      - Glazed Terracotta a common find in elevators.
+      - 複雜的成份使該方塊可以輕鬆
+      - 與其他方塊滑順的接在一起,
+      - 使釉陶成為電梯建築中最常見的建材.
     shards:
       - 1
       - 0
@@ -11648,13 +11648,13 @@ LIME_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (淺綠)
+    name: 顏色領域 (淺綠)
     type: ALCHEMICAL
     lore:
-      - Dye's singular purpose is to bring
-      - color to a dull world. The emanating
-      - magic from this process can be found
-      - everywhere
+      - 染料的唯一目的就是為這個
+      - 沉悶的世界添加繽紛色彩.
+      - 從這個過程中散發出
+      - 的魔力隨處可見.
     shards:
       - 1
       - 0
@@ -11671,12 +11671,12 @@ LIME_GLAZED_TERRACOTTA:
     - HUMAN
     - CELESTIAL
   story:
-    name: Non-Stick (淺綠)
+    name: 不黏性 (淺綠)
     type: HUMAN
     lore:
-      - A complex composition allows this block
-      - to slide against others with ease making
-      - Glazed Terracotta a common find in elevators.
+      - 複雜的成份使該方塊可以輕鬆
+      - 與其他方塊滑順的接在一起,
+      - 使釉陶成為電梯建築中最常見的建材.
     shards:
       - 1
       - 0
@@ -11978,13 +11978,13 @@ MAGENTA_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (洋紅)
+    name: 顏色領域 (洋紅)
     type: ALCHEMICAL
     lore:
-      - Dye's singular purpose is to bring
-      - color to a dull world. The emanating
-      - magic from this process can be found
-      - everywhere
+      - 染料的唯一目的就是為這個
+      - 沉悶的世界添加繽紛色彩.
+      - 從這個過程中散發出
+      - 的魔力隨處可見.
     shards:
       - 1
       - 0
@@ -12001,12 +12001,12 @@ MAGENTA_GLAZED_TERRACOTTA:
     - HUMAN
     - CELESTIAL
   story:
-    name: Non-Stick (洋紅)
+    name: 不黏性 (洋紅)
     type: HUMAN
     lore:
-      - A complex composition allows this block
-      - to slide against others with ease making
-      - Glazed Terracotta a common find in elevators.
+      - 複雜的成份使該方塊可以輕鬆
+      - 與其他方塊滑順的接在一起,
+      - 使釉陶成為電梯建築中最常見的建材.
     shards:
       - 1
       - 0
@@ -14043,13 +14043,13 @@ ORANGE_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (橙)
+    name: 顏色領域 (橙)
     type: ALCHEMICAL
     lore:
-      - Dye's singular purpose is to bring
-      - color to a dull world. The emanating
-      - magic from this process can be found
-      - everywhere
+      - 染料的唯一目的就是為這個
+      - 沉悶的世界添加繽紛色彩.
+      - 從這個過程中散發出
+      - 的魔力隨處可見.
     shards:
       - 1
       - 0
@@ -14066,12 +14066,12 @@ ORANGE_GLAZED_TERRACOTTA:
     - HUMAN
     - CELESTIAL
   story:
-    name: Non-Stick (橙)
+    name: 不黏性 (橙)
     type: HUMAN
     lore:
-      - A complex composition allows this block
-      - to slide against others with ease making
-      - Glazed Terracotta a common find in elevators.
+      - 複雜的成份使該方塊可以輕鬆
+      - 與其他方塊滑順的接在一起,
+      - 使釉陶成為電梯建築中最常見的建材.
     shards:
       - 1
       - 0
@@ -14565,13 +14565,13 @@ PINK_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (粉)
+    name: 顏色領域 (粉)
     type: ALCHEMICAL
     lore:
-      - Dye's singular purpose is to bring
-      - color to a dull world. The emanating
-      - magic from this process can be found
-      - everywhere
+      - 染料的唯一目的就是為這個
+      - 沉悶的世界添加繽紛色彩.
+      - 從這個過程中散發出
+      - 的魔力隨處可見.
     shards:
       - 1
       - 0
@@ -14588,12 +14588,12 @@ PINK_GLAZED_TERRACOTTA:
     - HUMAN
     - CELESTIAL
   story:
-    name: Non-Stick (粉)
+    name: 不黏性 (粉)
     type: HUMAN
     lore:
-      - A complex composition allows this block
-      - to slide against others with ease making
-      - Glazed Terracotta a common find in elevators.
+      - 複雜的成份使該方塊可以輕鬆
+      - 與其他方塊滑順的接在一起,
+      - 使釉陶成為電梯建築中最常見的建材.
     shards:
       - 1
       - 0
@@ -15936,13 +15936,13 @@ PURPLE_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (紫)
+    name: 顏色領域 (紫)
     type: ALCHEMICAL
     lore:
-      - Dye's singular purpose is to bring
-      - color to a dull world. The emanating
-      - magic from this process can be found
-      - everywhere
+      - 染料的唯一目的就是為這個
+      - 沉悶的世界添加繽紛色彩.
+      - 從這個過程中散發出
+      - 的魔力隨處可見.
     shards:
       - 1
       - 0
@@ -15959,12 +15959,12 @@ PURPLE_GLAZED_TERRACOTTA:
     - HUMAN
     - CELESTIAL
   story:
-    name: Non-Stick (紫)
+    name: 不黏性 (紫)
     type: HUMAN
     lore:
-      - A complex composition allows this block
-      - to slide against others with ease making
-      - Glazed Terracotta a common find in elevators.
+      - 複雜的成份使該方塊可以輕鬆
+      - 與其他方塊滑順的接在一起,
+      - 使釉陶成為電梯建築中最常見的建材.
     shards:
       - 1
       - 0
@@ -16769,13 +16769,13 @@ RED_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (紅)
+    name: 顏色領域 (紅)
     type: ALCHEMICAL
     lore:
-      - Dye's singular purpose is to bring
-      - color to a dull world. The emanating
-      - magic from this process can be found
-      - everywhere
+      - 染料的唯一目的就是為這個
+      - 沉悶的世界添加繽紛色彩.
+      - 從這個過程中散發出
+      - 的魔力隨處可見.
     shards:
       - 1
       - 0
@@ -16792,12 +16792,12 @@ RED_GLAZED_TERRACOTTA:
     - HUMAN
     - CELESTIAL
   story:
-    name: Non-Stick (紅)
+    name: 不黏性 (紅)
     type: HUMAN
     lore:
-      - A complex composition allows this block
-      - to slide against others with ease making
-      - Glazed Terracotta a common find in elevators.
+      - 複雜的成份使該方塊可以輕鬆
+      - 與其他方塊滑順的接在一起,
+      - 使釉陶成為電梯建築中最常見的建材.
     shards:
       - 1
       - 0
@@ -21051,13 +21051,13 @@ WHITE_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (白)
+    name: 顏色領域 (白)
     type: ALCHEMICAL
     lore:
-      - Dye's singular purpose is to bring
-      - color to a dull world. The emanating
-      - magic from this process can be found
-      - everywhere
+      - 染料的唯一目的就是為這個
+      - 沉悶的世界添加繽紛色彩.
+      - 從這個過程中散發出
+      - 的魔力隨處可見.
     shards:
       - 1
       - 0
@@ -21074,12 +21074,12 @@ WHITE_GLAZED_TERRACOTTA:
     - HUMAN
     - CELESTIAL
   story:
-    name: Non-Stick (白)
+    name: 不黏性 (白)
     type: HUMAN
     lore:
-      - A complex composition allows this block
-      - to slide against others with ease making
-      - Glazed Terracotta a common find in elevators.
+      - 複雜的成份使該方塊可以輕鬆
+      - 與其他方塊滑順的接在一起,
+      - 使釉陶成為電梯建築中最常見的建材.
     shards:
       - 1
       - 0
@@ -21534,13 +21534,13 @@ YELLOW_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (黃)
+    name: 顏色領域 (黃)
     type: ALCHEMICAL
     lore:
-      - Dye's singular purpose is to bring
-      - color to a dull world. The emanating
-      - magic from this process can be found
-      - everywhere
+      - 染料的唯一目的就是為這個
+      - 沉悶的世界添加繽紛色彩.
+      - 從這個過程中散發出
+      - 的魔力隨處可見.
     shards:
       - 1
       - 0
