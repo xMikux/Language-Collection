@@ -1576,12 +1576,12 @@ BLACK_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (黑)
+    name: 棱柱 (黑)
     type: CELESTIAL
     lore:
-      - While this block has no innate magic
-      - itself, there is a special magic these
-      - blocks provide to those witnessing them
+      - 雖然這個方塊並沒有
+      - 先天性的魔力, 但這些方塊為
+      - 見證者提供了特殊的魔法
     shards:
       - 0
       - 1
@@ -1598,12 +1598,12 @@ BLACK_STAINED_GLASS_PANE:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (Black Pane)
+    name: 棱柱 (黑色玻璃片)
     type: CELESTIAL
     lore:
-      - While this block has no innate magic
-      - itself, there is a special magic these
-      - blocks provide to those witnessing them
+      - 雖然這個方塊並沒有
+      - 先天性的魔力, 但這些方塊為
+      - 見證者提供了特殊的魔法
     shards:
       - 0
       - 1
@@ -1620,12 +1620,12 @@ BLACK_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (黑)
+    name: 雕刻家的喜悅 (黑)
     type: HUMAN
     lore:
-      - Having the potential to be shaped into any
-      - form and yet always ending up being a cube
-      - makes for a disheartened spirit.
+      - 有可能被塑造成任何形式,
+      - 但最終總是變成一個立方體,
+      - 這讓人心灰意冷.
     shards:
       - 1
       - 0
@@ -1951,12 +1951,12 @@ BLUE_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (藍)
+    name: 棱柱 (藍)
     type: CELESTIAL
     lore:
-      - While this block has no innate magic
-      - itself, there is a special magic these
-      - blocks provide to those witnessing them
+      - 雖然這個方塊並沒有
+      - 先天性的魔力, 但這些方塊為
+      - 見證者提供了特殊的魔法
     shards:
       - 0
       - 1
@@ -1973,12 +1973,12 @@ BLUE_STAINED_GLASS_PANE:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (Blue Pane)
+    name: 棱柱 (藍色玻璃片)
     type: CELESTIAL
     lore:
-      - While this block has no innate magic
-      - itself, there is a special magic these
-      - blocks provide to those witnessing them
+      - 雖然這個方塊並沒有
+      - 先天性的魔力, 但這些方塊為
+      - 見證者提供了特殊的魔法
     shards:
       - 0
       - 1
@@ -1995,12 +1995,12 @@ BLUE_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (藍)
+    name: 雕刻家的喜悅 (藍)
     type: HUMAN
     lore:
-      - Having the potential to be shaped into any
-      - form and yet always ending up being a cube
-      - makes for a disheartened spirit.
+      - 有可能被塑造成任何形式,
+      - 但最終總是變成一個立方體,
+      - 這讓人心灰意冷.
     shards:
       - 1
       - 0
@@ -2630,12 +2630,12 @@ BROWN_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (棕)
+    name: 棱柱 (棕)
     type: CELESTIAL
     lore:
-      - While this block has no innate magic
-      - itself, there is a special magic these
-      - blocks provide to those witnessing them
+      - 雖然這個方塊並沒有
+      - 先天性的魔力, 但這些方塊為
+      - 見證者提供了特殊的魔法
     shards:
       - 0
       - 1
@@ -2652,12 +2652,12 @@ BROWN_STAINED_GLASS_PANE:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (Brown Pane)
+    name: 棱柱 (棕色玻璃片)
     type: CELESTIAL
     lore:
-      - While this block has no innate magic
-      - itself, there is a special magic these
-      - blocks provide to those witnessing them
+      - 雖然這個方塊並沒有
+      - 先天性的魔力, 但這些方塊為
+      - 見證者提供了特殊的魔法
     shards:
       - 0
       - 1
@@ -2674,12 +2674,12 @@ BROWN_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (棕)
+    name: 雕刻家的喜悅 (棕)
     type: HUMAN
     lore:
-      - Having the potential to be shaped into any
-      - form and yet always ending up being a cube
-      - makes for a disheartened spirit.
+      - 有可能被塑造成任何形式,
+      - 但最終總是變成一個立方體,
+      - 這讓人心灰意冷.
     shards:
       - 1
       - 0
@@ -5062,12 +5062,12 @@ CYAN_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (青)
+    name: 棱柱 (青)
     type: CELESTIAL
     lore:
-      - While this block has no innate magic
-      - itself, there is a special magic these
-      - blocks provide to those witnessing them
+      - 雖然這個方塊並沒有
+      - 先天性的魔力, 但這些方塊為
+      - 見證者提供了特殊的魔法
     shards:
       - 0
       - 1
@@ -5084,12 +5084,12 @@ CYAN_STAINED_GLASS_PANE:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (Cyan Pane)
+    name: 棱柱 (青色玻璃片)
     type: CELESTIAL
     lore:
-      - While this block has no innate magic
-      - itself, there is a special magic these
-      - blocks provide to those witnessing them
+      - 雖然這個方塊並沒有
+      - 先天性的魔力, 但這些方塊為
+      - 見證者提供了特殊的魔法
     shards:
       - 0
       - 1
@@ -5106,12 +5106,12 @@ CYAN_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (青)
+    name: 雕刻家的喜悅 (青)
     type: HUMAN
     lore:
-      - Having the potential to be shaped into any
-      - form and yet always ending up being a cube
-      - makes for a disheartened spirit.
+      - 有可能被塑造成任何形式,
+      - 但最終總是變成一個立方體,
+      - 這讓人心灰意冷.
     shards:
       - 1
       - 0
@@ -8842,12 +8842,12 @@ GRAY_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (灰)
+    name: 棱柱 (灰)
     type: CELESTIAL
     lore:
-      - While this block has no innate magic
-      - itself, there is a special magic these
-      - blocks provide to those witnessing them
+      - 雖然這個方塊並沒有
+      - 先天性的魔力, 但這些方塊為
+      - 見證者提供了特殊的魔法
     shards:
       - 0
       - 1
@@ -8864,12 +8864,12 @@ GRAY_STAINED_GLASS_PANE:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (Gray Pane)
+    name: 棱柱 (灰色玻璃片)
     type: CELESTIAL
     lore:
-      - While this block has no innate magic
-      - itself, there is a special magic these
-      - blocks provide to those witnessing them
+      - 雖然這個方塊並沒有
+      - 先天性的魔力, 但這些方塊為
+      - 見證者提供了特殊的魔法
     shards:
       - 0
       - 1
@@ -8886,12 +8886,12 @@ GRAY_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (灰)
+    name: 雕刻家的喜悅 (灰)
     type: HUMAN
     lore:
-      - Having the potential to be shaped into any
-      - form and yet always ending up being a cube
-      - makes for a disheartened spirit.
+      - 有可能被塑造成任何形式,
+      - 但最終總是變成一個立方體,
+      - 這讓人心灰意冷.
     shards:
       - 1
       - 0
@@ -9107,12 +9107,12 @@ GREEN_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (綠)
+    name: 棱柱 (綠)
     type: CELESTIAL
     lore:
-      - While this block has no innate magic
-      - itself, there is a special magic these
-      - blocks provide to those witnessing them
+      - 雖然這個方塊並沒有
+      - 先天性的魔力, 但這些方塊為
+      - 見證者提供了特殊的魔法
     shards:
       - 0
       - 1
@@ -9129,12 +9129,12 @@ GREEN_STAINED_GLASS_PANE:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (Green Pane)
+    name: 棱柱 (綠色玻璃片)
     type: CELESTIAL
     lore:
-      - While this block has no innate magic
-      - itself, there is a special magic these
-      - blocks provide to those witnessing them
+      - 雖然這個方塊並沒有
+      - 先天性的魔力, 但這些方塊為
+      - 見證者提供了特殊的魔法
     shards:
       - 0
       - 1
@@ -9151,12 +9151,12 @@ GREEN_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (綠)
+    name: 雕刻家的喜悅 (綠)
     type: HUMAN
     lore:
-      - Having the potential to be shaped into any
-      - form and yet always ending up being a cube
-      - makes for a disheartened spirit.
+      - 有可能被塑造成任何形式,
+      - 但最終總是變成一個立方體,
+      - 這讓人心灰意冷.
     shards:
       - 1
       - 0
@@ -11076,12 +11076,12 @@ LIGHT_BLUE_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (淺藍)
+    name: 棱柱 (淺藍)
     type: CELESTIAL
     lore:
-      - While this block has no innate magic
-      - itself, there is a special magic these
-      - blocks provide to those witnessing them
+      - 雖然這個方塊並沒有
+      - 先天性的魔力, 但這些方塊為
+      - 見證者提供了特殊的魔法
     shards:
       - 0
       - 1
@@ -11098,12 +11098,12 @@ LIGHT_BLUE_STAINED_GLASS_PANE:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (Light Blue Pane)
+    name: 棱柱 (淺藍色玻璃片)
     type: CELESTIAL
     lore:
-      - While this block has no innate magic
-      - itself, there is a special magic these
-      - blocks provide to those witnessing them
+      - 雖然這個方塊並沒有
+      - 先天性的魔力, 但這些方塊為
+      - 見證者提供了特殊的魔法
     shards:
       - 0
       - 1
@@ -11120,12 +11120,12 @@ LIGHT_BLUE_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (淺藍)
+    name: 雕刻家的喜悅 (淺藍)
     type: HUMAN
     lore:
-      - Having the potential to be shaped into any
-      - form and yet always ending up being a cube
-      - makes for a disheartened spirit.
+      - 有可能被塑造成任何形式,
+      - 但最終總是變成一個立方體,
+      - 這讓人心灰意冷.
     shards:
       - 1
       - 0
@@ -11341,12 +11341,12 @@ LIGHT_GRAY_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (淺灰)
+    name: 棱柱 (淺灰)
     type: CELESTIAL
     lore:
-      - While this block has no innate magic
-      - itself, there is a special magic these
-      - blocks provide to those witnessing them
+      - 雖然這個方塊並沒有
+      - 先天性的魔力, 但這些方塊為
+      - 見證者提供了特殊的魔法
     shards:
       - 0
       - 1
@@ -11363,12 +11363,12 @@ LIGHT_GRAY_STAINED_GLASS_PANE:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (Light Gray Pane)
+    name: 棱柱 (淺灰色玻璃片)
     type: CELESTIAL
     lore:
-      - While this block has no innate magic
-      - itself, there is a special magic these
-      - blocks provide to those witnessing them
+      - 雖然這個方塊並沒有
+      - 先天性的魔力, 但這些方塊為
+      - 見證者提供了特殊的魔法
     shards:
       - 0
       - 1
@@ -11385,12 +11385,12 @@ LIGHT_GRAY_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (淺灰)
+    name: 雕刻家的喜悅 (淺灰)
     type: HUMAN
     lore:
-      - Having the potential to be shaped into any
-      - form and yet always ending up being a cube
-      - makes for a disheartened spirit.
+      - 有可能被塑造成任何形式,
+      - 但最終總是變成一個立方體,
+      - 這讓人心灰意冷.
     shards:
       - 1
       - 0
@@ -11693,12 +11693,12 @@ LIME_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (淺綠)
+    name: 棱柱 (淺綠)
     type: CELESTIAL
     lore:
-      - While this block has no innate magic
-      - itself, there is a special magic these
-      - blocks provide to those witnessing them
+      - 雖然這個方塊並沒有
+      - 先天性的魔力, 但這些方塊為
+      - 見證者提供了特殊的魔法
     shards:
       - 0
       - 1
@@ -11715,12 +11715,12 @@ LIME_STAINED_GLASS_PANE:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (Lime Pane)
+    name: 棱柱 (淺綠色玻璃片)
     type: CELESTIAL
     lore:
-      - While this block has no innate magic
-      - itself, there is a special magic these
-      - blocks provide to those witnessing them
+      - 雖然這個方塊並沒有
+      - 先天性的魔力, 但這些方塊為
+      - 見證者提供了特殊的魔法
     shards:
       - 0
       - 1
@@ -11737,12 +11737,12 @@ LIME_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (淺綠)
+    name: 雕刻家的喜悅 (淺綠)
     type: HUMAN
     lore:
-      - Having the potential to be shaped into any
-      - form and yet always ending up being a cube
-      - makes for a disheartened spirit.
+      - 有可能被塑造成任何形式,
+      - 但最終總是變成一個立方體,
+      - 這讓人心灰意冷.
     shards:
       - 1
       - 0
@@ -12023,12 +12023,12 @@ MAGENTA_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (洋紅)
+    name: 棱柱 (洋紅)
     type: CELESTIAL
     lore:
-      - While this block has no innate magic
-      - itself, there is a special magic these
-      - blocks provide to those witnessing them
+      - 雖然這個方塊並沒有
+      - 先天性的魔力, 但這些方塊為
+      - 見證者提供了特殊的魔法
     shards:
       - 0
       - 1
@@ -12045,12 +12045,12 @@ MAGENTA_STAINED_GLASS_PANE:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (Magenta Pane)
+    name: 棱柱 (洋紅色玻璃片)
     type: CELESTIAL
     lore:
-      - While this block has no innate magic
-      - itself, there is a special magic these
-      - blocks provide to those witnessing them
+      - 雖然這個方塊並沒有
+      - 先天性的魔力, 但這些方塊為
+      - 見證者提供了特殊的魔法
     shards:
       - 0
       - 1
@@ -12067,12 +12067,12 @@ MAGENTA_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (洋紅)
+    name: 雕刻家的喜悅 (洋紅)
     type: HUMAN
     lore:
-      - Having the potential to be shaped into any
-      - form and yet always ending up being a cube
-      - makes for a disheartened spirit.
+      - 有可能被塑造成任何形式,
+      - 但最終總是變成一個立方體,
+      - 這讓人心灰意冷.
     shards:
       - 1
       - 0
@@ -14088,12 +14088,12 @@ ORANGE_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (橙)
+    name: 棱柱 (橙)
     type: CELESTIAL
     lore:
-      - While this block has no innate magic
-      - itself, there is a special magic these
-      - blocks provide to those witnessing them
+      - 雖然這個方塊並沒有
+      - 先天性的魔力, 但這些方塊為
+      - 見證者提供了特殊的魔法
     shards:
       - 0
       - 1
@@ -14110,12 +14110,12 @@ ORANGE_STAINED_GLASS_PANE:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (Orange Pane)
+    name: 棱柱 (橙色玻璃片)
     type: CELESTIAL
     lore:
-      - While this block has no innate magic
-      - itself, there is a special magic these
-      - blocks provide to those witnessing them
+      - 雖然這個方塊並沒有
+      - 先天性的魔力, 但這些方塊為
+      - 見證者提供了特殊的魔法
     shards:
       - 0
       - 1
@@ -14132,12 +14132,12 @@ ORANGE_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (橙)
+    name: 雕刻家的喜悅 (橙)
     type: HUMAN
     lore:
-      - Having the potential to be shaped into any
-      - form and yet always ending up being a cube
-      - makes for a disheartened spirit.
+      - 有可能被塑造成任何形式,
+      - 但最終總是變成一個立方體,
+      - 這讓人心灰意冷.
     shards:
       - 1
       - 0
@@ -14610,12 +14610,12 @@ PINK_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (粉)
+    name: 棱柱 (粉)
     type: CELESTIAL
     lore:
-      - While this block has no innate magic
-      - itself, there is a special magic these
-      - blocks provide to those witnessing them
+      - 雖然這個方塊並沒有
+      - 先天性的魔力, 但這些方塊為
+      - 見證者提供了特殊的魔法
     shards:
       - 0
       - 1
@@ -14632,12 +14632,12 @@ PINK_STAINED_GLASS_PANE:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (Pink Pane)
+    name: 棱柱 (粉色玻璃片)
     type: CELESTIAL
     lore:
-      - While this block has no innate magic
-      - itself, there is a special magic these
-      - blocks provide to those witnessing them
+      - 雖然這個方塊並沒有
+      - 先天性的魔力, 但這些方塊為
+      - 見證者提供了特殊的魔法
     shards:
       - 0
       - 1
@@ -14654,12 +14654,12 @@ PINK_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (粉)
+    name: 雕刻家的喜悅 (粉)
     type: HUMAN
     lore:
-      - Having the potential to be shaped into any
-      - form and yet always ending up being a cube
-      - makes for a disheartened spirit.
+      - 有可能被塑造成任何形式,
+      - 但最終總是變成一個立方體,
+      - 這讓人心灰意冷.
     shards:
       - 1
       - 0
@@ -15519,7 +15519,7 @@ PRISMARINE_BRICKS:
     - HUMAN
     - ANIMAL
   story:
-    name: Dirt Hut Upgrade (Prismarine)
+    name: Dirt Hut Upgrade (海磷石)
     type: HUMAN
     lore:
       - Enough to make near-any house a home,
@@ -15541,7 +15541,7 @@ PRISMARINE_BRICK_SLAB:
     - VOID
     - ANIMAL
   story:
-    name: 切開之下 (Prismarine Brick)
+    name: 切開之下 (海磷石磚)
     type: HUMAN
     lore:
       - 撕成兩半，與自己分開.
@@ -15563,7 +15563,7 @@ PRISMARINE_BRICK_STAIRS:
     - PHILOSOPHICAL
     - ANIMAL
   story:
-    name: 崛起 (Prismarine Brick)
+    name: 崛起 (海磷石磚)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
@@ -15628,7 +15628,7 @@ PRISMARINE_SLAB:
     - VOID
     - ANIMAL
   story:
-    name: 切開之下 (Prismarine)
+    name: 切開之下 (海磷石)
     type: HUMAN
     lore:
       - 撕成兩半，與自己分開.
@@ -15673,7 +15673,7 @@ PRISMARINE_WALL:
     - HISTORICAL
     - ANIMAL
   story:
-    name: 打倒牆壁 (Prismarine)
+    name: 打倒牆壁 (海磷石)
     type: HISTORICAL
     lore:
       - 保護多年的工作,
@@ -15981,12 +15981,12 @@ PURPLE_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (紫)
+    name: 棱柱 (紫)
     type: CELESTIAL
     lore:
-      - While this block has no innate magic
-      - itself, there is a special magic these
-      - blocks provide to those witnessing them
+      - 雖然這個方塊並沒有
+      - 先天性的魔力, 但這些方塊為
+      - 見證者提供了特殊的魔法
     shards:
       - 0
       - 1
@@ -16003,12 +16003,12 @@ PURPLE_STAINED_GLASS_PANE:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (Purple Pane)
+    name: 棱柱 (紫色玻璃片)
     type: CELESTIAL
     lore:
-      - While this block has no innate magic
-      - itself, there is a special magic these
-      - blocks provide to those witnessing them
+      - 雖然這個方塊並沒有
+      - 先天性的魔力, 但這些方塊為
+      - 見證者提供了特殊的魔法
     shards:
       - 0
       - 1
@@ -16025,12 +16025,12 @@ PURPLE_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (紫)
+    name: 雕刻家的喜悅 (紫)
     type: HUMAN
     lore:
-      - Having the potential to be shaped into any
-      - form and yet always ending up being a cube
-      - makes for a disheartened spirit.
+      - 有可能被塑造成任何形式,
+      - 但最終總是變成一個立方體,
+      - 這讓人心灰意冷.
     shards:
       - 1
       - 0
@@ -17051,12 +17051,12 @@ RED_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (紅)
+    name: 棱柱 (紅)
     type: CELESTIAL
     lore:
-      - While this block has no innate magic
-      - itself, there is a special magic these
-      - blocks provide to those witnessing them
+      - 雖然這個方塊並沒有
+      - 先天性的魔力, 但這些方塊為
+      - 見證者提供了特殊的魔法
     shards:
       - 0
       - 1
@@ -17073,12 +17073,12 @@ RED_STAINED_GLASS_PANE:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (Red Pane)
+    name: 棱柱 (紅色玻璃片)
     type: CELESTIAL
     lore:
-      - While this block has no innate magic
-      - itself, there is a special magic these
-      - blocks provide to those witnessing them
+      - 雖然這個方塊並沒有
+      - 先天性的魔力, 但這些方塊為
+      - 見證者提供了特殊的魔法
     shards:
       - 0
       - 1
@@ -17095,12 +17095,12 @@ RED_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (紅)
+    name: 雕刻家的喜悅 (紅)
     type: HUMAN
     lore:
-      - Having the potential to be shaped into any
-      - form and yet always ending up being a cube
-      - makes for a disheartened spirit.
+      - 有可能被塑造成任何形式,
+      - 但最終總是變成一個立方體,
+      - 這讓人心灰意冷.
     shards:
       - 1
       - 0
@@ -19578,12 +19578,12 @@ TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight
+    name: 雕刻家的喜悅
     type: HUMAN
     lore:
-      - Having the potential to be shaped into any
-      - form and yet always ending up being a cube
-      - makes for a disheartened spirit.
+      - 有可能被塑造成任何形式,
+      - 但最終總是變成一個立方體,
+      - 這讓人心灰意冷.
     shards:
       - 1
       - 0
@@ -21096,12 +21096,12 @@ WHITE_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (白)
+    name: 棱柱 (白)
     type: CELESTIAL
     lore:
-      - While this block has no innate magic
-      - itself, there is a special magic these
-      - blocks provide to those witnessing them
+      - 雖然這個方塊並沒有
+      - 先天性的魔力, 但這些方塊為
+      - 見證者提供了特殊的魔法
     shards:
       - 0
       - 1
@@ -21118,12 +21118,12 @@ WHITE_STAINED_GLASS_PANE:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (White Pane)
+    name: 棱柱 (白色玻璃片)
     type: CELESTIAL
     lore:
-      - While this block has no innate magic
-      - itself, there is a special magic these
-      - blocks provide to those witnessing them
+      - 雖然這個方塊並沒有
+      - 先天性的魔力, 但這些方塊為
+      - 見證者提供了特殊的魔法
     shards:
       - 0
       - 1
@@ -21140,12 +21140,12 @@ WHITE_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (白)
+    name: 雕刻家的喜悅 (白)
     type: HUMAN
     lore:
-      - Having the potential to be shaped into any
-      - form and yet always ending up being a cube
-      - makes for a disheartened spirit.
+      - 有可能被塑造成任何形式,
+      - 但最終總是變成一個立方體,
+      - 這讓人心灰意冷.
     shards:
       - 1
       - 0
@@ -21579,12 +21579,12 @@ YELLOW_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (黃)
+    name: 棱柱 (黃)
     type: CELESTIAL
     lore:
-      - While this block has no innate magic
-      - itself, there is a special magic these
-      - blocks provide to those witnessing them
+      - 雖然這個方塊並沒有
+      - 先天性的魔力, 但這些方塊為
+      - 見證者提供了特殊的魔法
     shards:
       - 0
       - 1
@@ -21601,12 +21601,12 @@ YELLOW_STAINED_GLASS_PANE:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (黃色玻璃)
+    name: 棱柱 (黃色玻璃片)
     type: CELESTIAL
     lore:
-      - While this block has no innate magic
-      - itself, there is a special magic these
-      - blocks provide to those witnessing them
+      - 雖然這個方塊並沒有
+      - 先天性的魔力, 但這些方塊為
+      - 見證者提供了特殊的魔法
     shards:
       - 0
       - 1
@@ -21623,12 +21623,12 @@ YELLOW_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (黃)
+    name: 雕刻家的喜悅 (黃)
     type: HUMAN
     lore:
-      - Having the potential to be shaped into any
-      - form and yet always ending up being a cube
-      - makes for a disheartened spirit.
+      - 有可能被塑造成任何形式,
+      - 但最終總是變成一個立方體,
+      - 這讓人心灰意冷.
     shards:
       - 1
       - 0
