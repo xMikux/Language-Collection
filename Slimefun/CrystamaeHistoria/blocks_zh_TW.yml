@@ -1642,12 +1642,12 @@ BLACK_WOOL:
     - ANIMAL
     - VOID
   story:
-    name: Soft! (黑)
+    name: 柔軟的! (黑)
     type: ANIMAL
     lore:
-      - Fluffy and black, the most comfortable
-      - of materials. Longing to become the next
-      - bed or carpet.
+      - 蓬鬆的黑色, 最舒適的材質.
+      - 可望成為下一張床
+      - 或地毯.
     shards:
       - 0
       - 0
@@ -1665,12 +1665,12 @@ BLAST_FURNACE:
     - MECHANICAL
     - HUMAN
   story:
-    name: What a Blast
+    name: 多麼的爆炸
     type: MECHANICAL
     lore:
-      - A furnace dreams day in, day out, of
-      - being promoted. The Blast Furnace is
-      - a Furnace's dream.
+      - 一個熔爐日復一日的
+      - 夢想著被提拔. 高爐
+      - 是熔爐的夢想.
     shards:
       - 0
       - 1
@@ -2017,12 +2017,12 @@ BLUE_WOOL:
     - ANIMAL
     - ELEMENTAL
   story:
-    name: Soft! (藍)
+    name: 柔軟的! (藍)
     type: ANIMAL
     lore:
-      - Fluffy and blue, the most comfortable
-      - of materials. Longing to become the next
-      - bed or carpet.
+      - 蓬鬆的藍色, 最舒適的材質.
+      - 可望成為下一張床
+      - 或地毯.
     shards:
       - 1
       - 0
@@ -2696,12 +2696,12 @@ BROWN_WOOL:
     - ANIMAL
     - HISTORICAL
   story:
-    name: Soft! (棕)
+    name: 柔軟的! (棕)
     type: ANIMAL
     lore:
-      - Fluffy and brown, the most comfortable
-      - of materials. Longing to become the next
-      - bed or carpet.
+      - 蓬鬆的棕色, 最舒適的材質.
+      - 可望成為下一張床
+      - 或地毯.
     shards:
       - 0
       - 0
@@ -3220,7 +3220,7 @@ CHIPPED_ANVIL:
     - MECHANICAL
     - HUMAN
   story:
-    name: 鐵鎚時間! (Chipped)
+    name: 鐵鎚時間! (微損的)
     type: MECHANICAL
     lore:
       - 每一個接觸過鐵砧的
@@ -3242,11 +3242,11 @@ CHISELED_DEEPSLATE:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Artisan (Deepslate)
+    name: 工匠 (深板岩)
     type: PHILOSOPHICAL
     lore:
-      - An artisan, without knowing, gives a portion
-      - of their magic into the block they craft.
+      - 工匠不知不覺中將一部分魔法
+      - 投入到它們所製作的方塊中.
     shards:
       - 0
       - 1
@@ -3263,11 +3263,11 @@ CHISELED_NETHER_BRICKS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Artisan (Nether Bricks)
+    name: 工匠 (地獄磚)
     type: PHILOSOPHICAL
     lore:
-      - An artisan, without knowing, gives a portion
-      - of their magic into the block they craft.
+      - 工匠不知不覺中將一部分魔法
+      - 投入到它們所製作的方塊中.
     shards:
       - 0
       - 1
@@ -3284,11 +3284,11 @@ CHISELED_POLISHED_BLACKSTONE:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Artisan (Polished Blackstone)
+    name: 工匠 (拋光黑石磚)
     type: PHILOSOPHICAL
     lore:
-      - An artisan, without knowing, gives a portion
-      - of their magic into the block they craft.
+      - 工匠不知不覺中將一部分魔法
+      - 投入到它們所製作的方塊中.
     shards:
       - 0
       - 1
@@ -3306,11 +3306,11 @@ CHISELED_QUARTZ_BLOCK:
     - PHILOSOPHICAL
     - CELESTIAL
   story:
-    name: Artisan (Quartz)
+    name: 工匠 (石英)
     type: PHILOSOPHICAL
     lore:
-      - An artisan, without knowing, gives a portion
-      - of their magic into the block they craft.
+      - 工匠不知不覺中將一部分魔法
+      - 投入到它們所製作的方塊中.
     shards:
       - 0
       - 1
@@ -3327,11 +3327,11 @@ CHISELED_RED_SANDSTONE:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Artisan (Red Sandstone)
+    name: 工匠 (紅砂岩)
     type: PHILOSOPHICAL
     lore:
-      - An artisan, without knowing, gives a portion
-      - of their magic into the block they craft.
+      - 工匠不知不覺中將一部分魔法
+      - 投入到它們所製作的方塊中.
     shards:
       - 0
       - 1
@@ -3348,11 +3348,11 @@ CHISELED_SANDSTONE:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Artisan (Sandstone)
+    name: 工匠 (砂岩)
     type: PHILOSOPHICAL
     lore:
-      - An artisan, without knowing, gives a portion
-      - of their magic into the block they craft.
+      - 工匠不知不覺中將一部分魔法
+      - 投入到它們所製作的方塊中.
     shards:
       - 0
       - 1
@@ -3369,11 +3369,11 @@ CHISELED_STONE_BRICKS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Artisan (Stone Bricks)
+    name: 工匠 (石磚)
     type: PHILOSOPHICAL
     lore:
-      - An artisan, without knowing, gives a portion
-      - of their magic into the block they craft.
+      - 工匠不知不覺中將一部分魔法
+      - 投入到它們所製作的方塊中.
     shards:
       - 0
       - 1
@@ -3584,7 +3584,7 @@ COBBLED_DEEPSLATE:
   elements:
     - ELEMENTAL
   story:
-    name: 暫時的 (深板岩)
+    name: Improvised (深板岩)
     type: ELEMENTAL
     lore:
       - 已經變得支離破碎
@@ -4184,7 +4184,7 @@ CRACKED_DEEPSLATE_BRICKS:
     - VOID
     - PHILOSOPHICAL
   story:
-    name: Cracked (Deepslate)
+    name: Cracked (深板岩)
     type: VOID
     lore:
       - This block releases it's magic via
@@ -4230,7 +4230,7 @@ CRACKED_NETHER_BRICKS:
     - VOID
     - PHILOSOPHICAL
   story:
-    name: Cracked (Nether Bricks)
+    name: Cracked (地獄磚)
     type: VOID
     lore:
       - This block releases it's magic via
@@ -4276,7 +4276,7 @@ CRACKED_STONE_BRICKS:
     - VOID
     - PHILOSOPHICAL
   story:
-    name: Cracked (Stone Bricks)
+    name: Cracked (石磚)
     type: VOID
     lore:
       - This block releases it's magic via
@@ -4801,7 +4801,7 @@ CUT_RED_SANDSTONE:
     - MECHANICAL
     - HUMAN
   story:
-    name: A Cut Above (Red Sandstone)
+    name: A Cut Above (紅砂岩)
     type: MECHANICAL
     lore:
       - This block never complains, despite the
@@ -4843,7 +4843,7 @@ CUT_SANDSTONE:
     - MECHANICAL
     - HUMAN
   story:
-    name: A Cut Above (Sandstone)
+    name: A Cut Above (砂岩)
     type: MECHANICAL
     lore:
       - This block never complains, despite the
@@ -5128,12 +5128,12 @@ CYAN_WOOL:
     - ANIMAL
     - PHILOSOPHICAL
   story:
-    name: Soft! (白)
+    name: 柔軟的! (白)
     type: ANIMAL
     lore:
-      - Fluffy and cyan, the most comfortable
-      - of materials. Longing to become the next
-      - bed or carpet.
+      - 蓬鬆的白色, 最舒適的材質.
+      - 可望成為下一張床
+      - 或地毯.
     shards:
       - 0
       - 0
@@ -5951,7 +5951,7 @@ DEEPSLATE:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: 堅毅 (深板岩)
+    name: Resolute (深板岩)
     type: ELEMENTAL
     lore:
       - 石頭是世界構成之中堅毅的代表
@@ -5972,7 +5972,7 @@ DEEPSLATE_BRICKS:
     - HISTORICAL
     - HUMAN
   story:
-    name: Dirt Hut Upgrade (Deepslate)
+    name: Dirt Hut Upgrade (深板岩)
     type: HUMAN
     lore:
       - Enough to make near-any house a home,
@@ -6057,7 +6057,7 @@ DEEPSLATE_COAL_ORE:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: 謙虛的心 (深板岩)
+    name: A Humble Soul (深板岩)
     type: PHILOSOPHICAL
     lore:
       - 你很難在像煤炭一樣
@@ -8907,12 +8907,12 @@ GRAY_WOOL:
   elements:
     - ANIMAL
   story:
-    name: Soft! (灰)
+    name: 柔軟的! (灰)
     type: ANIMAL
     lore:
-      - Fluffy and gray, the most comfortable
-      - of materials. Longing to become the next
-      - bed or carpet.
+      - 蓬鬆的灰色, 最舒適的材質.
+      - 可望成為下一張床
+      - 或地毯.
     shards:
       - 0
       - 0
@@ -9173,12 +9173,12 @@ GREEN_WOOL:
     - ANIMAL
     - HUMAN
   story:
-    name: Soft! (綠)
+    name: 柔軟的! (綠)
     type: ANIMAL
     lore:
-      - Fluffy and green, the most comfortable
-      - of materials. Longing to become the next
-      - bed or carpet.
+      - 蓬鬆的綠色, 最舒適的材質.
+      - 可望成為下一張床
+      - 或地毯.
     shards:
       - 0
       - 0
@@ -9617,7 +9617,7 @@ INFESTED_DEEPSLATE:
     - VOID
     - ANIMAL
   story:
-    name: Infested (Deepslate)
+    name: Infested (深板岩)
     type: VOID
     lore:
       - Bursting with the potential of the
@@ -9686,7 +9686,7 @@ INFESTED_STONE_BRICKS:
     - VOID
     - ANIMAL
   story:
-    name: Infested (Stone Bricks)
+    name: Infested (石磚)
     type: VOID
     lore:
       - Bursting with the potential of the
@@ -11141,12 +11141,12 @@ LIGHT_BLUE_WOOL:
   elements:
     - ANIMAL
   story:
-    name: Soft! (淺藍)
+    name: 柔軟的! (淺藍)
     type: ANIMAL
     lore:
-      - Fluffy and light blue, the most comfortable
-      - of materials. Longing to become the next
-      - bed or carpet.
+      - 蓬鬆的淺藍色, 最舒適的材質.
+      - 可望成為下一張床
+      - 或地毯.
     shards:
       - 0
       - 0
@@ -11406,12 +11406,12 @@ LIGHT_GRAY_WOOL:
   elements:
     - ANIMAL
   story:
-    name: Soft! (淺灰)
+    name: 柔軟的! (淺灰)
     type: ANIMAL
     lore:
-      - Fluffy and light gray, the most comfortable
-      - of materials. Longing to become the next
-      - bed or carpet.
+      - 蓬鬆的淺灰色, 最舒適的材質.
+      - 可望成為下一張床
+      - 或地毯.
     shards:
       - 0
       - 0
@@ -11759,12 +11759,12 @@ LIME_WOOL:
     - ANIMAL
     - CELESTIAL
   story:
-    name: Soft! (淺綠)
+    name: 柔軟的! (淺綠)
     type: ANIMAL
     lore:
-      - Fluffy and lime, the most comfortable
-      - of materials. Longing to become the next
-      - bed or carpet.
+      - 蓬鬆的淺綠色, 最舒適的材質.
+      - 可望成為下一張床
+      - 或地毯.
     shards:
       - 0
       - 0
@@ -12089,12 +12089,12 @@ MAGENTA_WOOL:
     - ANIMAL
     - ALCHEMICAL
   story:
-    name: Soft! (洋紅)
+    name: 柔軟的! (洋紅)
     type: ANIMAL
     lore:
-      - Fluffy and magenta, the most comfortable
-      - of materials. Longing to become the next
-      - bed or carpet.
+      - 蓬鬆的洋紅色, 最舒適的材質.
+      - 可望成為下一張床
+      - 或地毯.
     shards:
       - 0
       - 0
@@ -14175,12 +14175,12 @@ ORANGE_WOOL:
     - ANIMAL
     - MECHANICAL
   story:
-    name: Soft! (橙)
+    name: 柔軟的! (橙)
     type: ANIMAL
     lore:
-      - Fluffy and orange, the most comfortable
-      - of materials. Longing to become the next
-      - bed or carpet.
+      - 蓬鬆的橙色, 最舒適的材質.
+      - 可望成為下一張床
+      - 或地毯.
     shards:
       - 0
       - 1
@@ -14696,12 +14696,12 @@ PINK_WOOL:
   elements:
     - ANIMAL
   story:
-    name: Soft! (粉)
+    name: 柔軟的! (粉)
     type: ANIMAL
     lore:
-      - Fluffy and pink, the most comfortable
-      - of materials. Longing to become the next
-      - bed or carpet.
+      - 蓬鬆的粉色, 最舒適的材質.
+      - 可望成為下一張床
+      - 或地毯.
     shards:
       - 0
       - 0
@@ -15026,7 +15026,7 @@ POLISHED_BLACKSTONE_BUTTON:
     - HUMAN
     - MECHANICAL
   story:
-    name: 鬱悶 (Polished Blackstone)
+    name: 鬱悶 (拋光黑石磚)
     type: HUMAN
     lore:
       - 容易受到鬱悶
@@ -15046,7 +15046,7 @@ POLISHED_BLACKSTONE_PRESSURE_PLATE:
     - MECHANICAL
     - VOID
   story:
-    name: 在壓力之下 (Polished Blackstone)
+    name: 在壓力之下 (拋光黑石磚)
     type: VOID
     lore:
       - 到處行走會下降任何
@@ -15067,7 +15067,7 @@ POLISHED_BLACKSTONE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: 半品脫 (Polished Blackstone)
+    name: 半品脫 (拋光黑石磚)
     type: HUMAN
     lore:
       - 這小傢伙只有一半大,
@@ -15089,7 +15089,7 @@ POLISHED_BLACKSTONE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: 崛起 (Polished Blackstone)
+    name: 崛起 (拋光黑石磚)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
@@ -15111,7 +15111,7 @@ POLISHED_BLACKSTONE_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: 打倒牆壁 (Polished Blackstone)
+    name: 打倒牆壁 (拋光黑石磚)
     type: HISTORICAL
     lore:
       - 保護多年的工作,
@@ -15132,7 +15132,7 @@ POLISHED_DEEPSLATE:
     - MECHANICAL
     - HUMAN
   story:
-    name: Time to Gleam (Deepslate)
+    name: Time to Gleam (深板岩)
     type: HUMAN
     lore:
       - With a bit of love, any block can
@@ -16046,12 +16046,12 @@ PURPLE_WOOL:
   elements:
     - ANIMAL
   story:
-    name: Soft! (紫)
+    name: 柔軟的! (紫)
     type: ANIMAL
     lore:
-      - Fluffy and purple, the most comfortable
-      - of materials. Longing to become the next
-      - bed or carpet.
+      - 蓬鬆的紫色, 最舒適的材質.
+      - 可望成為下一張床
+      - 或地毯.
     shards:
       - 0
       - 0
@@ -16161,7 +16161,7 @@ QUARTZ:
     - MECHANICAL
     - HISTORICAL
   story:
-    name: Refined (Quartz)
+    name: Refined (石英)
     type: ELEMENTAL
     lore:
       - After having all the slag and dregs removed
@@ -16183,7 +16183,7 @@ QUARTZ_BLOCK:
     - MECHANICAL
     - HISTORICAL
   story:
-    name: Further Refinement (Quartz)
+    name: Further Refinement (石英)
     type: ELEMENTAL
     lore:
       - Refined all the way to it's block form, this
@@ -16205,7 +16205,7 @@ QUARTZ_BRICKS:
     - HUMAN
     - ALCHEMICAL
   story:
-    name: Dirt Hut Upgrade (Quartz)
+    name: Dirt Hut Upgrade (石英)
     type: HUMAN
     lore:
       - Enough to make near-any house a home,
@@ -16226,7 +16226,7 @@ QUARTZ_PILLAR:
     - MECHANICAL
     - PHILOSOPHICAL
   story:
-    name: Pillar of Society (Quartz)
+    name: Pillar of Society (石英)
     type: PHILOSOPHICAL
     lore:
       - Holding up those in need, the purpose of
@@ -16249,7 +16249,7 @@ QUARTZ_SLAB:
     - VOID
     - ALCHEMICAL
   story:
-    name: 切開之下 (Quartz)
+    name: 切開之下 (石英)
     type: HUMAN
     lore:
       - 撕成兩半，與自己分開.
@@ -16271,7 +16271,7 @@ QUARTZ_STAIRS:
     - PHILOSOPHICAL
     - ALCHEMICAL
   story:
-    name: 崛起 (Quartz)
+    name: 崛起 (石英)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
@@ -16986,7 +16986,7 @@ RED_SANDSTONE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: 半品脫 (Red Sandstone)
+    name: 半品脫 (紅砂岩)
     type: HUMAN
     lore:
       - 這小傢伙只有一半大,
@@ -17008,7 +17008,7 @@ RED_SANDSTONE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: 崛起 (Red Sandstone)
+    name: 崛起 (紅砂岩)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
@@ -17030,7 +17030,7 @@ RED_SANDSTONE_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: 打倒牆壁 (Red Sandstone)
+    name: 打倒牆壁 (紅砂岩)
     type: HISTORICAL
     lore:
       - 保護多年的工作,
@@ -17137,12 +17137,12 @@ RED_WOOL:
   elements:
     - ANIMAL
   story:
-    name: Soft! (紅)
+    name: 柔軟的! (紅)
     type: ANIMAL
     lore:
-      - Fluffy and red, the most comfortable
-      - of materials. Longing to become the next
-      - bed or carpet.
+      - 蓬鬆的紅色, 最舒適的材質.
+      - 可望成為下一張床
+      - 或地毯.
     shards:
       - 0
       - 0
@@ -17160,12 +17160,12 @@ REPEATER:
     - MECHANICAL
     - HUMAN
   story:
-    name: Repeat
+    name: 重複
     type: MECHANICAL
     lore:
-      - Repeat Repeat Repeat Repeat Repeat
-      - Repeat Repeat Repeat Repeat Repeat
-      - Repeat Repeat Repeat Repeat Repeat
+      - 重複 重複 重複 重複 重複
+      - 重複 重複 重複 重複 重複
+      - 重複 重複 重複 重複 重複
     shards:
       - 0
       - 2
@@ -17376,7 +17376,7 @@ SANDSTONE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: 半品脫 (Sandstone)
+    name: 半品脫 (砂岩)
     type: HUMAN
     lore:
       - 這小傢伙只有一半大,
@@ -17398,7 +17398,7 @@ SANDSTONE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: 崛起 (Sandstone)
+    name: 崛起 (砂岩)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
@@ -17420,7 +17420,7 @@ SANDSTONE_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: 打倒牆壁 (Sandstone)
+    name: 打倒牆壁 (砂岩)
     type: HISTORICAL
     lore:
       - 保護多年的工作,
@@ -17794,12 +17794,12 @@ SMOKER:
     - HUMAN
     - ANIMAL
   story:
-    name: Get Smoked
+    name: 被煙燻吧
     type: MECHANICAL
     lore:
-      - A furnace dreams day in, day out, of
-      - being promoted. The Smoker is
-      - a Furnace's dream.
+      - 一個熔爐日復一日的
+      - 夢想著被提拔. 煙燻爐
+      - 是熔爐的夢想.
     shards:
       - 0
       - 1
@@ -17903,7 +17903,7 @@ SMOOTH_RED_SANDSTONE:
     - ELEMENTAL
     - CELESTIAL
   story:
-    name: A Debonair Delight (Red Sandstone)
+    name: A Debonair Delight (紅砂岩)
     type: ELEMENTAL
     lore:
       - It should be criminal to be this
@@ -17968,7 +17968,7 @@ SMOOTH_SANDSTONE:
     - ELEMENTAL
     - CELESTIAL
   story:
-    name: A Debonair Delight (Sandstone)
+    name: A Debonair Delight (砂岩)
     type: ELEMENTAL
     lore:
       - It should be criminal to be this
@@ -21182,12 +21182,12 @@ WHITE_WOOL:
   elements:
     - ANIMAL
   story:
-    name: Soft! (白)
+    name: 柔軟的! (白)
     type: ANIMAL
     lore:
-      - Fluffy and white, the most comfortable
-      - of materials. Longing to become the next
-      - bed or carpet.
+      - 蓬鬆的白色, 最舒適的材質.
+      - 可望成為下一張床
+      - 或地毯.
     shards:
       - 0
       - 0
@@ -21644,12 +21644,12 @@ YELLOW_WOOL:
   elements:
     - ANIMAL
   story:
-    name: Soft! (黃)
+    name: 柔軟的! (黃)
     type: ANIMAL
     lore:
-      - Fluffy and yellow, the most comfortable
-      - of materials. Longing to become the next
-      - bed or carpet.
+      - 蓬鬆的黃色, 最舒適的材質.
+      - 可望成為下一張床
+      - 或地毯.
     shards:
       - 0
       - 0
