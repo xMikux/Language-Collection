@@ -15,5 +15,6 @@ SEASONSCOMMAND-DAYSUNTILNEXTSEASON: "&aDays until next season (&2$next_season$&a
 SEASONCOMMAND-TIME: "&aCurrent time: &2$time$"
 SEASONCOMMAND-EVENTS: "&aActive events: &2$events$"
 TOGGLESEASONSCOMMAND-MESSAGE: "&aSeason colors are now &2$status$ &afor you"
+TOGGLETEMPERATURECOMMAND-MESSAGE: "&aThe temperature system is now &2$status$ &afor you"
 ENABLED: "enabled"
-DISABLED: "disabled" 
+DISABLED: "disabled"

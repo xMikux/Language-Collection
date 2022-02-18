@@ -1,4 +1,5 @@
 enabled: true
+temperature-update-interval: 40
 modifiers:
   season-base-temperature:
     winter:
@@ -34,6 +35,9 @@ modifiers:
   max-sprinting-modifier: 4
   height:
     enabled: true
+  other-dimensions:
+    nether: 35
+    end: 0
 effects:
   cold:
     hunger: -10
@@ -43,7 +47,7 @@ effects:
     min: 15
     max: 30
     potioneffects:
-    - HEALTH_BOOST
+    - NONE
   warm:
     no-healing: 50
     slowness: 60
@@ -62,4 +66,14 @@ display:
       enabled: true
       overheating: 'Cool down!'
       freezing: 'Heat up!'
-    
+custom:
+  items:
+    example-item:
+      enabled: false
+      material: LEATHER_BOOTS
+      custom-model-data: 5
+      use-custom-model-data: true
+      temperature-modifier: 10
+      activation:
+        wearing: true
+        holding: false
