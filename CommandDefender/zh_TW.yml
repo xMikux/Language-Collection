@@ -10,7 +10,7 @@
 cancelled-blocked:
   - '%prefix% 你不被允許使用 ''&b%command%&7''!'
 cancelled-colon:
-  - '%prefix% You are not allowed to use the colon character &8(&b:&8) &7in the first argument of your commands.'
+  - '%prefix% 你不被允許在指令的第一個參數使用冒號字符 &8(&b:&8).'
 command:
   backup:
     start:
