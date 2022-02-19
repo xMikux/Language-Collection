@@ -2063,12 +2063,12 @@ BONE_BLOCK:
     - ANIMAL
     - HISTORICAL
   story:
-    name: Found Remains
+    name: 發現遺骸
     type: ANIMAL
     lore:
-      - Fossils scattered across the world and
-      - depths of the Nether. Nothing is known
-      - about the creatures that left them behind.
+      - 散落在世界與
+      - 地獄深處的化石. 關於留下它們的
+      - 生物一無所知.
     shards:
       - 0
       - 0
@@ -2171,12 +2171,12 @@ BOWL:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Feeling Empty
+    name: 感覺空虛
     type: PHILOSOPHICAL
     lore:
-      - It's one purpose being unfulfilled means
-      - the magic from this spirit wanes slowly
-      - over time.
+      - 它的目的並未實現,
+      - 這意味著這個精神魔力將
+      - 會隨著時間推移而慢慢減弱.
     shards:
       - 0
       - 0
@@ -2193,12 +2193,12 @@ BRAIN_CORAL:
     - HISTORICAL
     - CELESTIAL
   story:
-    name: Biodiverse (Brain)
+    name: 生物多樣性 (腦珊瑚)
     type: HISTORICAL
     lore:
-      - Providing a home for a wide variety
-      - of warm-sea creatures gives purpose and
-      - sight to an otherwise bromidic spirit.
+      - 為各種溫暖海洋生物提供一個家,
+      - 使原本不活潑的精神
+      - 有了目標與視野.
     shards:
       - 0
       - 0
@@ -2215,12 +2215,12 @@ BRAIN_CORAL_BLOCK:
     - PHILOSOPHICAL
     - CELESTIAL
   story:
-    name: Be'reef't (Brain)
+    name: 失去 (腦珊瑚)
     type: PHILOSOPHICAL
     lore:
-      - Ripped from it's habitat and moulded into
-      - an unnatural form for human purposes.
-      - This is a spirit ripped asunder.
+      - 從它的棲息地被剝離出來並塑造
+      - 成一種非自然的形式給人類使用.
+      - 這是一種被撕裂的精神.
     shards:
       - 0
       - 0
@@ -2237,12 +2237,12 @@ BRAIN_CORAL_FAN:
     - HISTORICAL
     - CELESTIAL
   story:
-    name: Biodiverse (Brain Fan)
+    name: 生物多樣性 (扇狀腦珊瑚)
     type: HISTORICAL
     lore:
-      - Providing a home for a wide variety
-      - of warm-sea creatures gives purpose and
-      - sight to an otherwise bromidic spirit.
+      - 為各種溫暖海洋生物提供一個家,
+      - 使原本不活潑的精神
+      - 有了目標與視野.
     shards:
       - 0
       - 0
@@ -2258,12 +2258,12 @@ BREAD:
   elements:
     - HUMAN
   story:
-    name: Square
+    name: 方形
     type: HUMAN
     lore:
-      - A hearty but simple meal suitable for
-      - all. Bread delights from filling the
-      - stomachs of those in need.
+      - 適合所有人的豐富又簡單的一餐.
+      - 麵包因填飽需要
+      - 幫助的人而感到喜悅.
     shards:
       - 0
       - 0
@@ -2279,12 +2279,12 @@ BREWING_STAND:
   elements:
     - ALCHEMICAL
   story:
-    name: Alchemically Imbued
+    name: 煉金術
     type: ALCHEMICAL
     lore:
-      - After years of use, the brewing stand
-      - is imbued with such strong alchemical
-      - Crystamae it's brimming near to burst.
+      - 經過多年的使用,
+      - 釀造台已充滿如此強大的水晶能量,
+      - 以至於幾乎快要爆裂.
     shards:
       - 0
       - 0
@@ -2301,13 +2301,13 @@ BRICK:
     - HISTORICAL
     - HUMAN
   story:
-    name: Before
+    name: 在之前
     type: HUMAN
     lore:
-      - While not much on it's own, the potential
-      - within this item is so large that the magics
-      - from it's possible forms ripple back through
-      - time.
+      - 雖然它本身並不多,
+      - 但它的潛力就是如此之大,
+      - 以至於它的型態會隨著
+      - 時間推移而迴盪.
     shards:
       - 0
       - 1
@@ -2324,11 +2324,11 @@ BRICKS:
     - HISTORICAL
     - HUMAN
   story:
-    name: Dirt Hut Upgrade
+    name: 土屋升級
     type: HUMAN
     lore:
-      - Enough to make near-any house a home,
-      - bricks are the staple to a modern comfort.
+      - 磚足夠使任何的家變得更像是家,
+      - 並讓磚變得更加的現代與舒適.
     shards:
       - 0
       - 1
@@ -2345,7 +2345,7 @@ BRICK_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: 半品脫 (Brick)
+    name: 半品脫 (紅磚)
     type: HUMAN
     lore:
       - 這小傢伙只有一半大,
@@ -2367,7 +2367,7 @@ BRICK_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: 崛起 (Brick)
+    name: 崛起 (紅磚)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
@@ -2389,7 +2389,7 @@ BRICK_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: 打倒牆壁 (Brick)
+    name: 打倒牆壁 (紅磚)
     type: HISTORICAL
     lore:
       - 保護多年的工作,
@@ -2586,12 +2586,12 @@ BROWN_MUSHROOM:
   elements:
     - ANIMAL
   story:
-    name: Fungal Frugality (棕)
+    name: 真菌節儉 (棕)
     type: ANIMAL
     lore:
-      - While slow, it's strength lies in it's
-      - simplicity and ability to thrive almost
-      - anywhere.
+      - 雖然成長很慢, 但它的優勢就是
+      - 它的簡單性和幾乎能在任何
+      - 地方茁壯成長的能力.
     shards:
       - 0
       - 0
@@ -2719,12 +2719,12 @@ BUBBLE_CORAL:
     - HISTORICAL
     - CELESTIAL
   story:
-    name: Biodiverse (Bubble)
+    name: 生物多樣性 (氣泡珊瑚)
     type: HISTORICAL
     lore:
-      - Providing a home for a wide variety
-      - of warm-sea creatures gives purpose and
-      - sight to an otherwise bromidic spirit.
+      - 為各種溫暖海洋生物提供一個家,
+      - 使原本不活潑的精神
+      - 有了目標與視野.
     shards:
       - 0
       - 0
@@ -2741,12 +2741,12 @@ BUBBLE_CORAL_BLOCK:
     - PHILOSOPHICAL
     - CELESTIAL
   story:
-    name: Be'reef't (Bubble)
+    name: 失去 (氣泡珊瑚)
     type: PHILOSOPHICAL
     lore:
-      - Ripped from it's habitat and moulded into
-      - an unnatural form for human purposes.
-      - This is a spirit ripped asunder.
+      - 從它的棲息地被剝離出來並塑造
+      - 成一種非自然的形式給人類使用.
+      - 這是一種被撕裂的精神.
     shards:
       - 0
       - 0
@@ -2763,12 +2763,12 @@ BUBBLE_CORAL_FAN:
     - HISTORICAL
     - CELESTIAL
   story:
-    name: Biodiverse (Bubble Fan)
+    name: 生物多樣性 (扇狀氣泡珊瑚)
     type: HISTORICAL
     lore:
-      - Providing a home for a wide variety
-      - of warm-sea creatures gives purpose and
-      - sight to an otherwise bromidic spirit.
+      - 為各種溫暖海洋生物提供一個家,
+      - 使原本不活潑的精神
+      - 有了目標與視野.
     shards:
       - 0
       - 0
@@ -2785,7 +2785,7 @@ BUCKET:
     - HUMAN
     - VOID
   story:
-    name: Sturdy (Empty)
+    name: Sturdy (空)
     type: HUMAN
     lore:
       - Persistent, constant and driven to
@@ -3417,7 +3417,7 @@ CHORUS_FRUIT:
     lore:
       - The latent magics of this fruit are in
       - a state of constant flux, quantumly connected
-      - to various nearby points in space-time.
+      - to various nearby points in space-時間推移而迴盪.
     shards:
       - 0
       - 0
@@ -4455,12 +4455,12 @@ CRIMSON_FUNGUS:
     - ANIMAL
     - VOID
   story:
-    name: Fungal Frugality (緋紅)
+    name: 真菌節儉 (緋紅)
     type: ANIMAL
     lore:
-      - While slow, it's strength lies in it's
-      - simplicity and ability to thrive almost
-      - anywhere.
+      - 雖然成長很慢, 但它的優勢就是
+      - 它的簡單性和幾乎能在任何
+      - 地方茁壯成長的能力.
     shards:
       - 0
       - 0
@@ -5598,7 +5598,7 @@ DEAD_BRAIN_CORAL:
   elements:
     - VOID
   story:
-    name: Ecological Collapse (Brain)
+    name: Ecological Collapse (腦珊瑚)
     type: VOID
     lore:
       - With over half of all coral already
@@ -5642,7 +5642,7 @@ DEAD_BRAIN_CORAL_FAN:
   elements:
     - VOID
   story:
-    name: Ecological Collapse (Brain Fan)
+    name: Ecological Collapse (扇狀腦珊瑚)
     type: VOID
     lore:
       - With over half of all coral already
@@ -5664,7 +5664,7 @@ DEAD_BUBBLE_CORAL:
   elements:
     - VOID
   story:
-    name: Ecological Collapse (Bubble)
+    name: Ecological Collapse (氣泡珊瑚)
     type: VOID
     lore:
       - With over half of all coral already
@@ -5708,7 +5708,7 @@ DEAD_BUBBLE_CORAL_FAN:
   elements:
     - VOID
   story:
-    name: Ecological Collapse (Bubble Fan)
+    name: Ecological Collapse (扇狀氣泡珊瑚)
     type: VOID
     lore:
       - With over half of all coral already
@@ -5752,7 +5752,7 @@ DEAD_FIRE_CORAL:
   elements:
     - VOID
   story:
-    name: Ecological Collapse (Fire)
+    name: Ecological Collapse (火珊瑚)
     type: VOID
     lore:
       - With over half of all coral already
@@ -5796,7 +5796,7 @@ DEAD_FIRE_CORAL_FAN:
   elements:
     - VOID
   story:
-    name: Ecological Collapse (Fire Fan)
+    name: Ecological Collapse (扇狀火珊瑚)
     type: VOID
     lore:
       - With over half of all coral already
@@ -5818,7 +5818,7 @@ DEAD_HORN_CORAL:
   elements:
     - VOID
   story:
-    name: Ecological Collapse (Horn)
+    name: Ecological Collapse (角珊瑚)
     type: VOID
     lore:
       - With over half of all coral already
@@ -5862,7 +5862,7 @@ DEAD_HORN_CORAL_FAN:
   elements:
     - VOID
   story:
-    name: Ecological Collapse (Horn Fan)
+    name: Ecological Collapse (扇狀角珊瑚)
     type: VOID
     lore:
       - With over half of all coral already
@@ -5884,7 +5884,7 @@ DEAD_TUBE_CORAL:
   elements:
     - VOID
   story:
-    name: Ecological Collapse (Tube)
+    name: Ecological Collapse (管珊瑚)
     type: VOID
     lore:
       - With over half of all coral already
@@ -5928,7 +5928,7 @@ DEAD_TUBE_CORAL_FAN:
   elements:
     - VOID
   story:
-    name: Ecological Collapse (Tube Fan)
+    name: Ecological Collapse (扇狀管珊瑚)
     type: VOID
     lore:
       - With over half of all coral already
@@ -5972,11 +5972,11 @@ DEEPSLATE_BRICKS:
     - HISTORICAL
     - HUMAN
   story:
-    name: Dirt Hut Upgrade (深板岩)
+    name: 土屋升級 (深板岩)
     type: HUMAN
     lore:
-      - Enough to make near-any house a home,
-      - bricks are the staple to a modern comfort.
+      - 磚足夠使任何的家變得更像是家,
+      - 並讓磚變得更加的現代與舒適.
     shards:
       - 0
       - 1
@@ -7248,11 +7248,11 @@ END_STONE_BRICKS:
     - HUMAN
     - CELESTIAL
   story:
-    name: Dirt Hut Upgrade (End Stone)
+    name: 土屋升級 (終界石)
     type: HUMAN
     lore:
-      - Enough to make near-any house a home,
-      - bricks are the staple to a modern comfort.
+      - 磚足夠使任何的家變得更像是家,
+      - 並讓磚變得更加的現代與舒適.
     shards:
       - 0
       - 1
@@ -7269,7 +7269,7 @@ END_STONE_BRICK_SLAB:
     - HUMAN
     - VOID
   story:
-    name: 切開之下 (End Stone Brick)
+    name: 切開之下 (終界石磚)
     type: HUMAN
     lore:
       - 撕成兩半，與自己分開.
@@ -7290,7 +7290,7 @@ END_STONE_BRICK_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: 崛起 (End Stone Brick)
+    name: 崛起 (終界石磚)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
@@ -7313,7 +7313,7 @@ END_STONE_BRICK_WALL:
     - HISTORICAL
     - CELESTIAL
   story:
-    name: 打倒牆壁 (End Stone Brick)
+    name: 打倒牆壁 (終界石磚)
     type: HISTORICAL
     lore:
       - 保護多年的工作,
@@ -7594,12 +7594,12 @@ FIRE_CORAL:
     - HISTORICAL
     - CELESTIAL
   story:
-    name: Biodiverse (Fire)
+    name: 生物多樣性 (火珊瑚)
     type: HISTORICAL
     lore:
-      - Providing a home for a wide variety
-      - of warm-sea creatures gives purpose and
-      - sight to an otherwise bromidic spirit.
+      - 為各種溫暖海洋生物提供一個家,
+      - 使原本不活潑的精神
+      - 有了目標與視野.
     shards:
       - 0
       - 0
@@ -7616,12 +7616,12 @@ FIRE_CORAL_BLOCK:
     - PHILOSOPHICAL
     - CELESTIAL
   story:
-    name: Be'reef't (Fire)
+    name: 失去 (火珊瑚)
     type: PHILOSOPHICAL
     lore:
-      - Ripped from it's habitat and moulded into
-      - an unnatural form for human purposes.
-      - This is a spirit ripped asunder.
+      - 從它的棲息地被剝離出來並塑造
+      - 成一種非自然的形式給人類使用.
+      - 這是一種被撕裂的精神.
     shards:
       - 0
       - 0
@@ -7638,12 +7638,12 @@ FIRE_CORAL_FAN:
     - HISTORICAL
     - CELESTIAL
   story:
-    name: Biodiverse (Fire Fan)
+    name: 生物多樣性 (扇狀火珊瑚)
     type: HISTORICAL
     lore:
-      - Providing a home for a wide variety
-      - of warm-sea creatures gives purpose and
-      - sight to an otherwise bromidic spirit.
+      - 為各種溫暖海洋生物提供一個家,
+      - 使原本不活潑的精神
+      - 有了目標與視野.
     shards:
       - 0
       - 0
@@ -9459,12 +9459,12 @@ HORN_CORAL:
     - HISTORICAL
     - CELESTIAL
   story:
-    name: Biodiverse (Horn)
+    name: 生物多樣性 (角珊瑚)
     type: HISTORICAL
     lore:
-      - Providing a home for a wide variety
-      - of warm-sea creatures gives purpose and
-      - sight to an otherwise bromidic spirit.
+      - 為各種溫暖海洋生物提供一個家,
+      - 使原本不活潑的精神
+      - 有了目標與視野.
     shards:
       - 0
       - 0
@@ -9481,12 +9481,12 @@ HORN_CORAL_BLOCK:
     - PHILOSOPHICAL
     - CELESTIAL
   story:
-    name: Be'reef't (Horn)
+    name: 失去 (角珊瑚)
     type: PHILOSOPHICAL
     lore:
-      - Ripped from it's habitat and moulded into
-      - an unnatural form for human purposes.
-      - This is a spirit ripped asunder.
+      - 從它的棲息地被剝離出來並塑造
+      - 成一種非自然的形式給人類使用.
+      - 這是一種被撕裂的精神.
     shards:
       - 0
       - 0
@@ -9503,12 +9503,12 @@ HORN_CORAL_FAN:
     - HISTORICAL
     - CELESTIAL
   story:
-    name: Biodiverse (Horn Fan)
+    name: 生物多樣性 (扇狀角珊瑚)
     type: HISTORICAL
     lore:
-      - Providing a home for a wide variety
-      - of warm-sea creatures gives purpose and
-      - sight to an otherwise bromidic spirit.
+      - 為各種溫暖海洋生物提供一個家,
+      - 使原本不活潑的精神
+      - 有了目標與視野.
     shards:
       - 0
       - 0
@@ -9640,7 +9640,7 @@ INFESTED_MOSSY_STONE_BRICKS:
     - VOID
     - ANIMAL
   story:
-    name: Infested (Mossy Stone)
+    name: Infested (青苔石磚)
     type: VOID
     lore:
       - Bursting with the potential of the
@@ -9663,7 +9663,7 @@ INFESTED_STONE:
     - VOID
     - ANIMAL
   story:
-    name: Infested (Stone)
+    name: Infested (石頭)
     type: VOID
     lore:
       - Bursting with the potential of the
@@ -11829,7 +11829,7 @@ LOOM:
     lore:
       - Every thread and weave is imparted with
       - the creativity of the creator and the
-      - magics present at the time.
+      - magics present at the 時間推移而迴盪.
     shards:
       - 0
       - 0
@@ -12350,7 +12350,7 @@ MOSSY_COBBLESTONE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: 半品脫 (Mossy Cobblestone)
+    name: 半品脫 (青苔鵝卵石)
     type: HUMAN
     lore:
       - 這小傢伙只有一半大,
@@ -12372,7 +12372,7 @@ MOSSY_COBBLESTONE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: 崛起 (Mossy Cobblestone)
+    name: 崛起 (青苔鵝卵石)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
@@ -12394,7 +12394,7 @@ MOSSY_COBBLESTONE_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: 打倒牆壁 (Mossy Cobblestone)
+    name: 打倒牆壁 (青苔鵝卵石)
     type: HISTORICAL
     lore:
       - 保護多年的工作,
@@ -12416,11 +12416,11 @@ MOSSY_STONE_BRICKS:
     - HUMAN
     - ANIMAL
   story:
-    name: Dirt Hut Upgrade (Mossy Stone)
+    name: 土屋升級 (青苔石磚)
     type: HUMAN
     lore:
-      - Enough to make near-any house a home,
-      - bricks are the staple to a modern comfort.
+      - 磚足夠使任何的家變得更像是家,
+      - 並讓磚變得更加的現代與舒適.
     shards:
       - 0
       - 1
@@ -12437,7 +12437,7 @@ MOSSY_STONE_BRICK_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: 半品脫 (Mossy Stone Brick)
+    name: 半品脫 (青苔石半磚)
     type: HUMAN
     lore:
       - 這小傢伙只有一半大,
@@ -12459,7 +12459,7 @@ MOSSY_STONE_BRICK_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: 崛起 (Mossy Stone Brick)
+    name: 崛起 (青苔石半磚)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
@@ -12481,7 +12481,7 @@ MOSSY_STONE_BRICK_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: 打倒牆壁 (Mossy Stone Brick)
+    name: 打倒牆壁 (青苔石半磚)
     type: HISTORICAL
     lore:
       - 保護多年的工作,
@@ -13180,7 +13180,7 @@ NETHERITE_SCRAP:
     type: HISTORICAL
     lore:
       - The correct refinement process for Netherite
-      - has been lost to time. Starting with a
+      - has been lost to 時間推移而迴盪. Starting with a
       - scrap is the best known method currently.
     shards:
       - 1
@@ -13262,13 +13262,13 @@ NETHER_BRICK:
     - HISTORICAL
     - HUMAN
   story:
-    name: Before (Nether)
+    name: 在之前 (地獄)
     type: HUMAN
     lore:
-      - While not much on it's own, the potential
-      - within this item is so large that the magics
-      - from it's possible forms ripple back through
-      - time.
+      - 雖然它本身並不多,
+      - 但它的潛力就是如此之大,
+      - 以至於它的型態會隨著
+      - 時間推移而迴盪.
     shards:
       - 0
       - 1
@@ -13286,11 +13286,11 @@ NETHER_BRICKS:
     - HUMAN
     - VOID
   story:
-    name: Dirt Hut Upgrade (Nether)
+    name: 土屋升級 (地獄)
     type: HUMAN
     lore:
-      - Enough to make near-any house a home,
-      - bricks are the staple to a modern comfort.
+      - 磚足夠使任何的家變得更像是家,
+      - 並讓磚變得更加的現代與舒適.
     shards:
       - 0
       - 1
@@ -13308,7 +13308,7 @@ NETHER_BRICK_FENCE:
     - ANIMAL
     - VOID
   story:
-    name: 家畜 (Nether)
+    name: 家畜 (地獄)
     type: ANIMAL
     lore:
       - 能保護好牲畜的安全,
@@ -13330,7 +13330,7 @@ NETHER_BRICK_SLAB:
     - ELEMENTAL
     - VOID
   story:
-    name: 半品脫 (Nether Brick)
+    name: 半品脫 (地獄磚)
     type: HUMAN
     lore:
       - 這小傢伙只有一半大,
@@ -13352,7 +13352,7 @@ NETHER_BRICK_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: 崛起 (Nether Brick)
+    name: 崛起 (地獄磚)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
@@ -13374,7 +13374,7 @@ NETHER_BRICK_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: 打倒牆壁 (Nether Brick)
+    name: 打倒牆壁 (地獄磚)
     type: HISTORICAL
     lore:
       - 保護多年的工作,
@@ -14767,7 +14767,7 @@ PODZOL:
     lore:
       - Podzol is magically saturated from the iron
       - it has absorbed. This magic is converted
-      - slowly over time.
+      - slowly over 時間推移而迴盪.
     shards:
       - 2
       - 0
@@ -15519,11 +15519,11 @@ PRISMARINE_BRICKS:
     - HUMAN
     - ANIMAL
   story:
-    name: Dirt Hut Upgrade (海磷石)
+    name: 土屋升級 (海磷石)
     type: HUMAN
     lore:
-      - Enough to make near-any house a home,
-      - bricks are the staple to a modern comfort.
+      - 磚足夠使任何的家變得更像是家,
+      - 並讓磚變得更加的現代與舒適.
     shards:
       - 0
       - 1
@@ -16093,7 +16093,7 @@ PURPUR_PILLAR:
     - MECHANICAL
     - PHILOSOPHICAL
   story:
-    name: Pillar of Society (Purpur)
+    name: Pillar of Society (紫珀)
     type: PHILOSOPHICAL
     lore:
       - Holding up those in need, the purpose of
@@ -16116,7 +16116,7 @@ PURPUR_SLAB:
     - VOID
     - CELESTIAL
   story:
-    name: 切開之下 (Purpur)
+    name: 切開之下 (紫珀)
     type: HUMAN
     lore:
       - 撕成兩半，與自己分開.
@@ -16138,7 +16138,7 @@ PURPUR_STAIRS:
     - PHILOSOPHICAL
     - CELESTIAL
   story:
-    name: 崛起 (Purpur)
+    name: 崛起 (紫珀)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
@@ -16205,11 +16205,11 @@ QUARTZ_BRICKS:
     - HUMAN
     - ALCHEMICAL
   story:
-    name: Dirt Hut Upgrade (石英)
+    name: 土屋升級 (石英)
     type: HUMAN
     lore:
-      - Enough to make near-any house a home,
-      - bricks are the staple to a modern comfort.
+      - 磚足夠使任何的家變得更像是家,
+      - 並讓磚變得更加的現代與舒適.
     shards:
       - 0
       - 1
@@ -16813,12 +16813,12 @@ RED_MUSHROOM:
   elements:
     - ANIMAL
   story:
-    name: Fungal Frugality (紅)
+    name: 真菌節儉 (紅)
     type: ANIMAL
     lore:
-      - While slow, it's strength lies in it's
-      - simplicity and ability to thrive almost
-      - anywhere.
+      - 雖然成長很慢, 但它的優勢就是
+      - 它的簡單性和幾乎能在任何
+      - 地方茁壯成長的能力.
     shards:
       - 0
       - 0
@@ -16858,11 +16858,11 @@ RED_NETHER_BRICKS:
     - HUMAN
     - VOID
   story:
-    name: Dirt Hut Upgrade (Red Nether)
+    name: 土屋升級 (紅地獄)
     type: HUMAN
     lore:
-      - Enough to make near-any house a home,
-      - bricks are the staple to a modern comfort.
+      - 磚足夠使任何的家變得更像是家,
+      - 並讓磚變得更加的現代與舒適.
     shards:
       - 0
       - 1
@@ -16879,7 +16879,7 @@ RED_NETHER_BRICK_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: 半品脫 (Red Nether Brick)
+    name: 半品脫 (紅地獄磚)
     type: HUMAN
     lore:
       - 這小傢伙只有一半大,
@@ -16901,7 +16901,7 @@ RED_NETHER_BRICK_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: 崛起 (Red Nether Brick)
+    name: 崛起 (紅地獄磚)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
@@ -16923,7 +16923,7 @@ RED_NETHER_BRICK_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: 打倒牆壁 (Red Nether Brick)
+    name: 打倒牆壁 (紅地獄磚)
     type: HISTORICAL
     lore:
       - 保護多年的工作,
@@ -18033,7 +18033,7 @@ SMOOTH_STONE:
     - ELEMENTAL
     - CELESTIAL
   story:
-    name: A Debonair Delight (Stone)
+    name: A Debonair Delight (石頭)
     type: ELEMENTAL
     lore:
       - It should be criminal to be this
@@ -18257,7 +18257,7 @@ SPAWNER:
     type: CELESTIAL
     lore:
       - The true nature of a spawner has been lost to
-      - time. It is not a generator of mobs, it is a
+      - 時間推移而迴盪. It is not a generator of mobs, it is a
       - dimensional prison made from Celestial Crysta,
       - holding them back as best as possible.
     shards:
@@ -18789,7 +18789,7 @@ STONE_AXE:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Axe-cident waiting to happen! (Stone)
+    name: Axe-cident waiting to happen! (石頭)
     type: PHILOSOPHICAL
     lore:
       - Every person fears the day that they finally
@@ -18811,11 +18811,11 @@ STONE_BRICKS:
     - HISTORICAL
     - HUMAN
   story:
-    name: Dirt Hut Upgrade (Stone)
+    name: 土屋升級 (石頭)
     type: HUMAN
     lore:
-      - Enough to make near-any house a home,
-      - bricks are the staple to a modern comfort.
+      - 磚足夠使任何的家變得更像是家,
+      - 並讓磚變得更加的現代與舒適.
     shards:
       - 0
       - 1
@@ -18832,7 +18832,7 @@ STONE_BRICK_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: 半品脫 (Stone Brick)
+    name: 半品脫 (石磚)
     type: HUMAN
     lore:
       - 這小傢伙只有一半大,
@@ -18854,7 +18854,7 @@ STONE_BRICK_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: 崛起 (Stone Brick)
+    name: 崛起 (石磚)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
@@ -18876,7 +18876,7 @@ STONE_BRICK_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: 打倒牆壁 (Stone Brick)
+    name: 打倒牆壁 (石磚)
     type: HISTORICAL
     lore:
       - 保護多年的工作,
@@ -18897,7 +18897,7 @@ STONE_BUTTON:
     - HUMAN
     - MECHANICAL
   story:
-    name: 鬱悶 (Stone)
+    name: 鬱悶 (石頭)
     type: HUMAN
     lore:
       - 容易受到鬱悶
@@ -18917,7 +18917,7 @@ STONE_HOE:
     - HUMAN
     - MECHANICAL
   story:
-    name: Till until (Stone)
+    name: Till until (石頭)
     type: MECHANICAL
     lore:
       - Other farmers may have moved to more mechanical
@@ -18939,7 +18939,7 @@ STONE_PICKAXE:
     - HUMAN
     - ELEMENTAL
   story:
-    name: P-p-p-pick up a pickaxe (Stone)
+    name: P-p-p-pick up a pickaxe (石頭)
     type: CELESTIAL
     lore:
       - Arguably the most important tool to any
@@ -18962,7 +18962,7 @@ STONE_PRESSURE_PLATE:
     - VOID
     - ELEMENTAL
   story:
-    name: 在壓力之下 (Stone)
+    name: 在壓力之下 (石頭)
     type: VOID
     lore:
       - 到處行走會下降任何
@@ -18983,7 +18983,7 @@ STONE_SHOVEL:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Can you dig it? (Stone)
+    name: Can you dig it? (石頭)
     type: ELEMENTAL
     lore:
       - The invention of the shovel was a pivotal
@@ -19005,7 +19005,7 @@ STONE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: 半品脫 (Stone)
+    name: 半品脫 (石頭)
     type: HUMAN
     lore:
       - 這小傢伙只有一半大,
@@ -19027,7 +19027,7 @@ STONE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: 崛起 (Stone)
+    name: 崛起 (石頭)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
@@ -19049,7 +19049,7 @@ STONE_SWORD:
     - HUMAN
     - VOID
   story:
-    name: Time to Strike (Stone)
+    name: Time to Strike (石頭)
     type: VOID
     lore:
       - Finally armed, the wielder can choose
@@ -19840,12 +19840,12 @@ TUBE_CORAL:
     - HISTORICAL
     - CELESTIAL
   story:
-    name: Biodiverse (Tube)
+    name: 生物多樣性 (管珊瑚)
     type: HISTORICAL
     lore:
-      - Providing a home for a wide variety
-      - of warm-sea creatures gives purpose and
-      - sight to an otherwise bromidic spirit.
+      - 為各種溫暖海洋生物提供一個家,
+      - 使原本不活潑的精神
+      - 有了目標與視野.
     shards:
       - 0
       - 0
@@ -19862,12 +19862,12 @@ TUBE_CORAL_BLOCK:
     - PHILOSOPHICAL
     - CELESTIAL
   story:
-    name: Be'reef't (Tube)
+    name: 失去 (管珊瑚)
     type: PHILOSOPHICAL
     lore:
-      - Ripped from it's habitat and moulded into
-      - an unnatural form for human purposes.
-      - This is a spirit ripped asunder.
+      - 從它的棲息地被剝離出來並塑造
+      - 成一種非自然的形式給人類使用.
+      - 這是一種被撕裂的精神.
     shards:
       - 0
       - 0
@@ -19884,12 +19884,12 @@ TUBE_CORAL_FAN:
     - HISTORICAL
     - CELESTIAL
   story:
-    name: Biodiverse (Tube Fan)
+    name: 生物多樣性 (扇狀管珊瑚)
     type: HISTORICAL
     lore:
-      - Providing a home for a wide variety
-      - of warm-sea creatures gives purpose and
-      - sight to an otherwise bromidic spirit.
+      - 為各種溫暖海洋生物提供一個家,
+      - 使原本不活潑的精神
+      - 有了目標與視野.
     shards:
       - 0
       - 0
@@ -20105,12 +20105,12 @@ WARPED_FUNGUS:
     - ANIMAL
     - VOID
   story:
-    name: Fungal Frugality (紅)
+    name: 真菌節儉 (紅)
     type: ANIMAL
     lore:
-      - While slow, it's strength lies in it's
-      - simplicity and ability to thrive almost
-      - anywhere.
+      - 雖然成長很慢, 但它的優勢就是
+      - 它的簡單性和幾乎能在任何
+      - 地方茁壯成長的能力.
     shards:
       - 0
       - 0
