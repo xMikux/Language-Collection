@@ -3412,12 +3412,12 @@ CHORUS_FRUIT:
   elements:
     - VOID
   story:
-    name: Transmit
+    name: 傳達
     type: VOID
     lore:
-      - The latent magics of this fruit are in
-      - a state of constant flux, quantumly connected
-      - to various nearby points in space-時間推移而迴盪.
+      - 這種水果潛在魔力處於
+      - 不斷的變化狀態, 量子連接
+      - 到附近個個的時空點之間.
     shards:
       - 0
       - 0
@@ -11824,12 +11824,12 @@ LOOM:
   elements:
     - HUMAN
   story:
-    name: Dream Decor
+    name: 夢幻裝飾
     type: HUMAN
     lore:
-      - Every thread and weave is imparted with
-      - the creativity of the creator and the
-      - magics present at the 時間推移而迴盪.
+      - 每條線與織品被
+      - 賦予了製作者的創造力和
+      - 當時存在的魔法.
     shards:
       - 0
       - 0
