@@ -11,8 +11,6 @@ SUCCESSFULLY_AUTHENTICATED: '&a你已通過身分驗證'
 INCORRECT_CODE: '&c錯誤的代碼, 請在嘗試一次'
 AUTHENTICATED_AUTOMATICALLY: '&a你已自動通過身分驗證'
 ALREADY_IN_SETUP_MODE: '&c你已經處於2FA的設置模式!'
-NOT_IN_SETUP_MODE: '&c你未處於2FA的設置模式!'
-CANCELED_SETUP: '&c取消2FA設置!'
 ALREADY_SETUP: '&c你已經設置好2FA了'
 RESET_2FA: '&a你的2FA已被重置'
 NOT_SETUP: '&c你沒有設置2FA'
@@ -28,16 +26,23 @@ CLICK_TO_OPEN_QR: '&e點此打開QR碼'
 RESET_FOR: '&a%name% 的2FA已被重置'
 PLAYER_NOT_FOUND: '&c%name% 未找到'
 PLAYER_NOT_SETUP: '&c%name% 並未設置2FA'
-RELOADED_CONFIG: '&a設定已重新加載'
+RELOADED_CONFIG: '&aConfig was reloaded. &6Reloaded by: %player_gamemode%!'
 FAILED_AUTHENTICATION_ALERT: '&c%name% 已驗證失敗 %times% 次'
 SOMETHING_WENT_WRONG: '&c出了一些問題. 請聯繫工作人員!'
 HELP_HEADER: '&7----- &b2FA &7-----'
-HELP_COMMAND: '&7? &b%command% &e%aliases%&7: %description%'
+HELP_COMMAND: '&7• &b%command% &e%aliases%&7: %description%'
 HELP_FOOTER: '&7----- -------- -----'
 DESCRIPTION_OF_DISABLE_COMMAND: 停用2FA
 DESCRIPTION_OF_DISABLE_OTHERS_COMMAND: 停用其他使用者的2FA
 DESCRIPTION_OF_ENABLE_COMMAND: 啟用2FA
-DESCRIPTION_OF_CANCEL_COMMAND: 取消2FA的設置
 DESCRIPTION_OF_HELP_COMMAND: 顯示2FA的插件幫助選單
 DESCRIPTION_OF_RELOAD_COMMAND: 重新加載設定
 DESCRIPTION_OF_PRINT_INFO_COMMAND: 顯示有關於此插件的有用資訊
+NOT_IN_SETUP_MODE: '&c你未處於2FA的設置模式!'
+CANCELED_SETUP: '&c取消2FA設置!'
+DESCRIPTION_OF_CANCEL_COMMAND: 取消2FA的設置
+NULL_KEY: '&cAn error has occurred while generating your key, please contact an administrator.'
+KEYWORD_ENABLED: Enabled
+KEYWORD_DISABLED: Disabled
+KEYWORD_REQUIRED: Required
+KEYWORD_NOT_REQUIRED: Not Required
