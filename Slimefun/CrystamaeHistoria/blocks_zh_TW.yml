@@ -2806,12 +2806,12 @@ CACTUS:
     - ELEMENTAL
     - VOID
   story:
-    name: Getting to the point
+    name: 切入正題
     type: VOID
     lore:
-      - While drawn to the pain of others, the
-      - cactus knows harm is, at the core, a bad
-      - thing so does as little as possible.
+      - 雖然被它人的痛苦所吸引,
+      - 但仙人掌知道傷害本質是
+      - 一件壞事, 所以它盡可能的少做.
     shards:
       - 1
       - 0
@@ -2827,10 +2827,10 @@ CAKE:
   elements:
     - CELESTIAL
   story:
-    name: Piece of...
+    name: 一小塊...
     type: CELESTIAL
     lore:
-      - Wait, is it his birthday already?
+      - 等等, 已經是它的生日了?
     shards:
       - 0
       - 0
@@ -2847,12 +2847,12 @@ CALCITE:
     - ELEMENTAL
     - ALCHEMICAL
   story:
-    name: Boredom
+    name: 厭倦
     type: ALCHEMICAL
     lore:
-      - Imagine having literally no uses other than
-      - to be put back down. It's a wonder Calcite
-      - has any Crysta at all.
+      - 想像一下, 除了被放回去之外,
+      - 實際上也沒有其他用途.
+      - 方解石真是個水晶奇蹟.
     shards:
       - 1
       - 0
@@ -2869,12 +2869,12 @@ CAMPFIRE:
     - ELEMENTAL
     - HUMAN
   story:
-    name: A Leap Forward
+    name: 向前飛越
     type: ELEMENTAL
     lore:
-      - The discovery of fire is the pivotal
-      - event that led to sentience and with
-      - sentience came the spirits behind magic
+      - 火的發現導致有
+      - 感知的關鍵事件, 隨之而來的是
+      - 魔法背後的精神
     shards:
       - 2
       - 0
@@ -2935,11 +2935,11 @@ CARROT_ON_A_STICK:
   elements:
     - ANIMAL
   story:
-    name: A Great Incentive (Carrot)
+    name: 巨大的鼓勵 (胡蘿蔔)
     type: ANIMAL
     lore:
-      - Slowly draws magical power from the creatures
-      - that this item attracts.
+      - 慢慢從這個物品所
+      - 吸引的生物上吸取魔力.
     shards:
       - 0
       - 0
@@ -2956,12 +2956,12 @@ CARTOGRAPHY_TABLE:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Drawn Exploration
+    name: 繪製的探索
     type: PHILOSOPHICAL
     lore:
-      - Dreaming of seeing the far corners of the
-      - worlds, this block has to sit and live
-      - through the achievements of others.
+      - 夢想看到世界遙遠的角落,
+      - 這個方塊不得不坐下來,
+      - 通過別人的成就來達成.
     shards:
       - 0
       - 0
@@ -2978,13 +2978,13 @@ CARVED_PUMPKIN:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: A Magical Life
+    name: 魔法般的生活
     type: ANIMAL
     lore:
-      - It's still unknown how or why this block
-      - is able to create life. Scholars know magic
-      - is involved but no one has been able to see
-      - at which point it intervenes.
+      - 目前還不清楚位甚麼這個方塊
+      - 如何或為甚麼能夠創造生命.
+      - 學者們都知道其中涉及魔法,
+      - 但沒有人能看到它是甚麼時候干預的.
     shards:
       - 1
       - 0
@@ -3002,12 +3002,12 @@ CAULDRON:
     - HUMAN
     - ALCHEMICAL
   story:
-    name: A Magical Start
+    name: 魔法的開端
     type: ALCHEMICAL
     lore:
-      - Often seen as the beginning for most magical
-      - professions. The cauldron is imbued with
-      - more magic than most other objects.
+      - 通常被視為大多數魔法職業的開始.
+      - 鍋釜被賦予了比大多數其他物品
+      - 更多的魔法力量.
     shards:
       - 1
       - 0
@@ -3024,11 +3024,11 @@ CHAIN:
     - ELEMENTAL
     - VOID
   story:
-    name: Shackled
+    name: 枷鎖
     type: VOID
     lore:
-      - A history of enchained prisoners has made
-      - the essence of this item sullied and void.
+      - 一段束縛住囚犯的歷史,
+      - 已經使這個物品的本質被玷汙和虛無.
     shards:
       - 1
       - 1
@@ -3045,12 +3045,12 @@ CHAINMAIL_BOOTS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Greave Greif (Chain)
+    name: 格雷夫 - 格瑞夫 (鎖鏈)
     type: PHILOSOPHICAL
     lore:
-      - Like all armour, boots want nothing more
-      - than to keep their wearer safe. Unfortunately
-      - they are overshadowed by other gear.
+      - 像所有盔甲一樣, 靴子只想
+      - 保證穿戴者的安全. 但不幸的是,
+      - 它們被其他裝備所掩蓋.
     shards:
       - 0
       - 0
@@ -3067,12 +3067,12 @@ CHAINMAIL_CHESTPLATE:
     - HUMAN
     - CELESTIAL
   story:
-    name: The Great Defender (Chain)
+    name: 偉大的防禦者 (鎖鏈)
     type: HUMAN
     lore:
-      - Every hit, scrape and pummel stopped by the
-      - chestplate reinforces it's magics by giving
-      - it purpose and drive.
+      - 被胸甲擋住的每次擊打, 刮擦和
+      - 猛擊都通過賦予它目標與驅動力
+      - 來加強它的魔法.
     shards:
       - 0
       - 1
@@ -3089,12 +3089,12 @@ CHAINMAIL_HELMET:
     - HUMAN
     - VOID
   story:
-    name: Head above the rest (Chain)
+    name: 高於它人 (鎖鏈)
     type: VOID
     lore:
-      - A magicians most important tool is their own
-      - mind, any steps taken to protect that tool
-      - are vital and wise.
+      - 魔法師最重要的工具是他們的思想,
+      - 為了保護該工具而採取的任何措施
+      - 都是至關重要且明智的.
     shards:
       - 0
       - 0
@@ -3111,12 +3111,12 @@ CHAINMAIL_LEGGINGS:
     - HUMAN
     - CELESTIAL
   story:
-    name: Legless (Chain)
+    name: 無腿的 (鎖鏈)
     type: CELESTIAL
     lore:
-      - Like it's other armour brethren, leggings
-      - absorb Crysta from their users in miniscule
-      - amounts over their tenure.
+      - 就像是其他盔甲兄弟一樣,
+      - 護腿在使用期間從使用者上
+      - 吸收極少量的水晶能量.
     shards:
       - 0
       - 0
@@ -3133,12 +3133,12 @@ CHARCOAL:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: Burnt Out
+    name: 燒毀
     type: PHILOSOPHICAL
     lore:
-      - In the formation of charcoal, all the innate
-      - magic of a log is used up leaving only
-      - remnants.
+      - 在木炭的形成過程中, 原木所有
+      - 先天的魔力都將被消耗殆盡,
+      - 只剩下殘餘部分.
     shards:
       - 1
       - 0
@@ -3155,12 +3155,12 @@ CHEST:
     - HUMAN
     - MECHANICAL
   story:
-    name: Safe and Sound
+    name: 安然無恙
     type: MECHANICAL
     lore:
-      - While attempting to keep the held items
-      - safe, the chest loses drive for all other
-      - things.
+      - 在試圖保護所持有的
+      - 物品安全同時, 箱子失去了
+      - 對其他事物的驅動力.
     shards:
       - 0
       - 1
@@ -3177,11 +3177,11 @@ CHEST_MINECART:
     - HUMAN
     - MECHANICAL
   story:
-    name: Safe and Sound... and fun!
+    name: 安然無恙... 和開心!
     type: MECHANICAL
     lore:
-      - Previously having lost the drive, being on
-      - wheels has reignited the spirit of the chest.
+      - 以前失去的動力, 在輪子上
+      - 重新點燃了箱子的精神.
     shards:
       - 0
       - 2
@@ -3390,12 +3390,12 @@ CHORUS_FLOWER:
     - VOID
     - ANIMAL
   story:
-    name: Shifty...
+    name: 陰晴不定...
     type: VOID
     lore:
-      - Woven into the fabric of space and
-      - time by the Ancient Builders, these
-      - flowers seem... shifty...
+      - 這些花被古代建設者
+      - 編織到時空結構中,
+      - 這些花看起來... 陰晴不定...
     shards:
       - 0
       - 0
@@ -6348,7 +6348,7 @@ DIAMOND:
     - ELEMENTAL
     - MECHANICAL
   story:
-    name: Refined (Diamond)
+    name: Refined (鑽石)
     type: ELEMENTAL
     lore:
       - After having all the slag and dregs removed
@@ -6369,7 +6369,7 @@ DIAMOND_AXE:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Axe-cident waiting to happen! (Diamond)
+    name: Axe-cident waiting to happen! (鑽石)
     type: PHILOSOPHICAL
     lore:
       - Every person fears the day that they finally
@@ -6392,7 +6392,7 @@ DIAMOND_BLOCK:
     - MECHANICAL
     - CELESTIAL
   story:
-    name: Further Refinement (Diamond)
+    name: Further Refinement (鑽石)
     type: ELEMENTAL
     lore:
       - Refined all the way to it's block form, this
@@ -6413,12 +6413,12 @@ DIAMOND_BOOTS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Greave Greif (Diamond)
+    name: 格雷夫 - 格瑞夫 (鑽石)
     type: PHILOSOPHICAL
     lore:
-      - Like all armour, boots want nothing more
-      - than to keep their wearer safe. Unfortunately
-      - they are overshadowed by other gear.
+      - 像所有盔甲一樣, 靴子只想
+      - 保證穿戴者的安全. 但不幸的是,
+      - 它們被其他裝備所掩蓋.
     shards:
       - 0
       - 0
@@ -6435,12 +6435,12 @@ DIAMOND_CHESTPLATE:
     - HUMAN
     - CELESTIAL
   story:
-    name: The Great Defender (Diamond)
+    name: 偉大的防禦者 (鑽石)
     type: HUMAN
     lore:
-      - Every hit, scrape and pummel stopped by the
-      - chestplate reinforces it's magics by giving
-      - it purpose and drive.
+      - 被胸甲擋住的每次擊打, 刮擦和
+      - 猛擊都通過賦予它目標與驅動力
+      - 來加強它的魔法.
     shards:
       - 0
       - 1
@@ -6457,12 +6457,12 @@ DIAMOND_HELMET:
     - HUMAN
     - VOID
   story:
-    name: Head above the rest (Diamond)
+    name: 高於它人 (鑽石)
     type: VOID
     lore:
-      - A magicians most important tool is their own
-      - mind, any steps taken to protect that tool
-      - are vital and wise.
+      - 魔法師最重要的工具是他們的思想,
+      - 為了保護該工具而採取的任何措施
+      - 都是至關重要且明智的.
     shards:
       - 0
       - 0
@@ -6479,7 +6479,7 @@ DIAMOND_HOE:
     - HUMAN
     - MECHANICAL
   story:
-    name: Till until (Diamond)
+    name: Till until (鑽石)
     type: MECHANICAL
     lore:
       - Other farmers may have moved to more mechanical
@@ -6500,7 +6500,7 @@ DIAMOND_HORSE_ARMOR:
   elements:
     - ANIMAL
   story:
-    name: Tank (Diamond)
+    name: Tank (鑽石)
     type: ANIMAL
     lore:
       - It's not only you that needs protecting
@@ -6521,12 +6521,12 @@ DIAMOND_LEGGINGS:
     - HUMAN
     - CELESTIAL
   story:
-    name: Legless (Diamond)
+    name: 無腿的 (鑽石)
     type: CELESTIAL
     lore:
-      - Like it's other armour brethren, leggings
-      - absorb Crysta from their users in miniscule
-      - amounts over their tenure.
+      - 就像是其他盔甲兄弟一樣,
+      - 護腿在使用期間從使用者上
+      - 吸收極少量的水晶能量.
     shards:
       - 0
       - 0
@@ -6567,7 +6567,7 @@ DIAMOND_PICKAXE:
     - HUMAN
     - ELEMENTAL
   story:
-    name: P-p-p-pick up a pickaxe (Diamond)
+    name: P-p-p-pick up a pickaxe (鑽石)
     type: CELESTIAL
     lore:
       - Arguably the most important tool to any
@@ -6589,7 +6589,7 @@ DIAMOND_SHOVEL:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Can you dig it? (Diamond)
+    name: Can you dig it? (鑽石)
     type: ELEMENTAL
     lore:
       - The invention of the shovel was a pivotal
@@ -6611,7 +6611,7 @@ DIAMOND_SWORD:
     - HUMAN
     - VOID
   story:
-    name: Time to Strike (Diamond)
+    name: Time to Strike (鑽石)
     type: VOID
     lore:
       - Finally armed, the wielder can choose
@@ -8185,7 +8185,7 @@ GOLDEN_AXE:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Axe-cident waiting to happen! (Gold)
+    name: Axe-cident waiting to happen! (金)
     type: PHILOSOPHICAL
     lore:
       - Every person fears the day that they finally
@@ -8207,12 +8207,12 @@ GOLDEN_BOOTS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Greave Greif (Gold)
+    name: 格雷夫 - 格瑞夫 (金)
     type: PHILOSOPHICAL
     lore:
-      - Like all armour, boots want nothing more
-      - than to keep their wearer safe. Unfortunately
-      - they are overshadowed by other gear.
+      - 像所有盔甲一樣, 靴子只想
+      - 保證穿戴者的安全. 但不幸的是,
+      - 它們被其他裝備所掩蓋.
     shards:
       - 0
       - 0
@@ -8230,7 +8230,7 @@ GOLDEN_CARROT:
     - HUMAN
     - CELESTIAL
   story:
-    name: How on earth? (Carrot)
+    name: How on earth? (胡蘿蔔)
     type: HUMAN
     lore:
       - How do people even eat this? It's
@@ -8251,12 +8251,12 @@ GOLDEN_CHESTPLATE:
     - HUMAN
     - CELESTIAL
   story:
-    name: The Great Defender (Gold)
+    name: 偉大的防禦者 (金)
     type: HUMAN
     lore:
-      - Every hit, scrape and pummel stopped by the
-      - chestplate reinforces it's magics by giving
-      - it purpose and drive.
+      - 被胸甲擋住的每次擊打, 刮擦和
+      - 猛擊都通過賦予它目標與驅動力
+      - 來加強它的魔法.
     shards:
       - 0
       - 1
@@ -8273,12 +8273,12 @@ GOLDEN_HELMET:
     - HUMAN
     - VOID
   story:
-    name: Head above the rest (Gold)
+    name: 高於它人 (金)
     type: VOID
     lore:
-      - A magicians most important tool is their own
-      - mind, any steps taken to protect that tool
-      - are vital and wise.
+      - 魔法師最重要的工具是他們的思想,
+      - 為了保護該工具而採取的任何措施
+      - 都是至關重要且明智的.
     shards:
       - 0
       - 0
@@ -8295,7 +8295,7 @@ GOLDEN_HOE:
     - HUMAN
     - MECHANICAL
   story:
-    name: Till until (Gold)
+    name: Till until (金)
     type: MECHANICAL
     lore:
       - Other farmers may have moved to more mechanical
@@ -8316,7 +8316,7 @@ GOLDEN_HORSE_ARMOR:
   elements:
     - ANIMAL
   story:
-    name: Tank (Gold)
+    name: Tank (金)
     type: ANIMAL
     lore:
       - It's not only you that needs protecting
@@ -8337,12 +8337,12 @@ GOLDEN_LEGGINGS:
     - HUMAN
     - CELESTIAL
   story:
-    name: Legless (Gold)
+    name: 無腿的 (金)
     type: CELESTIAL
     lore:
-      - Like it's other armour brethren, leggings
-      - absorb Crysta from their users in miniscule
-      - amounts over their tenure.
+      - 就像是其他盔甲兄弟一樣,
+      - 護腿在使用期間從使用者上
+      - 吸收極少量的水晶能量.
     shards:
       - 0
       - 0
@@ -8359,7 +8359,7 @@ GOLDEN_PICKAXE:
     - HUMAN
     - ELEMENTAL
   story:
-    name: P-p-p-pick up a pickaxe (Gold)
+    name: P-p-p-pick up a pickaxe (金)
     type: CELESTIAL
     lore:
       - Arguably the most important tool to any
@@ -8381,7 +8381,7 @@ GOLDEN_SHOVEL:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Can you dig it? (Gold)
+    name: Can you dig it? (金)
     type: ELEMENTAL
     lore:
       - The invention of the shovel was a pivotal
@@ -8403,7 +8403,7 @@ GOLDEN_SWORD:
     - HUMAN
     - VOID
   story:
-    name: Time to Strike (Gold)
+    name: Time to Strike (金)
     type: VOID
     lore:
       - Finally armed, the wielder can choose
@@ -8448,7 +8448,7 @@ GOLD_INGOT:
     - MECHANICAL
     - PHILOSOPHICAL
   story:
-    name: Refined (Gold)
+    name: Refined (金)
     type: ELEMENTAL
     lore:
       - After having all the slag and dregs removed
@@ -8468,7 +8468,7 @@ GOLD_NUGGET:
   elements:
     - ELEMENTAL
   story:
-    name: Formation (Gold)
+    name: Formation (金)
     type: ELEMENTAL
     lore:
       - Like most elemental magics, the Crysta
@@ -8491,7 +8491,7 @@ GOLD_ORE:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: This Ore That (Gold)
+    name: This Ore That (金)
     type: ELEMENTAL
     lore:
       - As ore is formed within stone, it draws
@@ -9732,7 +9732,7 @@ IRON_AXE:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Axe-cident waiting to happen! (Iron)
+    name: Axe-cident waiting to happen! (鐵)
     type: PHILOSOPHICAL
     lore:
       - Every person fears the day that they finally
@@ -9799,12 +9799,12 @@ IRON_BOOTS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Greave Greif (Iron)
+    name: 格雷夫 - 格瑞夫 (鐵)
     type: PHILOSOPHICAL
     lore:
-      - Like all armour, boots want nothing more
-      - than to keep their wearer safe. Unfortunately
-      - they are overshadowed by other gear.
+      - 像所有盔甲一樣, 靴子只想
+      - 保證穿戴者的安全. 但不幸的是,
+      - 它們被其他裝備所掩蓋.
     shards:
       - 0
       - 0
@@ -9821,12 +9821,12 @@ IRON_CHESTPLATE:
     - HUMAN
     - CELESTIAL
   story:
-    name: The Great Defender (Iron)
+    name: 偉大的防禦者 (鐵)
     type: HUMAN
     lore:
-      - Every hit, scrape and pummel stopped by the
-      - chestplate reinforces it's magics by giving
-      - it purpose and drive.
+      - 被胸甲擋住的每次擊打, 刮擦和
+      - 猛擊都通過賦予它目標與驅動力
+      - 來加強它的魔法.
     shards:
       - 0
       - 1
@@ -9865,12 +9865,12 @@ IRON_HELMET:
     - HUMAN
     - VOID
   story:
-    name: Head above the rest (Iron)
+    name: 高於它人 (鐵)
     type: VOID
     lore:
-      - A magicians most important tool is their own
-      - mind, any steps taken to protect that tool
-      - are vital and wise.
+      - 魔法師最重要的工具是他們的思想,
+      - 為了保護該工具而採取的任何措施
+      - 都是至關重要且明智的.
     shards:
       - 0
       - 0
@@ -9887,7 +9887,7 @@ IRON_HOE:
     - HUMAN
     - MECHANICAL
   story:
-    name: Till until (Iron)
+    name: Till until (鐵)
     type: MECHANICAL
     lore:
       - Other farmers may have moved to more mechanical
@@ -9908,7 +9908,7 @@ IRON_HORSE_ARMOR:
   elements:
     - ANIMAL
   story:
-    name: Tank (Iron)
+    name: Tank (鐵)
     type: ANIMAL
     lore:
       - It's not only you that needs protecting
@@ -9950,12 +9950,12 @@ IRON_LEGGINGS:
     - HUMAN
     - CELESTIAL
   story:
-    name: Legless (Iron)
+    name: 無腿的 (鐵)
     type: CELESTIAL
     lore:
-      - Like it's other armour brethren, leggings
-      - absorb Crysta from their users in miniscule
-      - amounts over their tenure.
+      - 就像是其他盔甲兄弟一樣,
+      - 護腿在使用期間從使用者上
+      - 吸收極少量的水晶能量.
     shards:
       - 0
       - 0
@@ -9971,7 +9971,7 @@ IRON_NUGGET:
   elements:
     - ELEMENTAL
   story:
-    name: Formation (Iron)
+    name: Formation (鐵)
     type: ELEMENTAL
     lore:
       - Like most elemental magics, the Crysta
@@ -9994,7 +9994,7 @@ IRON_ORE:
     - ELEMENTAL
     - MECHANICAL
   story:
-    name: This Ore That (Iron)
+    name: This Ore That (鐵)
     type: ELEMENTAL
     lore:
       - As ore is formed within stone, it draws
@@ -10017,7 +10017,7 @@ IRON_PICKAXE:
     - HUMAN
     - ELEMENTAL
   story:
-    name: P-p-p-pick up a pickaxe (Iron)
+    name: P-p-p-pick up a pickaxe (鐵)
     type: CELESTIAL
     lore:
       - Arguably the most important tool to any
@@ -10039,7 +10039,7 @@ IRON_SHOVEL:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Can you dig it? (Iron)
+    name: Can you dig it? (鐵)
     type: ELEMENTAL
     lore:
       - The invention of the shovel was a pivotal
@@ -10061,7 +10061,7 @@ IRON_SWORD:
     - HUMAN
     - VOID
   story:
-    name: Time to Strike (Iron)
+    name: Time to Strike (鐵)
     type: VOID
     lore:
       - Finally armed, the wielder can choose
@@ -10705,7 +10705,7 @@ LEATHER:
   elements:
     - ANIMAL
   story:
-    name: Get Tanned (Leather)
+    name: Get Tanned (皮革)
     type: ANIMAL
     lore:
       - While an unfortunate practice, leather is
@@ -10726,12 +10726,12 @@ LEATHER_BOOTS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Greave Greif (Leather)
+    name: 格雷夫 - 格瑞夫 (皮革)
     type: PHILOSOPHICAL
     lore:
-      - Like all armour, boots want nothing more
-      - than to keep their wearer safe. Unfortunately
-      - they are overshadowed by other gear.
+      - 像所有盔甲一樣, 靴子只想
+      - 保證穿戴者的安全. 但不幸的是,
+      - 它們被其他裝備所掩蓋.
     shards:
       - 0
       - 0
@@ -10748,12 +10748,12 @@ LEATHER_CHESTPLATE:
     - HUMAN
     - CELESTIAL
   story:
-    name: The Great Defender (Leather)
+    name: 偉大的防禦者 (皮革)
     type: HUMAN
     lore:
-      - Every hit, scrape and pummel stopped by the
-      - chestplate reinforces it's magics by giving
-      - it purpose and drive.
+      - 被胸甲擋住的每次擊打, 刮擦和
+      - 猛擊都通過賦予它目標與驅動力
+      - 來加強它的魔法.
     shards:
       - 0
       - 1
@@ -10770,12 +10770,12 @@ LEATHER_HELMET:
     - HUMAN
     - VOID
   story:
-    name: Head above the rest (Leather)
+    name: 高於它人 (皮革)
     type: VOID
     lore:
-      - A magicians most important tool is their own
-      - mind, any steps taken to protect that tool
-      - are vital and wise.
+      - 魔法師最重要的工具是他們的思想,
+      - 為了保護該工具而採取的任何措施
+      - 都是至關重要且明智的.
     shards:
       - 0
       - 0
@@ -10791,7 +10791,7 @@ LEATHER_HORSE_ARMOR:
   elements:
     - ANIMAL
   story:
-    name: Tank (Leather)
+    name: Tank (皮革)
     type: ANIMAL
     lore:
       - It's not only you that needs protecting
@@ -10812,12 +10812,12 @@ LEATHER_LEGGINGS:
     - HUMAN
     - CELESTIAL
   story:
-    name: Legless (Leather)
+    name: 無腿的 (皮革)
     type: CELESTIAL
     lore:
-      - Like it's other armour brethren, leggings
-      - absorb Crysta from their users in miniscule
-      - amounts over their tenure.
+      - 就像是其他盔甲兄弟一樣,
+      - 護腿在使用期間從使用者上
+      - 吸收極少量的水晶能量.
     shards:
       - 0
       - 0
@@ -12978,7 +12978,7 @@ NETHERITE_AXE:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Axe-cident waiting to happen! (Netherite)
+    name: Axe-cident waiting to happen! (獄髓)
     type: PHILOSOPHICAL
     lore:
       - Every person fears the day that they finally
@@ -13023,12 +13023,12 @@ NETHERITE_BOOTS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Greave Greif (Netherite)
+    name: 格雷夫 - 格瑞夫 (獄髓)
     type: PHILOSOPHICAL
     lore:
-      - Like all armour, boots want nothing more
-      - than to keep their wearer safe. Unfortunately
-      - they are overshadowed by other gear.
+      - 像所有盔甲一樣, 靴子只想
+      - 保證穿戴者的安全. 但不幸的是,
+      - 它們被其他裝備所掩蓋.
     shards:
       - 0
       - 0
@@ -13045,12 +13045,12 @@ NETHERITE_CHESTPLATE:
     - HUMAN
     - CELESTIAL
   story:
-    name: The Great Defender (Netherite)
+    name: 偉大的防禦者 (獄髓)
     type: HUMAN
     lore:
-      - Every hit, scrape and pummel stopped by the
-      - chestplate reinforces it's magics by giving
-      - it purpose and drive.
+      - 被胸甲擋住的每次擊打, 刮擦和
+      - 猛擊都通過賦予它目標與驅動力
+      - 來加強它的魔法.
     shards:
       - 0
       - 1
@@ -13067,12 +13067,12 @@ NETHERITE_HELMET:
     - HUMAN
     - VOID
   story:
-    name: Head above the rest (Netherite)
+    name: 高於它人 (獄髓)
     type: VOID
     lore:
-      - A magicians most important tool is their own
-      - mind, any steps taken to protect that tool
-      - are vital and wise.
+      - 魔法師最重要的工具是他們的思想,
+      - 為了保護該工具而採取的任何措施
+      - 都是至關重要且明智的.
     shards:
       - 0
       - 0
@@ -13111,7 +13111,7 @@ NETHERITE_INGOT:
     - MECHANICAL
     - VOID
   story:
-    name: Refined (Netherite)
+    name: Refined (獄髓)
     type: ELEMENTAL
     lore:
       - After having all the slag and dregs removed
@@ -13132,12 +13132,12 @@ NETHERITE_LEGGINGS:
     - HUMAN
     - CELESTIAL
   story:
-    name: Legless (Netherite)
+    name: 無腿的 (獄髓)
     type: CELESTIAL
     lore:
-      - Like it's other armour brethren, leggings
-      - absorb Crysta from their users in miniscule
-      - amounts over their tenure.
+      - 就像是其他盔甲兄弟一樣,
+      - 護腿在使用期間從使用者上
+      - 吸收極少量的水晶能量.
     shards:
       - 0
       - 0
@@ -13154,7 +13154,7 @@ NETHERITE_PICKAXE:
     - HUMAN
     - ELEMENTAL
   story:
-    name: P-p-p-pick up a pickaxe (Netherite)
+    name: P-p-p-pick up a pickaxe (獄髓)
     type: CELESTIAL
     lore:
       - Arguably the most important tool to any
@@ -13198,7 +13198,7 @@ NETHERITE_SHOVEL:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Can you dig it? (Netherite)
+    name: Can you dig it? (獄髓)
     type: ELEMENTAL
     lore:
       - The invention of the shovel was a pivotal
@@ -13220,7 +13220,7 @@ NETHERITE_SWORD:
     - HUMAN
     - VOID
   story:
-    name: Time to Strike (Netherite)
+    name: Time to Strike (獄髓)
     type: VOID
     lore:
       - Finally armed, the wielder can choose
@@ -19948,12 +19948,12 @@ TURTLE_HELMET:
     - HUMAN
     - VOID
   story:
-    name: Head above the rest (Scute)
+    name: 高於它人 (鱗甲)
     type: VOID
     lore:
-      - A magicians most important tool is their own
-      - mind, any steps taken to protect that tool
-      - are vital and wise.
+      - 魔法師最重要的工具是他們的思想,
+      - 為了保護該工具而採取的任何措施
+      - 都是至關重要且明智的.
     shards:
       - 0
       - 0
@@ -20126,11 +20126,11 @@ WARPED_FUNGUS_ON_A_STICK:
   elements:
     - ANIMAL
   story:
-    name: A Great Incentive (Warped Fungus)
+    name: 巨大的鼓勵 (扭曲蕈菇)
     type: ANIMAL
     lore:
-      - Slowly draws magical power from the creatures
-      - that this item attracts.
+      - 慢慢從這個物品所
+      - 吸引的生物上吸取魔力.
     shards:
       - 0
       - 0
