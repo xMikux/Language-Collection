@@ -26,7 +26,7 @@ CLICK_TO_OPEN_QR: '&e點此打開QR碼'
 RESET_FOR: '&a%name% 的2FA已被重置'
 PLAYER_NOT_FOUND: '&c%name% 未找到'
 PLAYER_NOT_SETUP: '&c%name% 並未設置2FA'
-RELOADED_CONFIG: '&aConfig was reloaded. &6Reloaded by: %player_gamemode%!'
+RELOADED_CONFIG: '&a設定已重新加載. &6重新加載於: %player_gamemode%!'
 FAILED_AUTHENTICATION_ALERT: '&c%name% 已驗證失敗 %times% 次'
 SOMETHING_WENT_WRONG: '&c出了一些問題. 請聯繫工作人員!'
 HELP_HEADER: '&7----- &b2FA &7-----'
@@ -41,8 +41,8 @@ DESCRIPTION_OF_PRINT_INFO_COMMAND: 顯示有關於此插件的有用資訊
 NOT_IN_SETUP_MODE: '&c你未處於2FA的設置模式!'
 CANCELED_SETUP: '&c取消2FA設置!'
 DESCRIPTION_OF_CANCEL_COMMAND: 取消2FA的設置
-NULL_KEY: '&cAn error has occurred while generating your key, please contact an administrator.'
-KEYWORD_ENABLED: Enabled
-KEYWORD_DISABLED: Disabled
-KEYWORD_REQUIRED: Required
-KEYWORD_NOT_REQUIRED: Not Required
+NULL_KEY: '&c生成你的密鑰時出現錯誤, 請聯繫管理.'
+KEYWORD_ENABLED: 已啟用
+KEYWORD_DISABLED: 已停用
+KEYWORD_REQUIRED: 必須
+KEYWORD_NOT_REQUIRED: 不必須
