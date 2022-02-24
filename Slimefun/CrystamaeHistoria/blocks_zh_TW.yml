@@ -2607,13 +2607,13 @@ BROWN_MUSHROOM_BLOCK:
   elements:
     - ANIMAL
   story:
-    name: Gigantism (棕)
+    name: 巨大症 (棕)
     type: ANIMAL
     lore:
-      - Through an odd quirk of nature, a mushroom
-      - can have it's entire Crystamae deposit ignited
-      - within a single moment allowing something small
-      - to grow into something giant.
+      - 通過大自然的一個奇怪的怪癖,
+      - 蘑菇可以一瞬間點燃整個
+      - 水晶沉積物, 讓小東西成長成
+      - 巨大的東西.
     shards:
       - 0
       - 0
@@ -2785,11 +2785,11 @@ BUCKET:
     - HUMAN
     - VOID
   story:
-    name: Sturdy (空)
+    name: 堅固的 (空)
     type: HUMAN
     lore:
-      - Persistent, constant and driven to
-      - hold anything the user needs.
+      - 持續性, 恆定性與驅動力來
+      - 容納任何使用者需要的東西.
     shards:
       - 0
       - 1
@@ -3434,7 +3434,7 @@ CLAY:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Pliable (Block)
+    name: Pliable (方塊)
     type: HUMAN
     lore:
       - Eagerly waiting to be formed into something
@@ -3455,7 +3455,7 @@ CLAY_BALL:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Pliable (Ball)
+    name: Pliable (球)
     type: HUMAN
     lore:
       - Eagerly waiting to be formed into something
@@ -6890,7 +6890,7 @@ DRIPSTONE_BLOCK:
     - ELEMENTAL
     - VOID
   story:
-    name: Permeable (Block)
+    name: Permeable (方塊)
     type: ELEMENTAL
     lore:
       - The water that slowly filtrates through
@@ -9349,7 +9349,7 @@ HONEYCOMB_BLOCK:
   elements:
     - ANIMAL
   story:
-    name: Wax On! (Block)
+    name: Wax On! (方塊)
     type: ANIMAL
     lore:
       - This waxy substance is used to protect
@@ -10663,11 +10663,11 @@ LAVA_BUCKET:
     - HUMAN
     - VOID
   story:
-    name: Sturdy (Lava)
+    name: 堅固的 (岩漿)
     type: HUMAN
     lore:
-      - Persistent, constant and driven to
-      - hold anything the user needs.
+      - 持續性, 恆定性與驅動力來
+      - 容納任何使用者需要的東西.
     shards:
       - 1
       - 1
@@ -12112,7 +12112,7 @@ MAGMA_BLOCK:
     - ELEMENTAL
     - VOID
   story:
-    name: Hot Stuff (Block)
+    name: Hot Stuff (方塊)
     type: ELEMENTAL
     lore:
       - The burning passion of this item has
@@ -12265,11 +12265,11 @@ MILK_BUCKET:
     - VOID
     - ANIMAL
   story:
-    name: Sturdy (Milk)
+    name: 堅固的 (牛奶)
     type: HUMAN
     lore:
-      - Persistent, constant and driven to
-      - hold anything the user needs.
+      - 持續性, 恆定性與驅動力來
+      - 容納任何使用者需要的東西.
     shards:
       - 0
       - 1
@@ -12545,13 +12545,13 @@ MUSHROOM_STEM:
   elements:
     - ANIMAL
   story:
-    name: Gigantism (Stem)
+    name: 巨大症 (莖)
     type: ANIMAL
     lore:
-      - Through an odd quirk of nature, a mushroom
-      - can have it's entire Crystamae deposit ignited
-      - within a single moment allowing something small
-      - to grow into something giant.
+      - 通過大自然的一個奇怪的怪癖,
+      - 蘑菇可以一瞬間點燃整個
+      - 水晶沉積物, 讓小東西成長成
+      - 巨大的東西.
     shards:
       - 0
       - 0
@@ -13504,7 +13504,7 @@ NETHER_WART_BLOCK:
   elements:
     - ALCHEMICAL
   story:
-    name: Alchemical Conduit (Block)
+    name: Alchemical Conduit (方塊)
     type: ALCHEMICAL
     lore:
       - Magic as we know it needs Crystals to act
@@ -15452,11 +15452,11 @@ POWDER_SNOW_BUCKET:
     - VOID
     - CELESTIAL
   story:
-    name: Sturdy (Snow)
+    name: 堅固的 (雪)
     type: HUMAN
     lore:
-      - Persistent, constant and driven to
-      - hold anything the user needs.
+      - 持續性, 恆定性與驅動力來
+      - 容納任何使用者需要的東西.
     shards:
       - 0
       - 1
@@ -16834,13 +16834,13 @@ RED_MUSHROOM_BLOCK:
   elements:
     - ANIMAL
   story:
-    name: Gigantism (紅)
+    name: 巨大症 (紅)
     type: ANIMAL
     lore:
-      - Through an odd quirk of nature, a mushroom
-      - can have it's entire Crystamae deposit ignited
-      - within a single moment allowing something small
-      - to grow into something giant.
+      - 通過大自然的一個奇怪的怪癖,
+      - 蘑菇可以一瞬間點燃整個
+      - 水晶沉積物, 讓小東西成長成
+      - 巨大的東西.
     shards:
       - 0
       - 0
@@ -17816,11 +17816,11 @@ SMOOTH_BASALT:
     - ELEMENTAL
     - CELESTIAL
   story:
-    name: A Debonair Delight (玄武岩)
+    name: 一個有魅力的喜悅 (玄武岩)
     type: ELEMENTAL
     lore:
-      - It should be criminal to be this
-      - smooth!
+      - 這麼順利應該是
+      - 犯罪!
     shards:
       - 1
       - 0
@@ -17837,11 +17837,11 @@ SMOOTH_QUARTZ:
     - ELEMENTAL
     - CELESTIAL
   story:
-    name: A Debonair Delight (石英)
+    name: 一個有魅力的喜悅 (石英)
     type: ELEMENTAL
     lore:
-      - It should be criminal to be this
-      - smooth!
+      - 這麼順利應該是
+      - 犯罪!
     shards:
       - 1
       - 0
@@ -17859,7 +17859,7 @@ SMOOTH_QUARTZ_SLAB:
     - VOID
     - ALCHEMICAL
   story:
-    name: 切開之下 (Smooth Quartz)
+    name: 切開之下 (平滑石英)
     type: HUMAN
     lore:
       - 撕成兩半，與自己分開.
@@ -17881,7 +17881,7 @@ SMOOTH_QUARTZ_STAIRS:
     - PHILOSOPHICAL
     - ALCHEMICAL
   story:
-    name: 崛起 (Smooth Quartz)
+    name: 崛起 (平滑石英)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
@@ -17903,11 +17903,11 @@ SMOOTH_RED_SANDSTONE:
     - ELEMENTAL
     - CELESTIAL
   story:
-    name: A Debonair Delight (紅砂岩)
+    name: 一個有魅力的喜悅 (紅砂岩)
     type: ELEMENTAL
     lore:
-      - It should be criminal to be this
-      - smooth!
+      - 這麼順利應該是
+      - 犯罪!
     shards:
       - 1
       - 0
@@ -17924,7 +17924,7 @@ SMOOTH_RED_SANDSTONE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: 半品脫 (Smooth Red Sandstone)
+    name: 半品脫 (平滑紅砂岩)
     type: HUMAN
     lore:
       - 這小傢伙只有一半大,
@@ -17946,7 +17946,7 @@ SMOOTH_RED_SANDSTONE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: 崛起 (Smooth Red Sandstone)
+    name: 崛起 (平滑紅砂岩)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
@@ -17968,11 +17968,11 @@ SMOOTH_SANDSTONE:
     - ELEMENTAL
     - CELESTIAL
   story:
-    name: A Debonair Delight (砂岩)
+    name: 一個有魅力的喜悅 (砂岩)
     type: ELEMENTAL
     lore:
-      - It should be criminal to be this
-      - smooth!
+      - 這麼順利應該是
+      - 犯罪!
     shards:
       - 1
       - 0
@@ -17989,7 +17989,7 @@ SMOOTH_SANDSTONE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: 半品脫 (Smooth Sandstone)
+    name: 半品脫 (平滑砂岩)
     type: HUMAN
     lore:
       - 這小傢伙只有一半大,
@@ -18011,7 +18011,7 @@ SMOOTH_SANDSTONE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: 崛起 (Smooth Sandstone)
+    name: 崛起 (平滑砂岩)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
@@ -18033,11 +18033,11 @@ SMOOTH_STONE:
     - ELEMENTAL
     - CELESTIAL
   story:
-    name: A Debonair Delight (石頭)
+    name: 一個有魅力的喜悅 (石頭)
     type: ELEMENTAL
     lore:
-      - It should be criminal to be this
-      - smooth!
+      - 這麼順利應該是
+      - 犯罪!
     shards:
       - 1
       - 0
@@ -18054,7 +18054,7 @@ SMOOTH_STONE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: 半品脫 (Smooth Stone)
+    name: 半品脫 (平滑石頭)
     type: HUMAN
     lore:
       - 這小傢伙只有一半大,
@@ -18076,12 +18076,12 @@ SNOW:
     - ELEMENTAL
     - CELESTIAL
   story:
-    name: Crystallized (Layer)
+    name: 結晶的 (層)
     type: ELEMENTAL
     lore:
-      - Made from the Crystamae in the air,
-      - this wonderful material is only found
-      - in the coldest of locations
+      - 由空氣中的水晶製成,
+      - 這種奇妙的材料只能
+      - 在最冷的地方找到
     shards:
       - 1
       - 0
@@ -18099,12 +18099,12 @@ SNOWBALL:
     - ELEMENTAL
     - CELESTIAL
   story:
-    name: Crystallized (Ball)
+    name: 結晶的 (球)
     type: ELEMENTAL
     lore:
-      - Made from the Crystamae in the air,
-      - this wonderful material is only found
-      - in the coldest of locations
+      - 由空氣中的水晶製成,
+      - 這種奇妙的材料只能
+      - 在最冷的地方找到
     shards:
       - 1
       - 0
@@ -18122,12 +18122,12 @@ SNOW_BLOCK:
     - ELEMENTAL
     - CELESTIAL
   story:
-    name: Crystallized (Block)
+    name: 結晶的 (方塊)
     type: ELEMENTAL
     lore:
-      - Made from the Crystamae in the air,
-      - this wonderful material is only found
-      - in the coldest of locations
+      - 由空氣中的水晶製成,
+      - 這種奇妙的材料只能
+      - 在最冷的地方找到
     shards:
       - 1
       - 0
@@ -18145,11 +18145,11 @@ SOUL_CAMPFIRE:
     - ELEMENTAL
     - VOID
   story:
-    name: Burning Souls (Campfire)
+    name: 燃燒的靈魂 (營火)
     type: VOID
     lore:
-      - This campfire burns the Void Crysta
-      - from soul sand to produce light.
+      - 這個營火燃燒著虛空水晶
+      - 內的靈魂沙來產生光源.
     shards:
       - 1
       - 0
@@ -18166,11 +18166,11 @@ SOUL_LANTERN:
     - ELEMENTAL
     - VOID
   story:
-    name: Burning Souls (Lantern)
+    name: 燃燒的靈魂 (燈籠)
     type: VOID
     lore:
-      - This lantern burns the Void Crysta
-      - from soul sand to produce light.
+      - 這個燈籠燃燒著虛空水晶
+      - 內的靈魂沙來產生光源.
     shards:
       - 1
       - 0
@@ -18231,11 +18231,11 @@ SOUL_TORCH:
     - ELEMENTAL
     - VOID
   story:
-    name: Burning Souls (Torch)
+    name: 燃燒的靈魂 (火把)
     type: VOID
     lore:
-      - This torch burns the Void Crysta
-      - from soul sand to produce light.
+      - 這個火把燃燒著虛空水晶
+      - 內的靈魂沙來產生光源.
     shards:
       - 1
       - 0
@@ -20386,11 +20386,11 @@ WATER_BUCKET:
     - VOID
     - ELEMENTAL
   story:
-    name: Sturdy (Water)
+    name: 堅固的 (水)
     type: HUMAN
     lore:
-      - Persistent, constant and driven to
-      - hold anything the user needs.
+      - 持續性, 恆定性與驅動力來
+      - 容納任何使用者需要的東西.
     shards:
       - 1
       - 1
