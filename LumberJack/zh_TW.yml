@@ -1,0 +1,168 @@
+---
+#########################
+#####   LumberJack  #####
+#########################
+#LumberJack provides the /lumberjack command, that toggles
+#tree gravity per player. Players need the lumberjack.use permission.
+#When a player has the lumberjack.force permission, they cannot
+#disable tree gravity.
+#Aliases for /lumberjack:
+#- /treegravity
+#- /gravity
+#- /tg
+#Whether gravity is enabled by default for new players
+#Hint: To force players using gravity, give them
+#the lumberjack.force permission
+gravity-enabled-by-default: false
+#When enabled, tree gravity will only apply when the
+#player used an axe to break the log.
+must-use-axe: true
+#When "must-use-axe" is enabled, players have to use at least this
+#kind of axe for tree gravity. E.g. when set to DIAMOND, tree
+#gravity only works for diamond and netherite axes. When set to
+#WOOD, it works with all axes.
+requires-at-least: WOOD
+#When enabled, tree gravity will only work when the
+#player is sneaking
+must-sneak: false
+#When enabled, leaves will decay within the given duration
+fast-leaves-decay: false
+#The amount of seconds it takes at most to have leaves decay.
+fast-leaves-decay-duration: 10
+#Only adjust this when you experience lag using custom world
+#generators
+max-decay-tasks: 1000
+#When true, only naturally generated (world generation or via sapling) trees will have gravity
+#When false, logs placed by players will also have gravity
+only-natural-logs: true
+#Whether logs attached at the side or diagonally of the tree trunk
+#should also fall down
+attached-logs-fall-down: true
+#Prevents the placement of torches or other blocks
+#inside or under falling logs.
+#Also prevents the logs from starting to fall down
+#when the first block below the log (except air)
+#is not solid.
+prevent-torch-exploit: true
+#Maximum number of air blocks that can be inside the tree trunk
+#If more than the specificied number of air blocks are present inside the trunk,
+#it will not be counted as a tree
+max-air-in-trunk: 1
+#Prevents falling logs from dropping into items if the
+#player somehow manages to bypass the torch exploit
+#prevention.
+prevent-torch-exploit-aggressive: false
+#when set to true, players with gravity DISABLED will be
+#shown a message on how to enable tree gravity
+#when they break a log for the first time.
+#consider setting this to true when you disable gravity by default.
+#see also -> message-when-breaking-log
+show-message-when-breaking-log: true
+#when set to true, players with gravity ENABLED will be
+#shown a message on how to disable tree gravity
+#when they break a log for the first time.
+#consider setting this to true when you enable gravity by default.
+#see also -> message-when-breaking-log2
+show-message-when-breaking-log-and-gravity-is-enabled: false
+#when set to true, the messages are shown again when a player
+#logs out and back in and then breaks a log again.
+show-message-again-after-logout: true
+#when set to true, player settings will be stored inside the Player's PDC.
+#when set to false, player settings will be stored in per-player yaml files.
+use-pdc: true
+##########################
+##### Update Checker #####
+##########################
+#Checks for updates (asynchronously).
+#When enabled, a message is printed in the console if a new
+#version has been found, and OPs will be notified when they join the server
+#When set to true, check for updates on startup and every X hours (see "check-interval" below)
+#When set to on-startup, only check on server startup
+#When set to false, don't check for updates
+check-for-updates: true
+#When you set "check-for-updates" to true, you can define the amount
+#of hours inbetween each update check.
+check-interval: 4
+#########################
+#### disabled worlds ####
+#########################
+#You can disable LumberJack for certain worlds. Each world's name has to
+#be on a separate line, starting with a hyphen and followed by a space
+#Example:
+#disabled-worlds:
+#- world_nether
+#- world_the_end
+disabled-worlds:
+#########################
+##### localization ######
+#########################
+#Available color codes:
+#&0 Black        &6 Gold       &c Red
+#&1 Dark Blue    &7 Gray       &d Light Purple
+#&2 Dark Green   &8 Dark Gray  &e Yellow
+#&3 Dark Aqua    &9 Blue       &f White
+#&4 Dark Red     &a Green
+#&5 Dark Purple  &b Aqua
+#Available formatting codes:
+#&k Obfuscated   &m Strikethrough
+#&l Bold         &o Italic
+#&n Underline    &r Reset
+##### English
+message-gravity-enabled: "&7Tree gravity has been &aenabled&7."
+message-gravity-disabled: "&7Tree gravity has been &cdisabled&7."
+message-when-breaking-log: "&7Hint: Type &6/lumberjack&7 to enable tree gravity."
+message-when-breaking-log2: "&7Hint: Type &6/lumberjack&7 to disable tree gravity."
+message-can-not-disable: "&cYou are not allowed to disable tree gravity."
+##### Dutch
+#message-gravity-enabled: "&7Boom zwaartekracht is &aingeschakeld&7."
+#message-gravity-disabled: "&7Boom zwaartekracht is &cuitgeschakeld&7."
+#message-when-breaking-log: "&7Hint: Type &6/lumberjack&7 om boom zwaartekracht in te schakelen."
+#message-when-breaking-log2: "&7Hint: Type &6/lumberjack&7 om boom zwaartekracht uit te schakelen."
+#message-can-not-disable: "&cJe bent niet toegestaan om boom zwaartekracht uit te schakelen."
+##### French
+#message-gravity-enabled: "&7La gravité d'arbre a été &aactivée&7."
+#message-gravity-disabled: "&7La gravité d'arbre a été &cdésactivée&7."
+#message-when-breaking-log: "&7Astuce: écris &6/lumberjack&7 pour activer la gravité d'arbre."
+#message-when-breaking-log2: "&7Astuce: écris &6/lumberjack&7 pour désactiver la gravité d'arbre."
+#message-can-not-disable: "&cVous n'avez pas la permission de désactiver la gravité d'arbre."
+##### Hungarian
+#message-gravity-enabled: "&7A fa gravitációja &aengedélyezve&7 lett."
+#message-gravity-disabled: "&7A fa gravitációja le lett &ctiltva&7."
+#message-when-breaking-log: "&7Tipp: Írd be a &6/lumberjack&7 parancsot, hogy engedélyezd a fa gravitációját."
+#message-when-breaking-log2: "&7Tipp: Írd be a &6/lumberjack&7 parancsot, hogy letiltsd a fa gravitációját."
+#message-can-not-disable: "&cNeked nem engedélyezett, hogy letiltsd a fa gravitációját."
+##### Russian
+#message-gravity-enabled: "&7Гравитация для деревьев &aвключена&7."
+#message-gravity-disabled: "&7Гравитация для деревьев &cотключена&7."
+#message-when-breaking-log: "&7Подсказка: Введите &6/lumberjack&7, чтобы включить гравитацию для деревьев."
+#message-when-breaking-log2: "&7Подсказка: Введите &6/lumberjack&7, чтобы отключить гравитацию для деревьев."
+#message-can-not-disable: "&cВы не можете отключить гравитацию для деревьев."
+##### Polish
+#message-gravity-enabled: "&7Grawitacja drzew została &awłączona&7."
+#message-gravity-disabled: "&7Grawitacja drzew została &cwyłączona&7."
+#message-when-breaking-log: "&7Podpowiedź: Wpisz &6/lumberjack&7 aby włączyć grawitację drzew."
+#message-when-breaking-log2: "&7Podpowiedź: Wpisz &6/lumberjack&7 aby wyłączyć grawitację drzew."
+#message-can-not-disable: "&cNie możesz wyłączyć grawitacji drzew."
+##### Spanish
+#message-gravity-enabled: "&7La gravedad de arboles ha sido &ahabilitada&7."
+#message-gravity-disabled: "&7La gravedad de arboles ha sido &cdeshabilitada&7."
+#message-when-breaking-log: "&7Lumberjack: Utiliza &6/lumberjack&7 para habilitar la gravedad de arboles."
+#message-when-breaking-log2: "&7Lumberjack: Utiliza &6/lumberjack&7 para deshabilitar la gravedad de arboles."
+#message-can-not-disable: "&cNo tienes permitido deshabilitar la gravedad de arboles."
+##### Swedish
+#message-gravity-enabled: "&7Trädgravitation har &aaktiverats&7."
+#message-gravity-disabled: "&7Trädgravitationen har &cinaktiverats&7."
+#message-when-breaking-log: "&7Tips: Skriv &6/lumberjack&7 för att aktivera trädgravitation."
+#message-when-breaking-log2: "&7Tips: Skriv &6/lumberjack&7 för att inaktivera trädgravitationen."
+#message-can-not-disable: "&cDu får inte inaktivera trädgravitationen."
+##### Turkish
+#message-gravity-enabled: "&7Ağaç yerçekimi &aaktifleştirildi&7."
+#message-gravity-disabled: "&7Ağaç yerçekimi &cdeaktifleştirildi&7."
+#message-when-breaking-log: "&7İpucu: Ağaç yerçekimini aktifleştirmek için &6/lumberjack&7 yazınız."
+#message-when-breaking-log2: "&7İpucu: Ağaç yerçekimini deaktifleştirmek için &6/lumberjack&7 yazınız."
+#message-can-not-disable: "&cAğaç yerçekimini deaktifleştirmek için yetkiniz yok."
+#########################
+#####     Done!     #####
+#########################
+#please do not change the following line manually!
+config-version: 14
