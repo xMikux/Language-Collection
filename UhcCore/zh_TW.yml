@@ -59,49 +59,49 @@ command:
 team:
   inventory:
     main: '&2Team Menu'
-    teams-list: '&2Teams List'
-    team-view: '&2Viewing Team'
-    settings: '&2Team Settings'
-    rename: '&2Rename Team'
-    invites: '&2Team Invites'
-    reply-invite: '&2Reply To Invite'
-    invite-player: '&2Invite a Player'
-    color: '&2Select a team color'
+    teams-list: '&2團隊列表'
+    team-view: '&2檢視團隊'
+    settings: '&2隊伍設定'
+    rename: '&2重新命名隊伍'
+    invites: '&2團隊邀請'
+    reply-invite: '&2回覆邀請'
+    invite-player: '&2邀請一個玩家'
+    color: '&2選擇隊伍顏色'
   item:
-    leave: '&cLeave your team'
-    settings: '&aChange Team Settings'
-    rename: '&aRename Team'
-    invite: '&aInvite a Player'
-    invite-search: '&aSearch player to invite'
-    invites: '&aView Invites'
-    invite-accept: '&aAccept'
-    invite-deny: '&cDeny'
-    ready-toggle: '&7Click to change'
-    color: '&aSelect Team Color'
-    ready: '&aReady'
-    not-ready: '&cNot Ready'
+    leave: '&c離開你的隊伍'
+    settings: '&a改變隊伍設定'
+    rename: '&a重新命名隊伍'
+    invite: '&a邀請一個玩家'
+    invite-search: '&a透過搜尋邀請玩家'
+    invites: '&a查看邀請'
+    invite-accept: '&a接受'
+    invite-deny: '&c拒絕'
+    ready-toggle: '&7點擊更改'
+    color: '&a選擇隊伍顏色'
+    ready: '&a準備'
+    not-ready: '&c尚未準備'
   message:
-    player-not-online: '&c%player% isn''t online.'
-    now-ready: '&6Your team is now ready!'
-    now-not-ready: '&6Your team is now NOT ready!'
-    not-leader: '&cYou are not the leader of that team'
-    join-as-player: '&aYou have joined %leader%''s team'
-    player-joins: '&a%player% has joined the team'
-    leave-as-leader: '&aYou have left your team, %newleader% will be the new leader'
-    leave-as-player: '&aYou have left the team'
-    player-leaves: '&a%player% has left the team'
-    leader-leaves: '&aTeam leader %leader% has left the team, %newleader% is the new leader'
-    cant-leave: '&cYou can''t leave your team, you are alone.'
-    deny-request: '&cRequest denied.'
-    no-longer-exists: '&cThat team no longer exists.'
-    invite-already-sent: '&cYou have already sent a invite to that player'
-    invite-receive: '&aYou got invited to team %name%, you can respond to the invite in the team menu.'
-    invite-receive-hover: '&aClick to reply'
-    already-in-team: '&cThat player is already in the team.'
-    player-already-in-team: '&c%player% is already in a team'
-    full: '&c%player% cannot join %leader%''s team because the team is full (%limit% players)'
-    color-already-selected: '&cYou already selected this color.'
-    color-unavailable: '&cThis color is no longer available.'
+    player-not-online: '&c%player%不在線上'
+    now-ready: '&6你的隊伍已準備完成'
+    now-not-ready: '&6你的隊伍尚未準備完成'
+    not-leader: '&c你不是隊長'
+    join-as-player: '&a你已加入%leader%的隊伍'
+    player-joins: '&a%player%已經加入隊伍'
+    leave-as-leader: '&a你已離開你的隊伍,%newleader%將會成為新隊長'
+    leave-as-player: '&a你已離開隊伍'
+    player-leaves: '&a%player%已離開隊伍'
+    leader-leaves: '&a隊長%leader%已離開隊伍，%newleader%是新的隊長'
+    cant-leave: '&c你只有一個人, 你不能離開隊伍'
+    deny-request: '&c請求已被拒絕'
+    no-longer-exists: '&c隊伍已經不存在'
+    invite-already-sent: '&c你已傳送過邀請給這個玩家'
+    invite-receive: '&a你被邀請至%name%, 你可以用隊伍選單回覆邀請'
+    invite-receive-hover: '&a點擊回覆'
+    already-in-team: '&c該玩家已經加入了隊伍'
+    player-already-in-team: '&c%player%已經加入了其他隊伍'
+    full: '&c%player%無法加入%leader%的隊伍因為隊伍已滿(%limit%人)'
+    color-already-selected: '&c你已經選了這個顏色'
+    color-unavailable: '&c此顏色已無法選擇'
     color-changed: '&aYour team color was successfully changed.'
     name-changed: '&aYour team name was successfully changed.'
     name-changed-error: '&cThat team name is not allowed!'
@@ -216,7 +216,7 @@ scenarios:
     removed: '&4[Best PvE] &cYou are now removed from the PvE list. Getting a kill will add you back to the list.'
     back: '&4[Best PvE] &aYou are added back to the PvE list.'
   triple_ores:
-    name: Triple Ores
+    name: 三重礦物
     description:
       - Ores drop in threes.
   double_ores:
@@ -297,7 +297,7 @@ scenarios:
   fast_smelting:
     name: Fast Smelting
     description:
-      - In this scenario item smelting is sped up 5 times.
+      - 此模式下，熔煉的速度快五倍
   superheroes:
     name: Superheroes
     description:
@@ -312,7 +312,7 @@ scenarios:
     description:
       - At the beginning of the game everyone gets a lure 3 luck of the sea 3 rod.
   infinite_enchants:
-    name: Infinite Enchants
+    name: 無限附魔
     description:
       - At the beginning of the game everyone gets 64 enchantment tables, anvils, lapis blocks and a lot of XP.
   children_left_unattended:
@@ -354,7 +354,7 @@ scenarios:
     description:
       - Players spawn with a elytra.
   randomized_drops:
-    name: Randomized Drops
+    name: 隨機掉落物
     description:
       - Every block broken will drop random items.
   upside_down_crafting:
@@ -362,18 +362,18 @@ scenarios:
     description:
       - This scenario flips all crafts upside down.
   randomized_crafts:
-    name: Randomized Crafts
+    name: 隨機合成
     description:
       - This scenario randomizes the results of all crafts.
   monsters_inc:
-    name: Monsters Inc.
+    name: 怪獸公司
     description:
       - In this scenario all doors are linked as portals.
     error: '&4[Monsters Inc.] &cStop that!'
   achievement_hunter:
-    name: Achievement Hunter
+    name: 成就獵人
     description:
-      - Players start with 5 hearts.
+      - 玩家一開始有五顆心的生命值
       - For every achievement players get a half heart of health.
   nine_slots:
     name: Nine Slots
