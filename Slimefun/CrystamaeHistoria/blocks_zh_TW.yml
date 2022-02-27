@@ -4016,11 +4016,11 @@ COOKED_PORKCHOP:
     - ANIMAL
     - HUMAN
   story:
-    name: Protein (Pork)
+    name: 蛋白質(豬肉)
     type: ANIMAL
     lore:
-      - A core staple to any minecraft diet.
-      - Finds happiness in providing sustenance
+      - Minecraft中的主食,
+      - 你能夠在食物中得到幸福
     shards:
       - 0
       - 0
@@ -4078,10 +4078,10 @@ COOKIE:
   elements:
     - HISTORICAL
   story:
-    name: The Beginning
+    name: 開端
     type: HISTORICAL
     lore:
-      - It all began with a Cookie.
+      - 一切都從剛出爐的餅乾開始
     shards:
       - 0
       - 0
@@ -8622,11 +8622,11 @@ GRASS_BLOCK:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: 連鎖的起點
+    name: 循環的開始
     type: ANIMAL
     lore:
-      - 食物鏈的起點, 草地為這個世界帶來了更豐富的生命
-      - 草地為這世界帶來了生命
+      - 食物鏈的起點,
+      - 草地為這個世界帶來了更豐富的生命
     shards:
       - 1
       - 0
