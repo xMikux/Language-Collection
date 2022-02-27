@@ -8625,7 +8625,7 @@ GRASS_BLOCK:
     name: 連鎖的起點
     type: ANIMAL
     lore:
-      - 食物網的起點
+      - 食物鏈的起點, 草地為這個世界帶來了更豐富的生命
       - 草地為這世界帶來了生命
     shards:
       - 1
