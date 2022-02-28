@@ -3434,11 +3434,11 @@ CLAY:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Pliable (方塊)
+    name: 柔韌 (黏土方塊)
     type: HUMAN
     lore:
-      - Eagerly waiting to be formed into something
-      - new. Clay looks forward to it's future shape.
+      - 他正等待被塑造成新的東西
+      - 黏土現在很期待它未來的樣子
     shards:
       - 1
       - 0
@@ -3455,11 +3455,11 @@ CLAY_BALL:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Pliable (球)
+    name: 柔韌(黏土球)
     type: HUMAN
     lore:
-      - Eagerly waiting to be formed into something
-      - new. Clay looks forward to it's future shape.
+      - 他正等待被塑造成新的東西
+      - 黏土現在很期待它未來的樣子
     shards:
       - 1
       - 0
@@ -3477,11 +3477,11 @@ CLOCK:
     - HISTORICAL
     - HUMAN
   story:
-    name: Time to spare
+    name: 騰出時間
     type: HUMAN
     lore:
-      - Criminally underused, the clock ends
-      - up with lots of time to spare.
+      - 就算有很多空閒時間
+      - 對於那些罪犯來講還是沒有用的
     shards:
       - 0
       - 1
@@ -3498,12 +3498,12 @@ COAL:
     - ELEMENTAL
     - MECHANICAL
   story:
-    name: Dirty Fuel
+    name: 骯髒的燃料
     type: ELEMENTAL
     lore:
-      - Almost all slimefun journeys begin with
-      - a vicious hunt for coal used is nearly
-      - everything from crafting to power generation
+      - 你在Slimefun的旅程中幾乎都會用到它
+      - 對煤炭的需求幾乎都來自
+      - 從合成到發電的一切
     shards:
       - 2
       - 1
@@ -3520,12 +3520,12 @@ COAL_BLOCK:
     - ELEMENTAL
     - MECHANICAL
   story:
-    name: Really Dirty Fuel
+    name: 真的很髒的燃料
     type: ELEMENTAL
     lore:
-      - Almost all slimefun journeys begin with
-      - a vicious hunt for coal used is nearly
-      - everything from crafting to power generation
+      - 你在Slimefun的旅程中幾乎都會用到它
+      - 對煤炭的需求幾乎都來自
+      - 從合成到發電的一切
     shards:
       - 2
       - 1
