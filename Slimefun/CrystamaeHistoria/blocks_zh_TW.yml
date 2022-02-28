@@ -4037,11 +4037,11 @@ COOKED_RABBIT:
     - ANIMAL
     - HUMAN
   story:
-    name: Protein (Rabbit)
+    name: 蛋白質(兔肉)
     type: ANIMAL
     lore:
-      - A core staple to any minecraft diet.
-      - Finds happiness in providing sustenance
+      - Minecraft中的主食,
+      - 你能夠在食物中得到幸福
     shards:
       - 0
       - 0
@@ -4058,11 +4058,11 @@ COOKED_SALMON:
     - ANIMAL
     - HUMAN
   story:
-    name: Protein (Salmon)
+    name: 蛋白質(鮭魚)
     type: ANIMAL
     lore:
-      - A core staple to any minecraft diet.
-      - Finds happiness in providing sustenance
+      - Minecraft中的主食,
+      - 你能夠在食物中得到幸福
     shards:
       - 0
       - 0
@@ -4098,11 +4098,11 @@ COPPER_BLOCK:
     - ELEMENTAL
     - MECHANICAL
   story:
-    name: Further Refinement (Copper)
+    name: 更先進的提煉(銅)
     type: ELEMENTAL
     lore:
-      - Refined all the way to it's block form, this
-      - block enjoys being combined with it's brethren
+      - 一路提煉到他變成塊狀為止,
+      - 這個方塊喜歡和它的同胞們結合.
     shards:
       - 2
       - 1
@@ -4119,11 +4119,11 @@ COPPER_INGOT:
     - ELEMENTAL
     - MECHANICAL
   story:
-    name: Refined (Copper)
+    name: 提煉(銅)
     type: ELEMENTAL
     lore:
-      - After having all the slag and dregs removed
-      - this item can breathe a heavy sigh of relief.
+      - 除去所有的爐渣和渣滓
+      - 這塊金屬可以鬆一口氣了
     shards:
       - 1
       - 1
