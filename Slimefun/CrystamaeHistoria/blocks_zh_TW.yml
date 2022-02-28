@@ -4499,13 +4499,13 @@ CRIMSON_NYLIUM:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Not Quite Netherrack (緋紅)
+    name: 不完全的地獄石 (緋紅)
     type: ELEMENTAL
     lore:
-      - While normally desolate and barren, it
-      - gives a feeling of great purpose for
-      - Netherrack to be able to be a home to any
-      - form of life.
+      - 雖然通常是荒涼貧瘠,
+      - 但它給人一種地獄石能夠
+      - 成為任何形式的生命的家園,
+      - 給人一種偉大使命的感覺.
     shards:
       - 1
       - 0
@@ -5951,11 +5951,11 @@ DEEPSLATE:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: Resolute (深板岩)
+    name: 堅決不宜 (深板岩)
     type: ELEMENTAL
     lore:
-      - 石頭是世界構成之中堅毅的代表
-      - 這是亙古不變的
+      - 石頭是世界構成的堅定支柱.
+      - 永遠存在, 永無止境.
     shards:
       - 2
       - 0
@@ -18747,11 +18747,11 @@ STONE:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: 堅毅
+    name: 堅決不宜
     type: ELEMENTAL
     lore:
-      - 石頭是世界構成之中堅毅的代表
-      - 這是亙古不變的
+      - 石頭是世界構成的堅定支柱.
+      - 永遠存在, 永無止境.
     shards:
       - 2
       - 0
@@ -19906,11 +19906,11 @@ TUFF:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: 堅毅 (凝灰岩)
+    name: 堅決不宜 (凝灰岩)
     type: ELEMENTAL
     lore:
-      - 石頭是世界構成之中堅毅的代表
-      - 這是亙古不變的
+      - 石頭是世界構成的堅定支柱.
+      - 永遠存在, 永無止境.
     shards:
       - 2
       - 0
@@ -19926,12 +19926,12 @@ TURTLE_EGG:
   elements:
     - ANIMAL
   story:
-    name: Soft Shell
+    name: 軟殼
     type: ANIMAL
     lore:
-      - A soft shell means these eggs need protecting.
-      - For whatever reason many damaging mobs are
-      - insanely attracted to these eggs.
+      - 軟殼意味著這些比雞蛋更需要保護.
+      - 不管是甚麼原因, 許多具有破壞性
+      - 的怪物都瘋狂被這些雞蛋所吸引.
     shards:
       - 0
       - 0
@@ -20169,13 +20169,13 @@ WARPED_NYLIUM:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Not Quite Netherrack (扭曲)
+    name: 不完全的地獄石 (扭曲)
     type: ELEMENTAL
     lore:
-      - While normally desolate and barren, it
-      - gives a feeling of great purpose for
-      - Netherrack to be able to be a home to any
-      - form of life.
+      - 雖然通常是荒涼貧瘠,
+      - 但它給人一種地獄石能夠
+      - 成為任何形式的生命的家園,
+      - 給人一種偉大使命的感覺.
     shards:
       - 1
       - 0
