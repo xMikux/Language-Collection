@@ -4342,13 +4342,13 @@ CREEPER_HEAD:
   elements:
     - VOID
   story:
-    name: Decapitation (苦力怕)
+    name: 斬首 (苦力怕)
     type: VOID
     lore:
-      - While a despicable practice, some magics
-      - can only be harnessed through recent
-      - decapitations. Luckily no Crysta is wholly
-      - dependent on this.
+      - 雖然這是一種卑鄙的做法,
+      - 但有些魔法只能通過斬首的
+      - 頭來使用. 幸運的是, 沒有水晶
+      - 能量完全依賴於此.
     shards:
       - 0
       - 1
@@ -6369,12 +6369,12 @@ DIAMOND_AXE:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Axe-cident waiting to happen! (鑽石)
+    name: 斧頭事故正等待發生! (鑽石)
     type: PHILOSOPHICAL
     lore:
-      - Every person fears the day that they finally
-      - accidentally right click on a log in their
-      - base!
+      - 每個人都害怕有一天,
+      - 它們最終不小心右鍵
+      - 點擊了它們基地的原木.
     shards:
       - 1
       - 0
@@ -6479,12 +6479,12 @@ DIAMOND_HOE:
     - HUMAN
     - MECHANICAL
   story:
-    name: Till until (鑽石)
+    name: 直至 (鑽石)
     type: MECHANICAL
     lore:
-      - Other farmers may have moved to more mechanical
-      - means, the trusty hoe is still the number one
-      - go-to.
+      - 其他農民可能已轉
+      - 向到更機械的方法, 但可靠的
+      - 鋤頭仍然是第一的選擇.
     shards:
       - 1
       - 1
@@ -6500,11 +6500,11 @@ DIAMOND_HORSE_ARMOR:
   elements:
     - ANIMAL
   story:
-    name: Tank (鑽石)
+    name: 坦克 (鑽石)
     type: ANIMAL
     lore:
-      - It's not only you that needs protecting
-      - in these dark times!
+      - 在這個黑暗時代,
+      - 需要保護的不僅僅只有你!
     shards:
       - 0
       - 0
@@ -6567,12 +6567,12 @@ DIAMOND_PICKAXE:
     - HUMAN
     - ELEMENTAL
   story:
-    name: P-p-p-pick up a pickaxe (鑽石)
+    name: 撿-撿-撿-撿起一個鎬子 (鑽石)
     type: CELESTIAL
     lore:
-      - Arguably the most important tool to any
-      - minecrafters arsenal, the pickaxe radiates
-      - a joy with every block broken.
+      - 可以說是所有 Minecraft
+      - 玩家武器庫中最重要的工具,
+      - 鎬在每個方塊破壞時都會散發出喜悅.
     shards:
       - 0
       - 0
@@ -6589,12 +6589,12 @@ DIAMOND_SHOVEL:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Can you dig it? (鑽石)
+    name: 你能挖它嗎? (鑽石)
     type: ELEMENTAL
     lore:
-      - The invention of the shovel was a pivotal
-      - to the furtherment of mankind, it was
-      - practically ground breaking!
+      - 鏟子的發明是人類
+      - 進步的關鍵, 它幾乎是
+      - 開創性的!
     shards:
       - 1
       - 1
@@ -6611,10 +6611,10 @@ DIAMOND_SWORD:
     - HUMAN
     - VOID
   story:
-    name: Time to Strike (鑽石)
+    name: 出擊時間 (鑽石)
     type: VOID
     lore:
-      - Finally armed, the wielder can choose
+      - 最終武裝起來, 持有者可以選擇使用劍
       - to use a sword defensively or aggressively
       - either way the sword fulfils its purpose
     shards:
@@ -8185,12 +8185,12 @@ GOLDEN_AXE:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Axe-cident waiting to happen! (金)
+    name: 斧頭事故正等待發生! (金)
     type: PHILOSOPHICAL
     lore:
-      - Every person fears the day that they finally
-      - accidentally right click on a log in their
-      - base!
+      - 每個人都害怕有一天,
+      - 它們最終不小心右鍵
+      - 點擊了它們基地的原木.
     shards:
       - 1
       - 0
@@ -8295,12 +8295,12 @@ GOLDEN_HOE:
     - HUMAN
     - MECHANICAL
   story:
-    name: Till until (金)
+    name: 直至 (金)
     type: MECHANICAL
     lore:
-      - Other farmers may have moved to more mechanical
-      - means, the trusty hoe is still the number one
-      - go-to.
+      - 其他農民可能已轉
+      - 向到更機械的方法, 但可靠的
+      - 鋤頭仍然是第一的選擇.
     shards:
       - 1
       - 1
@@ -8316,11 +8316,11 @@ GOLDEN_HORSE_ARMOR:
   elements:
     - ANIMAL
   story:
-    name: Tank (金)
+    name: 坦克 (金)
     type: ANIMAL
     lore:
-      - It's not only you that needs protecting
-      - in these dark times!
+      - 在這個黑暗時代,
+      - 需要保護的不僅僅只有你!
     shards:
       - 0
       - 0
@@ -8359,12 +8359,12 @@ GOLDEN_PICKAXE:
     - HUMAN
     - ELEMENTAL
   story:
-    name: P-p-p-pick up a pickaxe (金)
+    name: 撿-撿-撿-撿起一個鎬子 (金)
     type: CELESTIAL
     lore:
-      - Arguably the most important tool to any
-      - minecrafters arsenal, the pickaxe radiates
-      - a joy with every block broken.
+      - 可以說是所有 Minecraft
+      - 玩家武器庫中最重要的工具,
+      - 鎬在每個方塊破壞時都會散發出喜悅.
     shards:
       - 0
       - 0
@@ -8381,12 +8381,12 @@ GOLDEN_SHOVEL:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Can you dig it? (金)
+    name: 你能挖它嗎? (金)
     type: ELEMENTAL
     lore:
-      - The invention of the shovel was a pivotal
-      - to the furtherment of mankind, it was
-      - practically ground breaking!
+      - 鏟子的發明是人類
+      - 進步的關鍵, 它幾乎是
+      - 開創性的!
     shards:
       - 1
       - 1
@@ -8403,10 +8403,10 @@ GOLDEN_SWORD:
     - HUMAN
     - VOID
   story:
-    name: Time to Strike (金)
+    name: 出擊時間 (金)
     type: VOID
     lore:
-      - Finally armed, the wielder can choose
+      - 最終武裝起來, 持有者可以選擇使用劍
       - to use a sword defensively or aggressively
       - either way the sword fulfils its purpose
     shards:
@@ -9732,12 +9732,12 @@ IRON_AXE:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Axe-cident waiting to happen! (鐵)
+    name: 斧頭事故正等待發生! (鐵)
     type: PHILOSOPHICAL
     lore:
-      - Every person fears the day that they finally
-      - accidentally right click on a log in their
-      - base!
+      - 每個人都害怕有一天,
+      - 它們最終不小心右鍵
+      - 點擊了它們基地的原木.
     shards:
       - 1
       - 0
@@ -9754,12 +9754,12 @@ IRON_BARS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Locked Up
+    name: 上鎖
     type: PHILOSOPHICAL
     lore:
-      - Designed for one true purpose, to keep those
-      - needed behind bars. Protecting others provides
-      - purpose to this iron.
+      - 專為一個真正的目的而設計,
+      - 把那些需要的人關在監獄裡.
+      - 保護他人為這個鐵提供了目的.
     shards:
       - 0
       - 1
@@ -9777,12 +9777,12 @@ IRON_BLOCK:
     - HUMAN
     - MECHANICAL
   story:
-    name: Technological Marvel
+    name: 科技奇蹟
     type: MECHANICAL
     lore:
-      - Made from the earth, this block is
-      - used for machines and the furthering
-      - of technology.
+      - 這個方塊由地球製作,
+      - 用於機器與技術的
+      - 進一步發展.
     shards:
       - 1
       - 2
@@ -9844,11 +9844,11 @@ IRON_DOOR:
     - MECHANICAL
     - CELESTIAL
   story:
-    name: Stronghold
+    name: 堡壘
     type: HUMAN
     lore:
-      - Protection again all intruders gives
-      - this item purpose and drive.
+      - 對所有入侵者的防禦使
+      - 這個物品有了目的與動力.
     shards:
       - 0
       - 2
@@ -9887,12 +9887,12 @@ IRON_HOE:
     - HUMAN
     - MECHANICAL
   story:
-    name: Till until (鐵)
+    name: 直至 (鐵)
     type: MECHANICAL
     lore:
-      - Other farmers may have moved to more mechanical
-      - means, the trusty hoe is still the number one
-      - go-to.
+      - 其他農民可能已轉
+      - 向到更機械的方法, 但可靠的
+      - 鋤頭仍然是第一的選擇.
     shards:
       - 1
       - 1
@@ -9908,11 +9908,11 @@ IRON_HORSE_ARMOR:
   elements:
     - ANIMAL
   story:
-    name: Tank (鐵)
+    name: 坦克 (鐵)
     type: ANIMAL
     lore:
-      - It's not only you that needs protecting
-      - in these dark times!
+      - 在這個黑暗時代,
+      - 需要保護的不僅僅只有你!
     shards:
       - 0
       - 0
@@ -10017,12 +10017,12 @@ IRON_PICKAXE:
     - HUMAN
     - ELEMENTAL
   story:
-    name: P-p-p-pick up a pickaxe (鐵)
+    name: 撿-撿-撿-撿起一個鎬子 (鐵)
     type: CELESTIAL
     lore:
-      - Arguably the most important tool to any
-      - minecrafters arsenal, the pickaxe radiates
-      - a joy with every block broken.
+      - 可以說是所有 Minecraft
+      - 玩家武器庫中最重要的工具,
+      - 鎬在每個方塊破壞時都會散發出喜悅.
     shards:
       - 0
       - 0
@@ -10039,12 +10039,12 @@ IRON_SHOVEL:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Can you dig it? (鐵)
+    name: 你能挖它嗎? (鐵)
     type: ELEMENTAL
     lore:
-      - The invention of the shovel was a pivotal
-      - to the furtherment of mankind, it was
-      - practically ground breaking!
+      - 鏟子的發明是人類
+      - 進步的關鍵, 它幾乎是
+      - 開創性的!
     shards:
       - 1
       - 1
@@ -10061,10 +10061,10 @@ IRON_SWORD:
     - HUMAN
     - VOID
   story:
-    name: Time to Strike (鐵)
+    name: 出擊時間 (鐵)
     type: VOID
     lore:
-      - Finally armed, the wielder can choose
+      - 最終武裝起來, 持有者可以選擇使用劍
       - to use a sword defensively or aggressively
       - either way the sword fulfils its purpose
     shards:
@@ -10791,11 +10791,11 @@ LEATHER_HORSE_ARMOR:
   elements:
     - ANIMAL
   story:
-    name: Tank (皮革)
+    name: 坦克 (皮革)
     type: ANIMAL
     lore:
-      - It's not only you that needs protecting
-      - in these dark times!
+      - 在這個黑暗時代,
+      - 需要保護的不僅僅只有你!
     shards:
       - 0
       - 0
@@ -12978,12 +12978,12 @@ NETHERITE_AXE:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Axe-cident waiting to happen! (獄髓)
+    name: 斧頭事故正等待發生! (獄髓)
     type: PHILOSOPHICAL
     lore:
-      - Every person fears the day that they finally
-      - accidentally right click on a log in their
-      - base!
+      - 每個人都害怕有一天,
+      - 它們最終不小心右鍵
+      - 點擊了它們基地的原木.
     shards:
       - 1
       - 0
@@ -13154,12 +13154,12 @@ NETHERITE_PICKAXE:
     - HUMAN
     - ELEMENTAL
   story:
-    name: P-p-p-pick up a pickaxe (獄髓)
+    name: 撿-撿-撿-撿起一個鎬子 (獄髓)
     type: CELESTIAL
     lore:
-      - Arguably the most important tool to any
-      - minecrafters arsenal, the pickaxe radiates
-      - a joy with every block broken.
+      - 可以說是所有 Minecraft
+      - 玩家武器庫中最重要的工具,
+      - 鎬在每個方塊破壞時都會散發出喜悅.
     shards:
       - 0
       - 0
@@ -13198,12 +13198,12 @@ NETHERITE_SHOVEL:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Can you dig it? (獄髓)
+    name: 你能挖它嗎? (獄髓)
     type: ELEMENTAL
     lore:
-      - The invention of the shovel was a pivotal
-      - to the furtherment of mankind, it was
-      - practically ground breaking!
+      - 鏟子的發明是人類
+      - 進步的關鍵, 它幾乎是
+      - 開創性的!
     shards:
       - 1
       - 1
@@ -13220,10 +13220,10 @@ NETHERITE_SWORD:
     - HUMAN
     - VOID
   story:
-    name: Time to Strike (獄髓)
+    name: 出擊時間 (獄髓)
     type: VOID
     lore:
-      - Finally armed, the wielder can choose
+      - 最終武裝起來, 持有者可以選擇使用劍
       - to use a sword defensively or aggressively
       - either way the sword fulfils its purpose
     shards:
@@ -14740,13 +14740,13 @@ PLAYER_HEAD:
   elements:
     - VOID
   story:
-    name: Decapitation (Player)
+    name: 斬首 (玩家)
     type: VOID
     lore:
-      - While a despicable practice, some magics
-      - can only be harnessed through recent
-      - decapitations. Luckily no Crysta is wholly
-      - dependent on this.
+      - 雖然這是一種卑鄙的做法,
+      - 但有些魔法只能通過斬首的
+      - 頭來使用. 幸運的是, 沒有水晶
+      - 能量完全依賴於此.
     shards:
       - 0
       - 1
@@ -18789,12 +18789,12 @@ STONE_AXE:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Axe-cident waiting to happen! (石頭)
+    name: 斧頭事故正等待發生! (石頭)
     type: PHILOSOPHICAL
     lore:
-      - Every person fears the day that they finally
-      - accidentally right click on a log in their
-      - base!
+      - 每個人都害怕有一天,
+      - 它們最終不小心右鍵
+      - 點擊了它們基地的原木.
     shards:
       - 1
       - 0
@@ -18917,12 +18917,12 @@ STONE_HOE:
     - HUMAN
     - MECHANICAL
   story:
-    name: Till until (石頭)
+    name: 直至 (石頭)
     type: MECHANICAL
     lore:
-      - Other farmers may have moved to more mechanical
-      - means, the trusty hoe is still the number one
-      - go-to.
+      - 其他農民可能已轉
+      - 向到更機械的方法, 但可靠的
+      - 鋤頭仍然是第一的選擇.
     shards:
       - 1
       - 1
@@ -18939,12 +18939,12 @@ STONE_PICKAXE:
     - HUMAN
     - ELEMENTAL
   story:
-    name: P-p-p-pick up a pickaxe (石頭)
+    name: 撿-撿-撿-撿起一個鎬子 (石頭)
     type: CELESTIAL
     lore:
-      - Arguably the most important tool to any
-      - minecrafters arsenal, the pickaxe radiates
-      - a joy with every block broken.
+      - 可以說是所有 Minecraft
+      - 玩家武器庫中最重要的工具,
+      - 鎬在每個方塊破壞時都會散發出喜悅.
     shards:
       - 0
       - 0
@@ -18983,12 +18983,12 @@ STONE_SHOVEL:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Can you dig it? (石頭)
+    name: 你能挖它嗎? (石頭)
     type: ELEMENTAL
     lore:
-      - The invention of the shovel was a pivotal
-      - to the furtherment of mankind, it was
-      - practically ground breaking!
+      - 鏟子的發明是人類
+      - 進步的關鍵, 它幾乎是
+      - 開創性的!
     shards:
       - 1
       - 1
@@ -19049,10 +19049,10 @@ STONE_SWORD:
     - HUMAN
     - VOID
   story:
-    name: Time to Strike (石頭)
+    name: 出擊時間 (石頭)
     type: VOID
     lore:
-      - Finally armed, the wielder can choose
+      - 最終武裝起來, 持有者可以選擇使用劍
       - to use a sword defensively or aggressively
       - either way the sword fulfils its purpose
     shards:
@@ -21248,12 +21248,12 @@ WOODEN_AXE:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Axe-cident waiting to happen! (Wood)
+    name: 斧頭事故正等待發生! (木頭)
     type: PHILOSOPHICAL
     lore:
-      - Every person fears the day when they
-      - accidentally right click on a log in their
-      - base!
+      - 每個人都害怕有一天,
+      - 它們最終不小心右鍵
+      - 點擊了它們基地的原木.
     shards:
       - 1
       - 0
@@ -21270,12 +21270,12 @@ WOODEN_HOE:
     - HUMAN
     - MECHANICAL
   story:
-    name: Till until (Wood)
+    name: 直至 (木頭)
     type: MECHANICAL
     lore:
-      - Other farmers may have moved to more mechanical
-      - means, the trusty hoe is still the number one
-      - go-to.
+      - 其他農民可能已轉
+      - 向到更機械的方法, 但可靠的
+      - 鋤頭仍然是第一的選擇.
     shards:
       - 1
       - 1
@@ -21292,12 +21292,12 @@ WOODEN_PICKAXE:
     - HUMAN
     - ELEMENTAL
   story:
-    name: P-p-p-pick up a pickaxe (Wood)
+    name: 撿-撿-撿-撿起一個鎬子 (木頭)
     type: CELESTIAL
     lore:
-      - Arguably the most important tool to any
-      - minecrafters arsenal, the pickaxe radiates
-      - a joy with every block broken.
+      - 可以說是所有 Minecraft
+      - 玩家武器庫中最重要的工具,
+      - 鎬在每個方塊破壞時都會散發出喜悅.
     shards:
       - 0
       - 0
@@ -21314,12 +21314,12 @@ WOODEN_SHOVEL:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Can you dig it? (Wood)
+    name: 你能挖它嗎? (木頭)
     type: ELEMENTAL
     lore:
-      - The invention of the shovel was a pivotal
-      - to the furtherment of mankind, it was
-      - practically ground breaking!
+      - 鏟子的發明是人類
+      - 進步的關鍵, 它幾乎是
+      - 開創性的!
     shards:
       - 1
       - 1
@@ -21336,12 +21336,12 @@ WOODEN_SWORD:
     - HUMAN
     - VOID
   story:
-    name: Time to Strike (Wood)
+    name: 出擊時間 (木頭)
     type: VOID
     lore:
-      - Finally armed, the wielder can choose
-      - to use a sword defensively or aggressively.
-      - Either way, the sword fulfils its purpose
+      - 最終武裝起來, 持有者可以選擇使用劍
+      - 防禦或者攻擊, 無論哪種方式,
+      - 劍都可以達到其目的.
     shards:
       - 0
       - 0
@@ -21358,11 +21358,11 @@ WRITABLE_BOOK:
     - PHILOSOPHICAL
     - HUMAN
   story:
-    name: The Press (Unfinished)
+    name: 新聞界 (未完成)
     type: PHILOSOPHICAL
     lore:
-      - Oh the day when humans invented
-      - writing!
+      - 哦, 從人類發明
+      - 文字的那一天!
     shards:
       - 0
       - 0
@@ -21380,11 +21380,11 @@ WRITTEN_BOOK:
     - PHILOSOPHICAL
     - HUMAN
   story:
-    name: The Press (完成的)
+    name: 新聞界 (完成的)
     type: PHILOSOPHICAL
     lore:
-      - Oh the day when humans invented
-      - writing!
+      - 哦, 從人類發明
+      - 文字的那一天!
     shards:
       - 0
       - 0
@@ -21557,11 +21557,11 @@ YELLOW_GLAZED_TERRACOTTA:
     - HUMAN
     - CELESTIAL
   story:
-    name: One Lucky Ducky
+    name: 一隻幸運鴨
     type: HUMAN
     lore:
-      - A singularly lucky duck found only
-      - in the most royal of locations.
+      - 一隻非常幸運的鴨子,
+      - 只能在最皇家的地方發現.
     shards:
       - 1
       - 0
@@ -21666,13 +21666,13 @@ ZOMBIE_HEAD:
   elements:
     - VOID
   story:
-    name: Decapitation (殭屍)
+    name: 斬首 (殭屍)
     type: VOID
     lore:
-      - While a despicable practice, some magics
-      - can only be harnessed through recent
-      - decapitations. Luckily no Crysta is wholly
-      - dependent on this.
+      - 雖然這是一種卑鄙的做法,
+      - 但有些魔法只能通過斬首的
+      - 頭來使用. 幸運的是, 沒有水晶
+      - 能量完全依賴於此.
     shards:
       - 0
       - 1
