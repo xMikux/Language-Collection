@@ -4565,11 +4565,11 @@ CRIMSON_ROOTS:
     - ANIMAL
     - VOID
   story:
-    name: Determination (緋紅)
+    name: 決心 (緋紅)
     type: ANIMAL
     lore:
-      - Anything growing in a place like the nether
-      - should be commended for it's determination.
+      - 在像地獄這種環境下生長的任何
+      - 東西都應它的決心而受到讚揚.
     shards:
       - 1
       - 0
@@ -13483,12 +13483,12 @@ NETHER_WART:
   elements:
     - ALCHEMICAL
   story:
-    name: Alchemical Conduit
+    name: 煉金術傳導
     type: ALCHEMICAL
     lore:
-      - Magic as we know it needs Crystals to act
-      - as a conduit. For potions, the magical
-      - conduit it Nether Wart.
+      - 眾所皆知, 魔法需要水晶作為管道,
+      - 對於藥水, 它的魔法管道就是
+      - 地獄疙瘩.
     shards:
       - 0
       - 0
@@ -13504,12 +13504,12 @@ NETHER_WART_BLOCK:
   elements:
     - ALCHEMICAL
   story:
-    name: Alchemical Conduit (方塊)
+    name: 煉金術傳導 (方塊)
     type: ALCHEMICAL
     lore:
-      - Magic as we know it needs Crystals to act
-      - as a conduit. For potions, the magical
-      - conduit it Nether Wart.
+      - 眾所皆知, 魔法需要水晶作為管道,
+      - 對於藥水, 它的魔法管道就是
+      - 地獄疙瘩.
     shards:
       - 0
       - 0
@@ -18341,13 +18341,13 @@ SPONGE:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Absorbent (Dry)
+    name: 吸水性 (乾的)
     type: ANIMAL
     lore:
-      - It is often forgotten that a Sponge is
-      - both an animal and still alive. When wet
-      - they absorb as many nutrients and magic
-      - from the water as possible.
+      - 人們經常忘記海綿
+      - 既是動物又是活著的.
+      - 它們會從水中盡可能
+      - 的吸收營養與魔法.
     shards:
       - 1
       - 0
@@ -19970,13 +19970,13 @@ TWISTING_VINES:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Climb and Clamber (Twisting)
+    name: 攀爬與攀登 (扭曲藤)
     type: ELEMENTAL
     lore:
-      - The vine doesn't understand why people
-      - keep insisting on grabbing hold of it
-      - and climbing. It just wants peace and
-      - quiet.
+      - 藤蔓不明白為甚麼
+      - 人們一直堅持抓住
+      - 它並攀爬. 它只想要
+      - 和平與安靜.
     shards:
       - 1
       - 0
@@ -19993,13 +19993,13 @@ VINE:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Climb and Clamber
+    name: 攀爬與攀登
     type: ELEMENTAL
     lore:
-      - The vine doesn't understand why people
-      - keep insisting on grabbing hold of it
-      - and climbing. It just wants peace and
-      - quiet.
+      - 藤蔓不明白為甚麼
+      - 人們一直堅持抓住
+      - 它並攀爬. 它只想要
+      - 和平與安靜.
     shards:
       - 1
       - 0
@@ -20235,11 +20235,11 @@ WARPED_ROOTS:
     - ANIMAL
     - VOID
   story:
-    name: Determination (扭曲)
+    name: 決心 (扭曲)
     type: ANIMAL
     lore:
-      - Anything growing in a place like the nether
-      - should be commended for it's determination.
+      - 在像地獄這種環境下生長的任何
+      - 東西都應它的決心而受到讚揚.
     shards:
       - 1
       - 0
@@ -20363,12 +20363,12 @@ WARPED_WART_BLOCK:
   elements:
     - ALCHEMICAL
   story:
-    name: Alchemical Conduit (扭曲)
+    name: 煉金術傳導 (扭曲)
     type: ALCHEMICAL
     lore:
-      - Magic as we know it needs Crystals to act
-      - as a conduit. For potions, the magical
-      - conduit it Nether Wart.
+      - 眾所皆知, 魔法需要水晶作為管道,
+      - 對於藥水, 它的魔法管道就是
+      - 地獄疙瘩.
     shards:
       - 0
       - 0
@@ -20722,10 +20722,10 @@ WAXED_WEATHERED_CUT_COPPER_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: What a Mouthful!
+    name: 好大的一口氣!
     type: HUMAN
     lore:
-      - Can you say this in one breath!?
+      - 你可以在一口氣內說完嘛!?
     shards:
       - 0
       - 1
@@ -20743,12 +20743,12 @@ WEATHERED_COPPER:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Rusted to perfection
+    name: 生鏽的完美
     type: ELEMENTAL
     lore:
-      - The most beautiful form of copper, this
-      - block has gone through many trials to reach
-      - this level of perfection
+      - 最美麗的銅型態,
+      - 這個方塊經過了多次
+      - 試煉達到這種完美
     shards:
       - 2
       - 1
@@ -20829,13 +20829,13 @@ WEEPING_VINES:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Climb and Clamber (Weeping)
+    name: 攀爬與攀登 (垂泣藤)
     type: ELEMENTAL
     lore:
-      - The vine doesn't understand why people
-      - keep insisting on grabbing hold of it
-      - and climbing. It just wants peace and
-      - quiet.
+      - 藤蔓不明白為甚麼
+      - 人們一直堅持抓住
+      - 它並攀爬. 它只想要
+      - 和平與安靜.
     shards:
       - 1
       - 0
@@ -20852,13 +20852,13 @@ WET_SPONGE:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Absorbent (Wet)
+    name: 吸水性 (濕的)
     type: ANIMAL
     lore:
-      - It is often forgotten that a Sponge is
-      - both an animal and still alive. When wet
-      - they absorb as many nutrients and magic
-      - from the water as possible.
+      - 人們經常忘記海綿
+      - 既是動物又是活著的.
+      - 它們會從水中盡可能
+      - 的吸收營養與魔法.
     shards:
       - 1
       - 0
@@ -21205,10 +21205,10 @@ WITHER_ROSE:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Not-so-sweet Smell
+    name: 不太甜的氣味
     type: ANIMAL
     lore:
-      - A wafting fragrance to quell... everything.
+      - 一種飄散的香氣來平息... 一切.
     shards:
       - 1
       - 0
@@ -21225,12 +21225,12 @@ WITHER_SKELETON_SKULL:
     - VOID
     - ANIMAL
   story:
-    name: Spooky scary skele...
+    name: 詭異的骷髏...
     type: VOID
     lore:
-      - Unfortunately, I cannot use the
-      - full title due to advancement
-      - copyright laws
+      - 不幸的是, 由於版權法,
+      - 我不能使用完整的
+      - 進度
     shards:
       - 0
       - 0
