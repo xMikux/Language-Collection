@@ -3932,11 +3932,11 @@ COOKED_BEEF:
     - ANIMAL
     - HUMAN
   story:
-    name: Protein (Beef)
+    name: 蛋白質 (牛肉)
     type: ANIMAL
     lore:
-      - A core staple to any minecraft diet.
-      - Finds happiness in providing sustenance
+      - Minecraft中的主食,
+      - 你能夠在食物中得到幸福
     shards:
       - 0
       - 0
@@ -3953,11 +3953,11 @@ COOKED_CHICKEN:
     - ANIMAL
     - HUMAN
   story:
-    name: Protein (Chicken)
+    name: 蛋白質 (雞肉)
     type: ANIMAL
     lore:
-      - A core staple to any minecraft diet.
-      - Finds happiness in providing sustenance
+      - Minecraft中的主食,
+      - 你能夠在食物中得到幸福
     shards:
       - 0
       - 0
@@ -3974,11 +3974,11 @@ COOKED_COD:
     - ANIMAL
     - HUMAN
   story:
-    name: Protein (Cod)
+    name: 蛋白質 (鱈魚肉)
     type: ANIMAL
     lore:
-      - A core staple to any minecraft diet.
-      - Finds happiness in providing sustenance
+      - Minecraft中的主食,
+      - 你能夠在食物中得到幸福
     shards:
       - 0
       - 0
@@ -3995,11 +3995,11 @@ COOKED_MUTTON:
     - ANIMAL
     - HUMAN
   story:
-    name: Protein (Mutton)
+    name: 蛋白質 (羊肉)
     type: ANIMAL
     lore:
-      - A core staple to any minecraft diet.
-      - Finds happiness in providing sustenance
+      - Minecraft中的主食,
+      - 你能夠在食物中得到幸福
     shards:
       - 0
       - 0
@@ -4098,7 +4098,7 @@ COPPER_BLOCK:
     - ELEMENTAL
     - MECHANICAL
   story:
-    name: 更先進的提煉(銅)
+    name: 更先進的提煉 (銅)
     type: ELEMENTAL
     lore:
       - 一路提煉到他變成塊狀為止,
@@ -4119,7 +4119,7 @@ COPPER_INGOT:
     - ELEMENTAL
     - MECHANICAL
   story:
-    name: 提煉(銅)
+    name: 提煉 (銅)
     type: ELEMENTAL
     lore:
       - 除去所有的爐渣和渣滓
@@ -4140,7 +4140,7 @@ COPPER_ORE:
     - ELEMENTAL
     - ALCHEMICAL
   story:
-    name: This Ore That (Copper)
+    name: This Ore That (銅)
     type: ELEMENTAL
     lore:
       - As ore is formed within stone, it draws
@@ -4738,7 +4738,7 @@ CUT_COPPER:
     - MECHANICAL
     - HUMAN
   story:
-    name: A Cut Above (Copper)
+    name: A Cut Above (銅)
     type: MECHANICAL
     lore:
       - This block never complains, despite the
@@ -6348,11 +6348,11 @@ DIAMOND:
     - ELEMENTAL
     - MECHANICAL
   story:
-    name: Refined (鑽石)
+    name: 提煉 (鑽石)
     type: ELEMENTAL
     lore:
-      - After having all the slag and dregs removed
-      - this item can breathe a heavy sigh of relief.
+      - 除去所有的爐渣和渣滓
+      - 這塊金屬可以鬆一口氣了
     shards:
       - 1
       - 1
@@ -6392,11 +6392,11 @@ DIAMOND_BLOCK:
     - MECHANICAL
     - CELESTIAL
   story:
-    name: Further Refinement (鑽石)
+    name: 更先進的提煉 (鑽石)
     type: ELEMENTAL
     lore:
-      - Refined all the way to it's block form, this
-      - block enjoys being combined with it's brethren
+      - 一路提煉到他變成塊狀為止,
+      - 這個方塊喜歡和它的同胞們結合.
     shards:
       - 2
       - 1
@@ -6978,11 +6978,11 @@ EMERALD:
     - MECHANICAL
     - VOID
   story:
-    name: Refined (Emerald)
+    name: 提煉 (綠寶石)
     type: ELEMENTAL
     lore:
-      - After having all the slag and dregs removed
-      - this item can breathe a heavy sigh of relief.
+      - 除去所有的爐渣和渣滓
+      - 這塊金屬可以鬆一口氣了
     shards:
       - 1
       - 1
@@ -7000,11 +7000,11 @@ EMERALD_BLOCK:
     - MECHANICAL
     - VOID
   story:
-    name: Further Refinement (Emerald)
+    name: 更先進的提煉 (綠寶石)
     type: ELEMENTAL
     lore:
-      - Refined all the way to it's block form, this
-      - block enjoys being combined with it's brethren
+      - 一路提煉到他變成塊狀為止,
+      - 這個方塊喜歡和它的同胞們結合.
     shards:
       - 2
       - 1
@@ -7021,7 +7021,7 @@ EMERALD_ORE:
     - ELEMENTAL
     - VOID
   story:
-    name: This Ore That (Emerald)
+    name: This Ore That (綠寶石)
     type: ELEMENTAL
     lore:
       - As ore is formed within stone, it draws
@@ -8426,11 +8426,11 @@ GOLD_BLOCK:
     - MECHANICAL
     - PHILOSOPHICAL
   story:
-    name: Further Refinement (Emerald)
+    name: 更先進的提煉 (綠寶石)
     type: ELEMENTAL
     lore:
-      - Refined all the way to it's block form, this
-      - block enjoys being combined with it's brethren
+      - 一路提煉到他變成塊狀為止,
+      - 這個方塊喜歡和它的同胞們結合.
     shards:
       - 2
       - 1
@@ -8448,11 +8448,11 @@ GOLD_INGOT:
     - MECHANICAL
     - PHILOSOPHICAL
   story:
-    name: Refined (金)
+    name: 提煉 (金)
     type: ELEMENTAL
     lore:
-      - After having all the slag and dregs removed
-      - this item can breathe a heavy sigh of relief.
+      - 除去所有的爐渣和渣滓
+      - 這塊金屬可以鬆一口氣了
     shards:
       - 1
       - 1
@@ -9929,11 +9929,11 @@ IRON_INGOT:
     - ELEMENTAL
     - MECHANICAL
   story:
-    name: Refined (Emerald)
+    name: 提煉 (綠寶石)
     type: ELEMENTAL
     lore:
-      - After having all the slag and dregs removed
-      - this item can breathe a heavy sigh of relief.
+      - 除去所有的爐渣和渣滓
+      - 這塊金屬可以鬆一口氣了
     shards:
       - 1
       - 2
@@ -10552,11 +10552,11 @@ LAPIS_LAZULI:
     - MECHANICAL
     - CELESTIAL
   story:
-    name: Refined (Lapis)
+    name: 提煉 (青金石)
     type: ELEMENTAL
     lore:
-      - After having all the slag and dregs removed
-      - this item can breathe a heavy sigh of relief.
+      - 除去所有的爐渣和渣滓
+      - 這塊金屬可以鬆一口氣了
     shards:
       - 1
       - 1
@@ -10574,11 +10574,11 @@ LAPIS_BLOCK:
     - MECHANICAL
     - CELESTIAL
   story:
-    name: Further Refinement (Lapis)
+    name: 更先進的提煉 (青金石)
     type: ELEMENTAL
     lore:
-      - Refined all the way to it's block form, this
-      - block enjoys being combined with it's brethren
+      - 一路提煉到他變成塊狀為止,
+      - 這個方塊喜歡和它的同胞們結合.
     shards:
       - 2
       - 1
@@ -10595,7 +10595,7 @@ LAPIS_ORE:
     - ELEMENTAL
     - CELESTIAL
   story:
-    name: This Ore That (Lapis)
+    name: This Ore That (青金石)
     type: ELEMENTAL
     lore:
       - As ore is formed within stone, it draws
@@ -13111,11 +13111,11 @@ NETHERITE_INGOT:
     - MECHANICAL
     - VOID
   story:
-    name: Refined (獄髓)
+    name: 提煉 (獄髓)
     type: ELEMENTAL
     lore:
-      - After having all the slag and dregs removed
-      - this item can breathe a heavy sigh of relief.
+      - 除去所有的爐渣和渣滓
+      - 這塊金屬可以鬆一口氣了
     shards:
       - 1
       - 1
@@ -14219,11 +14219,11 @@ OXIDIZED_COPPER:
     - ELEMENTAL
     - MECHANICAL
   story:
-    name: Further Refinement (Oxidized Copper)
+    name: 更先進的提煉 (氧化的銅方塊)
     type: ELEMENTAL
     lore:
-      - Refined all the way to it's block form, this
-      - block enjoys being combined with it's brethren
+      - 一路提煉到他變成塊狀為止,
+      - 這個方塊喜歡和它的同胞們結合.
     shards:
       - 2
       - 1
@@ -14240,7 +14240,7 @@ OXIDIZED_CUT_COPPER:
     - MECHANICAL
     - HUMAN
   story:
-    name: A Cut Above (Oxidized Copper)
+    name: A Cut Above (氧化的銅方塊)
     type: MECHANICAL
     lore:
       - This block never complains, despite the
@@ -16161,11 +16161,11 @@ QUARTZ:
     - MECHANICAL
     - HISTORICAL
   story:
-    name: Refined (石英)
+    name: 提煉 (石英)
     type: ELEMENTAL
     lore:
-      - After having all the slag and dregs removed
-      - this item can breathe a heavy sigh of relief.
+      - 除去所有的爐渣和渣滓
+      - 這塊金屬可以鬆一口氣了
     shards:
       - 1
       - 1
@@ -16183,11 +16183,11 @@ QUARTZ_BLOCK:
     - MECHANICAL
     - HISTORICAL
   story:
-    name: Further Refinement (石英)
+    name: 更先進的提煉 (石英)
     type: ELEMENTAL
     lore:
-      - Refined all the way to it's block form, this
-      - block enjoys being combined with it's brethren
+      - 一路提煉到他變成塊狀為止,
+      - 這個方塊喜歡和它的同胞們結合.
     shards:
       - 2
       - 1
@@ -16402,11 +16402,11 @@ RAW_COPPER:
     - MECHANICAL
     - ALCHEMICAL
   story:
-    name: Refined (Raw Copper)
+    name: 提煉 (銅原礦)
     type: ELEMENTAL
     lore:
-      - After having all the slag and dregs removed
-      - this item can breathe a heavy sigh of relief.
+      - 除去所有的爐渣和渣滓
+      - 這塊金屬可以鬆一口氣了
     shards:
       - 1
       - 1
@@ -16424,11 +16424,11 @@ RAW_COPPER_BLOCK:
     - MECHANICAL
     - ALCHEMICAL
   story:
-    name: Further Refinement (Raw Copper)
+    name: 更先進的提煉 (銅原礦)
     type: ELEMENTAL
     lore:
-      - Refined all the way to it's block form, this
-      - block enjoys being combined with it's brethren
+      - 一路提煉到他變成塊狀為止,
+      - 這個方塊喜歡和它的同胞們結合.
     shards:
       - 2
       - 1
@@ -16446,11 +16446,11 @@ RAW_GOLD:
     - MECHANICAL
     - PHILOSOPHICAL
   story:
-    name: Refined (Raw Gold)
+    name: 提煉 (金原礦)
     type: ELEMENTAL
     lore:
-      - After having all the slag and dregs removed
-      - this item can breathe a heavy sigh of relief.
+      - 除去所有的爐渣和渣滓
+      - 這塊金屬可以鬆一口氣了
     shards:
       - 1
       - 1
@@ -16468,11 +16468,11 @@ RAW_GOLD_BLOCK:
     - MECHANICAL
     - PHILOSOPHICAL
   story:
-    name: Further Refinement (Raw Gold)
+    name: 更先進的提煉 (金原礦)
     type: ELEMENTAL
     lore:
-      - Refined all the way to it's block form, this
-      - block enjoys being combined with it's brethren
+      - 一路提煉到他變成塊狀為止,
+      - 這個方塊喜歡和它的同胞們結合.
     shards:
       - 2
       - 1
@@ -16489,11 +16489,11 @@ RAW_IRON:
     - ELEMENTAL
     - MECHANICAL
   story:
-    name: Refined (Raw Iron)
+    name: 提煉 (鐵原礦)
     type: ELEMENTAL
     lore:
-      - After having all the slag and dregs removed
-      - this item can breathe a heavy sigh of relief.
+      - 除去所有的爐渣和渣滓
+      - 這塊金屬可以鬆一口氣了
     shards:
       - 1
       - 2
@@ -16510,11 +16510,11 @@ RAW_IRON_BLOCK:
     - ELEMENTAL
     - MECHANICAL
   story:
-    name: Further Refinement (Raw Iron)
+    name: 更先進的提煉 (鐵原礦)
     type: ELEMENTAL
     lore:
-      - Refined all the way to it's block form, this
-      - block enjoys being combined with it's brethren
+      - 一路提煉到他變成塊狀為止,
+      - 這個方塊喜歡和它的同胞們結合.
     shards:
       - 2
       - 2
@@ -16531,11 +16531,11 @@ REDSTONE:
     - ELEMENTAL
     - MECHANICAL
   story:
-    name: Refined (Redstone)
+    name: 提煉 (紅石)
     type: ELEMENTAL
     lore:
-      - After having all the slag and dregs removed
-      - this item can breathe a heavy sigh of relief.
+      - 除去所有的爐渣和渣滓
+      - 這塊金屬可以鬆一口氣了
     shards:
       - 1
       - 2
@@ -16552,11 +16552,11 @@ REDSTONE_BLOCK:
     - ELEMENTAL
     - MECHANICAL
   story:
-    name: Further Refinement (Redstone)
+    name: 更先進的提煉 (紅石)
     type: ELEMENTAL
     lore:
-      - Refined all the way to it's block form, this
-      - block enjoys being combined with it's brethren
+      - 一路提煉到他變成塊狀為止,
+      - 這個方塊喜歡和它的同胞們結合.
     shards:
       - 2
       - 2
@@ -20407,11 +20407,11 @@ WAXED_COPPER_BLOCK:
     - ELEMENTAL
     - MECHANICAL
   story:
-    name: Further Refinement (Waxed Copper)
+    name: 更先進的提煉 (上蠟的銅方塊)
     type: ELEMENTAL
     lore:
-      - Refined all the way to it's block form, this
-      - block enjoys being combined with it's brethren
+      - 一路提煉到他變成塊狀為止,
+      - 這個方塊喜歡和它的同胞們結合.
     shards:
       - 2
       - 1
@@ -20428,7 +20428,7 @@ WAXED_CUT_COPPER:
     - MECHANICAL
     - HUMAN
   story:
-    name: A Cut Above (Waxed Copper)
+    name: A Cut Above (上蠟的銅方塊)
     type: MECHANICAL
     lore:
       - This block never complains, despite the
@@ -20491,11 +20491,11 @@ WAXED_EXPOSED_COPPER:
     - ELEMENTAL
     - MECHANICAL
   story:
-    name: Further Refinement (Waxed Exposed Copper)
+    name: 更先進的提煉 (上蠟的斑駁銅方塊)
     type: ELEMENTAL
     lore:
-      - Refined all the way to it's block form, this
-      - block enjoys being combined with it's brethren
+      - 一路提煉到他變成塊狀為止,
+      - 這個方塊喜歡和它的同胞們結合.
     shards:
       - 2
       - 1
@@ -20512,7 +20512,7 @@ WAXED_EXPOSED_CUT_COPPER:
     - MECHANICAL
     - HUMAN
   story:
-    name: A Cut Above (Waxed Exposed Copper)
+    name: A Cut Above (上蠟的斑駁銅方塊)
     type: MECHANICAL
     lore:
       - This block never complains, despite the
@@ -20575,11 +20575,11 @@ WAXED_OXIDIZED_COPPER:
     - ELEMENTAL
     - MECHANICAL
   story:
-    name: Further Refinement (Waxed Oxidised Copper)
+    name: 更先進的提煉 (上蠟的氧化銅方塊)
     type: ELEMENTAL
     lore:
-      - Refined all the way to it's block form, this
-      - block enjoys being combined with it's brethren
+      - 一路提煉到他變成塊狀為止,
+      - 這個方塊喜歡和它的同胞們結合.
     shards:
       - 2
       - 1
@@ -20596,7 +20596,7 @@ WAXED_OXIDIZED_CUT_COPPER:
     - MECHANICAL
     - HUMAN
   story:
-    name: A Cut Above (Waxed Oxidised Copper)
+    name: A Cut Above (上蠟的氧化銅方塊)
     type: MECHANICAL
     lore:
       - This block never complains, despite the
@@ -20659,11 +20659,11 @@ WAXED_WEATHERED_COPPER:
     - ELEMENTAL
     - MECHANICAL
   story:
-    name: Further Refinement (Waxed Weathered Copper)
+    name: 更先進的提煉 (上蠟的風化銅方塊)
     type: ELEMENTAL
     lore:
-      - Refined all the way to it's block form, this
-      - block enjoys being combined with it's brethren
+      - 一路提煉到他變成塊狀為止,
+      - 這個方塊喜歡和它的同胞們結合.
     shards:
       - 2
       - 1
@@ -20680,7 +20680,7 @@ WAXED_WEATHERED_CUT_COPPER:
     - MECHANICAL
     - HUMAN
   story:
-    name: A Cut Above (Waxed Weathered Copper)
+    name: A Cut Above (上蠟的風化銅方塊)
     type: MECHANICAL
     lore:
       - This block never complains, despite the
