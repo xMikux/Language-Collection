@@ -3455,7 +3455,7 @@ CLAY_BALL:
     - ELEMENTAL
     - HUMAN
   story:
-    name: 柔韌(黏土球)
+    name: 柔韌 (黏土球)
     type: HUMAN
     lore:
       - 他正等待被塑造成新的東西
@@ -4140,13 +4140,13 @@ COPPER_ORE:
     - ELEMENTAL
     - ALCHEMICAL
   story:
-    name: This Ore That (銅)
+    name: 這個礦或那個礦 (銅)
     type: ELEMENTAL
     lore:
-      - As ore is formed within stone, it draws
-      - the latent magic from the earth into itself
-      - the types of magic found determine the
-      - ore that will appear.
+      - 當礦在石頭中形成時,
+      - 它會將地底下潛在的魔法
+      - 吸收到自身之中, 所發現的魔法類型
+      - 決定了將出現的礦物種類.
     shards:
       - 1
       - 0
@@ -4184,13 +4184,13 @@ CRACKED_DEEPSLATE_BRICKS:
     - VOID
     - PHILOSOPHICAL
   story:
-    name: Cracked (深板岩)
+    name: 破裂的 (深板岩)
     type: VOID
     lore:
-      - This block releases it's magic via
-      - cracks in it's surface into the world.
-      - This often results in underground pockets
-      - of Crystamae.
+      - 這個方塊通過它表面的
+      - 裂縫向世界釋放它的魔法.
+      - 這往往會導致水晶
+      - 會容易出現地底的.
     shards:
       - 1
       - 0
@@ -4207,13 +4207,13 @@ CRACKED_DEEPSLATE_TILES:
     - VOID
     - PHILOSOPHICAL
   story:
-    name: Cracked (Deepslate Tiles)
+    name: 破裂的 (深板岩磚瓦)
     type: VOID
     lore:
-      - This block releases it's magic via
-      - cracks in it's surface into the world.
-      - This often results in underground pockets
-      - of Crystamae.
+      - 這個方塊通過它表面的
+      - 裂縫向世界釋放它的魔法.
+      - 這往往會導致水晶
+      - 會容易出現地底的.
     shards:
       - 1
       - 0
@@ -4230,13 +4230,13 @@ CRACKED_NETHER_BRICKS:
     - VOID
     - PHILOSOPHICAL
   story:
-    name: Cracked (地獄磚)
+    name: 破裂的 (地獄磚)
     type: VOID
     lore:
-      - This block releases it's magic via
-      - cracks in it's surface into the world.
-      - This often results in underground pockets
-      - of Crystamae.
+      - 這個方塊通過它表面的
+      - 裂縫向世界釋放它的魔法.
+      - 這往往會導致水晶
+      - 會容易出現地底的.
     shards:
       - 1
       - 0
@@ -4253,13 +4253,13 @@ CRACKED_POLISHED_BLACKSTONE_BRICKS:
     - VOID
     - PHILOSOPHICAL
   story:
-    name: Cracked (Blackstone Bricks)
+    name: 破裂的 (拋光黑石磚)
     type: VOID
     lore:
-      - This block releases it's magic via
-      - cracks in it's surface into the world.
-      - This often results in underground pockets
-      - of Crystamae.
+      - 這個方塊通過它表面的
+      - 裂縫向世界釋放它的魔法.
+      - 這往往會導致水晶
+      - 會容易出現地底的.
     shards:
       - 1
       - 0
@@ -4276,13 +4276,13 @@ CRACKED_STONE_BRICKS:
     - VOID
     - PHILOSOPHICAL
   story:
-    name: Cracked (石磚)
+    name: 破裂的 (石磚)
     type: VOID
     lore:
-      - This block releases it's magic via
-      - cracks in it's surface into the world.
-      - This often results in underground pockets
-      - of Crystamae.
+      - 這個方塊通過它表面的
+      - 裂縫向世界釋放它的魔法.
+      - 這往往會導致水晶
+      - 會容易出現地底的.
     shards:
       - 1
       - 0
@@ -4322,11 +4322,11 @@ CREEPER_BANNER_PATTERN:
     - HUMAN
     - VOID
   story:
-    name: Star Spangled (苦力怕)
+    name: 星光閃耀 (苦力怕)
     type: HUMAN
     lore:
-      - Absorbs magic generated from the pride
-      - of those observing this pattern.
+      - 吸收觀察者們的
+      - 驕傲所產生的魔法.
     shards:
       - 0
       - 0
@@ -6079,13 +6079,13 @@ DEEPSLATE_COPPER_ORE:
     - ELEMENTAL
     - ALCHEMICAL
   story:
-    name: This Ore That (Deepslate Copper)
+    name: 這個礦或那個礦 (深板岩銅)
     type: ELEMENTAL
     lore:
-      - As ore is formed within stone, it draws
-      - the latent magic from the earth into itself
-      - the types of magic found determine the
-      - ore that will appear.
+      - 當礦在石頭中形成時,
+      - 它會將地底下潛在的魔法
+      - 吸收到自身之中, 所發現的魔法類型
+      - 決定了將出現的礦物種類.
     shards:
       - 1
       - 0
@@ -6126,13 +6126,13 @@ DEEPSLATE_EMERALD_ORE:
     - ELEMENTAL
     - VOID
   story:
-    name: This Ore That (Deepslate Emerald)
+    name: 這個礦或那個礦 (深板岩綠寶石)
     type: ELEMENTAL
     lore:
-      - As ore is formed within stone, it draws
-      - the latent magic from the earth into itself
-      - the types of magic found determine the
-      - ore that will appear.
+      - 當礦在石頭中形成時,
+      - 它會將地底下潛在的魔法
+      - 吸收到自身之中, 所發現的魔法類型
+      - 決定了將出現的礦物種類.
     shards:
       - 1
       - 0
@@ -6149,13 +6149,13 @@ DEEPSLATE_GOLD_ORE:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: This Ore That (Deepslate Gold)
+    name: 這個礦或那個礦 (深板岩金)
     type: ELEMENTAL
     lore:
-      - As ore is formed within stone, it draws
-      - the latent magic from the earth into itself
-      - the types of magic found determine the
-      - ore that will appear.
+      - 當礦在石頭中形成時,
+      - 它會將地底下潛在的魔法
+      - 吸收到自身之中, 所發現的魔法類型
+      - 決定了將出現的礦物種類.
     shards:
       - 1
       - 0
@@ -6172,13 +6172,13 @@ DEEPSLATE_IRON_ORE:
     - ELEMENTAL
     - MECHANICAL
   story:
-    name: This Ore That (Deepslate Iron)
+    name: 這個礦或那個礦 (深板岩鐵)
     type: ELEMENTAL
     lore:
-      - As ore is formed within stone, it draws
-      - the latent magic from the earth into itself
-      - the types of magic found determine the
-      - ore that will appear.
+      - 當礦在石頭中形成時,
+      - 它會將地底下潛在的魔法
+      - 吸收到自身之中, 所發現的魔法類型
+      - 決定了將出現的礦物種類.
     shards:
       - 1
       - 1
@@ -6195,13 +6195,13 @@ DEEPSLATE_LAPIS_ORE:
     - ELEMENTAL
     - CELESTIAL
   story:
-    name: This Ore That (Deepslate Lapis)
+    name: 這個礦或那個礦 (深板岩青金石)
     type: ELEMENTAL
     lore:
-      - As ore is formed within stone, it draws
-      - the latent magic from the earth into itself
-      - the types of magic found determine the
-      - ore that will appear.
+      - 當礦在石頭中形成時,
+      - 它會將地底下潛在的魔法
+      - 吸收到自身之中, 所發現的魔法類型
+      - 決定了將出現的礦物種類.
     shards:
       - 1
       - 0
@@ -6218,13 +6218,13 @@ DEEPSLATE_REDSTONE_ORE:
     - ELEMENTAL
     - MECHANICAL
   story:
-    name: This Ore That (Deepslate Redstone)
+    name: 這個礦或那個礦 (深板岩紅石)
     type: ELEMENTAL
     lore:
-      - As ore is formed within stone, it draws
-      - the latent magic from the earth into itself
-      - the types of magic found determine the
-      - ore that will appear.
+      - 當礦在石頭中形成時,
+      - 它會將地底下潛在的魔法
+      - 吸收到自身之中, 所發現的魔法類型
+      - 決定了將出現的礦物種類.
     shards:
       - 1
       - 1
@@ -7021,13 +7021,13 @@ EMERALD_ORE:
     - ELEMENTAL
     - VOID
   story:
-    name: This Ore That (綠寶石)
+    name: 這個礦或那個礦 (綠寶石)
     type: ELEMENTAL
     lore:
-      - As ore is formed within stone, it draws
-      - the latent magic from the earth into itself
-      - the types of magic found determine the
-      - ore that will appear.
+      - 當礦在石頭中形成時,
+      - 它會將地底下潛在的魔法
+      - 吸收到自身之中, 所發現的魔法類型
+      - 決定了將出現的礦物種類.
     shards:
       - 1
       - 0
@@ -7791,11 +7791,11 @@ FLOWER_BANNER_PATTERN:
     - HUMAN
     - ANIMAL
   story:
-    name: Star Spangled (Flower)
+    name: 星光閃耀 (花)
     type: HUMAN
     lore:
-      - Absorbs magic generated from the pride
-      - of those observing this pattern.
+      - 吸收觀察者們的
+      - 驕傲所產生的魔法.
     shards:
       - 0
       - 0
@@ -8009,11 +8009,11 @@ GLOBE_BANNER_PATTERN:
     - HUMAN
     - HISTORICAL
   story:
-    name: Star Spangled (Globe)
+    name: 星光閃耀 (地球)
     type: HUMAN
     lore:
-      - Absorbs magic generated from the pride
-      - of those observing this pattern.
+      - 吸收觀察者們的
+      - 驕傲所產生的魔法.
     shards:
       - 0
       - 0
@@ -8491,13 +8491,13 @@ GOLD_ORE:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: This Ore That (金)
+    name: 這個礦或那個礦 (金)
     type: ELEMENTAL
     lore:
-      - As ore is formed within stone, it draws
-      - the latent magic from the earth into itself
-      - the types of magic found determine the
-      - ore that will appear.
+      - 當礦在石頭中形成時,
+      - 它會將地底下潛在的魔法
+      - 吸收到自身之中, 所發現的魔法類型
+      - 決定了將出現的礦物種類.
     shards:
       - 1
       - 0
@@ -9594,7 +9594,7 @@ INFESTED_CRACKED_STONE_BRICKS:
     - VOID
     - ANIMAL
   story:
-    name: Infested (Cracked Stone)
+    name: Infested (裂紋石磚)
     type: VOID
     lore:
       - Bursting with the potential of the
@@ -9994,13 +9994,13 @@ IRON_ORE:
     - ELEMENTAL
     - MECHANICAL
   story:
-    name: This Ore That (鐵)
+    name: 這個礦或那個礦 (鐵)
     type: ELEMENTAL
     lore:
-      - As ore is formed within stone, it draws
-      - the latent magic from the earth into itself
-      - the types of magic found determine the
-      - ore that will appear.
+      - 當礦在石頭中形成時,
+      - 它會將地底下潛在的魔法
+      - 吸收到自身之中, 所發現的魔法類型
+      - 決定了將出現的礦物種類.
     shards:
       - 1
       - 1
@@ -10595,13 +10595,13 @@ LAPIS_ORE:
     - ELEMENTAL
     - CELESTIAL
   story:
-    name: This Ore That (青金石)
+    name: 這個礦或那個礦 (青金石)
     type: ELEMENTAL
     lore:
-      - As ore is formed within stone, it draws
-      - the latent magic from the earth into itself
-      - the types of magic found determine the
-      - ore that will appear.
+      - 當礦在石頭中形成時,
+      - 它會將地底下潛在的魔法
+      - 吸收到自身之中, 所發現的魔法類型
+      - 決定了將出現的礦物種類.
     shards:
       - 1
       - 0
@@ -12308,11 +12308,11 @@ MOJANG_BANNER_PATTERN:
     - HUMAN
     - CELESTIAL
   story:
-    name: Star Spangled (Mojang)
+    name: 星光閃耀 (Mojang)
     type: HUMAN
     lore:
-      - Absorbs magic generated from the pride
-      - of those observing this pattern.
+      - 吸收觀察者們的
+      - 驕傲所產生的魔法.
     shards:
       - 0
       - 0
@@ -13395,13 +13395,13 @@ NETHER_GOLD_ORE:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: This Ore That (Nether Gold)
+    name: 這個礦或那個礦 (地獄金)
     type: ELEMENTAL
     lore:
-      - As ore is formed within stone, it draws
-      - the latent magic from the earth into itself
-      - the types of magic found determine the
-      - ore that will appear.
+      - 當礦在石頭中形成時,
+      - 它會將地底下潛在的魔法
+      - 吸收到自身之中, 所發現的魔法類型
+      - 決定了將出現的礦物種類.
     shards:
       - 1
       - 0
@@ -13418,13 +13418,13 @@ NETHER_QUARTZ_ORE:
     - ELEMENTAL
     - CELESTIAL
   story:
-    name: This Ore That (Nether Quartz)
+    name: 這個礦或那個礦 (地獄石英)
     type: ELEMENTAL
     lore:
-      - As ore is formed within stone, it draws
-      - the latent magic from the earth into itself
-      - the types of magic found determine the
-      - ore that will appear.
+      - 當礦在石頭中形成時,
+      - 它會將地底下潛在的魔法
+      - 吸收到自身之中, 所發現的魔法類型
+      - 決定了將出現的礦物種類.
     shards:
       - 1
       - 0
@@ -14412,11 +14412,11 @@ PIGLIN_BANNER_PATTERN:
     - HUMAN
     - ANIMAL
   story:
-    name: Star Spangled (Piglin)
+    name: 星光閃耀 (豬布林)
     type: HUMAN
     lore:
-      - Absorbs magic generated from the pride
-      - of those observing this pattern.
+      - 吸收觀察者們的
+      - 驕傲所產生的魔法.
     shards:
       - 0
       - 0
@@ -14939,7 +14939,7 @@ POLISHED_BLACKSTONE_BRICKS:
     - MECHANICAL
     - HUMAN
   story:
-    name: Time to Gleam (Blackstone Bricks)
+    name: Time to Gleam (拋光黑石磚)
     type: HUMAN
     lore:
       - With a bit of love, any block can
@@ -17661,11 +17661,11 @@ SKULL_BANNER_PATTERN:
     - HUMAN
     - ALCHEMICAL
   story:
-    name: Star Spangled (頭骨)
+    name: 星光閃耀 (骷髏)
     type: HUMAN
     lore:
-      - Absorbs magic generated from the pride
-      - of those observing this pattern.
+      - 吸收觀察者們的
+      - 驕傲所產生的魔法.
     shards:
       - 0
       - 0
