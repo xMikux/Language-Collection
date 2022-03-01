@@ -4299,12 +4299,12 @@ CRAFTING_TABLE:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Endless Potential
+    name: 無限的潛力
     type: HUMAN
     lore:
-      - This table magically creates items with a
-      - minimal amount of materials. How it works
-      - is still a mystery to this day.
+      - 這張桌子神奇的使用了最少
+      - 的材料創造出物品. 直至今天,
+      - 它的工作原理仍然是個謎.
     shards:
       - 0
       - 1
@@ -4694,12 +4694,12 @@ CROSSBOW:
     - HUMAN
     - MECHANICAL
   story:
-    name: Feeling Tense
+    name: 感到緊張
     type: MECHANICAL
     lore:
-      - Feeling constantly tense will fracture
-      - event the strongest mind. The Crossbow
-      - can no longer feel anything but.
+      - 持續緊張的感覺會
+      - 破壞最強打的心靈.
+      - 弩再也感覺不到任何東西, 但...
     shards:
       - 0
       - 1
@@ -4716,12 +4716,12 @@ CRYING_OBSIDIAN:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: A Soft Mewl
+    name: 柔軟喵喵叫
     type: PHILOSOPHICAL
     lore:
-      - The sadness from this block has emanated
-      - through generations. No one knows why and
-      - nor do they ask.
+      - 這個方塊的背包已經代代相傳.
+      - 沒人知道為甚麼,
+      - 它們也甚麼都不問.
     shards:
       - 1
       - 0
@@ -5510,12 +5510,12 @@ DARK_PRISMARINE:
   elements:
     - ANIMAL
   story:
-    name: A Guarded Secret (Dark)
+    name: 被守護的秘密 (黑暗)
     type: ANIMAL
     lore:
-      - Guarded in the depths, these blocks are
-      - not designed to be used by any outside the
-      - temple. All will be reclaimed eventually.
+      - 這些方塊被保護在最深處,
+      - 不適合寺廟外的任何人使用.
+      - 所有東西最終都會被回收.
     shards:
       - 1
       - 0
@@ -5578,11 +5578,11 @@ DAYLIGHT_DETECTOR:
     - MECHANICAL
     - HUMAN
   story:
-    name: Sunny Disposition
+    name: 性格開朗
     type: MECHANICAL
     lore:
-      - The moment the sun hits this awaiting block
-      - it's spirit alights and burns brightly.
+      - 當太陽照射到這個方塊的那一刻,
+      - 它的精神就會被點燃並燃燒起來.
     shards:
       - 1
       - 1
@@ -5731,12 +5731,12 @@ DEAD_BUSH:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Spirit Removed
+    name: 靈魂移除
     type: VOID
     lore:
-      - The dead bush was once bursting with magical
-      - potential. Now it stands strong but with
-      - nothing but a single thread of void.
+      - 枯灌木曾經爆發出神奇的潛力.
+      - 現在的它很堅固, 但除了一絲虛空
+      - 以外甚麼都沒有.
     shards:
       - 0
       - 0
@@ -6103,12 +6103,12 @@ DEEPSLATE_DIAMOND_ORE:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: Attractive Proposition
+    name: 有吸引力的提議
     type: ELEMENTAL
     lore:
-      - A block that cant help but to draw
-      - others to it. It's something forbidden,
-      - a challenge and desired.
+      - 一個方塊無法幫助但
+      - 吸引到其他. 這是一種被禁止,
+      - 挑戰與渴望的東西.
     shards:
       - 2
       - 0
@@ -6241,11 +6241,11 @@ DEEPSLATE_TILES:
     - HUMAN
     - MECHANICAL
   story:
-    name: Neatly Placed
+    name: 擺放整齊
     type: HUMAN
     lore:
-      - A singularly mis-placed tile will stop
-      - the harmonisation of this blocks magics.
+      - 一個奇怪的錯誤放置的磁磚
+      - 會阻止這個方塊的魔法協調.
     shards:
       - 0
       - 1
@@ -6326,12 +6326,12 @@ DETECTOR_RAIL:
     - MECHANICAL
     - HUMAN
   story:
-    name: The down track, tracks down
+    name: 該下車了, 該下車了
     type: MECHANICAL
     lore:
-      - Constantly waiting and watching for anything
-      - to go past. Every time this happens the rail
-      - cries out in joy.
+      - 不斷的等待與觀察任何過去的
+      - 事情. 每次當這種情況發生時,
+      - 鐵軌就會高興的大叫.
     shards:
       - 0
       - 2
@@ -6544,12 +6544,12 @@ DIAMOND_ORE:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: A Supreme Glow
+    name: 燦爛無上的光彩
     type: ELEMENTAL
     lore:
-      - With hard work, it can be yours
-      - but not yet. Hold the potential for
-      - a glow brighter than the glow squid
+      - 通過努力, 它可以成為你的,
+      - 但還沒有. 保持著比發光魷魚
+      - 更發光發亮的潛力
     shards:
       - 2
       - 0
@@ -6615,8 +6615,8 @@ DIAMOND_SWORD:
     type: VOID
     lore:
       - 最終武裝起來, 持有者可以選擇使用劍
-      - to use a sword defensively or aggressively
-      - either way the sword fulfils its purpose
+      - 防禦或者攻擊, 無論哪種方式,
+      - 劍都可以達到其目的
     shards:
       - 0
       - 0
@@ -6633,10 +6633,10 @@ DIORITE:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: Iskall's Finest
+    name: 伊斯卡爾最好的
     type: HUMAN
     lore:
-      - A life of being judged and hated leaves it's mark
+      - 被評判和憎恨的生活留下了它的痕跡
     shards:
       - 2
       - 0
@@ -6653,7 +6653,7 @@ DIORITE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: 半品脫 (Diorite)
+    name: 半品脫 (閃長岩)
     type: HUMAN
     lore:
       - 這小傢伙只有一半大,
@@ -6675,7 +6675,7 @@ DIORITE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: 崛起 (Diorite)
+    name: 崛起 (閃長岩)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
@@ -6697,7 +6697,7 @@ DIORITE_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: 打倒牆壁 (Diorite)
+    name: 打倒牆壁 (閃長岩)
     type: HISTORICAL
     lore:
       - 保護多年的工作,
@@ -6717,12 +6717,12 @@ DIRT:
   elements:
     - ELEMENTAL
   story:
-    name: 基礎
+    name: 腳踏實地
     type: ELEMENTAL
     lore:
-      - 塑造出Minecraft世界的地形
-      - 泥土給了我們
-      - 一個立足之地
+      - 泥土塑造了 Minecraft 世界
+      - 的面貌, 讓我們始終
+      - 腳踏實地.
     shards:
       - 2
       - 0
@@ -6739,12 +6739,12 @@ DIRT_PATH:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Walked all over
+    name: 走遍天下
     type: HUMAN
     lore:
-      - Without complaint, a spirit allows
-      - itself to be walked all over so long
-      - as it feels it's helping others.
+      - 沒有抱怨, 一個精神
+      - 允許自己被踩在腳下,
+      - 這樣它就感覺自己在幫助別人.
     shards:
       - 1
       - 0
@@ -6761,12 +6761,12 @@ DISPENSER:
     - MECHANICAL
     - HUMAN
   story:
-    name: Fire!
+    name: 火焰!
     type: MECHANICAL
     lore:
-      - Being used as a weapon was once tiring but
-      - now nothing brings more satisfaction than
-      - firing at an enemy.
+      - 被當作武器使用曾經很累,
+      - 但現在沒有甚麼比向敵人
+      - 開火更讓人滿足了.
     shards:
       - 0
       - 2
@@ -6783,10 +6783,10 @@ DRAGON_BREATH:
     - VOID
     - ANIMAL
   story:
-    name: Foul
+    name: 犯規
     type: VOID
     lore:
-      - Encapsulated toxins from a scarred soul.
+      - 從傷痕累累的靈魂封裝的毒素.
     shards:
       - 0
       - 0
@@ -6805,12 +6805,12 @@ DRAGON_EGG:
     - ANIMAL
     - PHILOSOPHICAL
   story:
-    name: The End
+    name: 結束
     type: VOID
     lore:
-      - The finality of all things throngs
-      - from within this egg.
-      - Everything must end and all returns.
+      - 所有事物的終局都
+      - 來自這個蛋中.
+      - 一切都必須結束, 一切都必須回歸.
     shards:
       - 2
       - 2
@@ -8407,8 +8407,8 @@ GOLDEN_SWORD:
     type: VOID
     lore:
       - 最終武裝起來, 持有者可以選擇使用劍
-      - to use a sword defensively or aggressively
-      - either way the sword fulfils its purpose
+      - 防禦或者攻擊, 無論哪種方式,
+      - 劍都可以達到其目的
     shards:
       - 0
       - 0
@@ -10065,8 +10065,8 @@ IRON_SWORD:
     type: VOID
     lore:
       - 最終武裝起來, 持有者可以選擇使用劍
-      - to use a sword defensively or aggressively
-      - either way the sword fulfils its purpose
+      - 防禦或者攻擊, 無論哪種方式,
+      - 劍都可以達到其目的
     shards:
       - 0
       - 0
@@ -13224,8 +13224,8 @@ NETHERITE_SWORD:
     type: VOID
     lore:
       - 最終武裝起來, 持有者可以選擇使用劍
-      - to use a sword defensively or aggressively
-      - either way the sword fulfils its purpose
+      - 防禦或者攻擊, 無論哪種方式,
+      - 劍都可以達到其目的
     shards:
       - 0
       - 0
@@ -15496,12 +15496,12 @@ PRISMARINE:
   elements:
     - ANIMAL
   story:
-    name: A Guarded Secret
+    name: 被守護的秘密
     type: ANIMAL
     lore:
-      - Guarded in the depths, these blocks are
-      - not designed to be used by any outside the
-      - temple. All will be reclaimed eventually.
+      - 這些方塊被保護在最深處,
+      - 不適合寺廟外的任何人使用.
+      - 所有東西最終都會被回收.
     shards:
       - 1
       - 0
@@ -15650,7 +15650,7 @@ PRISMARINE_STAIRS:
     - PHILOSOPHICAL
     - ANIMAL
   story:
-    name: 崛起 (Diorite)
+    name: 崛起 (閃長岩)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
@@ -19053,8 +19053,8 @@ STONE_SWORD:
     type: VOID
     lore:
       - 最終武裝起來, 持有者可以選擇使用劍
-      - to use a sword defensively or aggressively
-      - either way the sword fulfils its purpose
+      - 防禦或者攻擊, 無論哪種方式,
+      - 劍都可以達到其目的
     shards:
       - 0
       - 0
