@@ -3437,8 +3437,8 @@ CLAY:
     name: 柔韌 (黏土方塊)
     type: HUMAN
     lore:
-      - 他正等待被塑造成新的東西
-      - 黏土現在很期待它未來的樣子
+      - 急切地等待著形成新的東西.
+      - 黏土期待著它未來的形狀.
     shards:
       - 1
       - 0
@@ -3455,11 +3455,11 @@ CLAY_BALL:
     - ELEMENTAL
     - HUMAN
   story:
-    name: 柔韌(黏土球)
+    name: 柔韌 (球)
     type: HUMAN
     lore:
-      - 他正等待被塑造成新的東西
-      - 黏土現在很期待它未來的樣子
+      - 急切地等待著形成新的東西.
+      - 黏土期待著它未來的形狀.
     shards:
       - 1
       - 0
@@ -3477,11 +3477,11 @@ CLOCK:
     - HISTORICAL
     - HUMAN
   story:
-    name: 騰出時間
+    name: 空閒時間
     type: HUMAN
     lore:
-      - 就算有很多空閒時間
-      - 對於那些罪犯來講還是沒有用的
+      - 由於沒有得到充分利用,
+      - 時鐘最終有很多時間可以利用.e.
     shards:
       - 0
       - 1
@@ -3542,11 +3542,11 @@ COAL_ORE:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: 謙虛的心
+    name: 謙虛的靈魂
     type: PHILOSOPHICAL
     lore:
-      - 你很難在像煤炭一樣
-      - 受歡迎的時候保持謙遜
+      - 當你像是煤炭一樣受歡迎時,
+      - 很難做到謙虛
     shards:
       - 1
       - 0
@@ -3564,11 +3564,11 @@ COARSE_DIRT:
     - ELEMENTAL
     - VOID
   story:
-    name: A Churlish Stain
+    name: 無理的汙點
     type: VOID
     lore:
-      - Years of neglect and filth has made this
-      - dirt imbue a discourteous spirit.
+      - 多年來被無視和污穢,
+      - 使這個泥土充滿著無理的精神.
     shards:
       - 1
       - 0
@@ -3584,11 +3584,11 @@ COBBLED_DEEPSLATE:
   elements:
     - ELEMENTAL
   story:
-    name: Improvised (深板岩)
+    name: 即興創作 (深板岩)
     type: ELEMENTAL
     lore:
-      - 已經變得支離破碎
-      - 鵝卵石渴望回復成它的完整形態
+      - 破碎與支離破碎的, 鵝卵石渴望
+      - 回到它原本的型態.
     shards:
       - 1
       - 0
@@ -3669,11 +3669,11 @@ COBBLESTONE:
   elements:
     - ELEMENTAL
   story:
-    name: 暫時的
+    name: 即興創作
     type: ELEMENTAL
     lore:
-      - 已經變得支離破碎
-      - 鵝卵石渴望回復成它的完整形態
+      - 破碎與支離破碎的, 鵝卵石渴望
+      - 回到它原本的型態.
     shards:
       - 1
       - 0
@@ -3754,12 +3754,12 @@ COBWEB:
   elements:
     - ANIMAL
   story:
-    name: Danger Comes
+    name: 危險來襲
     type: ANIMAL
     lore:
-      - While a comfortable to some, the cobweb
-      - instills fear into most as it denotes nearby
-      - danger.
+      - 雖然對某些人來說很舒服,
+      - 但蜘蛛網還是給大多數人
+      - 來說很恐懼, 因為這表示附近有危險.
     shards:
       - 0
       - 0
@@ -3843,11 +3843,11 @@ COMPARATOR:
     - MECHANICAL
     - HUMAN
   story:
-    name: Versatile Output
+    name: 多功能輸出
     type: MECHANICAL
     lore:
-      - A spirit which loves nothing more than to
-      - sort out the unorganised, inputs to outputs.
+      - 這種精神喜歡把無組織的東西
+      - 整理出來, 從輸入到輸出.
     shards:
       - 0
       - 1
@@ -3864,12 +3864,12 @@ COMPASS:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Not-so-True North
+    name: 不太真實的北方
     type: ELEMENTAL
     lore:
-      - While designed to constantly point
-      - north, for some reason every compass
-      - points to a bed?
+      - 雖然設計為不斷指向北方,
+      - 但出於某種原因,
+      - 每個指南針都指向了一張床?
     shards:
       - 1
       - 1
@@ -3886,12 +3886,12 @@ COMPOSTER:
     - MECHANICAL
     - HUMAN
   story:
-    name: Broken Down
+    name: 破碎的
     type: HUMAN
     lore:
-      - Normally a spirit would dwindle when only
-      - used to decompose material, but the composter
-      - lives for it!
+      - 正常情況下, 只用於
+      - 分解物質的精神會變小,
+      - 但堆肥卻是為它而活!
     shards:
       - 0
       - 1
@@ -3909,13 +3909,13 @@ CONDUIT:
     - ANIMAL
     - PHILOSOPHICAL
   story:
-    name: I Have the Power!
+    name: 我有力量!
     type: ANIMAL
     lore:
-      - The conduit is one of the rare instances
-      - of magic being utilised directly by nature.
-      - While it is also made by humans, the first was
-      - found.
+      - 海靈核心是自然界直接
+      - 使用魔法的罕見例子之一.
+      - 雖然它是由人類製造的,
+      - 但也是第一個被發現的.
     shards:
       - 1
       - 1
@@ -6057,11 +6057,11 @@ DEEPSLATE_COAL_ORE:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: A Humble Soul (深板岩)
+    name: 謙虛的靈魂 (深板岩)
     type: PHILOSOPHICAL
     lore:
-      - 你很難在像煤炭一樣
-      - 受歡迎的時候保持謙遜
+      - 當你像是煤炭一樣受歡迎時,
+      - 很難做到謙虛
     shards:
       - 1
       - 0
