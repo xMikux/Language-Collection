@@ -3437,8 +3437,8 @@ CLAY:
     name: 柔韌 (黏土方塊)
     type: HUMAN
     lore:
-      - 急切地等待著形成新的東西.
-      - 黏土期待著它未來的形狀.
+      - 他正等待被塑造成新的東西
+      - 黏土現在很期待它未來的樣子
     shards:
       - 1
       - 0
@@ -3455,11 +3455,11 @@ CLAY_BALL:
     - ELEMENTAL
     - HUMAN
   story:
-    name: 柔韌 (球)
+    name: 柔韌(黏土球)
     type: HUMAN
     lore:
-      - 急切地等待著形成新的東西.
-      - 黏土期待著它未來的形狀.
+      - 他正等待被塑造成新的東西
+      - 黏土現在很期待它未來的樣子
     shards:
       - 1
       - 0
@@ -3477,11 +3477,11 @@ CLOCK:
     - HISTORICAL
     - HUMAN
   story:
-    name: 空閒時間
+    name: 騰出時間
     type: HUMAN
     lore:
-      - 由於沒有得到充分利用,
-      - 時鐘最終有很多時間可以利用.e.
+      - 就算有很多空閒時間
+      - 對於那些罪犯來講還是沒有用的
     shards:
       - 0
       - 1
