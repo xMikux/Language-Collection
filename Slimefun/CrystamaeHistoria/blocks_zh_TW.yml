@@ -6827,11 +6827,11 @@ DRAGON_HEAD:
     - VOID
     - ANIMAL
   story:
-    name: A worthy sacrifice
+    name: 有價值的犧牲
     type: VOID
     lore:
-      - Her spirit unabashed, a sacrifice made and
-      - a spirit set free.
+      - 她的精神毫不掩飾, 做出了犧牲,
+      - 精神得到了自由.
     shards:
       - 1
       - 1
@@ -6848,11 +6848,11 @@ DRIED_KELP:
     - ELEMENTAL
     - CELESTIAL
   story:
-    name: Castaway
+    name: 拋棄的
     type: CELESTIAL
     lore:
-      - For many, this simple item keeps them
-      - alive during their early days.
+      - 對於許多人來說, 這個簡單
+      - 的物品讓它們在早期保持活力..
     shards:
       - 1
       - 0
@@ -6868,12 +6868,12 @@ DRIED_KELP_BLOCK:
   elements:
     - ELEMENTAL
   story:
-    name: Another use
+    name: 另一種用法
     type: ELEMENTAL
     lore:
-      - This item has lost it's purpose, it only
-      - knows that it doesn't wish to be burnt and
-      - it's spirit yearns for another use.
+      - 這件物品已經失去它的用途,
+      - 它只知道它不想被燒毀,
+      - 它的精神渴望有另一種用途.
     shards:
       - 1
       - 0
@@ -6890,13 +6890,13 @@ DRIPSTONE_BLOCK:
     - ELEMENTAL
     - VOID
   story:
-    name: Permeable (方塊)
+    name: 滲透性 (方塊)
     type: ELEMENTAL
     lore:
-      - The water that slowly filtrates through
-      - this block transfers magics back and
-      - fourth making this block more resonant
-      - than some others.
+      - 慢慢滲透過這個方塊的水
+      - 並將水的魔法傳回,
+      - 使得這個方塊比
+      - 其他方塊更有共鳴.
     shards:
       - 2
       - 0
@@ -14784,13 +14784,13 @@ POINTED_DRIPSTONE:
     - ELEMENTAL
     - VOID
   story:
-    name: Permeable
+    name: 滲透性
     type: ELEMENTAL
     lore:
-      - The water that slowly filtrates through
-      - this block transfers magics back and
-      - fourth making this block more resonant
-      - than some others.
+      - 慢慢滲透過這個方塊的水
+      - 並將水的魔法傳回,
+      - 使得這個方塊比
+      - 其他方塊更有共鳴.
     shards:
       - 2
       - 0
