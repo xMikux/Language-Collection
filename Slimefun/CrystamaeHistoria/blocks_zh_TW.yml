@@ -475,7 +475,7 @@ ANDESITE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: 半品脫 (Andesite)
+    name: 半品脫 (安山岩)
     type: HUMAN
     lore:
       - 這小傢伙只有一半大,
@@ -497,7 +497,7 @@ ANDESITE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: 崛起 (Andesite)
+    name: 崛起 (安山岩)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
@@ -519,7 +519,7 @@ ANDESITE_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: 打倒牆壁 (Andesite)
+    name: 打倒牆壁 (安山岩)
     type: HISTORICAL
     lore:
       - 保護多年的工作,
@@ -6916,9 +6916,9 @@ DROPPER:
     name: 奶油手指餅
     type: MECHANICAL
     lore:
-      - People think the dropper wants to drop
-      - the items it holds. In actual fact, it
-      - feels the loss of every single one.
+      - 人們認為滴管想丟掉它所持
+      - 有的物品。 實際上，它感受
+      - 到了每一件物品的丟失。
     shards:
       - 0
       - 1
@@ -6934,11 +6934,11 @@ EGG:
   elements:
     - ANIMAL
   story:
-    name: Sunny Side Up
+    name: 日光面向上
     type: ANIMAL
     lore:
-      - You have to be careful with puns about
-      - eggs, they really can't take a yolk.
+      - 你必須小心有關雞蛋的雙關語，
+      - 他們真的不能吃蛋黃。
     shards:
       - 1
       - 0
@@ -6955,12 +6955,12 @@ ELYTRA:
     - CELESTIAL
     - VOID
   story:
-    name: A Flight of Magic
+    name: 魔法飛行
     type: CELESTIAL
     lore:
       - It's not known from what animal these
-      - wings came from. It's thought a precursor
-      - to the phantom.
+      - 動物。 它可能是夜魅的前身。
+      - ' '
     shards:
       - 1
       - 0
@@ -7044,12 +7044,12 @@ ENCHANTED_BOOK:
     - ELEMENTAL
     - HUMAN
   story:
-    name: A Scholars Device
+    name: 學者裝置
     type: ELEMENTAL
     lore:
-      - Previous iterations of magical manipulations
-      - required forcing the magics into the written
-      - page. While blunt, this method is still effective.
+      - 以前的魔法操作迭代需要將魔法
+      - 強制寫入書面頁面。 雖然直截了
+      - 當，但這種方法仍然有效。
     shards:
       - 2
       - 0
@@ -7069,8 +7069,8 @@ ENCHANTED_GOLDEN_APPLE:
     name: Notch's Own
     type: ELEMENTAL
     lore:
-      - Made both for, and by, the creator. This
-      - apple has a most immense power.
+      - 為造物主製作，由造物主製作。這
+      - 蘋果擁有最強大的力量。
     shards:
       - 2
       - 1
@@ -7090,7 +7090,7 @@ ENCHANTING_TABLE:
     name: Magi's Might
     type: CELESTIAL
     lore:
-      - Imbued with the pure essence of old
+      - 充滿了老魔術師的純淨精華。 雖然
       - Magi. While not usable by all, those
       - who do are destined for greatness.
     shards:
@@ -7110,7 +7110,7 @@ ENDER_CHEST:
     - VOID
     - MECHANICAL
   story:
-    name: A Not-Endless Void
+    name: 無盡的虛空
     type: VOID
     lore:
       - This chest seems to hold the power
@@ -14851,7 +14851,7 @@ POLISHED_ANDESITE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: 半品脫 (Polished Andesite)
+    name: Half Pint (拋光安山岩)
     type: HUMAN
     lore:
       - 這小傢伙只有一半大,
@@ -14873,7 +14873,7 @@ POLISHED_ANDESITE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: 崛起 (Polished Andesite)
+    name: Rising on up (拋光安山岩)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
