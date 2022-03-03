@@ -7087,7 +7087,7 @@ ENCHANTING_TABLE:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Magi's Might
+    name: 魔法師的力量
     type: CELESTIAL
     lore:
       - 充滿了老魔術師的純淨精華。 雖然
@@ -7359,9 +7359,9 @@ EXPOSED_COPPER:
     name: Feeling Exposed
     type: PHILOSOPHICAL
     lore:
-      - Even a block can be shy, the more copper
-      - is out in public, the more it tried to
-      - hide itself away.
+      - 即使是方塊也會害羞，
+      - 銅越是在公共場合，就
+      - 越是想把自己藏起來。
     shards:
       - 1
       - 0
@@ -7440,12 +7440,12 @@ FEATHER:
   elements:
     - ANIMAL
   story:
-    name: Don't be a chicken!
+    name: 不要做一個膽小鬼！
     type: ANIMAL
     lore:
-      - Each feather remembers the living thing
-      - it came from and will still draw magical
-      - essence from it when possible
+      - 每根羽毛都能記住它從哪
+      - 來的，並且會盡可能的從
+      - 它身上汲取魔法精華。
     shards:
       - 0
       - 0
@@ -7461,7 +7461,7 @@ FERMENTED_SPIDER_EYE:
   elements:
     - VOID
   story:
-    name: Demonic Essence
+    name: 惡魔精華
     type: VOID
     lore:
       - The process of fermenting a spiders eye
@@ -7487,9 +7487,9 @@ FERN:
     name: Crouching Taiga
     type: CELESTIAL
     lore:
-      - A fern stores what little Crysta it takes
-      - from the world and releases it when it spreads
-      - its spores.
+      - 蕨類植物會儲存它從世界
+      - 上獲取的少量小水晶，並
+      - 在傳播孢子時將其釋放。
     shards:
       - 1
       - 0
@@ -7506,7 +7506,7 @@ FILLED_MAP:
     - HISTORICAL
     - HUMAN
   story:
-    name: Age of Discovery (Filled)
+    name: 發現時代 (已滿)
     type: HISTORICAL
     lore:
       - With the corners still to find, explorers from
