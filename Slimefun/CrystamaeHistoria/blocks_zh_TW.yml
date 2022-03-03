@@ -6958,9 +6958,9 @@ ELYTRA:
     name: 魔法飛行
     type: CELESTIAL
     lore:
-      - It's not known from what animal these
-      - 動物。 它可能是夜魅的前身。
-      - ' '
+      - 目前還不清楚這些翅膀來
+      - 自什麼動物。這可能是夜
+      - 魅的前身。
     shards:
       - 1
       - 0
@@ -7090,9 +7090,9 @@ ENCHANTING_TABLE:
     name: 魔法師的力量
     type: CELESTIAL
     lore:
-      - 充滿了老魔術師的純淨精華。 雖然
-      - Magi. While not usable by all, those
-      - who do are destined for greatness.
+      - 灌注了老魔術師的純正精華。雖
+      - 然不是所有人都可以使用，但那
+      - 些人注定要成為偉大的人。
     shards:
       - 0
       - 0
@@ -7159,10 +7159,10 @@ ENDER_PEARL:
     name: Encapsulate
     type: VOID
     lore:
-      - The unique make-up of the Ender Pearl
-      - means it's able to store magic without
-      - changing its state. Allowing both Imbued
-      - and Gilded forms or storage.
+      - 終界珍珠的獨特構造意味
+      - 著它能夠在不改變狀態的
+      - 情況下儲存魔法。允許灌
+      - 輸和鍍金形式或存儲。
     shards:
       - 1
       - 0
@@ -7183,9 +7183,9 @@ END_CRYSTAL:
     name: Tied to the Void
     type: VOID
     lore:
-      - The End Crystal is intrinsically tied to
-      - the void and the End Dragon. So much so that
-      - a single tap can force a tear into space.
+      - 終界水晶本質上與虛空
+      - 和終界龍息息相關。以
+      - 至於輕輕一按就可以強
     shards:
       - 2
       - 1
@@ -7202,7 +7202,7 @@ END_ROD:
     - CELESTIAL
     - VOID
   story:
-    name: Shining Bright
+    name: 行撕裂進入太空。
     type: CELESTIAL
     lore:
       - Seemingly created by the Purpur engineers,
