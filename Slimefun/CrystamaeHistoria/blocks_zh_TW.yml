@@ -7838,8 +7838,8 @@ FURNACE:
     name: 熊熊烈火
     type: ELEMENTAL
     lore:
-      - A roaring fire that feeds on the
-      - creativity of it's creator.
+      - 熊熊燃燒的火焰，以它
+      - 創造者的創造力為食。
     shards:
       - 1
       - 1
@@ -7856,12 +7856,12 @@ FURNACE_MINECART:
     - MECHANICAL
     - HUMAN
   story:
-    name: A Rolling Minecart... (Furnace)
+    name: 滾動的礦車… (熔爐)
     type: MECHANICAL
     lore:
-      - ...Gathers No Moss. The singular largest
-      - leap in minecraft tech, the minecart has
-      - more uses than one may think.
+      - '… 沒有苔蘚。作為創世神'
+      - 技術的最大飛躍，礦車的
+      - 用途比人們想像的要多。
     shards:
       - 0
       - 2
@@ -7878,12 +7878,12 @@ GHAST_TEAR:
     - ANIMAL
     - VOID
   story:
-    name: A Tear Shed
+    name: 淚流滿面
     type: VOID
     lore:
-      - The Ghast wonders why no one has made the
-      - link that everyone it meets eventually
-      - makes it cry.
+      - 地獄幽靈想知道為什
+      - 麼每個它遇到的陌生
+      - 人最終都讓它哭了。
     shards:
       - 0
       - 0
@@ -7900,12 +7900,12 @@ GILDED_BLACKSTONE:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: Rich Facade
+    name: 貴重的外觀
     type: PHILOSOPHICAL
     lore:
-      - A spirit so determined to put on a face
-      - and pretend to be something it isn't that
-      - it has now forgotten its own identity.
+      - 一個決心裝出一張臉假裝成
+      - 某樣東西的靈魂，它現在已
+      - 經忘記自己原來的身份。
     shards:
       - 1
       - 0
@@ -7923,11 +7923,11 @@ GLASS:
     - HUMAN
     - ALCHEMICAL
   story:
-    name: Seen Through
+    name: 透視
     type: PHILOSOPHICAL
     lore:
-      - As hard as glass tries, it isn't able to
-      - hide its true self, being seen right through.
+      - 儘管玻璃很努力，但它無法隱藏
+      - 其真實的自我，被別人一眼看穿。
     shards:
       - 0
       - 1
@@ -7947,9 +7947,9 @@ GLASS_BOTTLE:
     name: Bottle It Up
     type: ALCHEMICAL
     lore:
-      - Every bottle dreams of the day its placed
-      - into a brewing stand to become something
-      - more than it is and to embrace the magic.
+      - 每一個瓶子都夢想著有一天它
+      - 被放置在釀造架上，成為超越
+      - 自己並擁抱魔力的那一天。
     shards:
       - 1
       - 0
@@ -7970,8 +7970,8 @@ GLASS_PANE:
     name: Seen Through (Pane)
     type: PHILOSOPHICAL
     lore:
-      - As hard as glass tries, it isn't able to
-      - hide its true self, being seen right through.
+      - 儘管玻璃很努力，但它無法隱藏
+      - 其真實的自我，被別人一眼看穿。
     shards:
       - 0
       - 1
@@ -7988,11 +7988,11 @@ GLISTERING_MELON_SLICE:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Tooth Pain
+    name: 牙疼
     type: HUMAN
     lore:
-      - It's covered in gold.. what else did you
-      - expect when you ate it?
+      - 它被金子覆蓋著… 當你吃
+      - 的時候，你在期望什麼？
     shards:
       - 1
       - 0
