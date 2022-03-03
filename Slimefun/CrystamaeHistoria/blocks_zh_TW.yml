@@ -8029,12 +8029,12 @@ GLOWSTONE:
   elements:
     - ALCHEMICAL
   story:
-    name: Iridescent
+    name: 虹彩
     type: ALCHEMICAL
     lore:
-      - Found only in the hottest of locations,
-      - it is still unknown how or why this
-      - stone glows.
+      - 只在最熱的地方發現，
+      - 目前仍不知道這種石頭
+      - 是如何或為何發光的。
     shards:
       - 0
       - 0
@@ -8051,12 +8051,12 @@ GLOWSTONE_DUST:
   elements:
     - ALCHEMICAL
   story:
-    name: Iridescent (Dust)
+    name: 虹彩 (灰塵)
     type: ALCHEMICAL
     lore:
-      - Found only in the hottest of locations,
-      - it is still unknown how or why this
-      - stone glows.
+      - 只在最熱的地方發現，
+      - 目前仍不知道這種石頭
+      - 是如何或為何發光的。
     shards:
       - 0
       - 0
@@ -8096,7 +8096,7 @@ GLOW_INK_SAC:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Bioluminescent
+    name: 生物光源
     type: CELESTIAL
     lore:
       - Like the Glow Berry, the spirit of the Glow
@@ -8471,10 +8471,10 @@ GOLD_NUGGET:
     name: Formation (金)
     type: ELEMENTAL
     lore:
-      - Like most elemental magics, the Crysta
-      - in a nugget longs to be paired with other
-      - matching forms but without the power to
-      - influence this.
+      - 與發光漿果一樣，發光
+      - 烏賊的靈魂能夠吸收和
+      - 反映天體的匹配形式，
+      - 但沒有影響它的力量。
     shards:
       - 1
       - 0
