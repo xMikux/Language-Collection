@@ -6916,8 +6916,8 @@ DROPPER:
     name: 花生巧克力棒
     type: MECHANICAL
     lore:
-      - 人們認為投擲器想丟掉它所持
-      - 有的物品。 實際上，它感受
+      - 人們認為投擲器想要丟棄它
+      - 持有的物品。事實上，它感
       - 到了每一件物品的丟失。
     shards:
       - 0
@@ -7509,9 +7509,9 @@ FILLED_MAP:
     name: 發現時代 (已滿)
     type: HISTORICAL
     lore:
-      - With the corners still to find, explorers from
-      - far and wide still set out the chart the
-      - uncharted.
+      - 由於仍有待尋找的角落，
+      - 來自遠方的探險者仍在出
+      - 發尋找未知的領域。
     shards:
       - 0
       - 0
@@ -7528,13 +7528,13 @@ FIREWORK_ROCKET:
     - ALCHEMICAL
     - HUMAN
   story:
-    name: Alchemical Starlight
+    name: 煉金的星光
     type: ALCHEMICAL
     lore:
-      - Bursting with power, when lit the fireworks
-      - release all their potential within a few
-      - moments which drives the surrounding Crysta
-      - wild.
+      - 點燃後的煙花迸發出巨
+      - 大的力量，在片刻間釋
+      - 放出所有的能量，使周
+      - 圍的水晶瘋狂。
     shards:
       - 1
       - 0
@@ -7554,9 +7554,9 @@ FIREWORK_STAR:
     name: Star of the show
     type: ALCHEMICAL
     lore:
-      - This item leans towards the superficial,
-      - enjoying changing up its look as frequently
-      - as possible.
+      - 這個物品偏向於膚
+      - 淺，喜歡盡可能頻
+      - 繁地改變其外觀。
     shards:
       - 1
       - 0
@@ -7575,9 +7575,9 @@ FIRE_CHARGE:
     name: Potentiation
     type: ELEMENTAL
     lore:
-      - Creation of fire in the palm of your
-      - hands. The potential energy directly
-      - translates to Crysta.
+      - 在你的手掌中創造
+      - 火焰。潛在的能量
+      - 直接轉化為晶體。
     shards:
       - 2
       - 0
@@ -7660,12 +7660,12 @@ FISHING_ROD:
     - HUMAN
     - VOID
   story:
-    name: Finding Nemo
+    name: 去找尼奧吧
     type: VOID
     lore:
-      - Despite no fish being present, the
-      - fishing rod can still find and catch them
-      - with ease. It's unknown why this works.
+      - 儘管沒有魚出現，但魚竿仍能
+      - 輕鬆地找到並釣到魚。不知道
+      - 為什麼會有這樣的效果。
     shards:
       - 0
       - 1
@@ -7682,12 +7682,12 @@ FLETCHING_TABLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: The Wild Bowyer
+    name: 野生的鮑耶爾
     type: HISTORICAL
     lore:
-      - Tales tell of a bowyer who lived in the wild
-      - using nothing but his hunting and fletching
-      - skills to live. His skills died with him.
+      - 傳說中，有一個弓箭手在野外生活，
+      - 他只使用他的狩獵和製箭技能來維生
+      - '。他的技能隨他的離世而消失。'
     shards:
       - 0
       - 1
@@ -7704,11 +7704,11 @@ FLINT:
     - HISTORICAL
     - MECHANICAL
   story:
-    name: Enter the Stone Age
+    name: 進入石器時代
     type: MECHANICAL
     lore:
-      - Flint is your first step into creating
-      - usable tools and will.... wait.. what?
+      - 燧石是你創建可用工具的第一步，
+      - 並且將.. 呃.. 等等.. 什麼？
       - This isn't GregTech!?
     shards:
       - 0
@@ -7728,9 +7728,9 @@ FLINT_AND_STEEL:
     name: Potentiation (Flint)
     type: ELEMENTAL
     lore:
-      - Creation of fire in the palm of your
-      - hands. The potential energy directly
-      - translates to Crysta.
+      - 在你的手掌中創造
+      - 火焰。潛在的能量
+      - 直接轉化為晶體。
     shards:
       - 2
       - 0
@@ -7750,9 +7750,9 @@ FLOWERING_AZALEA:
     name: A Flourishing Anima
     type: ELEMENTAL
     lore:
-      - While not all azalea flowers, those that do
-      - draw in as much magical energy as they can
-      - to bloom wild and free.
+      - 雖然不是所有的杜鵑花，但那些
+      - 杜鵑花為了瘋狂而自由地綻放，
+      - 都會盡可能地吸收魔法能量。
     shards:
       - 1
       - 0
@@ -7772,9 +7772,9 @@ FLOWERING_AZALEA_LEAVES:
     name: A Flourishing Anima (Leaves)
     type: ELEMENTAL
     lore:
-      - While not all azalea flowers, those that do
-      - draw in as much magical energy as they can
-      - to bloom wild and free.
+      - 雖然不是所有的杜鵑花，但那些
+      - 杜鵑花為了瘋狂而自由地綻放，
+      - 都會盡可能地吸收魔法能量。
     shards:
       - 1
       - 0
@@ -7812,12 +7812,12 @@ FLOWER_POT:
     - ELEMENTAL
     - CELESTIAL
   story:
-    name: A Simple Home
+    name: 簡單的家
     type: CELESTIAL
     lore:
-      - A budding bulb turns into a blossoming
-      - flower with the help of this wonderful,
-      - temporary, home.
+      - 在這個奇妙、臨時的家的幫
+      - 助下，一個才剛萌芽的球莖
+      - 變成了一朵盛開的花朵。
     shards:
       - 1
       - 0
@@ -7835,7 +7835,7 @@ FURNACE:
     - MECHANICAL
     - HUMAN
   story:
-    name: A Roaring Fire
+    name: 熊熊烈火
     type: ELEMENTAL
     lore:
       - A roaring fire that feeds on the
@@ -8077,9 +8077,9 @@ GLOW_BERRIES:
     name: Inner Light (Berries)
     type: CELESTIAL
     lore:
-      - It's unknown how or why, but this spirit
-      - is able to tap into local Celestial Crysta
-      - and convert it into light.
+      - 不知道怎麼做，也不知道為什
+      - 麼，但這種精神能夠利用當地
+      - 的天體水晶，並將其轉化為光。
     shards:
       - 1
       - 0
