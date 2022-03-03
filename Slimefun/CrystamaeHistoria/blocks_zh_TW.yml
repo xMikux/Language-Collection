@@ -4548,7 +4548,7 @@ CRIMSON_PRESSURE_PLATE:
     type: VOID
     lore:
       - 到處行走會下降任何
-      - spirit.
+      - 靈魂
     shards:
       - 0
       - 2
@@ -5369,7 +5369,7 @@ DARK_OAK_PRESSURE_PLATE:
     type: VOID
     lore:
       - 到處行走會下降任何
-      - spirit.
+      - 靈魂
     shards:
       - 0
       - 2
