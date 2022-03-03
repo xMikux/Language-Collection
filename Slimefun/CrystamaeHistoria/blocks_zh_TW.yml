@@ -7066,7 +7066,7 @@ ENCHANTED_GOLDEN_APPLE:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Notch's Own
+    name: Notch 的所有物
     type: ELEMENTAL
     lore:
       - 為造物主製作，由造物主製作。這
@@ -7113,10 +7113,10 @@ ENDER_CHEST:
     name: 無盡的虛空
     type: VOID
     lore:
-      - This chest seems to hold the power
-      - of teleportation if when two are
-      - placed. It feels like a void but
-      - it always gets full
+      - 如果放置兩個這種箱子，
+      - 似乎會擁有傳送的力量。
+      - 它感覺像一個空洞，但它
+      - 也會被填滿。
     shards:
       - 0
       - 1
@@ -7135,11 +7135,11 @@ ENDER_EYE:
     - HISTORICAL
     - VOID
   story:
-    name: A Watchful Gaze
+    name: 守望者的凝視
     type: HISTORICAL
     lore:
-      - Every Ender Eye is magically tied to the
-      - dimension it came from.
+      - 每一顆終界之眼都與它所來
+      - 自的維度有著神奇的聯繫。
     shards:
       - 1
       - 0
@@ -7156,7 +7156,7 @@ ENDER_PEARL:
     - ELEMENTAL
     - VOID
   story:
-    name: Encapsulate
+    name: 封裝
     type: VOID
     lore:
       - 終界珍珠的獨特構造意味
@@ -7180,12 +7180,12 @@ END_CRYSTAL:
     - CELESTIAL
     - VOID
   story:
-    name: Tied to the Void
+    name: 與虛空相綁
     type: VOID
     lore:
-      - 終界水晶本質上與虛空
-      - 和終界龍息息相關。以
-      - 至於輕輕一按就可以強
+      - 終界水晶本質上與虛空和終界
+      - 龍息息相關。以至於輕輕一按
+      - 就可以強行撕裂進入太空。
     shards:
       - 2
       - 1
@@ -7205,8 +7205,8 @@ END_ROD:
     name: 行撕裂進入太空。
     type: CELESTIAL
     lore:
-      - Seemingly created by the Purpur engineers,
-      - it's unknown how the light is produced.
+      - 似乎是由紫珀工程師創造的，但
+      - 不知道這種光是如何產生的。
     shards:
       - 0
       - 0
@@ -7224,13 +7224,13 @@ END_STONE:
     - ELEMENTAL
     - VOID
   story:
-    name: Unknown Form
+    name: 未知形式
     type: ELEMENTAL
     lore:
-      - The process in which End Stone is formed
-      - is unknown and shrouded in mystery.
-      - The magic resonating from it does not match
-      - normal frequencies.
+      - 終界石形成過程不為人知，一
+      - 直籠罩在神秘的陰影之下。
+      - 從它身上產生的魔力
+      - 與正常頻率不符。
     shards:
       - 1
       - 0
@@ -7334,12 +7334,12 @@ EXPERIENCE_BOTTLE:
     - HUMAN
     - CELESTIAL
   story:
-    name: Bottled Growth
+    name: 瓶裝增長
     type: HUMAN
     lore:
-      - Knowledge is liquefied in a similar process
-      - to Crystamae and bottled for later use. These
-      - bottles inspired the first Crysta experiments.
+      - 知識在與水晶類似的過程中被液
+      - 化，並裝入瓶中供以後使用。這
+      - 些瓶子啟發了第一批水晶實驗。
     shards:
       - 0
       - 0
@@ -7356,7 +7356,7 @@ EXPOSED_COPPER:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: Feeling Exposed
+    name: 感覺暴露
     type: PHILOSOPHICAL
     lore:
       - 即使是方塊也會害羞，
