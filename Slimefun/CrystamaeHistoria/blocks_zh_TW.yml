@@ -8121,10 +8121,10 @@ GLOW_ITEM_FRAME:
     name: A Step Ahead
     type: HUMAN
     lore:
-      - As with everything, humans took something new
-      - and beautiful and tore it apart for their own
-      - purposes. While still emitting light, the Celestial
-      - Crysta has converted to Void.
+      - 與所有事物一樣，人類為了
+      - 自己的目的，將美麗的東西
+      - 撕碎。雖然天體水晶還在發
+      - 光，但它已經轉化為虛空。
     shards:
       - 0
       - 1
@@ -8144,9 +8144,9 @@ GLOW_LICHEN:
     name: Inner Light (Lichen)
     type: CELESTIAL
     lore:
-      - It's unknown how or why, but this spirit
-      - is able to tap into local Celestial Crysta
-      - and convert it into light.
+      - 不知道怎麼做，也不知道為什
+      - 麼，但這種精神能夠利用當地
+      - 的天體水晶，並將其轉化為光。
     shards:
       - 1
       - 0
@@ -8517,8 +8517,8 @@ GRANITE:
     name: Coarse
     type: ELEMENTAL
     lore:
-      - As stone's prettier sibling, Granite is known
-      - for being big-headed and self-absorbed
+      - 作為石頭的漂亮兄弟姐妹，
+      - 花崗岩以其傲慢和自我陶醉而聞名。
     shards:
       - 2
       - 0
