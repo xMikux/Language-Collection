@@ -6913,10 +6913,10 @@ DROPPER:
     - MECHANICAL
     - HUMAN
   story:
-    name: 奶油手指餅
+    name: Butter Fingers!
     type: MECHANICAL
     lore:
-      - 人們認為滴管想丟掉它所持
+      - 人們認為投擲器想丟掉它所持
       - 有的物品。 實際上，它感受
       - 到了每一件物品的丟失。
     shards:
