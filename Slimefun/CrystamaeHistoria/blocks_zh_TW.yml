@@ -8167,8 +8167,8 @@ GOLDEN_APPLE:
     name: How on earth? (Apple)
     type: HUMAN
     lore:
-      - How do people even eat this? It's
-      - covered in actual gold...
+      - 人們怎麼會吃這個？
+      - 它被真正的黃金覆蓋…
     shards:
       - 0
       - 0
@@ -8233,8 +8233,8 @@ GOLDEN_CARROT:
     name: How on earth? (胡蘿蔔)
     type: HUMAN
     lore:
-      - How do people even eat this? It's
-      - covered in actual gold...
+      - 人們怎麼會吃這個？
+      - 它被真正的黃金覆蓋…
     shards:
       - 0
       - 0
@@ -8600,12 +8600,12 @@ GRASS:
     - ANIMAL
     - ELEMENTAL
   story:
-    name: Where it begins
+    name: 從哪裡開始
     type: ANIMAL
     lore:
-      - The beginning of most food webs, grass
-      - brings life into the world and drives
-      - it ever-forward.
+      - 作為大多數食物網的開端，
+      - 草為世界帶來了生命，並推
+      - 動它不斷向前發展。
     shards:
       - 1
       - 0
@@ -9199,9 +9199,9 @@ GRINDSTONE:
     name: Ground Down
     type: MECHANICAL
     lore:
-      - The Grindstone loves to grind, crush and
-      - generally destroy whatever it can get at.
-      - If it could, it would grind the world.
+      - 砂輪喜歡研磨、粉碎和破
+      - 壞它能得到的東西。如果
+      - 可以，它會碾碎世界。
     shards:
       - 0
       - 1
@@ -9218,11 +9218,11 @@ GUNPOWDER:
     - ELEMENTAL
     - VOID
   story:
-    name: Explosive Personality
+    name: 易爆
     type: VOID
     lore:
-      - Primed and ready, this is a Creeper's
-      - last-ditch attempt to try to ruin your day!
+      - 準備就緒，這是苦力怕最後
+      - 的嘗試，試圖毀掉你的一天！
     shards:
       - 1
       - 0
@@ -9242,9 +9242,9 @@ HANGING_ROOTS:
     name: Just Hanging Out
     type: ANIMAL
     lore:
-      - A very plain and simple spirit, these
-      - roots love nothing more than to just
-      - hang around and relax
+      - 一種非常樸素和簡單
+      - 的靈魂，這些懸根只
+      - 喜歡閒逛和放鬆。
     shards:
       - 1
       - 0
@@ -9264,9 +9264,9 @@ HAY_BLOCK:
     name: Llama's Lament
     type: ANIMAL
     lore:
-      - Endlessly dreaming of being given to a
-      - llama, the Hay block is willing to give
-      - itself for the furtherment of others.
+      - 無休止地夢想著被送給
+      - 駱駝，乾草塊願意為了
+      - 他人的發展奉獻自己。
     shards:
       - 1
       - 0
@@ -9286,10 +9286,10 @@ HEART_OF_THE_SEA:
     name: Oceanic Draw
     type: CELESTIAL
     lore:
-      - The Heart of the Sea constantly draws Crysta
-      - from the oceans while forming. The resultant
-      - item is more potent than any single Crystamae
-      - Crystal.
+      - 海洋之心在形成時不斷
+      - 從海洋中汲取水晶。由
+      - 此形成的物品比任何單
+      - 個水晶都更有功效。
     shards:
       - 2
       - 0
@@ -9328,7 +9328,7 @@ HONEYCOMB:
   elements:
     - ANIMAL
   story:
-    name: Wax On!
+    name: 上蠟!
     type: ANIMAL
     lore:
       - This waxy substance is used to protect
