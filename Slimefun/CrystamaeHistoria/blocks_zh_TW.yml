@@ -9331,9 +9331,9 @@ HONEYCOMB:
     name: 上蠟!
     type: ANIMAL
     lore:
-      - This waxy substance is used to protect
-      - those items that do not like the open
-      - air.
+      - 這種蠟質物質是
+      - 用來保護那些不
+      - 喜歡露天的物品。
     shards:
       - 0
       - 0
@@ -9352,9 +9352,9 @@ HONEYCOMB_BLOCK:
     name: Wax On! (方塊)
     type: ANIMAL
     lore:
-      - This waxy substance is used to protect
-      - those items that do not like the open
-      - air.
+      - 這種蠟質物質是
+      - 用來保護那些不
+      - 喜歡露天的物品。
     shards:
       - 0
       - 0
@@ -9374,9 +9374,9 @@ HONEY_BLOCK:
     name: A Sticky Situation (Honey)
     type: ALCHEMICAL
     lore:
-      - Desperate to not be alone, this block
-      - will cling to anything it can and will
-      - not let go.
+      - 渴望不再孤單，這個方塊
+      - 將緊緊抓住任何可以抓住
+      - 的東西，不會放手。
     shards:
       - 0
       - 0
@@ -9396,9 +9396,9 @@ HONEY_BOTTLE:
     name: Nectar of the Gods
     type: ALCHEMICAL
     lore:
-      - With a vast variety of unknown healing properties,
-      - honey has untapped potential which will come to
-      - light... soon™...
+      - 蜂蜜具有多種未知的治療
+      - 特性，其未開發的潛力將
+      - 很快顯現出來™…
     shards:
       - 0
       - 0
@@ -9418,9 +9418,9 @@ HOPPER:
     name: Diversion
     type: VOID
     lore:
-      - A hopper gets all of its joy from taking
-      - something from its true path and moving it
-      - elsewhere. Who know hoppers were such tricksters.
+      - 漏斗的所有快樂都來自於將物品
+      - 從原本的路徑上移到其他地方。
+      - 誰會知道漏斗是這樣的搗蛋鬼。
     shards:
       - 0
       - 2
@@ -9437,12 +9437,12 @@ HOPPER_MINECART:
     - MECHANICAL
     - HUMAN
   story:
-    name: A Rolling Minecart... (Hopper)
+    name: 滾動的礦車…… (漏斗)
     type: MECHANICAL
     lore:
-      - ...Gathers No Moss. The singular largest
-      - leap in minecraft tech, the minecart has
-      - more uses than one may think.
+      - '…不採集苔蘚。作為創世神'
+      - 技術的最大飛躍，礦車的
+      - 用途比人們想像的要多。
     shards:
       - 0
       - 2
@@ -9551,10 +9551,10 @@ INFESTED_CHISELED_STONE_BRICKS:
     name: Infested (Chiseled Stone)
     type: VOID
     lore:
-      - Bursting with the potential of the
-      - parasitic dweller. The magics of this
-      - block are drained over time to feed it's
-      - needs.
+      - 迸發著寄居者的潛能。
+      - 這個方塊的魔力會隨著
+      - 時間的推移被耗盡，以
+      - 滿足它的需要。
     shards:
       - 0
       - 0
@@ -9574,10 +9574,10 @@ INFESTED_COBBLESTONE:
     name: Infested (鵝卵石)
     type: VOID
     lore:
-      - Bursting with the potential of the
-      - parasitic dweller. The magics of this
-      - block are drained over time to feed it's
-      - needs.
+      - 迸發著寄居者的潛能。
+      - 這個方塊的魔力會隨著
+      - 時間的推移被耗盡，以
+      - 滿足它的需要。
     shards:
       - 0
       - 0
@@ -9597,10 +9597,10 @@ INFESTED_CRACKED_STONE_BRICKS:
     name: Infested (裂紋石磚)
     type: VOID
     lore:
-      - Bursting with the potential of the
-      - parasitic dweller. The magics of this
-      - block are drained over time to feed it's
-      - needs.
+      - 迸發著寄居者的潛能。
+      - 這個方塊的魔力會隨著
+      - 時間的推移被耗盡，以
+      - 滿足它的需要。
     shards:
       - 0
       - 0
@@ -9620,10 +9620,10 @@ INFESTED_DEEPSLATE:
     name: Infested (深板岩)
     type: VOID
     lore:
-      - Bursting with the potential of the
-      - parasitic dweller. The magics of this
-      - block are drained over time to feed it's
-      - needs.
+      - 迸發著寄居者的潛能。
+      - 這個方塊的魔力會隨著
+      - 時間的推移被耗盡，以
+      - 滿足它的需要。
     shards:
       - 0
       - 0
@@ -9643,10 +9643,10 @@ INFESTED_MOSSY_STONE_BRICKS:
     name: Infested (青苔石磚)
     type: VOID
     lore:
-      - Bursting with the potential of the
-      - parasitic dweller. The magics of this
-      - block are drained over time to feed it's
-      - needs.
+      - 迸發著寄居者的潛能。
+      - 這個方塊的魔力會隨著
+      - 時間的推移被耗盡，以
+      - 滿足它的需要。
     shards:
       - 0
       - 0
@@ -9666,10 +9666,10 @@ INFESTED_STONE:
     name: Infested (石頭)
     type: VOID
     lore:
-      - Bursting with the potential of the
-      - parasitic dweller. The magics of this
-      - block are drained over time to feed it's
-      - needs.
+      - 迸發著寄居者的潛能。
+      - 這個方塊的魔力會隨著
+      - 時間的推移被耗盡，以
+      - 滿足它的需要。
     shards:
       - 0
       - 0
@@ -9689,10 +9689,10 @@ INFESTED_STONE_BRICKS:
     name: Infested (石磚)
     type: VOID
     lore:
-      - Bursting with the potential of the
-      - parasitic dweller. The magics of this
-      - block are drained over time to feed it's
-      - needs.
+      - 迸發著寄居者的潛能。
+      - 這個方塊的魔力會隨著
+      - 時間的推移被耗盡，以
+      - 滿足它的需要。
     shards:
       - 0
       - 0
