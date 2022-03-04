@@ -8099,9 +8099,9 @@ GLOW_INK_SAC:
     name: 生物光源
     type: CELESTIAL
     lore:
-      - Like the Glow Berry, the spirit of the Glow
-      - Squid is able to absorb and reflect Celestial
-      - Crysta back into the world as light.
+      - 與發光漿果一樣，發光魷魚
+      - 的靈魂能夠吸收並將天體水
+      - 晶如光反射到世界上。
     shards:
       - 0
       - 0
