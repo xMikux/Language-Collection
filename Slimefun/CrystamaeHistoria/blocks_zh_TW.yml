@@ -13722,8 +13722,8 @@ OAK_PRESSURE_PLATE:
     name: 在壓力之下 (橡木)
     type: VOID
     lore:
-      - 到處行走會下降任何
-      - spirit.
+      - 被人走了一圈，
+      - 會讓它精神崩潰。
     shards:
       - 0
       - 2
