@@ -7464,10 +7464,10 @@ FERMENTED_SPIDER_EYE:
     name: 惡魔精華
     type: VOID
     lore:
-      - The process of fermenting a spiders eye
-      - creates an opening for demonic essence to
-      - seep into the world. It's this essence that
-      - makes this a good potion ingredient.
+      - 發酵蜘蛛眼的過程形成
+      - 了一種惡魔本質的開口
+      - '。正是這種精華使它成'
+      - 為一種很好的藥水成分。
     shards:
       - 1
       - 0
@@ -7484,7 +7484,7 @@ FERN:
     - ELEMENTAL
     - CELESTIAL
   story:
-    name: Crouching Taiga
+    name: 臥虎牙
     type: CELESTIAL
     lore:
       - 蕨類植物會儲存它從世界
@@ -7551,7 +7551,7 @@ FIREWORK_STAR:
     - ELEMENTAL
     - ALCHEMICAL
   story:
-    name: Star of the show
+    name: 節目之星
     type: ALCHEMICAL
     lore:
       - 這個物品偏向於膚
@@ -7572,7 +7572,7 @@ FIRE_CHARGE:
   elements:
     - ELEMENTAL
   story:
-    name: Potentiation
+    name: 潛力
     type: ELEMENTAL
     lore:
       - 在你的手掌中創造
@@ -7709,7 +7709,7 @@ FLINT:
     lore:
       - 燧石是你創建可用工具的第一步，
       - 並且將.. 呃.. 等等.. 什麼？
-      - This isn't GregTech!?
+      - 這不是格雷科技！？
     shards:
       - 0
       - 1
@@ -7725,7 +7725,7 @@ FLINT_AND_STEEL:
   elements:
     - ELEMENTAL
   story:
-    name: Potentiation (Flint)
+    name: 增強 (燧石)
     type: ELEMENTAL
     lore:
       - 在你的手掌中創造
@@ -7747,7 +7747,7 @@ FLOWERING_AZALEA:
     - ELEMENTAL
     - ALCHEMICAL
   story:
-    name: A Flourishing Anima
+    name: 蓬勃發展的靈魂
     type: ELEMENTAL
     lore:
       - 雖然不是所有的杜鵑花，但那些
@@ -7769,7 +7769,7 @@ FLOWERING_AZALEA_LEAVES:
     - ELEMENTAL
     - ALCHEMICAL
   story:
-    name: A Flourishing Anima (Leaves)
+    name: 蓬勃發展的靈魂 (葉子)
     type: ELEMENTAL
     lore:
       - 雖然不是所有的杜鵑花，但那些
@@ -7944,7 +7944,7 @@ GLASS_BOTTLE:
     - ALCHEMICAL
     - HUMAN
   story:
-    name: Bottle It Up
+    name: 裝瓶
     type: ALCHEMICAL
     lore:
       - 每一個瓶子都夢想著有一天它
@@ -7967,7 +7967,7 @@ GLASS_PANE:
     - HUMAN
     - ALCHEMICAL
   story:
-    name: Seen Through (Pane)
+    name: 透視 (玻璃片)
     type: PHILOSOPHICAL
     lore:
       - 儘管玻璃很努力，但它無法隱藏
@@ -8074,7 +8074,7 @@ GLOW_BERRIES:
     - ELEMENTAL
     - CELESTIAL
   story:
-    name: Inner Light (Berries)
+    name: 內在之光 (漿果)
     type: CELESTIAL
     lore:
       - 不知道怎麼做，也不知道為什
@@ -8118,7 +8118,7 @@ GLOW_ITEM_FRAME:
     - VOID
     - HUMAN
   story:
-    name: A Step Ahead
+    name: 領先一步
     type: HUMAN
     lore:
       - 與所有事物一樣，人類為了
@@ -8141,7 +8141,7 @@ GLOW_LICHEN:
     - ELEMENTAL
     - CELESTIAL
   story:
-    name: Inner Light (Lichen)
+    name: 內在之光 (地衣)
     type: CELESTIAL
     lore:
       - 不知道怎麼做，也不知道為什
@@ -8164,7 +8164,7 @@ GOLDEN_APPLE:
     - HUMAN
     - CELESTIAL
   story:
-    name: How on earth? (Apple)
+    name: 怎麼可能？ (蘋果)
     type: HUMAN
     lore:
       - 人們怎麼會吃這個？
@@ -8514,7 +8514,7 @@ GRANITE:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: Coarse
+    name: 粗糙
     type: ELEMENTAL
     lore:
       - 作為石頭的漂亮兄弟姐妹，
@@ -9196,7 +9196,7 @@ GRINDSTONE:
     - MECHANICAL
     - HUMAN
   story:
-    name: Ground Down
+    name: 地沉
     type: MECHANICAL
     lore:
       - 砂輪喜歡研磨、粉碎和破
@@ -9239,7 +9239,7 @@ HANGING_ROOTS:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Just Hanging Out
+    name: 閒逛
     type: ANIMAL
     lore:
       - 一種非常樸素和簡單
@@ -9261,7 +9261,7 @@ HAY_BLOCK:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Llama's Lament
+    name: 羊駝之慟
     type: ANIMAL
     lore:
       - 無休止地夢想著被送給
@@ -9283,7 +9283,7 @@ HEART_OF_THE_SEA:
     - ELEMENTAL
     - CELESTIAL
   story:
-    name: Oceanic Draw
+    name: 引起海洋的注意
     type: CELESTIAL
     lore:
       - 海洋之心在形成時不斷
@@ -9310,9 +9310,9 @@ HEAVY_WEIGHTED_PRESSURE_PLATE:
     name: Really 在壓力之下 (Heavy)
     type: VOID
     lore:
-      - The only thing worse than being walked all
-      - over? Being called weighted at the same
-      - time
+      - 唯一比被人走來走去更
+      - 糟糕的事情是什麼？就
+      - 是同時被稱為⌈重質⌋。
     shards:
       - 0
       - 1
@@ -9371,7 +9371,7 @@ HONEY_BLOCK:
     - ANIMAL
     - ALCHEMICAL
   story:
-    name: A Sticky Situation (Honey)
+    name: 一個棘手的狀況 (蜂蜜)
     type: ALCHEMICAL
     lore:
       - 渴望不再孤單，這個方塊
@@ -9393,7 +9393,7 @@ HONEY_BOTTLE:
     - ALCHEMICAL
     - ANIMAL
   story:
-    name: Nectar of the Gods
+    name: 眾神的甘露
     type: ALCHEMICAL
     lore:
       - 蜂蜜具有多種未知的治療
@@ -9415,7 +9415,7 @@ HOPPER:
     - MECHANICAL
     - VOID
   story:
-    name: Diversion
+    name: 轉移
     type: VOID
     lore:
       - 漏斗的所有快樂都來自於將物品
@@ -9548,7 +9548,7 @@ INFESTED_CHISELED_STONE_BRICKS:
     - VOID
     - ANIMAL
   story:
-    name: Infested (Chiseled Stone)
+    name: 蛀蝕 (浮雕石磚)
     type: VOID
     lore:
       - 迸發著寄居者的潛能。
@@ -12616,10 +12616,10 @@ MUSIC_DISC_13:
     name: 引起共鳴 (13)
     type: PHILOSOPHICAL
     lore:
-      - 音樂光盤不僅可以錄製聲音，
-      - it also records the resonating magic
-      - 錄製時在空中，
-      - releasing it each time it's replayed.
+      - 音樂光盤不僅可以錄製
+      - 聲音，它還記錄了錄音
+      - 時空氣中的共鳴魔力，
+      - 在每次重放時釋放出來。
     shards:
       - 0
       - 1
@@ -12636,13 +12636,13 @@ MUSIC_DISC_BLOCKS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Resonating Within (Blocks)
+    name: 引起共鳴 (方塊)
     type: PHILOSOPHICAL
     lore:
-      - Music Discs don't just record sounds,
-      - it also records the resonating magic
-      - in the air at the time of recording,
-      - releasing it each time it's replayed.
+      - 音樂光碟不只是記錄聲
+      - 音，它還記錄了錄音時
+      - 空氣中的共鳴魔力，每
+      - 次重放時都會釋放出來。
     shards:
       - 0
       - 1
@@ -17704,7 +17704,7 @@ SLIME_BLOCK:
     - ANIMAL
     - ALCHEMICAL
   story:
-    name: A Sticky Situation (史萊姆)
+    name: 一個棘手的狀況 (史萊姆)
     type: ALCHEMICAL
     lore:
       - Desperate to not be alone, this block
