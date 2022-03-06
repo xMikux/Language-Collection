@@ -10108,9 +10108,9 @@ ITEM_FRAME:
     name: Proud Display
     type: HUMAN
     lore:
-      - An Item Frame awaits the moment when its
-      - allowed to display an item. The emanating
-      - pride envelopes the item fully.
+      - 一個物品展示框等待它被允許
+      - 展示物品的那一刻。散發出的
+      - 自豪感將物品完全包裹起來。
     shards:
       - 0
       - 1
@@ -10127,11 +10127,11 @@ JACK_O_LANTERN:
     - HUMAN
     - VOID
   story:
-    name: Spooky-scary
+    name: 幽靈般的恐怖
     type: VOID
     lore:
-      - Nothing says sheer terror more than the
-      - carved Jack'O'Lantern... right?
+      - 沒有什麼比雕刻好的傑克燈籠
+      - 更能說明純粹的恐怖了…對嗎？
     shards:
       - 1
       - 0
@@ -10148,13 +10148,13 @@ JUKEBOX:
     - HUMAN
     - CELESTIAL
   story:
-    name: The Magic of Music
+    name: 音樂的魔力
     type: CELESTIAL
     lore:
-      - While esoteric, the magic from music can
-      - be measured if in large enough quantities.
-      - With work it could be harnessed into something
-      - more.
+      - 雖然很深奧，但如果數量足夠
+      - 多，來自音樂的魔力是可以衡
+      - 量的。通過努力，它可以被利
+      - 用到更多的東西。
     shards:
       - 0
       - 1
