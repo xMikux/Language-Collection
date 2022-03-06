@@ -12133,12 +12133,12 @@ MAGMA_CREAM:
   elements:
     - ELEMENTAL
   story:
-    name: Hot Stuff
+    name: 熱料
     type: ELEMENTAL
     lore:
-      - The burning passion of this item has
-      - the power to actually create a persistent
-      - heat with no help from magic.
+      - 這個物品的熾熱激情
+      - 能在沒有魔法的幫助
+      - 下產生持久的熱量。
     shards:
       - 1
       - 0
@@ -12155,12 +12155,12 @@ MAP:
     - HISTORICAL
     - HUMAN
   story:
-    name: Age of Discovery
+    name: 發現時代
     type: HISTORICAL
     lore:
-      - With the corners still to find, explorers from
-      - far and wide still set out the chart the
-      - uncharted.
+      - 由於仍有待尋找的角落，
+      - 來自遠方的探險者仍在出
+      - 發尋找未知的領域。
     shards:
       - 0
       - 0
@@ -12243,11 +12243,11 @@ MELON_SLICE:
     - ANIMAL
     - HUMAN
   story:
-    name: A Bitter-Sweet Victory
+    name: 苦澀的勝利
     type: ANIMAL
     lore:
-      - While cut and torn asunder, the result is an
-      - item that brings joy to many.
+      - 雖然被切割和撕裂，但其是
+      - 給許多人帶來歡樂的物品。
     shards:
       - 0
       - 0
@@ -12286,12 +12286,12 @@ MINECART:
     - MECHANICAL
     - HUMAN
   story:
-    name: A Rolling Minecart...
+    name: 滾動的礦車……
     type: MECHANICAL
     lore:
-      - ...Gathers No Moss. The singular largest
-      - leap in minecraft tech, the minecart has
-      - more uses than one may think.
+      - '… 不採集苔蘚。作為創世神'
+      - 技術的最大飛躍，礦車的
+      - 用途比人們想像的要多。
     shards:
       - 0
       - 2
@@ -12328,12 +12328,12 @@ MOSSY_COBBLESTONE:
   elements:
     - ELEMENTAL
   story:
-    name: Slow Parasite
+    name: 緩慢發育的寄生蟲
     type: ELEMENTAL
     lore:
-      - The slow parasite developing through the
-      - cobblestone forms a symbiotic relationship
-      - bringing life to a lifeless block.
+      - 通過鵝卵石發育的緩慢寄生
+      - 蟲形成了一種共生關係，為
+      - 無生命的方塊帶來了生命。
     shards:
       - 1
       - 0
@@ -12501,12 +12501,12 @@ MOSS_BLOCK:
   elements:
     - ELEMENTAL
   story:
-    name: A Rich Ecosystem
+    name: 豐富的生態系統
     type: ELEMENTAL
     lore:
-      - This block, teeming with life, holds the
-      - promised for a wide variety of flora and
-      - fauna.
+      - 這個充滿生機的
+      - 方塊擁有各種各
+      - 樣的動植物。
     shards:
       - 1
       - 0
@@ -12590,7 +12590,7 @@ MUSIC_DISC_11:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Resonating Within (11)
+    name: 引起共鳴 (11)
     type: PHILOSOPHICAL
     lore:
       - Music Discs don't just record sounds,
