@@ -12933,7 +12933,7 @@ NAME_TAG:
     - HUMAN
     - CELESTIAL
   story:
-    name: Identity
+    name: 識別
     type: HUMAN
     lore:
       - A nameless thing finally gets it's own
