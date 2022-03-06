@@ -1170,8 +1170,8 @@ BIRCH_PRESSURE_PLATE:
     name: 在壓力之下 (Birch)
     type: VOID
     lore:
-      - 到處行走會下降任何
-      - 精神.
+      - 被人走一圈，會
+      - 讓它精神崩潰。
     shards:
       - 0
       - 2
@@ -4547,8 +4547,8 @@ CRIMSON_PRESSURE_PLATE:
     name: 在壓力之下 (緋紅)
     type: VOID
     lore:
-      - 到處行走會下降任何
-      - 靈魂
+      - 被人走一圈，會
+      - 讓它精神崩潰。
     shards:
       - 0
       - 2
@@ -5368,8 +5368,8 @@ DARK_OAK_PRESSURE_PLATE:
     name: 在壓力之下 (黑橡木)
     type: VOID
     lore:
-      - 到處行走會下降任何
-      - 靈魂
+      - 被人走一圈，會
+      - 讓它精神崩潰。
     shards:
       - 0
       - 2
@@ -9307,7 +9307,7 @@ HEAVY_WEIGHTED_PRESSURE_PLATE:
     - ELEMENTAL
     - VOID
   story:
-    name: Really 在壓力之下 (Heavy)
+    name: 真正的壓力下 (重質)
     type: VOID
     lore:
       - 唯一比被人走來走去更
@@ -10345,8 +10345,8 @@ JUNGLE_PRESSURE_PLATE:
     name: 在壓力之下 (叢林木)
     type: VOID
     lore:
-      - 到處行走會下降任何
-      - 從命令的精神。
+      - 被人走一圈，會
+      - 讓它精神崩潰。
     shards:
       - 0
       - 2
@@ -11430,7 +11430,7 @@ LIGHT_WEIGHTED_PRESSURE_PLATE:
     - ELEMENTAL
     - VOID
   story:
-    name: Really 在壓力之下 (Light)
+    name: 真正的壓力下 (輕質)
     type: VOID
     lore:
       - 唯一比被人走來走去更
@@ -15049,8 +15049,8 @@ POLISHED_BLACKSTONE_PRESSURE_PLATE:
     name: 在壓力之下 (拋光黑石磚)
     type: VOID
     lore:
-      - 到處行走會下降任何
-      - spirit.
+      - 被人走一圈，會
+      - 讓它精神崩潰。
     shards:
       - 0
       - 2
@@ -18538,8 +18538,8 @@ SPRUCE_PRESSURE_PLATE:
     name: 在壓力之下 (杉木)
     type: VOID
     lore:
-      - 到處行走會下降任何
-      - spirit.
+      - 被人走一圈，會
+      - 讓它精神崩潰。
     shards:
       - 0
       - 2
@@ -18965,8 +18965,8 @@ STONE_PRESSURE_PLATE:
     name: 在壓力之下 (石頭)
     type: VOID
     lore:
-      - 到處行走會下降任何
-      - spirit.
+      - 被人走一圈，會
+      - 讓它精神崩潰。
     shards:
       - 1
       - 1
@@ -20214,11 +20214,11 @@ WARPED_PRESSURE_PLATE:
     - MECHANICAL
     - VOID
   story:
-    name: 在壓力之下 (相思)
+    name: 在壓力之下 (扭曲蕈木)
     type: VOID
     lore:
-      - 到處行走會下降任何
-      - spirit.
+      - 被人走一圈，會
+      - 讓它精神崩潰。
     shards:
       - 0
       - 1
