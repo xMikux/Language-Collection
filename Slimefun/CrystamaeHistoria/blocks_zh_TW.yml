@@ -10084,7 +10084,7 @@ IRON_TRAPDOOR:
     - MECHANICAL
     - VOID
   story:
-    name: Sent to the depths
+    name: 送到深淵
     type: VOID
     lore:
       - 從遠處控制，讓
@@ -10836,10 +10836,10 @@ LECTERN:
     name: 知識的力量
     type: PHILOSOPHICAL
     lore:
-      - the transfer of knowledge from person to
-      - person is just as, if not more, important
-      - than the knowledge itself. The Lectern knows
-      - this and revels in helping.
+      - 人與人之間的知識傳遞
+      - 與知識本身一樣重要，
+      - 甚至更重要。講台知道
+      - 這一點，並提供幫助。
     shards:
       - 0
       - 1
@@ -10856,7 +10856,7 @@ LEVER:
     - MECHANICAL
     - HUMAN
   story:
-    name: Binary
+    name: 二進制
     type: MECHANICAL
     lore:
       - 控制桿生活在兩種狀態之一。
@@ -10877,7 +10877,7 @@ LIGHTNING_ROD:
   elements:
     - ELEMENTAL
   story:
-    name: Attractive
+    name: 吸引
     type: ELEMENTAL
     lore:
       - 銅渴望著電的觸摸，並
@@ -12593,10 +12593,10 @@ MUSIC_DISC_11:
     name: 引起共鳴 (11)
     type: PHILOSOPHICAL
     lore:
-      - Music Discs don't just record sounds,
-      - it also records the resonating magic
-      - in the air at the time of recording,
-      - releasing it each time it's replayed.
+      - 音樂光碟不只是記錄聲
+      - 音，它還記錄了錄音時
+      - 空氣中的共鳴魔力，每
+      - 次重放時都會釋放出來。
     shards:
       - 0
       - 1
@@ -12616,10 +12616,10 @@ MUSIC_DISC_13:
     name: 引起共鳴 (13)
     type: PHILOSOPHICAL
     lore:
-      - 音樂光盤不僅可以錄製
-      - 聲音，它還記錄了錄音
-      - 時空氣中的共鳴魔力，
-      - 在每次重放時釋放出來。
+      - 音樂光碟不只是記錄聲
+      - 音，它還記錄了錄音時
+      - 空氣中的共鳴魔力，每
+      - 次重放時都會釋放出來。
     shards:
       - 0
       - 1
@@ -12659,13 +12659,13 @@ MUSIC_DISC_CAT:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Resonating Within (Cat)
+    name: 引起共鳴 (貓)
     type: PHILOSOPHICAL
     lore:
-      - Music Discs don't just record sounds,
-      - it also records the resonating magic
-      - in the air at the time of recording,
-      - releasing it each time it's replayed.
+      - 音樂光碟不只是記錄聲
+      - 音，它還記錄了錄音時
+      - 空氣中的共鳴魔力，每
+      - 次重放時都會釋放出來。
     shards:
       - 0
       - 1
@@ -12682,13 +12682,13 @@ MUSIC_DISC_CHIRP:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Resonating Within (Chirp)
+    name: 引起共鳴 (Chirp)
     type: PHILOSOPHICAL
     lore:
-      - Music Discs don't just record sounds,
-      - it also records the resonating magic
-      - in the air at the time of recording,
-      - releasing it each time it's replayed.
+      - 音樂光碟不只是記錄聲
+      - 音，它還記錄了錄音時
+      - 空氣中的共鳴魔力，每
+      - 次重放時都會釋放出來。
     shards:
       - 0
       - 1
@@ -12705,13 +12705,13 @@ MUSIC_DISC_FAR:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Resonating Within (Far)
+    name: 引起共鳴 (Far)
     type: PHILOSOPHICAL
     lore:
-      - Music Discs don't just record sounds,
-      - it also records the resonating magic
-      - in the air at the time of recording,
-      - releasing it each time it's replayed.
+      - 音樂光碟不只是記錄聲
+      - 音，它還記錄了錄音時
+      - 空氣中的共鳴魔力，每
+      - 次重放時都會釋放出來。
     shards:
       - 0
       - 1
@@ -12728,13 +12728,13 @@ MUSIC_DISC_MALL:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Resonating Within (Mall)
+    name: 引起共鳴 (Mall)
     type: PHILOSOPHICAL
     lore:
-      - Music Discs don't just record sounds,
-      - it also records the resonating magic
-      - in the air at the time of recording,
-      - releasing it each time it's replayed.
+      - 音樂光碟不只是記錄聲
+      - 音，它還記錄了錄音時
+      - 空氣中的共鳴魔力，每
+      - 次重放時都會釋放出來。
     shards:
       - 0
       - 1
@@ -12751,13 +12751,13 @@ MUSIC_DISC_MELLOHI:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Resonating Within (Mellohi)
+    name: 引起共鳴 (Mellohi)
     type: PHILOSOPHICAL
     lore:
-      - Music Discs don't just record sounds,
-      - it also records the resonating magic
-      - in the air at the time of recording,
-      - releasing it each time it's replayed.
+      - 音樂光碟不只是記錄聲
+      - 音，它還記錄了錄音時
+      - 空氣中的共鳴魔力，每
+      - 次重放時都會釋放出來。
     shards:
       - 0
       - 1
@@ -12775,13 +12775,13 @@ MUSIC_DISC_PIGSTEP:
     - PHILOSOPHICAL
     - VOID
   story:
-    name: Resonating Within (Pigstep)
+    name: 引起共鳴 (Pigstep)
     type: PHILOSOPHICAL
     lore:
-      - Music Discs don't just record sounds,
-      - it also records the resonating magic
-      - in the air at the time of recording,
-      - releasing it each time it's replayed.
+      - 音樂光碟不只是記錄聲
+      - 音，它還記錄了錄音時
+      - 空氣中的共鳴魔力，每
+      - 次重放時都會釋放出來。
     shards:
       - 0
       - 1
@@ -12798,13 +12798,13 @@ MUSIC_DISC_STAL:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Resonating Within (Stal)
+    name: 引起共鳴 (Stal)
     type: PHILOSOPHICAL
     lore:
-      - Music Discs don't just record sounds,
-      - it also records the resonating magic
-      - in the air at the time of recording,
-      - releasing it each time it's replayed.
+      - 音樂光碟不只是記錄聲
+      - 音，它還記錄了錄音時
+      - 空氣中的共鳴魔力，每
+      - 次重放時都會釋放出來。
     shards:
       - 0
       - 1
@@ -12821,13 +12821,13 @@ MUSIC_DISC_STRAD:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Resonating Within (Strad)
+    name: 引起共鳴 (Strad)
     type: PHILOSOPHICAL
     lore:
-      - Music Discs don't just record sounds,
-      - it also records the resonating magic
-      - in the air at the time of recording,
-      - releasing it each time it's replayed.
+      - 音樂光碟不只是記錄聲
+      - 音，它還記錄了錄音時
+      - 空氣中的共鳴魔力，每
+      - 次重放時都會釋放出來。
     shards:
       - 0
       - 1
@@ -12844,13 +12844,13 @@ MUSIC_DISC_WAIT:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Resonating Within (Wait)
+    name: 引起共鳴 (Wait)
     type: PHILOSOPHICAL
     lore:
-      - Music Discs don't just record sounds,
-      - it also records the resonating magic
-      - in the air at the time of recording,
-      - releasing it each time it's replayed.
+      - 音樂光碟不只是記錄聲
+      - 音，它還記錄了錄音時
+      - 空氣中的共鳴魔力，每
+      - 次重放時都會釋放出來。
     shards:
       - 0
       - 1
@@ -12867,13 +12867,13 @@ MUSIC_DISC_WARD:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Resonating Within (Ward)
+    name: 引起共鳴 (Ward)
     type: PHILOSOPHICAL
     lore:
-      - Music Discs don't just record sounds,
-      - it also records the resonating magic
-      - in the air at the time of recording,
-      - releasing it each time it's replayed.
+      - 音樂光碟不只是記錄聲
+      - 音，它還記錄了錄音時
+      - 空氣中的共鳴魔力，每
+      - 次重放時都會釋放出來。
     shards:
       - 0
       - 1
@@ -13000,12 +13000,12 @@ NETHERITE_BLOCK:
     - HUMAN
     - CELESTIAL
   story:
-    name: Showing Off
+    name: 炫耀
     type: HUMAN
     lore:
-      - A block made only to show off insane wealth
-      - After the first was made, it sparked wars,
-      - treachery and deceit.
+      - 一個只為炫耀瘋狂的財富而製造
+      - 的方塊。在第一個被製造出來後
+      - '，它引發了戰爭、背叛和欺騙。'
     shards:
       - 0
       - 0
@@ -13089,11 +13089,11 @@ NETHERITE_HOE:
     - HUMAN
     - MECHANICAL
   story:
-    name: The one, only and ultimate
+    name: 唯一的，也是終極的
     type: MECHANICAL
     lore:
-      - Everyone knows it's the only tool that
-      - counts.
+      - 每個人都知道這是
+      - 唯一重要的工具。
     shards:
       - 1
       - 1
@@ -13176,12 +13176,12 @@ NETHERITE_SCRAP:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: Ancient Beyond Measure
+    name: 古老得難以估量
     type: HISTORICAL
     lore:
-      - The correct refinement process for Netherite
+      - 獄髓碎片的正確精煉工藝
       - has been lost to 時間推移而迴盪. Starting with a
-      - scrap is the best known method currently.
+      - 是目前最廣為人知的方法。
     shards:
       - 1
       - 0
@@ -13241,11 +13241,11 @@ NETHERRACK:
   elements:
     - ELEMENTAL
   story:
-    name: Instability
+    name: 不穩定性
     type: ELEMENTAL
     lore:
-      - It is unknown how such a soft rock can
-      - support the structure of the Nether.
+      - 不知道這麼軟的石頭怎
+      - 麼能支持地獄的結構。
     shards:
       - 1
       - 0
@@ -13441,11 +13441,11 @@ NETHER_SPROUTS:
     - ELEMENTAL
     - VOID
   story:
-    name: Sprouting
+    name: 發芽
     type: ELEMENTAL
     lore:
-      - Despite the conditions, life will always
-      - find a way to grow and thrive.
+      - 儘管條件惡劣，但生命總能
+      - 找到成長和茁壯的方式。
     shards:
       - 1
       - 0
@@ -13464,10 +13464,10 @@ NETHER_STAR:
     name: Crystalline Nether
     type: VOID
     lore:
-      - Not all magic fits into the Crystamae
-      - framework, the sheer amount of void from
-      - the Wither is of this type. The Nether
-      - Star encapsulates it all.
+      - 並非所有的魔法都符合水
+      - 晶的框架，來自凋靈的大
+      - 量虛空都屬於這種類型。
+      - 地獄之星囊括了這一切。
     shards:
       - 1
       - 0
