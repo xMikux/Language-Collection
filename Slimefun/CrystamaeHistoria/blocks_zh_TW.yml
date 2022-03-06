@@ -9709,13 +9709,13 @@ INK_SAC:
     - VOID
     - CELESTIAL
   story:
-    name: The Inky Void
+    name: 漆黑的虛空
     type: VOID
     lore:
-      - Ink is both the creation of nearly all
-      - written knowledge but also an entry into
-      - the deepest void. The juxtaposition is, in
-      - itself, magical.
+      - 墨水既是幾乎所有書面知
+      - 識的創造者，也是進入最
+      - 深虛空的入口。這種並列
+      - 關係本身就很神奇。
     shards:
       - 1
       - 0
@@ -10087,8 +10087,8 @@ IRON_TRAPDOOR:
     name: Sent to the depths
     type: VOID
     lore:
-      - Controlled from afar to drop those
-      - above on command
+      - 從遠處控制，讓
+      - 上面的人擁有聽
     shards:
       - 0
       - 1
@@ -10346,7 +10346,7 @@ JUNGLE_PRESSURE_PLATE:
     type: VOID
     lore:
       - 到處行走會下降任何
-      - spirit.
+      - 從命令的精神。
     shards:
       - 0
       - 2
@@ -10510,8 +10510,8 @@ LADDER:
     name: Where's Boomer?
     type: PHILOSOPHICAL
     lore:
-      - Have a ladder that needs to be claimed?
-      - Call BOOMER_1 and he'll see you straight!
+      - 有需要認領的梯子嗎？
+      - 打電話給 BOOMER_1 ，他會直接看到你！
     shards:
       - 0
       - 1
@@ -10528,7 +10528,7 @@ LANTERN:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Lighting the Way
+    name: 照亮道路
     type: ELEMENTAL
     lore:
       - 對燈籠來說，對黑暗的
@@ -10640,12 +10640,12 @@ LARGE_FERN:
     - ELEMENTAL
     - CELESTIAL
   story:
-    name: Crouching Taiga (Large)
+    name: 臥虎牙 (大)
     type: CELESTIAL
     lore:
-      - A fern stores what little Crysta it takes
-      - from the world and releases it when it spreads
-      - its spores.
+      - 蕨類植物會儲存它從世界
+      - 上獲取的少量小水晶，並
+      - 在傳播孢子時將其釋放。
     shards:
       - 1
       - 0
@@ -10684,7 +10684,7 @@ LEAD:
     - HUMAN
     - ANIMAL
   story:
-    name: Lead Me On
+    name: 帶我走
     type: ANIMAL
     lore:
       - 雖然非常弱，但拴繩在
@@ -10708,8 +10708,8 @@ LEATHER:
     name: Get Tanned (皮革)
     type: ANIMAL
     lore:
-      - While an unfortunate practice, leather is
-      - a staple to basic development.
+      - 雖然是一種不幸的做法，但
+      - 皮革是基本發展的主力素材。
     shards:
       - 0
       - 0
@@ -10833,7 +10833,7 @@ LECTERN:
   elements:
     - PHILOSOPHICAL
   story:
-    name: The Power of Knowledge
+    name: 知識的力量
     type: PHILOSOPHICAL
     lore:
       - the transfer of knowledge from person to
@@ -12613,12 +12613,12 @@ MUSIC_DISC_13:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Resonating Within (13)
+    name: 引起共鳴 (13)
     type: PHILOSOPHICAL
     lore:
-      - Music Discs don't just record sounds,
+      - 音樂光盤不僅可以錄製聲音，
       - it also records the resonating magic
-      - in the air at the time of recording,
+      - 錄製時在空中，
       - releasing it each time it's replayed.
     shards:
       - 0
