@@ -1167,7 +1167,7 @@ BIRCH_PRESSURE_PLATE:
     - MECHANICAL
     - VOID
   story:
-    name: 在壓力之下 (Birch)
+    name: 在壓力之下 (樺木)
     type: VOID
     lore:
       - 被人走一圈，會
@@ -4544,7 +4544,7 @@ CRIMSON_PRESSURE_PLATE:
     - MECHANICAL
     - VOID
   story:
-    name: 在壓力之下 (緋紅)
+    name: 在壓力之下 (緋紅蕈木)
     type: VOID
     lore:
       - 被人走一圈，會
