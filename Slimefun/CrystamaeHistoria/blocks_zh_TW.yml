@@ -179,8 +179,8 @@ ACACIA_PRESSURE_PLATE:
     name: 在壓力之下 (相思)
     type: VOID
     lore:
-      - 到處行走會下降任何
-      - 精神.
+      - 被人走一圈，會
+      - 讓它精神崩潰。
     shards:
       - 0
       - 2
