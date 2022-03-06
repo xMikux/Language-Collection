@@ -9974,10 +9974,10 @@ IRON_NUGGET:
     name: Formation (鐵)
     type: ELEMENTAL
     lore:
-      - Like most elemental magics, the Crysta
-      - in a nugget longs to be paired with other
-      - matching forms but without the power to
-      - influence this.
+      - 與發光漿果一樣，發光
+      - 烏賊的靈魂能夠吸收和
+      - 反映天體的匹配形式，
+      - 但沒有影響它的力量。
     shards:
       - 1
       - 0
@@ -10105,7 +10105,7 @@ ITEM_FRAME:
     - MECHANICAL
     - HUMAN
   story:
-    name: Proud Display
+    name: 驕傲的展示
     type: HUMAN
     lore:
       - 一個物品展示框等待它被允許
@@ -10490,8 +10490,8 @@ KELP:
     name: ':LUL:'
     type: CELESTIAL
     lore:
-      - I tried to not make this story a joke
-      - or a pun... but I couldn't kelp myself.
+      - 我試圖不使這個故事成為一個笑話
+      - 或雙關語...... 但我無法自拔。
     shards:
       - 0
       - 0
