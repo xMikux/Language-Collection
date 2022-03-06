@@ -10531,10 +10531,10 @@ LANTERN:
     name: Lighting the Way
     type: ELEMENTAL
     lore:
-      - Fear of the dark is an oppressive force
-      - for lanterns. They use all their might to
-      - push back the darkness to make players
-      - feel at ease.
+      - 對燈籠來說，對黑暗的
+      - 恐懼是一種壓迫力。他
+      - 們用盡渾身解數推開黑
+      - 暗，讓玩家感到安心。
     shards:
       - 1
       - 1
@@ -10618,12 +10618,12 @@ LARGE_AMETHYST_BUD:
     - VOID
     - ELEMENTAL
   story:
-    name: Devoid of magic (Large)
+    name: Devoid of magic (大)
     type: VOID
     lore:
-      - Amethyst buds are Crystal deposits that couldn't
-      - harness enough Crysta to form correctly. While
-      - useful, they server little purpose magically.
+      - 紫晶花蕾是水晶沉積物，無法利
+      - 用水晶來成形。雖然很有用，但
+      - 它們在魔法方面的作用不大。
     shards:
       - 1
       - 0
@@ -10687,9 +10687,9 @@ LEAD:
     name: Lead Me On
     type: ANIMAL
     lore:
-      - While insanely weak, the lead creates a
-      - magical tether between the leader and the
-      - led.
+      - 雖然非常弱，但拴繩在
+      - 使用者和被拴物之間創
+      - 造了一條神奇的繩索。
     shards:
       - 0
       - 0
@@ -10859,9 +10859,9 @@ LEVER:
     name: Binary
     type: MECHANICAL
     lore:
-      - The Lever lives in one of two states.
-      - On or off, yes or no. It dreams of a
-      - third state, but this will never happen.
+      - 控制桿生活在兩種狀態之一。
+      - 開或關，有或無。它夢想著第
+      - 三種狀態，但這永遠不會發生。
     shards:
       - 0
       - 1
@@ -10880,8 +10880,8 @@ LIGHTNING_ROD:
     name: Attractive
     type: ELEMENTAL
     lore:
-      - Copper longs for the touch of electricity
-      - and does all it can do draw some in.
+      - 銅渴望著電的觸摸，並
+      - 儘其所能地吸引人過來。
     shards:
       - 2
       - 0
@@ -11053,12 +11053,12 @@ LIGHT_BLUE_GLAZED_TERRACOTTA:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Mistaken identity
+    name: 錯誤的身份
     type: PHILOSOPHICAL
     lore:
-      - Some mistake this for an
-      - overpowered power generation
-      - device
+      - 有些人誤以為這
+      - 是一個功率過大
+      - 的發電裝置。
     shards:
       - 0
       - 0
@@ -11433,9 +11433,9 @@ LIGHT_WEIGHTED_PRESSURE_PLATE:
     name: Really 在壓力之下 (Light)
     type: VOID
     lore:
-      - The only thing worse than being walked all
-      - over? Being called weighted at the same
-      - time
+      - 唯一比被人走來走去更
+      - 糟糕的事情是什麼？就
+      - 是同時被稱為⌈重質⌋。
     shards:
       - 0
       - 1
@@ -11494,12 +11494,12 @@ LILY_PAD:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Swampy Device
+    name: 沼澤裝置
     type: ANIMAL
     lore:
-      - The lily pad spends all its time doing
-      - nothing but relaxing in swamps. While some
-      - may wish for more, the lily pad is content.
+      - 荷葉除了在沼澤中無所事事之外
+      - 什麼都不做。相比起別人的慾望
+      - '，荷葉對自己的現況很滿足。'
     shards:
       - 1
       - 0
@@ -11782,11 +11782,11 @@ LINGERING_POTION:
     - ALCHEMICAL
     - VOID
   story:
-    name: Unwanted Guest
+    name: 不受歡迎的客人
     type: ALCHEMICAL
     lore:
-      - Guests, like fish, begin to smell after three days.
-      - No one likes things that linger too long.
+      - 客人 和魚一樣，三天後開始發臭。
+      - 沒有人喜歡拖得太久的東西。
     shards:
       - 1
       - 0
@@ -11803,12 +11803,12 @@ LODESTONE:
     - VOID
     - CELESTIAL
   story:
-    name: Unnatural Pull
+    name: 不自然的拉力
     type: VOID
     lore:
-      - Combining both Celestial and Void Crysta
-      - causes this block to constantly pull at
-      - magically linked items regardless of distance.
+      - 結合天體水晶和虛空水晶會使
+      - 這個區塊不斷地拉動與魔法有
+      - 關的物品，而不受距離限制。
     shards:
       - 0
       - 1
@@ -12115,9 +12115,9 @@ MAGMA_BLOCK:
     name: Hot Stuff (方塊)
     type: ELEMENTAL
     lore:
-      - The burning passion of this item has
-      - the power to actually create a persistent
-      - heat with no help from magic.
+      - 這個物品的熾熱激情
+      - 能在沒有魔法的幫助
+      - 下產生持久的熱量。
     shards:
       - 1
       - 0
@@ -12177,12 +12177,12 @@ MEDIUM_AMETHYST_BUD:
     - VOID
     - ELEMENTAL
   story:
-    name: Devoid of magic (Medium)
+    name: Devoid of magic (中)
     type: VOID
     lore:
-      - Amethyst buds are Crystal deposits that couldn't
-      - harness enough Crysta to form correctly. While
-      - useful, they server little purpose magically.
+      - 紫晶花蕾是水晶沉積物，無法利
+      - 用水晶來成形。雖然很有用，但
+      - 它們在魔法方面的作用不大。
     shards:
       - 1
       - 0
@@ -17726,12 +17726,12 @@ SMALL_AMETHYST_BUD:
     - VOID
     - ELEMENTAL
   story:
-    name: Devoid of magic (小的)
+    name: Devoid of magic (小)
     type: VOID
     lore:
-      - Amethyst buds are Crystal deposits that couldn't
-      - harness enough Crysta to form correctly. While
-      - useful, they serve little purpose magically.
+      - 紫晶花蕾是水晶沉積物，無法利
+      - 用水晶來成形。雖然很有用，但
+      - 它們在魔法方面的作用不大。
     shards:
       - 1
       - 0
