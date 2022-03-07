@@ -1017,7 +1017,7 @@ BIRCH_BUTTON:
     - HUMAN
     - MECHANICAL
   story:
-    name: 鬱悶 (Birch)
+    name: 鬱悶 (樺木)
     type: HUMAN
     lore:
       - 容易受到鬱悶
@@ -1059,7 +1059,7 @@ BIRCH_FENCE:
     - HUMAN
     - ANIMAL
   story:
-    name: 家畜 (Birch)
+    name: 家畜 (樺木)
     type: ANIMAL
     lore:
       - 能保護好牲畜的安全,
@@ -1081,7 +1081,7 @@ BIRCH_FENCE_GATE:
     - MECHANICAL
     - ANIMAL
   story:
-    name: 門 (Birch)
+    name: 門 (樺木)
     type: MECHANICAL
     lore:
       - 仍然在轉角處可能等待,
@@ -1125,7 +1125,7 @@ BIRCH_LOG:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: 敲樹以獲得原木 (Birch)
+    name: 敲樹以獲得原木 (樺木)
     type: ELEMENTAL
     lore:
       - 每次的冒險開始都從
@@ -1146,7 +1146,7 @@ BIRCH_PLANKS:
     - ELEMENTAL
     - HUMAN
   story:
-    name: 走上木材 (Birch)
+    name: 走上木材 (樺木)
     type: HUMAN
     lore:
       - 製作旅程的第一步
@@ -1292,7 +1292,7 @@ BIRCH_WOOD:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: 敲樹以獲得原木 (樺木)
+    name: 敲樹以獲得木頭 (樺木)
     type: ELEMENTAL
     lore:
       - 每次的冒險開始都從
