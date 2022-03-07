@@ -12915,8 +12915,8 @@ MYCELIUM:
     name: Ancient Promise
     type: VOID
     lore:
-      - Touched by Ancient Spores, Mycelium draws from
-      - the void to become something new and dark.
+      - 在古代孢子的觸動下，菌絲從虛空中
+      - 汲取營養，成為新的和黑暗的東西。
     shards:
       - 1
       - 0
@@ -12936,9 +12936,9 @@ NAME_TAG:
     name: 識別
     type: HUMAN
     lore:
-      - A nameless thing finally gets it's own
-      - identity and... wth is a Dinnerbone and
-      - why is the world upside down?
+      - 一個無名的東西終於有了自己的
+      - 身份，而且…Dinnerbone是什麼
+      - 東西，為什麼世界是顛倒的？
     shards:
       - 0
       - 0
@@ -12955,7 +12955,7 @@ NAUTILUS_SHELL:
     - HISTORICAL
     - VOID
   story:
-    name: An Unused Home
+    name: 一個未使用的家
     type: HISTORICAL
     lore:
       - The Nautilus is though to comes from
