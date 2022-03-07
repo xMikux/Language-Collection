@@ -8535,7 +8535,7 @@ GRANITE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: 半品脫 (Granite)
+    name: 半品脫 (花崗岩)
     type: HUMAN
     lore:
       - 這小傢伙只有一半大,
@@ -8557,7 +8557,7 @@ GRANITE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: 崛起 (Granite)
+    name: 崛起 (花崗岩)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
@@ -8579,7 +8579,7 @@ GRANITE_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: 打倒牆壁 (Granite)
+    name: 打倒牆壁 (花崗岩)
     type: HISTORICAL
     lore:
       - 保護多年的工作,
@@ -10300,7 +10300,7 @@ JUNGLE_LOG:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: 敲樹以獲得原木 (Jungle)
+    name: 敲樹以獲得原木 (叢林木)
     type: ELEMENTAL
     lore:
       - 每次的冒險開始都從
@@ -10321,7 +10321,7 @@ JUNGLE_PLANKS:
     - ELEMENTAL
     - HUMAN
   story:
-    name: 走上木材 (Jungle)
+    name: 走上木材 (叢林木)
     type: HUMAN
     lore:
       - 製作旅程的第一步
@@ -15892,7 +15892,7 @@ PURPLE_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (紫)
+    name: 未來的證明 (紫)
     type: HISTORICAL
     lore:
       - 經過時間考驗的方塊.
@@ -20214,7 +20214,7 @@ WARPED_PRESSURE_PLATE:
     - MECHANICAL
     - VOID
   story:
-    name: 在壓力之下 (相思木)
+    name: 在壓力之下 (扭曲蕈木)
     type: VOID
     lore:
       - 被人走一圈，會
