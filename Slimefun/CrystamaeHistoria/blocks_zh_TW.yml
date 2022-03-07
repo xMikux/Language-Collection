@@ -4523,7 +4523,7 @@ CRIMSON_PLANKS:
     - HUMAN
     - VOID
   story:
-    name: 走上木材 (Crimson)
+    name: 走上木材 (緋紅蕈木)
     type: HUMAN
     lore:
       - 製作旅程的第一步
@@ -4565,7 +4565,7 @@ CRIMSON_ROOTS:
     - ANIMAL
     - VOID
   story:
-    name: 決心 (緋紅)
+    name: 決心 (緋紅蕈木)
     type: ANIMAL
     lore:
       - 在像地獄這種環境下生長的任何
@@ -4587,7 +4587,7 @@ CRIMSON_SIGN:
     - PHILOSOPHICAL
     - VOID
   story:
-    name: 署名 (緋紅)
+    name: 署名 (緋紅蕈木)
     type: PHILOSOPHICAL
     lore:
       - 充滿了那些
@@ -4608,7 +4608,7 @@ CRIMSON_SLAB:
     - HUMAN
     - VOID
   story:
-    name: 切開之下 (緋紅)
+    name: 切開之下 (緋紅蕈木)
     type: HUMAN
     lore:
       - 撕成兩半，與自己分開.
@@ -4630,7 +4630,7 @@ CRIMSON_STAIRS:
     - CELESTIAL
     - VOID
   story:
-    name: 出現 (緋紅)
+    name: 出現 (緋紅蕈木)
     type: CELESTIAL
     lore:
       - 活著是為了感受他人
@@ -4673,7 +4673,7 @@ CRIMSON_TRAPDOOR:
     - HUMAN
     - VOID
   story:
-    name: 到坑內 (緋紅)
+    name: 到坑內 (緋紅蕈木)
     type: VOID
     lore:
       - 等待一個完美的時刻
@@ -6917,8 +6917,8 @@ DROPPER:
     type: MECHANICAL
     lore:
       - 人們認為投擲器想要丟棄它
-      - 持有的物品。事實上，它感
-      - 到了每一件物品的丟失。
+      - 持有的物品. 事實上, 它感
+      - 到了每一件物品的丟失.
     shards:
       - 0
       - 1
@@ -7048,8 +7048,8 @@ ENCHANTED_BOOK:
     type: ELEMENTAL
     lore:
       - 以前的魔法操作迭代需要將魔法
-      - 強制寫入書面頁面。 雖然直截了
-      - 當，但這種方法仍然有效。
+      - 強制寫入書面頁面. 雖然直截了
+      - 當, 但這種方法仍然有效.
     shards:
       - 2
       - 0
@@ -12112,7 +12112,7 @@ MAGMA_BLOCK:
     - ELEMENTAL
     - VOID
   story:
-    name: Hot Stuff (方塊)
+    name: 熱料 (方塊)
     type: ELEMENTAL
     lore:
       - 這個物品的熾熱激情
