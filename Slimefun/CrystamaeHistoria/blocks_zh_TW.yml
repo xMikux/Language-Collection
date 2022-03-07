@@ -14765,9 +14765,9 @@ PODZOL:
     name: 吸血
     type: ELEMENTAL
     lore:
-      - Podzol is magically saturated from the iron
-      - it has absorbed. This magic is converted
-      - slowly over 時間推移而迴盪.
+      - 灰壤因其吸收的鐵而具有
+      - 魔法飽和度。這種魔力會
+      - 隨著時間的推移慢慢轉化。
     shards:
       - 2
       - 0
