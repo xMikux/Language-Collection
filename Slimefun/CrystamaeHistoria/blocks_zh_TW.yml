@@ -12958,10 +12958,10 @@ NAUTILUS_SHELL:
     name: 一個未使用的家
     type: HISTORICAL
     lore:
-      - The Nautilus is though to comes from
-      - the deepest depths, but not one can be
-      - seen. It's not known where Drowned find
-      - these shells.
+      - 鸚鵡螺號雖然來自最
+      - 深處，但一個也看不
+      - 見。不知道沉屍從哪
+      - 裡找到這些貝殼。
     shards:
       - 0
       - 0
@@ -13866,12 +13866,12 @@ OBSERVER:
     - HUMAN
     - CELESTIAL
   story:
-    name: Always Watching
+    name: 總是在觀察著
     type: CELESTIAL
     lore:
-      - The Observer is always watching, waiting
-      - to let you know the moment it sees something
-      - happen. Shame it can only see 1 block ahead...
+      - 觀察者一直在觀察，等著讓你知道
+      - 它看到的事情發生的那一刻。遺憾
+      - 的是，它只能看到前方一個方塊…
     shards:
       - 0
       - 2
@@ -13891,9 +13891,9 @@ OBSIDIAN:
     name: Anger
     type: VOID
     lore:
-      - Having waited so long underground in anger,
-      - it now manages to rise above the ground
-      - to potentially reveal its secrets.
+      - 在憤怒中在地下等待了這麼
+      - 久之後，它現在設法從地面
+      - 升起，以揭示自己的秘密。
     shards:
       - 1
       - 0
@@ -14329,9 +14329,9 @@ PAINTING:
     name: Aint No Picasso
     type: PHILOSOPHICAL
     lore:
-      - While it 'aint no Picasso, each painting
-      - is enshrined in magic from the creativity
-      - of their artists.
+      - 雖然它不是畢加索的作品，
+      - 但每幅畫都被賦予了來自藝
+      - 術家創造力的魔力。
     shards:
       - 0
       - 0
@@ -14351,9 +14351,9 @@ PAPER:
     name: A Clean Slate
     type: CELESTIAL
     lore:
-      - Every piece is a fresh start, a clean
-      - slate, and the sheer potential in each
-      - piece is vast.
+      - 每一件作品都是一個新
+      - 的開始，一張白紙，每
+      - 件作品的潛力都很大。
     shards:
       - 0
       - 1
@@ -14390,12 +14390,12 @@ PHANTOM_MEMBRANE:
   elements:
     - VOID
   story:
-    name: Lighter Than Air
+    name: 比空氣更輕
     type: VOID
     lore:
-      - When harnessed correctly, the Phantom
-      - Membrane is actually lighter than air
-      - and can pass this trait onto other items.
+      - 如果駕馭得當，夜魅皮膜
+      - 其實比空氣更輕，並能將
+      - 這種特性傳遞給其他物品。
     shards:
       - 0
       - 0
@@ -14719,7 +14719,7 @@ PISTON:
     - MECHANICAL
     - HUMAN
   story:
-    name: Getting Pushy
+    name: 變得愛出風頭
     type: MECHANICAL
     lore:
       - The Piston tries to be calm but its
