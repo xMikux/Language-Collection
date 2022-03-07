@@ -13677,7 +13677,7 @@ OAK_LOG:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: 敲樹以獲得原木 (Oak)
+    name: 敲樹以獲得原木 (橡木)
     type: ELEMENTAL
     lore:
       - 每次的冒險開始都從
@@ -13698,7 +13698,7 @@ OAK_PLANKS:
     - ELEMENTAL
     - HUMAN
   story:
-    name: 走上木材 (Oak)
+    name: 走上木材 (橡木)
     type: HUMAN
     lore:
       - 製作旅程的第一步
@@ -15260,7 +15260,7 @@ POLISHED_DIORITE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: 崛起 (Polished Diorite)
+    name: 崛起 (拋光花崗岩)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
@@ -15302,7 +15302,7 @@ POLISHED_GRANITE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: 半品脫 (Polished Granite)
+    name: 半品脫 (拋光花崗岩)
     type: HUMAN
     lore:
       - 這小傢伙只有一半大,
@@ -15324,7 +15324,7 @@ POLISHED_GRANITE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: 崛起 (Polished Granite)
+    name: 崛起 (拋光花崗岩)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
@@ -15892,7 +15892,7 @@ PURPLE_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: 未來的證明 (紫)
+    name: Future Proof (紫)
     type: HISTORICAL
     lore:
       - 經過時間考驗的方塊.
@@ -20193,7 +20193,7 @@ WARPED_PLANKS:
     - HUMAN
     - VOID
   story:
-    name: 走上木材 (Warped)
+    name: 走上木材 (扭曲)
     type: HUMAN
     lore:
       - 製作旅程的第一步
@@ -20214,7 +20214,7 @@ WARPED_PRESSURE_PLATE:
     - MECHANICAL
     - VOID
   story:
-    name: 在壓力之下 (扭曲蕈木)
+    name: 在壓力之下 (相思木)
     type: VOID
     lore:
       - 被人走一圈，會
