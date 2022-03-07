@@ -13180,7 +13180,7 @@ NETHERITE_SCRAP:
     type: HISTORICAL
     lore:
       - 獄髓碎片的正確精煉工藝
-      - has been lost to 時間推移而迴盪. Starting with a
+      - 時間推移而迴盪. 從一個開始
       - 是目前最廣為人知的方法。
     shards:
       - 1
@@ -16093,7 +16093,7 @@ PURPUR_PILLAR:
     - MECHANICAL
     - PHILOSOPHICAL
   story:
-    name: Pillar of Society (紫珀)
+    name: 社會支柱 (紫珀)
     type: PHILOSOPHICAL
     lore:
       - 撐起那些需要幫助
@@ -16226,7 +16226,7 @@ QUARTZ_PILLAR:
     - MECHANICAL
     - PHILOSOPHICAL
   story:
-    name: Pillar of Society (石英)
+    name: 社會支柱 (石英)
     type: PHILOSOPHICAL
     lore:
       - 撐起那些需要幫助
