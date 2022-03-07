@@ -12524,7 +12524,7 @@ MOSS_CARPET:
     - PHILOSOPHICAL
     - ELEMENTAL
   story:
-    name: 被踐踏 (Moss)
+    name: 被踐踏 (苔蘚)
     type: PHILOSOPHICAL
     lore:
       - 地毯每天被踐踏著,
@@ -14851,7 +14851,7 @@ POLISHED_ANDESITE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Half Pint (拋光安山岩)
+    name: 半品脫 (拋光安山岩)
     type: HUMAN
     lore:
       - 這小傢伙只有一半大,
@@ -14873,7 +14873,7 @@ POLISHED_ANDESITE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Rising on up (拋光安山岩)
+    name: 崛起 (拋光安山岩)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
@@ -14939,7 +14939,7 @@ POLISHED_BLACKSTONE_BRICKS:
     - MECHANICAL
     - HUMAN
   story:
-    name: Time to Gleam (拋光黑石磚)
+    name: Time to Gleam (拋光黑石)
     type: HUMAN
     lore:
       - 只要有一點愛，任何方塊都可以
@@ -14961,7 +14961,7 @@ POLISHED_BLACKSTONE_BRICK_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: 半品脫 (Polished Blackstone Brick)
+    name: 半品脫 (拋光黑石磚)
     type: HUMAN
     lore:
       - 這小傢伙只有一半大,
@@ -14983,7 +14983,7 @@ POLISHED_BLACKSTONE_BRICK_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: 崛起 (Polished Blackstone Brick)
+    name: 崛起 (拋光黑石磚)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
@@ -15005,7 +15005,7 @@ POLISHED_BLACKSTONE_BRICK_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: 打倒牆壁 (Polished Blackstone Brick)
+    name: 打倒牆壁 (拋光黑石磚)
     type: HISTORICAL
     lore:
       - 保護多年的工作,
@@ -15026,7 +15026,7 @@ POLISHED_BLACKSTONE_BUTTON:
     - HUMAN
     - MECHANICAL
   story:
-    name: 鬱悶 (拋光黑石磚)
+    name: 鬱悶 (拋光黑石)
     type: HUMAN
     lore:
       - 容易受到鬱悶
@@ -15046,7 +15046,7 @@ POLISHED_BLACKSTONE_PRESSURE_PLATE:
     - MECHANICAL
     - VOID
   story:
-    name: 在壓力之下 (拋光黑石磚)
+    name: 在壓力之下 (拋光黑石)
     type: VOID
     lore:
       - 被人走一圈，會
@@ -15067,7 +15067,7 @@ POLISHED_BLACKSTONE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: 半品脫 (拋光黑石磚)
+    name: 半品脫 (拋光黑石)
     type: HUMAN
     lore:
       - 這小傢伙只有一半大,
@@ -15089,7 +15089,7 @@ POLISHED_BLACKSTONE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: 崛起 (拋光黑石磚)
+    name: 崛起 (拋光黑石)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
@@ -15111,7 +15111,7 @@ POLISHED_BLACKSTONE_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: 打倒牆壁 (拋光黑石磚)
+    name: 打倒牆壁 (拋光黑石)
     type: HISTORICAL
     lore:
       - 保護多年的工作,
@@ -15238,7 +15238,7 @@ POLISHED_DIORITE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: 半品脫 (Polished Diorite)
+    name: 半品脫 ( 拋光閃長岩)
     type: HUMAN
     lore:
       - 這小傢伙只有一半大,
@@ -15782,7 +15782,7 @@ PUMPKIN_SEEDS:
     - HUMAN
     - ANIMAL
   story:
-    name: 未開發的潛力 (Pumpkin)
+    name: 未開發的潛力 (南瓜)
     type: HUMAN
     lore:
       - 由於這顆種子的
@@ -16943,7 +16943,7 @@ RED_SAND:
   elements:
     - ELEMENTAL
   story:
-    name: Silica (紅)
+    name: 二氧化矽 (紅色)
     type: ELEMENTAL
     lore:
       - 歷經幾十年的風化
@@ -18493,7 +18493,7 @@ SPRUCE_LOG:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: 敲樹以獲得原木 (Spruce)
+    name: 敲樹以獲得原木 (杉木)
     type: ELEMENTAL
     lore:
       - 每次的冒險開始都從
@@ -18514,7 +18514,7 @@ SPRUCE_PLANKS:
     - ELEMENTAL
     - HUMAN
   story:
-    name: 走上木材 (Spruce)
+    name: 走上木材 (杉木)
     type: HUMAN
     lore:
       - 製作旅程的第一步
