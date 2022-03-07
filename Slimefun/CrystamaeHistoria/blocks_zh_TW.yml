@@ -10705,7 +10705,7 @@ LEATHER:
   elements:
     - ANIMAL
   story:
-    name: Get Tanned (皮革)
+    name: 曬黑 (皮革)
     type: ANIMAL
     lore:
       - 雖然是一種不幸的做法，但
@@ -15432,9 +15432,9 @@ POTION:
     name: 簡單的補品
     type: ALCHEMICAL
     lore:
-      - Before the discovery of Crysta and other
-      - esoteric magics, potions were the only way
-      - to tap into the Exoverse for power.
+      - 在發現水晶和其他深奧的
+      - 魔法之前，藥水是進入外
+      - 域獲取力量的唯一途徑。
     shards:
       - 1
       - 0
@@ -15473,13 +15473,13 @@ POWERED_RAIL:
     - MECHANICAL
     - HUMAN
   story:
-    name: Level Up
+    name: 升級
     type: MECHANICAL
     lore:
-      - When Dr. Minestein accidentally dropped
-      - some redstone on the railroad, he suddenly
-      - discovered the next level in affordable
-      - transportation
+      - 當米尼斯坦博士不小心
+      - 將一些紅石掉在鐵路上
+      - 時，他突然發現了下一
+      - 個經濟實惠的交通工具。
     shards:
       - 0
       - 1
@@ -15588,8 +15588,8 @@ PRISMARINE_CRYSTALS:
     name: Guardians Draw (Crystals)
     type: CELESTIAL
     lore:
-      - This item draws powers from nearby Celestial
-      - Crysta to emit a pale light and colors.
+      - 這個物品從附近的天體水晶中吸取
+      - 力量，發出淡淡的光和顏色。
     shards:
       - 0
       - 0
@@ -15609,8 +15609,8 @@ PRISMARINE_SHARD:
     name: Guardians Draw (Shard)
     type: CELESTIAL
     lore:
-      - This item draws powers from nearby Celestial
-      - Crysta to emit a pale light and colors.
+      - 這個物品從附近的天體水晶中吸取
+      - 力量，發出淡淡的光和顏色。
     shards:
       - 0
       - 0
@@ -15694,11 +15694,11 @@ PUFFERFISH:
     - ANIMAL
     - PHILOSOPHICAL
   story:
-    name: Huff and Puff
+    name: 氣喘吁籲
     type: ANIMAL
     lore:
-      - The pufferfish is notoriously grumpy, if a
-      - player even gets close it just goes off on one.
+      - 河豚是出了名的暴躁，它
+      - 會對靠近它的玩家發火。
     shards:
       - 0
       - 0
@@ -15759,13 +15759,13 @@ PUMPKIN_PIE:
   elements:
     - HUMAN
   story:
-    name: Bake Off
+    name: 烤過
     type: HUMAN
     lore:
-      - The love a baker has for their food
-      - imparts a very small amount of magic into
-      - the food. The more magic, the better the
-      - outcome.
+      - 麵包師對食物的熱
+      - 愛賦予食物少量的
+      - 魔力。魔法越多，
+      - 結果就越好。
     shards:
       - 0
       - 0
@@ -16070,12 +16070,12 @@ PURPUR_BLOCK:
     - VOID
     - HISTORICAL
   story:
-    name: Ancient Remnants
+    name: 遠古遺跡
     type: HISTORICAL
     lore:
-      - This is the only evidence left of the
-      - long-lost Ancient Builders who created
-      - it
+      - 這是創造它的久
+      - 違的古代建造者
+      - 留下的唯一證據
     shards:
       - 0
       - 0
@@ -16096,9 +16096,9 @@ PURPUR_PILLAR:
     name: Pillar of Society (紫珀)
     type: PHILOSOPHICAL
     lore:
-      - Holding up those in need, the purpose of
-      - a pillar is happily fulfilled without
-      - complaint.
+      - 撐起那些需要幫助
+      - 的人，紫珀柱的目
+      - 的被愉快地實現了。
     shards:
       - 0
       - 1
@@ -16229,9 +16229,9 @@ QUARTZ_PILLAR:
     name: Pillar of Society (石英)
     type: PHILOSOPHICAL
     lore:
-      - Holding up those in need, the purpose of
-      - a pillar is happily fulfilled without
-      - complaint.
+      - 撐起那些需要幫助
+      - 的人，紫珀柱的目
+      - 的被愉快地實現了。
     shards:
       - 0
       - 1
@@ -16315,13 +16315,13 @@ RABBIT_FOOT:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Feeling Lucky
+    name: 手氣不錯
     type: CELESTIAL
     lore:
-      - It's unknown how or why, but a
-      - rabbit's foot draws in nearby
-      - Crystamae to form literal luck for
-      - the holder
+      - 不知道為什麼，但
+      - 兔子的腳會吸引附
+      - 近的水晶，為持有
+      - 者帶來真正的幸運。
     shards:
       - 0
       - 0
@@ -16337,10 +16337,10 @@ RABBIT_HIDE:
   elements:
     - ANIMAL
   story:
-    name: Get Tanned (Rabbit)
+    name: 曬黑 (兔子)
     type: ANIMAL
     lore:
-      - While an unfortunate practice, leather is
+      - 雖然是一種不幸的做法，但
       - a staple to basic development.
     shards:
       - 0
