@@ -5151,7 +5151,7 @@ DAMAGED_ANVIL:
     - MECHANICAL
     - HUMAN
   story:
-    name: 鐵鎚時間! (Damaged)
+    name: 鐵鎚時間! (耗損的)
     type: MECHANICAL
     lore:
       - 每一個接觸過鐵砧的
