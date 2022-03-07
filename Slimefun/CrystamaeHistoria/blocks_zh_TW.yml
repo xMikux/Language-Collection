@@ -5323,7 +5323,7 @@ DARK_OAK_LOG:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: 敲樹以獲得原木 (Dark Oak)
+    name: 敲樹以獲得原木 (黑橡木)
     type: ELEMENTAL
     lore:
       - 每次的冒險開始都從
@@ -5344,7 +5344,7 @@ DARK_OAK_PLANKS:
     - ELEMENTAL
     - HUMAN
   story:
-    name: 走上木材 (Dark Oak)
+    name: 走上木材 (黑橡木)
     type: HUMAN
     lore:
       - 製作旅程的第一步
@@ -6852,7 +6852,7 @@ DRIED_KELP:
     type: CELESTIAL
     lore:
       - 對於許多人來說, 這個簡單
-      - 的物品讓它們在早期保持活力..
+      - 的物品讓它們在早期保持活力.
     shards:
       - 1
       - 0
@@ -7445,7 +7445,7 @@ FEATHER:
     lore:
       - 每根羽毛都能記住它從哪
       - 來的，並且會盡可能的從
-      - 它身上汲取魔法精華。
+      - 它身上汲取魔法精華.
     shards:
       - 0
       - 0
@@ -7730,7 +7730,7 @@ FLINT_AND_STEEL:
     lore:
       - 在你的手掌中創造
       - 火焰。潛在的能量
-      - 直接轉化為晶體。
+      - 直接轉化為晶體.
     shards:
       - 2
       - 0
@@ -7774,7 +7774,7 @@ FLOWERING_AZALEA_LEAVES:
     lore:
       - 雖然不是所有的杜鵑花，但那些
       - 杜鵑花為了瘋狂而自由地綻放，
-      - 都會盡可能地吸收魔法能量。
+      - 都會盡可能地吸收魔法能量.
     shards:
       - 1
       - 0
@@ -7817,7 +7817,7 @@ FLOWER_POT:
     lore:
       - 在這個奇妙、臨時的家的幫
       - 助下，一個才剛萌芽的球莖
-      - 變成了一朵盛開的花朵。
+      - 變成了一朵盛開的花朵.
     shards:
       - 1
       - 0
@@ -7839,7 +7839,7 @@ FURNACE:
     type: ELEMENTAL
     lore:
       - 熊熊燃燒的火焰，以它
-      - 創造者的創造力為食。
+      - 創造者的創造力為食.
     shards:
       - 1
       - 1
@@ -7859,9 +7859,9 @@ FURNACE_MINECART:
     name: 滾動的礦車… (熔爐)
     type: MECHANICAL
     lore:
-      - '… 沒有苔蘚。作為創世神'
+      - '… 沒有苔蘚.作為創世神'
       - 技術的最大飛躍，礦車的
-      - 用途比人們想像的要多。
+      - 用途比人們想像的要多.
     shards:
       - 0
       - 2
