@@ -14722,9 +14722,9 @@ PISTON:
     name: 變得愛出風頭
     type: MECHANICAL
     lore:
-      - The Piston tries to be calm but its
-      - easily triggered and flies off of the
-      - handle with ease.
+      - 活塞試圖保持冷靜，
+      - 但它很容易觸發並輕
+      - 鬆飛離手柄。
     shards:
       - 0
       - 2
@@ -14762,7 +14762,7 @@ PODZOL:
   elements:
     - ELEMENTAL
   story:
-    name: Leech
+    name: 吸血
     type: ELEMENTAL
     lore:
       - Podzol is magically saturated from the iron
