@@ -12912,7 +12912,7 @@ MYCELIUM:
     - ELEMENTAL
     - VOID
   story:
-    name: Ancient Promise
+    name: 遠古的諾言
     type: VOID
     lore:
       - 在古代孢子的觸動下，菌絲從虛空中
@@ -13461,7 +13461,7 @@ NETHER_STAR:
   elements:
     - VOID
   story:
-    name: Crystalline Nether
+    name: 水晶地獄
     type: VOID
     lore:
       - 並非所有的魔法都符合水
@@ -13527,7 +13527,7 @@ NOTE_BLOCK:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Without
+    name: 無
     type: PHILOSOPHICAL
     lore:
       - 沒有音樂的生活
@@ -13888,7 +13888,7 @@ OBSIDIAN:
     - HISTORICAL
     - VOID
   story:
-    name: Anger
+    name: 憤怒
     type: VOID
     lore:
       - 在憤怒中在地下等待了這麼
@@ -14326,7 +14326,7 @@ PAINTING:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Aint No Picasso
+    name: 不是畢加索
     type: PHILOSOPHICAL
     lore:
       - 雖然它不是畢加索的作品，
@@ -14348,7 +14348,7 @@ PAPER:
     - HUMAN
     - CELESTIAL
   story:
-    name: A Clean Slate
+    name: 一個乾淨的石板
     type: CELESTIAL
     lore:
       - 每一件作品都是一個新
@@ -14807,7 +14807,7 @@ POISONOUS_POTATO:
     - HUMAN
     - ANIMAL
   story:
-    name: A Not-So-Welcome Surprise
+    name: 一個不那麼受歡迎的驚喜
     type: ANIMAL
     lore:
       - 當一個物品的內部水晶
@@ -14833,8 +14833,8 @@ POLISHED_ANDESITE:
     name: 純粹的喜悅
     type: HUMAN
     lore:
-      - An epic sadness is converted to pure
-      - joy.
+      - 一種史詩般的悲傷被
+      - 轉化為純粹的喜悅。
     shards:
       - 2
       - 0
@@ -14898,9 +14898,9 @@ POLISHED_BASALT:
     name: Time to Gleam (玄武岩)
     type: HUMAN
     lore:
-      - With a bit of love, any block can
-      - be made beautiful. Even those block
-      - left behind are drawn to the fore.
+      - 只要有一點愛，任何方塊都可以
+      - 變得漂亮。即使是那些被遺棄的
+      - 塊狀物也會被吸引到眼前。
     shards:
       - 1
       - 1
@@ -14920,9 +14920,9 @@ POLISHED_BLACKSTONE:
     name: Time to Gleam (黑石)
     type: HUMAN
     lore:
-      - With a bit of love, any block can
-      - be made beautiful. Even those block
-      - left behind are drawn to the fore.
+      - 只要有一點愛，任何方塊都可以
+      - 變得漂亮。即使是那些被遺棄的
+      - 塊狀物也會被吸引到眼前。
     shards:
       - 1
       - 1
@@ -14942,9 +14942,9 @@ POLISHED_BLACKSTONE_BRICKS:
     name: Time to Gleam (拋光黑石磚)
     type: HUMAN
     lore:
-      - With a bit of love, any block can
-      - be made beautiful. Even those block
-      - left behind are drawn to the fore.
+      - 只要有一點愛，任何方塊都可以
+      - 變得漂亮。即使是那些被遺棄的
+      - 塊狀物也會被吸引到眼前。
     shards:
       - 1
       - 1
@@ -15135,9 +15135,9 @@ POLISHED_DEEPSLATE:
     name: Time to Gleam (深板岩)
     type: HUMAN
     lore:
-      - With a bit of love, any block can
-      - be made beautiful. Even those block
-      - left behind are drawn to the fore.
+      - 只要有一點愛，任何方塊都可以
+      - 變得漂亮。即使是那些被遺棄的
+      - 塊狀物也會被吸引到眼前。
     shards:
       - 1
       - 1
@@ -15218,10 +15218,10 @@ POLISHED_DIORITE:
     - HUMAN
     - ALCHEMICAL
   story:
-    name: Polished
+    name: 拋光
     type: HUMAN
     lore:
-      - So you can actually polish a turd?
+      - 所以你真的可以擦亮糞便嗎？
     shards:
       - 2
       - 0
@@ -15282,10 +15282,10 @@ POLISHED_GRANITE:
     - HUMAN
     - ALCHEMICAL
   story:
-    name: Lacquered
+    name: 塗漆
     type: HUMAN
     lore:
-      - Decorative and pristine, used for the finest of builds
+      - 裝飾性和質樸，用於最好的建築
     shards:
       - 2
       - 0
@@ -15345,10 +15345,10 @@ POPPED_CHORUS_FRUIT:
   elements:
     - VOID
   story:
-    name: Failure
+    name: 失敗
     type: VOID
     lore:
-      - Baking a Chorus Fruit stops the state of flux and disables all quantum connections
+      - 烘烤歌萊果會停止流動狀態，並使所有的量子連接失效。
     shards:
       - 0
       - 0
@@ -15429,7 +15429,7 @@ POTION:
   elements:
     - ALCHEMICAL
   story:
-    name: A Simple Tonic
+    name: 簡單的補品
     type: ALCHEMICAL
     lore:
       - Before the discovery of Crysta and other
