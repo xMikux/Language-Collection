@@ -16341,7 +16341,7 @@ RABBIT_HIDE:
     type: ANIMAL
     lore:
       - 雖然是一種不幸的做法，但
-      - a staple to basic development.
+      - 皮革是基本發展的主力素材。
     shards:
       - 0
       - 0
@@ -16380,11 +16380,11 @@ RAIL:
     - MECHANICAL
     - HUMAN
   story:
-    name: The Commute
+    name: 通勤
     type: HUMAN
     lore:
-      - Connecting far points together gives a rail
-      - a heartfelt satisfaction.
+      - 將遠點連接在一起會給
+      - 鐵路帶來由衷的滿足。
     shards:
       - 0
       - 2
@@ -16573,11 +16573,11 @@ REDSTONE_LAMP:
     - MECHANICAL
     - HUMAN
   story:
-    name: Non-magical
+    name: 非魔法
     type: MECHANICAL
     lore:
-      - The Redstone Lamp generates light without
-      - the use of Crysta or other magics. Weird!
+      - 紅石燈無需使用水晶或其他
+      - 魔法就能產生光線。奇怪!
     shards:
       - 0
       - 2
@@ -16594,12 +16594,12 @@ REDSTONE_ORE:
     - ELEMENTAL
     - MECHANICAL
   story:
-    name: A new age
+    name: 新時代
     type: ELEMENTAL
     lore:
-      - When first discovered. human history completely
-      - changed, making it possible to create circuits,
-      - machines and the birth of electricity.
+      - 首次發現時。人類歷史徹底
+      - 改變，使得創造電路、機器
+      - 和電力的誕生成為可能
     shards:
       - 2
       - 1
@@ -16616,11 +16616,11 @@ REDSTONE_TORCH:
   elements:
     - MECHANICAL
   story:
-    name: Simple Signals
+    name: 簡式信號
     type: MECHANICAL
     lore:
-      - Redstone is a wonderful non-magical
-      - system that somehow transmits power
+      - 紅石是一種奇妙的非魔法系統
+      - '，它以某種方式傳遞力量'
     shards:
       - 0
       - 1
@@ -16967,9 +16967,9 @@ RED_SANDSTONE:
     name: Compacted (紅)
     type: ELEMENTAL
     lore:
-      - Over years of compaction, sand becomes
-      - something new, stronger with its own
-      - identity.
+      - 在多年的壓實過程中，沙
+      - 子變成了新的東西，更加
+      - 強大，有自己的特性。
     shards:
       - 2
       - 0
@@ -17182,13 +17182,13 @@ RESPAWN_ANCHOR:
     - ELEMENTAL
     - VOID
   story:
-    name: Metempsychosis
+    name: 輪迴
     type: VOID
     lore:
-      - The respawn anchor, at its core, does NOT
-      - respawn you. Your body is recreated and your
-      - mind magically transmits via Void to the new
-      - recepticle. You are no longer you.
+      - 重生之錨的核心不會讓你重生。
+      - 你的身體被重新創造，你的思想
+      - 通過虛空神奇地傳送到新的容器
+      - 中。你不再是你了。
     shards:
       - 2
       - 1
@@ -17205,7 +17205,7 @@ ROOTED_DIRT:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Entrenched
+    name: 根深蒂固
     type: ANIMAL
     lore:
       - The Rooted Dirt is most comfortable within
