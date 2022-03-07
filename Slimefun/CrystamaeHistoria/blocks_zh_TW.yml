@@ -14810,10 +14810,10 @@ POISONOUS_POTATO:
     name: A Not-So-Welcome Surprise
     type: ANIMAL
     lore:
-      - When an item's internal Crysta goes bad
-      - the mechanics change completely. The
-      - Poisonous Potato is an outcome of this
-      - process.
+      - 當一個物品的內部水晶
+      - 變壞時，其機制會完全
+      - 改變。毒馬鈴薯就是這
+      - 個過程的一個結果。
     shards:
       - 0
       - 0
@@ -14830,7 +14830,7 @@ POLISHED_ANDESITE:
     - HUMAN
     - ALCHEMICAL
   story:
-    name: Pure Joy
+    name: 純粹的喜悅
     type: HUMAN
     lore:
       - An epic sadness is converted to pure
