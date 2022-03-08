@@ -29,7 +29,7 @@ ACACIA_BUTTON:
     name: 鬱悶 (相思)
     type: HUMAN
     lore:
-      - 容易受到鬱悶
+      - 容易感到鬱悶
     shards:
       - 0
       - 1
@@ -1020,7 +1020,7 @@ BIRCH_BUTTON:
     name: 鬱悶 (樺木)
     type: HUMAN
     lore:
-      - 容易受到鬱悶
+      - 容易感到鬱悶
     shards:
       - 0
       - 1
@@ -4369,7 +4369,7 @@ CRIMSON_BUTTON:
     name: 鬱悶 (緋紅)
     type: HUMAN
     lore:
-      - 容易受到鬱悶
+      - 容易感到鬱悶
     shards:
       - 0
       - 1
@@ -5218,7 +5218,7 @@ DARK_OAK_BUTTON:
     name: 鬱悶 (黑橡木)
     type: HUMAN
     lore:
-      - 容易受到鬱悶
+      - 容易感到鬱悶
     shards:
       - 0
       - 1
@@ -10195,7 +10195,7 @@ JUNGLE_BUTTON:
     name: 鬱悶 (叢林木)
     type: HUMAN
     lore:
-      - 容易受到鬱悶
+      - 容易感到鬱悶
     shards:
       - 0
       - 1
@@ -13180,7 +13180,7 @@ NETHERITE_SCRAP:
     type: HISTORICAL
     lore:
       - 獄髓碎片的正確精煉工藝
-      - 時間推移而迴盪. 從一個開始
+      - 隨著時間推移而迴盪. 從一開始
       - 是目前最廣為人知的方法。
     shards:
       - 1
@@ -13572,7 +13572,7 @@ OAK_BUTTON:
     name: 鬱悶 (橡木)
     type: HUMAN
     lore:
-      - 容易受到鬱悶
+      - 容易感到鬱悶
     shards:
       - 0
       - 1
@@ -15029,7 +15029,7 @@ POLISHED_BLACKSTONE_BUTTON:
     name: 鬱悶 (拋光黑石)
     type: HUMAN
     lore:
-      - 容易受到鬱悶
+      - 容易感到鬱悶
     shards:
       - 1
       - 1
@@ -15585,7 +15585,7 @@ PRISMARINE_CRYSTALS:
     - ANIMAL
     - CELESTIAL
   story:
-    name: 深海守衛的晶體
+    name: 深海守衛 (晶體)
     type: CELESTIAL
     lore:
       - 這個物品從附近的天體水晶中吸取
@@ -15606,7 +15606,7 @@ PRISMARINE_SHARD:
     - ANIMAL
     - CELESTIAL
   story:
-    name: 深海守衛的碎片
+    name: 深海守衛 (碎片)
     type: CELESTIAL
     lore:
       - 這個物品從附近的天體水晶中吸取
@@ -18388,7 +18388,7 @@ SPRUCE_BUTTON:
     name: 鬱悶 (杉木)
     type: HUMAN
     lore:
-      - 容易受到鬱悶
+      - 容易感到鬱悶
     shards:
       - 0
       - 1
@@ -18900,7 +18900,7 @@ STONE_BUTTON:
     name: 鬱悶 (石頭)
     type: HUMAN
     lore:
-      - 容易受到鬱悶
+      - 容易感到鬱悶
     shards:
       - 1
       - 1
@@ -19200,7 +19200,7 @@ STRIPPED_CRIMSON_STEM:
     - HUMAN
     - VOID
   story:
-    name: Stripped Bare (緋紅蕈柄)
+    name: 剝皮 (緋紅蕈柄)
     type: HUMAN
     lore:
       - 由於沒有什麼可隱藏的，這種
@@ -20020,7 +20020,7 @@ WARPED_BUTTON:
     name: 鬱悶 (扭曲)
     type: HUMAN
     lore:
-      - 容易受到鬱悶
+      - 容易感到鬱悶
     shards:
       - 0
       - 1
