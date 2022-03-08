@@ -17773,9 +17773,9 @@ SMITHING_TABLE:
     name: 鍍金
     type: HUMAN
     lore:
-      - Somehow, the magic of this table manages
-      - to bend and form the hardest known material
-      - around your favourite diamond tools
+      - 不知為何，這張桌子的魔力
+      - 能夠讓你把最硬的材料彎曲
+      - 加工到你喜歡的鑽石工具上。
     shards:
       - 0
       - 1
@@ -18187,7 +18187,7 @@ SOUL_SAND:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: Torn Apart (Sand)
+    name: 撕碎 (沙)
     type: HISTORICAL
     lore:
       - The souls of those before you, perhaps
@@ -18209,7 +18209,7 @@ SOUL_SOIL:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: Torn Apart (Soil)
+    name: 撕碎 (靈魂沙)
     type: HISTORICAL
     lore:
       - The souls of those before you, perhaps
