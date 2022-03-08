@@ -18190,8 +18190,8 @@ SOUL_SAND:
     name: 撕碎 (沙)
     type: HISTORICAL
     lore:
-      - The souls of those before you, perhaps
-      - ripped from the mysterious Ancient Builders?
+      - 在你之前的那些人的靈魂，也許是
+      - 從神秘的古代建造者那裡扯來的？
     shards:
       - 1
       - 0
@@ -18212,8 +18212,8 @@ SOUL_SOIL:
     name: 撕碎 (靈魂沙)
     type: HISTORICAL
     lore:
-      - The souls of those before you, perhaps
-      - ripped from the mysterious Ancient Builders?
+      - 在你之前的那些人的靈魂，也許是
+      - 從神秘的古代建造者那裡扯來的？
     shards:
       - 1
       - 0
@@ -18253,13 +18253,13 @@ SPAWNER:
     - ANIMAL
     - CELESTIAL
   story:
-    name: Angelic Bars
+    name: 天使酒吧
     type: CELESTIAL
     lore:
-      - The true nature of a spawner has been lost to
+      - 生怪磚的真正性質已經被天體
       - 時間推移而迴盪. It is not a generator of mobs, it is a
-      - dimensional prison made from Celestial Crysta,
-      - holding them back as best as possible.
+      - 水晶製成的維度監獄所迷惑，
+      - 請盡可能地將它們束之高閣。
     shards:
       - 0
       - 0
@@ -18276,12 +18276,12 @@ SPECTRAL_ARROW:
     - HUMAN
     - CELESTIAL
   story:
-    name: Sparkling
+    name: 閃閃發光的
     type: HUMAN
     lore:
-      - Covered with precious glowstone
-      - dust, this magical arrow is helpful
-      - for spotting your enemies
+      - 覆蓋著珍貴的螢石粉，
+      - 這種神奇的箭頭有助於
+      - 發現你的敵人。
     shards:
       - 1
       - 0
@@ -18303,7 +18303,7 @@ SPIDER_EYE:
     type: VOID
     lore:
       - With 8 per spider, surely sparing one
-      - wont be too detrimental right?
+      - 每隻蜘蛛有 8 隻眼，放過一隻
     shards:
       - 0
       - 0
@@ -18319,12 +18319,12 @@ SPLASH_POTION:
   elements:
     - ALCHEMICAL
   story:
-    name: A Simple Tonic (Splash)
+    name: 肯定不會有太大的影響，對嗎？
     type: ALCHEMICAL
     lore:
-      - Before the discovery of Crysta and other
-      - esoteric magics, potions were the only way
-      - to tap into the Exoverse for power.
+      - 在發現水晶和其他深奧的
+      - 魔法之前，藥水是進入外
+      - 域獲取力量的唯一途徑。
     shards:
       - 1
       - 0
@@ -18556,7 +18556,7 @@ SPRUCE_SAPLING:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Growth
+    name: 生長
     type: ELEMENTAL
     lore:
       - 一個年輕的精神
@@ -18684,9 +18684,9 @@ SPYGLASS:
     name: Land Ho'
     type: PHILOSOPHICAL
     lore:
-      - A simple tool but one that encourages
-      - investigation and exploration. A driving
-      - force for new discoveries.
+      - 一個簡單的工具，但
+      - 它鼓勵調查和探索。
+      - 是新發現的驅動力。
     shards:
       - 0
       - 1
@@ -18705,8 +18705,8 @@ STICK:
     name: It's a Start
     type: HUMAN
     lore:
-      - A simple item but with more uses than
-      - one would think.
+      - 一個簡單的物品，但其
+      - 用途比人們想像的要多。
     shards:
       - 0
       - 1
@@ -18724,7 +18724,7 @@ STICKY_PISTON:
     - HUMAN
     - CELESTIAL
   story:
-    name: Stuck in a rut
+    name: 陷入困境
     type: MECHANICAL
     lore:
       - Constantly working hard to move all
@@ -19603,9 +19603,9 @@ TINTED_GLASS:
     name: Darkness
     type: VOID
     lore:
-      - Corrupted with impure Crystamae,
-      - this glass is forever destined
-      - to fail its purpose
+      - 被不純的水晶石腐蝕
+      - 後，這塊玻璃永遠注
+      - 定無法實現其目的。
     shards:
       - 1
       - 0
@@ -19625,9 +19625,9 @@ TIPPED_ARROW:
     name: A Simple Tonic (Tipped Arrow)
     type: ALCHEMICAL
     lore:
-      - Before the discovery of Crysta and other
-      - esoteric magics, potions were the only way
-      - to tap into the Exoverse for power.
+      - 在發現水晶和其他深奧的
+      - 魔法之前，藥水是進入外
+      - 域獲取力量的唯一途徑。
     shards:
       - 1
       - 0
@@ -19644,10 +19644,10 @@ TNT:
     - ALCHEMICAL
     - PHILOSOPHICAL
   story:
-    name: Wait for it...
+    name: 等一下...
     type: ALCHEMICAL
     lore:
-      - WAIT FOR IT!
+      - 等一下！
     shards:
       - 0
       - 1
@@ -19665,12 +19665,12 @@ TNT_MINECART:
     - MECHANICAL
     - HUMAN
   story:
-    name: A Rolling Minecart... (TNT)
+    name: 滾動的礦車... (TNT)
     type: MECHANICAL
     lore:
-      - ...Gathers No Moss. The singular largest
-      - leap in minecraft tech, the minecart has
-      - more uses than one may think.
+      - '… 不採集苔蘚。作為創世神'
+      - 技術的最大飛躍，礦車的
+      - 用途比人們想像的要多。
     shards:
       - 0
       - 2
