@@ -17208,9 +17208,9 @@ ROOTED_DIRT:
     name: 根深蒂固
     type: ANIMAL
     lore:
-      - The Rooted Dirt is most comfortable within
-      - the confines of the parent tree. It absorbs
-      - Celestial Crysta from the tree above it.
+      - 扎根土在母樹的範圍內
+      - 是最舒適的。它從上面
+      - 的樹上吸收天體晶體。
     shards:
       - 1
       - 0
@@ -17247,11 +17247,11 @@ ROTTEN_FLESH:
   elements:
     - VOID
   story:
-    name: Unholy Compact
+    name: 褻瀆契約
     type: VOID
     lore:
-      - Zombies are severely misjudged. They are
-      - always so please to eat you!
+      - 僵屍被嚴重誤判了。他
+      - 們總是很高興能吃了你!
     shards:
       - 0
       - 0
@@ -17267,12 +17267,12 @@ SADDLE:
   elements:
     - ANIMAL
   story:
-    name: Tame The Untameable
+    name: 馴服不可馴服之物
     type: ANIMAL
     lore:
-      - A wild spirit being tamed by a strong
-      - soul. While risky the result is a resonating
-      - harmony between man and beast.
+      - 狂野的靈魂被強大的靈魂所馴
+      - 服。雖然冒險，但結果是人與
+      - 野獸之間產生共鳴的和諧。
     shards:
       - 0
       - 0
@@ -17357,9 +17357,9 @@ SANDSTONE:
     name: Compacted
     type: ELEMENTAL
     lore:
-      - Over years of compaction, sand becomes
-      - something new, stronger with its own
-      - identity.
+      - 在多年的壓實過程中，沙
+      - 子變成了新的東西，更加
+      - 強大，有自己的特性。
     shards:
       - 2
       - 0
@@ -17441,12 +17441,12 @@ SCAFFOLDING:
     - MECHANICAL
     - HUMAN
   story:
-    name: To New Heights
+    name: 抵達新的高度
     type: MECHANICAL
     lore:
-      - Pillaring up is a thing of the past!
-      - With Scaffolding you can simply...
-      - uhm... Pillar.. up... hmm
+      - 豎立支柱是過去的事了!
+      - 有了鷹架，你可以簡單地
+      - '…呃…用柱子…起來…嗯。'
     shards:
       - 0
       - 1
@@ -17462,12 +17462,12 @@ SCUTE:
   elements:
     - ANIMAL
   story:
-    name: Freely Shed
+    name: 自由落體
     type: ANIMAL
     lore:
-      - Freely given as a turtle grows, its
-      - considered a gift as thanks for caring
-      - for the little guy.
+      - 它被認為是一份隨著
+      - 烏龜成長，感謝對小
+      - 傢伙照顧成長的禮物。
     shards:
       - 0
       - 0
@@ -17483,10 +17483,10 @@ SEAGRASS:
   elements:
     - ELEMENTAL
   story:
-    name: Despite All Odds
+    name: 儘管困難重重
     type: ELEMENTAL
     lore:
-      - Life can find a way to grow anything
+      - 生命可以在任何地方找到生長
       - anywhere. Even at the deepest depths
       - this grass can flourish and thrive.
     shards:
