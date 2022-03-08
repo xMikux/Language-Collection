@@ -10618,7 +10618,7 @@ LARGE_AMETHYST_BUD:
     - VOID
     - ELEMENTAL
   story:
-    name: Devoid of magic (大)
+    name: 未虛無的魔法 (大)
     type: VOID
     lore:
       - 紫晶花蕾是水晶沉積物，無法利
@@ -12177,7 +12177,7 @@ MEDIUM_AMETHYST_BUD:
     - VOID
     - ELEMENTAL
   story:
-    name: Devoid of magic (中)
+    name: 未虛無的魔法 (中)
     type: VOID
     lore:
       - 紫晶花蕾是水晶沉積物，無法利
@@ -17726,7 +17726,7 @@ SMALL_AMETHYST_BUD:
     - VOID
     - ELEMENTAL
   story:
-    name: Devoid of magic (小)
+    name: 未虛無的魔法 (小)
     type: VOID
     lore:
       - 紫晶花蕾是水晶沉積物，無法利
@@ -18257,7 +18257,7 @@ SPAWNER:
     type: CELESTIAL
     lore:
       - 生怪磚的真正性質已經被天體
-      - 時間推移而迴盪. It is not a generator of mobs, it is a
+      - 時間推移而迴盪. 它不是怪物的生成器, 它是
       - 水晶製成的維度監獄所迷惑，
       - 請盡可能地將它們束之高閣。
     shards:
