@@ -10507,7 +10507,7 @@ LADDER:
   elements:
     - PHILOSOPHICAL
   story:
-    name: Where's Boomer?
+    name: 布默在哪裡？
     type: PHILOSOPHICAL
     lore:
       - 有需要認領的梯子嗎？
@@ -15585,7 +15585,7 @@ PRISMARINE_CRYSTALS:
     - ANIMAL
     - CELESTIAL
   story:
-    name: Guardians Draw (Crystals)
+    name: 深海守衛的晶體
     type: CELESTIAL
     lore:
       - 這個物品從附近的天體水晶中吸取
@@ -15606,7 +15606,7 @@ PRISMARINE_SHARD:
     - ANIMAL
     - CELESTIAL
   story:
-    name: Guardians Draw (Shard)
+    name: 深海守衛的碎片
     type: CELESTIAL
     lore:
       - 這個物品從附近的天體水晶中吸取
@@ -18681,7 +18681,7 @@ SPYGLASS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Land Ho'
+    name: 海盜
     type: PHILOSOPHICAL
     lore:
       - 一個簡單的工具，但
