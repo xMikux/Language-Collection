@@ -17354,7 +17354,7 @@ SANDSTONE:
   elements:
     - ELEMENTAL
   story:
-    name: Compacted
+    name: 壓實
     type: ELEMENTAL
     lore:
       - 在多年的壓實過程中，沙
@@ -17487,8 +17487,8 @@ SEAGRASS:
     type: ELEMENTAL
     lore:
       - 生命可以在任何地方找到生長
-      - anywhere. Even at the deepest depths
-      - this grass can flourish and thrive.
+      - 的方法。即使在最深處，這種
+      - 草也能蓬勃發展，茁壯成長。
     shards:
       - 1
       - 0
@@ -17505,12 +17505,12 @@ SEA_LANTERN:
     - CELESTIAL
     - ANIMAL
   story:
-    name: Bight
+    name: 灣岸
     type: CELESTIAL
     lore:
-      - The gathered Celestial Crysta from the
-      - prismarine Crystals emit a bright and
-      - ever present light.
+      - 從稜鏡水晶中聚集的
+      - 天體水晶發出明亮的
+      - '、永遠存在的光。'
     shards:
       - 1
       - 0
@@ -17527,13 +17527,13 @@ SEA_PICKLE:
     - ANIMAL
     - VOID
   story:
-    name: Unsure
+    name: 不確定
     type: VOID
     lore:
-      - Unlike other light emitting items, this one
-      - does not draw from Celestial Crysta, it is
-      - therefore unknown how or why the Sea Pickle
-      - does.
+      - 與其他發光物品不同，
+      - 這個物品並不從天體水
+      - 晶中提取，因此不知道
+      - 海鞘是如何形成的。
     shards:
       - 0
       - 0
@@ -17550,11 +17550,11 @@ SHEARS:
     - ANIMAL
     - HUMAN
   story:
-    name: Simple Tech
+    name: 簡式技術
     type: HUMAN
     lore:
-      - A forward leap, the invention of these
-      - was nothing but shear genius.
+      - 一個向前的飛躍，這些發
+      - 明只不過是純粹的才智。
     shards:
       - 0
       - 1
@@ -17571,12 +17571,12 @@ SHIELD:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Protect And Defend
+    name: 保護和防禦
     type: PHILOSOPHICAL
     lore:
-      - It doesn't matter the danger or the risk,
-      - the Shield will put itself in harms way
-      - to protect its user without thought.
+      - 不管有多大的危險或風險，
+      - '⌈盾牌⌋都會不顧一切地將自'
+      - 己置於危險之中以保護用戶。
     shards:
       - 0
       - 0
@@ -17593,14 +17593,14 @@ SHROOMLIGHT:
     - VOID
     - ANIMAL
   story:
-    name: A Oddity
+    name: 奇特的現象
     type: VOID
     lore:
-      - While not unheard of, drawing light from
-      - the Void is a tricky thing to do. To do so
-      - passively is rare indeed.
-      - This block also has memories of a most
-      - courteous milk product.
+      - 雖然並非聞所未聞，但從虛空中
+      - 汲取光線是一件棘手的事情。被
+      - 動地做到這一點確實很罕見。
+      - 這個方塊也有一個關於最
+      - 禮貌的奶製品的記憶。
     shards:
       - 1
       - 0
@@ -17618,12 +17618,12 @@ SHULKER_SHELL:
     - ANIMAL
     - VOID
   story:
-    name: A Tough Exterior
+    name: 堅韌的外表
     type: ANIMAL
     lore:
-      - The Shulker's tough exterior is created with
-      - compacted layers of chitin and magic forming
-      - a near-impenetrable shell.
+      - 界伏蚌堅硬的外表是由幾丁質
+      - 和魔法的壓縮層形成的，形成
+      - 了一個幾乎無法穿透的外殼。
     shards:
       - 0
       - 0
@@ -17639,12 +17639,12 @@ SKELETON_SKULL:
   elements:
     - VOID
   story:
-    name: Reanimated
+    name: 復活
     type: VOID
     lore:
-      - While currently dormant, a skeleton skull
-      - can be reanimated with just a single unit
-      - of Void Crysta.
+      - 雖然目前處於休眠狀態，
+      - 但只需一個單位的虛空水
+      - 晶，就能使骷髏頭顱復活。
     shards:
       - 0
       - 0
@@ -17685,8 +17685,8 @@ SLIME_BALL:
     name: Bouncy
     type: ANIMAL
     lore:
-      - This rare material is prized for
-      - its value as a toy
+      - 這種罕見的材料因其作為
+      - 玩具的價值而受到珍視。
     shards:
       - 0
       - 0
@@ -17707,9 +17707,9 @@ SLIME_BLOCK:
     name: 一個棘手的狀況 (史萊姆)
     type: ALCHEMICAL
     lore:
-      - Desperate to not be alone, this block
-      - will cling to anything it can and will
-      - not let go.
+      - 渴望不再孤單，這個方塊
+      - 將緊緊抓住任何可以抓住
+      - 的東西，不會放手。
     shards:
       - 0
       - 0
@@ -17770,7 +17770,7 @@ SMITHING_TABLE:
     - HUMAN
     - MECHANICAL
   story:
-    name: Gilded
+    name: 鍍金
     type: HUMAN
     lore:
       - Somehow, the magic of this table manages
