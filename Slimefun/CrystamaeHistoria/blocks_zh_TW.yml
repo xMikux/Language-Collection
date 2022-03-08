@@ -18302,7 +18302,7 @@ SPIDER_EYE:
     name: Spare?
     type: VOID
     lore:
-      - With 8 per spider, surely sparing one
+      - 每隻蜘蛛有 8 個，肯定會保留一個
       - 每隻蜘蛛有 8 隻眼，放過一隻
     shards:
       - 0
@@ -18702,7 +18702,7 @@ STICK:
   elements:
     - HUMAN
   story:
-    name: It's a Start
+    name: 這是一個開始
     type: HUMAN
     lore:
       - 一個簡單的物品，但其
@@ -18727,10 +18727,10 @@ STICKY_PISTON:
     name: 陷入困境
     type: MECHANICAL
     lore:
-      - Constantly working hard to move all
-      - manner of blocks, the Sticky Piston is
-      - cursed to push and retrieve the same block
-      - without end.
+      - 黏性活塞不斷地努力
+      - 移動各種方塊，結果
+      - 被詛咒要無休止地推
+      - 動和收回同一個方塊。
     shards:
       - 0
       - 1
@@ -18767,12 +18767,12 @@ STONECUTTER:
   elements:
     - MECHANICAL
   story:
-    name: Dangerous Devices
+    name: 危險裝置
     type: MECHANICAL
     lore:
-      - Stand close to a cactus and you'll
-      - die fast. Stand on this and you're fine?
-      - Hmm?
+      - 站在靠近仙人掌的地方，
+      - 你會死得很快。站在這個
+      - 上面，你就會沒事？嗯？
     shards:
       - 0
       - 2
@@ -19071,12 +19071,12 @@ STRING:
     - ANIMAL
     - VOID
   story:
-    name: All Tied Up
+    name: 捆綁式服務
     type: ANIMAL
     lore:
-      - The strength of this gossamer is not just
-      - of natural means. The Void essence of the
-      - spider bolsters it greatly.
+      - 這遊絲的力量，不僅僅是
+      - 自然的手段。蜘蛛的虛空
+      - 精華極大地增強了它的力量。
     shards:
       - 0
       - 0
@@ -19093,11 +19093,11 @@ STRIPPED_ACACIA_LOG:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Stripped Bare (Acacia Log)
+    name: 剝皮 (相思木原木)
     type: HUMAN
     lore:
-      - With nothing left to hide, this spirit
-      - allows itself to be more open and free.
+      - 由於沒有什麼可隱藏的，這種
+      - 精神允許自己更加開放和自由。
     shards:
       - 1
       - 1
@@ -19114,11 +19114,11 @@ STRIPPED_ACACIA_WOOD:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Stripped Bare (Acacia Wood)
+    name: 剝皮 (相思木塊)
     type: HUMAN
     lore:
-      - With nothing left to hide, this spirit
-      - allows itself to be more open and free.
+      - 由於沒有什麼可隱藏的，這種
+      - 精神允許自己更加開放和自由。
     shards:
       - 1
       - 1
@@ -19135,11 +19135,11 @@ STRIPPED_BIRCH_LOG:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Stripped Bare (Birch Log)
+    name: 剝皮 (樺木原木)
     type: HUMAN
     lore:
-      - With nothing left to hide, this spirit
-      - allows itself to be more open and free.
+      - 由於沒有什麼可隱藏的，這種
+      - 精神允許自己更加開放和自由。
     shards:
       - 1
       - 1
@@ -19156,11 +19156,11 @@ STRIPPED_BIRCH_WOOD:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Stripped Bare (Birch Wood)
+    name: 剝皮 (樺木塊)
     type: HUMAN
     lore:
-      - With nothing left to hide, this spirit
-      - allows itself to be more open and free.
+      - 由於沒有什麼可隱藏的，這種
+      - 精神允許自己更加開放和自由。
     shards:
       - 1
       - 1
@@ -19178,11 +19178,11 @@ STRIPPED_CRIMSON_HYPHAE:
     - HUMAN
     - VOID
   story:
-    name: Stripped Bare (Crimson Hyphae)
+    name: 剝皮 (緋紅菌絲體)
     type: HUMAN
     lore:
-      - With nothing left to hide, this spirit
-      - allows itself to be more open and free.
+      - 由於沒有什麼可隱藏的，這種
+      - 精神允許自己更加開放和自由。
     shards:
       - 1
       - 1
@@ -19203,8 +19203,8 @@ STRIPPED_CRIMSON_STEM:
     name: Stripped Bare (緋紅蕈柄)
     type: HUMAN
     lore:
-      - With nothing left to hide, this spirit
-      - allows itself to be more open and free.
+      - 由於沒有什麼可隱藏的，這種
+      - 精神允許自己更加開放和自由。
     shards:
       - 1
       - 1
@@ -19221,11 +19221,11 @@ STRIPPED_DARK_OAK_LOG:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Stripped Bare (Dark Oak Log)
+    name: 剝皮 (黑橡木原木)
     type: HUMAN
     lore:
-      - With nothing left to hide, this spirit
-      - allows itself to be more open and free.
+      - 由於沒有什麼可隱藏的，這種
+      - 精神允許自己更加開放和自由。
     shards:
       - 1
       - 1
@@ -19242,11 +19242,11 @@ STRIPPED_DARK_OAK_WOOD:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Stripped Bare (Dark Oak Wood)
+    name: 剝皮 (黑橡木塊)
     type: HUMAN
     lore:
-      - With nothing left to hide, this spirit
-      - allows itself to be more open and free.
+      - 由於沒有什麼可隱藏的，這種
+      - 精神允許自己更加開放和自由。
     shards:
       - 1
       - 1
@@ -19263,11 +19263,11 @@ STRIPPED_JUNGLE_LOG:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Stripped Bare (Jungle Log)
+    name: 剝皮 (叢林木原木)
     type: HUMAN
     lore:
-      - With nothing left to hide, this spirit
-      - allows itself to be more open and free.
+      - 由於沒有什麼可隱藏的，這種
+      - 精神允許自己更加開放和自由。
     shards:
       - 1
       - 1
@@ -19284,11 +19284,11 @@ STRIPPED_JUNGLE_WOOD:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Stripped Bare (Jungle Wood)
+    name: 剝皮 (叢林木塊)
     type: HUMAN
     lore:
-      - With nothing left to hide, this spirit
-      - allows itself to be more open and free.
+      - 由於沒有什麼可隱藏的，這種
+      - 精神允許自己更加開放和自由。
     shards:
       - 1
       - 1
@@ -19305,11 +19305,11 @@ STRIPPED_OAK_LOG:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Stripped Bare (Oak Log)
+    name: 剝皮 (橡木原木)
     type: HUMAN
     lore:
-      - With nothing left to hide, this spirit
-      - allows itself to be more open and free.
+      - 由於沒有什麼可隱藏的，這種
+      - 精神允許自己更加開放和自由。
     shards:
       - 1
       - 1
@@ -19326,11 +19326,11 @@ STRIPPED_OAK_WOOD:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Stripped Bare (Oak Wood)
+    name: 剝皮 (橡木塊)
     type: HUMAN
     lore:
-      - With nothing left to hide, this spirit
-      - allows itself to be more open and free.
+      - 由於沒有什麼可隱藏的，這種
+      - 精神允許自己更加開放和自由。
     shards:
       - 1
       - 1
@@ -19347,11 +19347,11 @@ STRIPPED_SPRUCE_LOG:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Stripped Bare (Spruce Log)
+    name: 剝皮 (杉木原木)
     type: HUMAN
     lore:
-      - With nothing left to hide, this spirit
-      - allows itself to be more open and free.
+      - 由於沒有什麼可隱藏的，這種
+      - 精神允許自己更加開放和自由。
     shards:
       - 1
       - 1
@@ -19368,11 +19368,11 @@ STRIPPED_SPRUCE_WOOD:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Stripped Bare (Spruce Wood)
+    name: 剝皮 (杉木塊)
     type: HUMAN
     lore:
-      - With nothing left to hide, this spirit
-      - allows itself to be more open and free.
+      - 由於沒有什麼可隱藏的，這種
+      - 精神允許自己更加開放和自由。
     shards:
       - 1
       - 1
@@ -19393,8 +19393,8 @@ STRIPPED_WARPED_HYPHAE:
     name: Stripped Bare (Warped Hyphae)
     type: HUMAN
     lore:
-      - With nothing left to hide, this spirit
-      - allows itself to be more open and free.
+      - 由於沒有什麼可隱藏的，這種
+      - 精神允許自己更加開放和自由。
     shards:
       - 1
       - 1
@@ -19415,8 +19415,8 @@ STRIPPED_WARPED_STEM:
     name: Stripped Bare (扭曲蕈柄)
     type: HUMAN
     lore:
-      - With nothing left to hide, this spirit
-      - allows itself to be more open and free.
+      - 由於沒有什麼可隱藏的，這種
+      - 精神允許自己更加開放和自由。
     shards:
       - 1
       - 1
@@ -19433,7 +19433,7 @@ SUGAR:
     - ALCHEMICAL
     - HUMAN
   story:
-    name: A Spoonful of Sugar
+    name: 一勺糖
     type: HUMAN
     lore:
       - It helps the medicine go down!
