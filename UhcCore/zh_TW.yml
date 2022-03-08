@@ -1,0 +1,385 @@
+---
+game:
+  enough-teams-ready: 可以了, 有足夠多的隊伍準備好了。
+  starting: 遊戲現在開始!
+  starting-in: 遊戲將在 %time% 秒後開始
+  starting-cancelled: 因為準備的隊伍不足，遊戲已經被取消
+  finished: 遊戲已經結束了！
+  end-stopped: 遊戲完結程序停止
+  shutdown: 伺服器將於 %time% 秒後關閉。
+  please-wait-teleporting: 請等候所有玩家完成傳送
+  start-deathmatch: 死鬥即將開始！在PVP開啟前做好準備！
+  border-start-shrinking: 邊界現在開始縮小
+  final-heal: 所有玩家已經被治療至滿血
+players:
+  nether-off: '&c此場遊戲的地獄已被停用。'
+  build-height: '&c已達到最大建築高度!'
+  welcome-new: 歡迎來到UHC，請選擇你的隊伍
+  welcome-back-in-game: 你已重新登錄遊戲
+  welcome-back-spectating: 你已死亡，並已變更為觀察者模式
+  eliminated: '%player% 已被淘汰!'
+  won-solo: '%player% 贏了這場遊戲！'
+  won-team: 隊 %team% 贏了這場比賽！
+  all-have-left: 所有玩家都已離開，遊戲完結的時間會在
+  ff-off: '&7隊友傷害已關閉'
+  send-bungee: '&e將在%time%內把你傳送至大廳'
+  send-bungee-now: '&e連接至大廳 ...'
+  send-bungee-disabled: '&c這個指令已被關閉'
+display:
+  message-prefix: '&a[UhcCore]&r'
+  episode-mark: 時段%episode%已經完結
+  spectator-chat: '&7[Spec] &r%player%&r: %message%'
+  motd-loading: 加載中 ...
+  motd-waiting: 等待中 ...
+  motd-starting: 正在啟動...
+  motd-playing: 遊戲進行中
+  motd-ended: 遊遊已經完結
+kick:
+  loading: 正在加載中。請你稍後數分鐘再進來!
+  starting: 正在啟動 ... 太晚，無法加入。
+  playing: 遊戲進行中... 你無法加入
+  ended: 遊戲結束了... 請在幾分鐘後重試
+  dead: 你死了！
+command:
+  chat-global: '&a現在所有玩家都能看到你的對話'
+  chat-team: '&a現在只有你的隊伍能看到你的對話'
+  chat-help: '&7鍵入 ''/chat'' 或 ''/c'' 切換全局聊天'
+  chat-error: '&c你只能在遊戲期間使用此指令'
+  spectating-help: 用'/teleport <player>'指令去傳送至一位遊戲中的玩家
+  spectating-teleport: '&a正在傳送至%player%'
+  spectating-teleport-error: '&c你無法傳送至該玩家'
+  recipes-error: '&c這場遊戲沒有自訂義合成表'
+  top-teleport: '&a你已被傳送至最高的方塊'
+  top-error-playing: '&c你只能在遊戲期間使用此指令.'
+  top-error-nether: '&c你只能在主世界使用這個指令'
+  spectate:
+    error: '&c你只能在遊戲開始前切到觀察者模式'
+    playing: '&a你現在正在遊戲中'
+    spectating: '&a你現在是觀察者模式'
+team:
+  inventory:
+    main: '&2隊伍選單'
+    teams-list: '&2團隊列表'
+    team-view: '&2檢視團隊'
+    settings: '&2隊伍設定'
+    rename: '&2重新命名隊伍'
+    invites: '&2團隊邀請'
+    reply-invite: '&2回覆邀請'
+    invite-player: '&2邀請一個玩家'
+    color: '&2選擇隊伍顏色'
+  item:
+    leave: '&c離開你的隊伍'
+    settings: '&a改變隊伍設定'
+    rename: '&a重新命名隊伍'
+    invite: '&a邀請一個玩家'
+    invite-search: '&a透過搜尋邀請玩家'
+    invites: '&a查看邀請'
+    invite-accept: '&a接受'
+    invite-deny: '&c拒絕'
+    ready-toggle: '&7點擊更改'
+    color: '&a選擇隊伍顏色'
+    ready: '&a準備'
+    not-ready: '&c尚未準備'
+  message:
+    player-not-online: '&c%player%不在線上'
+    now-ready: '&6你的隊伍已準備完成'
+    now-not-ready: '&6你的隊伍尚未準備完成'
+    not-leader: '&c你不是隊長'
+    join-as-player: '&a你已加入%leader%的隊伍'
+    player-joins: '&a%player%已經加入隊伍'
+    leave-as-leader: '&a你已離開你的隊伍,%newleader%將會成為新隊長'
+    leave-as-player: '&a你已離開隊伍'
+    player-leaves: '&a%player%已離開隊伍'
+    leader-leaves: '&a隊長%leader%已離開隊伍，%newleader%是新的隊長'
+    cant-leave: '&c你只有一個人, 你不能離開隊伍'
+    deny-request: '&c請求已被拒絕'
+    no-longer-exists: '&c隊伍已經不存在'
+    invite-already-sent: '&c你已傳送過邀請給這個玩家'
+    invite-receive: '&a你被邀請至%name%, 你可以用隊伍選單回覆邀請'
+    invite-receive-hover: '&a點擊回覆'
+    already-in-team: '&c該玩家已經加入了隊伍'
+    player-already-in-team: '&c%player%已經加入了其他隊伍'
+    full: '&c%player%無法加入%leader%的隊伍因為隊伍已滿(%limit%人)'
+    color-already-selected: '&c你已經選了這個顏色'
+    color-unavailable: '&c此顏色已無法選擇'
+    color-changed: '&a你的隊伍顏色已成功更改'
+    name-changed: '&a你的隊伍名字已成功更改'
+    name-changed-error: '&c此隊伍名不被允許'
+items:
+  team-list: '&9右鍵查看隊伍'
+  sword: '&b點擊右鍵選擇你的隊伍'
+  bungee: '&c點擊右鍵回到大廳'
+  regen-head: '&c點擊右鍵給予你的隊伍五秒鐘的回復效果'
+  regen-head-action: '&a你因為吃下玩家頭顱獲得了五秒的回復效果'
+  golden-head:
+    skull-name: '&%player%的頭'
+    skull-help: '&e把玩家的頭和金錠合起來獲得金頭顱'
+    apple-name: '&6金頭顱'
+    apple-help: '&e吃下這個回復四顆心並得到吸收效果的兩顆心'
+  compass-playing: '&a點擊右鍵指向一位隊友'
+  compass-playing-error: '&c沒有正在遊戲中的隊友可以指向'
+  compass-playing-cooldown: '&c你點擊指南針的速度過快，請稍候！'
+  compass-playing-pointing: '&a正在指向%player%的最後位置 (%distance% 格方塊)'
+  kit-selection: '&a右鍵選擇套裝'
+  kit-inventory: '&2套裝選擇'
+  kit-selected: '&a你已選擇 %kit% 套裝'
+  kit-no-permission: '&c你沒有選擇此套裝的權限'
+  kit-scoreboard-no-kit: 沒有套裝
+  craft-no-permission: '&c你沒有權限合成 %craft%'
+  craft-crafted: '&a你已合成一個%craft%'
+  craft-left-click: '&c你一次只能合成一個%craft%(左鍵)'
+  craft-limit: '&c你已用完合成%craft%的次數(最多%limit%次)'
+  craft-book: '&d點擊右鍵查看自定義合成表'
+  craft-book-inventory: '&2自定義合成表'
+  craft-book-back: '&7回到合成清單'
+  potion-banned: '&c抱歉，二級藥水是禁止的'
+  revive-success: '&a%player%已復活'
+  revive-error: '&c沒有找到已死亡的隊友'
+pvp:
+  enabled: PVP已啟用
+  start-in: PVP即將開始，倒數
+event:
+  time-reward: '&e因為你已經玩了%time%, 你獲得了 %money% 塊錢 , 總遊玩時間 %totaltime%'
+  kill-reward: '&e你殺了一個玩家, 你得到了%money%塊錢'
+  win-reward: '&e你贏了, 所以你得到了%money%塊錢'
+scenarios:
+  global:
+    description-header: '&5%scenario%&7:'
+    description-prefix: '&7- '
+    inventory: '&6&l模式 &7(點擊獲取資訊)'
+    inventory-edit: '&6&l各種模式&7(編輯)'
+    inventory-vote: '&6&l投票 &7(切換至投票)'
+    item-edit: '&6編輯'
+    item-back: '&6返回'
+    item-next: '&6下一個'
+    item-hotbar: '&6點擊右鍵查看啟用中的模式'
+    item-color: '&5'
+    item-info: '&7(右鍵查看更多資訊)'
+    vote-max: '&c達到最大投票上限 (%max%票)'
+  cutclean:
+    name: CutClean
+    description:
+      - 無需使用熔爐
+      - 礦物和動物掉落物會自動變成被熔爐燒過後的狀態
+      - 掉落蘋果率為5％，燧石為90％
+      - 附魔不需要青金石
+  fireless:
+    name: 無火模式
+    description:
+      - 不會受到火焰傷害
+  bowless:
+    name: 無弓箭模式
+    description:
+      - 你無法合成弓
+    error: '&4[Bowless] &c你無法合成弓!'
+  rodless:
+    name: 無釣竿模式
+    description:
+      - 釣竿無法被合成
+    error: '&4[Rodless] &c你無法合成釣竿'
+  shieldless:
+    name: 無盾牌模式
+    description:
+      - 盾牌無法被合成
+    error: '&4[Shieldless] &c你無法合成盾牌!'
+  blood_diamonds:
+    name: 血鑽石模式
+    description:
+      - 當開採鑽石時，玩家將受到半顆心傷害
+  timber:
+    name: 樹木倒下模式
+    description:
+      - 破壞一棵樹的原木會導致整棵樹倒下
+  horseless:
+    name: 無馬模式
+    description:
+      - 你無法馴服馬/驢子
+    error: '&4[Horseless] &c你無法騎馬!'
+  timebomb:
+    name: 定時炸彈模式
+    description:
+      - 當你殺死一個玩家時，他們的掉落物會掉入大型儲物箱
+      - 該箱子30秒後會爆炸
+    chest: '&6&l%player%的定時炸彈'
+  no_fall:
+    name: 無摔傷模式
+    description:
+      - 摔落傷害關閉
+  best_pve:
+    name: 最好的PvE模式
+    description:
+      - 遊戲開始時，每個玩家都將被添加到“最佳PvE名單”中。
+      - 在名單上時，你每10分鐘將獲得1點額外的生命值。
+      - 一旦玩家受到傷害，該玩家將從名單中刪除
+      - 如果你殺了一個玩家，你將被加回此名單中
+    added: '&4[Best PvE] &aYou are added to the PvE list.'
+    removed: '&4[Best PvE] &cYou are now removed from the PvE list. Getting a kill will add you back to the list.'
+    back: '&4[Best PvE] &aYou are added back to the PvE list.'
+  triple_ores:
+    name: 三重礦物
+    description:
+      - Ores drop in threes.
+  double_ores:
+    name: Double Ores
+    description:
+      - Ores drop in pairs.
+  team_inventory:
+    name: Team Inventory
+    description:
+      - Each team has an extra inventory that all members from the team can view by using /teaminventory.
+    error: '&cYou may only open your team''s inventory while playing!'
+    disabled: '&cTeam Inventory is currently disabled!'
+    open: '&aOpening team inventory ...'
+  no_clean:
+    name: No Clean
+    description:
+      - Gives you 30 seconds of invincibility after a kill.
+      - Attacking other players will remove this PvP Protection.
+    invulnerable: '&4[NoClean] &aYou are now invulnerable for 30 seconds!'
+    vulnerable: '&4[NoClean] &cYou can now take damage again!'
+    error: '&4[NoClean] &cYou can''t damage this player!'
+  hastey_boys:
+    name: Hastey Boys
+    description:
+      - Every tool you craft will have Efficiency 3 and Unbreaking 1
+  lucky_leaves:
+    name: Lucky Leaves
+    description:
+      - Trees have a 0.5% chance of dropping a Golden Apple.
+  bleeding_sweets:
+    name: Bleeding Sweets
+    description:
+      - On death a player drops 1 diamond, 5 gold, 1 book, 2 string and 16 arrows
+  double_gold:
+    name: Double Gold
+    description:
+      - The original amount of gold will double when mined.
+  goldless:
+    name: Goldless
+    description:
+      - When gold is mined, it will disappear and is not obtainable.
+  flower_power:
+    name: Flower Power
+    description:
+      - Break flowers to receive items.
+  switcheroo:
+    name: Switcheroo
+    description:
+      - When you shoot someone, you trade places with them
+    switch: '&4[Switcheroo] &6You have switched positions with &3%player%'
+  vein_miner:
+    name: Vein Miner
+    description:
+      - Mining a block while crouched breaks blocks of the same type in a chain reaction
+      - Only works when using the correct tool for the block type
+  dragon_rush:
+    name: Dragon Rush
+    description:
+      - In dragon rush the goal is to kill the dragon.
+      - The first team to kill the dragon wins!
+      - There is a end portal at 0 0
+  love_at_first_sight:
+    name: Love At First Sight
+    description:
+      - In this scenario you are not able to choose your teammates through the team selection inventory.
+      - Teams are created by clicking on someone in game.
+    join-error: '&c無法加入隊伍，一見鍾情模式已啟用！'
+    join-broadcast: '&4[Love At First Sight] &a%player% 已經加入 %leader%的隊伍'
+  fast_leaves_decay:
+    name: 樹葉快速枯萎模式
+    description:
+      - 此模式下，破壞一棵樹所有的原木，樹葉會快速消失
+  sky_high:
+    name: 比天高模式
+    description:
+      - 在這種模式30分鐘後，若你所在位置y軸高度低於120，每30秒會遭受一次傷害
+    damage: '你所在的高度低於120，所以你受到了傷害'
+  fast_smelting:
+    name: 快速熔爐模式
+    description:
+      - 此模式下，熔煉的速度快五倍
+  superheroes:
+    name: 超級英雄模式
+    description:
+      - 每個玩家都會獲得特殊的能力
+      - 這個能力是速度1，力量1，抗性2，隱形，6個額外的心和跳躍提升4。
+  anonymous:
+    name: Anonymous
+    description:
+      - All player names are distorted.
+  gone_fishing:
+    name: Gone Fishing
+    description:
+      - At the beginning of the game everyone gets a lure 3 luck of the sea 3 rod.
+  infinite_enchants:
+    name: 無限附魔
+    description:
+      - At the beginning of the game everyone gets 64 enchantment tables, anvils, lapis blocks and a lot of XP.
+  children_left_unattended:
+    name: Children Left Unattended
+    description:
+      - When a teammate dies you receive a speed potion and a tamed wolf.
+  silent_night:
+    name: Silent Night
+    description:
+      - At night death messages, name tags, and chat are disabled.
+    error: '&4[Silent Night] &cSilent Night is enabled'
+  permakill:
+    name: PermaKill
+    description:
+      - When a player dies, it toggles perma day/night.
+  weakest_link:
+    name: Weakest Link
+    description:
+      - Every 10 minutes the person with the least health will perish.
+      - If everyone is at the same health no one will die.
+    kill: '&4[Weakest Link] &c%player% has been killed!'
+  eggs:
+    name: Eggs
+    description:
+      - When you throw an egg, a random mob will spawn where it lands.
+      - This includes enderdragons and withers.
+      - When you kill a chicken, there is a 5% chance of it dropping an egg.
+  no_going_back:
+    name: No Going Back
+    description:
+      - Once you go through a nether portal in the overworld, you can't go back to the overworld.
+    error: '&4[No Going Back] &cYou are stuck in the nether!'
+  double_dates:
+    name: Double Dates
+    description:
+      - Players join with a chosen team and are combined randomly with another team.
+  fly_high:
+    name: Fly High
+    description:
+      - Players spawn with a elytra.
+  randomized_drops:
+    name: 隨機掉落物
+    description:
+      - Every block broken will drop random items.
+  upside_down_crafting:
+    name: Upside Down Crafting
+    description:
+      - This scenario flips all crafts upside down.
+  randomized_crafts:
+    name: 隨機合成
+    description:
+      - This scenario randomizes the results of all crafts.
+  monsters_inc:
+    name: 怪獸公司
+    description:
+      - In this scenario all doors are linked as portals.
+    error: '&4[Monsters Inc.] &cStop that!'
+  achievement_hunter:
+    name: 成就獵人
+    description:
+      - 玩家一開始有五顆心的生命值
+      - For every achievement players get a half heart of health.
+  nine_slots:
+    name: Nine Slots
+    description:
+      - You can only use your hotbar to hold items.
+  nether_start:
+    name: Nether Start
+    description:
+      - You start the game in the nether.

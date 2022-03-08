@@ -16,5 +16,6 @@ SEASONSCOMMAND-DAYSUNTILNEXTSEASON: "&a距離下一個季節的天數 (&2$next_s
 SEASONCOMMAND-TIME: "&a目前時間: &2$time$"
 SEASONCOMMAND-EVENTS: "&a活動事件: &2$events$"
 TOGGLESEASONSCOMMAND-MESSAGE: "&a季節顏色現在對於你來說是 &2$status$ &a的"
+TOGGLETEMPERATURECOMMAND-MESSAGE: "&a溫度系統現在是對你 &2$status$"
 ENABLED: "啟用"
 DISABLED: "停用"

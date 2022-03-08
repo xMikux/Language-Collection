@@ -1,7 +1,7 @@
 ---
 #Config variables:
 #%username% - username, %check% - type of check
-#The plugin config is auto updated
+#This plugin config is auto updated
 #but after plugin update it's recommended to recreate this
 punishment:
   #Enable or disable all checks
@@ -64,18 +64,16 @@ checks:
   groundSpoof: A,B
   #Checks the speed of sending packets (Timer) | A
   morePackets: A
-  #Checks hitting on entities (KillAura, MultiAura, etc) | A,B,C,D
-  killAura: A,B,C,D
-  #Checks the distance to hit entities (Reach) | A,B
-  reach: A,B
+  #Checks hitting on entities (KillAura, MultiAura, etc) | A,B,C
+  killAura: A,B,C
+  #Checks the distance to hit entities (Reach) | A
+  reach: A
   #Checks the critical hit conditions (Criticals) | A
   criticals: A
   #Checks for impossible block placements (AirPlace, AutoBuild, etc) | A,B
   irregularPlacement: A,B
   #Checks for impossible block breaking (Nuker) | A,B
   nuker: A,B
-  #Checks for skin part toggles (SkinDerp, SkinBlinker, etc) | A
-  skinDerp: A
 logs:
   #Enable or disable logs
   enable: true

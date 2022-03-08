@@ -1,0 +1,45 @@
+---
+#___                                                _ .___          ,__                     _
+#.'   \   __.  , _ , _   , _ , _     ___  , __     ___/ /   `    ___  /  `   ___  , __     ___/   ___  .___
+#|      .'   \ |' `|' `. |' `|' `.  /   ` |'  `.  /   | |    | .'   ` |__  .'   ` |'  `.  /   | .'   ` /   \
+#|      |    | |   |   | |   |   | |    | |    | ,'   | |    | |----' |    |----' |    | ,'   | |----' |   '
+#`.__,  `._.' /   '   / /   '   / `.__/| /    | `___,' /---/  `.___, |    `.___, /    | `___,' `.___, /
+#Welcome to CommandDefender's second configuration file - messages.yml! Here, you can customise almost every
+#chat message sent by the plugin with color code support, multi-line support and placeholders!
+#Note: %placeholders% are case-sensitive. Please keep them in the same case that they were originally.
+cancelled-blocked:
+  - '%prefix% 你不被允許使用 ''&b%command%&7''!'
+cancelled-colon:
+  - '%prefix% 你不被允許在指令的第一個參數使用冒號字符 &8(&b:&8).'
+command:
+  backup:
+    start:
+      - '%prefix% 備份開始 ...'
+    complete:
+      - '%prefix% ... 備份完成, 檢查在 ''&b/plugins/CommandDefender/backups/&7'' 的資料夾.'
+  main:
+    - '%prefix% 可用的指令:'
+    - '&8 &m->&b /%label% reload &8- &7重新加載配置檔案'
+    - '&8 &m->&b /%label% backup &8- &7備份配置檔案'
+    - '&8 &m->&b /%label% info &8- &7查看有關於此插件的資訊'
+  no-permission:
+    - '%prefix% 你沒有權限訪問它.'
+  reload:
+    start:
+      - '%prefix% 開始重新加載 ...'
+    complete:
+      - '%prefix% ... 重新加載完成.'
+  info:
+    - ' '
+    - '&7運行 &bCommandDefender v%version% &7by &flokka30'
+    - '&7''%description%'''
+    - ' '
+    - '&7貢獻者: &f%contributors%&7.'
+    - '&7支持版本: &fMC %supportedVersions%&7.'
+    - ' '
+  usage:
+    - '%prefix% 用法: &b/%label% [reload/backup/info]'
+  joiner: '&7, &f'
+prefix: '&b&lCommandDefender:&7'
+#Do not touch this value unless you are fully aware with what you are doing!
+file-version: 2

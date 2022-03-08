@@ -47,12 +47,12 @@ messages:
       - "&e太陽曬屁股了"
   actionbar:
     enabled: true
-    players-sleeping: "&e[sleeping] 人中有 [needed] 名玩家正在睡覺 (還需要 [more] 人)"
+    players-sleeping: "&e[needed] 人中有 [sleeping] 人正在睡覺 (還需要 [more] 人)"
     night-skipping: "&e大家都在睡覺- 美好的夢!"
   bossbar:
     enabled: true
     players-sleeping:
-      message: "&f&l[sleeping] 人中有 [needed] 在睡覺覺 &7&l(還需要 [more] 人)"
+      message: "&f&l[needed] 人中有 [sleeping] 人在睡覺覺 &7&l(還需要 [more] 人)"
       color: BLUE
     night-skipping:
       message: "&f&l大家都在睡覺. 甜美的夢!"
