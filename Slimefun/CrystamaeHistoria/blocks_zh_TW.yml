@@ -8230,7 +8230,7 @@ GOLDEN_CARROT:
     - HUMAN
     - CELESTIAL
   story:
-    name: How on earth? (胡蘿蔔)
+    name: 怎麼可能? (胡蘿蔔)
     type: HUMAN
     lore:
       - 人們怎麼會吃這個？
@@ -8468,7 +8468,7 @@ GOLD_NUGGET:
   elements:
     - ELEMENTAL
   story:
-    name: Formation (金)
+    name: 形成 (金)
     type: ELEMENTAL
     lore:
       - 與發光漿果一樣，發光
@@ -9349,7 +9349,7 @@ HONEYCOMB_BLOCK:
   elements:
     - ANIMAL
   story:
-    name: Wax On! (方塊)
+    name: 上蠟! (方塊)
     type: ANIMAL
     lore:
       - 這種蠟質物質是
@@ -9571,7 +9571,7 @@ INFESTED_COBBLESTONE:
     - VOID
     - ANIMAL
   story:
-    name: Infested (鵝卵石)
+    name: 蛀蝕 (鵝卵石)
     type: VOID
     lore:
       - 迸發著寄居者的潛能。
@@ -9594,7 +9594,7 @@ INFESTED_CRACKED_STONE_BRICKS:
     - VOID
     - ANIMAL
   story:
-    name: Infested (裂紋石磚)
+    name: 蛀蝕 (裂紋石磚)
     type: VOID
     lore:
       - 迸發著寄居者的潛能。
@@ -9617,7 +9617,7 @@ INFESTED_DEEPSLATE:
     - VOID
     - ANIMAL
   story:
-    name: Infested (深板岩)
+    name: 蛀蝕 (深板岩)
     type: VOID
     lore:
       - 迸發著寄居者的潛能。
@@ -9640,7 +9640,7 @@ INFESTED_MOSSY_STONE_BRICKS:
     - VOID
     - ANIMAL
   story:
-    name: Infested (青苔石磚)
+    name: 蛀蝕 (青苔石磚)
     type: VOID
     lore:
       - 迸發著寄居者的潛能。
@@ -9663,7 +9663,7 @@ INFESTED_STONE:
     - VOID
     - ANIMAL
   story:
-    name: Infested (石頭)
+    name: 蛀蝕 (石頭)
     type: VOID
     lore:
       - 迸發著寄居者的潛能。
@@ -9686,7 +9686,7 @@ INFESTED_STONE_BRICKS:
     - VOID
     - ANIMAL
   story:
-    name: Infested (石磚)
+    name: 蛀蝕 (石磚)
     type: VOID
     lore:
       - 迸發著寄居者的潛能。
@@ -9971,7 +9971,7 @@ IRON_NUGGET:
   elements:
     - ELEMENTAL
   story:
-    name: Formation (鐵)
+    name: 形成 (鐵)
     type: ELEMENTAL
     lore:
       - 與發光漿果一樣，發光
@@ -14895,7 +14895,7 @@ POLISHED_BASALT:
     - MECHANICAL
     - HUMAN
   story:
-    name: Time to Gleam (玄武岩)
+    name: 時間的微光 (玄武岩)
     type: HUMAN
     lore:
       - 只要有一點愛，任何方塊都可以
@@ -14917,7 +14917,7 @@ POLISHED_BLACKSTONE:
     - MECHANICAL
     - HUMAN
   story:
-    name: Time to Gleam (黑石)
+    name: 時間的微光 (黑石)
     type: HUMAN
     lore:
       - 只要有一點愛，任何方塊都可以
@@ -14939,7 +14939,7 @@ POLISHED_BLACKSTONE_BRICKS:
     - MECHANICAL
     - HUMAN
   story:
-    name: Time to Gleam (拋光黑石)
+    name: 時間的微光 (拋光黑石)
     type: HUMAN
     lore:
       - 只要有一點愛，任何方塊都可以
@@ -15132,7 +15132,7 @@ POLISHED_DEEPSLATE:
     - MECHANICAL
     - HUMAN
   story:
-    name: Time to Gleam (深板岩)
+    name: 時間的微光 (深板岩)
     type: HUMAN
     lore:
       - 只要有一點愛，任何方塊都可以
@@ -16964,7 +16964,7 @@ RED_SANDSTONE:
   elements:
     - ELEMENTAL
   story:
-    name: Compacted (紅)
+    name: 壓實 (紅)
     type: ELEMENTAL
     lore:
       - 在多年的壓實過程中，沙
@@ -19412,7 +19412,7 @@ STRIPPED_WARPED_STEM:
     - HUMAN
     - VOID
   story:
-    name: Stripped Bare (扭曲蕈柄)
+    name: 剝皮 (扭曲蕈柄)
     type: HUMAN
     lore:
       - 由於沒有什麼可隱藏的，這種
