@@ -17682,7 +17682,7 @@ SLIME_BALL:
     - ANIMAL
     - PHILOSOPHICAL
   story:
-    name: Bouncy
+    name: 彈跳
     type: ANIMAL
     lore:
       - 這種罕見的材料因其作為
@@ -18299,7 +18299,7 @@ SPIDER_EYE:
     - ANIMAL
     - VOID
   story:
-    name: Spare?
+    name: 備用？
     type: VOID
     lore:
       - 每隻蜘蛛有 8 個，肯定會保留一個
@@ -19390,7 +19390,7 @@ STRIPPED_WARPED_HYPHAE:
     - HUMAN
     - VOID
   story:
-    name: Stripped Bare (Warped Hyphae)
+    name: 剝皮 (扭曲菌絲體)
     type: HUMAN
     lore:
       - 由於沒有什麼可隱藏的，這種
@@ -19436,7 +19436,7 @@ SUGAR:
     name: 一勺糖
     type: HUMAN
     lore:
-      - It helps the medicine go down!
+      - 它有助於藥物的發揮！
     shards:
       - 0
       - 0
@@ -19453,10 +19453,10 @@ SUGAR_CANE:
     - ALCHEMICAL
     - HUMAN
   story:
-    name: A Spoonful of Sugar (Cane)
+    name: 一勺糖 (甘蔗)
     type: HUMAN
     lore:
-      - It helps the medicine go down!
+      - 它有助於藥物的發揮！
     shards:
       - 0
       - 0
@@ -19493,11 +19493,11 @@ SUSPICIOUS_STEW:
   elements:
     - HUMAN
   story:
-    name: Not-so-Hearty
+    name: 沒-那-麼-豐-盛
     type: HUMAN
     lore:
-      - An erratic spirit that lets out a
-      - deluge of magics when consumed.
+      - 一種不穩定的精神，在消
+      - 耗時能釋放出大量的魔法。
     shards:
       - 0
       - 0
@@ -19535,11 +19535,11 @@ TALL_GRASS:
   elements:
     - ELEMENTAL
   story:
-    name: Barrier
+    name: 屏障
     type: ELEMENTAL
     lore:
-      - What could be more annoying
-      - than tall grass?
+      - 還有什麼比芒草
+      - 更令人討厭的？
     shards:
       - 1
       - 0
@@ -19557,10 +19557,10 @@ TARGET:
     - HUMAN
     - MECHANICAL
   story:
-    name: Robin Hood
+    name: 俠盜羅賓漢
     type: HUMAN
     lore:
-      - Are you better than Robin Hood?
+      - 你比羅賓漢更強嗎？
     shards:
       - 0
       - 2
@@ -19600,7 +19600,7 @@ TINTED_GLASS:
     - HUMAN
     - VOID
   story:
-    name: Darkness
+    name: 黑暗
     type: VOID
     lore:
       - 被不純的水晶石腐蝕
@@ -19622,7 +19622,7 @@ TIPPED_ARROW:
   elements:
     - ALCHEMICAL
   story:
-    name: A Simple Tonic (Tipped Arrow)
+    name: 簡單的補品 (箭尖)
     type: ALCHEMICAL
     lore:
       - 在發現水晶和其他深奧的
@@ -19687,11 +19687,11 @@ TORCH:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Lighting The Way
+    name: 照亮道路
     type: HUMAN
     lore:
-      - Since the earliest days, lighting the way
-      - and protecting from unseen foes.
+      - 從最早的時候開始，就照亮了道路，
+      - 保護人們免受看不見的敵人的攻擊。
     shards:
       - 1
       - 1
@@ -19708,12 +19708,12 @@ TOTEM_OF_UNDYING:
     - HISTORICAL
     - CELESTIAL
   story:
-    name: Divine Intervention
+    name: 神聖干預
     type: CELESTIAL
     lore:
-      - Its unknown what within the totem protects
-      - the holder but a plethora of Celestial Crysta
-      - is released into the Exoverse when it triggers.
+      - 不知道圖騰中的什麼東西能保護
+      - 持有者，但當它被觸發時，大量
+      - 的天體水晶會被釋放到外域。
     shards:
       - 0
       - 0
@@ -19729,12 +19729,12 @@ TRAPPED_CHEST:
   elements:
     - MECHANICAL
   story:
-    name: A Devious Device
+    name: 詭異的裝置
     type: MECHANICAL
     lore:
-      - The Trapped Chest specifically lies in wait
-      - wanting nothing more than to surprise and
-      - (hopefully) cause pain to others.
+      - 陷阱儲物箱專門躺在那裡
+      - 等待，只想讓別人的驚喜
+      - 和 (希望) 變成痛苦。
     shards:
       - 0
       - 2
@@ -19751,12 +19751,12 @@ TRIDENT:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Caller of the Seas
+    name: 海洋的召喚者
     type: ELEMENTAL
     lore:
-      - With strong ties to surrounding Elemental
-      - Crysta, the Trident can manipulate and
-      - create Elemental at will.
+      - 由於與周圍的元素水晶
+      - 關係密切，三叉戟可以
+      - 隨意操縱和創造元素。
     shards:
       - 2
       - 0
@@ -19773,12 +19773,12 @@ TRIPWIRE_HOOK:
     - HUMAN
     - MECHANICAL
   story:
-    name: Tripping up
+    name: 絆倒
     type: MECHANICAL
     lore:
-      - When Dr. Minestein invented the tripwire
-      - hook, he tripped, and out came the idea
-      - of quantum minechanics
+      - 當 Minestein 博士發明
+      - 絆線鉤時，他被絆倒了，
+      - 於是產生了量子力學的想法。
     shards:
       - 0
       - 1
@@ -19795,12 +19795,12 @@ TROPICAL_FISH:
   elements:
     - ANIMAL
   story:
-    name: The 2700 of Us
+    name: 2700人
     type: ANIMAL
     lore:
-      - It was thought that each one was unique
-      - but after stringent research each possible
-      - type was found and documented.
+      - 人們認為每一種都是獨一無二
+      - 的，經過嚴格的研究，每一種
+      - 類型都被發現並記錄下來。
     shards:
       - 0
       - 0
