@@ -952,7 +952,7 @@ BELL:
   elements:
     - HUMAN
   story:
-    name: 呼叫武裝
+    name: 號召行動
     type: HUMAN
     lore:
       - 鐘聲急切地等待著
