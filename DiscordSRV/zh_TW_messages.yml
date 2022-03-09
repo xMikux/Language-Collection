@@ -40,7 +40,7 @@
 DiscordToMinecraftChatMessageFormat: "[<aqua>Discord</aqua> | %toprolecolor%%toprolealias%<reset>] %name%%reply% » %message%"
 DiscordToMinecraftChatMessageFormatNoRole: "[<aqua>Discord</aqua>] %name%%reply% » %message%"
 DiscordToMinecraftAllRolesSeparator: " | "
-DiscordToMinecraftMessageReplyFormat: " (replying to %name%)"
+DiscordToMinecraftMessageReplyFormat: " (回覆至 %name%)"
 #Minecraft -> Discord message
 #MinecraftChatToDiscordMessageFormat: the format used when sending messages from Minecraft to Discord
 #MinecraftChatToDiscordMessageFormatNoPrimaryGroup: used in place of MinecraftChatToDiscordMessageFormat
@@ -342,7 +342,7 @@ DiscordChatChannelServerShutdownMessage: ":octagonal_sign: **伺服器已關閉*
 #you can put the date and time of the crash in the message by using %date%
 #you can use ServerWatchdogTimeout as a placeholder by using %timeout%
 #you can use the %timestamp% placeholder for use in discord's timestamp format
-ServerWatchdogMessage: "<t:%timestamp%:R> %guildowner%, the server hasn't ticked in %timeout% seconds :fire::bangbang:"
+ServerWatchdogMessage: "<t:%timestamp%:R> %guildowner%, 伺服器沒有 tick 在 %timeout% 秒 :fire::bangbang:"
 #Account link messages
 #These are messages used when accounts are linked
 #Available placeholders:
