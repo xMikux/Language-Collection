@@ -14,7 +14,7 @@ Messages:
   #Sent if a keyword placeholder on cooldown
   PlaceholderCooldown: "&cYou have to wait &e{Time} &cbefore you can use &e{Keyword} &cagain!"
   #Sent if the player is on universal cooldown
-  UniversalCooldown: "&cYou have to wait &e{Time} &cbefore you can use keywords again!"
+  UniversalCooldown: "&c你必須等待 &e{Time} &c之後才能再次使用關鍵字!"
   #The messages sent when a client has colors disabled in their own settings
   ColorsDisabled: "&l你在客戶端已關閉顏色設定! 所有訊息將會呈現白的來遵從設定!"
   ColorsReEnabled: "&a你已在你的設定內重新啟用顏色! 所有訊息將從現在開始變成彩色!"
@@ -28,7 +28,7 @@ Messages:
   SetInventoryDisplayLayout: "&a設置背包展示的樣式至樣式 &e{Layout}"
   PlayerOnlyCommand: "&c此指令不能在控制台中使用!"
   InvalidPlayer: "&c那不是一個有效玩家!"
-  NoEnoughArgs: "&cInsufficient arguments!"
+  NoEnoughArgs: "&c參數不足"
   InvalidArgs: "&c未知參數!"
 Settings:
   #Bungeecord Mode
@@ -173,11 +173,11 @@ Chat:
   #Use Advancement Grant Toast to show a message
   #Only works on versions 1.12 or above
   #Blank to disable
-  MentionToast: "&3%player_name% &fmentioned you!"
+  MentionToast: "&3%player_name% &f提及了你!"
   #Use the bossbar to show a message (MC 1.9+)
   MentionBossBar:
     #Blank to disable
-    Text: "&3%player_name% &fmentioned you!"
+    Text: "&3%player_name% &f提及了你!"
     #Color of the bossbar if supported
     #Accepted values:
     #PURPLE
@@ -249,7 +249,7 @@ ItemDisplay:
       #Whether players are allowed to show an empty hand
       AllowAir: true
       #Message to send when AllowAir is false and a player tried to show nothing
-      DisallowMessage: "&cYou have nothing to show! Try holding something in your hand!"
+      DisallowMessage: "&你沒有任何東西可以顯示! 嘗試在手上拿點東西!"
     #This name is used to identify your placeholder
     #It must be a non-regex form of your keyword and should satisfy your keyword
     Name: "[item]"
@@ -326,7 +326,7 @@ Player:
     #Supports multiple lines
     Text:
       - '&a世界: &7%player_world% &aX: &7%player_x% &aY: &7%player_y% &aZ: &7%player_z%'
-      - '&eBiome: &6%player_biome_capitalized%'
+      - '&e生態域: &6%player_biome_capitalized%'
       - '&c血量: %player_health_rounded%&7/%player_max_health_rounded%'
       - '&b延遲: &7%player_colored_ping% &bms'
   Click:
