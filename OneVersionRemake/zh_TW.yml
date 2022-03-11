@@ -84,11 +84,11 @@ Messages:
   #| https://github.com/Andre601/OneVersionRemake/wiki/Config#kick            |
   #+--------------------------------------------------------------------------+
   Kick:
-    - '<red>You are using an unsupported version of Minecraft ({userVersion})!'
-    - '<red>This server supports the following Versions:'
+    - '<red>你正在使用不支持的 Minecraft ({userVersion}) 版本!'
+    - '<red>此伺服器只支持以下版本:'
     - '<gray>{version}'
     - ''
-    - '<red>Please change your Version and try again.'
+    - '<red>請更改你的遊戲版本並重試.'
   #+--------------------------------------------------------------------------+
   #| Message to show when the player hovers over the player count with his    |
   #| cursor.                                                                  |
@@ -96,13 +96,13 @@ Messages:
   #| https://github.com/Andre601/OneVersionRemake/wiki/Config#hover           |
   #+--------------------------------------------------------------------------+
   Hover:
-    - '<red>You are using an unsupported version of Minecraft ({userVersion})!'
-    - '<red>Please change your version to {version}.'
+    - '<red>你正在使用不支持的版本 Minecraft ({userVersion})!'
+    - '<red>請將你的版本更改為 {version}.'
   #+--------------------------------------------------------------------------+
   #| Message to display in the MOTD of the server.                            |
   #|                                                                          |
   #| https://github.com/Andre601/OneVersionRemake/wiki/Config#motd            |
   #+--------------------------------------------------------------------------+
   Motd:
-    - '<red>Unsupported Minecraft Version {userVersion}'
-    - '<red>Please use <gray>{version}</gray>.'
+    - '<red>不受支持 Minecraft {userVersion} 版本'
+    - '<red>請使用 <gray>{version}</gray>.'
