@@ -1,242 +1,462 @@
 ---
-#For information on what each option does. Please refer to https://github.com/LOOHP/InteractiveChat/blob/master/src/main/resources/config_default.yml
+#Do not change this value
+ConfigVersion: "4.1.3.4"
 Options:
   Updater: true
   ShowCancelledNotice: true
 Messages:
-  NoPermission: '&c你沒有權限使用此指令!'
-  InvExpired: '&c此背包查看已過期!'
-  ReloadPlugin: '&aInteractive Chat 已重新加載!'
-  LimitReached: '&c請不要使用過多的變數在一則訊息內!'
-  ColorsDisabled: '&l你在客戶端已關閉顏色設定! 所有訊息將會呈現白的來遵從設定!'
-  ColorsReEnabled: '&a你已在你的設定內重新啟用顏色! 所有訊息將從現在開始變成彩色!'
-  EnableMentions: '&a玩家提及已啟用!'
-  DisableMentions: '&e玩家提及已關閉!'
-  ListPlaceholdersHeader: '&e聊天室變數列表:'
-  ListPlaceholdersBody: '&b{Order}. "&f&l{Keyword}&b" &6- &e{Description}'
-  SetInventoryDisplayLayout: '&a設置背包展示的樣式至樣式 &e{Layout}'
-  PlayerOnlyCommand: '&c此指令不能在控制台中使用!'
-  InvalidPlayer: '&c那不是一個有效玩家!'
-  NoEnoughArgs: '&c參數不足!'
-  InvalidArgs: '&c未知參數!'
+  NoPermission: "&c你沒有權限使用此指令!"
+  #After 5 minutes the [inv]/[ender] generated inventory view will expire
+  InvExpired: "&c此背包查看已過期!"
+  ReloadPlugin: "&aInteractive Chat 已重新加載!"
+  #The message to send when a message is cancelled due to the placeholder limit
+  LimitReached: "&c請不要使用過多的變數在一則訊息內!"
+  #Sent if a keyword placeholder on cooldown
+  PlaceholderCooldown: "&c你必須等待 &e{Time} &c之後才能再次使用 &e{Keyword} &c!"
+  #Sent if the player is on universal cooldown
+  UniversalCooldown: "&c你必須等待 &e{Time} &c之後才能再次使用關鍵字!"
+  #The messages sent when a client has colors disabled in their own settings
+  ColorsDisabled: "&l你在客戶端已關閉顏色設定! 所有訊息將會呈現白的來遵從設定!"
+  ColorsReEnabled: "&a你已在你的設定內重新啟用顏色! 所有訊息將從現在開始變成彩色!"
+  #The message sent when a player toggle mentions
+  EnableMentions: "&a玩家提及已啟用!"
+  DisableMentions: "&e玩家提及已關閉!"
+  #The messages sent when listing placeholders
+  ListPlaceholdersHeader: "&e聊天室變數列表:"
+  ListPlaceholdersBody: "&b{Order}. \"&f&l{Keyword}&b\" &6- &e{Description}"
+  #The messages sent when a player set their inventory display layouts
+  SetInventoryDisplayLayout: "&a設置背包展示的樣式至樣式 &e{Layout}"
+  PlayerOnlyCommand: "&c此指令不能在控制台中使用!"
+  InvalidPlayer: "&c那不是一個有效玩家!"
+  NoEnoughArgs: "&c參數不足"
+  InvalidArgs: "&c未知參數!"
 Settings:
+  #Bungeecord Mode
   Bungeecord: false
-  ChatListeningPlugins:
-    - Plugin:PlayerWarps, Class:.*, EventPriority:LOWEST
-    - Plugin:QuickShop, Class:.*, EventPriority:LOWEST
-    - Plugin:WordGamesPlus, Class:.*, EventPriority:MONITOR
-    - Plugin:MangoQuest, Class:.*, EventPriority:NORMAL
-    - Plugin:Quests, Class:.*, EventPriority:NORMAL
-    - Plugin:JetsMinions, Class:.*, EventPriority:NORMAL
   UseAccurateSenderParser: true
+  #Whether to parse PlaceholderAPI placeholders on the main thread
+  ParsePAPIOnMainThread: false
+  ItemTagMaxLength: 30767
+  PacketStringMaxLength: 32767
   SendOriginalMessageIfExceedLengthLimit: true
+  #You might want to adjust this option if you have other plugins listening to the chat
+  #And it is interfering with InteractiveChat's placeholders
+  #Valid options are
+  #LOWEST, LOW, NORMAL, HIGH, HIGHEST, MONITOR
+  EventPriorities:
+    #Defaults to HIGH
+    Commands: HIGH
+    #Defaults to HIGH
+    Chat: HIGH
+  FormattingTags:
+    #Allow the use of "[color=#123456]" RGB tags (1.16+)
+    AllowRGBTags: true
+    #Allow the use of "[font=uniform]" Font tags (1.16+)
+    AllowFontTags: true
+    #Define custom RGB formats using regex
+    #Matching group 1-6 should be EACH of the characters in the RGB hex code
+    #For example, the regex for "#123456" should be
+    #"#([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])"
+    AdditionalRGBFormats:
+      - "#([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])"
   BungeecordUnknownItem:
     ReplaceItem: BARRIER
-    DisplayName: '&c未知物品 {Type}'
+    DisplayName: "&c未知物品 {Type}"
     Lore:
-      - '&7無法解析物品'
-      - '&7這很有可能是該物品'
-      - '&7在此Minecraft版本中不存在'
+      - "&7無法解析物品"
+      - "&7這很有可能是該物品"
+      - "&7在此Minecraft版本中不存在"
+  #Visit this page for all the languages that Minecraft offers
+  #https://minecraft.fandom.com/wiki/Language
   Language: zh_tw
+  #Use individual permissions for custom placeholders
+  #For example the first custom placeholder will have the permission
+  #interactivechat.module.custom.1
   UseCustomPlaceholderPermissions: false
-  ContainerViewTitle: Container Contents
+  #The title of viewing a container inside an inventory view
+  ContainerViewTitle: "Container Contents"
+  #A list of private message commands on your server
+  #The plugin will attempt to parse placeholder inside these commands.
+  #This list is in REGEX, so you can do some more advanced matches.
   CommandsToParse:
-    - (?i)/emsg.*
-    - (?i)/msg.*
-    - (?i)/pm.*
-    - (?i)/tell.*
-    - (?i)/r.*
+    - "(?i)/emsg .*"
+    - "(?i)/msg .*"
+    - "(?i)/pm .*"
+    - "(?i)/tell .*"
+    - "(?i)/r .*"
+  #A list of chat messages to ignore
+  #This list is in REGEX, so you can do some more advanced matches.
   MessagesToIgnore:
-    - .*\[.*IGNORE.*\].*
+    - ".*\\[.*IGNORE.*\\].*"
+  #Set the cooldown that is shared between all placeholders in the plugin (in seconds)
+  #Placeholders will not be parsed when a player is in cooldown
   UniversalCooldown: 0
+  #Maximum Placeholders that can be used in one message will be cancelled if the limit is reached
+  #Put in -1 to disable the limit
   MaxPlaceholders: -1
+  #Settings for if the plugin is unable to fetch a placeholder
   PlayerNotFound:
+    #Hover message settings
     Hover:
+      #Add a hover message
       Enable: true
+      #Text for the hover message
+      #Supports multiple lines
       Text:
-        - '&c無法解析變數..'
+        - "&c無法解析變數.."
+    #Click action settings
     Click:
+      #Add a click action
       Enable: false
+      #The action to do when clicked
+      #List of actions:
+      #OPEN_URL
+      #OPEN_FILE
+      #RUN_COMMAND
+      #SUGGEST_COMMAND
+      #CHANGE_PAGE
+      #COPY_TO_CLIPBOARD
       Action: SUGGEST_COMMAND
-      Value: ''
+      #The value for the action above
+      #for example '/say yellow is her fav color' for the action RUN_COMMAND
+      Value: ""
+    #Replace keyword settings
     Replace:
+      #Whether the keyword should be replaced with another text
       Enable: true
-      ReplaceText: '&c{Placeholer}&r'
+      #The text to replace the keyword
+      #Use {Placeholder} for the name of the placeholder that was unable to be parsed
+      ReplaceText: '&c{Placeholder}&r'
 Commands:
+  #Whether to make commands displayed in chat clickable
   Enabled: true
-  Format: '[{Command}]'
-  Text: '&b[&e{Command}&b]'
-  EnforceReplaceTextColor: true
+  #The formatting to trigger the command display function
+  Format: "[{Command}]"
+  #The text to replace the matched section of the message
+  #Use "{Command}" for the command
+  Text: "&b[&e{Command}&b]"
+  #What happens when the player clicks the command
+  #List of actions:
+  #RUN_COMMAND
+  #SUGGEST_COMMAND
   Action: SUGGEST_COMMAND
   HoverMessage:
-    - '&e點擊使用指令!'
+    - "&e點擊使用指令!"
 Chat:
+  #Convert alternate color code character
+  #Only one character is allowed, leave blank to disable this feature
   TranslateAltColorCode: '&'
+  #Enable the mention title and sound
   AllowMention: true
-  MentionPrefix: '@'
+  DisableHere: false
+  DisableEveryone: false
+  #The prefix to trigger a mention
+  #Can be an empty String
+  MentionPrefix: "@"
+  #The sound to play when a player is mentioned
+  #https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
   MentionedSound: ENTITY_EXPERIENCE_ORB_PICKUP
-  MentionedTitle: '&c&l提及'
+  #The title to show when mentioned
+  #Blank to disable
+  MentionedTitle: "&c&l提及"
+  #How long should the title be shown when mentioned
+  #Duration in seconds
   MentionedTitleDuration: 1.5
-  UnknownPlayerMentionSubtitle: '&f有人在聊天室內提及了你!'
-  UnknownPlayerMentionActionbar: ''
-  KnownPlayerMentionSubtitle: '&3%player_name% &f在聊天室內提及了你!'
-  KnownPlayerMentionActionbar: ''
-  MentionHighlight: '&e{MentionedPlayer}'
+  #These are currently unused
+  UnknownPlayerMentionSubtitle: "&f有人在聊天室內提及了你!"
+  UnknownPlayerMentionActionbar: ""
+  #The subtitle and actionbar  to show when mentioned
+  #Note that actionbar might not work if your version of Minecraft does not support it
+  #Blank to disable
+  KnownPlayerMentionSubtitle: "&3%player_name% &f在聊天室內提及了你!"
+  KnownPlayerMentionActionbar: ""
+  #Use Advancement Grant Toast to show a message
+  #Only works on versions 1.12 or above
+  #Blank to disable
+  MentionToast: "&3%player_name% &f提及了你!"
+  #Use the bossbar to show a message (MC 1.9+)
+  MentionBossBar:
+    #Blank to disable
+    Text: "&3%player_name% &f提及了你!"
+    #Color of the bossbar if supported
+    #Accepted values:
+    #PURPLE
+    #PINK
+    #BLUE
+    #RED
+    #GREEN
+    #YELLOW
+    #WHITE
+    Color: "YELLOW"
+    #The style of the bossbar if supported
+    #PROGRESS
+    #NOTCHED_6
+    #NOTCHED_10
+    #NOTCHED_12
+    #NOTCHED_20
+    Overlay: "PROGRESS"
+    #How long should the bossbar be shown when mentioned
+    #Duration in seconds
+    Duration: 6.0
+    #The delay after the duration above before the bossbar is removed
+    #Delay in seconds
+    RemoveDelay: 0.5
+  #Highlight the mentioned playername for the player mentioned
+  #Use {MentionedPlayer} for the highlighted player name
+  MentionHighlight: "&e{MentionedPlayer}"
+  #The text to show when the player mentioned hover over the highlighted text
+  #Use {Sender} and {Receiver}
   MentionHoverText:
-    - '&b{Sender} 提及了你!'
+    - "&b{Sender} 提及了你!"
+  UseBukkitDisplayName: true
+  UseEssentialsNicknames: true
 ItemDisplay:
   Settings:
-    Timeout: 360
+    #How long should an item display be stored in memory after its creation
+    #This is in minutes
+    Timeout: 5
   Item:
+    #Enable players to show their items in main hand
     Enabled: true
-    CaseSensitive: false
-    Keyword: '[item]'
-    Aliases:
-      - (?i)(\[i\])
-    Text: '&f[&f{Item} &bx{Amount}&f]'
-    InventoryTitle: '%player_name% 的物品'
+    #The keyword to trigger the item display function (in regex)
+    Keyword: "(?i)\\[item\\]|\\[i\\]"
+    #The text to replace the keyword
+    #Special Placeholders:
+    #Use {Item} for item display name
+    #Use {Amount} for the item amount
+    Text: "&f[&f{Item} &bx{Amount}&f]"
+    #The text to replace the keyword when the player is only holding one item
+    SingularText: "&f[&f{Item}&f]"
+    #The title of the inventory view
+    InventoryTitle: "%player_name% 的物品"
+    #Cooldown of this placeholder in seconds
     Cooldown: 0
+    #Enable the click GUI
     GUIEnabled: true
+    #Enable the chat hover tooltip
+    HoverEnabled: true
+    #Alternative hover message to show if HoverEnabled is false
+    #Leave blank to disable
+    AlternativeHoverMessage:
+      - ""
+    #The item used for the frame of the Item GUI
     Frame:
       Primary: BLACK_STAINED_GLASS_PANE
       Secondary: WHITE_STAINED_GLASS_PANE
+    #Whether to show shared maps or not
     PreviewMaps: true
-    Description: '&a在聊天室顯示你手上拿的物品!'
+    EmptyItemSettings:
+      #Whether players are allowed to show an empty hand
+      AllowAir: true
+      #Message to send when AllowAir is false and a player tried to show nothing
+      DisallowMessage: "&你沒有任何東西可以顯示! 嘗試在手上拿點東西!"
+    #This name is used to identify your placeholder
+    #It must be a non-regex form of your keyword and should satisfy your keyword
+    Name: "[item]"
+    #This description is used when listing placeholders
+    Description: "&a在聊天室顯示你手上拿的物品!"
     HoverableItemsTranslation:
+      #Whether to make all chat message item tooltips clickable (e.g. death messages, give command results)
+      #Only have an effect if GUIEnabled is enabled above
       Enabled: true
-      InventoryTitle: Item Preview
+      #The title of the inventory view
+      InventoryTitle: "Item Preview"
   Inventory:
+    #Enable players to show their inventory
     Enabled: true
-    CaseSensitive: false
-    Keyword: '[inv]'
-    Aliases:
-      - (?i)(\[inventory\])
-    Text: '&f[&b%player_name% &f的背包&f]'
-    InventoryTitle: '%player_name% &f的背包'
+    #The keyword to trigger the inventory display function (in regex)
+    Keyword: "(?i)\\[inv\\]|\\[inventory\\]"
+    #The text to replace the keyword
+    Text: "&f[&b%player_name% &f的背包&f]"
+    #The title of the inventory view
+    InventoryTitle: "%player_name% &f的背包"
+    #Cooldown of this placeholder in seconds
     Cooldown: 0
+    #Which layout do you want to be shown
+    #Currently there is layout 0 and layout 1
     Layout: 0
-    SkullDisplayName: '&e%player_name%'
+    #The item name of the skull
+    SkullDisplayName: "&e%player_name%"
+    #The item used for the frame of the Inventory GUI
     Frame:
       Primary: BLACK_STAINED_GLASS_PANE
       Secondary: WHITE_STAINED_GLASS_PANE
+    #Hover Message
     HoverMessage:
-      - '&b點擊查看!'
-    Description: '&b顯示你的背包在聊天室!'
+      - "&b點擊查看!"
+    #This name is used to identify your placeholder
+    #It must be a non-regex form of your keyword and should satisfy your keyword
+    Name: "[inv]"
+    #This description is used when listing placeholders
+    Description: "&b顯示你的背包在聊天室!"
   EnderChest:
+    #Enable players to show their ender chest
     Enabled: true
-    CaseSensitive: false
-    Keyword: '[ender]'
-    Aliases:
-      - (?i)(\[e\])
-    Text: '&f[&d%player_name% 的終界箱&f]'
-    InventoryTitle: '%player_name% 的終界箱'
+    #The keyword to trigger the ender chest display function (in regex)
+    Keyword: "(?i)\\[ender\\]|\\[e\\]"
+    #The text to replace the keyword
+    Text: "&f[&d%player_name% 的終界箱&f]"
+    #The title of the ender chest inventory view
+    InventoryTitle: "%player_name% 的終界箱"
+    #Cooldown of this placeholder in seconds
     Cooldown: 0
+    #Hover Message
     HoverMessage:
-      - '&b點擊查看!'
-    Description: '&d顯示你的終界箱在聊天室!'
+      - "&b點擊查看!"
+    #This name is used to identify your placeholder
+    #It must be a non-regex form of your keyword and should satisfy your keyword
+    Name: "[ender]"
+    #This description is used when listing placeholders
+    Description: "&d顯示你的終界箱在聊天室!"
 Player:
+  #Let InteractiveChat handle all player names that appears in chat (literally ALL)
   UsePlayerNameInteraction: true
-  UseOnTranslatableComponents: true
+  #Let InteractiveChat override original hover/click events with its own hover/click events
+  #If it is set to false, the original hover/click event will take priority
+  #Meaning InteractiveChat player name interaction won't be applied
+  OverrideOriginal:
+    HoverEvent: true
+    ClickEvent: true
+  #Whether names have to be capitalized correctly to be replaced
   CaseSensitive: true
   Hover:
+    #Add a hover message to all player names in chat
     Enable: true
+    #The text to show in the hover message
+    #Supports multiple lines
     Text:
       - '&a世界: &7%player_world% &aX: &7%player_x% &aY: &7%player_y% &aZ: &7%player_z%'
-      - '&e生態域: &6%player_biome%'
+      - '&e生態域: &6%player_biome_capitalized%'
       - '&c血量: %player_health_rounded%&7/%player_max_health_rounded%'
       - '&b延遲: &7%player_colored_ping% &bms'
   Click:
+    #Add a click action to all player names in chat
     Enable: true
+    #The action to do when a player name is clicked
+    #List of actions:
+    #OPEN_URL
+    #OPEN_FILE
+    #RUN_COMMAND
+    #SUGGEST_COMMAND
+    #CHANGE_PAGE
+    #COPY_TO_CLIPBOARD
     Action: SUGGEST_COMMAND
-    Value: '/msg %player_name% '
+    #The value for the action above
+    #for example '/say yellow is her fav color' for the action RUN_COMMAND
+    Value: "/msg %player_name% "
 TabCompletion:
+  #This only works on command tab completions
+  #Doesn't work on chat tab completions or on versions on or below 1.12.2
   PlayerNameToolTip:
     Enabled: true
-    ToolTip: '&a世界: &7%player_world% &aX: &7%player_x% &aY: &7%player_y% &aZ: &7%player_z%'
+    ToolTip: "&a世界: &7%player_world% &aX: &7%player_x% &aY: &7%player_y% &aZ: &7%player_z%"
+#Note that all settings have to be present even if they are set to false
+#Just copy everything and change each setting, so you won't miss anything
+#You can also use the CustomPlaceholderCreator tool by double-clicking this plugin jar
 CustomPlaceholders:
   '1':
+    #Should the placeholders be parsed with the message sender or the receiver
+    #Either 'sender' or 'viewer'
     ParsePlayer: sender
-    Text: '[money]'
-    Aliases:
-      - (?i)(\[m\])
+    #The keyword to look for in the chat (in regex)
+    Keyword: "(?i)\\[money\\]|\\[m\\]"
+    #Whether to parse placeholders in the keyword text
     ParseKeyword: false
-    CaseSensitive: true
+    #Cooldown of this placeholder in seconds
     Cooldown: 0
+    #Hover message settings
     Hover:
+      #Add a hover message
       Enable: true
+      #Text for the hover message
+      #Supports multiple lines
       Text:
-        - '&6%player_name% 錢包: $%vault_eco_balance_commas%'
+        - "&6%player_name% 的錢包: \\$%vault_eco_balance_commas%"
+    #Click action settings
     Click:
+      #Add a click action
       Enable: true
+      #The action to do when clicked
+      #List of actions:
+      #OPEN_URL
+      #OPEN_FILE
+      #RUN_COMMAND
+      #SUGGEST_COMMAND
+      #CHANGE_PAGE
+      #COPY_TO_CLIPBOARD
       Action: SUGGEST_COMMAND
-      Value: '/pay %player_name% '
+      #The value for the action above
+      #for example '/say yellow is her fav color' for the action RUN_COMMAND
+      Value: "/pay %player_name% "
+    #Replace keyword settings
     Replace:
+      #Whether the keyword should be replaced with another text
       Enable: true
-      ReplaceText: '[%player_name% 錢包]'
-    Description: '&e在聊天室內顯示你所持有的錢!'
+      #The text to replace the keyword
+      ReplaceText: "[%player_name% 錢包]"
+    #This name is used to identify your placeholder
+    #It must be a non-regex form of your keyword and should satisfy your keyword
+    Name: "[money]"
+    #This description is used when listing placeholders
+    Description: "&e在聊天室內顯示你所持有的錢!"
   '2':
     ParsePlayer: viewer
-    Text: '[loohpjames]'
-    Aliases: [ ]
+    Keyword: "(?i)\\[loohpjames\\]"
     ParseKeyword: false
-    CaseSensitive: false
     Cooldown: 0
     Hover:
       Enable: true
       Text:
-        - '&e訪問作者的網站!'
-        - '&b點擊我!'
+        - "&e訪問作者的網站!"
+        - "&b點擊我!"
     Click:
       Enable: true
       Action: OPEN_URL
-      Value: https://loohpjames.com
+      Value: "https://loohpjames.com"
     Replace:
       Enable: true
-      ReplaceText: '&3&lLoohp&6&lJames'
-    Description: '&e鏈接至插件作者的網站!'
+      ReplaceText: "&3&lLoohp&6&lJames"
+    Name: "[loohpjames]"
+    Description: "&e鏈接至插件作者的網站!"
   '3':
     ParsePlayer: sender
-    Text: '[gametime]'
-    Aliases: [ ]
+    Keyword: "(?i)\\[gametime\\]"
     ParseKeyword: false
-    CaseSensitive: true
     Cooldown: 0
     Hover:
       Enable: false
       Text: [ ]
     Click:
       Enable: false
-      Action: ''
-      Value: ''
+      Action: ""
+      Value: ""
     Replace:
       Enable: true
-      ReplaceText: '%player_world_time_24%'
-    Description: '&e顯示你所在的世界當前時間!'
+      ReplaceText: "%player_world_time_24%"
+    Name: "[gametime]"
+    Description: "&e顯示你所在的世界當前時間!"
   '4':
     ParsePlayer: viewer
-    Text: '[Hover]'
-    Aliases: [ ]
+    Keyword: "(?i)\\[match: *([^\\[\\]]*)\\]"
     ParseKeyword: false
-    CaseSensitive: false
     Cooldown: 0
     Hover:
       Enable: true
       Text:
-        - '&b懸停文字很酷!'
+        - "&b$1"
     Click:
-      Enable: false
-      Action: ''
-      Value: ''
+      Enable: true
+      Action: RUN_COMMAND
+      Value: "/me $1"
     Replace:
-      Enable: false
-      ReplaceText: ''
-    Description: '&e懸停文字示例'
+      Enable: true
+      ReplaceText: "&b[&e$1&b]"
+    Name: "[match:<Text>]"
+    Description: "&e使用正規表達式的匹配組文本範例"
   '5':
     ParsePlayer: sender
-    Text: '[time]'
-    Aliases: [ ]
+    Keyword: "(?i)\\[time\\]"
     ParseKeyword: false
-    CaseSensitive: true
     Cooldown: 0
     Hover:
       Enable: false
@@ -248,13 +468,12 @@ CustomPlaceholders:
     Replace:
       Enable: true
       ReplaceText: '%server_time_dd/MM/yyyy HH:mm:ss zzz%'
-    Description: '&e顯示伺服器在現實的當前時間!'
+    Name: "[time]"
+    Description: "&e顯示伺服器在現實的當前時間!"
   '6':
     ParsePlayer: sender
-    Text: '[pos]'
-    Aliases: [ ]
+    Keyword: "(?i)\\[pos\\]"
     ParseKeyword: false
-    CaseSensitive: true
     Cooldown: 0
     Hover:
       Enable: false
@@ -266,13 +485,12 @@ CustomPlaceholders:
     Replace:
       Enable: true
       ReplaceText: '&b世界: &f%player_world% &eX:&f%player_x% &eY:&f%player_y% &eZ:&f%player_z%'
-    Description: '&e顯示你目前的位置!'
+    Name: "[pos]"
+    Description: "&e顯示你目前的位置!"
   '7':
     ParsePlayer: sender
-    Text: '[ping]'
-    Aliases: [ ]
+    Keyword: "(?i)\\[ping\\]"
     ParseKeyword: false
-    CaseSensitive: true
     Cooldown: 0
     Hover:
       Enable: false
@@ -284,4 +502,5 @@ CustomPlaceholders:
     Replace:
       Enable: true
       ReplaceText: '%player_colored_ping% &bms'
-    Description: '&e顯示你目前的延遲!'
+    Name: "[ping]"
+    Description: "&e顯示你目前的延遲!"
