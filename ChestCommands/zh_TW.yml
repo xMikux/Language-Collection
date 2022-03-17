@@ -5,4 +5,4 @@ no-required-item: '&c你必須有 &e{amount}x {material} &c(耐久度: {durabili
 no-money: '&c你必須有 {money}$ 來使用這個.'
 no-exp: '&c你必須有 {levels} 經驗等級來使用這個.'
 menu-not-found: '&c選單未找到! 請通知工作人員.'
-any: any
+any: 任何
