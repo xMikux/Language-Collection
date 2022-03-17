@@ -1,8 +1,8 @@
 ---
-no-open-permission: '&cYou don''t have permission &e{permission} &cto use this menu.'
-default-no-icon-permission: '&cYou don''t have permission for this icon.'
-no-required-item: '&cYou must have &e{amount}x {material} &c(durability: {durability}) for this.'
-no-money: '&cYou need {money}$ for this.'
-no-exp: '&cYou need {levels} XP levels for this.'
-menu-not-found: '&cMenu not found! Please inform the staff.'
+no-open-permission: '&c你沒有權限 &e{permission} &c來使用此選單.'
+default-no-icon-permission: '&c你沒有這個標誌的權限.'
+no-required-item: '&c你必須有 &e{amount}x {material} &c(耐久度: {durability}) 來使用這個.'
+no-money: '&c你必須有 {money}$ 來使用這個.'
+no-exp: '&c你必須有 {levels} 經驗等級來使用這個.'
+menu-not-found: '&c選單未找到! 請通知工作人員.'
 any: any
