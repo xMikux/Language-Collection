@@ -1,0 +1,291 @@
+InventoryImage:
+  #Whether to generate images for the item placeholder
+  Item:
+    Enabled: true
+    #Show information about the item in a tooltip image instead of text
+    UseTooltipImage: true
+    #If UseTooltipImage is true, should the plugin attach tooltip image if the target item
+    #is just a plain base item with no information worth showing
+    UseTooltipImageOnBaseItem: false
+    EmbedDisplay:
+      Single: "{Item}"
+      Multiple: "{Item} x{Amount}"
+    AlternateAirTexture: true
+  #Whether to generate images for the inventory placeholder
+  Inventory:
+    Enabled: true
+    #Use the player inventory gui template instead of the normal inventory template
+    UsePlayerInventoryView: true
+    #Whether to render the items a player is holding
+    #Only effective when UsePlayerInventoryView is true
+    RenderHandHeldItems: true
+    EmbedColor: "#55FFFF"
+    ShowExperienceLevel: true
+  #Whether to generate images for the enderchest placeholder
+  EnderChest:
+    Enabled: true
+    EmbedColor: "#FF55FF"
+
+DeathMessage:
+  #Show the weapon inside the death message if there is one
+  ShowItems: true
+
+Advancements:
+  #Replace the advancement name from DiscordSRV with the actual display name
+  CorrectAdvancementName: true
+  #Show the icon of the advancement instead of the player head
+  ChangeToItemIcon: true
+  #Show the description of that advancement
+  ShowDescription: true
+
+HoverEventDisplay:
+  #Whether to show hover event text
+  Enabled: true
+  #Whether to show the cursor image
+  ShowCursorImage: true
+  #Show information in a tooltip image instead of text
+  UseTooltipImage: true
+  #Which custom placeholder should have their hover event text ignored
+  #This is a list of integer by indexes
+  IgnoredPlaceholderIndexes: []
+
+DiscordAttachments:
+  #Whether to convert discord attachments from disgusting urls into clickable text in chat
+  Convert: true
+  Formatting:
+    Text: "&e[&b{FileName}&e]"
+    ImageOriginal: " &a(Link)"
+    Hover:
+      Enabled: true
+      HoverText:
+        - "&bClick to Preview"
+      ImageOriginalHover:
+        - "&eOpen Original"
+  #Whether to allow previewing images in game using maps
+  ShowImageUsingMaps: true
+  #What color should the background be when previewing images in game using maps
+  #Note that the color will not be exact as it is limited to the map colors Minecraft offers
+  ImageMapBackground:
+    Transparent: false
+    #Only used when Transparent is false
+    Color: "#36393F"
+  #When enabled, Only websites from the list below is allowed to be shown through in-game maps
+  RestrictImageUrl:
+    Enabled: false
+    Whitelist:
+      - "https://i.imgur.com"
+      - "http://i.imgur.com"
+      - "https://storage.googleapis.com"
+      - "http://storage.googleapis.com"
+      - "https://cdn.discordapp.com"
+      - "http://cdn.discordapp.com"
+      - "https://media.discordapp.net"
+      - "http://media.discordapp.net"
+      - "https://textures.minecraft.net"
+      - "http://textures.minecraft.net"
+  #If the attachment is larger than the defined size, it won't be downloaded for preview
+  #(In Bytes)
+  FileSizeLimit: 8388608
+  Timeout: 86400
+  PlaybackBar:
+    Enabled: true
+    FilledColor: "#FF0000"
+    EmptyColor: "#938B86"
+
+DiscordCommands:
+  #These settings apply to all discord commands below 
+  GlobalSettings:
+    #Set this to true ONLY IF you use have multiple servers with interactivechatdiscordsrvaddon AND
+    #you use a DIFFERENT channel for each server (i.e. not one shared channel for all servers)
+    RespondToCommandsInInvalidChannels: true
+    Messages:
+      #Labels must be lowercase
+      MemberLabel: "member"
+      MemberDescription: "Member to set"
+      SlotLabel: "slot"
+      SlotDescription: "Slot to choose"
+  #Settings for /resourcepack
+  ResourcePack:
+    #Enable the /resourcepack command to show installed resource packs on interactivechatdiscordsrvaddon
+    Enabled: true
+    #If you do NOT use a shared discord channel for multiple servers, this should ALWAYS be true
+    #If you do, set this option on ONE of the servers connected to the discord channel to true,
+    #With all others servers to false.
+    IsMainServer: true
+    #The description of this command on discord
+    Description: "Show applied resource packs on discord!"
+    Permissions:
+      #Roles allowed to use this command
+      AllowedRoles:
+        - "everyone"
+  #Settings for /playerlist
+  PlayerList:
+    #Enable the /playerlist command to show all online players in a tablist style image
+    Enabled: true
+    #The description of this command on discord
+    Description: "Show all online players!"
+    #If you do NOT use a shared discord channel for multiple servers, this should ALWAYS be true
+    #If you do, set this option on ONE of the servers connected to the discord channel to true, 
+    #With all others servers to false.
+    IsMainServer: true
+    #List other players on the same network if connected to bungeecord
+    ListBungeecordPlayers: true
+    #List only players on servers where InteractiveChat is installed and has info about
+    OnlyInteractiveChatServers: true
+    #Message to display when no one is online
+    EmptyServer: "There are no players online."
+    #Delete the tablist message after X seconds (Set to 0 to not have it automatically deleted)
+    DeleteAfter: 0
+    Permissions:
+      #Roles allowed to use this command
+      AllowedRoles:
+        - "everyone"
+    TablistOptions:
+      #The minimum width of the player name section of the playerlist
+      #This is measured in pixels
+      PlayerMinWidth: 0
+      SidebarColor: "#999999"
+      #The formatting of each player name
+      PlayerFormat: "%vault_prefix%%player_name%"
+      #Whether to show the player avatar
+      ShowPlayerAvatar: true
+      #Whether to show player ping
+      ShowPlayerPing: true
+      #Leave a single blank line to disable
+      #PlaceholderAPI placeholders in the header are parsed as THE FIRST PLAYER in the playerlist
+      HeaderText:
+        - "&aOnline Players ({OnlinePlayers}/100)"
+      #Leave a single blank line to disable
+      #PlaceholderAPI placeholders in the footer are parsed as THE FIRST PLAYER in the playerlist
+      FooterText:
+        - ""
+  #Settings for /item
+  ShareItem:
+    #Enable the /item command on discord
+    Enabled: true
+    #Allow the /itemasuser associate command on discord
+    AllowAsOthers: true
+    #If you do NOT use a shared discord channel for multiple servers, this should ALWAYS be true
+    #If you do, set this option on ONE of the servers connected to the discord channel to true,
+    #With all others servers to false.
+    IsMainServer: true
+    InGameMessage:
+      Text: "&6{Player} shared an Item: &f{ItemTag}"
+    InventoryTitle: "{Player}'s Item"
+    Permissions:
+      #Roles allowed sharing inventory of self
+      SelfAllowedRoles:
+        - "everyone"
+      #Roles allowed looking up inventory of other users
+      OtherAllowedRoles:
+        - "admin"
+  #Settings for /inv
+  ShareInventory:
+    #Enable the /inv command on discord
+    Enabled: true
+    #Allow the /invasuser associate command on discord
+    AllowAsOthers: true
+    #If you do NOT use a shared discord channel for multiple servers, this should ALWAYS be true
+    #If you do, set this option on ONE of the servers connected to the discord channel to true, 
+    #With all others servers to false.
+    IsMainServer: true
+    InGameMessage:
+      Text: "&6{Player} shared their Inventory: &f[&b{Player}'s Inventory&f]"
+      Hover:
+        - "&bClick to view!"
+    InventoryTitle: "{Player}'s Inventory"
+    SkullDisplayName: "&e{Player}"
+    Permissions:
+      #Roles allowed sharing inventory of self
+      SelfAllowedRoles:
+        - "everyone"
+      #Roles allowed looking up inventory of other users
+      OtherAllowedRoles:
+        - "admin"
+  #Settings for /ender
+  ShareEnderChest:
+    #Enable the /ender command on discord
+    Enabled: true
+    #Allow the /enderasuser associate command on discord
+    AllowAsOthers: true
+    #If you do NOT use a shared discord channel for multiple servers, this should ALWAYS be true
+    #If you do, set this option on ONE of the servers connected to the discord channel to true, 
+    #With all others servers to false.
+    IsMainServer: true
+    InGameMessage:
+      Text: "&6{Player} shared their Ender Chest: &f[&d{Player}'s Ender Chest&f]"
+      Hover:
+        - "&bClick to view!"
+    InventoryTitle: "{Player}'s Ender Chest"
+    Permissions:
+      #Roles allowed sharing inventory of self
+      SelfAllowedRoles:
+        - "everyone"
+      #Roles allowed looking up inventory of other users
+      OtherAllowedRoles:
+        - "admin"
+
+DiscordMention:
+  #Link mentions through discordsrv linked accounts
+  TranslateMentions: true
+
+  #The sound to play when a player is mentioned
+  #https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+  MentionedSound: ENTITY_EXPERIENCE_ORB_PICKUP
+
+  #The title to show when mentioned
+  MentionedTitle: "&c&lMentioned"
+
+  #How long should the title be shown when mentioned
+  #Duration in seconds
+  MentionedTitleDuration: 1.5
+
+  #The subtitle and actionbar  to show when mentioned
+  #Note that actionbar might not work if your version of Minecraft does not support it
+  #Use {DiscordUser} for the ping-ers's discord name
+  #Use {TextChannel} for the pinged channel name
+  #Use {Guild} for the pinged guild name
+  DiscordMentionSubtitle: "&9{DiscordUser} &fmentioned you in &9{TextChannel}!"
+  DiscordMentionActionbar: ""
+
+  #Highlight the mentioned playername for the player mentioned
+  #Use {DiscordMention} for the highlighted player name
+  MentionHighlight: "&9{DiscordMention}"
+
+Messages:
+  ReloadConfig: "&aICDiscordSRVAddon config has been reloaded!"
+  ReloadTexture: "&aICDiscordSRVAddon reloading textures--- (See console for progress)"
+  LinkExpired: "&cThis link has been expired! To view this link, please head over to the linked discord channel!"
+  PreviewLoading: "&ePreview is being loaded! Please wait!"
+  AccountNotLinked: "&cA Minecraft account must be linked to this Discord account in order to use this command!"
+  UnableToRetrieveData: "&cUnable to retrieve data."
+  InvalidDiscordChannel: "&cYou cannot do that in this channel."
+  TrueLabel: "&aTrue"
+  FalseLabel: "&cFalse"
+  StatusCommand:
+    DefaultResourceHash: "&bDefault Resource Hash: %s"
+    FontsActive: "&bFonts Active: %s"
+    LoadedResources: "&bLoaded Resources: &a"
+
+Settings:
+  #This is in seconds
+  CacheTimeout: 300
+  EscapePlaceholdersSentFromDiscord: true
+  EscapeDiscordMarkdownFormattingInItems: true
+  ReducedAssetsDownloadInfo: true
+
+Debug:
+  PrintInfoToConsole: false
+
+Resources:
+  #Which language should be used in places like the item tooltip
+  #Visit this page for all the languages that Minecraft offers:
+  #https://minecraft.fandom.com/wiki/Language
+  Language: en_us
+  #Set which resource pack should be installed and in what order
+  #Visit this page for more info:
+  #https://github.com/LOOHP/InteractiveChat-DiscordSRV-Addon/wiki/Resource-Pack
+  Order: []
+
+Options:
+  Updater: true
