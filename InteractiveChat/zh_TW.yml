@@ -1,17 +1,17 @@
 ---
 #Do not change this value
-ConfigVersion: "4.1.3.4"
+ConfigVersion: "4.1.4.0"
 Options:
   Updater: true
   ShowCancelledNotice: true
 Messages:
   NoPermission: "&c你沒有權限使用此指令!"
-  #After 5 minutes the [inv]/[ender] generated inventory view will expire
+  #After 5 minutes the shared item/inventory generated inventory view will expire
   InvExpired: "&c此背包查看已過期!"
   ReloadPlugin: "&aInteractive Chat 已重新加載!"
   #The message to send when a message is cancelled due to the placeholder limit
   LimitReached: "&c請不要使用過多的變數在一則訊息內!"
-  #Sent if a keyword placeholder on cooldown
+  #Sent if a keyword placeholder is on cooldown
   PlaceholderCooldown: "&c你必須等待 &e{Time} &c之後才能再次使用 &e{Keyword} &c!"
   #Sent if the player is on universal cooldown
   UniversalCooldown: "&c你必須等待 &e{Time} &c之後才能再次使用關鍵字!"
@@ -24,7 +24,7 @@ Messages:
   #The messages sent when listing placeholders
   ListPlaceholdersHeader: "&e聊天室變數列表:"
   ListPlaceholdersBody: "&b{Order}. \"&f&l{Keyword}&b\" &6- &e{Description}"
-  #The messages sent when a player set their inventory display layouts
+  #The messages sent when a player set their inventory display layout
   SetInventoryDisplayLayout: "&a設置背包展示的樣式至樣式 &e{Layout}"
   PlayerOnlyCommand: "&c此指令不能在控制台中使用!"
   InvalidPlayer: "&c那不是一個有效玩家!"
@@ -94,7 +94,7 @@ Settings:
   #Maximum Placeholders that can be used in one message will be cancelled if the limit is reached
   #Put in -1 to disable the limit
   MaxPlaceholders: -1
-  #Settings for if the plugin is unable to fetch a placeholder
+  #Settings for situations where the plugin is unable to parse a placeholder
   PlayerNotFound:
     #Hover message settings
     Hover:
@@ -151,9 +151,9 @@ Chat:
   DisableHere: false
   DisableEveryone: false
   #The prefix to trigger a mention
-  #Can be an empty String
   MentionPrefix: "@"
   #The sound to play when a player is mentioned
+  #List of all sounds
   #https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
   MentionedSound: ENTITY_EXPERIENCE_ORB_PICKUP
   #The title to show when mentioned
@@ -174,7 +174,7 @@ Chat:
   #Only works on versions 1.12 or above
   #Blank to disable
   MentionToast: "&3%player_name% &f提及了你!"
-  #Use the bossbar to show a message (MC 1.9+)
+  #Use the bossbar to show a message (1.9+)
   MentionBossBar:
     #Blank to disable
     Text: "&3%player_name% &f提及了你!"
@@ -243,7 +243,7 @@ ItemDisplay:
     Frame:
       Primary: BLACK_STAINED_GLASS_PANE
       Secondary: WHITE_STAINED_GLASS_PANE
-    #Whether to show shared maps or not
+    #Preview shared maps instead of showing the item itself
     PreviewMaps: true
     EmptyItemSettings:
       #Whether players are allowed to show an empty hand
@@ -251,7 +251,7 @@ ItemDisplay:
       #Message to send when AllowAir is false and a player tried to show nothing
       DisallowMessage: "&你沒有任何東西可以顯示! 嘗試在手上拿點東西!"
     #This name is used to identify your placeholder
-    #It must be a non-regex form of your keyword and should satisfy your keyword
+    #It must be a non-regex form of your keyword and should satisfy the regex of your keyword
     Name: "[item]"
     #This description is used when listing placeholders
     Description: "&a在聊天室顯示你手上拿的物品!"
@@ -272,10 +272,10 @@ ItemDisplay:
     InventoryTitle: "%player_name% &f的背包"
     #Cooldown of this placeholder in seconds
     Cooldown: 0
-    #Which layout do you want to be shown
+    #Which inventory sharing layout do you want as default
     #Currently there is layout 0 and layout 1
     Layout: 0
-    #The item name of the skull
+    #The item display text of the skull
     SkullDisplayName: "&e%player_name%"
     #The item used for the frame of the Inventory GUI
     Frame:
@@ -285,7 +285,7 @@ ItemDisplay:
     HoverMessage:
       - "&b點擊查看!"
     #This name is used to identify your placeholder
-    #It must be a non-regex form of your keyword and should satisfy your keyword
+    #It must be a non-regex form of your keyword and should satisfy the regex of your keyword
     Name: "[inv]"
     #This description is used when listing placeholders
     Description: "&b顯示你的背包在聊天室!"
@@ -304,7 +304,7 @@ ItemDisplay:
     HoverMessage:
       - "&b點擊查看!"
     #This name is used to identify your placeholder
-    #It must be a non-regex form of your keyword and should satisfy your keyword
+    #It must be a non-regex form of your keyword and should satisfy the regex of your keyword
     Name: "[ender]"
     #This description is used when listing placeholders
     Description: "&d顯示你的終界箱在聊天室!"
@@ -351,11 +351,10 @@ TabCompletion:
     Enabled: true
     ToolTip: "&a世界: &7%player_world% &aX: &7%player_x% &aY: &7%player_y% &aZ: &7%player_z%"
 #Note that all settings have to be present even if they are set to false
-#Just copy everything and change each setting, so you won't miss anything
-#You can also use the CustomPlaceholderCreator tool by double-clicking this plugin jar
+#You can also use the CustomPlaceholderCreator tool by double-clicking the plugin jar
 CustomPlaceholders:
   '1':
-    #Should the placeholders be parsed with the message sender or the receiver
+    #Should the placeholders be parsed as the message sender or the message receiver
     #Either 'sender' or 'viewer'
     ParsePlayer: sender
     #The keyword to look for in the chat (in regex)
@@ -395,7 +394,7 @@ CustomPlaceholders:
       #The text to replace the keyword
       ReplaceText: "[%player_name% 錢包]"
     #This name is used to identify your placeholder
-    #It must be a non-regex form of your keyword and should satisfy your keyword
+    #It must be a non-regex form of your keyword and should satisfy the regex of your keyword
     Name: "[money]"
     #This description is used when listing placeholders
     Description: "&e在聊天室內顯示你所持有的錢!"
