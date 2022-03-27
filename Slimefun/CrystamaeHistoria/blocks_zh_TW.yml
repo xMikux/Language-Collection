@@ -7311,7 +7311,6 @@ END_STONE_BRICK_WALL:
   elements:
     - CELESTIAL
     - HISTORICAL
-    - CELESTIAL
   story:
     name: 打倒牆壁 (終界石磚)
     type: HISTORICAL
@@ -15650,7 +15649,7 @@ PRISMARINE_STAIRS:
     - PHILOSOPHICAL
     - ANIMAL
   story:
-    name: 崛起 (閃長岩)
+    name: Rising on up (Prismarine)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
@@ -18784,7 +18783,7 @@ STONECUTTER:
       - 0
       - 0
 STONE_AXE:
-  tier: 4
+  tier: 2
   elements:
     - HUMAN
     - PHILOSOPHICAL
@@ -18978,7 +18977,7 @@ STONE_PRESSURE_PLATE:
       - 1
       - 0
 STONE_SHOVEL:
-  tier: 4
+  tier: 2
   elements:
     - HUMAN
     - ELEMENTAL
