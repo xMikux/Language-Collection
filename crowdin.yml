@@ -20,3 +20,7 @@ files:
     translation: /Slimefun/CrystamaeHistoria/generic-stories_%locale_with_underscore%.%file_extension%
   - source: /DeluxeHub/en_US_serverselector.*
     translation: /DeluxeHub/%locale_with_underscore%_serverselector.%file_extension%
+  - source: /InfernalMobs/en_US_loots.*
+    translation: /InfernalMobs/%locale_with_underscore%_loots.%file_extension%
+  - source: /Oh_the_dungeons_youll_go/en_US.json
+    translation: /Oh_the_dungeons_youll_go/%locale_with_underscore%.%file_extension%

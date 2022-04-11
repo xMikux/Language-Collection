@@ -1,0 +1,300 @@
+#Chance is the chance that a mob will not be infernal, the lower the number the higher the chance. (min 1)
+#Enabledworlds are the worlds that infernal mobs can spawn in.
+#Enabledmobs are the mobs that can become infernal.
+#Loot is the items that are dropped when an infernal mob dies. (You can have up to 64)
+#Item is the item, Amount is the amount, Durability is how damaged it will be (0 is undamaged).
+#nameTagsLevel is the visibility level of the name tags, 0 = no tag, 
+#1 = tag shown when your looking at the mob, 2 = tag always shown.
+#Note, if you have name tags set to 0, on server restart all infernal mobs will turn normal.
+#If you want to enable the boss bar you must have BarAPI on your server.
+#nameTagsName and bossBarsName have these special tags: <mobLevel> = the amount of powers the boss has.
+#<abilities> = A list of about 3-5 (whatever can fit) names of abilities the boss has.
+#<mobName> = Name of the mob, so if the mob is a creeper the mobName will be "Creeper".
+chance: 100
+#mobChances:
+#  Ghast: 150
+#levelChance:
+#  '3': 1
+#  '4': 1
+#  '5': 1
+#  '6': 1
+#  '7': 1
+namePrefix: '&fInfernal'
+#levelPrefixs:
+#  '3': '&fMad'
+#  '4': '&fRabid'
+#  '5': '&fGiant'
+#  '6': '&fKing'
+#  '7': '&fInfernal'
+nameTagsLevel: 1
+nameTagsName: '&f<prefix> <mobName>'
+bossBarsName: '&fLevel <mobLevel> &f<prefix> <mobName>'
+enableBossBar: true
+bossBarSettings:
+  defaultColor: "PINK"
+  defaultStyle: "SOLID"
+#  perMob:
+#    PigZombie:
+#      color: "RED"
+#      style: "SEGMENTED_6"
+#    Ghast:
+#      color: "RED"
+#      style: "SEGMENTED_12"
+#    WitherSkeleton:
+#      color: "RED"
+#      style: "SEGMENTED_20"
+#    Blaze:
+#      color: "RED"
+#      style: "SEGMENTED_10"
+#    Creeper:
+#      color: "GREEN"
+#      style: "SEGMENTED_6"
+#  perLevel:
+#    5:
+#      color: "GREEN"
+#      style: "SEGMENTED_6"
+enableScoreBoard: false
+showHealthOnScoreBoard: true
+effectAllPlayerAttacks: true
+enableParticles: true
+enableDeathMessages: false
+deathMessages:
+- '&cplayer &chas killed an mob&c!'
+- '&cAn mob &cwas slain by player&c!'
+- '&cplayer &cowned an mob&c!'
+- '&cAn mob &cwas beheaded by player&c''s weapon!'
+- '&cplayer&c''s weapon &ckilled an mob&c!'
+- '&cAn mob &cwas killed by player &cusing a weapon&c!'
+enableSpawnMessages: false
+spawnMessageRadius: 64
+spawnMessages:
+- '&cAn Infernal mob has spawned near you!'
+- '&cWatch out!'
+- '&cYou hear a faint scream...'
+- '&cSomething is coming...'
+- '&cYou hear a mob nearby...'
+mobworlds:
+- <all>
+effectworlds:
+- <all>
+enabledmobs:
+- ELDER_GUARDIAN
+- WITHER_SKELETON
+- STRAY
+- HUSK
+- ZOMBIE_VILLAGER
+- SKELETON_HORSE
+- ZOMBIE_HORSE
+#- DONKEY
+#- MULE
+- EVOKER
+- VEX
+- VINDICATOR
+- CREEPER
+- SKELETON
+- SPIDER
+- GIANT
+- ZOMBIE
+- SLIME
+- GHAST
+- PIG_ZOMBIE
+- ENDERMAN
+- CAVE_SPIDER
+- SILVERFISH
+- BLAZE
+- MAGMA_CUBE
+- ENDER_DRAGON
+- WITHER
+- BAT
+- WITCH
+- ENDERMITE
+- GUARDIAN
+- SHULKER
+- ILLUSIONER
+- PARROT
+#- PIG
+#- SHEEP
+#- COW
+#- CHICKEN
+#- SQUID
+#- WOLF
+#- MUSHROOM_COW
+#- SNOWMAN
+#- OCELOT
+#- IRON_GOLEM
+#- HORSE
+#- RABBIT
+- POLAR_BEAR
+- LLAMA
+#- VILLAGER
+- DROWNED
+- PHANTOM
+- PUFFERFISH
+- BEE
+- PIGLIN
+- HOGLIN
+- ZOGLIN
+- STRIDER
+- ZOMBIFIED_PIGLIN
+enabledCharmSlots:
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 40
+- 36
+- 37
+- 38
+- 39
+poisonous: true
+armoured: true
+blinding: true
+withering: true
+tosser: true
+thief: true
+quicksand: true
+bullwark: true
+rust: true
+sapper: true
+1up: true
+cloaked: true
+ender: true
+ghastly: true
+lifesteal: true
+sprint: true
+storm: true
+webber: true
+vengeance: true
+weakness: true
+berserk: true
+explode: true
+potions: true
+mama: true
+molten: true
+archer: true
+necromancer: true
+firework: true
+gravity: true
+flying: true
+mounted: true
+morph: true
+ghost: true
+confusing: true
+mamaSpawnAmount: 3
+vengeanceDamage: 6
+berserkDamage: 3
+moltenBurnLength: 5
+gravityLevitateLength: 6
+horseMountsHaveSaddles: true
+armouredMountsHaveArmour: true
+fireworkColour:
+  red: 255
+  green: 10
+  blue: 10
+enabledSpawnReasons:
+- BREEDING
+#- BUILD_IRONGOLEM
+#- BUILD_SNOWMAN
+- BUILD_WITHER
+- CHUNK_GEN
+#- CURED
+- CUSTOM
+- DEFAULT
+#- DISPENSE_EGG
+#- EGG
+- INFECTION
+- SPAWNER_EGG
+#- JOCKEY
+- LIGHTNING
+#- MOUNT
+- NATURAL
+- NETHER_PORTAL
+- OCELOT_BABY
+- REINFORCEMENTS
+- SILVERFISH_BLOCK
+- SLIME_SPLIT
+#- SPAWNER
+#- SPAWNER_EGG
+#- TRAP
+#- VILLAGE_DEFENSE
+- VILLAGE_INVASION
+mobParticles:
+- lavaSpark:1:10
+mountFate: nothing
+enabledMounts:
+- SPIDER
+- SKELETON_HORSE
+- ZOMBIE_HORSE
+- DONKEY
+- MULE
+- SLIME
+- GHAST
+- MAGMA_CUBE
+- ENDER_DRAGON
+- BAT
+- PIG
+- SHEEP
+- COW
+- CHICKEN
+- MUSHROOM_COW
+- HORSE
+- POLAR_BEAR
+- LLAMA
+- PHANTOM
+- HOGLIN
+- ZOGLIN
+- STRIDER
+enabledRiders:
+- WITHER_SKELETON
+- STRAY
+- HUSK
+- ZOMBIE_VILLAGER
+- EVOKER
+- VINDICATOR
+- SKELETON
+- ZOMBIE
+- PIG_ZOMBIE
+- ENDERMAN
+- WITCH
+- SNOWMAN
+- VILLAGER
+- ILLUSIONER
+- DROWNED
+- ZOMBIFIED_PIGLIN
+- PIGLIN
+disabledBabyMobs:
+- WOLF
+- MUSHROOM_COW
+- COW
+- SHEEP
+- PIG
+- CHICKEN
+- OCELOT
+- HORSE
+#The min/max amount of powers that a mob will get.
+#NOTE: the amount of enabled powers must not be less than the maxpowers.
+#healthMultiplier is what number the infernal mobs health will be multiplied by.
+#If you have healthByPower enabled then healthMultiplier and healthByDistance will do nothing.
+#dropChance is the chance a dead mob will drop loot, the lower the higher the chance (min 1)
+#xpMultiplier is what the normal xp a mob drops will be multiplied by.
+#healthByDistance makes mobs HP go up as you go further from the world spawn.
+#Every addDistance blocks the mobs will get healthToAdd times how far they are HP.
+minpowers: 3
+maxpowers: 7
+healthMultiplier: 4
+healthByPower: false
+healthByDistance: false
+powerByDistance: false
+healthToAdd: 5
+powerToAdd: 1
+xpMultiplier: 8
+addDistance: 200
+enableDrops: true
+dropChance: 1
+enableFarmingDrops: false
+naturalSpawnHeight: 0
