@@ -188,7 +188,7 @@ DiscordCommands:
     InGameMessage:
       Text: "&6{Player} shared their Inventory: &f[&b{Player}'s Inventory&f]"
       Hover:
-        - "&bClick to view!"
+        - "&b點擊查看!"
     InventoryTitle: "{Player}'s Inventory"
     SkullDisplayName: "&e{Player}"
     Permissions:
@@ -211,7 +211,7 @@ DiscordCommands:
     InGameMessage:
       Text: "&6{Player} shared their Ender Chest: &f[&d{Player}'s Ender Chest&f]"
       Hover:
-        - "&bClick to view!"
+        - "&b點擊查看!"
     InventoryTitle: "{Player}'s Ender Chest"
     Permissions:
       #Roles allowed sharing inventory of self
@@ -227,7 +227,7 @@ DiscordMention:
   #https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
   MentionedSound: ENTITY_EXPERIENCE_ORB_PICKUP
   #The title to show when mentioned
-  MentionedTitle: "&c&lMentioned"
+  MentionedTitle: "&c&l提及"
   #How long should the title be shown when mentioned
   #Duration in seconds
   MentionedTitleDuration: 1.5
@@ -267,7 +267,7 @@ Resources:
   #Which language should be used in places like the item tooltip
   #Visit this page for all the languages that Minecraft offers:
   #https://minecraft.fandom.com/wiki/Language
-  Language: en_us
+  Language: zh_tw
   #Set which resource pack should be installed and in what order
   #Visit this page for more info:
   #https://github.com/LOOHP/InteractiveChat-DiscordSRV-Addon/wiki/Resource-Pack
