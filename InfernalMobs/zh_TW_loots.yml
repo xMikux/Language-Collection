@@ -1083,7 +1083,7 @@ loot:
         enchantment: infinity
         level: 1
       '5':
-        enchantment: 敲一棵好樹開始
+        enchantment: punch
         level: 2
   '62':
     item: BOW
