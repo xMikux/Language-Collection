@@ -17,6 +17,7 @@ modifiers:
       max-temp: 20
   armor:
     leather: 20
+    leather-temperature-cap: 25
     iron: 5
     gold: 5
     diamond: 5
@@ -24,7 +25,21 @@ modifiers:
   weather:
     rain: -4
     storm: -5
-  block-light: 15
+  block-effects:
+    enabled: true
+    blocks:
+      - 'LAVA{range=7,modifier=22}'
+      - 'TORCH{range=7,modifier=7}'
+      - 'LANTERN{range=7,modifier=7}'
+      - 'CAMPFIRE{range=7,modifier=15}'
+      - 'WALL_TORCH{range=7,modifier=7}'
+      - 'FIRE{range=7,modifier=16}'
+      - 'SOUL_TORCH{range=7,modifier=-7}'
+      - 'SOUL_WALL_TORCH{range=7,modifier=-7}'
+      - 'SOUL_CAMPFIRE{range=7,modifier=-10}'
+      - 'SOUL_FIRE{range=7,modifier=-16}'
+      - 'SOUL_LANTERN{range=7,modifier=-7}'
+      - 'ICE{range=3,modifier=-6}'
   touching-water:
     summer: -10
     spring: -4
@@ -37,7 +52,7 @@ modifiers:
   height:
     enabled: true
   other-dimensions:
-    nether: 35
+    nether: 25
     end: 0
 effects:
   cold:
