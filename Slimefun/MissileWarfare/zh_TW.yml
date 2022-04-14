@@ -31,12 +31,12 @@ messages:
   playerlist:
     resetkey: "重置鍵"
     addedkey: "添加 ID "
-    noid: "該 ID 沒有註冊, 無法將 ID 添加到啟動器"
+    noid: "該 ID 沒有註冊, 無法將 ID 添加到玩家清單"
     askwriteprompt: "你想添加什麼玩家? 輸入 exit 退出"
     addedplayer: "添加的玩家"
     invalidplayer: "無效玩家"
-    removeplayer: "你想刪除哪個玩家?"
-    removedplayer: "移除的玩家"
+    removeplayer: "你想移除哪個玩家?"
+    removedplayer: "已移除玩家"
     incorrectinput: "輸入錯誤"
     asktoread: "輸入 'read' 來查看與這個 ID 關聯的玩家，輸入 'add' 來添加一個玩家，輸入 'remove' 來移除一個玩家，說 'exit' 來退出"
     #INPUTS THE PLAYERLIST WILL TAKE IN AFTER SENDING ASKTOREAD
@@ -44,7 +44,7 @@ messages:
       read: "read"
       add: "add"
       remove: "remove"
-    askinputid: "輸入 ID 創建, 輸入 exit 取消設置e"
+    askinputid: "輸入 ID 創建, 輸入 exit 取消設置"
     #FORMATTING: {id}
     createdid: "已創建 ID : {id}, 您現在可以寫入它"
     gottenid: "獲取 ID"
@@ -145,22 +145,22 @@ materials:
       - "它對坦克有用嗎?"
 missiles:
   smallmissile:
-    lore: "小型地對地導彈"
+    lore: "小型對地導彈"
     missiles:
       normal:
-        name: "小型地對地導彈"
+        name: "小型對地導彈"
         variant: "普通"
         lore: "'小提米從來沒有機會...'"
       he:
-        name: "小型地對地導彈 (高爆)"
+        name: "小型對地導彈 (高爆)"
         variant: "高爆"
         lore: "'大提米從來沒有機會...'"
       lr:
-        name: "小型地對地導彈 (遠距)"
+        name: "小型對地導彈 (遠距)"
         variant: "遠距"
         lore: "'非常遙遠的提米從來沒有機會'"
       ac:
-        name: "小型地對地導彈 (精準)"
+        name: "小型對地導彈 (精準)"
         variant: "精準"
         lore: "'小小的提米從來沒有機會'"
   anti-missiles:
@@ -169,7 +169,7 @@ missiles:
       missile:
         name: "防空導彈"
         variant: "防空"
-        lore: "'蒂米的煙火被取消了'"
+        lore: "'提米的煙火被取消了'"
       elytra:
         name: "禁飛導彈導彈"
         variant: "反鞘翅"
@@ -220,7 +220,7 @@ missiles:
           - "有 20% 的機率打破黑曜石"
           - "'你的地堡肯定不會安全太久!'"
   advanced:
-    lore: "先進導彈對地導彈"
+    lore: "先進對地導彈"
     missiles:
       normal:
         name: "先進對地導彈"
@@ -237,23 +237,23 @@ missiles:
       ac:
         name: "先進對地導彈 精準"
         variant: "精準"
-        lore: "'相當精準 (我猜'"
+        lore: "'相當精準 我猜'"
 specialmissiles:
   gasmissile:
     name: "毒氣導彈"
     lore:
       - "清潔型導彈"
       - "擊中目標後部署毒氣"
-    afterlore: "'實施蒂姆殺戮'"
+    afterlore: "'實施提米殺戮'"
   excavmissile:
     name: "挖掘導彈"
     lore:
       - "實用導彈"
       - "有很大的爆炸半徑，但傷害很小"
       - "用於採礦"
-    afterlore: "'比 100 個鎬子有用!'"
+    afterlore: "'比 100 個鎬子還有用!'"
   stickymissile:
-    name: "黏性導"
+    name: "黏性導彈"
     lore:
       - "陷阱導彈"
       - "一個能釋放蜘蛛網的小爆炸"
@@ -292,7 +292,7 @@ launchers:
     name: "防空導彈發射器"
     lore:
       - "瞄準並擊落該地區的其他導彈"
-      - "\"使用紅石操控開關"
+      - "使用紅石操控開關"
       - "需要在黑曜石上建造"
       - "需要防空導彈"
   antielytra:
@@ -302,8 +302,8 @@ launchers:
       - "不會向指定敵我識別系統中的玩家發射"
       - "使用木棍設置敵我識別系統"
       - "需要禁飛導彈"
-      - "use a stick to set the group ID"
-      - "Needs Anti-Elytra Missiles"
+      - "使用木棍設置敵我識別系統"
+      - "需要禁飛導彈"
 other:
   manpad:
     name: "手持式防空導彈"
@@ -317,8 +317,8 @@ other:
       - "點擊右鍵來設置玩家的ID"
       - "這些ID是全球性的"
       - "任何人都可以編輯他們，只要他們有這個ID"
-      - "ANYONE CAN EDIT THEM IF"
-      - "THEY HAVE THE ID"
+      - " "
+      - " "
 #Color Codes: https://wiki.ess3.net/mc/
 guidebook:
   title: "導彈使用手冊"
@@ -350,12 +350,12 @@ guidebook:
     content:
       - "手持式防空導彈可以用來識別和擊落敵方導彈"
       - "與反彈道導彈發射器不同，它保證可以擊落敵方的導彈"
-      - "按住Shift開始掃描導彈"
+      - "按住蹲下開始掃描導彈"
   antielytrapage:
     title: "禁飛導彈發射器"
     content:
-      - "禁飛導彈發射井可以發射導彈來破壞進入射程的玩家身上的鞘翅"
-      - "這在戰爭期間保衛城市時非常好用"
+      - "禁飛導彈向進入半徑範圍內的玩家發射導彈，破壞他們的鞘翅"
+      - "這對戰爭期間的城市防禦非常有用"
       - "使用敵我識別系統來設置忽略的目標"
   playeridpage:
     title: "敵我識別系統"
