@@ -97,7 +97,7 @@ DiscordCommands:
     Messages:
       #Labels must be lowercase
       MemberLabel: "member"
-      MemberDescription: "Member to set"
+      MemberDescription: "成員設置"
       SlotLabel: "欄位"
       SlotDescription: "選擇欄位"
   #Settings for /resourcepack
@@ -243,18 +243,18 @@ DiscordMention:
   MentionHighlight: "&9{DiscordMention}"
 Messages:
   ReloadConfig: "&aICDiscordSRVAddon 設定已重新加載!"
-  ReloadTexture: "&aICDiscordSRVAddon reloading textures--- (See console for progress)"
-  LinkExpired: "&cThis link has been expired! To view this link, please head over to the linked discord channel!"
-  PreviewLoading: "&ePreview is being loaded! Please wait!"
-  AccountNotLinked: "&cA Minecraft account must be linked to this Discord account in order to use this command!"
-  UnableToRetrieveData: "&cUnable to retrieve data."
-  InvalidDiscordChannel: "&cYou cannot do that in this channel."
-  TrueLabel: "&aTrue"
-  FalseLabel: "&cFalse"
+  ReloadTexture: "&aICDiscordSRVAddon 重新加載材質包 --- (查看後台了解進度)"
+  LinkExpired: "&c這個連結已過期! 要查看此連結, 請前往該連結的 Discord 頻道查看!"
+  PreviewLoading: "&e正在加載預覽! 請稍後!"
+  AccountNotLinked: "&cMinecraft 帳號必須連接到此 Discord 帳號才能使用此指令!"
+  UnableToRetrieveData: "&c無法檢索資料."
+  InvalidDiscordChannel: "&c你不能在這個頻道中這樣做."
+  TrueLabel: "&a是"
+  FalseLabel: "&c否"
   StatusCommand:
-    DefaultResourceHash: "&bDefault Resource Hash: %s"
-    FontsActive: "&bFonts Active: %s"
-    LoadedResources: "&bLoaded Resources: &a"
+    DefaultResourceHash: "&b預設的材質包雜湊值: %s"
+    FontsActive: "&b啟用字體: %s"
+    LoadedResources: "&b已載入的材質包: &a"
 Settings:
   #This is in seconds
   CacheTimeout: 300
