@@ -20,7 +20,7 @@ chance: 100
 #'5': 1
 #'6': 1
 #'7': 1
-namePrefix: '&fInfernal'
+namePrefix: '&f煉獄'
 #levelPrefixs:
 #'3': '&fMad'
 #'4': '&fRabid'
@@ -29,7 +29,7 @@ namePrefix: '&fInfernal'
 #'7': '&fInfernal'
 nameTagsLevel: 1
 nameTagsName: '&f<prefix> <mobName>'
-bossBarsName: '&fLevel <mobLevel> &f<prefix> <mobName>'
+bossBarsName: '&f<prefix> <mobName> &f等級 <mobLevel>'
 enableBossBar: true
 bossBarSettings:
   defaultColor: "PINK"
