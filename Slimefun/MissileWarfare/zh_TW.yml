@@ -1,373 +1,373 @@
 ---
-missilegroupname: "&6Missile Warfare"
+missilegroupname: "&6導彈戰爭"
 translator: "MAGd_"
 messages:
   launchers:
     createantiair:
-      success: "Created Anti Missile Launcher"
-      failure: "Missing Obsidian Below Launcher"
+      success: "創建反導彈發射器成功"
+      failure: "發射器下方缺少黑曜石"
     createantielytra:
-      success: "Created Anti Elytra Launcher"
-      failure: "Missing Obsidian Below Launcher"
+      success: "創建了禁飛導彈發射器"
+      failure: "發射器下方缺少黑曜石"
     ground:
       create:
-        success: "Created Small Launcher!"
+        success: "創建小型發射器成功"
         #Formatting: {type}
-        failure: "Below Block is type: {type} It needs Type GREEN_CONCRETE"
+        failure: "下方方塊類型為: {type}, 需要綠色混凝土"
       #Formatting: {xcoord} {ycoord} {dist}
-      coords: "The coords are: [{xcoord} , {ycoord}] And the DIST is: {dist}"
+      coords: "坐標: [{xcoord} , {ycoord}] 距離: {dist}"
       setting:
-        notanumber: "NOT A INTEGER NUMBER (No decimals)"
-        notacoord: "NOT A COORD"
-        cruisealt: "Cruise Alt: "
+        notanumber: "不能為小數"
+        notacoord: "無效坐標"
+        cruisealt: "設置巡航高度為: "
   manpad:
-    locking: "Engaging Targeting Mode..."
-    itemchange: "Failed: Changed item"
-    notarget: "Failed to fire: No Target"
+    locking: "進入目標模式..."
+    itemchange: "失敗: 物品已被更換"
+    notarget: "發射失敗: 沒有目標"
   elytraattack:
-    locking: "!!!MISSILE LOCKING ON!!!"
-    locked: "!!!MISSILE LOCKED ON!!!"
-  radar: "Place a redstone ontop of this block to get its output, a repeater is required to get the one tick pulse"
+    locking: "!!!導彈鎖定!!!"
+    locked: "!!!導彈已鎖定!!!"
+  radar: "將紅石放在方塊頂部以獲得信號輸出，需要一個紅石中繼器來捕獲脈衝信號"
   playerlist:
-    resetkey: "Reset Key"
-    addedkey: "Added ID "
-    noid: "Couldn't add ID to the launcher, No ID assigned to this PlayerList"
-    askwriteprompt: "What player would you like to add? Say exit to exit"
-    addedplayer: "Added player"
-    invalidplayer: "INVALID PLAYER"
-    removeplayer: "What player would you like to remove?"
-    removedplayer: "Removed Player"
-    incorrectinput: "Incorrect Input"
-    asktoread: "Say 'read' to see the players associated with this ID, Say 'add' to add a player, Say 'remove' to remove a player, Say 'exit' to exit"
+    resetkey: "重置鍵"
+    addedkey: "添加 ID "
+    noid: "該 ID 沒有註冊, 無法將 ID 添加到玩家清單"
+    askwriteprompt: "你想添加什麼玩家? 輸入 exit 退出"
+    addedplayer: "添加的玩家"
+    invalidplayer: "無效玩家"
+    removeplayer: "你想移除哪個玩家?"
+    removedplayer: "已移除玩家"
+    incorrectinput: "輸入錯誤"
+    asktoread: "輸入 'read' 來查看與這個 ID 關聯的玩家，輸入 'add' 來添加一個玩家，輸入 'remove' 來移除一個玩家，說 'exit' 來退出"
     #INPUTS THE PLAYERLIST WILL TAKE IN AFTER SENDING ASKTOREAD
     inputs:
       read: "read"
       add: "add"
       remove: "remove"
-    askinputid: "Input ID to create, say exit to leave"
+    askinputid: "輸入 ID 創建, 輸入 exit 取消設置"
     #FORMATTING: {id}
-    createdid: "Created ID : {id}, You can now write to it"
-    gottenid: "Gotten ID"
+    createdid: "已創建 ID : {id}, 您現在可以寫入它"
+    gottenid: "獲取 ID"
 materials:
   sugarfuel:
-    name: "Sugar Fuel"
+    name: "糖燃料"
     lore:
-      - "Cheap, high energy, perfect for small missiles."
+      - "便宜，高能量，非常適合小型導彈"
   guidebook:
-    name: "Guide Book"
+    name: "指南書"
     lore:
-      - "It Will Guide You?!?"
+      - "它能引導你嗎?!?"
   explosivepowder:
-    name: "Explosive Powder"
+    name: "爆炸性粉末"
     lore:
-      - "Handle with care!"
+      - "小心處理!"
   compressedexplosives:
-    name: "Compressed Explosive Powder"
+    name: "壓縮炸藥"
     lore:
-      - "Compressed so hard it became a solid"
+      - "壓縮得很厲害，變成了固體"
   ultraliteingot:
-    name: "UltraLite Ingot"
+    name: "超輕金屬錠"
     lore:
-      - "Super Lightweight ingot used for missiles"
+      - "用於導彈的超輕質鑄錠"
   ultraliteplate:
-    name: "UltraLite Plate"
+    name: "超輕金屬板"
     lore:
-      - "A super lightweight plate for missiles"
+      - "用於導彈的超輕鑄板"
   simpleflightcomputer:
-    name: "Simple Flight Computer"
+    name: "簡易飛行電腦"
     lore:
-      - "A simple computer capable of guiding a missile"
+      - "一個能夠引導導彈的簡單電腦"
   radar:
-    name: "Radar"
+    name: "雷達"
     lore:
-      - "Used to track missiles or players to hit"
+      - "用於追蹤導彈或玩家的攻擊"
   rocketfuel:
-    name: "Rocket Fuel"
+    name: "火箭燃料"
     lore:
-      - "Burns with the power of 1000 coal..."
+      - "燃燒著1000塊煤的力量..."
   smallwarhead:
-    name: "Small Warhead"
+    name: "小型導彈彈頭"
     lore:
-      - "Used in creation of a missile."
-      - "'Dont touch the red bit'"
+      - "用於製造導彈"
+      - "'請勿觸碰紅色部分'"
   smallbody:
-    name: "Small Missile Fuselage"
+    name: "小型導彈機身"
     lore:
-      - "Used in the creation of a missile"
-      - "'You better not dent that'"
+      - "用於製造導彈"
+      - "'你最好別把它弄凹了'"
   smallfin:
-    name: "Small Missile Fins"
+    name: "小型導彈鰭"
     lore:
-      - "Used in the creation of a missile"
+      - "用於製造導彈"
   missilebody:
-    name: "Missile Body"
+    name: "導彈體"
     lore:
-      - "Missile body containing a flight computer"
+      - "自帶飛行電腦的導彈體"
   missilefins:
-    name: "Missile Fins"
+    name: "導彈鰭"
     lore:
-      - "Able to direct the missile better"
+      - "能夠更好地引導導彈"
   warhead:
-    name: "Missile Warhead"
+    name: "導彈彈頭"
     lore:
-      - "Used in creation of a missile."
-      - "'Potato-be-gone'"
+      - "用於製造導彈"
+      - "'能將目標炸成薯泥'"
   reinforcedwarhead:
-    name: "Reinforced Warhead"
+    name: "強化導彈彈頭"
     lore:
-      - "Used to create AP Missiles"
-      - "'Bunker-be-Gone'"
+      - "用於製造AP導彈"
+      - "'能將碉堡炸成薯泥'"
   chlorine:
-    name: "Chlorine"
+    name: "氯氣"
     lore:
-      - "Poisonous"
-      - "Causes a slow and painful death!"
+      - "有毒物"
+      - "讓目標緩慢而痛苦的死亡"
   chlorinepellet:
-    name: "Chlorine Pellet"
+    name: "氯氣顆粒"
     lore:
-      - "A pellet of Chlorine"
+      - "氯氣的顆粒"
   advancedbody:
-    name: "Advanced Missile Body"
+    name: "高級導彈體"
     lore:
-      - "An upgraded version ofthe missile body"
+      - "一個升級版的導彈體"
   heavywarhead:
-    name: "Heavy Warhead"
+    name: "重型彈頭"
     lore:
-      - "A warhead packed with heavy explosives"
+      - "裝有重型炸藥的彈頭"
   icbmbody:
-    name: "ICBM Body"
+    name: "洲際彈道導彈彈體"
     lore:
-      - "Engineered to perfection, Sleek, Deadly."
-      - "The body of the ICBM missile"
+      - "設計得很完美，光滑，致命"
+      - "洲際彈道導彈的主體"
   mine:
-    name: "Mine"
+    name: "地雷"
     lore:
-      - "Will it work on tanks?"
+      - "它對坦克有用嗎?"
 missiles:
   smallmissile:
-    lore: "Small Ground-to-Ground Missile"
+    lore: "小型對地導彈"
     missiles:
       normal:
-        name: "Small GtG Missile"
-        variant: "Normal Variant"
-        lore: "'Little Timmy never stood a chance...'"
+        name: "小型對地導彈"
+        variant: "普通"
+        lore: "'小提米從來沒有機會...'"
       he:
-        name: "Small GtG Missile HE"
-        variant: "High Explosive Variant"
-        lore: "'Large Timmy never stood a chance...'"
+        name: "小型對地導彈 (高爆)"
+        variant: "高爆"
+        lore: "'大提米從來沒有機會...'"
       lr:
-        name: "Small GtG Missile LR"
-        variant: "Long Range Variant"
-        lore: "'Very far away timmy never stood a chance'"
+        name: "小型對地導彈 (遠距)"
+        variant: "遠距"
+        lore: "'非常遙遠的提米從來沒有機會'"
       ac:
-        name: "Small GtG Missile AC"
-        variant: "Accurate Variant"
-        lore: "'Tiny Timmy never stood a chance'"
+        name: "小型對地導彈 (精準)"
+        variant: "精準"
+        lore: "'小小的提米從來沒有機會'"
   anti-missiles:
-    lore: "Anti-Missile / Anti-Elytra"
+    lore: "防空導彈"
     missiles:
       missile:
-        name: "Anti-Missile Missile"
-        variant: "Anti-Missile Variant"
-        lore: "'Timmy's fireworks have been canceled'"
+        name: "防空導彈"
+        variant: "防空"
+        lore: "'提米的煙火被取消了'"
       elytra:
-        name: "Anti-Elytra Missile"
-        variant: "Anti-Elytra Variant"
-        lore: "'Airborne Timmy Never Stood A Chance'"
+        name: "禁飛導彈導彈"
+        variant: "反鞘翅"
+        lore: "'空中的提米從來沒有機會'"
   normalmissile:
-    lore: "GtG Missile"
+    lore: "對地導彈"
     missiles:
       normal:
-        name: "GtG Missile"
-        variant: "Normal Variant"
-        lore: "'Your friendly neighbourhood missile'"
+        name: "對地導彈"
+        variant: "普通"
+        lore: "'友好的鄰居導彈'"
       he:
-        name: "GtG Missile HE"
-        variant: "High Explosive Variant"
-        lore: "'Your not-so friendly neighbourhood missile'"
+        name: "對地導彈 高爆"
+        variant: "高爆"
+        lore: "'不太友好的鄰居導彈'"
       lr:
-        name: "GtG Missile LR"
-        variant: "Long Range Variant"
-        lore: "'Your friendly city missile'"
+        name: "對地導彈 遠距"
+        variant: "遠距"
+        lore: "'友好的城市導彈'"
       ac:
-        name: "GtG Missile AC"
-        variant: "Accurate Variant"
-        lore: "'Your friendly room-clearing missile'"
+        name: "對地導彈 精準"
+        variant: "精準"
+        lore: "'友好的房間清理導彈'"
   armourpiercing:
-    lore: "GtG Armour Piercing Missile"
+    lore: "對地穿甲導彈"
     missiles:
       tierone:
-        name: "GtG Missile AP"
-        variant: "Tier 1 AP"
+        name: "對地穿甲導彈"
+        variant: "1級穿甲"
         lore:
-          - "Goes through 1 block before exploding"
-          - "Wont go through obsidian"
-          - "'Your basement isnt safe for long!'"
+          - "在爆炸前會穿過一格方塊"
+          - "不能穿過黑曜石"
+          - "'你的地下室不會安全太久!'"
       tiertwo:
-        name: "GtG Missile AP"
-        variant: "Tier 2 AP"
+        name: "對地穿甲導彈"
+        variant: "2級穿甲"
         lore:
-          - "Goes through 1 block before exploding"
-          - "50% Chance to go through obsidian"
-          - "10% chance to break the hit obsidian"
-          - "'Your bunker isnt safe for long!'"
+          - "在爆炸前會穿過一格方塊"
+          - "有 50% 的機率穿過黑曜石"
+          - "有 10% 的機率打破黑曜石"
+          - "'你的地堡不會安全太久的!'"
       tierthree:
-        name: "GtG Missile AP"
-        variant: "Tier 3 AP"
+        name: "對地穿甲導彈"
+        variant: "3級穿甲"
         lore:
-          - Goes through 2 block before exploding"
-          - "75% Chance to go through obsidian"
-          - "20% chance to break the hit obsidian"
-          - "'Your bunker definitely isnt safe for long!'"
+          - 在爆炸前會穿過兩格方塊
+          - "有 75% 的機率穿過黑曜石"
+          - "有 20% 的機率打破黑曜石"
+          - "'你的地堡肯定不會安全太久!'"
   advanced:
-    lore: "GtG Advanced Missiles"
+    lore: "先進對地導彈"
     missiles:
       normal:
-        name: "GtG Advanced Missile"
-        variant: "Normal Variant"
-        lore: "'Powered by AI (technically)'"
+        name: "先進對地導彈"
+        variant: "普通"
+        lore: "'由人工智慧驅 (技術)'"
       he:
-        name: "GtG Advanced Missile HE"
-        variant: "High Explosive Variant"
-        lore: "'Very dangerous, do not touche'"
+        name: "先進對地導彈 高爆"
+        variant: "高爆"
+        lore: "'非常危險，請勿觸摸'"
       lr:
-        name: "GtG Advanced Missile LR"
-        variant: "Long Range Variant"
-        lore: "'Im running out of lore ideas'"
+        name: "先進對地導彈 遠距"
+        variant: "遠距"
+        lore: "'我已經沒有逃跑的想法了'"
       ac:
-        name: "GtG Advanced Missile AC"
-        variant: "Accurate Variant"
-        lore: "'Pretty accurate i guess'"
+        name: "先進對地導彈 精準"
+        variant: "精準"
+        lore: "'相當精準 我猜'"
 specialmissiles:
   gasmissile:
-    name: "Gas Missile"
+    name: "毒氣導彈"
     lore:
-      - "Cleaning Missile"
-      - "Deploys poisonous gas on hitting a target"
-    afterlore: "'Commit Timmycide.'"
+      - "清潔型導彈"
+      - "擊中目標後部署毒氣"
+    afterlore: "'實施提米殺戮'"
   excavmissile:
-    name: "Excavation Missile"
+    name: "挖掘導彈"
     lore:
-      - "Utility Missile"
-      - "Has a large explosion radius but little damage"
-      - "Used for mining"
-    afterlore: "'Better than a 100 Pickaxes!'"
+      - "實用導彈"
+      - "有很大的爆炸半徑，但傷害很小"
+      - "用於採礦"
+    afterlore: "'比 100 個鎬子還有用!'"
   stickymissile:
-    name: "Sticky Missile"
+    name: "黏性導彈"
     lore:
-      - "Trap Missile"
-      - "A small explosion that releases cobwebs"
-    afterlore: "'Dont ask what its made of.'"
+      - "陷阱導彈"
+      - "一個能釋放蜘蛛網的小爆炸"
+    afterlore: "'不要問它是什麼做'"
   icbm:
-    name: "ICBM Missile"
+    name: "洲際彈道導彈"
     lore:
-      - "Long-Range Missile"
-      - "Inter-Continental Ballistic Missile"
+      - "遠程導彈"
+      - "洲際彈道導彈"
     afterlore:
-      - "'Nowhere is safe.'"
+      - "'哪裡都不安全'"
   clustermissile:
-    name: "Cluster Missile"
+    name: "集束導彈"
     lore:
-      - "Cluster Missile, Deploys many missiles before hitting"
+      - "集束導彈，在擊中之前部署許多導彈"
     afterlore:
-      - "'Removes villages faster than you can scream!'"
+      - "'清除村莊的速度比你的叫聲還快!'"
   napalmmissile:
-    name: "Napalm Missile"
+    name: "凝固汽油彈導彈"
     lore:
-      - "Fire Missile"
-      - "Napalm Missile, Throws fire everywhere upon hit."
+      - "火焰導彈"
+      - "凝固汽油彈，被擊中後會到處扔火"
     afterlore:
-      - "'Kindergarten Remover! Tried and tested™'"
+      - "'幼稚園清除者! 經過試驗和測試™'"
 launchers:
   ground:
-    name: "GtG Missile Launcher"
+    name: "對地導彈發射器"
     lore:
-      - "Shoots a specified area on the ground."
-      - "Use a stick to set target coords"
-      - "Shift with a stick to check if it can fire"
-      - "Right click with a blaze rod to set cruise alt"
-      - "Default cruise alt is Y:120"
-      - "Needs to be built on 1 green concrete block."
+      - "射擊地面上的指定區域"
+      - "用木棍來設置目標坐標"
+      - "拿着木棍蹲下來檢查是否可以發射"
+      - "手持烈焰桿右鍵點擊設置巡航高度"
+      - "預設的巡航高度是Y:120"
+      - "需要建立在1個綠色混凝土塊上"
   antimissile:
-    name: "Anti Missile Launcher"
+    name: "防空導彈發射器"
     lore:
-      - "Targets and shoots down other missiles in the area."
-      - "Use redstone to disable it"
-      - "Needs to be built on obsidian"
-      - "Needs Anti-Missile Missiles"
+      - "瞄準並擊落該地區的其他導彈"
+      - "使用紅石操控開關"
+      - "需要在黑曜石上建造"
+      - "需要防空導彈"
   antielytra:
-    name: "Anti Elytra Launcher"
+    name: "禁飛導彈發射器"
     lore:
-      - "Fires a missile at nearby player"
-      - "that are using an elytra"
-      - "Excluding those on the"
-      - "ID assigned to this"
-      - "use a stick to set the group ID"
-      - "Needs Anti-Elytra Missiles"
+      - "向範圍內正在使用鞘翅的玩家發射導彈"
+      - "不會向指定敵我識別系統中的玩家發射"
+      - "使用木棍設置敵我識別系統"
+      - "需要禁飛導彈"
+      - "使用木棍設置敵我識別系統"
+      - "需要禁飛導彈"
 other:
   manpad:
-    name: "Manpad"
+    name: "手持式防空導彈"
     lore:
-      - "Handheld anti-missile device"
-      - "Shift+RMB to begin tracking"
-      - "Release Shift fire"
+      - "手持式防空導彈裝置"
+      - "蹲下右鍵開始追蹤"
+      - "停止蹲下進行射擊"
   playerlist:
-    name: Player List
+    name: 敵我識別系統配置器
     lore:
-      - "Right Click to set the players"
-      - "for a ID"
-      - "THESE ID'S ARE GLOBAL"
-      - "ANYONE CAN EDIT THEM IF"
-      - "THEY HAVE THE ID"
+      - "點擊右鍵來設置玩家的ID"
+      - "這些ID是全球性的"
+      - "任何人都可以編輯他們，只要他們有這個ID"
+      - " "
+      - " "
 #Color Codes: https://wiki.ess3.net/mc/
 guidebook:
-  title: "Missiles for Dummies"
-  author: "Kaiyan2006" #Feel free to put your name here | E.G: author: "kiease"
+  title: "導彈使用手冊"
+  author: "MAGd_" #Feel free to put your name here | E.G: author: "kiease"
   homepage:
-    title: "Missile Warfare"
-    subtitle: "The guide book for Missile Warfare"
-    contenttitle: "Contents:"
+    title: "導彈戰爭"
+    subtitle: "繁體中文版"
+    contenttitle: "內容:"
     content:
-      - "Ground Missile Launcher"
-      - "Anti-Missile Launcher"
-      - "ManPad"
-      - "Anti-Elytra Launchers"
+      - "對地導彈發射器"
+      - "防空導彈發射器"
+      - "手持式防空導彈"
+      - "禁飛導彈發射器"
   groundlauncherpage:
-    title: "Ground Missile Launcher"
+    title: "對地導彈發射器"
     content:
-      - "The Ground Missile Launcher fires missiles at the given coordinates."
-      - "Right clicking with a stick will set its coords"
-      - "Right clicking with a blaze rod will set the cruise alt"
-      - "&lWill hit friendly missiles"
+      - "在制定的坐標發射導彈"
+      - "手持木棍右擊設置發射坐標"
+      - "手持烈焰桿右鍵點擊設置巡航高度"
+      - "&l會擊中友軍導彈"
   antimissilepage:
-    title: "Anti-Missile Launcher"
+    title: "防空導彈發射器"
     content:
-      - "The Anti-Missile Launcher targets and shoots down any incoming missiles."
-      - "It will shoot down any missiles, whether friendly or not, that comes into its range"
-      - "Use a redstone input to disable it from firing."
+      - "防空導彈發射器瞄準並擊落任何來襲的導彈"
+      - "它會擊落任何進入其射程的導彈，無論是否為友軍"
+      - "使用紅石信號禁用"
   manpadpage:
-    title: "Manpads"
+    title: "手持式防空導彈"
     content:
-      - "Manpads are handheld items that can be used to identify and shoot down enemy missiles"
-      - "Unlike Anti-Missile Launchers Manpads have a guaranteed chance of shooting down opponent missiles"
-      - "Manpads are used by holding shift to begin scanning"
+      - "手持式防空導彈可以用來識別和擊落敵方導彈"
+      - "與反彈道導彈發射器不同，它保證可以擊落敵方的導彈"
+      - "按住蹲下開始掃描導彈"
   antielytrapage:
-    title: "Anti-Elytra Launchers"
+    title: "禁飛導彈發射器"
     content:
-      - "Anti Elytra lanchers fire missiles at players within their radius, breaking their elytra."
-      - "This is really useful for city defence during wars.\nSet ignored players using PlayerID"
-      - "Use a stick to set the ID of the launcher."
+      - "禁飛導彈向進入半徑範圍內的玩家發射導彈，破壞他們的鞘翅"
+      - "這對戰爭期間的城市防禦非常有用"
+      - "使用敵我識別系統來設置忽略的目標"
   playeridpage:
-    title: "PlayerID"
+    title: "敵我識別系統"
     content:
-      - "PlayerID is used to set players that some launchers use to ignore."
-      - "Use a PlayerList in order to set the ID and the players it should ignore."
-      - "&lANYONE CAN SET ANY ID, KEEP YOUR ID'S SECRET"
+      - "敵我識別系統可以讓部分導彈發射器忽略指定的玩家"
+      - "使用敵我識別系統配置器以進行設置"
+      - "&l任何人都可以設置任何 ID，保密你的 ID!"
 radar:
-  name: "Missile Radar"
-  lore: "Emits a redstone signal when a missile is\nwithin 700 blocks"
+  name: "導彈雷達"
+  lore: "當導彈在700格方塊內時\n會發出紅石信號"
 missiledesc:
-  range: "Range: "
-  power: "Power: "
-  speed: "Speed: "
-  accuracy: "Accuracy: Within {blocks} Blocks"
+  range: "範圍: "
+  power: "威力: "
+  speed: "速度: "
+  accuracy: "準確度: {blocks} 格內"

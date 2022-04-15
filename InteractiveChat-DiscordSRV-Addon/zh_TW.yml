@@ -55,9 +55,9 @@ DiscordAttachments:
     Hover:
       Enabled: true
       HoverText:
-        - "&bClick to Preview"
+        - "&b點擊查看"
       ImageOriginalHover:
-        - "&eOpen Original"
+        - "&e開啟原始檔"
   #Whether to allow previewing images in game using maps
   ShowImageUsingMaps: true
   #What color should the background be when previewing images in game using maps
@@ -97,9 +97,9 @@ DiscordCommands:
     Messages:
       #Labels must be lowercase
       MemberLabel: "member"
-      MemberDescription: "Member to set"
-      SlotLabel: "slot"
-      SlotDescription: "Slot to choose"
+      MemberDescription: "成員設置"
+      SlotLabel: "欄位"
+      SlotDescription: "選擇欄位"
   #Settings for /resourcepack
   ResourcePack:
     #Enable the /resourcepack command to show installed resource packs on interactivechatdiscordsrvaddon
@@ -109,7 +109,7 @@ DiscordCommands:
     #With all others servers to false.
     IsMainServer: true
     #The description of this command on discord
-    Description: "Show applied resource packs on discord!"
+    Description: "在 Discord 上顯示已應用的材質包!"
     Permissions:
       #Roles allowed to use this command
       AllowedRoles:
@@ -119,7 +119,7 @@ DiscordCommands:
     #Enable the /playerlist command to show all online players in a tablist style image
     Enabled: true
     #The description of this command on discord
-    Description: "Show all online players!"
+    Description: "顯示所有線上玩家!"
     #If you do NOT use a shared discord channel for multiple servers, this should ALWAYS be true
     #If you do, set this option on ONE of the servers connected to the discord channel to true,
     #With all others servers to false.
@@ -129,7 +129,7 @@ DiscordCommands:
     #List only players on servers where InteractiveChat is installed and has info about
     OnlyInteractiveChatServers: true
     #Message to display when no one is online
-    EmptyServer: "There are no players online."
+    EmptyServer: "沒有玩家在線上."
     #Delete the tablist message after X seconds (Set to 0 to not have it automatically deleted)
     DeleteAfter: 0
     Permissions:
@@ -150,7 +150,7 @@ DiscordCommands:
       #Leave a single blank line to disable
       #PlaceholderAPI placeholders in the header are parsed as THE FIRST PLAYER in the playerlist
       HeaderText:
-        - "&aOnline Players ({OnlinePlayers}/100)"
+        - "&a線上玩家 ({OnlinePlayers}/100)"
       #Leave a single blank line to disable
       #PlaceholderAPI placeholders in the footer are parsed as THE FIRST PLAYER in the playerlist
       FooterText:
@@ -166,8 +166,8 @@ DiscordCommands:
     #With all others servers to false.
     IsMainServer: true
     InGameMessage:
-      Text: "&6{Player} shared an Item: &f{ItemTag}"
-    InventoryTitle: "{Player}'s Item"
+      Text: "&6{Player} 分享了一個物品: &f{ItemTag}"
+    InventoryTitle: "{Player} 的物品"
     Permissions:
       #Roles allowed sharing inventory of self
       SelfAllowedRoles:
@@ -186,10 +186,10 @@ DiscordCommands:
     #With all others servers to false.
     IsMainServer: true
     InGameMessage:
-      Text: "&6{Player} shared their Inventory: &f[&b{Player}'s Inventory&f]"
+      Text: "&6{Player} 分享了他們的物品欄: &f[&b{Player} 的物品欄&f]"
       Hover:
-        - "&bClick to view!"
-    InventoryTitle: "{Player}'s Inventory"
+        - "&b點擊查看!"
+    InventoryTitle: "{Player} 的物品欄"
     SkullDisplayName: "&e{Player}"
     Permissions:
       #Roles allowed sharing inventory of self
@@ -209,10 +209,10 @@ DiscordCommands:
     #With all others servers to false.
     IsMainServer: true
     InGameMessage:
-      Text: "&6{Player} shared their Ender Chest: &f[&d{Player}'s Ender Chest&f]"
+      Text: "&6{Player} 分享了他們的終界箱: &f[&d{Player} 的終界箱&f]"
       Hover:
-        - "&bClick to view!"
-    InventoryTitle: "{Player}'s Ender Chest"
+        - "&b點擊查看!"
+    InventoryTitle: "{Player} 的終界箱"
     Permissions:
       #Roles allowed sharing inventory of self
       SelfAllowedRoles:
@@ -227,7 +227,7 @@ DiscordMention:
   #https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
   MentionedSound: ENTITY_EXPERIENCE_ORB_PICKUP
   #The title to show when mentioned
-  MentionedTitle: "&c&lMentioned"
+  MentionedTitle: "&c&l提及"
   #How long should the title be shown when mentioned
   #Duration in seconds
   MentionedTitleDuration: 1.5
@@ -236,25 +236,25 @@ DiscordMention:
   #Use {DiscordUser} for the ping-ers's discord name
   #Use {TextChannel} for the pinged channel name
   #Use {Guild} for the pinged guild name
-  DiscordMentionSubtitle: "&9{DiscordUser} &fmentioned you in &9{TextChannel}!"
+  DiscordMentionSubtitle: "&9{DiscordUser} &f在 &9{TextChannel} &f中提及了你!"
   DiscordMentionActionbar: ""
   #Highlight the mentioned playername for the player mentioned
   #Use {DiscordMention} for the highlighted player name
   MentionHighlight: "&9{DiscordMention}"
 Messages:
-  ReloadConfig: "&aICDiscordSRVAddon config has been reloaded!"
-  ReloadTexture: "&aICDiscordSRVAddon reloading textures--- (See console for progress)"
-  LinkExpired: "&cThis link has been expired! To view this link, please head over to the linked discord channel!"
-  PreviewLoading: "&ePreview is being loaded! Please wait!"
-  AccountNotLinked: "&cA Minecraft account must be linked to this Discord account in order to use this command!"
-  UnableToRetrieveData: "&cUnable to retrieve data."
-  InvalidDiscordChannel: "&cYou cannot do that in this channel."
-  TrueLabel: "&aTrue"
-  FalseLabel: "&cFalse"
+  ReloadConfig: "&aICDiscordSRVAddon 設定已重新加載!"
+  ReloadTexture: "&aICDiscordSRVAddon 重新加載材質包 --- (查看後台了解進度)"
+  LinkExpired: "&c這個連結已過期! 要查看此連結, 請前往該連結的 Discord 頻道查看!"
+  PreviewLoading: "&e正在加載預覽! 請稍後!"
+  AccountNotLinked: "&cMinecraft 帳號必須連接到此 Discord 帳號才能使用此指令!"
+  UnableToRetrieveData: "&c無法檢索資料."
+  InvalidDiscordChannel: "&c你不能在這個頻道中這樣做."
+  TrueLabel: "&a是"
+  FalseLabel: "&c否"
   StatusCommand:
-    DefaultResourceHash: "&bDefault Resource Hash: %s"
-    FontsActive: "&bFonts Active: %s"
-    LoadedResources: "&bLoaded Resources: &a"
+    DefaultResourceHash: "&b預設的材質包雜湊值: %s"
+    FontsActive: "&b啟用字體: %s"
+    LoadedResources: "&b已載入的材質包: &a"
 Settings:
   #This is in seconds
   CacheTimeout: 300
@@ -267,7 +267,7 @@ Resources:
   #Which language should be used in places like the item tooltip
   #Visit this page for all the languages that Minecraft offers:
   #https://minecraft.fandom.com/wiki/Language
-  Language: en_us
+  Language: zh_tw
   #Set which resource pack should be installed and in what order
   #Visit this page for more info:
   #https://github.com/LOOHP/InteractiveChat-DiscordSRV-Addon/wiki/Resource-Pack

@@ -1213,7 +1213,7 @@ BIRCH_SIGN:
     type: PHILOSOPHICAL
     lore:
       - 充滿了那些
-      - authors
+      - 作者的想法
     shards:
       - 0
       - 0
@@ -4591,7 +4591,7 @@ CRIMSON_SIGN:
     type: PHILOSOPHICAL
     lore:
       - 充滿了那些
-      - authors
+      - 作者的想法
     shards:
       - 0
       - 0
@@ -5411,7 +5411,7 @@ DARK_OAK_SIGN:
     type: PHILOSOPHICAL
     lore:
       - 充滿了那些
-      - authors
+      - 作者的想法
     shards:
       - 0
       - 0
@@ -10387,7 +10387,7 @@ JUNGLE_SIGN:
     type: PHILOSOPHICAL
     lore:
       - 充滿了那些
-      - authors
+      - 作者的想法
     shards:
       - 0
       - 0
@@ -13764,7 +13764,7 @@ OAK_SIGN:
     type: PHILOSOPHICAL
     lore:
       - 充滿了那些
-      - authors
+      - 作者的想法
     shards:
       - 0
       - 0
@@ -18580,7 +18580,7 @@ SPRUCE_SIGN:
     type: PHILOSOPHICAL
     lore:
       - 充滿了那些
-      - authors
+      - 作者的想法
     shards:
       - 0
       - 0
@@ -20260,7 +20260,7 @@ WARPED_SIGN:
     type: PHILOSOPHICAL
     lore:
       - 充滿了那些
-      - authors
+      - 作者的想法
     shards:
       - 0
       - 0
