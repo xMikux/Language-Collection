@@ -60,20 +60,20 @@ effectAllPlayerAttacks: true
 enableParticles: true
 enableDeathMessages: false
 deathMessages:
-  - '&cplayer &chas killed an mob&c!'
-  - '&cAn mob &cwas slain by player&c!'
-  - '&cplayer &cowned an mob&c!'
-  - '&cAn mob &cwas beheaded by player&c''s weapon!'
-  - '&cplayer&c''s weapon &ckilled an mob&c!'
-  - '&cAn mob &cwas killed by player &cusing a weapon&c!'
+  - '&c玩家&c殺死了一個怪物&c!'
+  - '&c一個怪物&c被玩家殺死&c!'
+  - '&c玩家&c擁有了一隻怪物&c!'
+  - '&c怪物&c被玩家用武器&c斬首!'
+  - '&c玩家&c的武器&c殺死了一隻怪物&c!'
+  - '&c一隻怪物&c被玩家用武器&c殺死了&c!'
 enableSpawnMessages: false
 spawnMessageRadius: 64
 spawnMessages:
-  - '&cAn Infernal mob has spawned near you!'
-  - '&cWatch out!'
-  - '&cYou hear a faint scream...'
-  - '&cSomething is coming...'
-  - '&cYou hear a mob nearby...'
+  - '&c一隻煉獄怪物在你附近生成了!'
+  - '&c小心!'
+  - '&c你聽到一聲微弱的尖叫...'
+  - '&c似乎要發生甚麼事情了...'
+  - '&c你聽見了怪物在附近'
 mobworlds:
   - <all>
 effectworlds:
