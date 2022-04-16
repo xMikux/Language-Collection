@@ -21242,7 +21242,7 @@ WITHER_SKELETON_SKULL:
       - 0
     author: Seggan
 WOODEN_AXE:
-  tier: 4
+  tier: 1
   elements:
     - HUMAN
     - PHILOSOPHICAL
@@ -21308,7 +21308,7 @@ WOODEN_PICKAXE:
       - 0
       - 0
 WOODEN_SHOVEL:
-  tier: 4
+  tier: 1
   elements:
     - HUMAN
     - ELEMENTAL
