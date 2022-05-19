@@ -1,0 +1,42 @@
+---
+actionbar:
+  death: '&7You will respawn in &6%time%.'
+  hardcore: '&7You will never respawn again...'
+  kill:
+    - "&cYou killed &f%player%!"
+    - "&6Congratulations for killing &f%player%"
+    - "&bYou are pretty good at this! &f%player% &7is impressed."
+titles:
+  - "&cYOU HAVE BEEN SLAIN"
+  - "&cYOU DIED"
+subtitles:
+  - "&7Winning means being better."
+  - "&7Patience is what separate good hunters from dead ones."
+  - "&7You are already forgotten..."
+  - "&7This was mediocre at best."
+  - "&7You are not the hero of this tale, you are nothing!"
+  - "&7Results speaks louder than words."
+  - "&7Pay attention!"
+time:
+  singular: " second"
+  plural: " seconds"
+errors:
+  actionbar: "&cCould not send the actionbar to the player %player%"
+  title: "&cCould not send the title message to the player %player%"
+  sound: "&cThe sound %sound% does not exist in your server version. Check your config.yml"
+commands:
+  help:
+    - "&cBetterDeathScreen &7- Commands"
+    - ""
+    - "&c/bds reload &7- &fReloads the configuration of the plugin."
+  reload: "&a[BDS] Plugin successfully reloaded."
+  no-perm: "&c[BDS] You don´t have permission to use this command."
+plugin:
+  incompatible:
+    - "&cYour server version is behind 1.8! §f%server_version%"
+    - "&cIf you think this is an error, contact the author Tedesk"
+    - "&cThe plugin will be disabled."
+  enabled:
+    - "&aPlugin enabled! &f%plugin_version%"
+  disabled:
+    - "&cPlugin disabled! &f%plugin_version%"
