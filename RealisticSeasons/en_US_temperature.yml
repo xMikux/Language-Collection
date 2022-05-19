@@ -39,6 +39,8 @@ modifiers:
       - 'SOUL_FIRE{range=7,modifier=-16}'
       - 'SOUL_LANTERN{range=7,modifier=-7}'
       - 'ICE{range=3,modifier=-6}'
+      - 'PACKED_ICE{range=3,modifier=-6}'
+      - 'BLUE_ICE{range=7,modifier=-15}'
   touching-water:
     summer: -10
     spring: -4
@@ -92,3 +94,30 @@ custom:
       activation:
         wearing: true
         holding: false
+    torch:
+      enabled: true
+      material: TORCH
+      custom-model-data: 5
+      use-custom-model-data: false
+      temperature-modifier: 7
+      activation:
+        wearing: false
+        holding: true
+    lava:
+      enabled: true
+      material: LAVA_BUCKET
+      custom-model-data: 5
+      use-custom-model-data: false
+      temperature-modifier: 15
+      activation:
+        wearing: false
+        holding: true
+    campfire:
+      enabled: true
+      material: CAMPFIRE
+      custom-model-data: 5
+      use-custom-model-data: false
+      temperature-modifier: 7
+      activation:
+        wearing: false
+        holding: true
