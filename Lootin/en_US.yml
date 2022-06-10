@@ -3,26 +3,29 @@
 
 # Titles for chest interfaces
 gui-titles:
-  chest: "&6Chest"
-  double-chest: "&6Large Chest"
-  minecart: "&6Minecart with Chest"
-  barrel: "&6Barrel"
+  chest: '&6Chest'
+  double-chest: '&6Large Chest'
+  minecart: '&6Minecart with Chest'
+  barrel: '&6Barrel'
 
  
 # Its bstats 
 metrics: true
 
 messages:
-  prefix: "&e[&6Lootin&e] "
-  no-permission: "&cYou dont have permission to execute command"
-  chestbreak-with-permission: "&aBreaking the chest will delete your unique loot and items! In order to break, &2you must sneak while doing so..\n&a As loot is &2per player per chest&a, only break if really needed."
-  chestbreak-without-permission: "&cYou dont have permission to break loot chests"
-  chest-edited: "&cChest is being edited, cant break it"
-  reloaded: "&aConfig file reloaded"
-  cant-place-double-chest: "&cCant place normal chest near loot chest"
+  prefix: '&e[&6Lootin&e] '
+  no-permission: '&cYou dont have permission to execute command'
+  chestbreak-with-permission: '&aBreaking the chest will delete your unique loot and items! In order to break, &2you must sneak while doing so..&a As loot is &2per player per chest&a, only break if really needed.'
+  chestbreak-without-permission: '&cYou dont have permission to break loot chests'
+  chest-edited: '&cChest is being edited, cant break it'
+  reloaded: '&aConfig file reloaded'
+  cant-place-double-chest: '&cCant place normal chest near loot chest'
+  elytra-itemframe-break-with-permission: '&cLeft click with stick in main hand to break the special elytra item frame.'
+  elytra-itemframe-break-without-permission: '&cCan''t break elytra item frame!'
+  elytra-item-frame-removed: '&aElytra ItemFrame removed.'
 
 # weather or not to delete items when player breaks loot chest successfully
-delete-items-on-break: true  
+delete-items-on-break: true
 
 # weather or not to prevent lootin chest from being exploded by tnt or creeper
 prevent-explosions: true
@@ -34,6 +37,11 @@ black-list-worlds: []
 # valid structure names can be found here https://www.spigotmc.org/resources/90453/
 black-list-structures: []
 
+# Note: does not work with already looted end ships
+# if set to true, the elytra present in item frame in end city ships will be per player
+# these item frames are special and cant be broken, players with lootin.breakelytraitemframe.bypass permission and a stick in main hand can only break them
+per-player-elytra-item-frame: true
+
 
 # list of CustomStructures where lootin will not modify loot chests.
 # only applicable if CustomStructures is installed.
@@ -42,3 +50,6 @@ black-list-customstructures: []
 # list of OhTheDungeon structure names where lootin will not modify loot chests.
 # only applicable if OhTheDungeon is installed.
 black-list-otd-structures: []
+
+# if set to false, if the loot chest block is claimed, player will not able to open lootin chest 
+bypass-grief-plugins: true
