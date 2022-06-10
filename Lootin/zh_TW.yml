@@ -12,7 +12,7 @@ metrics: true
 messages:
   prefix: '&e[&6Lootin&e] '
   no-permission: '&c你沒有權限來執行此指令'
-  chestbreak-with-permission: '&a破壞儲物箱會刪除你的獨特戰利品與物品! 如果還是要破壞, &22你必須在這樣做的同時蹲下..&a 戰利品生成是&2每個玩家每個儲物箱&a, 只有在真的需要的時候在破壞.'
+  chestbreak-with-permission: '&a破壞儲物箱會刪除你的獨特戰利品與物品! 如果還是要破壞, &2你必須在這樣做的同時蹲下.. &a戰利品生成是&2每個玩家每個儲物箱&a, 只有在真的需要的時候在破壞.'
   chestbreak-without-permission: '&c你沒有權限破壞戰利品儲物箱'
   chest-edited: '&c儲物箱正在編輯中, 無法破壞它'
   reloaded: '&a設定檔已重新加載'
