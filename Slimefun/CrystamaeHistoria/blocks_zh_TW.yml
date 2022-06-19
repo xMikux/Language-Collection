@@ -15237,7 +15237,7 @@ POLISHED_DIORITE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: 半品脫 ( 拋光閃長岩)
+    name: 半品脫 (拋光閃長岩)
     type: HUMAN
     lore:
       - 這小傢伙只有一半大,
@@ -15259,7 +15259,7 @@ POLISHED_DIORITE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: 崛起 (拋光花崗岩)
+    name: 崛起 (拋光閃長岩)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
