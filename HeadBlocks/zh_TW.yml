@@ -1,78 +1,154 @@
 ---
 Prefix: '&6&lH&e&lead&6&lB&e&llocks &7»&r'
 Head:
-  Name: "&6&lH&e&lead&6&lB&e&llocks"
+  Name: '&6&lH&e&lead&6&lB&e&llocks'
   Lore:
-    - ""
-    - "&7&o允許你在指定位置創建一個頭顱方塊"
-    - ""
-    - "&2✔ &8- &7右鍵 + 蹲下來創建"
-    - "&c✘ &8- &7左鍵 + 蹲下來刪除"
-    - ""
+    - ''
+    - '&7&o允許你在指定位置創建一個頭顱方塊'
+    - ''
+    - '&2✔ &8- &7Right click + sneak to create'
+    - '&c✘ &8- &7Left click + sneak to delete'
+    - ''
 Messages:
-  NoPermission: "%prefix% &c你沒有權限執行此指令"
-  NoPermissionBlock: "%prefix% &c你沒有權限來與此頭顱互動"
-  ErrorCommand: "%prefix% &c錯誤指令. 請查看使用方法在 /hb help"
-  PlayerOnly: "%prefix% &c這個指令只能由玩家執行"
-  PlayerNotFound: "%prefix% &c玩家並未連線"
-  HeadNotYetLoaded: "%prefix% &c在頭顱資料庫完全加載完成之前, 不能給予頭顱ID %id%."
-  ReloadComplete: "%prefix% &a設定檔案已成功重新加載"
-  InventoryFull: "%prefix% &c玩家的背包沒有足夠的空間可以給予頭顱方塊"
-  TopEmpty: "%prefix% &c玩家排行為空"
-  CreativeSneakRemoveHead: "%prefix% &c你必須蹲下才能摧毀頭顱方塊"
-  CreativeSneakAddHead: "%prefix% &c你必須蹲下才能放置頭顱方塊"
-  HeadPlaced: "%prefix% &2&l+ &a頭顱方塊已放置 &7(%world%, %x%, %y%, %z%)"
-  HeadRemoved: "%prefix% &2&c- &e頭顱方塊已刪除 &7(%world%, %x%, %y%, %z%)"
-  RemoveAllConfirm: "%prefix% &c警告, 這個指令將會刪除 &7%headCount% &c個頭顱. 請在指令後方添加 &7--confirm &c已確認你的動作"
-  RemoveAllSuccess: "%prefix% &e%headCount% &a個頭顱已成功刪除"
-  AlreadyClaimHead: "%prefix% &c你已經點擊過這個頭顱了"
-  ListHeadEmpty: "%prefix% &c目前還沒有設定頭顱"
-  HeadGiven: "%prefix% &a你已成功收到頭顱方塊"
-  NoHeadFound: "%prefix% &c這個玩家並未找到頭顱"
-  ResetAllNoData: "%prefix% &c沒有資料可以被重置"
-  ResetAllConfirm: "%prefix% &c警告, 這個指令將會重置 &7%playerCount% &c名玩家的資料. 請在指令後方添加 &7--confirm &c已確認你的動作"
-  ResetAllSuccess: "%prefix% &e%playerCount% &a名玩家的資料已成功重置"
-  PlayerReset: "%prefix% &a%player% 的資料已被重置"
-  RemoveLocationError: "%prefix% &c錯誤, 沒有找到符合的頭顱方塊"
-  HeadAlreadyExistHere: "%prefix% &c頭顱方塊已經存在於該位置"
-  Version: "%prefix% &a插件版本 : &e%version%"
+  NoPermission: '%prefix% &c你沒有權限執行此指令'
+  NoPermissionBlock: '%prefix% &c你沒有權限來與此頭顱互動'
+  ErrorCommand: '%prefix% &c錯誤指令. 請查看使用方法在 /hb help'
+  PlayerOnly: '%prefix% &c這個指令只能由玩家執行'
+  PlayerNotFound: '%prefix% &cThe player %player% does not exist'
+  HeadNotYetLoaded: '%prefix% &c在頭顱資料庫完全加載完成之前, 不能給予頭顱ID %id%.'
+  StorageError: '%prefix% &cAn error occurred with the storage system. Please check your console logs'
+  ExportSuccess: '%prefix% &aThe SQL database export file &7(%fileName%) &ahas been successfully generated in the plugin folder'
+  ExportError: '%prefix% &cAn error occurred while creating the sql file: '
+  ExportInProgress: '%prefix% &aGeneration of the export of the current SQL script...'
+  ReloadComplete: '%prefix% &a設定檔案已成功重新加載'
+  ReloadWithErrors: '%prefix% &cErrors found when reloading, check your console logs'
+  InventoryFull: '%prefix% &c玩家的背包沒有足夠的空間可以給予頭顱方塊'
+  TopEmpty: '%prefix% &c玩家排行為空'
+  CreativeSneakRemoveHead: '%prefix% &cYou must be in creative and crouching to destroy a HeadBlock'
+  CreativeSneakAddHead: '%prefix% &cYou must be in creative and crouching to place a HeadBlock'
+  HeadPlaced: '%prefix% &2&l+ &a頭顱方塊已放置 &7(%world%, %x%, %y%, %z%)'
+  HeadRemoved: '%prefix% &2&c- &e頭顱方塊已刪除 &7(%world%, %x%, %y%, %z%)'
+  RemoveAllConfirm: '%prefix% &c警告, 這個指令將會刪除 &7%headCount% &c個頭顱. 請在指令後方添加 &7--confirm &c已確認你的動作'
+  RemoveAllSuccess: '%prefix% &e%headCount% &a個頭顱已成功刪除'
+  RemoveAllError: '%prefix% &cNo heads have been removed'
+  AlreadyClaimHead: '%prefix% &c你已經點擊過這個頭顱了'
+  ListHeadEmpty: '%prefix% &c目前還沒有設定頭顱'
+  HeadGiven: '%prefix% &aYou received a HeadBlock'
+  NoHeadFound: '%prefix% &c這個玩家並未找到頭顱'
+  ResetAllNoData: '%prefix% &c沒有資料可以被重置'
+  ResetAllConfirm: '%prefix% &c警告, 這個指令將會重置 &7%playerCount% &c名玩家的資料. 請在指令後方添加 &7--confirm &c已確認你的動作'
+  ResetAllSuccess: '%prefix% &e%playerCount% &a名玩家的資料已成功重置'
+  PlayerReset: '%prefix% &a%player% 的資料已被重置'
+  RemoveLocationError: '%prefix% &c錯誤, 沒有找到符合的頭顱方塊'
+  HeadAlreadyExistHere: '%prefix% &c頭顱方塊已經存在於該位置'
+  Version: '%prefix% &aPlugin version: &e%version%'
+  ErrorCannotPlaySound: '%prefix% &cSong on head click cannot be played'
+  NoTargetHeadBlock: '%prefix% &cNo HeadBlock were found at the targeted location'
+  TargetBlockInfo: '%prefix% &aYou have selected a HeadBlock &7(uuid: %uuid% - %world%, %x%, %y%, %z%)&a. Target the block on which you want to move the HeadBlock and use the command &e/hb move --confirm &ato confirm. Use &e/hb move --cancel &ato cancel'
+  TargetBlockInvalid: '%prefix% &cThe block or the block above the targeted block is invalid'
+  HeadMoveNoPlayer: '%prefix% &cNo HeadBlock to move was found'
+  HeadMoveOtherLoc: '%prefix% &cYou cannot move the HeadBlock to the same place as before'
+  HeadMoveAlready: '%prefix% &cYou already have a HeadBlock move in progress, use the command &e/hb move --cancel &cfirst to cancel'
+  HeadMoveCancel: '%prefix% &cYou have cancelled the move of the HeadBlock'
+  TargetBlockMoved: '%prefix% &aThe HeadBlock has been correctly moved at &e%world%&a, &e%x%&a, &e%y%&a, &e%z%'
+  PluginReloading: '%prefix% &cPlease wait, the plugin is reloading...'
+  TargetBlockNotHead: '%prefix% &cTargeted block is not a HeadBlock'
+  OrderClickError: '%prefix% &cAnother HeadBlock need to be found before this one &7(%name%&7)'
+  HitClickMax: '%prefix% &cThis HeadBlock has reached its click limit &7(%count%)'
   MeCommand:
-    - ""
-    - "&a收集頭顱的數量 : &e%current%&7/&e%max%"
-    - "&a進度 : &7[%progress%&7]"
-    - ""
+    - ''
+    - '&aNumber of heads collected: &e%current%&7/&e%max%'
+    - '&aProgression: &7[%progress%&7]'
+    - ''
 Chat:
   Hover:
-    Teleport: "&7&o傳送至頭顱方塊"
-    Remove: "&7&o刪除這個頭顱方塊"
-    PreviousPage: "&7&o上一頁"
-    NextPage: "&7&o下一頁"
-    Own: "&7&o找到頭顱"
-    NotOwn: "&7&o未找到頭顱"
-    LineTop: "&7&o顯示玩家資訊"
+    Teleport: '&7&o傳送至頭顱方塊'
+    Remove: '&7&o刪除這個頭顱方塊'
+    PreviousPage: '&7&o上一頁'
+    NextPage: '&7&o下一頁'
+    Own: '&7&o找到頭顱'
+    NotOwn: '&7&o未找到頭顱'
+    LineTop: '&7&o顯示玩家資訊'
   Box:
-    Teleport: "&8[&a☄&8] &7|"
-    Remove: "&7| &8[&c✘&8]"
-    Own: "&7| &8[&2✔&8]"
-    NotOwn: "&7| &8[&c✘&8]"
-  StatsTitleLine: "&7-----------[ &6%player% &e的資料 &8» &6%headCount%&8/&6%max% &eheads &7]------------"
-  LineTitle: "&7-------------------[ &6&lH&e&lead&6&lB&e&llocks&7 ]------------------"
-  TopTitle: "&7-----------[ &6&lH&e&lead&6&lB&e&llocks&7 &7- &6&l排&e行&6榜 &7]-----------"
-  LineTop: "&6%pos% &7- &e%player% &8(&7%count%&8)"
-  LineCoordinate: "&6世界 &8: &e%worldName% &8[&6X&8: &e%x%&8, &6Y&8: &e%y%&8, &6Z&8: &e%z%&8]"
-  PreviousPage: "&7----------[&8<<<&7]---------"
-  NextPage: "&7----------[&8>>>&7]----------"
-  PageFooter: " &8[ &e%pageNumber%&7/&e%totalPage% &8] "
+    Teleport: '&8[&a☄&8] &7|'
+    Remove: '&7| &8[&c✘&8]'
+    Own: '&7| &8[&2✔&8]'
+    NotOwn: '&7| &8[&c✘&8]'
+  StatsTitleLine: '&7---------[ &eData of &6%player% &8» &6%headCount%&8/&6%max% &eheads &7]---------'
+  LineTitle: '&7----------------[ &6&lH&e&lead&6&lB&e&llocks&7 ]---------------'
+  TopTitle: '&7---------[ &6&lH&e&lead&6&lB&e&llocks&7 &7- &6&6&lL&eeaderboard &7]---------'
+  LineTop: '&6%pos% &7- &e%player% &8(&7%count%&8)'
+  LineCoordinate: '&6World&8: &e%world% &8[&6X&8: &e%x%&8, &6Y&8: &e%y%&8, &6Z&8: &e%z%&8]'
+  LineWorldNotFound: '&cWorld &7%world% &cnot found'
+  PreviousPage: '&7--------[&8<<<&7]-------'
+  NextPage: '&7-------[&8>>>&7]--------'
+  PageFooter: ' &8[ &e%pageNumber%&7/&e%totalPage% &8] '
+Gui:
+  TitleOptions: '&8HeadBlocks &7- &c&lOptions'
+  TitleOrder: '&8HeadBlocks &7- &6&lOrder'
+  TitleClickCounter: '&8HeadBlocks &7- &2&lClick counter'
+  PreviousPage: '&cPrevious page'
+  NextPage: '&aNext page'
+  Close: '&cClose'
+  Unnamed: '&cUnnamed'
+  Infinite: '&7Infinite'
+  CloseLore:
+    - '&7Close this interface'
+  Back: '&cBack'
+  BackLore:
+    - '&7Back to previous interface'
+  Previous: '&cPrevious page'
+  PreviousLore:
+    - '&7Back to page %page%'
+  Next: '&aNext page'
+  NextLore:
+    - '&7Next to page %page%'
+  NoHeads: '&cNo heads yet'
+  OrderName: '&7Set up &8- &6&lOrder'
+  OrderLore:
+    - ''
+    - '&e&lINFO:'
+    - '&7 This interface allows you to configure'
+    - '&7 the click order on the heads'
+  ClickCounterName: '&7Set up &8- &2&lClick counter'
+  ClickCounterLore:
+    - ''
+    - '&e&lINFO:'
+    - '&7 This interface allows you to configure'
+    - '&7 the click counter on each heads'
+  OrderItemName: '&6%headName% &7(%world%, %y%, %y%, %z%)'
+  OrderItemLore:
+    - ''
+    - '&e&lINFO:'
+    - '&7 Define the click order of this head'
+    - ''
+    - '&c&lLEFT CLICK&8: &7Decrease order position'
+    - '&a&lRIGHT CLICK&8: &7Increase order position'
+    - ''
+    - '&7Current position: &e%position%'
+  CounterClickItemName: '&6%headName% &7(%world%, %y%, %y%, %z%)'
+  CounterClickItemLore:
+    - ''
+    - '&e&lINFO:'
+    - '&7 Define the click count of this head'
+    - ''
+    - '&c&lLEFT CLICK&8: &7Decrease count'
+    - '&a&lRIGHT CLICK&8: &7Increase count'
+    - ''
+    - '&7Count: &e%count%'
 Help:
-  LineTop: "&7--------------------[ &e&l幫助 &7]--------------------"
-  Help: "&6/hb help &8: &7&o顯示這則訊息"
-  Me: "&6/hb me &8: &7&o顯示你的進度"
-  Remove: "&6/hb remove <headUuid> &8: &7&o已除指定的頭顱 <headUuid>"
-  RemoveAll: "&6/hb removeall &8: &7&o刪除所有生成的頭顱"
-  Give: "&6/hb give <player> <*|number> &8: &7&o給予頭顱到 <player>. <number> 當有多個頭顱方塊定義時"
-  Reset: "&6/hb reset <player> &8: &7&o重置 <player> 的資料"
-  ResetAll: "&6/hb resetall &8: &7&o重置所有玩家的資料"
-  List: "&6/hb list <page> &8: &7&o顯示現有的頭顱方塊列表"
-  Stats: "&6/hb stats <player> <page> &8 &7&o顯示 <player> 的已找到與未找到的頭顱方塊列表"
-  Reload: "&6/hb reload &8: &7&o重新加載設定"
-  Version: "&6/hb version &8: &7&o顯示插件的版本"
+  LineTop: '&7--------------------[ &e&l幫助 &7]--------------------'
+  Help: '&6/hb help&8: &7&oDisplay this message'
+  Me: '&6/hb me&8: &7&oDisplays your progress'
+  Remove: '&6/hb remove (headUuid)&8: &7&oRemove head by it''s <headUuid> or head targeted'
+  RemoveAll: '&6/hb removeall&8: &7&oRemove all spawned head'
+  Give: '&6/hb give <player> <*|number>&8: &7&oGives a HeadBlock to <player>. <number> when multi HeadBlocks are defined'
+  Reset: '&6/hb reset <player>&8: &7&oReset data of the <player>'
+  ResetAll: '&6/hb resetall&8: &7&oReset data of all players'
+  List: '&6/hb list <page>&8: &7&oDisplays the list of existing HeadBlocks'
+  Stats: '&6/hb stats <player> <page>&8: &7&oDisplays the list of owned and missing heads of the <player>'
+  Reload: '&6/hb reload&8: &7&oReload the configuration'
+  Version: '&6/hb version&8: &7&oDisplays the version of the plugin'
+  Top: '&6/hb top <number>&8: &7&oDisplays the top leaderboard of <number> first players'
+  Move: '&6/hb move&8: &7&oMove the HeadBlock to another location'
+  Export: '&6/hb export database&8: &7&oExport the database to an SQL file with player data'
