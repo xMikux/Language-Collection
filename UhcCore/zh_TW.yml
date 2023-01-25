@@ -226,7 +226,8 @@ scenarios:
   team_inventory:
     name: Team Inventory
     description:
-      - Each team has an extra inventory that all members from the team can view by using /teaminventory.
+      - 
+        - 
     error: '&cYou may only open your team''s inventory while playing!'
     disabled: '&cTeam Inventory is currently disabled!'
     open: '&aOpening team inventory ...'
@@ -281,18 +282,21 @@ scenarios:
   love_at_first_sight:
     name: Love At First Sight
     description:
-      - In this scenario you are not able to choose your teammates through the team selection inventory.
+      - 
+        - 
       - Teams are created by clicking on someone in game.
     join-error: '&c無法加入隊伍，一見鍾情模式已啟用！'
     join-broadcast: '&4[Love At First Sight] &a%player% 已經加入 %leader%的隊伍'
   fast_leaves_decay:
     name: 樹葉快速枯萎模式
     description:
-      - 此模式下，破壞一棵樹所有的原木，樹葉會快速消失
+      - 
+        - 
   sky_high:
     name: 比天高模式
     description:
-      - 在這種模式30分鐘後，若你所在位置y軸高度低於120，每30秒會遭受一次傷害
+      - 
+        - 
     damage: '你所在的高度低於120，所以你受到了傷害'
   fast_smelting:
     name: 快速熔爐模式
@@ -302,7 +306,8 @@ scenarios:
     name: 超級英雄模式
     description:
       - 每個玩家都會獲得特殊的能力
-      - 這個能力是速度1，力量1，抗性2，隱形，6個額外的心和跳躍提升4。
+      - 
+        - 
   anonymous:
     name: Anonymous
     description:
@@ -314,7 +319,8 @@ scenarios:
   infinite_enchants:
     name: 無限附魔
     description:
-      - At the beginning of the game everyone gets 64 enchantment tables, anvils, lapis blocks and a lot of XP.
+      - 
+        - 
   children_left_unattended:
     name: Children Left Unattended
     description:
@@ -343,7 +349,8 @@ scenarios:
   no_going_back:
     name: No Going Back
     description:
-      - Once you go through a nether portal in the overworld, you can't go back to the overworld.
+      - 
+        - 
     error: '&4[No Going Back] &cYou are stuck in the nether!'
   double_dates:
     name: Double Dates
