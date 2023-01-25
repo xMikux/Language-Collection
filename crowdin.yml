@@ -3,6 +3,7 @@ files:
     ignore:
       - /Slimefun/Abandoned/
       - /AutoTrasher
+      - /React
     translation: /**/%locale_with_underscore%.%file_extension%
   - source: /**/en_US_messages.*
     translation: /**/%locale_with_underscore%_messages.%file_extension%
